@@ -1,0 +1,9 @@
+{
+  "judgments_required": false,
+  "total_questions": 20,
+  "evaluated_results": 100,
+  "questions_with_no_relevant": 7,
+  "precision_at_5": 0.23000000000000007,
+  "hit_rate_at_5": 0.65,
+  "mrr": 0.5333333333333333
+}

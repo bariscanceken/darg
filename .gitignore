@@ -1,0 +1,18 @@
+# DARG datasets
+data/raw/
+data/processed/
+data/indexes/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.*
+
+# Models / caches
+models/
+.cache/

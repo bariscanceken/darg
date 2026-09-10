@@ -1,0 +1,1128 @@
+{
+  "model_name": "intfloat/multilingual-e5-small",
+  "index_path": "data\\indexes\\mobile\\afad_e5_small.faiss",
+  "metadata_path": "data\\indexes\\mobile\\metadata.jsonl",
+  "top_k": 5,
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "Deprem sırasında evin içindeysem ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8835513591766357,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8737391233444214,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8735354542732239,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8728246688842773,
+          "faiss_row": 739,
+          "chunk_id": "afad_earthquake_4e1e045bf6216cd30ac2",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 43,
+          "page_end": 45,
+          "text_preview": "SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 33 Yaşadığım binaya güvenmiyorum ki YORA çalışması yapsam ne fark eder? Yapısal olmayan risklere karşı önlem almak konusunda kişileri harakete geçmekten alıkoyan ya da zihinlerini meşgul eden bazı tereddütler söz konusudur. Yaşadığınız bina ile ilgili sorularınız olabilir; ancak bu, yapısal olmayan risklerinizi azaltmamanızı engellememelidir. Yaşadığımız depremlerde, özellikle 17 Ağustos 1999 Kocaeli Depremi'nde binaların ortalama %3\u00065'i tamamen yıkılmış, can kayıplarının çok önemli bir kısmı bu binalarda gerçekleşmiştir. Öte yandan depremden doğrudan etkilenen 1,5 milyon insanın yaklaşık %1'i hayatını kaybetmiştir. Geride kalan %99 gibi çok büyük bir kesim ise en çabuk şekilde, depremden önceki yaşam koşullarına kavuşmak için yaşam mücadelesi..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8710135817527771,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        }
+      ]
+    },
+    {
+      "id": "Q02",
+      "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.880671501159668,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8727283477783203,
+          "faiss_row": 303,
+          "chunk_id": "afad_earthquake_341c8db7ed9fbe15ab62",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 19,
+          "page_end": 22,
+          "text_preview": "Birey ve ailelerin iëte böyle durumlar için afetlere önceden hazÈrlanmÈë olmasÈ gerekir. Afet bilinci ve afetlere hazÈrlÈk bireylerin “güvenli yaëam” kültürünün bir parçasÈ olmalÈdÈr. Güvenli yaëam, her türlü tehlikenin getireceèi zararlardan korunarak (yani bilgili ve hazÈrlÈklÈ olarak) yaëamaktÈr. Bunun için, yÈlÈn her günü oluëabilen deprem ve yangÈnlar; sonbahar ile birlikte kuvvetlenen rüzgârlar; kÈëÈn yaèan kar; baharda saèanak yaèÈëlar, seller, yÈldÈrÈm ve heyelanlar; yazÈn güneëlenme, sÈcak hava dalgalarÈ ve orman yangÈnlarÈ gibi olaylardan korunmak için temel bilgileri öèrenmeli ve öèretmeliyiz. Gelin ëimdi depremi, depremin olduèu 0. saniyeden 3. gününe kadarlÈk bir süreyi zihnimizde yaëatalÈm. Böylece, bir birey olarak gerçekten depreme hazÈr olup olmadÈèÈmÈzÈ çok basit bir ë..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8708717823028564,
+          "faiss_row": 136,
+          "chunk_id": "afad_earthquake_79a319dfbda27a3866fb",
+          "source_file": "afet_sonrasi_iyilestirme_calismalari-1.pdf",
+          "page_start": 139,
+          "page_end": 144,
+          "text_preview": "Arşiv). 17 Ağustos ve 12 Kasım depremlerinden sonra enkaz altından sağ olanların, yaralıların ve ölülerin çıkartılması konusunda, ilgili resmi kuruluşlar, sivil toplum kuruluşları, halk ve yurtdışından gelen arama ve kurtarma ekipleri çalışmışlardır. Geçici barınma amacıyla Kızılay, diğer kurum ve kuruluşlar, hibe ve yardımlarla toplam 165.239 çadır dağıtılmış, 162 çadır kenti kurulmuştur. Depremzedelerin kış koşullarında barınmaları için prefabrike konutlar yapılmıştır. Bayındırlık ve İskân Bakanlığı ile özel sektör ve bazı ülkelerden hibe olarak gelen prefabrike konutların 39.253 tanesi teslim edilmiştir. Çadır ve prefabrike konutların yanı sıra, bazı depremzedeler çeşitli Bakanlıklar ile kamu kurum ve kuruluşlarına ait sosyal tesislere geçici iskân amacıyla da yerleştirilmiştir. 17 A..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.868073046207428,
+          "faiss_row": 306,
+          "chunk_id": "afad_earthquake_9934dddf1886db4d4037",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 29,
+          "page_end": 33,
+          "text_preview": "Depremin ilk 3 saniyesinde kendimizi korumak için ne yapacaèÈmÈzÈ bilmeliyiz. Panièe kapÈlÈp merdiven ve balkonlara koëturmak, küçük depremlerde dahi gereksiz yere ölümlere neden olmaktadÈr. SarsÈntÈ baëlar baëlamaz donup kalmadan veya saèa sola kaçÈëmadan, bulunduèumuz yerde kendimizi koruyacak konumu almalÈyÈz. Korku ve Panik Depremden korkuyorsanÈz, korkularÈnÈzÈ etrafÈnÈzdakilerle paylaëÈn. Depremler korkutucu olabilir ama unutmayÈn, sarsÈntÈ kÈsa sürede sona erecektir. Panièe kapÈlmamak için deprem öncesinde, sÈrasÈnda ve sonrasÈnda yapÈlacaklarÈ öèrenmek ve gerekli önlemleri önceden almakla birlikte farklÈ ortamlarda deprem tatbikatlarÈ da yapÈn. AyrÈca panik durumunu engellemek için, panièe kapÈlmamÈë gibi davranmaya çalÈëÈn. Kendinize ve çevrenizdekilere ancak bu ëekilde yardÈm..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8671241998672485,
+          "faiss_row": 299,
+          "chunk_id": "afad_earthquake_244b10eff12befb8ca93",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 11,
+          "page_end": 13,
+          "text_preview": "1 Türkiye, tektonik oluëumu, jeolojik yapÈsÈ, topografik ve meteorolojik özellikleri gibi nedenlerden dolayÈ, her zaman çeëitli doèal afet tehlikeleriyle karëÈ karëÈya olan bir ülkedir. Ülkemizde depremler baëta olmak üzere, heyelan, sel, erozyon, kaya ve çÈè düëmesi ile kuraklÈk baëlÈca doèal afet türleri arasÈnda sayÈlmaktadÈr. Öte yandan, günümüzde, sadece doèal tehlikeler deèil, teknolojik ve insan kaynaklÈ afetler de sosyo-ekonomik yapÈ, çevre, insan hayatÈ ve mal mülk açÈsÈndan çok genië boyutlarda zararlara yol açabilmektedir. Bu durum ülkemizde afet konusunun çeëitli yönleriyle ele alÈnmasÈna ihtiyaç doèurmaktadÈr. Bunun yolu ise, her zaman bir afetle karëÈlaëabileceèimizi aklÈmÈzda tutarak gerekli önlemleri vakit kaybetmeden almaktÈr. Afetlerde can ve mal kaybÈ olabilir; afetle..."
+        }
+      ]
+    },
+    {
+      "id": "Q03",
+      "question": "Depremden sonra hasarlı binaya tekrar girebilir miyim?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8830976486206055,
+          "faiss_row": 739,
+          "chunk_id": "afad_earthquake_4e1e045bf6216cd30ac2",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 43,
+          "page_end": 45,
+          "text_preview": "SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 33 Yaşadığım binaya güvenmiyorum ki YORA çalışması yapsam ne fark eder? Yapısal olmayan risklere karşı önlem almak konusunda kişileri harakete geçmekten alıkoyan ya da zihinlerini meşgul eden bazı tereddütler söz konusudur. Yaşadığınız bina ile ilgili sorularınız olabilir; ancak bu, yapısal olmayan risklerinizi azaltmamanızı engellememelidir. Yaşadığımız depremlerde, özellikle 17 Ağustos 1999 Kocaeli Depremi'nde binaların ortalama %3\u00065'i tamamen yıkılmış, can kayıplarının çok önemli bir kısmı bu binalarda gerçekleşmiştir. Öte yandan depremden doğrudan etkilenen 1,5 milyon insanın yaklaşık %1'i hayatını kaybetmiştir. Geride kalan %99 gibi çok büyük bir kesim ise en çabuk şekilde, depremden önceki yaşam koşullarına kavuşmak için yaşam mücadelesi..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8775575160980225,
+          "faiss_row": 4682,
+          "chunk_id": "afad_earthquake_6d2311fce77cde556291",
+          "source_file": "SoruCevap-Kitapcik-2.pdf",
+          "page_start": 2,
+          "page_end": 2,
+          "text_preview": "Teknik ekipler binaların depremden kaynaklı hasarlarını dikkate alarak binalara hasar derecelendirmesi yapmaktadırlar. Binalar hasar derecesine göre nasıl sınıﬂandırılıyorlar? Binalar hasarın boyutuna göre Acil Yıktırılacak Bina, Yıkık, Ağır Hasarlı, Orta Hasarlı, Az Hasarlı ve Hasarsız olmak üzere 6 farklı hasar derecesi ile sınıﬂandırılmaktadır. Acil yıkƨrılacak binalar nasıl tespit ediliyor? Bazı katları çökmüş, yan yatmış, ötelenmiş vb. boyutta hasar görmüş ve her an can ve mal güvenliğini tehdit eder nitelikteki binalar Acil Yıktırılacak Bina olarak sınıﬂandırılmaktadır. 06. 07. 08. 09. 10. HASAR TESPİT Acil Yıkƨrılacak binalar için süreç nasıl işleyecek? Binası Acil Yıktırılacak olarak tespit edilmiş afetzedelere bu duruma ilişkin raporlar tebliğ edilmektedir. Kendilerine bu rapor..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8751175999641418,
+          "faiss_row": 555,
+          "chunk_id": "afad_earthquake_82e4d6b364a954738577",
+          "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+          "page_start": 70,
+          "page_end": 75,
+          "text_preview": "VII. Ağır Hasara yol açan a) Birçok kişi bina açık alanlarda ayakta durmakta bile güçlük çeker. b) Mobilyalar devrilebilir. Televizyon, daktilo, vs. gibi eşyalar yere düşer. Mezar taşları yerinden oynayabilir, burulabilir veya ters dönebilir. Çok yumuşak zeminler üzerinde dalgalar gözlenebilir. c) Hasargörebilirlik sınıfı A olan binaların birçoğu 5. derece, bir kısmı ise 5. derece hasara uğramıştır. d) Hasargörebilirlik sınıfı B olan binaların birçoğu 3. derece, bir kısmı ise 4. derece hasara uğramıştır. e) Hasargörebilirlik sınıfı C olan binaların birçoğu 2. derece, bir kısmı ise 3. derece hasara uğramıştır. f) Hasargörebilirlik sınıfı D olan az sayıda bina 2. derece hasar görmüştür. IX. Yıkıcı Hasara Yol Açan a) Genel panik durumu. İnsanlar kuvvetli deprem etkisi ile yere düşebilir. b..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8719133138656616,
+          "faiss_row": 115,
+          "chunk_id": "afad_earthquake_9665e6035ac030f1bf08",
+          "source_file": "afet_sonrasi_iyilestirme_calismalari-1.pdf",
+          "page_start": 68,
+          "page_end": 70,
+          "text_preview": "Şu anda da uygulamadaki yeri net değildir. Özellikle, 25778 sayılı resmi gazetede yayınlanan 30.03.2005 kabul tarihli, 5327 sayılı “Denizli - Buldan ve Çevresinde, Hakkari’ de, Bingöl - Karlıova ve Çevresi İle Erzurum - Çat’ da Meydana Gelen Deprem Afetlerine ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun” DASK’ın varlığının tamamen sorgulanmasına yol açmaktadır. Çünkü kanunun 1. Maddesinde; “Denizli İli Buldan İlçesi ve çevresinde ve Sarayköy ve Güney İlçelerinde 26.7.2003 tarihinde, Hakkari İli ve çevresinde 25.1.2005 tarihinde, Bingöl İli Karlıova İlçesi ve çevresi ile Erzurum İli Çat İlçesinde 12-14.3.2005 tarihlerinde, Adıyaman İli Çelikhan İlçesinde 26.2.2004 tarihinde, Muğla İli Akyaka Beldesinde 21.12.2004 tarihinde, Bingöl İli Yedisu ve Adaklı İlçelerinde 12-14.3.2005 tar..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8719099760055542,
+          "faiss_row": 926,
+          "chunk_id": "afad_earthquake_fde6d9e3d20a6320cbdd",
+          "source_file": "yft_min1.pdf",
+          "page_start": 292,
+          "page_end": 294,
+          "text_preview": "Deprem sonrası kullanımı gereken binalar ve tehlikeli madde içeren binalar a) Deprem sonrasında hemen kullanılması gerekli binalar (Hastaneler, dispanserler, sağlık ocakları, itfaiye bina ve tesisleri, PTT ve diğer haberleme tesisleri, ulaım istasyonları ve terminalleri, enerji üretim ve dağıtım tesisleri vilayet, kaymakamlık ve belediye yönetim binaları, ilk yardım ve afet planlama istasyonları) b) Toksik, patlayıcı, parlayıcı, vb özellikleri olan maddelerin bulunduğu veya depolandığı binalar 1,5 2. Đnsanların uzun süreli ve yoğun olarak bulunduğu ve değerli eyanın saklandığı binalar a) Okullar, diğer eğitim bina ve tesisleri, yurt ve yatakhaneler, askeri kılalar, cezaevleri, vb. b) Müzeler 1,4 3. Đnsanların kısa süreli ve yoğun olarak bulunduğu binalar Spor tesisleri, sinema, tiya..."
+        }
+      ]
+    },
+    {
+      "id": "Q04",
+      "question": "Deprem sırasında asansör kullanmalı mıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8663144707679749,
+          "faiss_row": 328,
+          "chunk_id": "afad_earthquake_628e4978a3a3a946879b",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 31,
+          "page_end": 34,
+          "text_preview": "Panièe kapÈlmak sadece depremin yaratacaèÈ zararÈ artÈracaktÈr. Deprem anÈnda tamamen yerle bir olmamÈë, az hasarlÈ veya hiç hasar görmemië binalarda ölüm ve yaralanmalara daha çok yapÈsal olmayan riskler yol açmaktadÈr. Bu tür risklerden korunmak için “Çök-Kapan-Tutun” davranÈëÈnÈ uygulamak yararlÈ olacaktÈr. Çök-Kapan-Tutun “Çök-Kapan-Tutun” davranÈëÈ deprem, uçak kazasÈ, heyelan, bomba patlamasÈ, bomba tehdidi, yÈldÈrÈm ve hortum gibi tehlike anlarÈnda uygulanÈr. Örneèin zemin sarsÈlmaya baëladÈèÈnda veya büyük bir patlama duyulduèunda/hissedildièinde herkesin bu hareketi yapmasÈ gerekir. Çök-Kapan-Tutun hareketinin amacÈ hedef küçülterek daha az zarar görmektir. Hedef küçültmek, üzerimize düëebilecek veya bir ëekilde bize zarar verebilecek cisimlerin açÈk hedefi olmamak için vücudum..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8652070164680481,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8603743314743042,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8593305349349976,
+          "faiss_row": 728,
+          "chunk_id": "afad_earthquake_1983c4266c531a287827",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 14,
+          "page_end": 18,
+          "text_preview": "Deprem yaëanan bölgenin krizden kurtulma zamanÈ çok sonralara ötelenir. Yaëam kalitesini artÈrmak için uzun sürelere ihtiyaç duyulabilir. Ülkemiz topraklarÈnÈn büyük bir bölümü deprem kuëaèÈ üzerindedir; yÈllarca bu topraklar üzerinde yaëanmÈë afetler de her an bir depremle karëÈlaëabileceèimizi bizlere hatÈrlatmaktadÈr. Bu gerçeèin ÈëÈèÈnda “Ne zaman deprem olacak?” kaygÈsÈyla vakit kaybetmek yerine, her an bir deprem olacakmÈë gibi hazÈrlÈk yapmamÈz daha uygundur. OlasÈ bir deprem sÈrasÈnda ev, okul, alÈëverië merkezi, iëyeri veya herhangi bir saèlÈk kurumunun içinde bulunma ve buralarda depremle karëÈlaëma olasÈlÈèÈmÈz yüksektir. Bulunduèumuz yer neresi olursa olsun, bulunduèumuz yapÈ depreme ne kadar dayanÈklÈ olursa olsun, yapÈsal olmayan elemanlardan kaynaklanabilecek risklerle ka..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.859195351600647,
+          "faiss_row": 329,
+          "chunk_id": "afad_earthquake_362624beed722576e9f3",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 34,
+          "page_end": 36,
+          "text_preview": "Bunun yanÈ sÈra öèretmenlerinin veya dièer okul görevlilerinin komutlarÈnÈ dinlemesi gerekmektedir. Durumu veya yaëÈ ne olursa olsun, görme engelli kiëinin deprem anÈnda panièe kapÈlmamasÈ önemlidir. Bunun için de deprem anÈnda hangi ortamda nasÈl hareket etmesi gerektièi konusunda tatbikatlar yapmÈë olmalÈdÈr. éëitme Engelliler éëitme engelli bir kiëi deprem anÈnda kendini korumak üzere hedef küçülterek Çök-Kapan-Tutun hareketini yapmalÈdÈr. Dièer kiëilerden farklÈ olarak iëitme engelli kiëilerin en çok dikkat etmesi gereken konu, bir yandan hedef küçültüp vücutlarÈnÈ korurken, dièer yandan gözleriyle dÈëarÈdan gelebilecek tehlikelere karëÈ sürekli alarmda olmaktÈr. Üzerlerine düëebilecek cisimler ile yÈkÈlabilecek yapÈsal olmayan elemanlar, bu kiëiler için en büyük sorunu teëkil etmek..."
+        }
+      ]
+    },
+    {
+      "id": "Q05",
+      "question": "Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8903162479400635,
+          "faiss_row": 328,
+          "chunk_id": "afad_earthquake_628e4978a3a3a946879b",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 31,
+          "page_end": 34,
+          "text_preview": "Panièe kapÈlmak sadece depremin yaratacaèÈ zararÈ artÈracaktÈr. Deprem anÈnda tamamen yerle bir olmamÈë, az hasarlÈ veya hiç hasar görmemië binalarda ölüm ve yaralanmalara daha çok yapÈsal olmayan riskler yol açmaktadÈr. Bu tür risklerden korunmak için “Çök-Kapan-Tutun” davranÈëÈnÈ uygulamak yararlÈ olacaktÈr. Çök-Kapan-Tutun “Çök-Kapan-Tutun” davranÈëÈ deprem, uçak kazasÈ, heyelan, bomba patlamasÈ, bomba tehdidi, yÈldÈrÈm ve hortum gibi tehlike anlarÈnda uygulanÈr. Örneèin zemin sarsÈlmaya baëladÈèÈnda veya büyük bir patlama duyulduèunda/hissedildièinde herkesin bu hareketi yapmasÈ gerekir. Çök-Kapan-Tutun hareketinin amacÈ hedef küçülterek daha az zarar görmektir. Hedef küçültmek, üzerimize düëebilecek veya bir ëekilde bize zarar verebilecek cisimlerin açÈk hedefi olmamak için vücudum..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8810702562332153,
+          "faiss_row": 315,
+          "chunk_id": "afad_earthquake_316e61fd7b2f60faef6f",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 53,
+          "page_end": 55,
+          "text_preview": "KapalÈ AlandaysanÈz; • Binadan çÈkmak ve heyelan bölgesinden uzaklaëmak için yeterli vaktiniz yoksa içeride kalÈn. • Saèlam eëyalarÈn altÈnda ve/veya yanÈnda ÇÖK - KAPAN - TUTUN hareketini uygulayÈn. • Hissettièiniz hareket sona erinceye kadar yerinizden ayrÈlmayÈn. DÈëarÈdaysanÈz; • Heyelan veya çamur akÈntÈsÈnÈn hareket yolunun üzerinde durmayÈn. • Çevrenizdeki insanlarÈ uyararak heyelanÈn hareket yolundan uzaklaëÈn ve mümkün olduèu kadar yükseklere doèru çÈkÈn. • Heyelan veya çamur akÈntÈsÈndan kaçabilecek zamanÈnÈz veya etrafÈnÈzda arkasÈna saklanabileceèiniz saèlam bir ëey yoksa, olduèunuz yerde ÇÖK-KAPAN-TUTUN hareketini yaparak baëÈnÈzÈ ve boynunuzu koruyun. SonrasÈnda; • Her ëeyden önce kendinizin ve aile üyelerinin güvende olduèundan emin olun. • OlayÈn tekrarlanmasÈ ihtimaline..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8783699870109558,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8679639101028442,
+          "faiss_row": 464,
+          "chunk_id": "afad_earthquake_2748dc992ebb0074ca65",
+          "source_file": "olagandisi.pdf",
+          "page_start": 45,
+          "page_end": 49,
+          "text_preview": "Dört tarafı mahremiyet için çevrildiğinde tuvalet tamamlanmış olacaktır. Bu tip tuvaletlerin temizliği dışkının kazılan çukurdan çıkan toprakla örtülmesiyle yapılır. Her gün ince bir toprak tabakası dışkıların üzerine serpiştirilmelidir. Ayrıca tuvaletin içinde de temizlik amaçlı su ve mümkünse dezenfektan bulunmalıdır. Taharet temizliği için bir kişinin günlük su ihtiyacı 1\u00072 lt’dir.Bu tuvaletlere bebek bezleri ve kadın pedleri atılmamalıdır. Tuvalet gece kullanılacaksa mutlaka aydınlatma olmalıdır. Bu tuvaletler çukurun ağzına 30 cm kalacak kadar dolduğunda kapatılmalıdır. Bu sırada üzeri sıkı toprakla doldurulmalı ve kireçle işaretlenmelidir. Tuvaletlerde aşağıdaki noktalara da dikkat etmek gerekir: • Sinekler ve koku: Dışkı, böceklenmeye ve koku yapmaya uygundur. Özellikle sinekleri..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8647570013999939,
+          "faiss_row": 1448,
+          "chunk_id": "afad_earthquake_58b635b96e8ebbb04bae",
+          "source_file": "Bayburt-IRAP.pdf",
+          "page_start": 55,
+          "page_end": 56,
+          "text_preview": "2019 yılından önce yürürlükte olan Türkiye Deprem Bölgeleri haritasına göre ise ilimiz 3. derece deprem kuşağı içerisinde olduğundan, bu tarihten önce inşa edilen binaların statik hesaplardaki deprem parametrelerinin de, olması gerekenden daha düşük olarak hesap edilmesi olasıdır. Şekil 1.24. Türkiye Deprem Tehlike Haritası (AFAD, 2018) İldeki mevcut binalardan, özellikle eski tarihlerde yapılmış olanların oransal olarak büyük bölümü, yeterli mühendislik hizmeti görmemiş olması nedeniyle deprem riskine oldukça açık bir durumdadır. Riskli binaların tespitinin yapılarak bu binaların dönüşümü sağlanmalıdır. 1.7.3.2. Heyelan, Kaya Düşmesi ve Çığ Önlem Yapıları Heyelanlar genellikle; jeolojik, jeomorfolojik, iklimsel etmen ve süreçler sonucunda, yerçekiminin de etkisiyle, yamaç dengesinin bo..."
+        }
+      ]
+    },
+    {
+      "id": "Q06",
+      "question": "Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8533808588981628,
+          "faiss_row": 739,
+          "chunk_id": "afad_earthquake_4e1e045bf6216cd30ac2",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 43,
+          "page_end": 45,
+          "text_preview": "SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 33 Yaşadığım binaya güvenmiyorum ki YORA çalışması yapsam ne fark eder? Yapısal olmayan risklere karşı önlem almak konusunda kişileri harakete geçmekten alıkoyan ya da zihinlerini meşgul eden bazı tereddütler söz konusudur. Yaşadığınız bina ile ilgili sorularınız olabilir; ancak bu, yapısal olmayan risklerinizi azaltmamanızı engellememelidir. Yaşadığımız depremlerde, özellikle 17 Ağustos 1999 Kocaeli Depremi'nde binaların ortalama %3\u00065'i tamamen yıkılmış, can kayıplarının çok önemli bir kısmı bu binalarda gerçekleşmiştir. Öte yandan depremden doğrudan etkilenen 1,5 milyon insanın yaklaşık %1'i hayatını kaybetmiştir. Geride kalan %99 gibi çok büyük bir kesim ise en çabuk şekilde, depremden önceki yaşam koşullarına kavuşmak için yaşam mücadelesi..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8510491251945496,
+          "faiss_row": 1857,
+          "chunk_id": "afad_earthquake_43d7e0fe8e1c63d37719",
+          "source_file": "Denizli_Il_Afet_Risk_Azaltma-Plani.pdf",
+          "page_start": 172,
+          "page_end": 174,
+          "text_preview": "2018 sonrası yapılan eğitim kurumlarının depreme dayanıklı yapılmış olması. Acıpayam ve Bozkurt-Çardak depremleri sonucu bu bölgelerde halkın farkındalığının artması, yapı envanterinin oluşması, hasarlı binaların belirlenmesi, kentsel dönüşümün hızlanması, rezerv konut alanlarının oluşturulması, 18. Madde uygulamasının hızlanması ve depreme dayanıklı yapı miktarının artması. Enerji nakil hatları ve trafo merkezlerinin 2014 yılında afet açısından değerlendirilmesinin yapılmış olması. Uygun Tüm enerji merkezlerinin güçlendirmelerinin henüz yapılmamış olması. Halkın doğalgazın kullanımı ve afet sonucu oluşabilecek tehlikeleri konusunda farkındalığının yeterli seviyede olmaması. Zemin etütlerinin kontrolü ve onaylanması ile ilgili idarelerde teknik personelin eksik olması. Eğitim kurumların..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8456999063491821,
+          "faiss_row": 3092,
+          "chunk_id": "afad_earthquake_649b5b68b46b01e6ec1e",
+          "source_file": "Kilis_IRAP.pdf",
+          "page_start": 52,
+          "page_end": 55,
+          "text_preview": "Birim uzunluktaki polietilen borular yaklaşık %500-600 oranında kopmadan uzama kabiliyetine sahiptir. Geçmiş deprem tecrübeleri polietilen doğal gaz hatlarında sıfıra yakın hasar olduğunu göstermektedir. Tüm doğal gaz polietilen servis hattı girişlerinde gaz stop aparatı bulunmaktadır. Servis hattında oluşabilecek durumlarda hasara uğrayan noktadan atmosfere çıkan yüksek hızdaki doğal gaz tamamıyla boru hattı basıncının etkisiyle mekanik olarak çalışan tertibat servis hattının gaz akışını otomatik olarak kesmektedir. Türkiye’de örneğin geçmiş dönemde en yıkıcı depremlerden 7,4 şiddetindeki 17 Ağustos 1999 Kocaeli depreminde, çelik ve polietilen doğal gaz dağıtım şebekesinde herhangi bir kayda değer hasar oluşmamıştır. T.C. K İ L İ S VA L İ L İ Ğİ 53 Şekil 19 Kilis İline ait Doğalgaz Hat..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8456549644470215,
+          "faiss_row": 2284,
+          "chunk_id": "afad_earthquake_f8769044f321edc030ff",
+          "source_file": "IIRAP_Izmir-2025-_1_-a.pdf",
+          "page_start": 169,
+          "page_end": 170,
+          "text_preview": "Olayda gaz kokusundan etkilenen ve hayati tehlikesi bulunan vatandaşımız bulunmamaktadır. KBRN Diğer 15.03.2024 12:18 Kemalpaşa İlçesi Mehmet Akif Ersoy Mahallesinde bulunan Elmas Lojistik firmasının depo bölümünde saat 10.15'te çıkan yangın sırası ve sonrasında açığa çıkan duman ve gazların fabrika çevresinde ve fabrikaya yakın yerleşim yerlerinde vatandaşları tedirgin etmesi üzerine çok sayıda ihbar yapılmıştır. Alınan ihbarlar üzerine İzmir İl AFAD KBRN ekibi 16.03.2024 tarihinde, saat 02.42’de yangın yeri ve yakın yerleşim yerlerinde gerekli ölçümleri yapmak üzere görevlendirilmiştir. İhbarların artması üzerine saat 08.30’da bir KBRN ekibi daha bölgeye sevk edilmiştir. Sevk edilen ekiplerin, yangın yerinde ve yoğun ihbar alınan Akalan, Soğukpınar, Çambel, Sütçüler ve TOKİ mahalleler..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8451388478279114,
+          "faiss_row": 4047,
+          "chunk_id": "afad_earthquake_f89b50a2f71b39b10769",
+          "source_file": "ZONGULDAK_IRAP.pdf",
+          "page_start": 189,
+          "page_end": 193,
+          "text_preview": "H331: Solunması halinde toksiktir. H360: Doğmamış çocukta hasara yol açabilir veya üremeye zarar verebilir. H372: Uzun süreli veya tekrarlı maruz kalma sonucu organlarda hasara yol açar. Yangın durumunda: -Yangın yerine yetkisiz kişiler girmemeli ve izole edilmelidir. -Kaçak ihtimali bulunan ortamlardaki tutuşturma kaynakları uzaklaştırılmalıdır. -Boru hatlarındaki yangınlara müdahale ederken doğrudan alevin üstüne değil alev çıkan bölgenin etrafında su ile soğutma işlemi yapılarak müdahale edilmelidir. Doğrudan müdahale edilirse gaz sıkışarak patlama riski oluşturur. -Yangın ile mücadele ekibi uygun solunum maskesi ve aleve dayanıklı elbise giymelidir. Yangın durumunda: -Küçük yangınlarda; su spreyi, kuru kimyevi toz veya köpük kullanılabilir. -Büyük yangınlarda; su spreyi ya da uygun..."
+        }
+      ]
+    },
+    {
+      "id": "Q07",
+      "question": "Depremden sonra telefonla yakınlarımı aramalı mıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8970763087272644,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8786514401435852,
+          "faiss_row": 311,
+          "chunk_id": "afad_earthquake_02a16a39e3b84aba9972",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 44,
+          "page_end": 46,
+          "text_preview": "34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir. Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin. Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin. Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn. Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir. Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin. Onun da afet bölgesindekilerden bu tür telefonla..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8625431656837463,
+          "faiss_row": 327,
+          "chunk_id": "afad_earthquake_f485ea324516195f79aa",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 29,
+          "page_end": 31,
+          "text_preview": "Patlama ya da yangÈn tehlikesi olmasÈ halinde, hasta/yaralÈyÈ dikkatlice olay yerinden uzaklaëtÈrmak, bunun mümkün olmadÈèÈ durumlarda ise asla yerinden kÈmÈldatmamak gerekir. Bildirme: Kendimizin ve hasta/yaralÈnÈn güvenlièini saèladÈktan sonra olayÈ/kazayÈ saèlÈkla ilgili acil yardÈm telefonunu (112) arayarak bildirmeliyiz. Acil yardÈm telefonlarÈ HéÇBéR ZAMAN gereksiz yere aranmamalÈdÈr; böylece acil yardÈma gerçekten ihtiyacÈ olan kiëiler bu telefonlarÈ aradÈèÈnda ilgili kiëilere kolayca ulaëabilirler. Kurtarma: Bir olay ya da kaza yerindeki yaralÈlara yapÈlan tüm ilkyardÈm uygulamalarÈnÈ kapsamaktadÈr. Olay yerinde birden fazla hasta/yaralÈ varsa hangisinin durumunun öncelikli olduèu çok önemlidir. Bu durumda hÈzlÈ ve doèru bir deèerlendirme, doèru ilkyardÈm uygulanmasÈnÈ ve hasta/..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8575085401535034,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8573706746101379,
+          "faiss_row": 739,
+          "chunk_id": "afad_earthquake_4e1e045bf6216cd30ac2",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 43,
+          "page_end": 45,
+          "text_preview": "SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 33 Yaşadığım binaya güvenmiyorum ki YORA çalışması yapsam ne fark eder? Yapısal olmayan risklere karşı önlem almak konusunda kişileri harakete geçmekten alıkoyan ya da zihinlerini meşgul eden bazı tereddütler söz konusudur. Yaşadığınız bina ile ilgili sorularınız olabilir; ancak bu, yapısal olmayan risklerinizi azaltmamanızı engellememelidir. Yaşadığımız depremlerde, özellikle 17 Ağustos 1999 Kocaeli Depremi'nde binaların ortalama %3\u00065'i tamamen yıkılmış, can kayıplarının çok önemli bir kısmı bu binalarda gerçekleşmiştir. Öte yandan depremden doğrudan etkilenen 1,5 milyon insanın yaklaşık %1'i hayatını kaybetmiştir. Geride kalan %99 gibi çok büyük bir kesim ise en çabuk şekilde, depremden önceki yaşam koşullarına kavuşmak için yaşam mücadelesi..."
+        }
+      ]
+    },
+    {
+      "id": "Q08",
+      "question": "Enkaz altında kalırsam ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8934141397476196,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8596499562263489,
+          "faiss_row": 4617,
+          "chunk_id": "afad_earthquake_5a1d761d4776860096a7",
+          "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+          "page_start": 92,
+          "page_end": 94,
+          "text_preview": "AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 9.9. ENKAZ RİSKLERİ VE SİNYALİZASYON AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ENKAZDA ARAMA VE KURTARMA TEMEL EĞİTİMİ HİZMETE ÖZEL 56 9. ENKAZ RİSKLERİ VE SİNYALİZASYON 9.1. Enkazda Çevresel Riskler Enkaz alanında görev yapan kurtarma ekipleri çeşitli tehlike ve risklerle karşı karşıyadırlar. Bu tehlike ve riskler; • Yıkılmış Yapılar: Enkaz sahası, yıkılmış veya yıkılmak üzere olan binaları içerir. Yıkılmış binaların çökme riski, yıkılmamış binaların yıkılma riski çalışanlar için tehlike oluşturur. • Yanıcı ve Patlayıcı Maddeler: Enkaz alanlarında sızan yakıt veya kimyasallar gibi yanıcı veya patlayıcı maddeler tehlikeli olabilir. Bu maddeler yangın veya patlama riski yaratabilir. • Elektrik Kabloları: Yıkılan binalardan sarkan elektrik kabloları,..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8544952869415283,
+          "faiss_row": 4620,
+          "chunk_id": "afad_earthquake_b1595a68381fc9f51e81",
+          "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+          "page_start": 99,
+          "page_end": 102,
+          "text_preview": "Termal Görüntüleme: Canlıların yaydığı ısıyı algılayarak yerlerini tespit etme. Su Geçirmezlik: Enkazda su birikintisi olsa bile çalışabilme. Resim 10.5. Enkaz Altı Görüntüleme Cihazları ENKAZDA ARAMA VE KURTARMA TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 63 Dayanıklı Tasarım: Zorlu saha koşullarına (darbe, toz vb.) karşı dayanıklılık. Farklı Uzunluklarda Kablo/Prob Seçenekleri: Enkazın derinliklerine ulaşabilme. Görüntü Kaydetme ve Oynatma: Elde edilen görüntüleri saklama ve daha sonra inceleme imkânı. Zoom Özelliği: Görüntüleri yakınlaştırarak detayları daha iyi görebilme. Kolay Kullanım: Arama ve kurtarma personelinin hızlı ve etkili bir şekilde kullanabileceği kullanıcı dostu arayüz. Taşınabilirlik: Hafif ve kolay taşınabilir yapı. İletişim Probu: Enkaz altındaki k..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8541638851165771,
+          "faiss_row": 4632,
+          "chunk_id": "afad_earthquake_873398145ded524072f8",
+          "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+          "page_start": 136,
+          "page_end": 138,
+          "text_preview": "10. Markalanan bölge tamamıyla kırılana kadar bu işleme devam edilir bu süreçte beton kütle içerisindeki demir donatılar uygun cihazla kesilir. Kesim sonucunda çıkan demir filizlerin rahat eğilebilmesi için en az 5 cm uzun bırakılır ve bu demir uçları tahliye sırasında personele ve afetzedeye zarar vermeyecek önlemler alınır (örn: kesilen uca yumuşak malzeme sarılması). Enkaza Yandan Giriş (Kirli Çalışma) Özellikle üstten giriş yönteminin uzun zaman aldığı durumlarda ve yıkılmış çok katlı binaların zemine yakın kısımlarındaki afetzedelerin kurtarılması için kullanılan bir yöntemdir. Üstten giriş yöntemine göre kurtarmacı için daha riskli bir tercihtir. Dikey betonlarda ve duvarlarda kırma-delme işlemi yapılarak afetzedeye ulaşmak için yapılan çalışmadır. Enkaza girerken iyi bir destekle..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8530861139297485,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        }
+      ]
+    },
+    {
+      "id": "Q09",
+      "question": "Deprem sonrası artçı sarsıntılarda ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8628232479095459,
+          "faiss_row": 571,
+          "chunk_id": "afad_earthquake_de1e5df0254dea4a2102",
+          "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+          "page_start": 118,
+          "page_end": 120,
+          "text_preview": "Bunların en önemli katkısı ise, afet zararlarının azaltılması yöntemlerinin kurumsallaşması ile afetlere ilişkin sürdürülebilir bir idari yapılanmaya yönelik stratjinin formülasyonudur. Bu dönüşüm kapsamında yapılan kurumsal ve yasal değişikliklerle kamu ve özel sektör kuruluşları yeni görev ve sorumluluklar üstlenirken, mevcut mesleklerin göreceli işlev ve pozisyonlarının da yeniden yapılandırılması gerekecektir. Afet Sonrası Planlamanın Yerel Düzeyde İdaresi 1999 depremlerinden sonra yerel idarelerin afet bölgelerindeki tüm plan uygulama ve inşaat ruhsatı verme yetkileri 7269 sayılı Afet Kanunu ile askıya alınmıştı. Tüm yapılanma faaliyetleri durudurulmuştu. BİB yerel idareler dışında hasarı tespit etmiş, hak sahiplerini belirlemiş, yeni yerleşim alanları için kapsamlı jeolojik etütle..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8611271381378174,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8607478737831116,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8603435158729553,
+          "faiss_row": 1129,
+          "chunk_id": "afad_earthquake_65116fecfdeb42d7a881",
+          "source_file": "ANKARA_IRAP_2021.pdf",
+          "page_start": 134,
+          "page_end": 134,
+          "text_preview": "Depreme karşı güvenli olmayan, zemin açısından sorunlu bölgelerdeki ekonomik ömrünü tamamlamış ve çok katlı kaçak yapılaşmaların olduğu bölgelerin kentsel dönüşüm kapsamında önceliklendirilmesi (Demetevler, Yüzüncüyıl gibi.) Tehlikeli madde üreten, depolayan tesislerde oluşabilecek kazaların etkilerinin azaltılması için tesislerin İmar planlarına uygun hale getirilmesi Afet sonrası ağır hasarlı binaların tahliyesinin sağlanarak can kaybının önüne geçilmesi için hasar tespit hizmetlerinin yapılması. Tesislerde, patlama ve sızıntıya sebep olabilecek tankların, standartlarda belirtilen kimyasal ürüne uygun malzemeden seçilmesi sağlanacaktır Sincan İğciler Arası Muhtelif Yerlerde Taş Duvar Yapılması A1 H1 A1, H1-36 A1, H1-37 A1, H1-38 A1, H1-39 A1, H1-40 A1, H1-41 A1, H1-42"
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8593128323554993,
+          "faiss_row": 551,
+          "chunk_id": "afad_earthquake_b2e77010fb1529257f5f",
+          "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+          "page_start": 56,
+          "page_end": 60,
+          "text_preview": "Bu elemanlardaki göçmeler, sistemin büyük bir bölümünün çökmesine neden olacaktır. Eğer “önemli hayati altyapı elemanları” olarak tanımlanan elemanlarda göçme olursa, sistem en azından geçici olarak çökecektir (Ayrıca 2.11.1 bölümüne bakınız). - \"Kısa dönem\": 10-20 yıl arasında değişen dönemler. Türkiye’de Mikrobölgeleme, El Kitabı, Bölüm 2 Sayfa 2-29 Ocak 2004 Yüzeysel faylanma için bölgeler Bölge ASF Bu bölge, şehir planlaması yönünden yoğun nüfus yerleşimi ve önemli yapılar için önerilmemektedir. Öneriler: - Yüksek nüfus yoğunluklu yeni büyük konut yapılarından, önemli iş merkezlerinden, okullardan, vs kaçınılmalıdır. Bu türdeki mevcut binalar için risk bazlı özel araştırmalar yapılmalı ve gerekli önlemler alınmalıdır. - Tehlikeli endüstrilerin ilave yapılaşması (daha büyük kimyasal..."
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "question": "Deprem çantasında neler bulunmalı?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8730804920196533,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8729560375213623,
+          "faiss_row": 457,
+          "chunk_id": "afad_earthquake_2b71bc4bedebd6f97813",
+          "source_file": "olagandisi.pdf",
+          "page_start": 31,
+          "page_end": 34,
+          "text_preview": "Çantada bulunması gereken malzemeler şöyle sıralanabilir: • Çok amaçlı çakı • Kibrit/çakmak • Düdük • Nakit para • Kâğıt, kalem • Battaniye veya uyku tulumu • Makas • Koli bandı • Plastik/naylon örtü • Çöp poşeti • Pilli radyo • El feneri • Başlık feneri • Yedek piller • Yedek telefon şarjı • Arabanın yedek anahtarı • Evin/(varsa) diğer evlerin yedek anahtarları • İş eldiveni • Sağlık malzemeleri: Sağlık malzemeleri afetten sonra ilk gerekecek malzemelerdendir. Sağlık malzemelerinin etkin kullanılabilmesi için mutlaka ilkyardım eğitiminizin olması gereklidir. Sağlık Bakanlığı tarafından onaylanmış ilkyardım eğitimi olmayan kimselerin ilkyardım uygulamaması gerekir. Bununla beraber ilkyardım çantasında ufak yaralanmalara pansuman yapılmasını sağlayacak malzemelerin bulunması faydalıdır...."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.862622857093811,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8586034774780273,
+          "faiss_row": 136,
+          "chunk_id": "afad_earthquake_79a319dfbda27a3866fb",
+          "source_file": "afet_sonrasi_iyilestirme_calismalari-1.pdf",
+          "page_start": 139,
+          "page_end": 144,
+          "text_preview": "Arşiv). 17 Ağustos ve 12 Kasım depremlerinden sonra enkaz altından sağ olanların, yaralıların ve ölülerin çıkartılması konusunda, ilgili resmi kuruluşlar, sivil toplum kuruluşları, halk ve yurtdışından gelen arama ve kurtarma ekipleri çalışmışlardır. Geçici barınma amacıyla Kızılay, diğer kurum ve kuruluşlar, hibe ve yardımlarla toplam 165.239 çadır dağıtılmış, 162 çadır kenti kurulmuştur. Depremzedelerin kış koşullarında barınmaları için prefabrike konutlar yapılmıştır. Bayındırlık ve İskân Bakanlığı ile özel sektör ve bazı ülkelerden hibe olarak gelen prefabrike konutların 39.253 tanesi teslim edilmiştir. Çadır ve prefabrike konutların yanı sıra, bazı depremzedeler çeşitli Bakanlıklar ile kamu kurum ve kuruluşlarına ait sosyal tesislere geçici iskân amacıyla da yerleştirilmiştir. 17 A..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8571494817733765,
+          "faiss_row": 455,
+          "chunk_id": "afad_earthquake_a91a47fa75a9d5af0d78",
+          "source_file": "olagandisi.pdf",
+          "page_start": 26,
+          "page_end": 28,
+          "text_preview": "Ulaşım hatları: Ulaşım hatları bölgedeki yol, köprü, iskele, demiryolu ve demiryolu istasyonu, havaalanı ve helikopter pisti gibi unsurları kapsar. Bu noktalardaki hasarın tespit edilmesi, yardımın en erken ne zaman ve nasıl ulaşabileceğini öngörebilmek açısından önemlidir. Bu konu bölgenin tahliye edilmesi durumunda da belirleyici rol oynayacaktır. Ulaşım hatları genellikle gözlenebilir olduğundan değerlendirilmesi daha kolaydır. Örneğin çöken bir köprü veya batan bir iskele, o bölgedeki ulaşımı olumsuz etkileyecektir. Karayollarının depremde hasar görme ihtimali yüksektir. Yolların bozulmasının, köprü ve tünellerin yıkılmasının yanı sıra, yapıların çökmesiyle ortaya çıkan enkazın yolları tıkaması da büyük bir sorun yaratır. İkincil tehlikeler: Depremden sonra ikincil risklerin oluşup..."
+        }
+      ]
+    },
+    {
+      "id": "Q11",
+      "question": "Depremden sonra nereye gitmeliyim?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8635687232017517,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8608368635177612,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8574296832084656,
+          "faiss_row": 311,
+          "chunk_id": "afad_earthquake_02a16a39e3b84aba9972",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 44,
+          "page_end": 46,
+          "text_preview": "34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir. Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin. Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin. Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn. Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir. Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin. Onun da afet bölgesindekilerden bu tür telefonla..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8535629510879517,
+          "faiss_row": 739,
+          "chunk_id": "afad_earthquake_4e1e045bf6216cd30ac2",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 43,
+          "page_end": 45,
+          "text_preview": "SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 33 Yaşadığım binaya güvenmiyorum ki YORA çalışması yapsam ne fark eder? Yapısal olmayan risklere karşı önlem almak konusunda kişileri harakete geçmekten alıkoyan ya da zihinlerini meşgul eden bazı tereddütler söz konusudur. Yaşadığınız bina ile ilgili sorularınız olabilir; ancak bu, yapısal olmayan risklerinizi azaltmamanızı engellememelidir. Yaşadığımız depremlerde, özellikle 17 Ağustos 1999 Kocaeli Depremi'nde binaların ortalama %3\u00065'i tamamen yıkılmış, can kayıplarının çok önemli bir kısmı bu binalarda gerçekleşmiştir. Öte yandan depremden doğrudan etkilenen 1,5 milyon insanın yaklaşık %1'i hayatını kaybetmiştir. Geride kalan %99 gibi çok büyük bir kesim ise en çabuk şekilde, depremden önceki yaşam koşullarına kavuşmak için yaşam mücadelesi..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8523280620574951,
+          "faiss_row": 455,
+          "chunk_id": "afad_earthquake_a91a47fa75a9d5af0d78",
+          "source_file": "olagandisi.pdf",
+          "page_start": 26,
+          "page_end": 28,
+          "text_preview": "Ulaşım hatları: Ulaşım hatları bölgedeki yol, köprü, iskele, demiryolu ve demiryolu istasyonu, havaalanı ve helikopter pisti gibi unsurları kapsar. Bu noktalardaki hasarın tespit edilmesi, yardımın en erken ne zaman ve nasıl ulaşabileceğini öngörebilmek açısından önemlidir. Bu konu bölgenin tahliye edilmesi durumunda da belirleyici rol oynayacaktır. Ulaşım hatları genellikle gözlenebilir olduğundan değerlendirilmesi daha kolaydır. Örneğin çöken bir köprü veya batan bir iskele, o bölgedeki ulaşımı olumsuz etkileyecektir. Karayollarının depremde hasar görme ihtimali yüksektir. Yolların bozulmasının, köprü ve tünellerin yıkılmasının yanı sıra, yapıların çökmesiyle ortaya çıkan enkazın yolları tıkaması da büyük bir sorun yaratır. İkincil tehlikeler: Depremden sonra ikincil risklerin oluşup..."
+        }
+      ]
+    },
+    {
+      "id": "Q12",
+      "question": "Toplanma alanı nedir?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.85565185546875,
+          "faiss_row": 1162,
+          "chunk_id": "afad_earthquake_2b04bb4c31560b4d0836",
+          "source_file": "Antalya-IRAP_2022.pdf",
+          "page_start": 79,
+          "page_end": 83,
+          "text_preview": "Toplanma Alanları; afet ve acil durumlar sonrasında geçici barınma merkezleri hazır olana kadar geçecek süre içerisinde yaşanacak paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli alanlardır. Toplanma alanları seçilirken ilçe belediyeleri tarafından; • Bölgedeki nüfus yoğunluğu, • Alanın ulaşılma ve tahliye edilme kolaylığı, • Alanın mümkün olduğunca engellilerin ve yaşlıların ulaşımına uygun olması, • İkincil tehlikelerden uzaklığı, • Mümkün olduğunca engebesiz düz arazilerde yer alması, 74 • Konut alanlarına yakın ancak yapısal ve yapısal olmayan unsurlardan etkilenmiyor olması, • Elektrik, su, tuvalet gibi temel ihtiyaçlar ve benzeri unsurların karşılanabileceği yapılara yakın olması, gibi kriterler dikkate a..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8513510227203369,
+          "faiss_row": 3566,
+          "chunk_id": "afad_earthquake_cbf335493fcd7c13aa5c",
+          "source_file": "Ordu-Irap-Kurumlara-Dagitim.pdf",
+          "page_start": 70,
+          "page_end": 72,
+          "text_preview": "İlimizdeki geçici barınma alanları TAMP – Ordu’da (Ordu Afet Müdahale Planı) yer alan Barınma Hizmet Grubu tarafından planlanmaktadır. Barınma Alanları belirlenirken İlin nüfusu, topografik jeolojik yapısı, iklim durumu ve geçmişte meydana gelen en büyük afet olayları dikkate alınmaktadır. İlimizin yüz ölçüm olarak topraklarının büyük bölümünün eğimli yamaçlardan ve fındık bahçelerinden oluşması ve arazi kullanımının getirdiği sınırlamalardan dolayı kırsal kesimlerde geçici barınma alanlarının belirlenmesini oldukça kısıtlamaktadır. Bununla birlikte bir afet anında afetzedelerin geçici iskanı için kullanılabilecek il ve ilçe merkezlerinde yer alan kamuya misafirhaneler ve yurtlar ilk etapta kullanılacak şekilde planlanmış ayrıca il ve merkezlerinde çadır ve konteyner kurulabilecek alanl..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8471546173095703,
+          "faiss_row": 4545,
+          "chunk_id": "afad_earthquake_9645b186f0f3b304017a",
+          "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+          "page_start": 510,
+          "page_end": 510,
+          "text_preview": "509 TUÜ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Toplam Dalış Zamanı: Dalgıcın satha varışı ile sathı terki arasında geçen zamandır. Total Dive Time: The time between the diver’s arrival and departure from the surface. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Toplam Doz: Belli bir zaman aralığında, tüm vücudun ya da vücudun belli bir bölümünün tekrarlanan radyasyon maruziyeti sonucunda aldığı toplam dozdur. Total Dose: The total dose received by the whole body or a certain part of the body as a result of repeated radiation exposure over a certain period of time. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8434942960739136,
+          "faiss_row": 4683,
+          "chunk_id": "afad_earthquake_367b260bac1f045b1ae4",
+          "source_file": "toplanma_alanlari.pdf",
+          "page_start": 1,
+          "page_end": 2,
+          "text_preview": "ARKA @afadbaskanlik Afet ve Acil Durum Toplanma Alanları Üniversiteler Mah. Dumlupınar Bulvarı No: 159 06800 Çankaya / Ankara Tel: +90 (312) 258 23 23 • Faks: +90 (312) 258 23 10 www.afad.gov.tr @afadbaskanlik Size en yakın “Afet ve Acil Durum Toplanma Alanlarını “ www.turkiye.gov.tr üzerinden öğrenebilirsiniz. Afet ve Acil Durum Toplanma Alanları “Türkiye Afet Müdahale Planı” kapsamında belirlenmektedir. Toplanma Alanına Erişim İçin; • E-Devlet ‘e T.C. kimlik numaranızı girin, • Ardından AFAD’ın sunduğu hizmetlerden Afet ve Acil Durum Toplanma Alanlarını seçin, • İkamet ettiğiniz adrese en yakın toplanma alanını belirleyin, • Harita özelliğinden alanın yerini öğrenin, • Alanın adres ve koordinat bilgilerini kaydedin, • Afet ve Acil Durum Planınıza bu alanı ekleyin, • Alanı önceden görü..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8412194848060608,
+          "faiss_row": 2445,
+          "chunk_id": "afad_earthquake_7bb798dafa7e834c7926",
+          "source_file": "IRAP-11102021-basim-yapilan.pdf",
+          "page_start": 100,
+          "page_end": 104,
+          "text_preview": "Dr. Aziz Tarhan Cad.) 33,224404 37183487 Karaman İli Halk Toplanma Alanı 19 Şehit Osman Çınar Parkı ( Mehmet Akif Ersoy Mah. Şeit Hamza Çetin Cad.) 33,228941 37,160045 Karaman İli Halk Toplanma Alanı 20 Fatih Lisesi Bahcesi (Kapalı Spor Salonu)(Karamanoglu Mehmet Bey Mah. 360 Sk.) 33,215527 37,172775 Karaman İli Halk Toplanma Alanı 21 İmam Hatip Okulu Bahçesi ( Hamidiye Mah. İbrahim Öktem Cad. 33,229935 37,180237 Karaman İli Halk Toplanma Alanı 22 Sabiha Gökçen İlkögretim Okulu (Hacı Celal Mah. Şehit Ömer Sirkeci Cad.) 33,206332 37,189021 Karaman İli Ayrancı İlçesi Halk Toplanma Alanı 1 Yeni Mah. Atatürk Cad. Park Ve Otopark Alanı 33,686571 37,3613994 Karaman İli Başyayla İlçesi Halk Toplanma Alanı 1 Başyayla İlçesi 295 Ada 278 Parsel 32,680151 36,759685 Karaman İli Kazımkarabekir İlçes..."
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8866196274757385,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8786311745643616,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8713595271110535,
+          "faiss_row": 306,
+          "chunk_id": "afad_earthquake_9934dddf1886db4d4037",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 29,
+          "page_end": 33,
+          "text_preview": "Depremin ilk 3 saniyesinde kendimizi korumak için ne yapacaèÈmÈzÈ bilmeliyiz. Panièe kapÈlÈp merdiven ve balkonlara koëturmak, küçük depremlerde dahi gereksiz yere ölümlere neden olmaktadÈr. SarsÈntÈ baëlar baëlamaz donup kalmadan veya saèa sola kaçÈëmadan, bulunduèumuz yerde kendimizi koruyacak konumu almalÈyÈz. Korku ve Panik Depremden korkuyorsanÈz, korkularÈnÈzÈ etrafÈnÈzdakilerle paylaëÈn. Depremler korkutucu olabilir ama unutmayÈn, sarsÈntÈ kÈsa sürede sona erecektir. Panièe kapÈlmamak için deprem öncesinde, sÈrasÈnda ve sonrasÈnda yapÈlacaklarÈ öèrenmek ve gerekli önlemleri önceden almakla birlikte farklÈ ortamlarda deprem tatbikatlarÈ da yapÈn. AyrÈca panik durumunu engellemek için, panièe kapÈlmamÈë gibi davranmaya çalÈëÈn. Kendinize ve çevrenizdekilere ancak bu ëekilde yardÈm..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8695859909057617,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8670562505722046,
+          "faiss_row": 307,
+          "chunk_id": "afad_earthquake_b00be82904b68a4b6649",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 33,
+          "page_end": 35,
+          "text_preview": "Bu pratik bilgiler sizin hayatÈnÈzÈ ya da sevdiklerinizinkini kurtarabilir. • Sakin olun, panièe kapÈlmayÈn. • Kendinizin ve çevrenizdeki insanlarÈn yaralanÈp yaralanmadÈèÈnÈ kontrol edin. • Depremden sonra artçÈ sarsÈntÈlara hazÈrlÈklÈ olun. • Saèlam bir ayakkabÈ ve hava ëartlarÈna uygun bir ëekilde giyinin. • Güvenlièiniz için gaz kaçaèÈ ve yanÈcÈ madde sÈzÈntÈsÈ olmadÈèÈndan emin olana dek kibrit ateëlemeyin, ÈëÈklarÈ kapalÈysa açmayÈn, açÈksa söndürmeyin. • Eèer yangÈn baëlamadÈysa ve gaz kokusu alÈyor ya da patlama veya gaz kaçÈrma sesi duyuyorsanÈz bir pencere açÈn, daire içinde veya daire kapÈsÈ dÈëÈnda bulunan doèalgaz tesisat valfini mümkünse kapatÈn ve binayÈ hemen terk edin. • Bulunduèunuz yerden ayrÈlÈyorsanÈz çevrenizdekilere bilgi verin. • Acil yardÈma ihtiyaç duyarsanÈz c..."
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "question": "Deprem sırasında araç kullanıyorsam ne yapmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8721499443054199,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8714109659194946,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8691191673278809,
+          "faiss_row": 455,
+          "chunk_id": "afad_earthquake_a91a47fa75a9d5af0d78",
+          "source_file": "olagandisi.pdf",
+          "page_start": 26,
+          "page_end": 28,
+          "text_preview": "Ulaşım hatları: Ulaşım hatları bölgedeki yol, köprü, iskele, demiryolu ve demiryolu istasyonu, havaalanı ve helikopter pisti gibi unsurları kapsar. Bu noktalardaki hasarın tespit edilmesi, yardımın en erken ne zaman ve nasıl ulaşabileceğini öngörebilmek açısından önemlidir. Bu konu bölgenin tahliye edilmesi durumunda da belirleyici rol oynayacaktır. Ulaşım hatları genellikle gözlenebilir olduğundan değerlendirilmesi daha kolaydır. Örneğin çöken bir köprü veya batan bir iskele, o bölgedeki ulaşımı olumsuz etkileyecektir. Karayollarının depremde hasar görme ihtimali yüksektir. Yolların bozulmasının, köprü ve tünellerin yıkılmasının yanı sıra, yapıların çökmesiyle ortaya çıkan enkazın yolları tıkaması da büyük bir sorun yaratır. İkincil tehlikeler: Depremden sonra ikincil risklerin oluşup..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8673635721206665,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8642224073410034,
+          "faiss_row": 311,
+          "chunk_id": "afad_earthquake_02a16a39e3b84aba9972",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 44,
+          "page_end": 46,
+          "text_preview": "34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir. Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin. Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin. Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn. Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir. Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin. Onun da afet bölgesindekilerden bu tür telefonla..."
+        }
+      ]
+    },
+    {
+      "id": "Q15",
+      "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8820419907569885,
+          "faiss_row": 4682,
+          "chunk_id": "afad_earthquake_6d2311fce77cde556291",
+          "source_file": "SoruCevap-Kitapcik-2.pdf",
+          "page_start": 2,
+          "page_end": 2,
+          "text_preview": "Teknik ekipler binaların depremden kaynaklı hasarlarını dikkate alarak binalara hasar derecelendirmesi yapmaktadırlar. Binalar hasar derecesine göre nasıl sınıﬂandırılıyorlar? Binalar hasarın boyutuna göre Acil Yıktırılacak Bina, Yıkık, Ağır Hasarlı, Orta Hasarlı, Az Hasarlı ve Hasarsız olmak üzere 6 farklı hasar derecesi ile sınıﬂandırılmaktadır. Acil yıkƨrılacak binalar nasıl tespit ediliyor? Bazı katları çökmüş, yan yatmış, ötelenmiş vb. boyutta hasar görmüş ve her an can ve mal güvenliğini tehdit eder nitelikteki binalar Acil Yıktırılacak Bina olarak sınıﬂandırılmaktadır. 06. 07. 08. 09. 10. HASAR TESPİT Acil Yıkƨrılacak binalar için süreç nasıl işleyecek? Binası Acil Yıktırılacak olarak tespit edilmiş afetzedelere bu duruma ilişkin raporlar tebliğ edilmektedir. Kendilerine bu rapor..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8809382915496826,
+          "faiss_row": 739,
+          "chunk_id": "afad_earthquake_4e1e045bf6216cd30ac2",
+          "source_file": "yapisalolmayanriskler.pdf",
+          "page_start": 43,
+          "page_end": 45,
+          "text_preview": "SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 33 Yaşadığım binaya güvenmiyorum ki YORA çalışması yapsam ne fark eder? Yapısal olmayan risklere karşı önlem almak konusunda kişileri harakete geçmekten alıkoyan ya da zihinlerini meşgul eden bazı tereddütler söz konusudur. Yaşadığınız bina ile ilgili sorularınız olabilir; ancak bu, yapısal olmayan risklerinizi azaltmamanızı engellememelidir. Yaşadığımız depremlerde, özellikle 17 Ağustos 1999 Kocaeli Depremi'nde binaların ortalama %3\u00065'i tamamen yıkılmış, can kayıplarının çok önemli bir kısmı bu binalarda gerçekleşmiştir. Öte yandan depremden doğrudan etkilenen 1,5 milyon insanın yaklaşık %1'i hayatını kaybetmiştir. Geride kalan %99 gibi çok büyük bir kesim ise en çabuk şekilde, depremden önceki yaşam koşullarına kavuşmak için yaşam mücadelesi..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8800434470176697,
+          "faiss_row": 555,
+          "chunk_id": "afad_earthquake_82e4d6b364a954738577",
+          "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+          "page_start": 70,
+          "page_end": 75,
+          "text_preview": "VII. Ağır Hasara yol açan a) Birçok kişi bina açık alanlarda ayakta durmakta bile güçlük çeker. b) Mobilyalar devrilebilir. Televizyon, daktilo, vs. gibi eşyalar yere düşer. Mezar taşları yerinden oynayabilir, burulabilir veya ters dönebilir. Çok yumuşak zeminler üzerinde dalgalar gözlenebilir. c) Hasargörebilirlik sınıfı A olan binaların birçoğu 5. derece, bir kısmı ise 5. derece hasara uğramıştır. d) Hasargörebilirlik sınıfı B olan binaların birçoğu 3. derece, bir kısmı ise 4. derece hasara uğramıştır. e) Hasargörebilirlik sınıfı C olan binaların birçoğu 2. derece, bir kısmı ise 3. derece hasara uğramıştır. f) Hasargörebilirlik sınıfı D olan az sayıda bina 2. derece hasar görmüştür. IX. Yıkıcı Hasara Yol Açan a) Genel panik durumu. İnsanlar kuvvetli deprem etkisi ile yere düşebilir. b..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8794934749603271,
+          "faiss_row": 554,
+          "chunk_id": "afad_earthquake_e3378caa3b6ee2a97152",
+          "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+          "page_start": 67,
+          "page_end": 70,
+          "text_preview": "Bu operasyonun diğer amacı ise içinde barınılabilir ve kolaylıkla tamir edilebilir binaların belirlenerek kaynakların lüzumsuz operasyonlara kullanılmasını engellemektir. Benzer bir kazanım ise, bilinen bir deprem etkisi altında kalmış binaların yapısal hasarlarının elde edilerek hasargörebilirlik eğrileri ve sigorta kayıp modelleri oluşturmak için projeksiyonlar yapılabilmesidir. Deprem Sonrasi Acil Hasar Tesbiti Güçlü bir depremin nüfus yoğunluğu yüksek bölgeleri etkilemesi durumunda, binalar kimi zaman kısmi veya toptan göçmeye varan farklı derecelerde hasar görebilir. Bu hallerde, bina sorumluları ve hasar inceleme takımları hasar derecesinin, bina güvenliğinin ve kullanılabilirliğinin belirlenmesi için hızlı ve güvenilir kararlar vermek zorunda kalabilecekleri karmaşık durumlarla k..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8784940242767334,
+          "faiss_row": 625,
+          "chunk_id": "afad_earthquake_f53d732ab1d2a62435ee",
+          "source_file": "sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf",
+          "page_start": 147,
+          "page_end": 149,
+          "text_preview": "Çoğunlukla tercih edilen DSAHD’nın gösterimi, bu yönteme de iliştirilmiştir. 9.3.3 Genel Yorum DSAHD deprem etkileri altında kalmış binaların durumunun belirlenmesi için tavsiye niteliğinde bir sistemdir. Bu sistemin amacı, depremin hemen sonrasındaki acil inceleme aşamasında değerlendirme yapan kişiye, rasyonel ve üniform yol gösterici noktaları sağlayarak yardımcı olmaktır. DSAHD, inceleme yapan kişinin gözlemlerine dayanarak, hasarın ciddiyeti ve binanın oturma amaçları için kullanılabilirliği yönünden hızlı ve doğru kararların verilmesine yardımcı olmaktadır. Burada inceleme yapan kişinin yerine geçmekten çok, ona değerlendirme işleminde yol gösterici olarak, probleme yapılan mühendislik yaklaşımının doğru olmasını garanti altına almaktır. Sistem bazı koşullar için gerekli ön bilgiy..."
+        }
+      ]
+    },
+    {
+      "id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8764074444770813,
+          "faiss_row": 555,
+          "chunk_id": "afad_earthquake_82e4d6b364a954738577",
+          "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+          "page_start": 70,
+          "page_end": 75,
+          "text_preview": "VII. Ağır Hasara yol açan a) Birçok kişi bina açık alanlarda ayakta durmakta bile güçlük çeker. b) Mobilyalar devrilebilir. Televizyon, daktilo, vs. gibi eşyalar yere düşer. Mezar taşları yerinden oynayabilir, burulabilir veya ters dönebilir. Çok yumuşak zeminler üzerinde dalgalar gözlenebilir. c) Hasargörebilirlik sınıfı A olan binaların birçoğu 5. derece, bir kısmı ise 5. derece hasara uğramıştır. d) Hasargörebilirlik sınıfı B olan binaların birçoğu 3. derece, bir kısmı ise 4. derece hasara uğramıştır. e) Hasargörebilirlik sınıfı C olan binaların birçoğu 2. derece, bir kısmı ise 3. derece hasara uğramıştır. f) Hasargörebilirlik sınıfı D olan az sayıda bina 2. derece hasar görmüştür. IX. Yıkıcı Hasara Yol Açan a) Genel panik durumu. İnsanlar kuvvetli deprem etkisi ile yere düşebilir. b..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8681873083114624,
+          "faiss_row": 221,
+          "chunk_id": "afad_earthquake_fed15d29903f0a23e7af",
+          "source_file": "document-_11_.pdf",
+          "page_start": 92,
+          "page_end": 95,
+          "text_preview": "Hasar ve can kaybına neden olan büyük depremler dünya genelinde tanımlanan plaka sınırları boyunca özellikle dizilim göstermekte, bu plaka sınırlarının hareketlerinden dolayı oldukça büyük magnitüdlü depremler meydana gelmektedir. Ülkemizde Himalaya alpin dağ kuşağında yer almakta olup depremlerin sıklıkla gözlendiği bir coğrafyada bulunmaktadır (Şekil 3.3.). Şekil 3.3. Dünya Üzerindeki Hasar Yapıcı ve Can Kaybına Neden Olan Büyük Depremlerin Dağılımı. Deprem 91 Hasarlar: Depremlerin yol açtığı can kayıpları ve yaralanmalar dışında afete neden olan önemli bir boyutu da yaratmış olduğu hasarlardır. Bu hasarların sonucunda aynı zamanda depremin meydana geldiği bölgenin ekonomik göstergeleri zarar görmekte, kalkınma hareketleri de sekteye uğramaktadır. Depremler hasar açısından iki kısımda..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8610711097717285,
+          "faiss_row": 4204,
+          "chunk_id": "afad_earthquake_8862f2658a42e236bed2",
+          "source_file": "Afet-barinma-faaliyetleri.pdf",
+          "page_start": 11,
+          "page_end": 20,
+          "text_preview": "BARINMA VE YAPIM İŞLERİ GENEL MÜDÜRLÜĞÜ | 11 11 12 13 Bir bina ağır hasarlı olarak tespit edilirse ne olmaktadır? Ağır hasarlı tespit edilen binalar can ve mal güvenliği açısından hemen boşaltılmaktadır. Ancak bu tür binaların yıkımı için itiraz hasar tespit sürecinin sonlanması beklenmektedir. Bir bina ağır hasarlı olarak tespit edilirse devlet tarafından ne gibi yardımlar yapılmaktadır? Binası ağır hasarlı ya da yıkık olarak tespit edilen konut/işyeri/ahır sahipleri için hak sahipliği koşullarını sağlaması kaydıyla 7269 Sayılı Afet Kanunu kapsamında AFAD tarafından yeni konut/ahır/işyeri yapılmaktadır. Ayrıca, AFAD tarafından nakdi yardım yapılabilmekte ve geçici barınma imkânı sunulabilmektedir. Orta hasarlı bina ne demektir, nasıl tespit edilmektedir? Afet nedeniyle gördüğü hasar ba..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8595588207244873,
+          "faiss_row": 4681,
+          "chunk_id": "afad_earthquake_685b7ce07aa6922a2dcf",
+          "source_file": "SoruCevap-Kitapcik-2.pdf",
+          "page_start": 1,
+          "page_end": 2,
+          "text_preview": "AFETZEDELER İÇİN 7269 SAYILI KANUN KAPSAMINDA SORU VE CEVAPLAR T . C . İ Z M İ R V A L İ L İ Ğ İ İL AFE T VE ACİL DURUM MÜDÜRLÜĞÜ 04.11.2020 AFAD - İYİLEŞTİRME DAİRESİ BAŞKANLIĞI T . C . İ Z M İ R V A L İ L İ Ğ İ İL AFE T VE ACİL DURUM MÜDÜRLÜĞÜ T . C . İ Z M İ R V A L İ L İ Ğ İ İL AFE T VE ACİL DURUM MÜDÜRLÜĞÜ İƟraz hasar tespitleri (ikinci hasar tespitler) ne zaman yapılacak? Kesin Hasar Tespitler (İlk tespitler) bittikten ve ilan edildikten sonra 30 günlük itiraz kabul süreci başlayacaktır. Binasının hasar tespiti hiç yapılmayan, binasının hasar durumunun hatalı olduğunu düşünen ya da başka sebeplerle hasar tespitlerine itiraz eden vatandaşlarımızın 30 günlük süre içerisinde itiraz telepleri alınacaktır. İtiraz hasar tespitlerinde binaların incelenmesi için bu süre içerisinde mutlaka..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8547552227973938,
+          "faiss_row": 711,
+          "chunk_id": "afad_earthquake_52b5b145d211f82f6f04",
+          "source_file": "sozluk.pdf",
+          "page_start": 156,
+          "page_end": 158,
+          "text_preview": "idare ve yükleniciden bağımsız olarak tasarım ve yapım aşamalarında, yürürlükteki yönetmelik ve standartlara uygun imalinin sağlanmasına yönelik denetleme süreci, iş ve işlemlerinin tümü. yapı denetim laboratuvarı (İng. building construction / inspection laboratory) İnşaat ve yapı malzemeleri ile ilgili ham madde ve mamul madde üzerinde, ilgili standartlarına veya teknik şartnamelerine göre ölçüm, muayene, kalibrasyon yapabilen ve özgül ağırlık, basınç ve çekme dayanımları, kıvam limitleri gibi diğer özelliklerini tayin eden, Çevre ve Şehircilik Bakanlığının izniyle çalışan tesis. yapı denetim kuruluşu (İng. building construction, inspection corporate) 4708 sayılı Yasa ile yürürlüğe giren ve yapıların tasarım ve uygulama aşamalarında kontrolden sorumlu olan, ortaklarının tamamı mimar ve..."
+        }
+      ]
+    },
+    {
+      "id": "Q17",
+      "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8787811994552612,
+          "faiss_row": 450,
+          "chunk_id": "afad_earthquake_4f4dfce08b956cf8331d",
+          "source_file": "olagandisi.pdf",
+          "page_start": 16,
+          "page_end": 18,
+          "text_preview": "Yanan bir binadaki herkesin binayı terk etmesi, toplu tahliyeye örnek olarak verilebilir. Tahliye edilen yerler de iki türlüdür. Tahliye edilen yer, tahliye esnasında uygulanması gereken prosedürleri belirler. Bir yapının tahliyesi ile bir bölgenin tahliyesi birbirinden farklı olduğu için bu iki durumun farklı planlanması gerekir. Bina Tahliyesi Binalar insanları dış koşullardan korumak, güvenli barınma ve çalışma ortamları sağlamak amacıyla yapılır. Modern şehirlerde insanların zamanının büyük bölümü binalarda geçer; dolayısıyla binalar hem yaşam, hem çalışma, hem de sosyalleşme alanı olarak çok büyük önem taşır. Bazı afetlerde binalar, korunaklı birer barınma ve çalışma alanı olma özelliklerini yitirebilir; aksine insan yaşamına karşı tehlike oluşturabilir. Örnek olarak deprem veya ya..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.869927167892456,
+          "faiss_row": 3771,
+          "chunk_id": "afad_earthquake_db32c9500f3762921dbd",
+          "source_file": "SivasIRAP.pdf",
+          "page_start": 142,
+          "page_end": 143,
+          "text_preview": "Ayrıca, bu merkezlerde parçalanmış ailelerin birleştirilmesine yönelik çalışmaların da yapılması gerekeceği unutulmamalıdır. Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar. Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır. İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8692569136619568,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8685001730918884,
+          "faiss_row": 327,
+          "chunk_id": "afad_earthquake_f485ea324516195f79aa",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 29,
+          "page_end": 31,
+          "text_preview": "Patlama ya da yangÈn tehlikesi olmasÈ halinde, hasta/yaralÈyÈ dikkatlice olay yerinden uzaklaëtÈrmak, bunun mümkün olmadÈèÈ durumlarda ise asla yerinden kÈmÈldatmamak gerekir. Bildirme: Kendimizin ve hasta/yaralÈnÈn güvenlièini saèladÈktan sonra olayÈ/kazayÈ saèlÈkla ilgili acil yardÈm telefonunu (112) arayarak bildirmeliyiz. Acil yardÈm telefonlarÈ HéÇBéR ZAMAN gereksiz yere aranmamalÈdÈr; böylece acil yardÈma gerçekten ihtiyacÈ olan kiëiler bu telefonlarÈ aradÈèÈnda ilgili kiëilere kolayca ulaëabilirler. Kurtarma: Bir olay ya da kaza yerindeki yaralÈlara yapÈlan tüm ilkyardÈm uygulamalarÈnÈ kapsamaktadÈr. Olay yerinde birden fazla hasta/yaralÈ varsa hangisinin durumunun öncelikli olduèu çok önemlidir. Bu durumda hÈzlÈ ve doèru bir deèerlendirme, doèru ilkyardÈm uygulanmasÈnÈ ve hasta/..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8673021793365479,
+          "faiss_row": 329,
+          "chunk_id": "afad_earthquake_362624beed722576e9f3",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 34,
+          "page_end": 36,
+          "text_preview": "Bunun yanÈ sÈra öèretmenlerinin veya dièer okul görevlilerinin komutlarÈnÈ dinlemesi gerekmektedir. Durumu veya yaëÈ ne olursa olsun, görme engelli kiëinin deprem anÈnda panièe kapÈlmamasÈ önemlidir. Bunun için de deprem anÈnda hangi ortamda nasÈl hareket etmesi gerektièi konusunda tatbikatlar yapmÈë olmalÈdÈr. éëitme Engelliler éëitme engelli bir kiëi deprem anÈnda kendini korumak üzere hedef küçülterek Çök-Kapan-Tutun hareketini yapmalÈdÈr. Dièer kiëilerden farklÈ olarak iëitme engelli kiëilerin en çok dikkat etmesi gereken konu, bir yandan hedef küçültüp vücutlarÈnÈ korurken, dièer yandan gözleriyle dÈëarÈdan gelebilecek tehlikelere karëÈ sürekli alarmda olmaktÈr. Üzerlerine düëebilecek cisimler ile yÈkÈlabilecek yapÈsal olmayan elemanlar, bu kiëiler için en büyük sorunu teëkil etmek..."
+        }
+      ]
+    },
+    {
+      "id": "Q18",
+      "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.9086641073226929,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8774732351303101,
+          "faiss_row": 311,
+          "chunk_id": "afad_earthquake_02a16a39e3b84aba9972",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 44,
+          "page_end": 46,
+          "text_preview": "34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir. Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin. Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin. Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn. Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir. Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin. Onun da afet bölgesindekilerden bu tür telefonla..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8741445541381836,
+          "faiss_row": 668,
+          "chunk_id": "afad_earthquake_e87e791b1addc269e9fb",
+          "source_file": "sozluk.pdf",
+          "page_start": 7,
+          "page_end": 9,
+          "text_preview": "BAŞKAN SUNUŞU Ülkemiz, son yıllarda insani yardım ve afetlere müdahale gibi alanlarda dünya çapında başarılara imza atmıştır. Bu çerçevede kapasitemizi afet yönetiminin her safhasına yayma istek ve amacıyla yeni bir afet yönetim modeli uygulamaya konulmaktadır. Getirilen bu model ile önceliğimiz, ‘‘Kriz Yönetimi’’ yaklaşımından ‘‘Risk Yönetimi’’ anlayışına geçilmesidir. ‘‘Bütünleşik Afet Yönetimi Sistemi’’ olarak adlandırılan bu model, afet ve acil durumların sebep olduğu zararların önlenmesi için tehlike ve risklerin önceden tespitini, meydana gelebilecek zararları önleyecek veya en aza indirecek önlemlerin afet öncesinde alınmasını, afet ve acil durumlarda etkin müdahale ve koordinasyonun sağlanmasını ve afet sonrasında iyileştirme çalışmalarının bir bütünlük içerisinde yürütülmesini..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8715245127677917,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8685897588729858,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        }
+      ]
+    },
+    {
+      "id": "Q19",
+      "question": "Depremden sonra yaralı birine nasıl yaklaşmalıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8895822763442993,
+          "faiss_row": 451,
+          "chunk_id": "afad_earthquake_123dee12b6430478db8e",
+          "source_file": "olagandisi.pdf",
+          "page_start": 18,
+          "page_end": 21,
+          "text_preview": "Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8791800737380981,
+          "faiss_row": 452,
+          "chunk_id": "afad_earthquake_c796cc57ef6cac5b7325",
+          "source_file": "olagandisi.pdf",
+          "page_start": 20,
+          "page_end": 23,
+          "text_preview": "Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değe..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.8764675855636597,
+          "faiss_row": 311,
+          "chunk_id": "afad_earthquake_02a16a39e3b84aba9972",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 44,
+          "page_end": 46,
+          "text_preview": "34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir. Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin. Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin. Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn. Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir. Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin. Onun da afet bölgesindekilerden bu tür telefonla..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8759809136390686,
+          "faiss_row": 449,
+          "chunk_id": "afad_earthquake_18866261a548fe19d6e0",
+          "source_file": "olagandisi.pdf",
+          "page_start": 14,
+          "page_end": 16,
+          "text_preview": "Deprem öncesinde bu konuda gerekli önlemler alınmalıdır (bkz. Yapısal Olmayan Risklerin Azaltılması Eğitim Kitapçığı). Bunlar dışında, yapısal elemanların güçsüzlüğü ve yetersizliği de yapının deprem sırasında yıkılmasına yol açabilir; bunu engellemek için, deprem öncesinde güçlendirme çalışmaları yapılmalıdır. Deprem sırasında doğru bir şekilde korunmak ve doğru pozisyonları almak, ölüm ve yaralanmaları önlemek açısından hayati önem taşır. “Depremde doğru pozisyonu almak”, bireylerin devrilen eşyalar veya uçuşan cisimlerden korunacak ve yaralanma veya ölümü engelleyecek konumda bulunması anlamına gelir. Bunun için çok basit birkaç prensip akılda tutulmalıdır. Deprem sırasında serbest hareket eden, yapısal veya yapısal olmayan elemanlara hedef olmamak gerekir. Bu nedenle, kişi öncelikle..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8741999864578247,
+          "faiss_row": 329,
+          "chunk_id": "afad_earthquake_362624beed722576e9f3",
+          "source_file": "ilk72saatengelliler.pdf",
+          "page_start": 34,
+          "page_end": 36,
+          "text_preview": "Bunun yanÈ sÈra öèretmenlerinin veya dièer okul görevlilerinin komutlarÈnÈ dinlemesi gerekmektedir. Durumu veya yaëÈ ne olursa olsun, görme engelli kiëinin deprem anÈnda panièe kapÈlmamasÈ önemlidir. Bunun için de deprem anÈnda hangi ortamda nasÈl hareket etmesi gerektièi konusunda tatbikatlar yapmÈë olmalÈdÈr. éëitme Engelliler éëitme engelli bir kiëi deprem anÈnda kendini korumak üzere hedef küçülterek Çök-Kapan-Tutun hareketini yapmalÈdÈr. Dièer kiëilerden farklÈ olarak iëitme engelli kiëilerin en çok dikkat etmesi gereken konu, bir yandan hedef küçültüp vücutlarÈnÈ korurken, dièer yandan gözleriyle dÈëarÈdan gelebilecek tehlikelere karëÈ sürekli alarmda olmaktÈr. Üzerlerine düëebilecek cisimler ile yÈkÈlabilecek yapÈsal olmayan elemanlar, bu kiëiler için en büyük sorunu teëkil etmek..."
+        }
+      ]
+    },
+    {
+      "id": "Q20",
+      "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+      "results": [
+        {
+          "rank": 1,
+          "similarity_score": 0.8627471923828125,
+          "faiss_row": 115,
+          "chunk_id": "afad_earthquake_9665e6035ac030f1bf08",
+          "source_file": "afet_sonrasi_iyilestirme_calismalari-1.pdf",
+          "page_start": 68,
+          "page_end": 70,
+          "text_preview": "Şu anda da uygulamadaki yeri net değildir. Özellikle, 25778 sayılı resmi gazetede yayınlanan 30.03.2005 kabul tarihli, 5327 sayılı “Denizli - Buldan ve Çevresinde, Hakkari’ de, Bingöl - Karlıova ve Çevresi İle Erzurum - Çat’ da Meydana Gelen Deprem Afetlerine ve Bazı Kanunlarda Değişiklik Yapılmasına Dair Kanun” DASK’ın varlığının tamamen sorgulanmasına yol açmaktadır. Çünkü kanunun 1. Maddesinde; “Denizli İli Buldan İlçesi ve çevresinde ve Sarayköy ve Güney İlçelerinde 26.7.2003 tarihinde, Hakkari İli ve çevresinde 25.1.2005 tarihinde, Bingöl İli Karlıova İlçesi ve çevresi ile Erzurum İli Çat İlçesinde 12-14.3.2005 tarihlerinde, Adıyaman İli Çelikhan İlçesinde 26.2.2004 tarihinde, Muğla İli Akyaka Beldesinde 21.12.2004 tarihinde, Bingöl İli Yedisu ve Adaklı İlçelerinde 12-14.3.2005 tar..."
+        },
+        {
+          "rank": 2,
+          "similarity_score": 0.8608754277229309,
+          "faiss_row": 305,
+          "chunk_id": "afad_earthquake_f5add7f9ac00fe25fcc5",
+          "source_file": "ilk72saat1.pdf",
+          "page_start": 25,
+          "page_end": 29,
+          "text_preview": "Bu sigortanÈn kapsamÈnda bulunan binalar ëunlardÈr: • Tapuya kayÈtlÈ ve özel mülkiyete tabi taëÈnmazlar üzerinde mesken olarak inëa edilmië binalar • 634 sayÈlÈ Kat Mülkiyeti Kanunu kapsamÈndaki baèÈmsÈz bölümler • Bu binalarÈn içinde yer alan ve ticarethane, büro ve benzeri amaçlarla kullanÈlan baèÈmsÈz bölümler • Doèal afetler nedeniyle devlet tarafÈndan yaptÈrÈlan veya verilen krediyle yapÈlan meskenler YukarÈdaki koëullara uyan, kat irtifakÈ tesis edilmië binalar, tapuda henüz cins tahsisi yapÈlmamÈë ve tapu kütüèünde vasfÈ “arsa, vs.” olarak görünen binalar, tapu tahsisi henüz yapÈlmamÈë kooperatif evleri için de Zorunlu Deprem 1 4 2 5 3 6 16 SigortasÈ yaptÈrÈlmasÈ gerekmektedir. Henüz baèÈmsÈz tapusu olmayan meskenlerin sigortasÈ, sigorta ettirenin beyanÈna dayanarak ve arsa tapus..."
+        },
+        {
+          "rank": 3,
+          "similarity_score": 0.858341634273529,
+          "faiss_row": 3771,
+          "chunk_id": "afad_earthquake_db32c9500f3762921dbd",
+          "source_file": "SivasIRAP.pdf",
+          "page_start": 142,
+          "page_end": 143,
+          "text_preview": "Ayrıca, bu merkezlerde parçalanmış ailelerin birleştirilmesine yönelik çalışmaların da yapılması gerekeceği unutulmamalıdır. Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar. Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır. İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin..."
+        },
+        {
+          "rank": 4,
+          "similarity_score": 0.8560832738876343,
+          "faiss_row": 750,
+          "chunk_id": "afad_earthquake_07cd8e4b7ebf44b56d44",
+          "source_file": "yapisalriskler.pdf",
+          "page_start": 32,
+          "page_end": 35,
+          "text_preview": "Belediye yetkilileri tarafÈndan binanÈn projede belirtilen büyüklük sÈnÈrlarÈnda yapÈlÈp yapÈlmadÈèÈ kontrol edildikten sonra dièer katlarÈn çÈkÈlabilmesi için temel üstü ruhsatÈ alÈnÈr. • énëaatÈn tamamlanmasÈnÈn ardÈndan, inëaat kullanÈmÈ için son bir iznin daha alÈnmasÈ gerekir. YapÈ kullanÈm iznini “iskân ruhsatÈ” belirler. YapÈ denetim firmasÈnÈn son kontrollerinden sonra bina sahibi ve mimarÈn ortak dilekçesiyle belediyeye iskân izni için baëvurulur. Belediye yetkilileri son kontrolleri yaptÈktan sonra, binanÈn ve suelektrik gibi hizmetlerin kullanÈlmasÈna imkân tanÈyacak olan iskân iznini vermektedir. BinalarÈn KullanÈm Süreci Binalarda yapÈlacak tadilatlarda da tadilat projesi hazÈrlanarak belediyeden izin alÈnmasÈ gerekmektedir. Bilinçsiz yapÈlan bir tadilat bina güvenlièini te..."
+        },
+        {
+          "rank": 5,
+          "similarity_score": 0.8547199368476868,
+          "faiss_row": 225,
+          "chunk_id": "afad_earthquake_f45e34eec25f5a754a18",
+          "source_file": "document-_11_.pdf",
+          "page_start": 104,
+          "page_end": 106,
+          "text_preview": "Aynı şekilde raflı mobilyalarda alt raflara ağır, üst raflara hafif eşyaların yerleştirilmesinde fayda vardır. Acil durum çantası herkesin bildiği yerde rahatlıkla ulaşılabilir bir yerde olmalıdır. Yapısal olmayan zararların azaltılmasında bir diğer önemli konuda birey olarak önceden hazırlıklı olarak acil durum planımızı yapmamız gereklidir. Evimiz için aile fertleriyle, çalıştığımız yerde işyeri çalışanlarıyla, okulda öğrenci ve öğretmenlerle birlikte bir araya gelerek bir deprem anında bulunduğumuz ortamda nasıl hareket edeceğimizi, kaçış yollarının nasıl olacağını ve yapıdan uzaklaştıktan sonra nerede toplanacağımızı belirlemeli acil durum planlarını hazırlamalıyız. Bu planları en az 2 senede bir gözden geçirmeli ve tatbikatlarla sürekliliğini sağlamalıyız. 3.4. Eşyaların Sigortalan..."
+        }
+      ]
+    }
+  ]
+}

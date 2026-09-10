@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q01",
+    "question": "Deprem sırasında evin içindeysem ne yapmalıyım?"
+  },
+  {
+    "id": "Q02",
+    "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?"
+  },
+  {
+    "id": "Q03",
+    "question": "Depremden sonra hasarlı binaya tekrar girebilir miyim?"
+  },
+  {
+    "id": "Q04",
+    "question": "Deprem sırasında asansör kullanmalı mıyım?"
+  },
+  {
+    "id": "Q05",
+    "question": "Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?"
+  },
+  {
+    "id": "Q06",
+    "question": "Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?"
+  },
+  {
+    "id": "Q07",
+    "question": "Depremden sonra telefonla yakınlarımı aramalı mıyım?"
+  },
+  {
+    "id": "Q08",
+    "question": "Enkaz altında kalırsam ne yapmalıyım?"
+  },
+  {
+    "id": "Q09",
+    "question": "Deprem sonrası artçı sarsıntılarda ne yapmalıyım?"
+  },
+  {
+    "id": "Q10",
+    "question": "Deprem çantasında neler bulunmalı?"
+  },
+  {
+    "id": "Q11",
+    "question": "Depremden sonra nereye gitmeliyim?"
+  },
+  {
+    "id": "Q12",
+    "question": "Toplanma alanı nedir?"
+  },
+  {
+    "id": "Q13",
+    "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?"
+  },
+  {
+    "id": "Q14",
+    "question": "Deprem sırasında araç kullanıyorsam ne yapmalıyım?"
+  },
+  {
+    "id": "Q15",
+    "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?"
+  },
+  {
+    "id": "Q16",
+    "question": "Ağır hasarlı bina ne demektir?"
+  },
+  {
+    "id": "Q17",
+    "question": "Depremden sonra tahliye nasıl yapılmalıdır?"
+  },
+  {
+    "id": "Q18",
+    "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?"
+  },
+  {
+    "id": "Q19",
+    "question": "Depremden sonra yaralı birine nasıl yaklaşmalıyım?"
+  },
+  {
+    "id": "Q20",
+    "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?"
+  }
+]

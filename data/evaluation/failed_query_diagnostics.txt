@@ -1,0 +1,601 @@
+================================================================================
+Q04
+Soru: Deprem sırasında asansör kullanmalı mıyım?
+Keywords: asansör, lift
+Candidate chunks: 19
+
+Match 1
+chunk_id: afad_earthquake_65dd84d97800594976c1
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 16-17
+source_relevances: uncertain
+matched_terms: asansör, lift
+text: Emergency Call Management: Emergency Call Management is the comprehensive process of sorting, analyzing, and transferring incoming calls to emergency call centers to the appropriate units, as well as monitoring the entire response process. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Çıkış: Afet ve acil durumlar sırasında insanların binayı hızlı ve güvenli bir şekilde terk edebilmesini sağlamak amacıyla önceden belirlenmiş, açıkça işaretlenmiş ve her zaman erişilebilir durumda olan çıkış yoludur. Emergency Exit: An Emergency Exit is a pre-designated, clearly marked, and always accessible route designed to enable people to quickly and safely evacuate a building during disasters and emergencies. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Durum: Toplumun tamamının veya belirli kesimlerinin normal yaşam faaliyetlerini durduran...
+
+Match 2
+chunk_id: afad_earthquake_85e7807dd21a68f04cf4
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 84-85
+source_relevances: relevant, uncertain
+matched_terms: asansör
+text: Decontamination: A cleaning process applied to individuals, vehicles, equipment, buildings, and areas to minimize the effects of chemical, biological, radioactive, and nuclear contaminants. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Arıtma: Atık su veya içinde istenmeyen kimyasallar barındıran suyun, kirliliğe neden olan yabancı maddelerden arındırılması için fiziksel, kimyasal ve biyolojik yöntemlerle gerçekleştirilen bir işlemdir. Purification: A process that removes contaminants and unwanted chemicals from wastewater or polluted water using physical, chemical, and biological methods to reduce pollution and make the water cleaner. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Artçı Deprem: Ana depremden sonra meydana gelen daha küçük ölçekli depremlerdir. Artçı depremler, ana depremin etkileriyle birlikte meydana gelir ve genellikle...
+
+Match 3
+chunk_id: afad_earthquake_6342c15a69f8473cc3c6
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 48-49
+source_relevances: relevant, uncertain
+matched_terms: lift
+text: It features a sturdy frame, thick fabric, and insulation layers, and is used during disasters and emergencies, particularly for long-term accommodation needs. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Ağır İş Makinaları: Afet sonrası arama kurtarma, enkaz kaldırma, yol açma, tahliye, geçici alt yapı kurma ve lojistik destek gibi faaliyetlerde kullanılan, yüksek taşıma ve kaldırma kapasitesine sahip mekanik araçlardır. Bu makinalar afetin etkilerini azaltmak, müdahaleyi hızlandırmak ve iyileştirme sürecini desteklemek için görev alırlar. Heavy Construction Machinery: They are mechanical vehicles with high carrying and lifting capacity that are used in activities such as search and rescue, debris removal, road opening, evacuation, temporary infrastructure building and logistic support after disasters. These machines are used to reduce the effects of the disaster, accelerate the response and support the recov...
+
+Match 4
+chunk_id: afad_earthquake_f0fdfe3d42d2cf11a71b
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 372-374
+source_relevances: uncertain
+matched_terms: lift
+text: Megaton of TNT: It is the energy released by the explosion of about one million tons of TNT. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Mekanik Çekici: Araç kurtarma ve enkaz açma işlemlerinde kullanılan, yüksek basınçla çalışan hidrolik açma ve çekme ekipmanıdır. Mechanical Tow Truck: It is a high-pressure hydraulic opening and pulling equipment used in vehicle rescue and wrecking operations. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · 372 MN AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Mekanik Destek: Enkazda destekleme yapmak için kullanılan yüksekliği ayarlanabilir mekanik sistemlerdir. Mechanical Support: Height-adjustable mechanical systems used to support debris. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Mekanik Ek...
+
+Match 5
+chunk_id: afad_earthquake_ad59003d5964891c6eab
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 297-298
+source_relevances: uncertain
+matched_terms: lift
+text: Hem taze cesetler hem de eski kalıntılar üzerinde çalışabilirler. Köpekler, enkaz altında, ormanlık alanlarda ve su yüzeyi üzerinde yayılan bu kokuları algılayarak arama yapabilirler. Cadaver Dog: It is a search by dogs specially trained to detect human remains or post-mortem odors. They can work on both fresh bodies and old remains. Dogs can search under debris, in forested areas and on the surface of water by detecting these odors. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kafa Lambası: Arama ve kurtarma operasyonlarında, özellikle gece çalışmalarında veya kapalı alanlarda kullanılan, baret üzerine sabitlenen taşınabilir aydınlatma cihazıdır. Head Lamp: It is a portable lighting device that is fixed on the hard hat and used in search and rescue operations, especially in night work or in confined spaces. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·...
+
+Match 6
+chunk_id: afad_earthquake_d9205c27e0200183638f
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 153-154
+source_relevances: relevant, uncertain
+matched_terms: asansör
+text: 152 CÇ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Avalanche Rescue: A specialized intervention involving techniques to rapidly and effectively rescue avalanche survivors. The first 15–30 minutes are critical as timely intervention significantly increases survival rates. The structure of the snow is assessed to avoid secondary avalanches, safe working areas are established, and rescuers treat hypothermia and arrange urgent evacuation by air ambulance when needed. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Çığda Tabakaları Arası Kayma: Kar tabakaları arasındaki sürtünme kaybı nedeniyle meydana gelen kristal yapıların veya nem oranlarının bir araya geldiği sınır tabakalarda görülen ve çığların başlangıcında oluşan yatay hareketlenmedir. Interlayer Shear in Avalanche: It is the horizontal movement that occurs at the beginning of avalanches and is seen in the boundary layers...
+
+Match 7
+chunk_id: afad_earthquake_9bcd4432b49f78c9c901
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 359-360
+source_relevances: uncertain
+matched_terms: lift
+text: Moving pulleys reduce the force required, making survivor evacuation, heavy load handling, and rope tensioning more efficient and safe. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kurtarma Operasyonlarında Dayanıklılık Yönetimi: Uzun süren kurtarma faaliyetlerinde performans kaybını önlemek amacıyla uyku, su, beslenme ve dinlenme gibi ihtiyaçları içeren planlama ve uygulama sürecidir. Bu düzenli periyotlar, aşırı yorgunluk ve dikkatsizlikten kaynaklanan kazaların önlenmesini sağlar. Resilience Management in Rescue Operations: A planning and implementation process that includes addressing sleep, hydration, nutrition, and rest needs to prevent performance decline during prolonged rescue operations. These regular intervals help avoid accidents caused by extreme fatigue and inattention. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kurtarm...
+
+Match 8
+chunk_id: afad_earthquake_c972d065aac6ecc85018
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 204-205
+source_relevances: relevant, uncertain
+matched_terms: asansör
+text: It offers an environmentally friendly, fast and sustainable solution in transportation. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Elektromanyetik Puls: Özellikle nükleer patlamalar sonrasında oluşan, kısa süreli ancak yüksek şiddetli elektromanyetik dalgalanmalardır. Bu dalgalar, elektronik cihazlarda ani voltaj artışlarına neden olarak devrelerin bozulmasına, sistemlerin çalışamaz hale gelmesine ve geniş çaplı iletişim ve enerji kesintilerine yol açabilir. Askeri, endüstriyel ve acil durum planlamalarında önemli bir tehdit unsuru olarak değerlendirilir. Electromagnetic Pulse: They are short-term but high-intensity electromagnetic fluctuations that occur especially after nuclear explosions. These waves can cause sudden voltage spikes in electronic devices, leading to circuit failure, systems becoming inoperable, and widespread communication and power outages. It is considered as an important threat element...
+
+Match 9
+chunk_id: afad_earthquake_92ed2c22ab6eb876ac6b
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 447-448
+source_relevances: uncertain
+matched_terms: lift
+text: 446 QRSŞ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Sanitasyon: Afet ve acil durum durumlarda insanların yaşamlarını sağlıklı sürdürmeleri için gerekli olan temel hijyen ve çevresel temizlik hizmetlerinin tümüdür. Sanitation: It is all of the basic hygiene and environmental cleaning services that are necessary for people to maintain their lives healthy in disaster and emergency situations. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Sanitasyon Çadırı: Altyapının yetersiz kaldığı afet ve acil durumlarda temel hijyen ihtiyaçlarının karşılanması amacıyla kullanılan taşınabilir çadır tipidir. Sanitation Tent: It is a portable tent type used to meet basic hygiene needs in disasters and emergencies where infrastructure is insufficient. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Sapan: Çelik halatlar, z...
+
+Match 10
+chunk_id: afad_earthquake_7677c497f356ed494f5f
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 408-410
+source_relevances: relevant, uncertain
+matched_terms: lift
+text: Knitted Fence: It is a type of wall made of bushes, reeds, tree branches, etc. to prevent the soil from moving on loose rotten slopes. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Örtü Yangını: Çalılık, fundalık, çayırlık gibi bitki örtüsüne sahip alanlarda meydana gelen yangınlardır. Genellikle kuraklık, yıldırım, kundaklama, 408 OÖP AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ sigara izmariti gibi sebeplerle başlar ve rüzgâr, sıcaklık, nem, bitki yapısı gibi faktörlerle yayılır. Çalı yangınları hem insanlara hem de doğaya zarar verebilir. Cover Fire: These are fires that occur in areas with vegetation such as bushes, heaths and meadows. They usually start due to drought, lightning, arson, cigarette butts and spread due to factors such as wind, temperature, humidity and plant structure. Bush fires can harm both people and nature. · · · · · · · · · · · · · · · · · · · · · ·...
+
+================================================================================
+Q06
+Soru: Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?
+Keywords: doğalgaz, doğal gaz, gaz kokusu, gaz kaçağı, vana
+Candidate chunks: 484
+
+Match 1
+chunk_id: afad_earthquake_141e1fd782976866b1bd
+source_file: Ardahan-IRAP.pdf
+pages: 39-43
+source_relevances: uncertain
+matched_terms: doğalgaz, doğal gaz, vana
+text: Gerekli görülen yerlerde klorlama işlemi yapılmaktadır. Tablo 1.23 Ardahan ili altyapı durumu. Belediyesi İçme Suyu Hattı (km) Yağmur Suyu Hattı (km) Kanalizasyon Hattı (km) Atıksu Tesisi Atıksu Deşarj Yeri Merkez 180 8 120 Var Kura nehri Göle Çıldır Damal 30 0 33 Yok Çaybaşı mah. Dere mevkii Hanak 50 20 Posof 36 7 Köprülü 37 1.5.3.2 Çöp Toplama ve Depolama İlimiz merkez ve ilçelerinde çöp sahaları Vahşi Depolama yöntemi ile depolandığından insan ve çevre sağlığı açısından uygun bulunmamaktadır (İl Sağlık Müdürlüğü). 1.5.3.3 Haberleşme Altyapısının Durumu Tablo 1.24 Türk Telekom haberleşme altyapı bilgileri (Türk Telekom İl Müdürlüğü). Yeri Baz İstasyonu İnternet Altyapı Miktarı Sabit Hat Miktarı Merkez 18 5.534 5.293 Göle 8 1.888 1.616 Çıldır 4 974 940 Damal 3 568 535 Hanak 2 985 1.006 Posof 5 979 1.125 T.C. ARDAHAN VALİLİĞİ 40 Tablo 1.25 Elektrik şebeke büyüklükleri (Aras Edaş Ardahan İşletme Müdürlüğü). İlçe Belde, Köy ve Köy Bağlısı Sayısı Trafo Sayısı Hat Uzunluğu (km) Direk Sa...
+
+Match 2
+chunk_id: afad_earthquake_a1fb6733163708c8b437
+source_file: CANKIRI_IRAP.pdf
+pages: 41-44
+source_relevances: uncertain
+matched_terms: doğalgaz, doğal gaz, vana
+text: T.C. ÇANKIRI VALİLİĞİ 41 40 km uzaklıkta Esenboğa Havalimanına 65 Km, Ankara’ya 85 km E80 Karayoluna 50 Km uzaklıkta, Kırıkkale 90 km,Çorum 190 Km, Kastamonu 150 Km, Samsun Limanı 355 km, Karabük 135 km, İstanbul’a yaklasık 420 km mesafede yer almaktadır. 1.4.2.2.4. Çerkeş OSB Çerkeş OSB 200 ha Alana sahip ve 10 firma ile karma Osb türünde faaliyet göstermektedir Çankırı merkeze 120 km uzaklıktave aktifolarak. Esenboğa Havalimanına 120 km Ankara’ya 150 km, İstanbul’a 350 km, Samsun Liman’ına 350 km, Filyos limanı’na 170 km E80 karayolu’na 100 m ve Karabük iline 70 km mesafede yer almaktadır. 1.4.2.2.5. Kurşunlu OSB Kurşunlu OSB henüz kuruluş aşamasında olmakla beraber kısa süre içerisinde faaliyete geçecektir. 1.5. Ulaşım ve Altyapı Durumu 1.5.1. Kara Yolu Ağı Çankırı İli kuzeyinden güneye geçen Devlet yolu, kuzeyde Kastamonu, güneyde Ankara ile bağlantıyı sağlar.Bu yol ile Ilgaz ilçesinde keşisen bir diğer Devlet yolu da Bolu'nun Gerede ilçesinden gelen ve İsmetpaşa'da ayrıldıktan...
+
+Match 3
+chunk_id: afad_earthquake_971dc14d9e5e6d082085
+source_file: Gaziantep-IRAP.pdf
+pages: 94-96
+source_relevances: relevant, uncertain
+matched_terms: doğalgaz, doğal gaz, vana
+text: 88 HEDEF 5 Kritik altyapıları güvenli kılmak A1-H5-1 İslahiye İlçesi Fevzipaşa mahallesinde bulunan trafo merkezi tesislerinin deprem performans analizleri yapılacak Deprem TEİAŞ 12. Bölge Müdürlüğü Üniversiteler, İlgili Meslek Odaları 2022-2025 A1-H5-2 Nurdağı ve İslahiye İlçelerinde trafoların deprem bağları kontrol edilecek, eksik olan deprem bağlarının takılacak Deprem Toroslar EDAŞ Gaziantep İl Müdürlüğü Nurdağı Bel., İslahiye Bel. 2022-2025 A1-H5-3 Gaziantep Havalimanı bünyesinde deprem bilgi altyapısı oluşturulacak Deprem DHMİ Gaziantep Havalimanı Başm. Büyükşehir Bel., Çevre ve Şeh. İl Müd., İl Afet ve Acil Durum Müd. 2022-2023 A1-H5-4 Gaziantep İline içme suyu sağlayan Kartalkaya Barajı, Düzbağ Regülatörü, Mizmilli Kuyuları tesislerinin ve isale hattının, Pazarcık fayında meydana gelmesi muhtemel büyük depremden olumsuz etkilenmemesi için proje geliştirilecek Deprem GASKİ Büyükşehir Belediyesi, DSİ 20. Bölge Müd., MTA, TÜBİTAK 2022-2024 A1-H-5 Toplanma Alanı ve Barınma Alan...
+
+Match 4
+chunk_id: afad_earthquake_a5bbdea7fd1d61327745
+source_file: Kilis_IRAP.pdf
+pages: 48-52
+source_relevances: relevant, uncertain
+matched_terms: doğalgaz, doğal gaz
+text: Şekil 16 Kilis – Musabeyli Trafo Konumları T.C. K İ L İ S VA L İ L İ Ğİ 49 Kilis – Musabeyli Trafo Konumları yukarıda belirtilmiştir. Kurumumuz arşivlerinde ilgili haritanın (.kmz) formatında örneği bulunmaktadır. Şekil 17 Elbeyli – Polateli Ana Kablo Hattı Elbeyli – Polateli Ana Kablo Hattı yukarıda belirtilmiştir. Kurumumuz arşivlerinde ilgili haritanın (.kmz) formatında örneği bulunmaktadır. T.C. KİLİS VALİLİĞ İ 50 Şekil 18 Elbeyli – Polateli Trafo Konumları Elbeyli – Polateli Trafo Konumları yukarıda belirtilmiştir. Kurumumuz arşivlerinde ilgili haritanın (.kmz) formatında örneği bulunmaktadır. İçme Suyu Altyapısı 2014 yılında yapımı tamamlanan içme suyu şebeke hattı komple yenilenmiştir.(polietilen boru), Akpınar ve Resul Osman Mevkide depo ve sondaj kuyuları bulunmaktadır.(Kilis Belediyesi 1024 sayı ve 22.01.2021 tarihli yazı) İçme ve Kullanma suyu arıtma tesisi ile hizmet verilen belediye nüfusunun toplam belediye nüfusuna oranı (%) 95 dir. 2011 yılında Suriye'de başlayan iç...
+
+Match 5
+chunk_id: afad_earthquake_5563bf7773e75046d813
+source_file: irap_istanbul.pdf
+pages: 91-95
+source_relevances: relevant, uncertain
+matched_terms: doğalgaz, doğal gaz
+text: Atık Su Boru Hatlarının İlçelere Göre Dağılımı (İSKİ, 2020) İstanbul’da, günlük arıtma kapasitesi yaklaşık 6 milyon metreküp olan toplam 90 adet atık su arıtma tesisi bulunmaktadır. İSKİ bünyesinde olan bu tesislerin, 11’i ileri biyolojik, 64’i biyolojik, 8’i ön arıtma, 6’sı biyolojik paket ve 1’i de doğal bitkisel atık su tesisidir. 1.5.3.2. Doğal Gaz İstanbul’da nüfusun yaklaşık %99’u doğal gaz kullanmakta, şehirde doğal gaz giriş noktası olan 14 RMS-A istasyonu bulunmaktadır. Şehre 70 bar basınçla giriş yapan doğal gazın basıncı RMS-A istasyonlarında 20 bara düşürülmektedir. Bu istasyonlarda el ile ve otomatik gaz kesme sistemleri bulunmaktadır. 91 Şekil 1.33. İstanbul Doğalgaz Boru Hattı Haritası Doğal gaz hatlarının güzergahları zemin ve risk açısından incelenmekte, gerekli noktalarda özel uygulamalar yapılmak suretiyle önleyici tedbirler İGDAŞ tarafından alınmaktadır. Doğal gaz hatlarında yüksek mukavemetli çelik borular kullanılmaktadır. Doğal gaz boru hattı kaynakları sertif...
+
+Match 6
+chunk_id: afad_earthquake_b5cad469ddccee1367b8
+source_file: ESKISEHIR-IRAP.pdf
+pages: 41-43
+source_relevances: uncertain
+matched_terms: doğalgaz, doğal gaz
+text: Bölge Müdürlükleri sınırları içerisinde bulunan devlet ve il yollarındaki Karayolu Kontrol Kesimi (KKK) noktalarında sabit, seyyar ve özel olmak üzere taşıt trafik ölçümleri yapılmaktadır. Karayolları 4. Bölge Müdürlüğü ve 14. Bölge Müdürlüğünün yetki ve sorumluluğundaki devlet ve il yollarında otomatik taşıt sınıflandırma yöntemi (OTSS) ile yapılan sayımlara göre 2020 yılına ait, Eskişehir ili devlet yollarındaki yıllık taşıt sayısı 1.794.919, il yollarındaki yıllık taşıt sayısı 242.528 olmak üzere toplam yıllık taşıt sayısı 2.037.447’ dir.11 1.5.2. Diğer Ulaşım Biçimleri ve Ulaşım 1.5.2.1. Demiryolu Ağı Eskişehir, ülke demiryolu sisteminin en önemli kavşak noktalarındandır. Ankara ve tüm Anadolu’ya bağlantılıdır. Merkezi garlar arasındaki mesafeler Eskişehir-Ankara 264 km, Eskişehir-Haydarpaşa 375 km, Eskişehir-Afyon 162 km dir. Eskişehir-Ankara arası Yüksek Hızlı Tren ile seyahat 1,5 saat, Eskişehir-Konya arası Yüksek Hızlı Tren ile seyahat 2 saat, Eskişehir-İstanbul arası Yüksek...
+
+Match 7
+chunk_id: afad_earthquake_a0d5053073caa668cb42
+source_file: bilecik_irap_2023.pdf
+pages: 63-70
+source_relevances: uncertain
+matched_terms: doğalgaz, doğal gaz
+text: Şekil 1. 20: Bilecik İli Altyapı Durumu (BEBKA MSPR,2018) 1.5.2.1 Doğalgaz Hattı 2017 Yılı Sonu İtibariyle Doğal Gaz İl ve Dağıtım Şirketi bazında Abone ve Serbest Tüketici Sayısının Dağılımı incelendiğinde abone sayısı 49.181, serbest tüketici sayısı 2.611’dir (EPDK Doğalgaz Piyasası Sektör Raporu, 2017). Ulusal doğalgaz tüketim miktarının illere göre dağılımına göre İlimizde, boru gazı 524,454; LNG 1,505; CNG 0,370 olmak üzere toplam 526,331 milyon sm³ doğalgaz tüketimi gerçekleşmiştir (EPDK Doğalgaz Piyasası Sektör Raporu, 2019). Tablo 1. 51:Bilecik İli Doğalgaz Şebeke Büyüklükleri İL/İLÇE ADI Şehir Giriş İstasyonu (adet) Bölge Regülatörü (adet) Çelik Hat (km) Polietilen Hat (km) Servis Hattı (km) Servis Kutusu (adet) BİLECİK 1 6 17,5 129,3 49,0 4798 BAYIRKÖY 0 1 8,4 8,8 3,9 348 BOZÜYÜK 1 4 51,9 186,3 68,8 8323 GÖLPAZARI 1 2 23,1 41,3 16,6 1632 60 OSMANELİ 1 2 13,7 56,5 25,2 2636 PAZARYERİ 1 2 7,8 31,3 12,6 1628 SÖĞÜT 1 2 33,7 36,7 14,7 1689 VEZİRHAN 1 2 2,7 15,9 7,1 616 TOPLAM 7...
+
+Match 8
+chunk_id: afad_earthquake_fa10fdb5314e4a4e4377
+source_file: Gaziantep-IRAP.pdf
+pages: 34-37
+source_relevances: relevant, uncertain
+matched_terms: doğalgaz, doğal gaz
+text: Tablo 1.’de belirtilen TEİAŞ Trafo merkezlerinden (bkz. Tablo 10) iletilen elektrik enerjisi; Adana, Gaziantep, Hatay, Kilis, Mersin, Osmaniye illerini kapsayan bir sorumluluk bölgesinde çalışan Toroslar Elektrik Dağıtım A.Ş. tarafından son kullanıcılara kadar dağıtılmaktadır. (Toroslar EDAŞ Gaziantep İl Müdürlüğü) Üretim santralleri bakımından 536 MW lisanslı, 167 MW lisanssız kurulu güç ile Türkiye’nin toplam kurulu gücünün yaklaşık %1’ine tekabül eden üretim kapasitesi (kurulu gücü) bulunmaktadır. Aylık ortalama 81.969 MWh lisanslı ve 21.878 MWh lisanssız olmak üzere toplam 103.847 MWh elektrik üretimi yapılmakta ve bu da Türkiye’nin ortalama aylık üretiminin %0,4’üne tekabül etmektedir. (EPDK Aylık ve Yıllık Sektör Raporları 2019 Aralık-2020 Kasım Verileri). 1.5.4.3.Kanalizasyon ve Yağmursuyu Drenaj Altyapısı Gaziantep İlinde 2.590 km Kanalizasyon ve 446 km yağmur suyu şebekesi mevcuttur. (GASKİ 2021) Günümüzde GASKİ tarafından kentten toplanan tüm atık sular arıtma tesisinde ar...
+
+Match 9
+chunk_id: afad_earthquake_e78385c23154225bde8d
+source_file: ARTVIN-IRAP-SON_22102021.pdf
+pages: 56-59
+source_relevances: uncertain
+matched_terms: doğalgaz, doğal gaz
+text: 2022 yılının başında hizmete girmesi öngörülen yıllık 3 milyon yolcu kapasitesine sahip olacak Rize-Artvin Havalimanı, Pazar ilçesine bağlı Yeşilköy Mevkiinde inşa edilmektedir. Demiryolu ile ulaşım için ise en yakın 226 km ile Erzurum, 209 km ile Kars İlleridir. 1.5.3 Ana Yaşam Hatları 1.5.3.1 Şebekesinin Durumu İlimizde 9 adet belediye bulunmakta ve tüm belediyelerde içme suyu şebekesi bulunmaktadır. 2019 yılında ilde içme ve kullanma suyu şebekesi ile hizmet verilen belediye nüfusu 101.834’tür. Yeraltı ve yüzeysel sular için arıtma tesisi mevcut olup fiziksel arıtma yapılmaktadır. 2019 yılı içerisinde 4.125.219 m3/yıl su arıtılmıştır. Borçka ilçesinde içme suyu temin ihtiyacı Düzköy Köyü Mevkiinde bulunan Balıklı Deresi üzerindeki Kameni Su Tesisinden kaynaklanmaktadır. Halen işlev görmekte olan mevcut tesiste ince ve kaba ızgara, kum tutucu, havalandırma, çöktürme tankı, yavaş kum filtresi ve dezenfeksiyon üniteleri bulunmaktadır. Arıtma tesisinin kapasitesi 550.000 m3/yıl’dır....
+
+Match 10
+chunk_id: afad_earthquake_310c2284d94a8002ce48
+source_file: KIRKLARELI-IRAP.pdf
+pages: 24-28
+source_relevances: uncertain
+matched_terms: doğalgaz, doğal gaz
+text: 20 1.2.4 İlin İklim Durumu ve Doğal Enerji Kaynakları 1.2.4.1 İklim Kırklareli ikliminin oluşumunda Karadeniz’in ve Yıldız (Istranca) Dağları’nın büyük etkisi vardır. Bu nedenle iklim yöresel olarak değerlendirildiğinde iki farklı yapı göstermektedir. Yıldız Dağları’nın kuzeye bakan kesimlerinde Karadeniz iklimi görülür. Dolayısıyla kıyı kesimlerinde yazlar serin, kışlar soğuk ve hemen her mevsim yağışlıdır. Denizden uzak iç kesimlerde ise karasal iklim görülür. Ergene Havzası’nda olan bu kısımda yazlar sıcak ve kurak, kışlar soğuk ve kar yağışlı geçer. Ancak ısı farkı seneden seneye farklılık gösterir. Bazı yıllarda kış ayları Orta Anadolu’dan daha sıcak, bazı yıllarda ise Doğu Anadolu’dan bile soğuk geçer. Bunun esas nedeni bölge ikliminin, Orta Avrupa’nın karasal iklimi ile Karadeniz, Akdeniz ve Marmara iklimlerinin karışımından oluşmasıdır. Yıllık ortalama yağış miktarı 583 mm’dir. Yıldız Dağları’nın nemli ve serin rüzgârlara açık kuzey yamaçlarında yağış miktarı yüksektir. Dağı...
+
+================================================================================
+Q09
+Soru: Deprem sonrası artçı sarsıntılarda ne yapmalıyım?
+Keywords: artçı, artçı sarsıntı, artçı deprem
+Candidate chunks: 109
+
+Match 1
+chunk_id: afad_earthquake_6630b9d40af3446ef59c
+source_file: Kayseri_IRAP_Baski.pdf
+pages: 62-65
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: 1998). Kızılırmak-Erkilet Fay Segmenti’nin kuzeydoğu bölümü, Tersiyer yaslı Sivas havzası ve Kırsehir bloğuna ait Mesozoyik öncesi metamorfik kayaçlarla tektonik bir sınır oluşturmaktadır. Fay segmentinin güneybatı bölümü ise Orta Miyosen-Alt Pliyosen yaslı 60 Kapadokya volkanik platosu kayaçlarını kesmekte ve Tuzla gölü ve Erciyes havzalarının batı bölümünü kontrol etmektedir. Kızılırmak-Erkilet Fay Segmenti, İncesu ilçesi yakınlarında, güneye doğru yaklaşık 450-500 lik bir dönüş yaparak, yaklaşık K-G doğrultusunda uzanarak Yeşilhisar fay segmentine birleşmektedir (Koçyigit ve Erol 2001). Erkilet batısında da ovayı sınırlayarak devam etme olasılığı olan fay zonunda litolojinin de etkisiyle heyelanlar gelişmiştir (Saroglu vd. 1987). Türkiye’nin en büyük nehirlerinden biri olan Kızılırmak nehri Kızılırmak-Erkilet fayına paralel çıkar. Kızılırmak-Erkilet fayının belirteçleri; akarsu yatakları, fay boyunca paralel tepeler ile derin uzun topografik çukurluklar, faya paralel alüvyon yelp...
+
+Match 2
+chunk_id: afad_earthquake_808cc58e348bdf44695b
+source_file: VAN-IRAP.pdf
+pages: 46-49
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: Van’ın depremselliği konusunda yapılan birçok araştırmanın yanında bölgenin geçmişte yaşadığı deprem deneyimlerinden de edindiği önemli bilgi ve veri arşivlerde bulunmaktadır. Cumhuriyet öncesi dönemlerde her ne kadar bölgede meydana gelen depremler aletsel olarak sağlıklı bir şekilde ölçülememiş olmakla birlikte bu depremlere ait bir takım kayıtlara ulaşılabilmekte ve depremlerin yarattığı etkiler konusunda ipuçları yakalayabilmek mümkün olmaktadır. Bölgede geçmişte de insan yerleşimlerinin merkezi olan Van ili bu anlamda birçok depremi güçlü bir şekilde hissetmiş ve kimi zaman da hasar aldığı kayıtlara geçmiştir. Van ili ve çevresinde aletsel dönem içerisinde (1900-2020) büyüklükleri 5.0’dan fazla olan 48 deprem kayıt edilmiştir. 1903 Malazgirt depremi (Mw 6.3), 1930 Salmas (İran) depremi (Mw 7.6), en büyüğü Mw 5.2 olan Van bölgesini etkileyen 1945 deprem serisi, Erciş, Kocapınar ve Bayramlı civarında hasara neden olan 1968 Erciş depremi (Mw 5.3), 1976 Çaldıran depremi (Mw 7.3), 1...
+
+Match 3
+chunk_id: afad_earthquake_04dac18754892408dc22
+source_file: MANISA-IRAP.pdf
+pages: 94-98
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: 88 Sarıgöl’ün GD’su ile Denizli-Buldan arasında kalan kesim de sismojenik olarak aktif zonları işaret etmektedir. Bu kesimler bir ya da birkaç fay denetiminde harekete geçme potanisyeline sahip olan fay sistemleri ile çevrilidir (Şekil 2.12). Şekil 2. 12 1990 yılı sonrasını kapsayan son 30 yıllık dönemde Manisa İl’i ve yakın çevresinde meydana gelen ~74.000 depremin büyüklük aralığı olmaksızın tek renk olacak şekilde konumsal dağılımının gösterimi (Deprem verileri AFAD deprem web sayfasından alınmıştır). 1979-2020 yılları arasında Manisa İl’i ve yakın çevresinde meydana gelen, büyüklükleri 4.3 ile 6.0 arasında değişen 25 depreme ait odak mekanizması çözümü incelendiğinde, üç tanesi haricinde depremlerin büyük çoğunluğun normal ya da baskın normal bileşene sahip fay sistemleri tarafından üretildiğini ortaya koymaktadır (Şekil 2.13). 89 Şekil 2. 13 1979-2020 yılları arasında Manisa İl’i ve yakın çevresinde meydana gelen, büyüklükleri 4.3 ile 6.0 arasında değişen 25 depreme ait odak me...
+
+Match 4
+chunk_id: afad_earthquake_c7d23785b823b1b1a6a1
+source_file: Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+pages: 73-74
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: AFAD 226 435989 2019-03-31T11:30:15 29.3938 37.4725 4.9 Mw Acıpayam (Denizli) 10.3 Km. AFAD 227 435991 2019-03-31T11:45:32 29.3721 37.5031 4.1 Ml Acıpayam (Denizli) 7.01 Km. AFAD 228 436094 2019-04-01T01:49:29 29.3573 37.4785 4.5 Mw Acıpayam (Denizli) 7.67 Km. AFAD 229 436556 2019-04-04T15:01:18 29.3365 37.4646 4.3 Mw Acıpayam (Denizli) 7.17 Km. AFAD 230 444580 2019-08-08T11:19:35 29.614 37.828 4.2 Ml Bozkurt (Denizli) 17.7 Km. AFAD 231 444581 2019-08-08T11:25:30 29.584 37.851 6 Mw Bozkurt (Denizli) 10.92 Km. AFAD 232 453046 2019-11-26T20:03:24 29.6411 37.843 4 Mw Çardak (Denizli) 7 Km. AFAD 233 493311 2021-01-12T06:30:35 29.202 37.7028 4 Mw Pamukkale (Denizli) 7.24 Km. AFAD 234 497508 2021-03-15T01:55:48 28.7508 37.1326 4.2 Mw Menteşe (Muğla) 6.94 Km. AFAD Laodikya M.S. 60 yılında meydana gelen depremle yıkılmış ve kendi kaynaklarıyla, yardım almadan tekrar inşa edilmiştir. Pınar (1952) bu depremde Laodikya ve Colossae’nin yıkıldığını ve hasar bölgesinin Dinar’a kadar uzandığını, d...
+
+Match 5
+chunk_id: afad_earthquake_afe73f0e1cf146f96c9d
+source_file: yft_min1.pdf
+pages: 131-136
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: Deprem sağ yanal doğrultu atımlı Hope Fayında meydana gelmi ve yüzey faylanması oluturmutur. Arazi çalımalarına göre, sağ yanal ötelenmeler 1,5 metre ile 2,6 metre arasında değimektedir (ekil 81) (Cowan, 1991). ekil 81. 1888 depremi yüzey faylanmaları. (A) Hope Fayında gerçekleen deprem, 30 km kadar yüzey faylanmasına ve yaklaık 3 metre sağ yanal doğrultu atımlı yer değitirmeye neden olmutur (Cowan, 1991). Fotoğraftaki aratırıcı Hope Fayının kestiği çite dayanmıtır. (Fotoğraf, Alexander McKay) (B) Glynn Wye bölgesinde Hope Fayı’nın (beyaz oklar) doğrultusundaki değiimler, fay karmaıklığında “iyi tanımlanmı” sınıflamasından (burada 25 – 100m) “yayılımlı” sınıflamasına (burada yaklaık 1000m) doğru değiime karılık gelir. A 123 4.Nobi (MinoOwari) Depremi, Japonya, 1891 Büyük Nobi depremi olarak da bilinen bu deprem, Japonya’nın en büyük kıta içi depremidir. Yıkım büyüklüğünden, depremin büyüklüğünün 8,0 M olduğu hesaplanmıtır. Matsuda (1974) tarafından tüm mevcut t...
+
+Match 6
+chunk_id: afad_earthquake_3a9152a26ed30cb8066c
+source_file: yft_min1.pdf
+pages: 136-141
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: Bu değer yüzeyde gözlenen maksimum yer değitirmeden yaklaık 1 m fazladır. Yer kontrol noktaları ve artçı deprem çalımalarından elde edilen yer altı faylanması, kuzeydoğuya ve güneybatıya doğru, yani yüzeyde herhangi bir fayın gözlenmediği Kratese ve Tersiyer yalı bölgelere doğru uzanmaktadır. ekil 87, depremin oluturduğu yüzey faylanmasını ve fayın yer kontrol noktalarından elde edilen yaklaık yönelimini göstermektedir (Bonilla, 1979). ekil 86. 1943 Tottori (Japonya) depreminin genelletirilmi yüzey faylanması haritası; kesik çizgiler yer kontrol noktalarından ve artçı deprem etkinliğinden yorumlanan olası faylanmayı belirtmektedir (Kanamori, 1972). 8.GobiAltay Depremi, Mongolya, 1957 1957 yılında Güney Mongolya’ da gerçekleen 8,3 büyüklüğündeki Gobi Altay depremi, içinde ters faylarında bulunduğu doğrultu atımlı bir kuakta birkaç fayın aynı anda kırılmasıyla olumutur. Dünyada bu güne kadar meydana gelmi en büyük kıta içi depremlerden biridir (Baljinnyam ve diğerleri...
+
+Match 7
+chunk_id: afad_earthquake_fdf6885c5537316d3aed
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+pages: 89-90
+source_relevances: relevant, uncertain
+matched_terms: artçı, artçı sarsıntı
+text: Orta Hasar • Kısmi yapısal hasar mevcuttur; bazı kolon ve kirişlerde beton kırılmaları görülür ancak bina ayaktadır. • Müdahale güvenliği belirsizdir; artçı sarsıntılarda davranış değişken olabilir, giriş çıkışlarda dikkat gereklidir ve uzun süreli çalışma önerilmez. • Müdahale önceliği, hafif hasarlardan sonra ikinci aşamada, hızlı müdahale gerektiren binalara verilir. Ağır Hasar • Yüksek oranda yapısal hasar bulunmaktadır; kolon ve kirişlerde betonun ayrılması, donatının kopması veya bükülmesi gibi ciddi deformasyonlar oluşmuştur. Çoğunlukla bina dengesiz konumdadır. • Müdahale güvenliği düşüktür; artçı sarsıntılar veya kendiliğinden çökme riski yüksektir. Giriş çıkışlar son derece tehlikelidir ve uzun süreli müdahale yapılamaz. • Müdahale önceliği en son aşamadır; mağdurlar dışa yakın ve kolay erişilen noktalardan az sayıda müdahaleci ile hızlı ve güvenli şekilde kurtarılmalıdır. Profesyonel ekipler acilen bilgilendirilmeli ve müdahale onlar tarafından gerçekleştirilmelidir. Enka...
+
+Match 8
+chunk_id: afad_earthquake_85e7807dd21a68f04cf4
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 84-85
+source_relevances: relevant, uncertain
+matched_terms: artçı, artçı deprem
+text: Decontamination: A cleaning process applied to individuals, vehicles, equipment, buildings, and areas to minimize the effects of chemical, biological, radioactive, and nuclear contaminants. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Arıtma: Atık su veya içinde istenmeyen kimyasallar barındıran suyun, kirliliğe neden olan yabancı maddelerden arındırılması için fiziksel, kimyasal ve biyolojik yöntemlerle gerçekleştirilen bir işlemdir. Purification: A process that removes contaminants and unwanted chemicals from wastewater or polluted water using physical, chemical, and biological methods to reduce pollution and make the water cleaner. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Artçı Deprem: Ana depremden sonra meydana gelen daha küçük ölçekli depremlerdir. Artçı depremler, ana depremin etkileriyle birlikte meydana gelir ve genellikle...
+
+Match 9
+chunk_id: afad_earthquake_8a82ac2a8bdfc43acbde
+source_file: document-_11_.pdf
+pages: 89-93
+source_relevances: relevant
+matched_terms: artçı, artçı deprem
+text: 87 3. DEPREM Murat NURLU* 3.1. Tanımlar AFAD Başkanlığı’nın yayınladığı “Açıklamalı Afet Yönetimi Terimler Sözlüğü, 2022” ye göre Tektonik kuvvetlerin veya volkan faaliyetlerinin etkisiyle yer kabuğunun kırılması sonucunda ortaya çıkan enerjinin sismik dalgalar hâlinde yayılarak geçtikleri ortamları ve yeryüzünü kuvvetle sarsması olayına Deprem denir. Deprem doğa kaynaklı bir olay olup sonuçları itibariyle afete dönüşmektedir. Depremin büyüklüğü magnitüd değeriyle, yarattığı etki ise şiddeti ile ölçülmektedir. Deprem olayı meydana geldiğinde kaynaktan (depremin meydana geldiği yerkabuğu içindeki nokta) itibaren sismik dalgalar iki şekilde yeryüzünde yayılım göstermektedir. İlk dalga P “primier” dalga olup teorik olarak 7 km/s hızla ilerler, yeryüzünde hasar yapan ve can kaybına neden olan S “seconder” dalga ise 4 km/s hızıyla ilerler. Depremler genellikle yeryüzünde kırık hatları olarak tanımlanan “fay” lar üzerinde meydana gelmektedir (Şekil 3.1.). * Dr., Afet Ve Acil Durum Yönetim...
+
+Match 10
+chunk_id: afad_earthquake_d3e88cefae2297b38e94
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+pages: 38-41
+source_relevances: relevant, uncertain
+matched_terms: artçı, artçı deprem
+text: Bireylerin ve yerel halkın afet sonrasında yetkililer ve ekipler gelene kadar ilk 3 gün kendi başına yeterli kapasiteye sahip olması istenen ve planlanan zaman dilimidir. altyapı tesisi (İng. infrastructure) Bir yerleşim bölgesi ve sanayi kuruluşu için gerekli olan ulaşım, iletişim, elektrik, su, kanalizasyon, içme suyu şebekeleri ve bunların arıtma tesisleri gibi yapılarının tümü. alüvyon (İng. alluvium) Kayaçların aşınması ve bozulması sonucunda oluşarak su, rüzgâr gibi dış etkenlerle taşınıp çukurlarda veya düzlüklerde biriken kaya parçaları, çakıl, kum, kil, silt gibi birikinti katmanı. ambulans ve acil bakım teknikeri (AABT) (İng. paramedic) Üniversitelerin Sağlık Hizmetleri Meslek Yüksek Okulundaki 2 yıllık ambulans ve acil bakım teknikerliği programlarından mezun olmuş kişi. anakaya (İng. bedrock) Nispeten daha sert ve yoğun kayalardan oluşan ve genellikle üzerinde taşlaşmamış ve gevşek yumuşak kayaçlar ile toprak örtüsü bulunan zemin katmanı. ana şok (İng. main shock) Bir bö...
+
+================================================================================
+Q13
+Soru: Deprem sırasında dışarıdaysam ne yapmalıyım?
+Keywords: dışarıda, dış alanda, açık alanda, bina dışında
+Candidate chunks: 18
+
+Match 1
+chunk_id: afad_earthquake_782e99b65c20213d8ed0
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+pages: 154-156
+source_relevances: uncertain
+matched_terms: dışarıda
+text: Aynı işlem eşik içinde uygulanır. • Kamların sıkıştırma işlemi bittikten sonra kaymaması ve gevşememesi için çivilerin başları dışarıda kalacak şekilde (tekrar sökmek için) çakılır. • damı uygulanacak kütlenin boyutlarına göre bu ölçü değişiklik gösterebilir, örneğin: 60 cm’den daha kısa veya daha uzun olabilir). • Domuz damının kesişme noktalarının tamamı desteklenecek kütlenin altında olmalıdır. • Domuz damı uygulaması bittikten sonra yapılan kontrollerle gevşek olan ahşaplar kama yardımı ile sıkıştırılır. • Domuz damı Tahkimat 2 sıralı ve 3 sıralı olmak üzere iki şekilde kurulur. Küçük oturma ve sarsıntılar göz önüne alınarak kullanılan ahşap ölçüsü kadar boşluk bırakılır. Sabit Zemin (platform) Şekil 12.6. Domuz Damı Tahkimat Kurulumu Tam boy köşelik 30 x 30 cm 13 çivi tek yüz Tek “T” Tahkimat Max. Boy < 3.3 m AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ENKAZDA ARAMA VE KURTARMA TEMEL EĞİTİMİ HİZMETE ÖZEL 118 “T” Spot Tahkimat Operasyonlarında Kullanılacak Ekipman ve Donanımlar 1. Gönyeli...
+
+Match 2
+chunk_id: afad_earthquake_784462599648eeac3cc2
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+pages: 152-154
+source_relevances: uncertain
+matched_terms: dışarıda
+text: Kalası bir genişliğinden içe doğru işaretleyin (ölçüm için kesilmiş kâğıdı kullanın). 2. Köşeden köşeye 45º’lik bir diyagonal çizin. 3. Bu diyagonal üstünde 5 cm genişliğinde kalas kesimi uygulayın ve bunu oraya yerleştirin, böylece köşesi direğin kenarıyla örtüşecektir. Bu kesimin sonuna boydan boya bir çizgi çizin. Ölçümsüz Payanda Kesimi: 30º & 60º 1. Kalasa bir açı ölçer veya çivi üçgeni kullanarak 60º (uç duvarın) veya 30º’lik (taban ucu için) bir çizgi çizin. 2. Bu diyagonal üstünde 50 mm genişliğinde kalas kesimi uygulayın ve bunu oraya yerleştirin. Böylece köşesi direğin kenarı ile örtüşecektir. Bu kesimin sonana boydan boya bir çizgi çizin. 30º’lik kesim payandayı 15 mm. 60’lik kesim payandayı 75 mm kısaltabilir. Çivi Üçgeni Bir cetveliniz veya açı ölçeriniz yoksa üç eşit uzunluktaki çiviyle aşağıda da gösterildiği gibi, 60º’lik bir üçgen çizebilirsiniz. Payanda Uzunlukları: 45º ve 60º’lik Payandalar Yukarıdaki tablo, zeminden değil kirişinin üst ekleme noktasından ölçülen...
+
+Match 3
+chunk_id: afad_earthquake_9e77f1293737c2e91914
+source_file: NIGDE-IRAP.pdf
+pages: 77-83
+source_relevances: relevant, uncertain
+matched_terms: açık alanda
+text: 76 1.7.4 Afet Risk Azaltma Çalışmaları - Yapısal Olmayan Önlemler Niğde il ve ilçeleri merkezleri için belirlenen açık ve kapalı barınma alanlari ilişkin tablolar aşağıda verilmiştir. Tablo 1.54 Niğde İl ve İlçe Merkezleri İçin Belirlenen Kapalı Alanda Geçici Barınma Alanları İlçe Yatak Kapasitesi Tapu Alanı (m2) İlçe Merkezi 7379 426.364,24 Altunhisar 230 2792 Bor 1266 15978 Çamardı 482 2920 Çiftlik 120 800 Ulukışla 120 800 Toplam 9597 452.434 m2 Tablo 1.55 Niğde İl ve İlçe Merkezleri İçin Belirlenen Açık Alanda Geçici Barınma Alanları İlçe Mahalle / Köy Ada Parsel Nitelik Mülkiyet Tapu Alanı (m2) Altunhisar Merkez 258 1 Arsa Maliye Hazinesi (22.500 m2 lik kısmı) Bor / Niğde Merkez Sazlıca Yukarı Mahalle 167 6 Arsa Maliye Hazinesi 344.701,56 Çamardı Bereketli Mahallesi 212 25 Ham Toprak Maliye Hazinesi 649.542,85 Çiftlik Ovalıbağ 222 71 Harmanyeri KOM 64.883,42 Ulukışla Doğu 827 828 835 836 1 1 1 1 Arsa Maliye Hazinesi 7.272,83 5.967,36 6.120,50 6.048,43 TOPLAM 646.778,32 77 NİĞDE...
+
+Match 4
+chunk_id: afad_earthquake_97ea7f4a6f18b0bf5ae0
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+pages: 285-285
+source_relevances: relevant
+matched_terms: dışarıda
+text: Ayrıca kış periyodunda İzmir çevreleri kuzeyden inen soğuk havanın ve Akdeniz kaynaklı nemli ve sıcak hava kütlelerinin karşılaşma alanı olduğundan kuvvetli yağış ve fırtınalar sıklıkla görülmektedir. Yaz periyodunda ise Basra Alçak Basınç Sisteminin etkisiyle hem yer ve deniz yüzeyi hem de atmosferin üst seviyelerinin tamamen ısınması kurak bir dönem yaşanmasına neden olmaktadır. İzmir İli için hazırlanan meteorolojik uyarılar incelendiğinde genel hava durumu değişikliklerini belirtmek için yapılan meteorolojik değerlendirmeler dışarıda bırakıldığında, kuvvetli meteorolojik hadiseler için hazırlanan uyarılarda kuvvetli yağış ve fırtına uyarılarının sayısal çokluk olarak öne çıktığı görülmektedir. Gerçekleşen kuvvetli hava olayları sonucu oluşan hasar ve can kaybı yaşanan olaylarda da bu iki başlık çok önemli bir yere sahiptir. İlde 2019-2020 yılları arasında yaşanan ve tüm ilçeleri etkileyen meteorolojik ve iklim değişikliği kaynaklı afetlerin başında şiddetli yağış ve buna bağlı o...
+
+Match 5
+chunk_id: afad_earthquake_4658c8d3676fc725d106
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+pages: 156-159
+source_relevances: uncertain
+matched_terms: dışarıda
+text: 8. Tahkimat yapılacak alan temizlenir. 9. Kapı ve pencere tahkimatı 2,5 m yüksekliğe kadar maksimum 5000 kg yük taşıma kapasitesine sahiptir. 10. Kesim aşmasından sonra imalatı yapılan kapı ve pencere tahkimatı 8 adet 30x30 cm üçgen boy köşelik ve 104 adet çivi ile birleştirilir, çerçeve haline getirilen kapı ve pencere tahkimatı yerine götürülerek 2 takım kama ile yan köşe noktalarından ve 2 takım kama ile alt köşe noktalarından yerine sabitlenir. 11. Kamaların sıkıştırma işlemi bittikten sonra kaymaması ve gevşememesi için çivilerin başları dışarıda kalacak şekilde (tekrar sökmek için) çakılır. 12. Köşelikler posta kenarlarında 0,5 cm boşluk kalacak şekilde yerleştirilir, köşeliklere çakılacak çiviler, kenardan 2 cm içerden çakılır. Kapı ve Pencerelere Tahkimat Operasyonlarında Kullanılacak Ekipman ve Donanımlar 1. Gönyeli kesim makinesi ve ara kablosu. 2. Akaryakıtlı veya elektrikli ağaç kesme makinesi, tilki kuyruk testere. 3. Çivi çakma tabancası. 4. El aletleri (çekiç, keser,...
+
+Match 6
+chunk_id: afad_earthquake_ef1bfbdbcccb352167cc
+source_file: ESKISEHIR-IRAP.pdf
+pages: 56-58
+source_relevances: relevant
+matched_terms: bina dışında
+text: T.C. ESKİŞEHİR VALİLİĞİ 55 Genel olarak afet büyüklüğünde oluşabilecek risklere karşı Eskişehir Doğalgaz Dağıtım A.Ş. (ESGAZ) tarafından risklerin azaltılmasına yönelik alınan önlemler de aşağıda belirtilmiştir:  Özel geçiş noktalarında PE (Polietilen) hatlar eksiz yatay sondaj teknolojisi ile imal edilmektedir.  Bütün yer altı doğal gaz hatları imalat sırasında yumuşak yastıklama (pedding) kumu ile yastıklanarak kanala yerleştirilmektedir. Bu sayede zeminde oluşan hareketlenmelerden etkilenmemektedir.  Çelik hatlar üzerinde herhangi bir sebeple (Deprem, toprak kayması, izinsiz kazı vs.) oluşacak hasar sonrası gaz çıkışının en kısa sürede kesilmesi için belli noktalarda uzaktan kontrollü vanalar konuşlandırılmıştır.  Binaların doğal gaz hatlarının bina dışında kalan kısmında deprem sırasında otomatik gazın kesilmesini sağlayacak deprem vanaları bulunmaktadır.  Herhangi bir afet durumunda iletişim kanallarında sorun oluşması durumunda Ana Kumanda Merkezi ve ekipler arasında (ilç...
+
+Match 7
+chunk_id: afad_earthquake_d3058a526ad883df29e8
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+pages: 159-160
+source_relevances: uncertain
+matched_terms: dışarıda
+text: 2. İkinci ayak yaslama yapıldıktan sonra yerine yerleştirilir. 5x10 cm ya da 5x15 cm ahşap malzeme ile 2 adet yatay 2 adet çapraz olacak şekilde kayıt atılarak birleştirilmelidir. 3. Yaslamanın geriye kaçmasını önlemek için yaslama ayaklarının arka kısmına eşik postası atılır, aralarındaki mesafe 30 cm olacak şekilde yeterli sayıda sabitleme kazıkları 90° açıyla çakılır. Ayakların alın kısımları kama ile sıkıştırılır üst kısma 30x30 cm 2 adet köşelik 26 adet çivi kullanılarak sabitlenir. 4. Postalarının uzunluk sınırları L/D (Uzunluk/kullanılan ahşabın çapı) oranları. 5. Sıkıştırma postasının boyu 2,3 m geçerse postanın orta kısmından bir ara parça görevi görecek şekilde kayıt atılır. 6. Duvar ile yaslama tahkimatının arasında kalan boşluklar uygun ahşap dolgu malzemesi ile doldurulur. 7. Köşelikler posta kenarlarında 0,5 cm boşluk kalacak şekilde yerleştirilir, köşeliklere, kayıtlara ve kilitlere çakılacak çiviler, kenardan 2 cm içeriden çakılır. 8. Köşelikler 6,5 mm veya 7,5 mm, k...
+
+Match 8
+chunk_id: afad_earthquake_23b9952c5decd3d44698
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 299-301
+source_relevances: uncertain
+matched_terms: açık alanda
+text: Dağcılıkta kamp, sadece konaklama değil; aynı zamanda iklim koşullarına uyum sağlama, ekip toparlanması ve sonraki etaplara hazırlık için kritik bir aşamadır. 299 JKL AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Camp: They are temporary living spaces that athletes set up to rest, shelter and make the necessary preparations during mountain climbing or longterm trekking. In mountaineering, camping is not only accommodation; it is also a critical stage for adaptation to climatic conditions, team recovery and preparation for the next stages. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kamp Lambası: Arama, kamp veya gece çalışmaları sırasında geniş alanı aydınlatmak amacıyla kullanılan, çoğunlukla LED ve taşınabilir özellikte ışık kaynağıdır. Camping Lantern: It is a light source, mostly LED and portable, used to illuminate a large area during exploration, camping or night work....
+
+Match 9
+chunk_id: afad_earthquake_481cfe277549e9c02038
+source_file: sozluk.pdf
+pages: 163-167
+source_relevances: relevant, uncertain
+matched_terms: açık alanda
+text: Ülkemizde döşemelerinin betonarme veya ahşap olmasına bağlı olarak, yığma kagir ve yarım kagir adlarıyla adlandırılmaktadırlar. yıkım (İng. demolition) Afet veya farklı bir nedenle riskli hâle gelen bir binanın halka ve çevreye zarar vermeden bir plan dâhilinde ortadan kaldırılması işlemi. yıkım planı (İng. demolition plan) Yıkım ruhsatında belirtilen yapının, hangi güvenlik ve çevre koruma tedbirleri ile kimlerin sorumluluğu altında, hangi teknik ile yıkılacağına ve ortaya çıkacak inşaat ve yıkıntı atıklarının yönetimine dair detaylı bilgileri ihtiva eden yıkım ruhsatının ayrılmaz parçası olan teknik belge. y,Y yıkım ruhsatı (İng. permision of demolition) Yıkım faaliyeti için gerekli iznin verildiğini gösteren ve ilgili mevzuata uygun olarak düzenlenmiş resmî belge. yıkım tekniği (İng. demolition technique) Yıkımı planlanan bir binanın yapısal, çevresel ve gerektiğinde jeolojik koşul ve özelliklerine bağlı olarak belirlenen, insan gücü, makine ve patlayıcı madde (kontrollü patlatma...
+
+Match 10
+chunk_id: afad_earthquake_2b71bc4bedebd6f97813
+source_file: olagandisi.pdf
+pages: 31-34
+source_relevances: relevant, uncertain
+matched_terms: dışarıda
+text: Çantada bulunması gereken malzemeler şöyle sıralanabilir: • Çok amaçlı çakı • Kibrit/çakmak • Düdük • Nakit para • Kâğıt, kalem • Battaniye veya uyku tulumu • Makas • Koli bandı • Plastik/naylon örtü • Çöp poşeti • Pilli radyo • El feneri • Başlık feneri • Yedek piller • Yedek telefon şarjı • Arabanın yedek anahtarı • Evin/(varsa) diğer evlerin yedek anahtarları • İş eldiveni • Sağlık malzemeleri: Sağlık malzemeleri afetten sonra ilk gerekecek malzemelerdendir. Sağlık malzemelerinin etkin kullanılabilmesi için mutlaka ilkyardım eğitiminizin olması gereklidir. Sağlık Bakanlığı tarafından onaylanmış ilkyardım eğitimi olmayan kimselerin ilkyardım uygulamaması gerekir. Bununla beraber ilkyardım çantasında ufak yaralanmalara pansuman yapılmasını sağlayacak malzemelerin bulunması faydalıdır. Yaralının kanıyla teması önlemek için lateks eldiven de bulundurulmalıdır. Lateks eldiven dayanıklı olduğundan acil durum sırasında başka amaçlarla da kullanılabilir. Sağlık malzemelerinden bazıları ş...
+
+================================================================================
+Q14
+Soru: Deprem sırasında araç kullanıyorsam ne yapmalıyım?
+Keywords: araç, otomobil, araba, sürücü, trafikte
+Candidate chunks: 524
+
+Match 1
+chunk_id: afad_earthquake_c914d2ac50b2fb95fcaf
+source_file: USAK_IRAP_SON.pdf
+pages: 36-39
+source_relevances: uncertain
+matched_terms: araç, otomobil
+text: Sanayi büyük ölçüde aile işletmelerinden oluşan KOBİ’lerden müteşekkil olup tamamı özel sektör müteşebbislerinin eseridir. Uşak, bugün üretmekte olduğu battaniye sayısı itibariyle ülke üretiminin %80’ni, tekstil geri dönüşümünün %70’ni, rejenere ipliğin %65’ni, hidrofil sargı bezinin %40’nı, straygharn ipliğin %65’ni, küçükbaş deri üretiminin %65’ni ve seramik üretiminin %15’ni tek başına karşılamaktadır. Uşak’ta ‘Uşak Tekstil’, ‘Deri (Karma)’ ve ‘Karahallı’ OSB olmak üzere 3 adet Organize Sanayi Bölgesi bulunmaktadır (İl Çevre Düzeni Planı, 2011). Dericilik: Uşaklı dericiler ülke üretiminin % 65’ni gerçekleştirmektedir. Ayrıca derinin işlenmesi sırasında yan ürün olarak elde edilen etleme artıkları sabun sanayiinde, traş artıkları da ayakkabı (astar imalatı ) sanayiinde kullanılmaktadır. Tekstil: Uşak’ta ana sektör tekstildir; bu sektörde ağırlıklı imalat konuları, tekstil geri dönüşümü, rejenere iplik, pamuklu dokuma, apre, boya baskı, pamuk ipliği, halı, kilim ve battaniye ipi, b...
+
+Match 2
+chunk_id: afad_earthquake_cf4d3cf0ef8578460fc8
+source_file: SivasIRAP.pdf
+pages: 141-142
+source_relevances: uncertain
+matched_terms: araç, araba
+text: Sayfa | 137 Taşkın Anında Yapılacak Faaliyetler Taşkın olayı meydana geldiğinde, taşkına maruz kalan yerleşimlere yardımın ulaştırılması, kurtarma faaliyetlerinin zamanında ve yeterli biçimde gerçekleştirilmesi, ortaya çıkabilecek doğrudan ve dolaylı etkilerin zararlarının azaltılması açısından kurum ve kuruluşların koordineli çalışması gerekmektedir. Bu doğrultuda yasa ve kararnamelerle görevleri tanımlanmış olan kuruluşlar ve yetkileri aşağıda tanımlanmıştır. Valilik; • Koordinasyonu sağlamak. Afet ve Acil Durum Yönetimi Başkanlığı; • Afet yönetimini sağlamak • Arama-kurtarma çalışmalarına başlamak Belediye Başkanlığı; • Taşkının ilk anından itibaren taşkın bölgesine personel, araç, ekipman göndermek. • Teknik elemanları hasar tespit çalışmalarında bulunmak üzere görevlendirmek. Devlet Su İşleri Genel Müdürlüğü; • Taşkının ilk anından itibaren taşkın bölgesine personel, araç, ekipman göndermek. • Taşkının yayılmasını önleyici tedbirler ile birlikte can ve mal güvenliğini sağlamaya...
+
+Match 3
+chunk_id: afad_earthquake_d9e01f27aebdd2db7ef5
+source_file: ilk72saat1.pdf
+pages: 55-57
+source_relevances: relevant, uncertain
+matched_terms: araç, araba
+text: Güvenlièinden emin olmadÈèÈnÈz kuyu sularÈnÈn ölçümlerini yaptÈrmayÈ ihmal etmeyin. • Mümkünse ëiëe suyu kullanÈn. • Sel sÈrasÈnda yaralandÈysanÈz tetanos aëÈsÈ yaptÈrmanÈz gerektièini unutmayÈn. • Sel suyuna temas etmië giysi ve eëyalarÈnÈzÈ çok iyi ëekilde yÈkayÈp temizleyin; kiëisel hijyeninize dikkat edin. • Mümkün olduèunca kadÈnlara, çocuklara, yaëlÈlara, engellilere, özel ihtiyaç sahibi kiëilere ve hayvanlara yardÈm edin. • Evinize sel sÈrasÈnda yÈlan ve benzeri zararlÈ hayvanlarÈn girmië olabileceèini düëünerek bu konuda inceleme yapmanÈz faydalÈ olacaktÈr. ÇIç Öncesinde; • YaëadÈèÈnÈz bölgedeki çÈè riskleri konusunda bilgi edinin. • ÇÈè riskine karëÈ nasÈl hazÈrlanacaèÈnÈzÈ ve korunacaèÈnÈzÈ öèrenebileceèiniz eèitim programlarÈna katÈlÈn. élkyardÈm vb. tamamlayÈcÈ eèitimleri de alÈn. • Yeni yerleëim yeri olarak, çÈè riski taëÈyan bölgeleri seçmeyin. • Mevcut yapÈlarÈnÈzÈ sigortalatÈn. • ÇÈè tehlikesinin artmasÈnÈ engellemek için, yamaçlardaki aèaçlarÈ, bitki örtüsünü ve orm...
+
+Match 4
+chunk_id: afad_earthquake_815be076caad4299c377
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 479-480
+source_relevances: uncertain
+matched_terms: araç, trafikte
+text: It allows for rapid intervention in critical injuries. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Sürüntü: Numune alınacak sıvı veya toz maddenin ortamda yeterli miktarda mevcut olmadığı durumlarda ucu pamuklu bir çubuk yardımıyla kirliliğin pamuğa emdirilmesi prensibine göre alınan numunedir. Mudflow: In cases where the liquid or powder substance to be sampled is not available in sufficient quantity in the environment, it is a sample taken according to the principle of impregnating the contamination with cotton with the help of a cotton swab. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Sürüş Kuralları: Trafikte güvenliği sağlamak amacıyla sürücüler tarafından uyulması gereken yazılı ve yazılı olmayan kurallar bütünüdür. Bu kurallar; hız sınırları, trafik işaret ve işaretçilerine uyma, sollama, dönüş, yaya önceliği, emniyet kemeri k...
+
+Match 5
+chunk_id: afad_earthquake_d27ead578d127b4e6d1e
+source_file: ZONGULDAK_IRAP.pdf
+pages: 169-170
+source_relevances: uncertain
+matched_terms: araç, araba
+text: T.C. ZONGULDAK VALİLİĞİ 169  Sediment Kontrolü  Yeşil Çatılar  Taşkın Erken Uyarı Sistemlerinin Planlanması  Tahliye Planlarının Hazırlanması  Halk İle Risk İletişimi 2.3.5.2. Taşkın Anında Yapılması Gereken Faaliyetler Türkiye’de taşkın afetine müdahale çalışmaları; “Afet ve Acil Durum Yönetimi Başkanlığı'nın Teşkilat ve Görevleri Hakkında Kanun” ile “Umumi Hayata Müessir Afetler Dolayısıyla Alınacak Tedbirlerle Yapılacak Yardımlara Dair Yasanın 4. maddesi ve bu maddeye dayanarak hazırlanan, “Afet ve Acil Durum Müdahale Hizmetleri Yönetmeliği” kapsamında yürütülmektedir. Bu yönetmelik kapsamında; afet ve acil durumlara ihtiyaç duyulacak tüm güç ve kaynakları ulusal ve yerel düzeyde planlamak, bu güç ve kaynakların olay bölgesine hızlı ve etkin bir şekilde ulaştırılmasını sağlamak, müdahale hizmetlerini ve bu hizmetlerin koordinasyonundan sorumlu ana ve destek çözüm ortaklarının ve yerel düzeyde sorumlu birimlerin görev ve sorumlulukları ile planlama esasları belirlenmiştir. Af...
+
+Match 6
+chunk_id: afad_earthquake_316e61fd7b2f60faef6f
+source_file: ilk72saat1.pdf
+pages: 53-55
+source_relevances: uncertain
+matched_terms: araç, araba
+text: KapalÈ AlandaysanÈz; • Binadan çÈkmak ve heyelan bölgesinden uzaklaëmak için yeterli vaktiniz yoksa içeride kalÈn. • Saèlam eëyalarÈn altÈnda ve/veya yanÈnda ÇÖK - KAPAN - TUTUN hareketini uygulayÈn. • Hissettièiniz hareket sona erinceye kadar yerinizden ayrÈlmayÈn. DÈëarÈdaysanÈz; • Heyelan veya çamur akÈntÈsÈnÈn hareket yolunun üzerinde durmayÈn. • Çevrenizdeki insanlarÈ uyararak heyelanÈn hareket yolundan uzaklaëÈn ve mümkün olduèu kadar yükseklere doèru çÈkÈn. • Heyelan veya çamur akÈntÈsÈndan kaçabilecek zamanÈnÈz veya etrafÈnÈzda arkasÈna saklanabileceèiniz saèlam bir ëey yoksa, olduèunuz yerde ÇÖK-KAPAN-TUTUN hareketini yaparak baëÈnÈzÈ ve boynunuzu koruyun. SonrasÈnda; • Her ëeyden önce kendinizin ve aile üyelerinin güvende olduèundan emin olun. • OlayÈn tekrarlanmasÈ ihtimaline karëÈ mümkünse bölgeden uzaklaëÈn. • Kendi güvenlièinize dikkat ederek çevrenizde yardÈma ihtiyacÈ bulunan kiëi olup olmadÈèÈnÈ kontrol edin. • YangÈn veya yeni bir çamur akÈntÈsÈ gibi tehlikeler yok...
+
+Match 7
+chunk_id: afad_earthquake_04f09c6d7c9eaab9808c
+source_file: Bursa-IRAP.pdf
+pages: 33-37
+source_relevances: uncertain
+matched_terms: araç, otomobil
+text: 29 Karayolları 14. Bölge Müdürlüğü sorumluluğunda; 79 km otoyol, 435 km devlet yolu, 609 km il yolu olmak üzere toplam 1.123 km kara yolu bulunmaktadır (Bkz. Şekil 1.12). Toplam yolların %35’i bölünmüş yoldur. Şekil 1.12. KGM 14. Bölge Müdürlüğü Sorumluluğundaki Yollar (Kaynak: kgm.gov.tr 2020) 1.5.2. Diğer Ulaşım Biçimleri ve Erişim Bursa kent merkezinde toplu ulaşım; lastik tekerlekli sistemler, raylı sistemler ve deniz ulaşımı ile sağlanmaktadır. Ayrıca kent içinde hizmet veren minibüs, taksi-dolmuş, servis ve taksi gibi işletmeler ve çevre yerleşimlere toplu ulaşım hizmeti veren minibüsler bulunmaktadır. Bursa’da 2 güzergâhta hafif raylı sistem, 2 güzergâhta tramvay olmak üzere toplam 4 hatta raylı sistemle toplu taşıma hizmeti sağlanmaktadır. Kentteki denizyolu taşımacılığı İDO ve BUDO tarafından yapılmaktadır. BUDO 4 hatta 6 deniz otobüsü ile hizmet vermektedir. 1.5.2.1 Lastik Tekerlekli Toplu Taşıma Sistemi: Kentte lastik tekerlekli toplu taşıma sistemleri BURULAŞ A.Ş. işletm...
+
+Match 8
+chunk_id: afad_earthquake_b9c8b2ce4ec9120abc3f
+source_file: VAN-IRAP.pdf
+pages: 17-20
+source_relevances: relevant, uncertain
+matched_terms: araç, otomobil
+text: Van il merkezi 38º29′39″ Kuzey Enlemiyle, 43º22′48″ Doğu Boylamlarında yer alır. İl toprakları; 23.334 km2 olan yüzölçümü ile Türkiye topraklarının %2,86'sını oluşturur. Van, kuzeyden Ağrı İlinin Doğubayazıt, Diyadin, Hamur İlçeleri, batıdan Van Gölü ile Ağrı İlinin Patnos, Bitlis İlinin Adilcevaz, Tatvan ve Hizan İlçeleri, güneyden Siirt İlinin Pervari İlçesi, Şırnak İlinin Beytüşşebap İlçesi ve Hakkâri İlinin Yüksekova İlçesi ile sınırlıdır. İlin doğusunda ise İran yer alır. Türkiye'nin en büyük gölü olan Van Gölü yüksek dağların ortasında bir çöküntü durumundadır. Çevredeki yüksek dağlar Van ilinin sınırını oluşturur. Toprakları verimli, akarsuları bol, iklim koşulları oldukça elverişli bir yerleşim merkezidir. . Van ilinin ekonomisi tarım, ticaret, turizm ve sanayi ağırlıklı bir yapıya sahiptir. Vejetasyon süresinin kısa olması, geniş çayır-mera alanlarının ve yüksek yem bitkilerinin bulunması nedeniyle, ilimizde sanayiden çok tarıma dayalı bir ekonomi, tarımsal faaliyetler içer...
+
+Match 9
+chunk_id: afad_earthquake_7de2263c39b1247a3890
+source_file: 28032022-TARAP-kitap_V6.pdf
+pages: 61-65
+source_relevances: uncertain
+matched_terms: araç, araba
+text: 6.4. İklim Değişikliği Risklerine Yönelik Hedef ve Eylemler Planlama ve Risk Azaltma Dairesi 6. Afet Türlerine Göre Risk Azaltma Stratejileri 6.4. İklim Değişikliği Risklerine Yönelik Hedef ve Eylemler 6.4. İklim Değişikliği Risklerine Yönelik Hedef ve Eylemler İklim değişikliği riskleri tüm canlı yaşamıyla birlikte insan yaşamını da fazlasıyla olumsuz etkileyecektir. Risklerin etkin bir şekilde yönetilebilmesi için iklim değişikliğine ilişkin risk değerlendirme mekanizmalarının geliştirilmesi ve risk analizlerinin yapılmasına ihtiyaç bulunmaktadır. Bütün bu süreçlerde sürdürülebilir kalkınma hedeflerine öncelik verilmesi, iklim değişikliği risklerine ilişkin bilgi, farkındalık ve bilinç düzeyinin artırılması ve iklim değişikliğine yönelik doğru bilginin üretimi ve paylaşımı için bilgi sistemlerinin geliştirilmesi önem arz etmektedir. İklim değişikliği risklerine yönelik hedefler ve eylemler TARAP belgesinde belirtilen esaslar çerçevesinde yerine getirilecek olup, bu afet türü özeli...
+
+Match 10
+chunk_id: afad_earthquake_4a7a0f0a67d3b08c8c79
+source_file: irap_istanbul.pdf
+pages: 196-198
+source_relevances: relevant, uncertain
+matched_terms: otomobil, araba
+text: İstanbul’da Yerleşik ve Tehlikeli Madde Bulunduran, Kullanan, Depolayan Alt Seviyeli Kuruluşlar 2.4.3. Senaryolar ve Değerlendirme Sonuçları İRAP İstanbul kapsamında; AFAD koordinasyonunda ildeki kamu ve özel kurumların katılımlarıyla yapılan Çalıştay’da, muhtemel ve en kötü senaryo olmak üzere endüstriyel kazalara ilişkin geçmiş afetler ve ilin potansiyel risk değerlendirmesi doğrultusunda iki adet senaryo oluşturulmuştur. Birinci senaryo; Tuzla OSB’de yer alan aeresol dolum tesisinde patlama meydana gelmesi durumudur. Patlama sonucunda oluşan yüksek basınç etkisiyle tehlikeli kimyasalın ilgili tesisin etrafındaki 500-550 m çaplı bir bölgeye yayılması olasıdır. Tesis etrafındaki firmalarda çalışan kişiler ile 500-550 m çapındaki bölgede yer alan tesislerde çalışan kişilerin etkilenebileceği, tahliye sebebiyle trafik yükünün artmasına bağlı olarak ulaşımda aksamaların olabileceği, gazdan etkilenmeye bağlı olarak kısa süreli sağlık sorunlarının yaşanabileceği, yaralanmaların olabilec...
+
+================================================================================
+Q19
+Soru: Depremden sonra yaralı birine nasıl yaklaşmalıyım?
+Keywords: yaralı, ilk yardım, ilkyardım, hasta/yaralı
+Candidate chunks: 274
+
+Match 1
+chunk_id: afad_earthquake_cf6077a321ee966f8d9d
+source_file: abep_kitap_matbaa_final_04122008_small.pdf
+pages: 14-15
+source_relevances: relevant
+matched_terms: yaralı, ilk yardım
+text: Bunlar kanun ve yönetmeliklerde belirlenen kriterleri yerine getirirlerse hak sahibi olurlar. Etkili nakil; haneleri kullanılamaz hale gelmiş ya da gelmesi muhtemel, 7269 sayılı Afetler Kanununa göre “Genel Hayata Etkili” bulunmuş afet olaylarındaki afetzede sayısını belirtmektedir. Kitap içinde, bazı yerlerde afetzede sayısı yerine nakledilen konut sayısı terimi ile kullanılmıştır. 2.2 AFET VERĐLERĐ Afet verileri, meydana geldikleri ülkelerde, arşiv, veritabanı veya envanter şeklinde bir araya getirilmekte ve afetlerin boyutları belirlenmektedir. Afet envanter çalışmalarında, genellikle insan ve ekonomik kayıplara ait veriler dikkate alınmaktadır. Uluslar arası veri tabanı çalışmalarında EMDAT ve DESINVANTER en fazla kullanılan metotlardır. EM-DAT veri tabanında aşağıdaki kriterlerden en az birisine uygun olan afetler dikkate alınmaktadır (Tschoegl L. ve ark., 2006); • 10 veya daha fazla insan ölümüne sebep olan, • 100 veya daha fazla insanı etkileyen, • ülkede yardım durumu açıkla...
+
+Match 2
+chunk_id: afad_earthquake_079ca4fd99ba760cc676
+source_file: afet_sonrasi_iyilestirme_calismalari-1.pdf
+pages: 132-136
+source_relevances: relevant
+matched_terms: yaralı, ilk yardım
+text: Deprem 35 km çapında bir alanda etkili oldu. İlk acil müdahale hayatta kalanlar tarafından yapılmaya çalışıldı. Yardım çalışmaları, afetin hafta sonu gerçekleşmesi, iletişim hatları karayolu ve demir yolarının hasar görmesi, dondurucu soğuk (-15o) gibi nedenlerle aksadı. Şekil 45. 15 Mart 1992 Erzincan Depremi eş şiddet dağılımı haritası (Bayındırlık ve İskân Bakanlığı, Erzincan,1993). 2.5.6.1 Acil Yardım ve Geçici İskân Çalışmaları Depremden hemen sonra, askeri personel ve polis kuvvetleri güvenliği sağladı. Deprem sonrası ilk 24 saate, yaklaşık 3.000 kişi enkaz altından, Erzincan’daki askeri personel ve organize olmamış gönüllüler tarafından kurtarıldı. El feneri, oksijen maskesi, kesici ve diğer gerekli malzemelerin eksikliği çalışmaları baltaladı. Ulusal ve uluslararası arama kurtarma ekiplerinin bölgeye ulaşması ile çalışmalar daha profesyonel bir hal aldı. Afeti izleyen 1 hafta içinde 10 değişik ülkenin gönderdiği arama kurtarma ekiplerince 378 kişi enkazlardan canlı çıkarıldı...
+
+Match 3
+chunk_id: afad_earthquake_e76b52b59276f80719af
+source_file: olagandisi.pdf
+pages: 22-25
+source_relevances: relevant, uncertain
+matched_terms: yaralı, ilkyardım
+text: 12 Dışarıyla iletişim: Bir afetzedenin enkaz altında yapması gereken en önemli şey, dışarıdaki kişileri varlığından haberdar etmektir. Böyle bir durumda afetzedenin, kendisini aramakurtarma ekiplerinin yerine koyması faydalı olacaktır. Afetzedenin dikkat etmesi gereken en önemli noktalardan biri, ne zaman kendisi için arama yapıldığını doğru değerlendirebilmektir. Enkaz üzerinde bir kırma veya delme çalışması varsa, bu çalışmanın yarattığı ses ve titreşim hissedilebilir. Bu aşamada afetzedenin bağırması ve sesini duyurmaya çalışması bir işe yaramayacağı gibi, enerji kaybına da neden olacaktır. İş makinelerinin çalışması, dinleme ya da arama faaliyetinin o an yapılmadığını gösterir. Bu durumda afetzedenin yapması gereken şey, iş makineleri durduktan sonra dışarıyla iletişim kurmaya çalışmak olmalıdır. Zira sessizlik, dinleme yapıldığı anlamına gelebilir. Arama yapılırken aramakurtarma ekipleri enkaz altındaki afetzedelere seslenir. Afetzede kendisine çağrı yapıldığını duyuyorsa cev...
+
+Match 4
+chunk_id: afad_earthquake_90fdac6d466ccabf4bcc
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 325-326
+source_relevances: uncertain
+matched_terms: yaralı, ilk yardım
+text: 324 JKL AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Accident Snow Load: Physical load that may cause negative effects on respiration, circulation and body temperature due to the pressure and weight of the snow mass accumulated on the body of the survivor in situations such as avalanches or heavy snowfall · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kazazede Sabitleme: Genellikle ilk yardım ekipleri, sağlık personeli veya kurtarma görevlileri tarafından; omurilik yaralanmaları, kırıklar, çıkıklar veya bilinci kapalı kazazedelerde hayati tehlikeyi azaltmak, yaralanan kişinin mevcut durumunun daha da kötüleşmesini önlemek amacıyla, vücudunun veya yaralı bölgenin hareketini sınırlamak ya da tamamen durdurmak için uygulanan yöntemler bütünüdür Casualty Immobilization: It is a set of methods generally applied by first aid teams, medical personnel or rescue workers to limit or com...
+
+Match 5
+chunk_id: afad_earthquake_95c11b4242c63ef25bb4
+source_file: sismik_mikrobolgeleme_el_kitabi_tr.pdf
+pages: 10-12
+source_relevances: relevant
+matched_terms: yaralı, ilk yardım
+text: Yapıların ve tesisat/teçhizatın hasar görebilirliği, bunların depremler sırasındaki hasar görebilme olasılığıdır. Yapıların hasar görebilirliği, aşağıdaki özelliklere bağlıdır: - yapının boyutlarına - yapının kütlesine - yapının plandaki yerleşimine - yapısal düzensizliklere - kullanılan malzeme türlerine - inşaat detaylarına. Belediyelerin hasar görebilirliği, hayati altyapının (infrastructure) hasar görebilirliğine ve hayati altyapıda oluşan kopukluklara bağlıdır. Deprem Riski, belli bir süre için, dönüşüm periyodu bu süreye eşit olan bir deprem nedeni ile meydana gelebilecek bina hasarı, ölü ve yaralı sayısı ve ekonomik kayıpların bütünüdür. Bu tanımlara bağlı olarak deprem riski aşağıdaki gibi ifade edilebilir: Deprem Riski = Deprem Tehlikesi*HasarGörebilirlik*Risk Altındaki Kıymet Dolaylı kayıplar, özellikle ekonomik kayıplar, ekonomik faaliyetlerin geçici olarak duraklamasına bağlı olarak artan bir önem arzetmektedir. Bu nedenle de risk değerlendirmelerinde göz önüne alınmalıd...
+
+Match 6
+chunk_id: afad_earthquake_7c77a2a566970a874164
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 331-333
+source_relevances: relevant, uncertain
+matched_terms: yaralı, ilk yardım
+text: It is shaped according to factors such as transportation density, pedestrian traffic and building density. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kent İçi Trafik Yoğunluğu ve Müdahale Güçlükleri: Şehir merkezlerinde yaşanan ağır trafik nedeniyle müdahale ekiplerinin olay yerine geç ulaşması veya müdahalenin zorlaşması durumudur. Bu nedenle, acil durum geçiş koridorlarının açılması ve güvenlik şeritlerinin etkin kullanımı gibi trafik yönetimi yöntemleri hayati önem taşır. Urban Traffic Congestion and Response Challenges: Situations where heavy traffic in city centers delays emergency response teams or complicates their operations. Managing traffic corridors and effectively using safety lanes are crucial to ensure timely interventions. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kentsel Arama ve Kurtarma: Doğal afetler veya insan...
+
+Match 7
+chunk_id: afad_earthquake_cf4d3cf0ef8578460fc8
+source_file: SivasIRAP.pdf
+pages: 141-142
+source_relevances: uncertain
+matched_terms: yaralı, ilk yardım
+text: Sayfa | 137 Taşkın Anında Yapılacak Faaliyetler Taşkın olayı meydana geldiğinde, taşkına maruz kalan yerleşimlere yardımın ulaştırılması, kurtarma faaliyetlerinin zamanında ve yeterli biçimde gerçekleştirilmesi, ortaya çıkabilecek doğrudan ve dolaylı etkilerin zararlarının azaltılması açısından kurum ve kuruluşların koordineli çalışması gerekmektedir. Bu doğrultuda yasa ve kararnamelerle görevleri tanımlanmış olan kuruluşlar ve yetkileri aşağıda tanımlanmıştır. Valilik; • Koordinasyonu sağlamak. Afet ve Acil Durum Yönetimi Başkanlığı; • Afet yönetimini sağlamak • Arama-kurtarma çalışmalarına başlamak Belediye Başkanlığı; • Taşkının ilk anından itibaren taşkın bölgesine personel, araç, ekipman göndermek. • Teknik elemanları hasar tespit çalışmalarında bulunmak üzere görevlendirmek. Devlet Su İşleri Genel Müdürlüğü; • Taşkının ilk anından itibaren taşkın bölgesine personel, araç, ekipman göndermek. • Taşkının yayılmasını önleyici tedbirler ile birlikte can ve mal güvenliğini sağlamaya...
+
+Match 8
+chunk_id: afad_earthquake_69fb64fed992a64cd39c
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 507-508
+source_relevances: uncertain
+matched_terms: yaralı, ilk yardım
+text: 506 TUÜ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Teyit Sondası: Yapılan sondalamaların doğruluğunu kontrol etmek amacıyla kullanılan bir sondalama türüdür. Confirmation sounding: It is a type of probing used to check the accuracy of the probes. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Tıbbi Işınlanma: Tıbbi tanı ve tedavi amacıyla, hastaya kontrollü dozlarda iyonlaştırıcı radyasyon uygulanmasıdır. Röntgen, bilgisayarlı tomografi (BT), floroskopi gibi görüntüleme yöntemlerinin yanı sıra radyoterapi gibi tedavi uygulamaları da tıbbi ışınlanma kapsamına girer. Medical Irradiation: The application of controlled doses of ionizing radiation to a patient for medical diagnosis and treatment. It includes imaging techniques like X-rays, computed tomography (CT), fluoroscopy, and treatments like radiotherapy. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·...
+
+Match 9
+chunk_id: afad_earthquake_1ae7348f7659f4057ce3
+source_file: irap_istanbul.pdf
+pages: 333-336
+source_relevances: uncertain
+matched_terms: ilk yardım, ilkyardım
+text: Tüm Afetler AFAD İl Müdürlüğü 2022 A1-H19-E2 Gıda ihtiyaçlarının sağlıklı şekilde giderilmesi amacına yönelik “gıda savunma uygulamaları / bilinç geliştirme eylem planı” yapılarak uygulamaya konulacaktır. Tüm Afetler İl Tarım ve Orman Müdürlüğü Çevre Şehircilik ve İklim Değişikliği İl Müdürlüğü, İstanbul Büyükşehir Belediyesi, İlçe Belediye Başkanlıkları, İl Sağlık Müdürlüğü, İstanbul Ticaret Odası, İl Ticaret Müdürlüğü 2022 A1-H19-E3 Gıda lojistik/tedarik/ stok-hareket/ dijital veri giriş-takip yazılımı oluşturularak gıda üretim-lojistik-depo-satış iş yerlerince kullanımı özendirilecektir. Tüm Afetler İl Tarım ve Orman Müdürlüğü İstanbul Ticaret Odası, İstanbul Sanayi Odası, Sanayi ve Teknoloji İl Müdürlüğü 2022 333 A2 AMAÇ: AFET RİSK YÖNETİŞİMİNİ GÜÇLENDİRMEK A2-H1 Afet risklerini anlamak No Eylem Afet Türü Sorumlu Kurum Destekleyecek Kurum Dönemi A2-H1-E1 Gönüllüğün sadece afet anında yapılan faaliyet olmayıp afet öncesinde toplum yararına birçok farklı çalışmada faydalanılabilec...
+
+Match 10
+chunk_id: afad_earthquake_651ccec88043798b1a45
+source_file: afet_sonrasi_iyilestirme_calismalari-1.pdf
+pages: 184-188
+source_relevances: relevant, uncertain
+matched_terms: yaralı, ilk yardım
+text: 5902 sayılı Kanun’da, iyileştirme çalışmalarını yapmakla görevli, İyileştirme Dairesi Başkanlığı’nın görevleri; “Afet ve acil durum sonrası hayatın normale dönmesini sağlayıcı tedbirler almak, afet ve acil durum bölgelerinde geçici yerleşmeyi sağlamak, zarara uğramış kişilerin tedavi, iaşe, ibate, sosyal ve psikolojik destek hizmetlerini yürütmek, afete uğramış yerlerin imar, plan, proje işlemleri ile bu alandaki hukuki işlemlerin yürütülmesinde kamu kurum ve kuruluşları ile koordinasyonu sağlamak, yapılan işleri denetlemek, uluslararası acil yardımları yapmak ve kabul etmek ve afetten etkilenen bölgelerde, kamu kurum ve kuruluşları, mahalli idareler, üniversiteler ve sivil toplum kuruluşları ile işbirliği içinde afet sonrası yeniden yapılanma ve iyileştirme planlarını hazırlamak, hazırlanan planları Afet ve Acil Durum Yüksek Kurulu’nun onayına sunmak, onaylanan planların uygulanmasını koordine etmek, uygulamaya ilişkin ilerleme raporlarını hazırlamak” olarak tanımlanmıştır. Aşağıda...
+
+================================================================================
+Q20
+Soru: Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?
+Keywords: tahliye, yetkili, resmi makam, talimat, uyarı
+Candidate chunks: 857
+
+Match 1
+chunk_id: afad_earthquake_cc4ef86aaf93b3173cbf
+source_file: document-_11_.pdf
+pages: 77-80
+source_relevances: relevant, uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Japonya’da, Meksika’da kullanılan sistemler.) Tsunamiler: Depremler veya denizaltı heyelanları gibi nedenlerle oluşabilecek tsunamiler için deniz tabanına yerleştirilen sensörler ve uydu teknolojileriyle erken uyarılar sağlanır. Volkanik Patlamalar: Volkanik bölgelerde, yer hareketlerini, gaz salınımını ve volkanik aktiviteyi izleyen sistemler, patlama öncesinde uyarılar verir. Tropikal Fırtınalar ve Kasırgalar: Uydu görüntüleme ve meteorolojik modeller, fırtına sistemlerinin oluşumunu ve hareketini izleyerek erken uyarılar sağlar. Sel ve Su Baskınları: Nehir seviyelerini ve yağış miktarlarını ölçen sensörler ile meteorolojik veriler, sel ve taşkın riskine karşı uyarılar yapılmasına olanak tanır. Kuraklık: Uzun dönemli iklim verilerini ve toprak nem durumunu izleyen sistemler, kuraklık riski için önceden bilgi verir. 2. Teknolojik ve İnsan Kaynaklı Afetler Kimyasal Sızıntılar ve Endüstriyel Kazalar: Kimyasal tesislerde gaz sızıntısı veya patlama risklerini algılayan sensörler, halkı...
+
+Match 2
+chunk_id: afad_earthquake_a399aa71fed1db09fad5
+source_file: document-_11_.pdf
+pages: 184-186
+source_relevances: relevant, uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Mülki amirlikler, belediye ve muhtarlıklar aracılığıyla basit ve anlaşılır broşürler dağıtılmalı, halka açık afet eğitimi programları oluşturulmalı, kıyı bölgelerinde yaşayanlar için periyodik farkındalık seminerleri düzenlenmelidir. Broşürler, tahliye haritaları ve acil müdahale planları internet ortamında erişilebilir olarak hazırlanmalıdır (IBB, 2019). Seminerlerde interaktif sunumlar, animasyonlar ve saha uygulamaları kullanılmalıdır. Seminer sonrası katılımcılara tahliye haritaları, acil durum rehberleri dağıtılmalı ve tüm materyallere çevrimiçi erişim konusunda bilgiler verilmelidir. Tsunami erken uyarı sistemlerinin sadece kurumlar değil, doğrudan halk tarafından da erişilebilir olması, can kayıplarını azaltmada kilit rol oynar. Bu doğrultuda uyarılar SMS, siren sistemi, radyo yayını, TV alt yazısı ve mobil uygulamalar üzerinden anında iletilmelidir. Bunun için AFAD tarafından geliştirilen “AFAD Acil” mobil uygulamasında tsunami konusunda da bilgilendirmeler genişletilmeli ve...
+
+Match 3
+chunk_id: afad_earthquake_7bcf6cf55ff9a7d3f516
+source_file: document-_11_.pdf
+pages: 182-184
+source_relevances: relevant, uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Gözde Güney DOĞAN BINGÖL - Ahmet Cevdet YALÇINER 180 6.5. Planlama İçin Neler Yapılmalı? Tsunami riskinin azaltılmasında ilk adım, tsunamiye maruz kalabilecek kıyı bölgelerinin belirlenmesidir. Bu kapsamda tarihsel tsunami kayıtları, deniz tabanı topoğrafyası, yerel batimetri verileri ve deprem kaynakları analiz edilerek riskli bölgeler tespit edilir. Bilgisayar destekli modelleme ve simülasyonlar ile olası tsunami senaryoları oluşturulur. Hazırlanan tsunami tehlike haritalarında, dalga yükseklikleri, kıyıya ulaşma süreleri, olası su baskını alanları ve etkilenebilecek yapılar detaylı biçimde gösterilmelidir. Bu haritalar, yerel yönetimler, afet kurumları ve halk için rehber niteliğindedir ve afet yönetim planlarının temel bileşenidir. Bu konuda ülkemizde önemli bir örnek olarak, İstanbul Büyükşehir Belediyesi, Deprem ve Zemin İnceleme Müdürlüğü, İstanbul İli Marmara Kıyıları Tsunami Modelleme, Hasar Görebilirlik ve Tehlike Analizi Güncelleme Projesi Raporu (IBB, 2018), ve İstanbul...
+
+Match 4
+chunk_id: afad_earthquake_7c69885178c1e4c7d975
+source_file: OLAY-YERİ-YÖNETİMİ-TEMEL-EĞİTİMİ-220925.pdf
+pages: 62-64
+source_relevances: uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Bilgi Teknolojisi • Koordinasyon Merkezinde bilgi teknolojisi altyapısını kurmak ve sürdürmek • Veri güvenliği ve bilgi paylaşımı için gerekli sistemleri işletmek • Gerektiğinde uzaktan erişim çözümleri sağlamak 4. İletişim • İletişim ekipmanlarının temini, kurulumu ve bakımı • Haberleşme ekipmanlarının (telsiz, uydu telefonu, GSM vb.) temini, kurulumu ve bakımını yapmak • Operasyonel İletişim Planı’nı hazırlamak ve uygulamak • Tüm mesaj trafiğini (telsiz, yazılı, dijital) kayıt altına almak ve ilgili fonksiyonlara iletmek • Büyük ölçekli olaylarda bağımsız bir fonksiyon olarak yapılandırılabilir AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 40 5.1.5. Finans ve İdare Fonksiyonu Finans ve idare fonksiyonu, olay yeri yönetiminin sürdürülebilirliğini sağlamak için kritik bir görev üstlenir. Bu fonksiyon; mali işlerin takibi, personel yönetimi ve idari süreçlerin düzenlenmesinden sorumludur. Görev ve sorumlulukları şunlardır: • Finansal harcamaları izle...
+
+Match 5
+chunk_id: afad_earthquake_940af5ec0d3b9e9f70db
+source_file: Aydin-IRAP-2021.pdf
+pages: 205-207
+source_relevances: relevant, uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Tablo 3.4 Taşkın : Güçlü, Zayıf – Fırsat ve Tehditler TAŞKIN GZFT ANALİZİ Güçlü Yönler Fırsatlar  Teknik personellerin afet kültürü oluşturulması ve risk azaltma çalışmaları konusunda istekli olmaları.  D.S.İ tarafından risk azaltma tedbirleri kapsamında ilimizde büyük yatırımların yapılmış olması.  Meteoroloji Bölge Müdürlüğünce erken uyarı sistemlerinin faaliyete geçirilmiş olması.(sıcaklık, yağış, rüzgâr vb.)  Kamu kurum, kuruluşları ve STK’lar tarafından afet bilinci eğitimlerinin yapılıyor olması.  İlimizde afetlere göstermiş olduğu hassasiyet nedeniyle yerel ve ulusal basının yayın organlarının, kamu kurum ve kuruluşlar ile uyumlu çalışmaları.  Taşkın koruma yapılarının yapım, güçlendirme ve dönüştürme aşamalarında günümüz teknolojilerinin kullanılıyor olması.  Meteorolojik tahminlerin doğru yapılması.  Kentsel dönüşüm uygulamaları esnasında taşkın sahalarındaki altyapı ve üstyapı eksikliklerinin öncelikle giderilmesi çalışmalarının yapılması.  İlimiz coğrafi konumu g...
+
+Match 6
+chunk_id: afad_earthquake_aad0bd9a8727cee6ca8e
+source_file: TAMP.pdf
+pages: 17-20
+source_relevances: relevant, uncertain
+matched_terms: tahliye, talimat, uyarı
+text: TAMP TÜRKİYE AFET MÜDAHALE PLANI www.afad.gov.tr 17 • Hasarın büyük olabileceği, enkaz altında insanların kalabileceği, • Kuvvetli artçı veya başka depremler sonucunda binaların hasar düzeyinin artabileceği hatta yıkılabileceği, • Gıda, ilaç, ısınma, barınma vb. temel ihtiyaçların karşılanmasında zorluklar yaşanabileceği, • Kamu binası, sağlık ve eğitim tesisleri gibi kritik tesislerin hasara uğrayabileceği, • Görevli personel ve ailelerinin de afetten etkilenebileceği, • Afet bölgesinde görevlendirilen ekiplerin de barınma, ısınma, yiyecek ve içecek ihtiyaçlarının olabileceği, • Afet bölgesinde asayiş sorunlarının ve toplumsal olayların olabileceği, • Yiyecek, içecek, giyecek, barınma ve benzeri acil yardım ihtiyaçlarının belirlenmesinde ve temininde acil yardım süresinin 30 günden daha fazla olabileceği, • Kış ve yaz şartlarının genel hayatı etkileyecek derecede olumsuz geçebileceği, yaz aylarında gerçekleşen bir afetin etkilerinin kış aylarında da devam edebileceği, • Afetin ve v...
+
+Match 7
+chunk_id: afad_earthquake_4cf208e89d780bb12ec5
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+pages: 45-46
+source_relevances: uncertain
+matched_terms: tahliye, talimat, uyarı
+text: 7. BoO Tahliye Planı hazırlanarak personele duyurulmalı ve yönetim çadırına asılmalıdır. 8. Kamp alanı içerisinde bir sigara içme alanı belirlenmelidir. Bu alan dışında sigara kullanımı kesinlikle yasaktır. Alanda yangın söndürücü bulundurulmalıdır. 9. Kamp giriş ve çıkışları anlık olarak kayıt altına alınacaktır. Kamptan tek başına çıkış yasaktır. Kamp dışında ana arterler kullanılacak tenha yerlerden uzak durulmalıdır. 10. Aksi bir talimat gelmediği sürece gece çalışmaları emniyet ve güvenlik kurallarına uyulmak kaydı ile yapılmalıdır. ENKAZDA ARAMA VE KURTARMA TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 9 11. Kamp alanının yeterli şekilde aydınlatılması esastır. Bunun için lojistik birimi gerekli tedbirleri almak zorundadır. Aydınlatmada ve başka yerlerde kullanılan kablolar standartlara uygun olacak ve açıkta kablo bulunmamalıdır. Birleşme yerleri mutlaka izole edilmelidir. 12. Donanım çadırında akaryakıtlar sızıntı yapmayacak şekilde muhafaza edilecektir. Bu bö...
+
+Match 8
+chunk_id: afad_earthquake_7beebded3437f42e3119
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+pages: 21-23
+source_relevances: relevant, uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Bu plan, olası acil durumlara karşı hızlı, etkili ve koordineli bir şekilde hareket edilmesini amaçlar. Emergency Plan: A pre-prepared, systematic, and written response plan designed for institutions, organizations, factories, facilities, schools, and similar places to address hazardous situations such as fire, earthquake, explosion, chemical leakage, sabotage, and other emergencies. This plan 21 A AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ aims to ensure a rapid, effective, and coordinated response to potential emergency situations. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Durum Psikolojisi: Afet yaşayan bireylerde can veya mal kaybı gibi travmatik deneyimlerin ardından ortaya çıkan duygusal ve psikolojik tepkileri ifade eder. Bu süreçte, yalnızca doğrudan etkilenenler değil, yardım ve müdahale çalışmalarına katılan kişiler de normal yaşam düzeninin bozulmasıyla...
+
+Match 9
+chunk_id: afad_earthquake_1f150bbe271c1f645a79
+source_file: Aydin-IRAP-2021.pdf
+pages: 235-239
+source_relevances: relevant, uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Müdürlüğü Aile ve Sosyal Hizmetler İl Müdürlüğü, İl Sağlık Müdürlüğü, Meteoroloji Mühendisleri Odası Sürekli 235 HEDEF 5 Toplumdaki afet farkındalığını canlı tutarak, afetlere dirençli bir toplum oluşturmak EYLEM NO EYLEMLER AFET TÜRÜ EYLEMİ GERÇEKLEŞTİRECEK KURUM VE SÜRECİ Sorumlu Kurum Destekleyici Kurum(lar) Yaklaşık Tamamlama Süresi H5-E16 Kamu ve özelde bulunan katı, sıvı ve gazlı kazanların periyodik bakım ve kontrollerinin yetkili personellerce yapılmasının sağlanması Yangın Çevre ve Şehircilik İl Müdürlüğü İlgili Meslek Odaları Sürekli H5-E17 Bölgemizin tarım ve turizm durumu göz önüne alınarak göçmenlere, mevsimlik tarım işçilerine ve yerli-yabancı turistlere yönelik olarak ilimizin afet ve acil durumlarıyla ilgili eğitim ve bilgilendirme çalışmaları yapılması Deprem İl Afet ve Acil Durum Müdürlüğü İl Göç İdaresi Müdürlüğü, İl Tarım ve Orman Müdürlüğü, İl Kültür ve Turizm Müdürlüğü Sürekli H5-E18 Kamu ve ilgili Meslek Odaları tarafından yapı projelerinin imalat aşamalarında...
+
+Match 10
+chunk_id: afad_earthquake_8ef7a645840c69ec5574
+source_file: document-_11_.pdf
+pages: 247-247
+source_relevances: uncertain
+matched_terms: tahliye, yetkili, uyarı
+text: Kaya Düşmeleri 245 nılarak kaya düşme tehlikesi altındaki bölgenin üç boyutlu görüntülerinin elde edilmesiyle uygulanan iyileştirme yönteminin etkinliği kontrol edilebilmekte, hasar gören veya işlevini yitiren iyileştirme uygulamaları tespit edilebilmektedir. İzleme çalışmaları kapsamında toplanan veriler düzenli olarak analiz edilmeli ve karşılaştırmalı, değerlendirmeler yapılmalıdır. Elde edilen sonuçlar, önlemlerin etkinliğini belirlemek için grafikler ve haritalar eşliğinde raporlanmalı ve yorumlanmalıdır. İzleme sonuçlarına göre mevcut iyileştirme yöntemleri gözden geçirilmeli ve gerekmesi halinde gerekli revizyonlar yapılmalıdır. 8.4. Kaya Düşmelerinde Koordinasyon Kaya düşme tehlikesinin önlenmesi için yetkili kurumlar arasında etkin bir koordinasyon stratejisi oluşturmak oldukça önemlidir. Bu amaçla ilk aşamada kaya düşmeleri ile ilgili tüm ilgili kurumların temsilcilerinin yer aldığı bir koordinasyon merkezi kurulması faydalı olacaktır. Bunun yanı sıra, afet ve acil durum y...
