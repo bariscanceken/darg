@@ -1,0 +1,1799 @@
+================================================================================
+QUESTION ID: Q01
+Question: Deprem sırasında evin içindeysem ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.882388
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.767619
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 4
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.756180
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 5
+source_file: document-_11_.pdf
+source_priority: 1
+reranker_norm: 0.739912
+relevant: 0
+chunk_id: afad_earthquake_v2_4bdedca0c68877d01292
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.882388
+source_bonus: 0.020000
+final_score: 0.902388
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.767619
+source_bonus: 0.020000
+final_score: 0.787619
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 4
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.756180
+source_bonus: 0.010000
+final_score: 0.766180
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 5
+source_file: document-_11_.pdf
+source_priority: 1
+reranker_norm: 0.739912
+source_bonus: 0.000000
+final_score: 0.739912
+relevant: 0
+chunk_id: afad_earthquake_v2_4bdedca0c68877d01292
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q02
+Question: Deprem sonrası ilk 72 saatte ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 2
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.792466
+relevant: 0
+chunk_id: afad_earthquake_v2_4de6518258f173a45272
+
+rank: 3
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.753993
+relevant: 0
+chunk_id: afad_earthquake_v2_5237f95c9483b6bf7002
+
+rank: 4
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+source_priority: 1
+reranker_norm: 0.746274
+relevant: 0
+chunk_id: afad_earthquake_v2_9f15c8328caf803c696d
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.702334
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 2
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.792466
+source_bonus: 0.020000
+final_score: 0.812466
+relevant: 0
+chunk_id: afad_earthquake_v2_4de6518258f173a45272
+
+rank: 3
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.753993
+source_bonus: 0.020000
+final_score: 0.773993
+relevant: 0
+chunk_id: afad_earthquake_v2_5237f95c9483b6bf7002
+
+rank: 4
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+source_priority: 1
+reranker_norm: 0.746274
+source_bonus: 0.000000
+final_score: 0.746274
+relevant: 0
+chunk_id: afad_earthquake_v2_9f15c8328caf803c696d
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.702334
+source_bonus: 0.020000
+final_score: 0.722334
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q03
+Question: Depremden sonra hasarlı binaya tekrar girebilir miyim?
+
+Baseline Top5:
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 0
+chunk_id: afad_earthquake_v2_6aaa76364003179aaab3
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.756542
+relevant: 0
+chunk_id: afad_earthquake_v2_f6faafb1909babb4bb84
+
+rank: 3
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.750038
+relevant: 1
+chunk_id: afad_earthquake_v2_40c2d2d833b4b85327f6
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.743537
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 5
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.718801
+relevant: 1
+chunk_id: afad_earthquake_v2_dc95f4d347d1b1a39bcc
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 0
+chunk_id: afad_earthquake_v2_6aaa76364003179aaab3
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.756542
+source_bonus: 0.020000
+final_score: 0.776542
+relevant: 0
+chunk_id: afad_earthquake_v2_f6faafb1909babb4bb84
+
+rank: 3
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.750038
+source_bonus: 0.020000
+final_score: 0.770038
+relevant: 1
+chunk_id: afad_earthquake_v2_40c2d2d833b4b85327f6
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.743537
+source_bonus: 0.020000
+final_score: 0.763537
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 5
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.718801
+source_bonus: 0.020000
+final_score: 0.738801
+relevant: 1
+chunk_id: afad_earthquake_v2_dc95f4d347d1b1a39bcc
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q04
+Question: Deprem sırasında asansör kullanmalı mıyım?
+
+Baseline Top5:
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_37ee2cd11258a0f68065
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.913809
+relevant: 1
+chunk_id: afad_earthquake_v2_acf546f192d6f7580fac
+
+rank: 3
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.854948
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.817838
+relevant: 0
+chunk_id: afad_earthquake_v2_ff7c7e3294aaf3245c9a
+
+rank: 5
+source_file: yapisalolmayanriskler.pdf
+source_priority: 2
+reranker_norm: 0.806675
+relevant: 0
+chunk_id: afad_earthquake_v2_53273a64845ddf3af39f
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_37ee2cd11258a0f68065
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.913809
+source_bonus: 0.020000
+final_score: 0.933809
+relevant: 1
+chunk_id: afad_earthquake_v2_acf546f192d6f7580fac
+
+rank: 3
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.854948
+source_bonus: 0.010000
+final_score: 0.864948
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.817838
+source_bonus: 0.020000
+final_score: 0.837838
+relevant: 0
+chunk_id: afad_earthquake_v2_ff7c7e3294aaf3245c9a
+
+rank: 5
+source_file: yapisalolmayanriskler.pdf
+source_priority: 2
+reranker_norm: 0.806675
+source_bonus: 0.010000
+final_score: 0.816675
+relevant: 0
+chunk_id: afad_earthquake_v2_53273a64845ddf3af39f
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q05
+Question: Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?
+
+Baseline Top5:
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_37ee2cd11258a0f68065
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.907673
+relevant: 1
+chunk_id: afad_earthquake_v2_acf546f192d6f7580fac
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.835461
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.591308
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.550320
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_37ee2cd11258a0f68065
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.907673
+source_bonus: 0.020000
+final_score: 0.927673
+relevant: 1
+chunk_id: afad_earthquake_v2_acf546f192d6f7580fac
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.835461
+source_bonus: 0.020000
+final_score: 0.855461
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.591308
+source_bonus: 0.020000
+final_score: 0.611308
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.550320
+source_bonus: 0.020000
+final_score: 0.570320
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q06
+Question: Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_5243c7568406dc6d07b0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.894479
+relevant: 0
+chunk_id: afad_earthquake_v2_156cea4b9ed7845976b7
+
+rank: 3
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+source_priority: 1
+reranker_norm: 0.733277
+relevant: 0
+chunk_id: afad_earthquake_v2_9f15c8328caf803c696d
+
+rank: 4
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.699124
+relevant: 0
+chunk_id: afad_earthquake_v2_6e7342ce2519e56a10d6
+
+rank: 5
+source_file: KIRKLARELI-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.675046
+relevant: 0
+chunk_id: afad_earthquake_v2_380cafc8226774560e1c
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_5243c7568406dc6d07b0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.894479
+source_bonus: 0.020000
+final_score: 0.914479
+relevant: 0
+chunk_id: afad_earthquake_v2_156cea4b9ed7845976b7
+
+rank: 3
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+source_priority: 1
+reranker_norm: 0.733277
+source_bonus: 0.000000
+final_score: 0.733277
+relevant: 0
+chunk_id: afad_earthquake_v2_9f15c8328caf803c696d
+
+rank: 4
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.699124
+source_bonus: 0.020000
+final_score: 0.719124
+relevant: 0
+chunk_id: afad_earthquake_v2_6e7342ce2519e56a10d6
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.674418
+source_bonus: 0.020000
+final_score: 0.694418
+relevant: 1
+chunk_id: afad_earthquake_v2_47906b2fade86f52003f
+
+Entered Top5: afad_earthquake_v2_47906b2fade86f52003f
+Exited Top5: afad_earthquake_v2_380cafc8226774560e1c
+
+================================================================================
+QUESTION ID: Q07
+Question: Depremden sonra telefonla yakınlarımı aramalı mıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.896626
+relevant: 0
+chunk_id: afad_earthquake_v2_687d9401c527bf64a875
+
+rank: 3
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.847176
+relevant: 1
+chunk_id: afad_earthquake_v2_8edcf886d51b509b94e6
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.825562
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 5
+source_file: hasar_tespit_-_10x21.pdf
+source_priority: 3
+reranker_norm: 0.693874
+relevant: 0
+chunk_id: afad_earthquake_v2_b9f1f37fc6b9c132abef
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.896626
+source_bonus: 0.020000
+final_score: 0.916626
+relevant: 0
+chunk_id: afad_earthquake_v2_687d9401c527bf64a875
+
+rank: 3
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.847176
+source_bonus: 0.020000
+final_score: 0.867176
+relevant: 1
+chunk_id: afad_earthquake_v2_8edcf886d51b509b94e6
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.825562
+source_bonus: 0.020000
+final_score: 0.845562
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 5
+source_file: hasar_tespit_-_10x21.pdf
+source_priority: 3
+reranker_norm: 0.693874
+source_bonus: 0.020000
+final_score: 0.713874
+relevant: 0
+chunk_id: afad_earthquake_v2_b9f1f37fc6b9c132abef
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q08
+Question: Enkaz altında kalırsam ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+source_priority: 2
+reranker_norm: 0.871911
+relevant: 0
+chunk_id: afad_earthquake_v2_57aa4f0d0c58f1556844
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.758836
+relevant: 1
+chunk_id: afad_earthquake_v2_fe5a81c9950597aaee20
+
+rank: 4
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+source_priority: 2
+reranker_norm: 0.753918
+relevant: 0
+chunk_id: afad_earthquake_v2_385ab31d1233619c9ccd
+
+rank: 5
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+source_priority: 2
+reranker_norm: 0.743708
+relevant: 0
+chunk_id: afad_earthquake_v2_64fa27dc10ae97efe12d
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+source_priority: 2
+reranker_norm: 0.871911
+source_bonus: 0.010000
+final_score: 0.881911
+relevant: 0
+chunk_id: afad_earthquake_v2_57aa4f0d0c58f1556844
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.758836
+source_bonus: 0.020000
+final_score: 0.778836
+relevant: 1
+chunk_id: afad_earthquake_v2_fe5a81c9950597aaee20
+
+rank: 4
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+source_priority: 2
+reranker_norm: 0.753918
+source_bonus: 0.010000
+final_score: 0.763918
+relevant: 0
+chunk_id: afad_earthquake_v2_385ab31d1233619c9ccd
+
+rank: 5
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+source_priority: 2
+reranker_norm: 0.743708
+source_bonus: 0.010000
+final_score: 0.753708
+relevant: 0
+chunk_id: afad_earthquake_v2_64fa27dc10ae97efe12d
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q09
+Question: Deprem sonrası artçı sarsıntılarda ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.856525
+relevant: 1
+chunk_id: afad_earthquake_v2_20d1a673c2b050cdeb6e
+
+rank: 3
+source_file: hasar_tespit_-_10x21.pdf
+source_priority: 3
+reranker_norm: 0.802242
+relevant: 0
+chunk_id: afad_earthquake_v2_b9f1f37fc6b9c132abef
+
+rank: 4
+source_file: yft_min1.pdf
+source_priority: 1
+reranker_norm: 0.523196
+relevant: 0
+chunk_id: afad_earthquake_v2_f543ffc8b023a9e1a8c8
+
+rank: 5
+source_file: sismik_mikrobolgeleme_el_kitabi_tr.pdf
+source_priority: 1
+reranker_norm: 0.521343
+relevant: 0
+chunk_id: afad_earthquake_v2_77dd84078e4dec5a8f39
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.856525
+source_bonus: 0.020000
+final_score: 0.876525
+relevant: 1
+chunk_id: afad_earthquake_v2_20d1a673c2b050cdeb6e
+
+rank: 3
+source_file: hasar_tespit_-_10x21.pdf
+source_priority: 3
+reranker_norm: 0.802242
+source_bonus: 0.020000
+final_score: 0.822242
+relevant: 0
+chunk_id: afad_earthquake_v2_b9f1f37fc6b9c132abef
+
+rank: 4
+source_file: yft_min1.pdf
+source_priority: 1
+reranker_norm: 0.523196
+source_bonus: 0.000000
+final_score: 0.523196
+relevant: 0
+chunk_id: afad_earthquake_v2_f543ffc8b023a9e1a8c8
+
+rank: 5
+source_file: sismik_mikrobolgeleme_el_kitabi_tr.pdf
+source_priority: 1
+reranker_norm: 0.521343
+source_bonus: 0.000000
+final_score: 0.521343
+relevant: 0
+chunk_id: afad_earthquake_v2_77dd84078e4dec5a8f39
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q10
+Question: Deprem çantasında neler bulunmalı?
+
+Baseline Top5:
+rank: 1
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_447d2d6bc4c14fa76217
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.890991
+relevant: 0
+chunk_id: afad_earthquake_v2_24a5e827c98bf732f335
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.766676
+relevant: 1
+chunk_id: afad_earthquake_v2_dd631026938f44680d2b
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.734569
+relevant: 0
+chunk_id: afad_earthquake_v2_c8c7b70c2799105f0156
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.703726
+relevant: 0
+chunk_id: afad_earthquake_v2_62d572ab1266c325ed9a
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_447d2d6bc4c14fa76217
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.890991
+source_bonus: 0.020000
+final_score: 0.910991
+relevant: 0
+chunk_id: afad_earthquake_v2_24a5e827c98bf732f335
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.766676
+source_bonus: 0.020000
+final_score: 0.786676
+relevant: 1
+chunk_id: afad_earthquake_v2_dd631026938f44680d2b
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.734569
+source_bonus: 0.020000
+final_score: 0.754569
+relevant: 0
+chunk_id: afad_earthquake_v2_c8c7b70c2799105f0156
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.703726
+source_bonus: 0.020000
+final_score: 0.723726
+relevant: 0
+chunk_id: afad_earthquake_v2_62d572ab1266c325ed9a
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q11
+Question: Depremden sonra nereye gitmeliyim?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.948426
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.872396
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.860595
+relevant: 0
+chunk_id: afad_earthquake_v2_572074d49992362287d5
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.799823
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.948426
+source_bonus: 0.020000
+final_score: 0.968426
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.872396
+source_bonus: 0.020000
+final_score: 0.892396
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.860595
+source_bonus: 0.020000
+final_score: 0.880595
+relevant: 0
+chunk_id: afad_earthquake_v2_572074d49992362287d5
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.799823
+source_bonus: 0.020000
+final_score: 0.819823
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q12
+Question: Toplanma alanı nedir?
+
+Baseline Top5:
+rank: 1
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+source_priority: 2
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_cbd25a444d05ab121b8a
+
+rank: 2
+source_file: SIIRT-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.984620
+relevant: 1
+chunk_id: afad_earthquake_v2_5f94eb091fec5868a669
+
+rank: 3
+source_file: Yozgat-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.809304
+relevant: 0
+chunk_id: afad_earthquake_v2_5042e1888af675e6a3d6
+
+rank: 4
+source_file: Yozgat-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.805703
+relevant: 0
+chunk_id: afad_earthquake_v2_56b43f1c6d0727b9a983
+
+rank: 5
+source_file: ARTVIN-IRAP-SON_22102021.pdf
+source_priority: 1
+reranker_norm: 0.792994
+relevant: 1
+chunk_id: afad_earthquake_v2_24ab15ac9588f2131aaa
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+source_priority: 2
+reranker_norm: 1.000000
+source_bonus: 0.010000
+final_score: 1.010000
+relevant: 1
+chunk_id: afad_earthquake_v2_cbd25a444d05ab121b8a
+
+rank: 2
+source_file: SIIRT-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.984620
+source_bonus: 0.000000
+final_score: 0.984620
+relevant: 1
+chunk_id: afad_earthquake_v2_5f94eb091fec5868a669
+
+rank: 3
+source_file: Yozgat-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.809304
+source_bonus: 0.000000
+final_score: 0.809304
+relevant: 0
+chunk_id: afad_earthquake_v2_5042e1888af675e6a3d6
+
+rank: 4
+source_file: Yozgat-IRAP.pdf
+source_priority: 1
+reranker_norm: 0.805703
+source_bonus: 0.000000
+final_score: 0.805703
+relevant: 0
+chunk_id: afad_earthquake_v2_56b43f1c6d0727b9a983
+
+rank: 5
+source_file: ARTVIN-IRAP-SON_22102021.pdf
+source_priority: 1
+reranker_norm: 0.792994
+source_bonus: 0.000000
+final_score: 0.792994
+relevant: 1
+chunk_id: afad_earthquake_v2_24ab15ac9588f2131aaa
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q13
+Question: Deprem sırasında dışarıdaysam ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.944177
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.910341
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.820151
+relevant: 0
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 5
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.774693
+relevant: 0
+chunk_id: afad_earthquake_v2_ff7c7e3294aaf3245c9a
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.944177
+source_bonus: 0.020000
+final_score: 0.964177
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.910341
+source_bonus: 0.020000
+final_score: 0.930341
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.820151
+source_bonus: 0.020000
+final_score: 0.840151
+relevant: 0
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 5
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.774693
+source_bonus: 0.020000
+final_score: 0.794693
+relevant: 0
+chunk_id: afad_earthquake_v2_ff7c7e3294aaf3245c9a
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q14
+Question: Deprem sırasında araç kullanıyorsam ne yapmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 0
+chunk_id: afad_earthquake_v2_ae7004b7adb20b96f5fb
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.976353
+relevant: 0
+chunk_id: afad_earthquake_v2_fe5a81c9950597aaee20
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.939784
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.898384
+relevant: 0
+chunk_id: afad_earthquake_v2_ff7c7e3294aaf3245c9a
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.891348
+relevant: 0
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 0
+chunk_id: afad_earthquake_v2_ae7004b7adb20b96f5fb
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.976353
+source_bonus: 0.020000
+final_score: 0.996353
+relevant: 0
+chunk_id: afad_earthquake_v2_fe5a81c9950597aaee20
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.939784
+source_bonus: 0.020000
+final_score: 0.959784
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.898384
+source_bonus: 0.020000
+final_score: 0.918384
+relevant: 0
+chunk_id: afad_earthquake_v2_ff7c7e3294aaf3245c9a
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.891348
+source_bonus: 0.020000
+final_score: 0.911348
+relevant: 0
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q15
+Question: Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.977167
+relevant: 1
+chunk_id: afad_earthquake_v2_40c2d2d833b4b85327f6
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.902305
+relevant: 0
+chunk_id: afad_earthquake_v2_156cea4b9ed7845976b7
+
+rank: 4
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.879019
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 5
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.876042
+relevant: 0
+chunk_id: afad_earthquake_v2_effbf1b87ddccea4f4e4
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+rank: 2
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.977167
+source_bonus: 0.020000
+final_score: 0.997167
+relevant: 1
+chunk_id: afad_earthquake_v2_40c2d2d833b4b85327f6
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.902305
+source_bonus: 0.020000
+final_score: 0.922305
+relevant: 0
+chunk_id: afad_earthquake_v2_156cea4b9ed7845976b7
+
+rank: 4
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.876042
+source_bonus: 0.020000
+final_score: 0.896042
+relevant: 0
+chunk_id: afad_earthquake_v2_effbf1b87ddccea4f4e4
+
+rank: 5
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.879019
+source_bonus: 0.010000
+final_score: 0.889019
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q16
+Question: Ağır hasarlı bina ne demektir?
+
+Baseline Top5:
+rank: 1
+source_file: Afet-barinma-faaliyetleri.pdf
+source_priority: 2
+reranker_norm: 1.000000
+relevant: 0
+chunk_id: afad_earthquake_v2_f5460af0d9e5b082c5e9
+
+rank: 2
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.980479
+relevant: 1
+chunk_id: afad_earthquake_v2_dc95f4d347d1b1a39bcc
+
+rank: 3
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+source_priority: 2
+reranker_norm: 0.618185
+relevant: 1
+chunk_id: afad_earthquake_v2_15228a457be9c1c471df
+
+rank: 4
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.596984
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 5
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.569400
+relevant: 0
+chunk_id: afad_earthquake_v2_a7c0e64fad956000b522
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: Afet-barinma-faaliyetleri.pdf
+source_priority: 2
+reranker_norm: 1.000000
+source_bonus: 0.010000
+final_score: 1.010000
+relevant: 0
+chunk_id: afad_earthquake_v2_f5460af0d9e5b082c5e9
+
+rank: 2
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.980479
+source_bonus: 0.020000
+final_score: 1.000479
+relevant: 1
+chunk_id: afad_earthquake_v2_dc95f4d347d1b1a39bcc
+
+rank: 3
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+source_priority: 2
+reranker_norm: 0.618185
+source_bonus: 0.010000
+final_score: 0.628185
+relevant: 1
+chunk_id: afad_earthquake_v2_15228a457be9c1c471df
+
+rank: 4
+source_file: yapisalriskler.pdf
+source_priority: 2
+reranker_norm: 0.596984
+source_bonus: 0.010000
+final_score: 0.606984
+relevant: 0
+chunk_id: afad_earthquake_v2_fe92b1366549464b873f
+
+rank: 5
+source_file: SoruCevap-Kitapcik-2.pdf
+source_priority: 3
+reranker_norm: 0.569400
+source_bonus: 0.020000
+final_score: 0.589400
+relevant: 0
+chunk_id: afad_earthquake_v2_a7c0e64fad956000b522
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q17
+Question: Depremden sonra tahliye nasıl yapılmalıdır?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.875873
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.835715
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.803812
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 5
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.759013
+relevant: 1
+chunk_id: afad_earthquake_v2_df3f7ea3d41870c7a362
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.875873
+source_bonus: 0.020000
+final_score: 0.895873
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.835715
+source_bonus: 0.020000
+final_score: 0.855715
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.803812
+source_bonus: 0.020000
+final_score: 0.823812
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 5
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.759013
+source_bonus: 0.020000
+final_score: 0.779013
+relevant: 1
+chunk_id: afad_earthquake_v2_df3f7ea3d41870c7a362
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q18
+Question: Deprem sonrası iletişim nasıl sağlanmalıdır?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.976292
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 3
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+source_priority: 1
+reranker_norm: 0.891299
+relevant: 0
+chunk_id: afad_earthquake_v2_9f15c8328caf803c696d
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.804907
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.804508
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.976292
+source_bonus: 0.020000
+final_score: 0.996292
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 3
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+source_priority: 1
+reranker_norm: 0.891299
+source_bonus: 0.000000
+final_score: 0.891299
+relevant: 0
+chunk_id: afad_earthquake_v2_9f15c8328caf803c696d
+
+rank: 4
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.804907
+source_bonus: 0.020000
+final_score: 0.824907
+relevant: 0
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.804508
+source_bonus: 0.020000
+final_score: 0.824508
+relevant: 0
+chunk_id: afad_earthquake_v2_3b28344ad0c4e1559be5
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q19
+Question: Depremden sonra yaralı birine nasıl yaklaşmalıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.944432
+relevant: 0
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.876015
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.837052
+relevant: 1
+chunk_id: afad_earthquake_v2_687d9401c527bf64a875
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.695028
+relevant: 0
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_5231d857573b43a191f2
+
+rank: 2
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.944432
+source_bonus: 0.020000
+final_score: 0.964432
+relevant: 0
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.876015
+source_bonus: 0.020000
+final_score: 0.896015
+relevant: 0
+chunk_id: afad_earthquake_v2_8641b392086766056ad0
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.837052
+source_bonus: 0.020000
+final_score: 0.857052
+relevant: 1
+chunk_id: afad_earthquake_v2_687d9401c527bf64a875
+
+rank: 5
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.695028
+source_bonus: 0.020000
+final_score: 0.715028
+relevant: 0
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+Entered Top5: NONE
+Exited Top5: NONE
+
+================================================================================
+QUESTION ID: Q20
+Question: Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?
+
+Baseline Top5:
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.794945
+relevant: 0
+chunk_id: afad_earthquake_v2_572074d49992362287d5
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.787970
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.700523
+relevant: 0
+chunk_id: afad_earthquake_v2_df3f7ea3d41870c7a362
+
+rank: 5
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.621710
+relevant: 1
+chunk_id: afad_earthquake_v2_8edcf886d51b509b94e6
+
+Boosted Top5 boost=0.02:
+
+rank: 1
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 1.000000
+source_bonus: 0.020000
+final_score: 1.020000
+relevant: 1
+chunk_id: afad_earthquake_v2_7302a4f456736e75e396
+
+rank: 2
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.794945
+source_bonus: 0.020000
+final_score: 0.814945
+relevant: 0
+chunk_id: afad_earthquake_v2_572074d49992362287d5
+
+rank: 3
+source_file: olagandisi.pdf
+source_priority: 3
+reranker_norm: 0.787970
+source_bonus: 0.020000
+final_score: 0.807970
+relevant: 1
+chunk_id: afad_earthquake_v2_1a63bcf03fa83c353324
+
+rank: 4
+source_file: ilk72saatengelliler.pdf
+source_priority: 3
+reranker_norm: 0.700523
+source_bonus: 0.020000
+final_score: 0.720523
+relevant: 0
+chunk_id: afad_earthquake_v2_df3f7ea3d41870c7a362
+
+rank: 5
+source_file: ilk72saat1.pdf
+source_priority: 3
+reranker_norm: 0.621710
+source_bonus: 0.020000
+final_score: 0.641710
+relevant: 1
+chunk_id: afad_earthquake_v2_8edcf886d51b509b94e6
+
+Entered Top5: NONE
+Exited Top5: NONE

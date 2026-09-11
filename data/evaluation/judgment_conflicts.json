@@ -1,0 +1,1533 @@
+{
+  "conflicting_question_chunk_pairs": 13,
+  "questions_affected": [
+    "Q04",
+    "Q05",
+    "Q08",
+    "Q10",
+    "Q12",
+    "Q15",
+    "Q16",
+    "Q17",
+    "Q18",
+    "Q20"
+  ],
+  "files_scanned": [
+    "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+    "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+    "data\\evaluation\\retrieval_hybrid_judgments.csv",
+    "data\\evaluation\\retrieval_reranked_judgments.csv",
+    "data\\evaluation\\retrieval_judgments.csv"
+  ],
+  "files_containing_conflicts": [
+    "data\\evaluation\\retrieval_hybrid_judgments.csv",
+    "data\\evaluation\\retrieval_judgments.csv",
+    "data\\evaluation\\retrieval_reranked_judgments.csv",
+    "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+    "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv"
+  ],
+  "conflicts": [
+    {
+      "question_id": "Q04",
+      "question": "Deprem sırasında asansör kullanmalı mıyım?",
+      "chunk_id": "afad_earthquake_628e4978a3a3a946879b",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 31,
+      "page_end": 34,
+      "chunk_text": "Panièe kapÈlmak sadece depremin yaratacaèÈ zararÈ artÈracaktÈr. Deprem anÈnda tamamen yerle bir olmamÈë, az hasarlÈ veya hiç hasar görmemië binalarda ölüm ve yaralanmalara daha çok yapÈsal olmayan riskler yol açmaktadÈr. Bu tür risklerden korunmak için “Çök-Kapan-Tutun” davranÈëÈnÈ uygulamak yararlÈ olacaktÈr. Çök-Kapan-Tutun “Çök-Kapan-Tutun” davranÈëÈ deprem, uçak kazasÈ, heyelan, bomba patlamasÈ, bomba tehdidi, yÈldÈrÈm ve hortum gibi tehlike anlarÈnda uygulanÈr. Örneèin zemin sarsÈlmaya baëladÈèÈnda veya büyük bir patlama duyulduèunda/hissedildièinde herkesin bu hareketi yapmasÈ gerekir. Çök-Kapan-Tutun hareketinin amacÈ hedef küçülterek daha az zarar görmektir. Hedef küçültmek, üzerimize düëebilecek veya bir ëekilde bize zarar verebilecek cisimlerin açÈk hedefi olmamak için vücudumuzu mümkün olduèunca kapatarak, o cisimlere karëÈ daha küçük bir hedef haline gelecek ëekilde pozisyon almaktÈr. Eèer bina içerisindeyseniz depremi hissettièinizde ayakta durmayÈn ve ëunlarÈ kesinlikle yapmayÈn: • Oradan oraya koëmayÈn. • Balkona çÈkmayÈn. • Merdiven ve asansörleri kullanmayÈn. • Pencere ve balkondan atlamayÈn. Öncelikle sabitlemediyseniz ëu noktalardan uzak durun: • Pencereler • KapÈlar • Cam bölmeler • Kütüphane • Lambalar • Tablolar • AsÈlÈ çiçekler ve saksÈlar • Raflar • Dolaplar • Kimyasallar • Yanan ocak ve fÈrÈnlar • Yüksek mobilyalar • Gevëek yapÈ elemanlarÈ (baca, asma tavan, kalorifer, vb.) DEPREM SIRASINDA YAPILMASI GEREKENLER DEPREM SIRASINDA DEPREM SIRASINDA YAPILMASI GEREKENLER YAPILMASI GEREKENLER 22 Daha sonra, ÇÖKerek saèlam bir nesnenin altÈna girin veya yanÈna geçin. Özellikle sÈrtÈnÈz pencerelere dönük bir ëekilde KAPANÈp baëÈnÈzÈ ve ensenizi düëen cisimlerden koruyun. SarsÈntÈ sona erene kadar, sallanan nesneyle beraber hareket edebilmek için nesneye TUTUNun. Yüzünüzü, nesneyi tutan kollarÈnÈzÈn üzerine koyarak uçuëan cisimlerden gözlerinizi ve yüzünüzü koruyun. Eèer deprem anÈnda mutfaktaysanÈz ve yanan bir ocak varsa ëunlarÈ yapmalÈsÈnÈz: • SarsÈntÈ hissedilir hissedilmez, yanan ocaèÈ kapatÈn. • Daha sonra Çök-Kapan-Tutun hareketini yapÈn. UNUTMAYIN: Bir acil durum ya da afet sÈrasÈnda, bulunduèunuz yerde en uygun Çök-Kapan-Tutun pozisyonunu alarak hedef küçültün ve tehlike geçinceye kadar aynÈ pozisyonda kalÈn. Deprem anÈnda bulunduèumuz yere göre kendimizi korumak için yapmamÈz gereken doèru davranÈë (Çök-KapanTutun) için tabloya bakalÈm. 23 Çök-Kapan-Tutun TatbikatÈ Depremde insanlarÈn panièe kapÈlmadan doèru hareket etme ëansÈnÈn Çök-Kapan-Tutun hareketiyle iki kat arttÈèÈ bilimsel olarak ispatlanmÈëtÈr. Bu nedenle ister evde, ister okulda, ister dÈëarÈda veya baëka bir yerde olalÈm, deprem anÈnda kendimizi nasÈl koruyacaèÈmÈzÈ bilmemiz önemlidir. Ailece, sÈnÈfça veya arkadaëlarÈmÈzla, deprem anÈnda ne yapacaèÈmÈzÈn provasÈnÈ yaparsak deprem baëladÈèÈnda reflekslerimiz otomatik olarak bizi doèru davranÈëlarda bulunmaya yöneltecektir. (Daha fazla bilgi için élk 72 Saat Eèitim KitapçÈèÈ’ndan yararlanabilirsiniz.) Deprem anÈ herkes için olduèu gibi engelliler için de zor bir andÈr. Bu nedenle, böyle bir anda engelli bireylerin hem kendilerinin nasÈl davranmasÈ gerektièini, hem de çevrelerindeki bireylerin kendilerine nasÈl yardÈmcÈ olabileceèini bilmesi çok önemlidir. Deprem sÈrasÈnda dikkat edilmesi gereken noktalar, farklÈ engelli gruplarÈna göre deèiëiklik gösterebilir. Bedensel Engelliler Bedensel engelli kiëinin, kendini koruyup koruyamayacaèÈna dair önceden bir plan hazÈrlamasÈ ve bu konu üzerine en azÈndan zihinsel bir tatbikat yapmÈë olmasÈ gerekir. Eèer bu kiëi deprem anÈnda tek baëÈnaysa, önceden hazÈrladÈèÈ plana uygun ëekilde kendini korumalÈdÈr. Deprem anÈnda bulunduèu yerin fiziksel özelliklerine ve kendi engellilik durumuna göre bir pozisyon alarak vücudunu korumalÈdÈr. Burada en önemli konu, kiëinin panièe kapÈlmamasÈdÈr. UygulanmasÈ gereken davranÈëlar ëöyle özetlenebilir: • Tekerlekli sandalyedeyseniz, kendinizi sandalyeden yere atmayÈn. • Tekerlek frenini devreye sokun, tutunun. BaëÈnÈzÈ korumaya çalÈëÈn. • OturuyorsanÈz yerinizde kalÈn ve mümkünse kafanÈzÈ koruyun. • AyaktaysanÈz oturun veya düëmeyi engellemek için vücudunuza destek verin ve baëÈnÈzÈ koruyun. • Gece yatarken protez gibi özel cihazlarÈnÈzÈ yakÈnÈnÈzda ve kolay ulaëabileceèiniz bir yerde bulundurun. Eèer bu kiëi, bir yaëam destek ünitesine baèlÈysa ve hareket edemiyorsa çevresindeki kiëilerin yardÈmÈna ihtiyaç duyacaktÈr. Bu durumdaki bir kiëinin, deprem anÈnÈ en az zararla geçirebilmesi için yaëam destek cihazlarÈnÈn önceden sabitlenmië olmasÈ gerekmektedir. Zihinsel Engelliler Zihinsel engelli kiëiler durumlarÈna göre deprem sÈrasÈnda kendilerini koruyabilir veya koruyamazlar. Kendini koruyabilecek konumda olanlar, sarsÈntÈnÈn baëlamasÈyla birlikte hedef küçültmeli ve Çök-Kapan-Tutun hareketini yapmalÈdÈr. Bu davranÈëÈn öèrenilebilmesi için basit komutlarla ve sÈk aralÈklarla tatbikat yapÈlmasÈ önemlidir. Kendilerini koruyamayacak durumda olan veya istem dÈëÈ olarak, bulunduèu yerde hareketli veya hareketsiz ëekilde kalma ihtimali olan engellilerin deprem anÈnda etraflarÈndakilerin yardÈmÈna ihtiyaçlarÈ vardÈr. Depremden en az zararla kurtulabilmek için bu kiëilerin mutlaka önceden hazÈrlanmÈë planlarÈnÈn olmasÈ gerekmektedir. Bu engel grubundaki kiëilerin, önceki bölümlerde sözü edilen, kol veya boyunda taëÈnabilecek bir künyeye sahip olmalarÈ gereklidir. 24 Görme Engelliler Görme engelli kiëi, deprem anÈnda, bilmedièi bir ortamdaysa ve yanÈnda bir refakatçisi yoksa çevresindekilerden yardÈm istemelidir. Bu kiëi, hedef küçülterek vücudunu korurken aynÈ zamanda refakatçisi veya kendisine yardÈmcÈ olabilecek herhangi bir kiëi aracÈlÈèÈyla, çevreden gelebilecek tehlikelere karëÈ da kendini koruyabilir. YanÈnda kendisine yardÈmcÈ olabilecek bir kiëi olsun veya olmasÈn görme engelli bir kiëinin deprem anÈnda kendini korumasÈ için en büyük silahÈ duyma yeteneèidir; zira sarsÈntÈ nedeniyle etrafÈnda yÈkÈlabilecek, üzerine düëebilecek veya baëka herhangi bir yolla kendisine zarar verebilecek tehlikeleri her ne kadar göremese de olasÈ tehlikelerden bazÈlarÈnÈn habercisi olan sesleri duyabilir. Görme engelli kiëi çocuksa, etrafÈndaki kiëilerin yardÈmÈna daha çok ihtiyaç duyacaktÈr. Deprem anÈnda okulda olmasÈ halinde kendini korumak üzere Çök-Kapan-Tutun pozisyonunu almalÈdÈr. Bunun yanÈ sÈra öèretmenlerinin veya dièer okul görevlilerinin komutlarÈnÈ dinlemesi gerekmektedir. Durumu veya yaëÈ ne olursa olsun, görme engelli kiëinin deprem anÈnda panièe kapÈlmamasÈ önemlidir. Bunun için de deprem anÈnda hangi ortamda nasÈl hareket etmesi gerektièi konusunda tatbikatlar yapmÈë olmalÈdÈr. éëitme Engelliler éëitme engelli bir kiëi deprem anÈnda kendini korumak üzere hedef küçülterek Çök-Kapan-Tutun hareketini yapmalÈdÈr. Dièer kiëilerden farklÈ olarak iëitme engelli kiëilerin en çok dikkat etmesi gereken konu, bir yandan hedef küçültüp vücutlarÈnÈ korurken, dièer yandan gözleriyle dÈëarÈdan gelebilecek tehlikelere karëÈ sürekli alarmda olmaktÈr.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q04",
+          "question": "Deprem sırasında asansör kullanmalı mıyım?",
+          "chunk_id": "afad_earthquake_628e4978a3a3a946879b",
+          "source_judgment_file": "data\\evaluation\\retrieval_judgments.csv",
+          "csv_row_number": 17,
+          "source_information": {
+            "rank": "1",
+            "similarity_score": "0.866314",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "31",
+            "page_end": "34"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q04",
+          "question": "Deprem sırasında asansör kullanmalı mıyım?",
+          "chunk_id": "afad_earthquake_628e4978a3a3a946879b",
+          "source_judgment_file": "data\\evaluation\\retrieval_reranked_judgments.csv",
+          "csv_row_number": 17,
+          "source_information": {
+            "reranked_rank": "1",
+            "rerank_score": "-0.182924",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "31",
+            "page_end": "34"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q05",
+      "question": "Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?",
+      "chunk_id": "afad_earthquake_316e61fd7b2f60faef6f",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 53,
+      "page_end": 55,
+      "chunk_text": "KapalÈ AlandaysanÈz; • Binadan çÈkmak ve heyelan bölgesinden uzaklaëmak için yeterli vaktiniz yoksa içeride kalÈn. • Saèlam eëyalarÈn altÈnda ve/veya yanÈnda ÇÖK - KAPAN - TUTUN hareketini uygulayÈn. • Hissettièiniz hareket sona erinceye kadar yerinizden ayrÈlmayÈn. DÈëarÈdaysanÈz; • Heyelan veya çamur akÈntÈsÈnÈn hareket yolunun üzerinde durmayÈn. • Çevrenizdeki insanlarÈ uyararak heyelanÈn hareket yolundan uzaklaëÈn ve mümkün olduèu kadar yükseklere doèru çÈkÈn. • Heyelan veya çamur akÈntÈsÈndan kaçabilecek zamanÈnÈz veya etrafÈnÈzda arkasÈna saklanabileceèiniz saèlam bir ëey yoksa, olduèunuz yerde ÇÖK-KAPAN-TUTUN hareketini yaparak baëÈnÈzÈ ve boynunuzu koruyun. SonrasÈnda; • Her ëeyden önce kendinizin ve aile üyelerinin güvende olduèundan emin olun. • OlayÈn tekrarlanmasÈ ihtimaline karëÈ mümkünse bölgeden uzaklaëÈn. • Kendi güvenlièinize dikkat ederek çevrenizde yardÈma ihtiyacÈ bulunan kiëi olup olmadÈèÈnÈ kontrol edin. • YangÈn veya yeni bir çamur akÈntÈsÈ gibi tehlikeler yoksa yaralÈ ve yardÈma muhtaç kiëileri yerinden oynatmayÈn. YardÈm için gelen yetkilileri, bu kiëilere yönlendirin. • Mümkünse evinizde bulunan elektrik, gaz ve su tesisatlarÈnÈ kapatÈn. Çevrenizde gaz kaçaèÈ olmadÈèÈndan emin oluncaya dek, bulunduèunuz yeri kibrit veya dièer yanÈcÈ maddelerle aydÈnlatmaya çalÈëmayÈn. • TelefonlarÈ meëgul etmeyin. • Risk yaratabilecek duvar, çatÈ ve bacalarÈn etrafÈnda dolaëmamaya özen gösterin. • Radyo vb. kitle iletiëim araçlarÈ yoluyla, yapÈlan uyarÈlarÈ dinleyin ve söylenenleri uygulayÈn. • Cadde ve sokaklarÈ acil yardÈm araçlarÈ için boë bÈrakÈn. • Eëya almak amacÈyla, zarar görmüë binalara girmeyin. • Heyelan veya çamur akÈntÈsÈ sonrasÈ meydana gelebilecek sellenmelere karëÈ dikkatli olun. SEL Öncesinde; • Bulunduèunuz yerin sele maruz kalma riskini öèrenin. Sel yataklarÈna yerleëmemeye özen gösterin. • Sel riskine karëÈ nasÈl hazÈrlanacaèÈnÈzÈ ve korunacaèÈnÈzÈ öèrenebileceèiniz eèitim programlarÈna katÈlÈn. élkyardÈm vb. tamamlayÈcÈ eèitimleri de alÈn. • Sel konusundaki uyarÈlarÈ radyo ve TV’den mutlaka takip edin. Gerektièinde Meteoroloji’den telefonla bilgi alÈn. • KÈsa süreli yoèun yaèÈëlarÈn ani sele, uzun süreli yaèÈëlarÈn ise nehirlerin taëmasÈna neden olacaèÈnÈ unutmayÈn. • Sel sigortasÈ yaptÈrÈn. • Aile Afet PlanÈnÈzÈ hazÈrlarken sel riskini göz önünde bulundurun. Tahliye güzergâhÈnÈ buna göre belirlemek gibi gerekli ek önlemleri alÈn. • Gerektièinde kullanmak üzere kum, kum torbalarÈ, naylon, çivi, kontrplak, tahta vb. inëaat malzemelerini depolayÈn ve bir alet sandÈèÈnÈ hazÈr bulundurun. • BinanÈzda yer seviyesi altÈnda kullanÈlan bölümlerin rampa aëaèÈya olan girië kÈsÈmlarÈnda kum torbasÈ vb. malzemeyle setler oluëturun. 44 • Özellikle mazgallar ve su tahliye sistemleri ile, çatÈ giderlerinin temizlièini yapÈn; tÈkanÈklÈklarÈ giderin. • Suyun sürükleyerek zarar verebileceèini düëündüèünüz eëya ve makineleri mümkün olduèunca üst seviyelere çÈkarÈn. Sel UyarÈsÈ YapÈldÈèÈnda; • Sel öncesi hazÈrlÈklarÈnÈzÈ gözden geçirin, planÈnÈzÈ uygulamaya koyarak gerekli ek önlemleri alÈn. • Sel sularÈnÈn çok ëiddetli akacaèÈnÈ ve önüne katacaèÈ araç, aèaç ve aèÈr maddeleri sürükleyeceèini dikkate alarak dere yataèÈ, nehir, hendek, vadi ve kanyon gibi yerlerden uzak durun. • Her an tahliye olabilecek ëekilde hazÈrlÈklÈ olun; afet ve acil durum çantanÈzÈ yanÈnÈza alÈn. • Evdeki banyo küvetini ve kaplarÈ, ëebeke suyunun kirlenme ihtimaline karëÈ temiz su ile doldurun. • Elektrikli ev aletlerini fiëten çekin; sigortalarÈ ve vanalarÈ kapatÈn. • Sel uyarÈsÈ yapÈldÈèÈnda veya daha öncesinde, bina dÈëÈnda bulunan akÈntÈyla sürüklenip zarara yol açabilecek mangal, çöp kovasÈ vb. eëyalarÈ baèlayÈn ya da daha güvenli bir yere kaldÈrÈn. • UyarÈlarÈn yapÈldÈèÈ tarihlerde, yanÈnÈza deèerli eëya ve evraklarÈnÈzÈ da alarak, mümkünse yüksek kesimlerde yaëayan yakÈnlarÈnÈza kÈsa sürelièine misafir olun. SÈrasÈnda; • Sakin olun. • Zaman kaybetmeden mümkün olduèunca yüksek yerlere çÈkÈn. Su birikintileri sÈè görünse de içine girmeyin ve bu alanlardaki sularÈn kÈsa sürede yükselebileceèini unutmayÈn. • Asla sel suyu içinde araba kullanmayÈn; ölümlerin %80’inin araç içinde gerçekleëtièini unutmayÈn. AracÈnÈzÈ selden etkilenmeyecek yüksek kesimlerde bir yere çekin. • Evinizin çevresindeki emniyet ve istinat duvarlarÈnÈn da yÈkÈlabileceèini düëünerek bu bölümlerden uzak durun. • Sel suyu, akÈntÈ ya da nehirlerde yürümeye çalÈëmayÈn. HÈzla akan 15-20 cm derinlikteki suyun bir insanÈ devirip sürükleyebileceèini aklÈnÈzdan çÈkarmayÈn. • Ev ya da iëyerinizi boëaltmanÈz gerekiyorsa elektrik, doèalgaz gibi tesisatlarÈ kapatÈn. Çok gerekli olmadÈkça yolculuèa çÈkmayÈn. • Kopmuë elektrik telleriyle temas halinde olabilecek su birikintilerinden uzak durun. SonrasÈnda; • Sel, sularÈn geri çekilmesiyle sona ermeyebilir. Bu nedenle yetkililer tarafÈndan “Dönün!” uyarÈsÈnÈ almadan kesinlikle evlerinize dönmeyin. • BinalarÈnÈzÈn herhangi bir hasarÈ olup olmadÈèÈnÈ kontrol edin. Eèer sel sularÈ evinizin etrafÈnda hâlâ mevcut ise eve girmeyin. • Binaya girmeniz gereken durumlarda, çevresel kontrollerinizi yapÈn ve kiëisel güvenlik önlemlerinizi alÈn. • Evinizde gaz sÈzÈntÈsÈ olmadÈèÈndan, suyun altÈnda kalmÈë elektrik aksamÈ, fÈrÈn, ocak ve elektrikle çalÈëan eëyalar bulunmadÈèÈndan emin olun. Sele maruz kalmÈë binadaki kopmuë hiçbir kabloya ve elektrikli aletlere dokunmayÈn. • Suyun iletken olduèunu unutmayÈn. Elektrièe kapÈlma riski nedeniyle eëyalarÈnÈzÈ kurtarmak adÈna da olsa suyla kaplÈ alanlara girmeyin. • Sel sonrasÈ insan saèlÈèÈna zarar vermemeleri için laèÈm çukuru ve atÈk su sistemlerini mutlaka yetkililere kontrol ettirin. • Sel suyu ile temas etmië hiçbir gÈda malzemesini ambalajlÈ olanlar dahil kullanmayÈn. 45 • Koëullara uygun kiëisel hijyen önlemlerinizi (örneèin plastik çizme, plastik ve/veya lateks eldiven, vb.) almadan sel suyu ile temas etmië hiçbir malzemeye dokunmayÈn. • Sele maruz kalmÈë bölgelerde kaynaèÈnÈ bilmedièiniz sularÈ kullanmayÈn. Kuyu sularÈnÈ ancak kuyudan belli bir süre su cekildikten ve kaynatÈldÈktan sonra kullanÈn. Güvenlièinden emin olmadÈèÈnÈz kuyu sularÈnÈn ölçümlerini yaptÈrmayÈ ihmal etmeyin. • Mümkünse ëiëe suyu kullanÈn. • Sel sÈrasÈnda yaralandÈysanÈz tetanos aëÈsÈ yaptÈrmanÈz gerektièini unutmayÈn. • Sel suyuna temas etmië giysi ve eëyalarÈnÈzÈ çok iyi ëekilde yÈkayÈp temizleyin; kiëisel hijyeninize dikkat edin. • Mümkün olduèunca kadÈnlara, çocuklara, yaëlÈlara, engellilere, özel ihtiyaç sahibi kiëilere ve hayvanlara yardÈm edin. • Evinize sel sÈrasÈnda yÈlan ve benzeri zararlÈ hayvanlarÈn girmië olabileceèini düëünerek bu konuda inceleme yapmanÈz faydalÈ olacaktÈr.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q05",
+          "question": "Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?",
+          "chunk_id": "afad_earthquake_316e61fd7b2f60faef6f",
+          "source_judgment_file": "data\\evaluation\\retrieval_reranked_judgments.csv",
+          "csv_row_number": 24,
+          "source_information": {
+            "reranked_rank": "3",
+            "rerank_score": "1.484966",
+            "source_file": "ilk72saat1.pdf",
+            "page_start": "53",
+            "page_end": "55"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q05",
+          "question": "Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?",
+          "chunk_id": "afad_earthquake_316e61fd7b2f60faef6f",
+          "source_judgment_file": "data\\evaluation\\retrieval_judgments.csv",
+          "csv_row_number": 23,
+          "source_information": {
+            "rank": "2",
+            "similarity_score": "0.881070",
+            "source_file": "ilk72saat1.pdf",
+            "page_start": "53",
+            "page_end": "55"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q08",
+      "question": "Enkaz altında kalırsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "chunk_text": "Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır. Başka bir bölgeye tahliye olurken veya böyle bir risk varken şunlara dikkat edilmelidir: • Aracınız varsa her zaman en az yarım depo benzin bulundurun. • Tavsiye edilen tahliye yollarını takip edin. Kısa yolları deneyerek kendinizi tehlikeye atmayın. • Diğer araçları riske atacak şekilde araç kullanmayın. • Bölge dışı bağlantı kişisine, gideceğiniz yer ve yol hakkında bilgi verin. • Kapınıza ne zaman ayrıldığınızı, hangi yoldan ve nereye gittiğinizi bildiren bir not asın. • Size eşlik etmeleri için komşularınızı da gidişinizden haberdar edin. • Afet ve Acil Durum Çantanızı yanınıza alın. • Yaya olarak gidecekseniz uzun kollu giysiler ve kalın ayakkabılar giyin. Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır. Ayrıca enkaz altından, günler sonra bile canlıların çıkarıldığı, insanların kurtulduğu unutulmamalıdır. Enkaz altında hareket tarzı genel olarak aşağıdaki adımlardan oluşur: • Durum değerlendirmesi Vücudunuzu kontrol edin, yaralanıp yaralanmadığınızı anlamaya çalışın. Yeterli ışık kaynağı varsa açık yaralarınızı tespit etmeye çalışın. Vücudunuzu kıpırdatmayı, elinizi kolunuzu, ayak ve bacaklarınızı küçük hareketlerle oynatmayı deneyin; böylece yaralandığınız bölgeyi belirleyebilirsiniz. Depremden sonraki ilk dakikalarda vücudunuzdaki ağrı ve yara sızılarını hissetmemeniz doğaldır. Yaralıysanız, özellikle herhangi bir kırık varsa hareket etmemeye çalışarak bekleyin. Enkaz altında sıkışıp kaldıysanız, arama\u0007kurtarma ekipleri sizi buluncaya dek, belki günlerce beklemek zorunda kalabilirsiniz. Böyle bir durumda enerjinizi boşa harcamayın, paniğe kapılmadan bekleyin. Unutmayın ki panik ve korku stresi getirecek, bu da umutsuzluk ve çaresizlik gibi duygulara yol açacaktır. Ayrıca stres, korku ve panik solunum düzenini engelleyecek, hızlı ve yüzeysel solunum ise akciğerlerin yetersiz havalanmasına, kandaki oksijen oranının düşmesine neden olacaktır. Durumunuzu kontrol etmek için aşağıdaki adımları uygulayabilirsiniz: • Sakin olun. • İlk etapta kesinlikle kıpırdamayın. • Vücudunuzdaki ağrı veya acıları hissetmeye çalışın. • Eğer ağrı veya acı hissetmiyorsanız ayak parmaklarınızdan başlayarak uzuvlarınızı çok hafifçe kıpırdatmaya çalışın. • Ağrı veya acı hissettiğiniz yerleri mümkünse oynatmayın. • Pozisyonunuzu tayin edin. • Ne kadar sıkışmış olduğunuzu kontrol edin. • Çevrenin değerlendirilmesi Durum değerlendirmesinden sonraki aşama, çevrenin değerlendirilmesidir.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 39,
+          "source_information": {
+            "final_rank": "3",
+            "faiss_rank": "1",
+            "faiss_score": "0.899332",
+            "rerank_score": "1.309032",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 37,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "1",
+            "faiss_rank": "1",
+            "faiss_score": "0.899332",
+            "reranker_score": "1.309032",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 137,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "1",
+            "faiss_rank": "1",
+            "faiss_score": "0.899332",
+            "reranker_score": "1.309032",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 238,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "2",
+            "faiss_rank": "1",
+            "faiss_score": "0.899332",
+            "reranker_score": "1.309032",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 338,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "2",
+            "faiss_rank": "1",
+            "faiss_score": "0.899332",
+            "reranker_score": "1.309032",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 439,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "3",
+            "faiss_rank": "1",
+            "faiss_score": "0.899332",
+            "reranker_score": "1.309032",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q08",
+          "question": "Enkaz altında kalırsam ne yapmalıyım?",
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 39,
+          "source_information": {
+            "reranked_rank": "3",
+            "original_faiss_rank": "1",
+            "source_file": "olagandisi.pdf",
+            "page_start": "20",
+            "page_end": "21"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q10",
+      "question": "Deprem çantasında neler bulunmalı?",
+      "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 24,
+      "page_end": 25,
+      "chunk_text": "Bu hazÈrlÈkta da yine en kötü senaryo düëünülmelidir. Örneèin bedensel engelli kiëiler, yollarÈnÈ kendi kendilerine bulmak zorunda kalma ihtimaline karëÈ, tahliye yolundaki olasÈ cam kÈrÈklarÈ gibi unsurlardan korunmak için ië eldiveni veya benzeri koruyucular bulundurabilirler. Motorlu tekerlekli sandalye kullananlar, yedek akü veya tekerleklere gelebilecek olasÈ zararlara karëÈ yedek iç lastik bulundurma seçeneklerini düëünebilirler. YaëamlarÈnÈ destek sistemlerine baèlÈ olarak sürdüren kiëiler (solunum, diyaliz, vb.) doktor tavsiyesiyle ek özel önlemler almalÈ, bunlarÈ kendi kiëisel destek aèÈndaki kiëilerle de paylaëmalÈdÈr. Afet ve Acil Durum ÇantasÈ’nÈn nerede olduèunu, en azÈndan destek aèÈndaki herkes bilmelidir. Bu çanta duruma göre birden fazla sayÈda hazÈrlanmalÈ ve engelli kiëinin en çok bulunduèu yerlerde, örneèin bir tane evde, bir tane de iëyerinde bulundurulmalÈdÈr. Engelli kiëi çocuksa, okuldayken bir deprem olma durumuna karëÈ okul yönetimiyle birlikte özel hazÈrlÈklar yapÈlmalÈdÈr. AyrÈca Afet ve Acil Durum ÇantasÈ hazÈrlanÈrken, herkes tarafÈndan kolaylÈkla taëÈnabilir aèÈrlÈkta olmasÈna dikkat edilmelidir. YapÈsal Riskler Geçmiëte yaëanan afetler bize, yaëadÈèÈmÈz konutlarÈn, iëyerlerinin ve kamu binalarÈnÈn önemli bir bölümünün, zemin güvenlièi ve inëaat kalitesi bakÈmÈndan olmasÈ gereken standartlarÈn altÈnda olduèunu, dièer bir ifadeyle güvenli olmadÈèÈnÈ göstermektedir. Depreme karëÈ hazÈrlÈklÈ ve eèitimli olmak hayati önem taëÈr. Bununla birlikte güvenli yapÈlarda yaëamak herkes için, ama özellikle engelliler için daha da önemlidir. YaëadÈèÈmÈz konutlarÈ, içinde bulunduèumuz binalarÈ, katlarÈ ve çÈkÈë-tahliye olanaklarÈnÈ ivedilikle yeniden gözden geçirmeliyiz. Örneèin, ortopedik engelli bir bireyin kendisi veya yakÈnlarÈ ev, okul ve iëyerini deèerlendirmeli, ilgili kurum yöneticilerinden konuyla ilgili düzenleme yapÈlmasÈnÈ talep etmeli ve kÈsa sürede çözülemeyecek sorunlar görüyorsa buralarÈ deèiëtirmeye gayret etmelidir. 15 YapÈ elemanlarÈyla ilgili riskler ikiye ayrÈlabilir: 1. TaëÈyÈcÈ olmayan yapÈ elemanlarÈnÈn hasar görmesi sonucu oluëabilecek riskler: Bölme duvarlarÈnÈn yÈkÈlmasÈ, dökülmesi, devrilmesi, sÈvalarÈn dökülmesi, camlarÈn kÈrÈlmasÈ, vb. 2. TaëÈyÈcÈ yapÈ elemanlarÈnÈn hasar görmesi durumunda oluëabilecek riskler: Bir yapÈnÈn taëÈyÈcÈ sistem elemanlarÈnÈn (kolon, kirië, perde, temel, döëeme) deprem güvenlik düzeyi ne kadar yüksekse maddi kayÈp ve can kaybÈ riski de o derece azdÈr; ya da bunun tersi olarak, güvenlik düzeyi ne kadar düëükse risk o derece yüksektir. Bu tür risklerin gerçekleëmesi durumunda ortaya çÈkacak zararlarÈn ölçeèi de büyük olabilir; hatta hasarÈn boyutu, yapÈnÈn tamamen göçmesine kadar varabilir. OlasÈ depremler karëÈsÈnda büyük can ve mal kayÈplarÈnÈn önlenebilmesi için, deprem güvenlièi yetersiz olan binalarÈn güçlendirilmesi ya da yÈkÈlÈp yeniden inëa edilmesi gerekmektedir. YapÈlarÈn depreme dayanÈklÈ olup olmadÈèÈna çok dikkat edilmelidir. Bu kural sadece engelli kiëilerin yer aldÈèÈ yapÈlar için deèil, tüm yapÈlar için geçerlidir. Bu kapsamda aëaèÈdaki konulara da dikkat edilmelidir: • Yaëanan veya taëÈnÈlacak olan konutun iskân ruhsatÈnÈn (oturma izin belgesinin) olup olmadÈèÈ, belediyeden mutlaka kontrol edilmelidir. • Evin altÈnda fÈrÈn, araba galerisi veya benzeri bir iëyeri olmasÈ halinde buralarda mekân saèlamak amacÈyla izinsiz yapÈlmÈë uygunsuz yapÈsal deèiëiklikler olup olmadÈèÈ, belediyeden binanÈn projesine bakÈlarak araëtÈrÈlmalÈdÈr. • Özellikle sonradan, evin iç yapÈsÈnda yapÈ güvenlièini tehlikeye sokacak deèiëiklikler olup olmadÈèÈ gözden geçirilmelidir (Örneèin kolon ve kiriëlerdeki deèiëiklikler). • Kuëku veya gerek duyulan hallerde, bulunulan kentteki TMMOB’ye (Türkiye Mimar ve Mühendis OdalarÈ Birlièi) baèlÈ meslek odalarÈndan yardÈm istenebilir.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 49,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "3",
+            "faiss_rank": "3",
+            "faiss_score": "0.865981",
+            "reranker_score": "2.082944",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 149,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "3",
+            "faiss_rank": "3",
+            "faiss_score": "0.865981",
+            "reranker_score": "2.082944",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 248,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "2",
+            "faiss_rank": "3",
+            "faiss_score": "0.865981",
+            "reranker_score": "2.082944",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 348,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "2",
+            "faiss_rank": "3",
+            "faiss_score": "0.865981",
+            "reranker_score": "2.082944",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 448,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "2",
+            "faiss_rank": "3",
+            "faiss_score": "0.865981",
+            "reranker_score": "2.082944",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 48,
+          "source_information": {
+            "reranked_rank": "2",
+            "original_faiss_rank": "3",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 48,
+          "source_information": {
+            "final_rank": "2",
+            "faiss_rank": "3",
+            "faiss_score": "0.865981",
+            "rerank_score": "2.082944",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "24",
+            "page_end": "25"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q10",
+      "question": "Deprem çantasında neler bulunmalı?",
+      "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "chunk_text": "Bu not, baëkalarÈnÈn engelli kiëiye yardÈm edebilmesi için özellikle çantanÈn içindeki ilaçlarÈ ve/veya kiëiye özel gereçleri nasÈl kullanmasÈ gerektièine dair bilgileri içermelidir. • KullanÈlan ilaçlar (varsa): Engelli kiëinin kullandÈèÈ özel ilaçlar varsa bunlarÈn en az birer yedeèi çantaya konmalÈdÈr. Çantada bulunacak ilaçlarÈn miktarÈ belirlenirken bir deprem durumunda bu ilacÈn ne kadar kolaylÈkla veya zorlukla bulunabileceèi, depremden sonra bir süre zor koëullarda yaëamÈn sürdürülmesi gerektièi göz önüne alÈnmalÈdÈr. AyrÈca bu tür zor koëullarda tüm insanlarÈ bekleyen grip, soèuk algÈnlÈèÈ ve benzeri hastalÈklar için de yedek ilaçlar çantaya eklenmelidir. Bununla beraber ilaçlarÈn son kullanma tarihleri geçmeden deèiëtirilmesine dikkat edilmelidir. (Depremden sonraki zorlu koëullarda yaëamÈn sürdürülmesi hakkÈnda daha fazla bilgi için “OlaèandÈëÈ Durumlarda YaëamÈ Sürdürme” eèitim programÈndan yararlanabilirsiniz.) • KullanÈlan gereçler ve cihazlar (varsa): Engelli kiëinin kullandÈèÈ özel gereçler varsa bunlar da göz önüne alÈnmalÈdÈr. Söz konusu gereçlerin çantaya konulamayacak büyüklükte olmasÈ halinde ise güvenli bir yerde muhafaza edilmesine ve her zaman çantayla yan yana durmasÈna dikkat edilmelidir. éëitme engelli kiëiler için yedek iëitme cihazÈ ve pili, bedensel engelli kiëiler için yedek kÈyafet veya ÈsÈtÈcÈlar, görme engelli kiëiler için baston ve benzeri gereçler düëünülebilir. Depremden sonra gelecek ilkyardÈmlar arasÈnda engelli kiëinin kendi özel ihtiyaçlarÈna (protez, tekerlekli sandalye, vb.) yönelik malzemelerin bulunma ihtimalinin düëük olduèu unutulmamalÈdÈr. • Yiyecek ve içecek: Depremden sonraki ilk zamanlarda kullanÈlmak üzere belli miktarda yiyecek ve içecek çantada saklanmalÈdÈr. Depremlerden sonra yiyecek ve içecek yardÈmÈ dièer pek çok yardÈm malzemesine oranla afetzedelere daha hÈzlÈ ëekilde ulaëÈr. Ancak bununla birlikte engelli kiëinin kendi durumuna özel olarak kolaylÈkla bulamayacaèÈ yiyecek ve içecek maddeleri varsa bunlar mutlaka Afet ve Acil Durum ÇantasÈ’nda bulundurulmalÈdÈr. Bir diyabet hastasÈnÈn ani ëeker düëmesine karëÈ gerekli yiyecek maddeleri, özel sÈvÈ mamalarla beslenenler için yedek gÈdalar bunlara örnek olarak verilebilir. 14 • KullanÈmÈ rahat ve pratik bir fener: Engelli kiëinin durumu fener kullanmaya müsaitse, çantaya bir fener konmalÈdÈr. éëitme engelliler, bazÈ bedensel engelliler ve görme yeteneèi az olan kiëiler çantalarÈna koyacaklarÈ bir feneri tahliye sÈrasÈnda kullanabilirler. • Dièer: Kiëinin engellilik durumuna göre pek çok farklÈ malzeme de çantaya eklenebilir. Bunlar ëöyle sÈralanabilir: • Radyo ve piller • Düdük veya benzeri sesli iëaret gereçleri • Sim kartÈyla birlikte cep telefonu, ëarj cihazÈ • Hijyen malzemeleri • élkyardÈm malzemeleri • Nakit para • Battaniye • Aile fertlerinin güncel fotoèraflarÈ Bu liste, kiëilerin kendi özel durumuna ve ihtiyaçlarÈna göre eklemeler yapÈlarak zenginleëtirilebilir. Bu hazÈrlÈkta da yine en kötü senaryo düëünülmelidir. Örneèin bedensel engelli kiëiler, yollarÈnÈ kendi kendilerine bulmak zorunda kalma ihtimaline karëÈ, tahliye yolundaki olasÈ cam kÈrÈklarÈ gibi unsurlardan korunmak için ië eldiveni veya benzeri koruyucular bulundurabilirler.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 48,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "2",
+            "faiss_rank": "4",
+            "faiss_score": "0.863747",
+            "reranker_score": "2.910674",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 147,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "1",
+            "faiss_rank": "4",
+            "faiss_score": "0.863747",
+            "reranker_score": "2.910674",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 247,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "1",
+            "faiss_rank": "4",
+            "faiss_score": "0.863747",
+            "reranker_score": "2.910674",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 347,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "1",
+            "faiss_rank": "4",
+            "faiss_score": "0.863747",
+            "reranker_score": "2.910674",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 447,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "1",
+            "faiss_rank": "4",
+            "faiss_score": "0.863747",
+            "reranker_score": "2.910674",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 47,
+          "source_information": {
+            "reranked_rank": "1",
+            "original_faiss_rank": "4",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q10",
+          "question": "Deprem çantasında neler bulunmalı?",
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 47,
+          "source_information": {
+            "final_rank": "1",
+            "faiss_rank": "4",
+            "faiss_score": "0.863747",
+            "rerank_score": "2.910674",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "23",
+            "page_end": "24"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q12",
+      "question": "Toplanma alanı nedir?",
+      "chunk_id": "afad_earthquake_v2_24ab15ac9588f2131aaa",
+      "source_file": "ARTVIN-IRAP-SON_22102021.pdf",
+      "page_start": 86,
+      "page_end": 91,
+      "chunk_text": "İlimizin yüzölçüm olarak topraklarının büyük bölümünün eğimli yamaçlardan ve çaylık arazilerden oluşması ve arazi kullanımının getirdiği sınırlamalardan dolayı kırsal kesimlerde geçici barınma alanlarının belirlenmesini oldukça kısıtlamaktadır. Öte yandan İl ve ilçe merkezlerinde ikamet eden nüfusun büyük bölümünün aynı zamanda köyde ikinci konutlarının olması nedeniyle, afetlerden konutu etkilenen afetzedelerin büyük çoğunluğu için genelde geçici barınma ihtiyacı doğmamaktadır. Ancak bununla birlikte bir afet anında afetzedelerin geçici iskanı için kullanılabilecek il ve ilçe merkezlerinde yer alan kamuya ait misafirhaneler ve yurtlar ilk etapta kullanılacak şekilde planlanmış ayrıca il ve ilçe merkezlerinde çadır ve konteyner kurulabilecek alanlar da tespit edilerek, geçici barınma alanları olarak planlanmıştır. Acil toplanma alanları: Afet sırasında ve sonrasında insanların ivedilikle ulaşması gereken, afet riski taşımayan güvenli alanlardır. Afetzedelerin bilgilendirildiği, yardım ekipleri ile koordinasyonun sağlandığı, kurulacak geçici barınma alanlarına yönlendirilmelerinin yapıldığı merkezlerdir. Ön tahliye alanları olarak da ifade edilir. İlimiz Merkez, ilçe ve beldelerin yapılaşma özellikleri, nüfus yoğunluğu, ulaşım ve diğer kamu hizmetleri dikkate alınarak TAMP kapsamında, Tahliye ve yerleştirme çalışma grubu, ilgili belediye yetkilileri ve AFAD İl Müdürlüğümüzce müştereken tespit edilmiştir. 82 Tablo 31. İl genelinde TAMP kapsamında belirlenmiş olan acil toplanma alanları İlçe Toplam alan (m2) Nüfus Kişi başına düşen alan (m2) Ardanuç 38797 5501 0,14178931 Arhavi 13302 17111 1,28634792 Borçka 33289 11395 0,34230527 Hopa 13658 23336 1,70859569 Kemalpaşa 8786 5883 0,66958798 Merkez 21854 25288 1,15713371 Murgul 10781,59 4930 0,45726094 Şavşat 8592 6123 0,71263966 Yusufeli 1708 7342 4,29859485 Şekil 41. Ardanuç ilçemizde bulunan acil durum toplanma alanları 83 Şekil 42. Arhavi ilçemizde bulunan acil durum toplanma alanları Şekil 43. Borçka ilçemizde bulunan acil durum toplanma alanları 84 Şekil 44. Hopa ilçemizde bulunan acil durum toplanma alanları Şekil 45. Kemalpaşa ilçemizde bulunan acil durum toplanma alanları 85 Şekil 46. Merkez ilçemizde bulunan acil durum toplanma alanları Şekil 47. Murgul ilçemizde bulunan acil durum toplanma alanları 86 Şekil 48. Şavşat ilçemizde bulunan acil durum toplanma alanları 1.7.4.4 Zorunlu Deprem Sigortası Oranı Zorunlu Deprem Sigortası oranı ülke düzeyinde % 54.10 ve Karadeniz Bölgesi genelinde %43 düzeyinde iken İlimizde % 46.8 oranındadır (Tablo 32). Bunun bir nedeni kuşkusuz 2018 yılı öncesinde yürürlükte olan Türkiye Deprem Bölgeleri haritasına göre İlimizin 4. Derece deprem kuşağında yer alması nedeniyle deprem riskinin düşük olması şeklindeki yanlış algıdır. Bir diğeri ise yeni bina sayısının düşük olması ve çoğunlukla kırsal bölgelerde ruhsat alınmadan yapılan binaların oranının yüksek olmasından kaynaklanmaktadır. İlimiz genelinde öne çıkan afet türlerinin heyelan ve sel olması ve meydana gelen hasarların da genelde bu afetlere bağlı olarak oluşması nedeniyle bütün afet türlerini kapsayacak şekilde zorunlu bir sigorta sisteminin getirilmesinin bölge için daha uygun olacağı değerlendirilmektedir. Tablo 32. Zorunlu deprem sigortası sayı ve oranları (DASK, 2020)",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q12",
+          "question": "Toplanma alanı nedir?",
+          "chunk_id": "afad_earthquake_v2_24ab15ac9588f2131aaa",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 61,
+          "source_information": {
+            "final_rank": "5",
+            "faiss_rank": "11",
+            "faiss_score": "0.841133",
+            "rerank_score": "2.119124",
+            "source_file": "ARTVIN-IRAP-SON_22102021.pdf",
+            "page_start": "86",
+            "page_end": "91"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q12",
+          "question": "Toplanma alanı nedir?",
+          "chunk_id": "afad_earthquake_v2_24ab15ac9588f2131aaa",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 61,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "5",
+            "faiss_rank": "11",
+            "faiss_score": "0.841133",
+            "reranker_score": "2.119124",
+            "source_file": "ARTVIN-IRAP-SON_22102021.pdf",
+            "page_start": "86",
+            "page_end": "91"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q12",
+          "question": "Toplanma alanı nedir?",
+          "chunk_id": "afad_earthquake_v2_24ab15ac9588f2131aaa",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 161,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "5",
+            "faiss_rank": "11",
+            "faiss_score": "0.841133",
+            "reranker_score": "2.119124",
+            "source_file": "ARTVIN-IRAP-SON_22102021.pdf",
+            "page_start": "86",
+            "page_end": "91"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q12",
+          "question": "Toplanma alanı nedir?",
+          "chunk_id": "afad_earthquake_v2_24ab15ac9588f2131aaa",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 261,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "5",
+            "faiss_rank": "11",
+            "faiss_score": "0.841133",
+            "reranker_score": "2.119124",
+            "source_file": "ARTVIN-IRAP-SON_22102021.pdf",
+            "page_start": "86",
+            "page_end": "91"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q12",
+          "question": "Toplanma alanı nedir?",
+          "chunk_id": "afad_earthquake_v2_24ab15ac9588f2131aaa",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 61,
+          "source_information": {
+            "reranked_rank": "5",
+            "original_faiss_rank": "11",
+            "source_file": "ARTVIN-IRAP-SON_22102021.pdf",
+            "page_start": "86",
+            "page_end": "91"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q15",
+      "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "chunk_text": "Yumuşak zeminde yer alan binada oturmaktayım; depremde binam ağır hasar görecekmidir? Temellerinin yapı ve zemin özellikleri dikkate alınarak yapılması durumunda, yumuşak zemine oturan binaların hasar görme olasılıkları düşüktür. Çokkatlı binaların depremde daha fazla hasar görme tehlikesi var mıdır? Yapıların kat sayılarının deprem güvenliğiyle ilgisi yoktur; kurallara uyulmadan inşa edilmiş yapıların kat sayıları ne olursa olsun hasar görme olasılıkları yüksektir. Evimizdeki bazı duvarları yıkıp yer kazanmak deprem güvenliği açısından sorun yaratır mı? Yapıların orjinal tasarımlarını çeşitli nedenlerle değiştirmek, deprem davranışlarını olumsuz yönde etkileyeceğinden uzak durulması gereken bir uygulamadır. Yaşadığımız binada deprem güvenliğini olumsuz yönde etkileyecek uygulamalar mevcut. Bu duruma açıklık kazandırmak için ne yapmalıyım? Deprem güvenliğine olumsuz yönde etki edecek bir uygulamanın varlığı tespit edildiğinde yapılması gereken ilk iş, binanın yetkin bir inşaat mühendisi tarafından incelenmesini sağlamaktır. Binamızın kullanım amacını değiştirmek deprem açısından herhangi bir sorun yaratır mı? Binaların yapım amaçları dışında kullanılması, gerek yapıya etki eden yükler, gerekse deprem sırasında yapıdan beklenen davranışın değişmesine yol açarak, deprem güvenliği açısından olumsuz bir durum yaratacaktır. SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 40 41 SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR Yaşadığım binada eski deprem yönetmeliğine göre yapılmış olması binanın ağır hasar göreceğini gösterir mi? Tüm dünyada olduğu gibi ülkemizde de deprem yönetmelikleri gelişen ve değişen bilgi birikimi ve deneyimine paralel olarak güncellenmektedir. Depreme dayanıklı yapı tasarımında, binanın beklenen deprem etkileri altında öngörülen düzeyde performans göstermesi hedeflenmektedir. Önceki yönetmeliklere göre tasarlanmış bir binada hiç hasar oluşmayabileceği gibi, çeşitli düzeylerde hasar oluşumu da beklenebilir. Binamızın depreme dayanıklı olarak tasarlandığı söyleniyor. Bu, bir depremde binamızda hiç hasar olmayacağı anlamına mı gelir? Deprem Yönetmeliği’nde belirtilen ilkelere göre tasarlanmış bir binada şiddetli bir deprem etkisi altında can kaybına yol açmayacak derecede hasar beklenebilir. Evimin depreme dayanıklı olup almadığını nasıl anlarım? Bu konuda en doğru yardımı kimden alabilirim? Bir binanın deprem ektileri altında göstereceği performans, bu konuda uzman inşaat veya deprem mühendisi kontrolünde gerçekleştirilecek detaylı analizler sonucunda belirlenebilir. Bu işlemler, yerinde görsel, inceleme, malzeme testleri ve sonrasında binanın matematiksel modelinin oluşturulmasına dayanır. Binamızı depreme karşı güçlendirdikten sonra, büyük bir depremde binada hiç hasar olmamasını bekleyebilir miyim? Depreme dayanıklı yapı tasarımına benzer şekilde, bir binanın depreme karşı güçlendirilmesinden sonra da can kaybına sebebiyet vermeyecek derecede hasar beklenebilir. Öte yandan, depremden sonra binanın kullanım performans düzeyi minimum hasar hedeflenerek güçlendirilebilir. Ancak bu durumda artan maliyet ve önerilecek güçlendirme çözümünün teknik açıdan uygulanabilirliği göz önünde bulundurulmalıdır. Yapılan çalışmalar sonucunda, beklenen büyük depremde İstanbul’da kaç binanın yıkılacağını, kaç tanesinin hasar göreceğini gazetelerden okuyorum.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 75,
+          "source_information": {
+            "final_rank": "4",
+            "faiss_rank": "1",
+            "faiss_score": "0.894105",
+            "rerank_score": "4.022561",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 72,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "1",
+            "faiss_rank": "1",
+            "faiss_score": "0.894105",
+            "reranker_score": "4.022561",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 172,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "1",
+            "faiss_rank": "1",
+            "faiss_score": "0.894105",
+            "reranker_score": "4.022561",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 272,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "1",
+            "faiss_rank": "1",
+            "faiss_score": "0.894105",
+            "reranker_score": "4.022561",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 372,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "1",
+            "faiss_rank": "1",
+            "faiss_score": "0.894105",
+            "reranker_score": "4.022561",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 474,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "3",
+            "faiss_rank": "1",
+            "faiss_score": "0.894105",
+            "reranker_score": "4.022561",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q15",
+          "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 75,
+          "source_information": {
+            "reranked_rank": "4",
+            "original_faiss_rank": "1",
+            "source_file": "yapisalriskler.pdf",
+            "page_start": "50",
+            "page_end": "51"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "chunk_id": "afad_earthquake_v2_15228a457be9c1c471df",
+      "source_file": "Afet-Yönetim-Terimleri-Sözlüğü.pdf",
+      "page_start": 183,
+      "page_end": 184,
+      "chunk_text": "Yy 183 AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ Yy yapı denetim laboratuvarı (İng. building construction/inspection laboratory) İnşaat ve yapı malzemeleri ile ilgili ham madde ve mamul madde üzerinde, ilgili standartlarına veya teknik şartnamelerine göre ölçüm, muayene, kalibrasyon yapabilen ve özgül ağırlık, basınç ve çekme dayanımları, kıvam limitleri gibi diğer özelliklerini tayin eden, Çevre, Şehircilik ve İklim Değişikliği Bakanlığının izniyle çalışan tesis. yapı denetim kuruluşu (İng. building construction, inspection corporate) 4708 sayılı Yasa ile yürürlüğe giren ve yapıların tasarım ve uygulama aşamalarında kontrolden sorumlu olan, ortaklarının tamamı mimar ve mühendislerden oluşan bağımsız kuruluş. Sorumluluk kapsamındaki konular; hâlihazır harita ve imar planlarının hazırlanması, uygulanması, yapıların mimari, statik ve her türlü plan, proje, resim ve hesapların hazırlanması, bunların uygulanması olarak belirlenmiştir. yapı envanteri (İng. building inventory) Mevcut her tür yapının adedi, yapı malzemeleri, yapı sistemi, yaşı gibi özelliklerin belirlenmesi için yapılan tespit ve kayıt işlemi sonucunda oluşturulan bilgilerin tümü. →az hasarlı bina (İng. light damaged building) Meydana gelen bir afet nedeniyle, taşıyıcı sistem elemanlarında kılcal seviyede çatlaklar ve/veya taşıyıcı olmayan sistem elemanlarında ise değişik seviyelerde hasarlar gözlemlenmiş binadır. →orta hasarlı bina (İng. moderately damaged building) Meydana gelen bir afet nedeniyle, güçlendirme gerektirecek boyutta hasar gözlemlenmiş, güçlendirme yapılmadan kullanımına izin verilmeyecek binadır. →ağır hasarlı bina (İng. heavy damaged building) Meydana gelen bir afet nedeniyle, taşıyıcı sistem elemanları teknik ve ekonomik açıdan güçlendirilmesi mümkün olmayacak derecede hasar görmüş, göçme gözlemlenmeyen, can ve mal güvenliği açısından tehlike oluşturan, tespiti halinde en kısa sürede boşaltılması ve yıkılması gereken binadır. →yıkık (İng. collapsed) Binaların taşıyıcı sistemlerinin büyük oranda kalıcı yer değiştirerek kısmen veya tamamen yıkılması ve çatının çökmesi durumunu ifade eder. İnsanların can ve mal güvenliği bakımından bu tür yapılara girmesine kesinlikle izin verilmez. TAMP Enkaz Kaldırma Çalışma Grubu Ana Çözüm ortağı Çevre, Şehircilik ve İklim Değişikliği Bakanlığı koordinasyonunda ivedilikle göçertilip, tehlikesiz hâle getirilmesi yasa gereğidir. AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ yapı kullanma izin belgesi (İng. certificate of permission for building occupation) bk. iskân belgesi. yapı müteahhidi (İng. building contractor) Yapım işlerini sözleşme ve eklerine uygun olarak yapmayı, yapı sahibine karşı taahhüt eden, ticari amaçla ya da kendisi için şahsi finans kaynaklarını kullanarak üstlenen ilgili ticaret odasına kayıtlı gerçek veya tüzel kişi. yapı ruhsatı (İng. building construction permit) İmar mevzuatı hükümlerine göre düzenlenen inşaat izin belgesi. yapı sahibi (İng. building owner) Yapı üzerinde mülkiyet hakkına sahip olan gerçek veya tüzel kişi. Yapı Sağlığı İzleme Sistemi (YSİS) (İng. Structural Health Monitoring System) Yapıların maruz kaldıkları dinamik (deprem, rüzgar vb.) etkileri ve bu etkilerle sergiledikleri davranışları inceleyen, yapının karakteristik özellikleri ile meydana gelebilecek olası deformasyonlar hakkında bilgiler edinmemize yardımcı olan izleme sistemi. yapı stoku (İng. building stock) Halihazırda içinde oturulan, yaşanılan evler, iş yerleri ve onların müştemilatı ile bunların adedi. yapım süresi (İng. construction duration) Yapı sahibinin, yapı ruhsatı aldığı tarihten itibaren, yapı kullanma ruhsatını aldığı tarihe kadar geçen zaman. yapısal hasar (İng. structural damage) Bir yapının taşıyıcı sistem elemanlarında, afet veya başka bir nedenle meydana gelen çatlak, kırılma, ezilme, çökme gibi hasar. yapısal olmayan hasar (İng. non-structural damage) Binanın yapısal elemanları (temel, kolonlar, kirişler, döşemeler, taşıyıcı duvarlar, çatı) dışında kalan diğer kısımları ile bina içinde ve çevresindeki her türlü eşya ve donanımda meydana gelen hasar.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_15228a457be9c1c471df",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 80,
+          "source_information": {
+            "final_rank": "4",
+            "faiss_rank": "28",
+            "faiss_score": "0.842005",
+            "rerank_score": "2.574077",
+            "source_file": "Afet-Yönetim-Terimleri-Sözlüğü.pdf",
+            "page_start": "183",
+            "page_end": "184"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_15228a457be9c1c471df",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 480,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "4",
+            "faiss_rank": "28",
+            "faiss_score": "0.842005",
+            "reranker_score": "2.574077",
+            "source_file": "Afet-Yönetim-Terimleri-Sözlüğü.pdf",
+            "page_start": "183",
+            "page_end": "184"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_15228a457be9c1c471df",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 79,
+          "source_information": {
+            "reranked_rank": "3",
+            "original_faiss_rank": "28",
+            "source_file": "Afet-Yönetim-Terimleri-Sözlüğü.pdf",
+            "page_start": "183",
+            "page_end": "184"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+      "source_file": "SoruCevap-Kitapcik-2.pdf",
+      "page_start": 1,
+      "page_end": 1,
+      "chunk_text": "AFETZEDELER İÇİN 7269 SAYILI KANUN KAPSAMINDA SORU VE CEVAPLAR T . C . İ Z M İ R V A L İ L İ Ğ İ İL AFE T VE ACİL DURUM MÜDÜRLÜĞÜ 04.11.2020 AFAD - İYİLEŞTİRME DAİRESİ BAŞKANLIĞI T . C . İ Z M İ R V A L İ L İ Ğ İ İL AFE T VE ACİL DURUM MÜDÜRLÜĞÜ T . C . İ Z M İ R V A L İ L İ Ğ İ İL AFE T VE ACİL DURUM MÜDÜRLÜĞÜ İƟraz hasar tespitleri (ikinci hasar tespitler) ne zaman yapılacak? Kesin Hasar Tespitler (İlk tespitler) bittikten ve ilan edildikten sonra 30 günlük itiraz kabul süreci başlayacaktır. Binasının hasar tespiti hiç yapılmayan, binasının hasar durumunun hatalı olduğunu düşünen ya da başka sebeplerle hasar tespitlerine itiraz eden vatandaşlarımızın 30 günlük süre içerisinde itiraz telepleri alınacaktır. İtiraz hasar tespitlerinde binaların incelenmesi için bu süre içerisinde mutlaka itiraz dilekçesi verilmesi gerekmektedir. Ağır hasarlı bina ne demekƟr? Deprem nedeniyle onarımı mümkün olmayacak derecede hasar gören ve tekrar kullanımı mümkün olmayan binalar ağır hasarlı olarak derecelendirilir. Bir binaya ağır hasarlı verilmişse sonrasında ne olacak? Ağır hasarlı bina sahiplerine 7269 Sayılı Yasa kapsamı ve şartlarında yeni konut yapılması mümkün olacaktır. Ağır hasarlı tespit edilen binalar hemen boşaltılarak, hasar tespit sürecinin tamamlanması sonrasında hemen yıkılacaktır. Ağır hasarlı binalar ne zaman yıkılacak? Ağır hasarlı tespit edilen binalar can ve mal güvenliği açısından hemen boşaltılacaktır. Ancak bu tür binaların yıkımı için itiraz hasar tespit sürecinin sonlanması beklenecektir. Orta hasarlı bina ne demekƟr? Deprem nedeniyle gördüğü hasar bakımından güçlendirme gerektirecek derecede hasar gören binadır. Bu tür binaların güçlendirme yapılmadan kullanılmasına izin verilmez. 15. 16. 17. 18. 19. Bir binaya orta hasarlı olarak değerlendirilmişse sonrasında ne olacak? Orta hasarlı bina sahiplerine 7269 Sayılı Yasa kapsamında güçlendirme kredisi verilecektir. Afetzedelerden binalarını 1 sene içerisinde güçlendirmeleri gerekmektedir. Bu tür binalar güçlendirilmeleri halinde kullanılabilecektir ancak 1 sene içerisinde güçlendirme yapılmaması halinde ise ağır hasarlı kabul edilerek yıkılacaktır. Hasarsız ve Az Hasarlı bina ne demekƟr? - Deprem nedeniyle hiç hasar görmemiş binalar hasarsız, - Taşıyıcı sistemi hasar görmemiş ancak taşıyıcı olmayan duvarlarında meydana gelen çatlaklar, sıva çatlakları, boya/kaplama dökülmeleri gibi hasarlar gözlemlenen binalar ise az hasarlı, olarak derecelendirilmektedir. Hasarsız ve Az Hasarlı binalar ne olacak? Hasarsız ya da Az Hasarlı bina sahipleri için 7269 Sayılı Yasa kapsamında yeni ev yapılması mümkün olmayacaktır. 7269 Sayılı Yasa kapsamında ev sahibi olmak istemeyen ağır hasarlı bina sahiplerinin durumu ne olacak? Binası ağır hasarlı olduğu halde konut talep etmeyen afetzedeler için 7269 Sayılı Yasa kapsamında ev yapılmayacaktır.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 78,
+          "source_information": {
+            "final_rank": "2",
+            "faiss_rank": "5",
+            "faiss_score": "0.859559",
+            "rerank_score": "6.780669",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 78,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "2",
+            "faiss_rank": "5",
+            "faiss_score": "0.859559",
+            "reranker_score": "6.780669",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 178,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "2",
+            "faiss_rank": "5",
+            "faiss_score": "0.859559",
+            "reranker_score": "6.780669",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 278,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "2",
+            "faiss_rank": "5",
+            "faiss_score": "0.859559",
+            "reranker_score": "6.780669",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 378,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "2",
+            "faiss_rank": "5",
+            "faiss_score": "0.859559",
+            "reranker_score": "6.780669",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 478,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "2",
+            "faiss_rank": "5",
+            "faiss_score": "0.859559",
+            "reranker_score": "6.780669",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 78,
+          "source_information": {
+            "reranked_rank": "2",
+            "original_faiss_rank": "5",
+            "source_file": "SoruCevap-Kitapcik-2.pdf",
+            "page_start": "1",
+            "page_end": "1"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+      "source_file": "Afet-barinma-faaliyetleri.pdf",
+      "page_start": 11,
+      "page_end": 13,
+      "chunk_text": "BARINMA VE YAPIM İŞLERİ GENEL MÜDÜRLÜĞÜ | 11 11 12 13 Bir bina ağır hasarlı olarak tespit edilirse ne olmaktadır? Ağır hasarlı tespit edilen binalar can ve mal güvenliği açısından hemen boşaltılmaktadır. Ancak bu tür binaların yıkımı için itiraz hasar tespit sürecinin sonlanması beklenmektedir. Bir bina ağır hasarlı olarak tespit edilirse devlet tarafından ne gibi yardımlar yapılmaktadır? Binası ağır hasarlı ya da yıkık olarak tespit edilen konut/işyeri/ahır sahipleri için hak sahipliği koşullarını sağlaması kaydıyla 7269 Sayılı Afet Kanunu kapsamında AFAD tarafından yeni konut/ahır/işyeri yapılmaktadır. Ayrıca, AFAD tarafından nakdi yardım yapılabilmekte ve geçici barınma imkânı sunulabilmektedir. Orta hasarlı bina ne demektir, nasıl tespit edilmektedir? Afet nedeniyle gördüğü hasar bakımından güçlendirme gerektirecek derecede hasar gören binalar orta hasarlı olarak sınıflandırılmaktadır. Bu tür binaların güçlendirme yapılmadan kullanılmasına izin verilmez. | BARINMA VE YAPIM İŞLERİ GENEL MÜDÜRLÜĞÜ Bir bina orta hasarlı olarak tespit edilirse ne olmaktadır? Orta hasarlı tespit edilen binalar can ve mal güvenliği açısından hemen boşaltılmaktadır. Afetzedelerin binalarını 1 sene içerisinde güçlendirmeleri gerekmektedir. Bu tür binalar güçlendirilmeleri halinde kullanılabilmekte, ancak 1 sene içerisinde güçlendirme yapılmaması halinde ise ağır hasarlı kabul edilerek yıkılmaktadır. Bir bina orta hasarlı olarak tespit edilirse devlet tarafından ne gibi yardımlar yapmaktadır? Binası orta hasarlı olarak tespit edilen konut/ işyeri/ahır sahiplerine hak sahipliği koşullarını sağlaması kaydıyla Afet Kanunu kapsamında AFAD tarafından uygun geri ödeme koşullarında güçlendirme kredisi verilmektedir. Ayrıca yine aranan hukuki koşulları taşımak kaydıyla AFAD tarafından nakdi yardım yapılabilmekte ve geçici barınma imkânı sunulabilmektedir. Hasarsız ve az hasarlı bina ne demektir, nasıl tespit edilmektedir? - Afet nedeniyle hiç hasar görmemiş binalar hasarsız, - Taşıyıcı sistemi kılcal çatlaklar seviyesinde hasar görmüş ancak taşıyıcı olmayan, duvarlarında meydana gelen çatlaklar, sıva çatlakları, boya/kaplama dökülmeleri gibi hasarlar gözlemlenen binalar ise az hasarlı, olarak sınıflandırılmaktadır. 14 15 16 BARINMA VE YAPIM İŞLERİ GENEL MÜDÜRLÜĞÜ | 13 Bir bina Hasarsız ya da az hasarlı olarak tespit edilirse ne olmaktadır? Hasarsız ya da az hasarlı bina sahipleri için Afet Kanunu kapsamında yeni ev yapılması mümkün olmamaktadır. Hasar tespit sonuçları afetzedelere elden teslim edilmekte midir? Hasar tespit sonuçları afetzedelere elden teslim edilmemektedir. Çalışmaların tamamlanmasına müteakip, sonuçlar hasartespit.csb.gov.tr, valilik, e-Devlet, il AFAD Müdürlüğü internet adreslerinde yayınlanmak ve mahalle muhtarlıklarında askıya çıkarılmak suretiyle ilan edilmektedir. Binasının hasar durumunun hatalı olduğunu düşünen ya da binasının hasar tespiti hiç yapılmamış afetzedelerin itiraz hakkı var mıdır? Kesin hasar tespit (ilk tespitler) çalışmaları tamamlandıktan sonra; binalarının hasar tespiti hiç yapılmayan, binasının hasar durumunun hatalı olduğunu düşünen afetzedeler için İtiraz Hasar Tespiti adı altında ikinci bir hasar tespiti daha yapılmaktadır. 17 18 19",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 77,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "1",
+            "faiss_rank": "3",
+            "faiss_score": "0.861071",
+            "reranker_score": "7.007330",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 177,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "1",
+            "faiss_rank": "3",
+            "faiss_score": "0.861071",
+            "reranker_score": "7.007330",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 277,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "1",
+            "faiss_rank": "3",
+            "faiss_score": "0.861071",
+            "reranker_score": "7.007330",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 377,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "1",
+            "faiss_rank": "3",
+            "faiss_score": "0.861071",
+            "reranker_score": "7.007330",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 477,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "1",
+            "faiss_rank": "3",
+            "faiss_score": "0.861071",
+            "reranker_score": "7.007330",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 77,
+          "source_information": {
+            "reranked_rank": "1",
+            "original_faiss_rank": "3",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q16",
+          "question": "Ağır hasarlı bina ne demektir?",
+          "chunk_id": "afad_earthquake_v2_f5460af0d9e5b082c5e9",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 77,
+          "source_information": {
+            "final_rank": "1",
+            "faiss_rank": "3",
+            "faiss_score": "0.861071",
+            "rerank_score": "7.007330",
+            "source_file": "Afet-barinma-faaliyetleri.pdf",
+            "page_start": "11",
+            "page_end": "13"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q17",
+      "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "chunk_text": "Afetin hemen ardından ilgili bilgi bu kişiye SMS yoluyla aktarılabilir. Bütün aile ve yakınları aynı kişiyle bağlantı kurmalı, bölge dışında bulunan diğer akrabalar ve yakınlar da bu kişiyi arayıp bilgi almalıdır. Özellikle birbirine yakın ikamet eden kişiler için geçerli olan ikinci yola göre ise, bölgedeki bir park veya herkesçe bilinen, deprem sonrasında emniyetli olabilecek bir yer buluşma yeri olarak belirlenir. Bu sayede herkes aynı yerde buluşabilir ve telefonla haberleşme ihtiyacı böylelikle ortadan kaldırılmış olur. Bu yol özellikle aile fertlerinin afet anında bir arada olmadığı durumlarda, afetten sonra buluşmak için kullanılmalıdır. Afete, buluşma noktasına gidilmesi imkânsız bir yerdeyken yakalanılması durumunda ise, bölge dışı bağlantı kişisiyle irtibata geçilmeli ve gerekli bilgiler bu kişiye tercihen SMS yoluyla iletilmelidir. Bölge dışı bağlantı kişisine hangi bilgilerin verileceği önceden düşünülmeli ve bu doğrultuda SMS yazılmalıdır. Böylece eksik bilgi verilmesi ve tekrar tekrar mesaj atılması engellenmiş olur. Okul çağında çocuğunuz varsa, okulun, öğrencileri afet sonrasında nerede ve nasıl barındıracağını ve onlarla nasıl haberleşebileceğinizi okul yönetimine sorup öğrenebilirsiniz. Çocuğunuz toplanma noktasına kadar yürüyebilecek veya herhangi bir ulaşım aracına binebilecek yaştaysa, ondan yetkililerin talimatlarına uymasını istemeniz gerekir. Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir. Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir. Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir. • Bireyler kendi kendilerine bölgeyi tahliye eder. Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir. Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir. Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir. Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır. Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir. Bölgesel tahliye yapılırken acil müdahale birimleri, kolluk kuvvetleri ve askeri birliklerin, düzeni sağlamak üzere bölgede olması beklenmelidir. Yapılan yönlendirmeler aynen uygulanmalı, kişiler afet ve acil durum çantasını ve kişisel evraklarını beraberinde götürmelidir. ÇIKIﬁ ﬁekil 13. Afet sonrasında telefonlar çalıﬂmayabilir. ÇIKIﬁ 9 ÇIKIﬁ ﬁekil 12. Bölge d›ﬂ› ba¤lant› kiﬂisi belirlenmelidir. Bölgenin boşaltılması resmi olarak istenmese de binanın yangın, sel gibi tehlikelere karşı güvenli olup olmadığına bakılarak tahliyeye karar vermek gerekir. Bununla birlikte tahliye emrinin verilmediği durumlarda bireysel hareket ederek bölgeyi tahliye etmek olumsuz sonuçlara yol açabilir. Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır. Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 85,
+          "source_information": {
+            "final_rank": "4",
+            "faiss_rank": "1",
+            "faiss_score": "0.901360",
+            "rerank_score": "4.552635",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 83,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "2",
+            "faiss_rank": "1",
+            "faiss_score": "0.901360",
+            "reranker_score": "4.552635",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 183,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "2",
+            "faiss_rank": "1",
+            "faiss_score": "0.901360",
+            "reranker_score": "4.552635",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 283,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "2",
+            "faiss_rank": "1",
+            "faiss_score": "0.901360",
+            "reranker_score": "4.552635",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 383,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "2",
+            "faiss_rank": "1",
+            "faiss_score": "0.901360",
+            "reranker_score": "4.552635",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 484,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "3",
+            "faiss_rank": "1",
+            "faiss_score": "0.901360",
+            "reranker_score": "4.552635",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q17",
+          "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 85,
+          "source_information": {
+            "reranked_rank": "4",
+            "original_faiss_rank": "1",
+            "source_file": "olagandisi.pdf",
+            "page_start": "19",
+            "page_end": "20"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q18",
+      "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+      "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+      "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+      "page_start": 82,
+      "page_end": 83,
+      "chunk_text": "Zayıf Yönler Tehditler Şehir merkezinde zemini sağlam olmayan, Taşkın Ovası civarındaki yapılaşma, Şehir merkezinde yaşama isteğinin yoğun olması, Çevre planlamasının yanlış yapılması , Deprem sonrasında vatandaşların toplanma alanları ile ilgili yeterli bilgiye sahip olmaması( İmar planlarına toplama alanları işlenmiş durumda), Toplanma alanlarında ailenin fertleri buluşacağı alanı da belirlemiş olması gerekir ve bu konuda yerel halkta yeterince bilinçlendirilmediği ve eğitilmelidiği, İletişim görevlisi olmalı herkes onunla iletişime geçmeli, halka bu konuda bilgi verilmeli, Toplumun deprem esnasında ve deprem Mülk sahiplerinin kentsel dönüşüme isteksiz olması, müteahhitlerle antlaşma konusunda tereddüt edilmesi, Deprem meydana geldiği esnada öğrenciler okullarda olursa bütün velilerin okullara yöneleceğinden bu alanlarda trafik tıkanıklığına sebep olacağından afet yönetimi burada aksayabilir. Doğalgaz, elektrik, su, Telekom gibi kurumlar birbirleri ile tam bilgi alış verişinde bulunmalı aksi takdirde de deprem anında doğalgaza müdahale ederken internet hattına zarar verip iletişimi kesebilir. Buna benzer farklı istenmeyen durumlar meydana gelebilir. Binaların birbirine çok yakın yapılması, Farkındalık oluşturacak çalışmaların yetersiz kalması, Halkın deprem esnasında ve sonrasında yapması 82 sonrasında yapması gerekenler hakkında yeterince bilgiye sahip olmaması,( Bu konuda okullardan başlayarak toplumsal birçok alanda öğrenci ve velilerin bilgilendirilmesi gerekir.) Kurumlar arası iletişim kopukluğu, Şehir içerisinde dar sokakların bulunduğu alanlar ulaşım açısından sıkıntılı olması, Taşkın riski Kentpark bölgesinde oluşabilir. Bu taşkınlar veya zemin sıvılaşmaları deprem riskini arttırabilir, Jeotermal sular çekilip kaynak alanlar boşalıyor. Bu durum çökme alanlarının oluşmasına neden olabilir, Okullardan başlayarak toplumun her bireyi ilk yardım konusunda bilinçlendirilmeli, gerekenler konusunda yeterince bilinçlendirilmemesi, Tablo 47: GZFT analizi (Deprem) 3.1.3.3. Grup 3: Taşkın – Sel - Su Baskını 1. çalıştay da gerçekleşen analiz sonucu; dere yataklarının imara açılması, yapılaşmanın fazla olduğu yerlerde ıslah çalışmalarının maliyetinin yüksek olması, şehrin dere yataklarının üzerinde konumlanması, taşkın konusunda yapılan uygulamalardan vatandaşın yeterince bilgilendirilme konuları ortaya çıkmıştır. SU BASKINI-SEL GZFTANALİZİ Güçlü Yönler Zayıf Yönler Taşkın riskine maruz kalacak coğrafi yapının bulunmaması İl içerisindeki kurumlar arası iletişimin güçlü olması Kılıçözü Deresi'nin memba-mansap şartının sağlanmış olması Dere yataklarının imara açılması Yapılaşmanın fazla olduğu yerlerde ıslah çalışmalarının maliyetinin yüksek olması Şehrin dere yataklarının üzerinde konumlanması Taşkın konusunda yapılan uygulamalardan vatandaşın yeterince bilgilendirilmemesi (TAMBİS)",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 89,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "3",
+            "faiss_rank": "6",
+            "faiss_score": "0.879461",
+            "reranker_score": "2.894029",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 189,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "3",
+            "faiss_rank": "6",
+            "faiss_score": "0.879461",
+            "reranker_score": "2.894029",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 289,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "3",
+            "faiss_rank": "6",
+            "faiss_score": "0.879461",
+            "reranker_score": "2.894029",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 389,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "3",
+            "faiss_rank": "6",
+            "faiss_score": "0.879461",
+            "reranker_score": "2.894029",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 489,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "3",
+            "faiss_rank": "6",
+            "faiss_score": "0.879461",
+            "reranker_score": "2.894029",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 89,
+          "source_information": {
+            "reranked_rank": "3",
+            "original_faiss_rank": "6",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q18",
+          "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 89,
+          "source_information": {
+            "final_rank": "3",
+            "faiss_rank": "6",
+            "faiss_score": "0.879461",
+            "rerank_score": "2.894029",
+            "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+            "page_start": "82",
+            "page_end": "83"
+          }
+        }
+      ],
+      "final_label": ""
+    },
+    {
+      "question_id": "Q20",
+      "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 36,
+      "page_end": 38,
+      "chunk_text": "Görme engelli kiëinin, deprem sÈrasÈnda bilmedièi bir yerde, açÈk alanda olmasÈ halinde, bulunduèu yerde kalmasÈ daha uygun olacaktÈr. Bulunduèu yerden baëka bir yere gitmeye çalÈëmasÈ zor olabilir. Böyle bir durumda destek aèÈndaki kiëilerden veya en yakÈndaki profesyonel müdahalecilerden ve devlet kuruluëlarÈndan (polis, muhtarlÈk, belediye, askeriye, vb.) yardÈm isteyebilir. éëitme Engelliler éëitme engelliler pek çok durumda tahliyeyi kendi kendilerine yapabilirler. Tahliyeyi tek baëlarÈna yapmak durumunda olmalarÈ halinde kendileri için tehlike oluëturabilecek cisimlere çok dikkat etmelidirler. Eèer iëitme engelli kiëi çocuksa ve deprem anÈnda okuldaysa, tahliye sÈrasÈnda öèretmenlerinin ve dièer okul görevlilerinin talimatlarÈna uymalÈdÈr. Engelli kiëi, tahliyeden sonraki ilk saatlerden itibaren çeëitli konularda yardÈm ve desteèe ihtiyaç duyabilir. Bu yardÈm ve destek, kiëinin destek aèÈndaki kiëilerden gelebileceèi gibi, dièer engelli gruplarÈndan veya resmi ve gönüllü müdahale kuruluëlarÈndan da gelebilir. 27 Engelli kiëinin (varsa) üye olduèu bir engelli derneèi veya benzer kuruluëlarla irtibata geçmeye çalÈëÈlmalÈdÈr. Bu, depremden etkilenen engelli kiëinin karëÈlaëabileceèi sorunlara çözüm bulabilmek adÈna önemli bir adÈm olacaktÈr. BazÈ engelli kiëiler, dièer kiëilerle irtibata geçmek için bir tercümana veya bir cihaza ihtiyaç duyabilirler. Mümkünse kriz masalarÈndan bu ve benzeri konularda yardÈm istenebilir. Eèer mümkün deèilse durumlarÈnÈ mutlaka resmi görevlilere iletmelidirler. Sosyal Hizmetler ve Çocuk Esirgeme Kurumu bu konuda yardÈma hazÈr kuruluëlardan biridir. Depremden sonra kurtarma veya saèlÈk gibi hizmetleri veren kiëiler ise çalÈëmalarÈ sÈrasÈnda her zaman engelli kiëilerin durumlarÈnÈ göz önünde bulundurmalÈdÈr. SIKÇA SORULAN SORULAR SIKÇA SORULAN SORULAR 28 Bir yıl içinde kaç deprem oluyor? Yeryüzünde her yıl yaklaşık 3,5 milyon deprem meydana gelir. Bunların yalnızca 1 milyonu kaydedilebilir. Hissedilebilen deprem sayısı ise yalnızca 50\u000560 bindir. Her yıl 800 adet orta büyüklükte (5,0\u00055,9) ve az hasara yol açan deprem gerçekleşir. Yılda yaklaşık 120 adet güçlü deprem (6,0\u00056,9) biraz daha fazla hasar verir. Ortalama bir yılda, potansiyel olarak yıkıcı 18 deprem (7,0\u00057,9) ve her 10\u000520 yılda bir felakete yol açabilecek bir deprem (8,0\u00058,9) olur. Depremler önceden tahmin edilebilir mi? Depremin gerçekleşeceği yer ve büyüklüğü, bugünkü bilimin olanaklarıyla tahmin edilebilmektedir; ancak zamanını belirlemek mümkün değildir. Depremlerin, hava durumu gibi önceden tahmin edilebilmesi için güvenli bir metot bulunmamaktadır. Bazı tahminlerin tuttuğu görülmüşse de, bunlar tamamen tesadüften ibarettir. Kuzey Anadolu fay hatta nerededir? Doğuda Karlıova ile batıda Mürefte\u0005Şarköy arasında doğu\u0005batı doğrultusunda bir yay gibi uzanır. Dünyanın en aktif ve en önemli kırık hatlarından biri olan Kuzey Anadolu fay hattının uzunluğu yaklaşık 1200 km’dir; genişliği ise 100m ile 10 km arasında değişir. Türkiye’de kaydedilen en büyük deprem hangisidir? Aletsel dönemde ülkemizde kaydedilen en büyük deprem 26 Aralık 1939’da yaşanan Erzincan depremidir.",
+      "labels_found": [
+        "0",
+        "1"
+      ],
+      "judgments": [
+        {
+          "label": "0",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 98,
+          "source_information": {
+            "alpha": "0.50",
+            "final_rank": "2",
+            "faiss_rank": "2",
+            "faiss_score": "0.867205",
+            "reranker_score": "2.746863",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 198,
+          "source_information": {
+            "alpha": "0.60",
+            "final_rank": "2",
+            "faiss_rank": "2",
+            "faiss_score": "0.867205",
+            "reranker_score": "2.746863",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 298,
+          "source_information": {
+            "alpha": "0.70",
+            "final_rank": "2",
+            "faiss_rank": "2",
+            "faiss_score": "0.867205",
+            "reranker_score": "2.746863",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 398,
+          "source_information": {
+            "alpha": "0.80",
+            "final_rank": "2",
+            "faiss_rank": "2",
+            "faiss_score": "0.867205",
+            "reranker_score": "2.746863",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+          "csv_row_number": 498,
+          "source_information": {
+            "alpha": "0.90",
+            "final_rank": "2",
+            "faiss_rank": "2",
+            "faiss_score": "0.867205",
+            "reranker_score": "2.746863",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        },
+        {
+          "label": "0",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_v2_top50_reranked_judgments.csv",
+          "csv_row_number": 98,
+          "source_information": {
+            "reranked_rank": "2",
+            "original_faiss_rank": "2",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        },
+        {
+          "label": "1",
+          "question_id": "Q20",
+          "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+          "source_judgment_file": "data\\evaluation\\retrieval_hybrid_judgments.csv",
+          "csv_row_number": 98,
+          "source_information": {
+            "final_rank": "2",
+            "faiss_rank": "2",
+            "faiss_score": "0.867205",
+            "rerank_score": "2.746863",
+            "source_file": "ilk72saatengelliler.pdf",
+            "page_start": "36",
+            "page_end": "38"
+          }
+        }
+      ],
+      "final_label": ""
+    }
+  ]
+}

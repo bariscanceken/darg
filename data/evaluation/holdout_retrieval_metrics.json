@@ -1,0 +1,63 @@
+{
+  "experiment": "Unseen holdout retrieval evaluation",
+  "labels_file": "C:\\Users\\baris\\OneDrive\\Masaüstü\\holdout_manual_labels.txt",
+  "judgments_file": "data\\evaluation\\holdout_retrieval_judgments.csv",
+  "manual_mapping_file": "data\\evaluation\\holdout_retrieval_manual_mapping.json",
+  "total_judgment_rows": 300,
+  "updated_rows_from_manual_mapping": 300,
+  "blank_relevant_rows": 0,
+  "metrics_by_system": [
+    {
+      "system": "test4_baseline",
+      "relevant_results": 42,
+      "precision_at_5": 0.2800000000000001,
+      "hit_rate_at_5": 0.7,
+      "mrr": 0.5622222222222223,
+      "total_questions": 30,
+      "evaluated_results": 150,
+      "questions_with_no_relevant": 9,
+      "failed_question_ids": [
+        "H02",
+        "H06",
+        "H10",
+        "H13",
+        "H23",
+        "H24",
+        "H25",
+        "H26",
+        "H27"
+      ]
+    },
+    {
+      "system": "test6_score_fusion_alpha_0.50",
+      "relevant_results": 38,
+      "precision_at_5": 0.2533333333333333,
+      "hit_rate_at_5": 0.6333333333333333,
+      "mrr": 0.5194444444444445,
+      "total_questions": 30,
+      "evaluated_results": 150,
+      "questions_with_no_relevant": 11,
+      "failed_question_ids": [
+        "H02",
+        "H05",
+        "H06",
+        "H10",
+        "H13",
+        "H22",
+        "H23",
+        "H24",
+        "H25",
+        "H26",
+        "H27"
+      ]
+    }
+  ],
+  "test6_minus_test4": {
+    "precision_at_5": -0.026666666666666783,
+    "hit_rate_at_5": -0.06666666666666665,
+    "mrr": -0.0427777777777778,
+    "relevant_results": -4,
+    "questions_with_no_relevant": 2
+  },
+  "note": "This holdout set was used only for final retrieval evaluation. No retrieval parameters were tuned using holdout results."
+}

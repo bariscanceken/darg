@@ -1,0 +1,1625 @@
+========================================================================================
+Q09/Q13 Pre-Filter Coverage Trace
+Extracted pages scanned: 16844
+
+========================================================================================
+Q09
+Question: Deprem sonrası artçı sarsıntılarda ne yapmalıyım?
+Extracted matches: 124
+Direct pages: 1
+Direct pages in chunks: 1
+Diagnosis: RETRIEVAL_OR_PATTERN_DIAGNOSTIC_FAILURE
+
+Candidate 1
+question_id: Q09
+source_file: ilk72saat1.pdf
+relative_path: books/ilk72saat1.pdf
+page: 33
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: ArtçÈ ëoklar için hazÈrlÈklÈ olmalÈyÈz
+previous 4 sentences: 3 | DAKéKA éÇéN HAZIRLIK HAZIRLIK Depremden hemen sonra; | Kendimizin ve etrafÈmÈzdakilerin saèlÈèÈnÈ kontrol etmeliyiz | YangÈndan korunabilmeli ve ufak yangÈnlarÈ söndürebilmeliyiz
+next 4 sentences: Normal günlerde en kÈsa zamanda yardÈmÈmÈza koëan saèlÈk görevlileri ve itfaiye, büyük bir depremde kanamalarÈn, kesik ve yangÈnlarÈn hepsine müdahale edemeyecektir | Bu nedenle, herkesin küçük kanama ve yangÈnlara nasÈl müdahale edeceèini bilmesi ve bunun için gerekli olan yangÈn söndürücü ve ilkyardÈm malzemelerini bulundurmasÈ gerekmektedir | Depremden sonra yangÈnlarÈn büyümeden halk tarafÈndan söndürülmesi çok önemlidir | Kendisi de afetzede olmasÈ muhtemel itfaiyenin kapanan yollar ve tÈkanan trafik gibi imkânsÈzlÈklarÈn içinde birçok yangÈna yetiëmesi beklenmemelidir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_9934dddf1886db4d4037, afad_earthquake_b00be82904b68a4b6649
+answer_candidate: DIRECT_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: true
+
+Candidate 2
+question_id: Q09
+source_file: ADANA-IRAP.pdf
+relative_path: plans/irap/ADANA-IRAP.pdf
+page: 45
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Artçı deprem dağılımları, deprem kırığının güneyde Abdioğlu’ndan, kuzeyde Tumlu Tepe’ye (Soysallı Köyü doğusu) doğru ilerlediğini göstermiştir
+previous 4 sentences: Bazı durumlarda sıvılaşma yüzeye kadar ulaşamaz, yüzeyin birkaç metre altında dayk ve siller şeklinde gelişir | Bu durumda yüzeyde herhangi bir kum fışkırması gözlenmezken derindeki düşey ve yatay yöndeki yatılmalar sonucu yüzeyde farklı oturmalar meydana gelir | Yine Abdioğlu Beldesi civarında açılan trençlerde bu durum gözlenmiştir (Kaynak: | Demirtaş,1998)
+next 4 sentences: Bu deprem, muhtemelen Abdioğlu ile Ceyhan arasında, en fazla 20-30 km uzunlukta, K60-70D uzanımlı bir fayı kırmış, B.Burhaniye ile Tumlu Tepe arasında yer alan K15D uzanımlı diğer bir fayı tetiklemiştir (Kaynak: | Demirtaş,1998) | Buna karşılık 20.3.1945’te yine Adana-Ceyhan’da meydana gelen 6.0 şiddetindeki depremde 13 kişi ölmüş, 650 bina tamamen yıkılmış, 2500 bina da ise ağır hasar meydana gelmiştir | Yine aynı bölgede 22.10.1952’de oluşan 5.6 şiddetindeki depremde ise 10 kişi ölmüş, 910 bina yıkılmış veya ağır hasar meydana gelmiştir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_7a18cb8e1971a556b863, afad_earthquake_ea14b8987670652e84ab
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 3
+question_id: Q09
+source_file: AKSARAY-IRAP-2021.pdf
+relative_path: plans/irap/AKSARAY-IRAP-2021.pdf
+page: 90
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Anaşoktan sonra bölgede çok sayıda hasar yapıcı artçı deprem meydana gelmiştir
+previous 4 sentences: Bu depremin gözlemsel büyüklüğü ise VI olarak belirlenmiştir (Dinçer İ | 2007, Çukurova Bölgesi, Kaliçi, Kaliçi-Taraca Birimlerinin Jeomekanik ve Dinamik Davranışlarının Değerlendirilmesi) 19 Nisan 1938 Kırşehir-Keskin Depremi (Ms=6.8) Keskin'de, Ms=6.8 büyüklüğünde yıkıcı bir deprem olmuştur | Deprem, Kırşehir'e bağlı Akpınar-Köşker arasında yer alan 100 köyü yerle bir etmiştir | Deprem, çok sayıda can kaybına neden olmuştur
+next 4 sentences: Depremde, 40 km uzunlukta yüzey faylanması meydana gelmiştir | Kırıklar, KB gidişli ve sağ yönlü doğrultu atımlı olarak gelişmiştir | Deprem, akarsu çökellerinde sıvılaşma meydana getirmiştir | Deprem dış-merkezinde en büyük şiddet MSK=IX olarak belirlenmiştir 1940 yılı M=5,2 Büyüklüğündeki Altunhisar Depremi Tuz Gölü Fay zonunda meydana gelen aletsel dönem depremler incelendiğinde 1940 yılında meydana gelen M=5,2 büyüklüğündeki depremdir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f2f1c7a5052faa013ef8, afad_earthquake_669dd1eb5751b65f8687
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 4
+question_id: Q09
+source_file: AKSARAY-IRAP-2021.pdf
+relative_path: plans/irap/AKSARAY-IRAP-2021.pdf
+page: 91
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Ana şoktan, 21.09.2020 09:00’a kadar geçen zamanda, büyüklükleri 1.0 ile 4.1 arasında değişen 24 artçı deprem kaydedilmiştir (Şekil 1.1)
+previous 4 sentences: 21.4.1983 Kulu-Köşker depremi, bu bölümün batı ucunda olmuş ve Kulu ile Bala ilçelerine bağlı Köşker, Karahamzalı, Aktaş ve Abdül gediği köylerinde hasar yapmıştır | Çok eski tarihsel kayıtlarda şereflikoçhisar ve Aksaray'ı yıkan büyük depremlerin olduğu görülmektedir | 20.09.2020 Niğde (Bor) Depremi 20.09.2020 günü, Türkiye saati ile 22:08'de merkez üssü Bor (Nigde) olan Mw 5.1 büyüklüğünde bir deprem meydana gelmiştir | Yerin 6.97 km derininde meydana gelen bu depremin en yakın yerleşim birimi olan Niğde ilinin Bor ilçesine bağlı Obruk köyüne uzaklığı 0.43 km'dir (Tablo 1.1)
+next 4 sentences: Depremin belirgin süresi ise 18.16 sn olarak hesaplanmıştır. (AFAD Deprem Dairesi Başkılığı Ön Değerlendirme Raporu, 2020) Tablo 2-3: | Merkez Üssüne En Yakın 5 Yerleşim Yeri Deprem Ön Hasar Tahmin Sistemi (AFAD-RED) kullanılarak üretilen şiddet haritasına göre depremin merkez üssüne en yakın, Türkiye sınırları içerisindeki, yerleşim yerinde depremin şiddeti MMI VII olarak hesaplanmıştır (Şekil 3) | Sismik şiddet ve ön hasar kestirimleri, deneysel bağıntılar kullanılarak otomatik olarak hesaplanmıştır ve saha gözlemlerine dayanmamaktadır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_669dd1eb5751b65f8687
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 5
+question_id: Q09
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 84
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Artçı Deprem:
+previous 4 sentences: Arıtma: | Atık su veya içinde istenmeyen kimyasallar barındıran suyun, kirliliğe neden olan yabancı maddelerden arındırılması için fiziksel, kimyasal ve biyolojik yöntemlerle gerçekleştirilen bir işlemdir | Purification: | A process that removes contaminants and unwanted chemicals from wastewater or polluted water using physical, chemical, and biological methods to reduce pollution and make the water cleaner
+next 4 sentences: Ana depremden sonra meydana gelen daha küçük ölçekli depremlerdir | Artçı depremler, ana depremin etkileriyle birlikte meydana gelir ve genellikle aynı fay hattı üzerinde gerçekleşir | Artçı depremler, ana depremin zayıflattığı yapıların yıkılmasına neden olarak deprem sonrası arama kurtarma çalışmalarını zorlaştırabilir | Aftershock:
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_6e360f7ea90c01e330a9, afad_earthquake_85e7807dd21a68f04cf4
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: false
+answer_signal_preserved_in_chunks: false
+
+Candidate 6
+question_id: Q09
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 171
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Bina oturması ve artçı sarsıntılar sebebiyle sürekli değişikliğe uğrar
+previous 4 sentences: Dehliz: | Enkazlarda oluşturulan veya doğal olarak oluşmuş dar geçitlerdir | Ekiplerin ya da cihazların içeri girmesi için kullanılır | Güvenli hale getirilmeden ekiplerin çalışması tehlikeli olan alanlardır
+next 4 sentences: Çalışmalar esnasında takibi yapılmalıdır | Passageway: | Narrow passages created or naturally occurring in debris | They are used for teams or equipment to enter
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_76a2b42f40fc7c00d485, afad_earthquake_081676862a113ef76221
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 7
+question_id: Q09
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 184
+relevance_status: relevant
+matched_terms: artçı, artçı sarsıntı
+matched sentence: Müdahale alanında artçı sarsıntı, patlama, çökme, ikincil kazalar, hareket eden toprak kütleleri gibi zamanla değişebilen ya da ani şekilde ortaya çıkabilen risklerdir
+previous 4 sentences: Tabikatın icrası sırasında tatbikatı canlı tutmak, ani gelişen olaylara müdahale refleksini ölçmek ve değerlendirmek amacıyla tatbikat koordinatörlüğü tarafından işleme konulan olay sürümleridir | Dynamic Event Version: | These are the event versions processed by the exercise coordinatorship in order to keep the exercise alive during the execution of the exercise and to measure and evaluate the reflex to respond to sudden events | Dinamik Tehlike:
+next 4 sentences: Bu tür tehlikeler, olay anında personel güvenliği açısından dikkatle izlenmesi gereken dinamik unsurlardır | Dynamic Hazard: | Risks in the intervention area that can change over time or occur suddenly, such as aftershocks, explosions, collapses, secondary accidents, or moving soil masses | These hazards must be carefully monitored to ensure personnel safety during operations
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_2269dbec3ff18f7ed3d6, afad_earthquake_25b3e4a842805bffb55d
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 8
+question_id: Q09
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 552
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: İlk değerlendirmeyi yaparak enkazda çalışma izni verir, yapının hangi yönde ve nasıl çöktüğünü, tekrar çökme risklerini, güvenli çalışma alanlarını, artçı depremler, yapı malzemelerinin zayıflığı ve destekleme sistemlerini değerlendirir
+previous 4 sentences: A term referring to the total number, types, ages, structural characteristics, and durability of all buildings (residential, commercial, public buildings, etc.) within a specific area | Building stock data is a crucial resource for disaster management, urban planning, and risk analysis | Yapı Uzmanı: | Afet sonrası yıkılan binalarda enkazın taşıyıcı sistemini, çökme şeklini ve yapının kalan bölümlerinin durumunu inceleyerek arama kurtarma çalışmalarının güvenli koşullarda yürütülmesini sağlayan teknik uzmandır
+next 4 sentences: Bu bilgiler doğrultusunda tehlikeleri belirler ve ilgili kararları alır | Building Specialist: | A technical expert who examines the load-bearing system, collapse pattern, and the condition of the remaining parts of buildings collapsed after a disaster | They ensure that search and rescue operations are conducted under safe conditions
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_fb4b78161a42d542280e, afad_earthquake_89ec386a6ed083913b6a
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 9
+question_id: Q09
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+relative_path: books/Afet-Yönetim-Terimleri-Sözlüğü.pdf
+page: 38
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Bu deprem öncesinde meydana gelen daha küçük depremlere öncü depremler, sonrasında meydana gelen daha küçük depremlere ise artçı depremler denilmektedir. ani gelişen afet (İng. rapid onset disaster) Deprem, fırtına, hortum, çığ, kaya düşmesi, volkan, yangın, heyelan, ani sel, su taşkını, tsunami gibi yıkıcı etkileri aniden ortaya çıkan doğa kaynaklı afet. antidot (İng. antidote) Toksik bir maddeyi etkisiz hale getirmek veya bu maddenin fizyolojik etkileri ile mücadele etmek amacıyla kullanılan maddedir. antraks (İng. anthrax) Biyolojik silah olarak geliştirilmiş bacillus anthracis adlı bakterinin oluşturduğu ölümcül enfeksiyon
+previous 4 sentences: AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ 38 altın saatler (İng. golden hours) Afet sonrası o bölgedeki insanların aranması ve kurtarılması ile tıbbi ilk yardımın yapılması için geçecek ilk 72 saatlik kritik süre | Sağlık konusundaki acil müdahale süresi bazı durumlarda çok daha az olmaktadır | Bireylerin ve yerel halkın afet sonrasında yetkililer ve ekipler gelene kadar ilk 3 gün kendi başına yeterli kapasiteye sahip olması istenen ve planlanan zaman dilimidir. altyapı tesisi (İng. infrastructure) Bir yerleşim bölgesi ve sanayi kuruluşu için gerekli olan ulaşım, iletişim, elektrik, su, kanalizasyon, içme suyu şebekeleri ve bunların arıtma tesisleri gibi yapılarının tümü. alüvyon (İng. alluvium) Kayaçların aşınması ve bozulması sonucunda oluşarak su, rüzgâr gibi dış etkenlerle taşınıp çukurlarda veya düzlüklerde biriken kaya parçaları, çakıl, kum, kil, silt gibi birikinti katmanı. ambulans ve acil bakım teknikeri (AABT) (İng. paramedic) Üniversitelerin Sağlık Hizmetleri Meslek Yüksek Okulundaki 2 yıllık ambulans ve acil bakım teknikerliği programlarından mezun olmuş kişi. anakaya (İng. bedrock) Nispeten daha sert ve yoğun kayalardan oluşan ve genellikle üzerinde taşlaşmamış ve gevşek yumuşak kayaçlar ile toprak örtüsü bulunan zemin katmanı. ana şok (İng. main shock) Bir bölgede bir deprem serisi içinde meydana gelen en büyük deprem
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_4d41799145983b00f100, afad_earthquake_d3e88cefae2297b38e94
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 10
+question_id: Q09
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+relative_path: books/Afet-Yönetim-Terimleri-Sözlüğü.pdf
+page: 40
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ 40 artçı deprem (İng. aftershock) Ana depremin ardından aynı bölgede meydana gelen daha küçük deprem
+previous 4 sentences: NONE
+next 4 sentences: Önceleri yoğun olan artçı depremlerin sayısı zaman içinde gittikçe azalarak haftalar, aylar ve bazen de yıllarca devam edebilir. asismik (İng. aseismic) Sismik faaliyet veya depremlerin olmaması durumu. asit yağmuru (İng. acid rain) Kömür, benzin, mazot gibi petrol ürünlerinin yanması sonucunda atmosfere yayılan kükürtdioksit ve azot oksitlerin, atmosferdeki nem ile tepkimeye girerek meydana getirdiği zararlı yağmur | Sülfürik ve nitrik asit gibi yakıcı asitler içeren bu yağmurlar, bitkileri kurutup, ormanları yok ederek, toprağı ve suları kirletirler; tarihi eserlere ve binalara zarar verirler | İnsanlarda yoğun solunum hastalıklarına yol açtıkları için büyük bir risk oluştururlar. aşırı buzlanma (İng. severe icing) Ulaşım, enerji ve iletişim hizmetlerinin durması ya da aksamasına yol açacak derecelere varan buzlanma biçimi. aşırı kar yağışı (İng. extreme snowfall) Belli bir yerde, belirlenmiş veya kabul edilmiş limitlerden daha fazla miktarda kaydedilen kar yağışı | Normal değerlerin üzerinde kar yağışı olması durumu. aşırı soğuk (İng. extreme cold) Belirgin veya normallerin altında olacak şekilde sıcaklığın aşırı düşük olması durumu. atık (İng. waste) Herhangi bir endüstriyel veya yaşamsal faaliyet sonunda oluşan, depolanan veya çevreye bırakılan katı ya da sıvı hâldeki madde. atık barajı (İng. waste dam) Atıkların veya atık suyun tutulmasına yönelik olarak yapılmış olan baraj. atık su (İng. waste water) Evsel ve endüstriyel kullanımlar sonucunda kirlenmiş olan, özellikleri kısmen veya tamamen değişmiş bulunan su. atık su yönetimi (İng. waste water management) İnsan sağlığını ve çevreyi korumak amacıyla atık suyun izlenmesi, işlenmesi ve tasfiyesiyle ile ilgili sistemlerin geliştirilmesi ve uygulanmasına yönelik olarak yapılan iş ve işlem, takip edilen yöntem
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_d3e88cefae2297b38e94
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 11
+question_id: Q09
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+relative_path: books/Afet-Yönetim-Terimleri-Sözlüğü.pdf
+page: 62
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Büyüklükleri yani magnitüd değerleri birbirine çok yakın olduğundan ana şok veya artçı deprem olarak adlandırılmayan bir seri depremi kapsar. deprem habercisi (İng. earthquake precursor) Deprem öncesinde, kaynak zonlarında ölçülen veya gözlenen arz manyetik ve elektrik alanlarındaki değişimler, yer kabuğundaki farklılaşmalar, yeraltı su seviyesindeki ve suların asal gaz yoğunlaşmasındaki, depremsellikteki değişimler gibi fiziksel parametrelere verilen genel ad
+previous 4 sentences: 62 AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ deprem dalgası (İng. seismic wave) bk. sismik dalga. deprem fırtınası (İng. earthquake swarm) Sınırlı bir alan ve belli bir sürede çok sayıda deprem meydana gelmesi
+next 4 sentences: Deprem oluşumuyla ilişkileri, matematiksel temele dayanan bilimsel çalışmalara konu olmaktadır. deprem ivmesi (İng. earthquake acceleration) Deprem yer hareketi hızının birim zamandaki değişim değeri | Birimi ‘gal’ olan ivme değeri, deprem mühendisliğinde, yer çekimi ivmesi g’nin yüzdesi olarak ifade edilir. deprem kaydı (İng. seismogram) Depremlerin, nükleer patlamaların vb. olayların yeryüzünde yol açtığı sarsıntıları kaydeden aracın (sismograf) yaptığı kayıt, sismogram. deprem kaynak zonu (İng. seismic source zone) Değişik yön ve doğrultuda birden çok diri fay veya fay parçalarından oluşan ve her noktasında hasar yapacak bir deprem meydana getirme olasılığının eşit olduğu kabul edilerek sınırlandırılmış bölgelerin her birine verilen ad. deprem kestirimi (İng. earthquake prediction) Gelecekte olabilecek bir depremin yeri, zamanı ve büyüklüğünün bilimsel olarak kabul gören çok disiplinli yaklaşım ve yöntemler kullanılarak büyük bir doğrulukla belirlenmesine yönelik çalışma. deprem kuşağı (İng. seismic belt, earthquake belt) Tektonik levha (plaka) sınırlarında oluşan ve bu sınırlar boyunca büyük depremlerin meydana geldiği küresel ölçekteki zonlara verilen ad
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_81e3cb6054643c3e3c9d, afad_earthquake_231725c4b0710aa774ce
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 12
+question_id: Q09
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+relative_path: books/Afet-Yönetim-Terimleri-Sözlüğü.pdf
+page: 202
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 202 AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ ahşap yapı (İng. wooden house) aile afet ve acil durum planı (İng. family disaster and emergency management plan) aile mutfak seti (İng. family kitchen set) akreditasyon (İng. accreditation) akredite ekip (İng. accredited team) akreditasyon inceleme görevlisi (İng. accreditation evaluator) aktif fay (İng. active fault) aletsel dönem depremleri (İng. instrumental period earthquakes) altın saatler (İng. golden hours) altyapı tesisi (İng. infrastructure) alüvyon (İng. alluvium) ambulans ve acil bakım teknikeri (AABT) (İng. paramedic) anakaya (İng. bedrock) ana şok (İng. main shock) ani gelişen afet (İng. rapid onset disaster) antidot (İng. antidote) antraks (İng. anthrax) arama (İng. search) arama ve kurtarma (İng. search and rescue) arama kurtarma birliği/ekibi (İng. search and rescue unit/team) arazi kullanım planlaması (İng. land-use planning) artan konut (İng. residual residence) artçı deprem (İng. aftershock) asismik (İng. aseismic) asit yağmuru (İng. acid rain) aşırı buzlanma (İng. severe icing) aşırı kar yağışı (İng. extreme snowfall)
+previous 4 sentences: NONE
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_b61dac8599d32c962497
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: false
+answer_signal_preserved_in_chunks: false
+
+Candidate 13
+question_id: Q09
+source_file: Ardahan-IRAP.pdf
+relative_path: plans/irap/Ardahan-IRAP.pdf
+page: 116
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Ana şoktan sonra, hemen hemen aynı büyüklükte bir artçı deprem meydana gelmiştir
+previous 4 sentences: Depremde, 173 konut yıkık ve ağır, 286 konut orta ve 757 konut hafif hasar görmüştür | Hasar en çok Büyükçatak ve Gölbaşı köylerinde olmuştur | Bu köylerde kaynak sularının renklerinde geçici değişimler olmuştur | Kırkpınar köyünün 30 m kalınlığında yamaç molozu üzerinde oturan batı kesiminde, bazaltik birim üzerinde oturan doğu kesimine göre hasar daha fazla olmuştur
+next 4 sentences: Artçı depremler 20 Nisan 1976 tarihine kadar devam etmiştir | Yer yer şiddetli artçı depremler olmuş ve hasarın artmasında rol oynamıştır | 29 Nisan 1976 günü yeni bir deprem daha olmuştur | Bu deprem de Susuz’a bağlı Kırkpınar, Büyükçatak, Küçükçatak ve Ardahan’a bağlı Lehimli, Çalabaş, Beşiktaş ve Dağlı köylerinde hasara yol açmış ve 4 can kaybı olmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_8c3c0819313a52fac77f, afad_earthquake_ad0358f4ab4401a111e0
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 14
+question_id: Q09
+source_file: BALIKESIR-IRAP.pdf
+relative_path: plans/irap/BALIKESIR-IRAP.pdf
+page: 111
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Kemalpaşa) büyük bir bölümü yıkıldı, Hellespont, Nicea ve Germa'da büyük artçı sarsıntılar 2, 4* 07/04/460 40.50 - 27.60 6.9 (Ms) - Cyzicus (Erdek) Hellespont başkentinde deprem, Trakya'nın büyük bölümünde hasar oluştu, yer yarıldı 2*, 4 06/09/543 40.40 - 27.80 6.9 (Ms) - Cyzicus (Erdek) Hellespont başkentinin yarısı yıkıldı
+previous 4 sentences: Deprem Efes ve Symrna'da paniğe yol açtı | 2 ? | 160 40.00 - 27.50 7.1 (Ms) - Hellespont’da büyük yıkm 4 ?.11.368 40.10 - 27.80 6.8 (Ms) - Germa (n | M
+next 4 sentences: Deprem, Kostantinapolde'de zarara yol açtı | 2*, 5 10/05/1556 40.30 - 27.80 7.2 (Ms) - Erdek yakını Aydıncık’ta can kaybı, Bursa'dan İstanbul'a kadar hasar, Ayasofya ve Fatih Camiinde hasar, Gönen'de hasar 2, 3*, 5 06/03/1737 40.10 - 26.90 7.0 (Ms) - Biga’da büyük deprem, Ezine komple yıkıldı, Bozcaada ağır hasar gördü, Chios'ta İstabul'a şok hissedildi | 2*, 4, 5 07/02/1809 40.00 - 27.00 6.1 (Ms) - Dardanelle, kıyılarında yıkım, Bozcaada karşısında ve İmroz ile Eski İstanbul'da hasar | Ege Denizi'ndeki gemiler ve İzmir Körfezi'ndekiler de şok dalgalarını hissettiler
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f54da6768a2cc5ca620d, afad_earthquake_a0855f3ec7579de03503
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 15
+question_id: Q09
+source_file: BINGOL-AFAD-IRAP-2012.pdf
+relative_path: plans/irap/BINGOL-AFAD-IRAP-2012.pdf
+page: 63
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Bu depremin ardından 20 ve 23 Ağustos 1949 tarihlerinde iki artçı deprem daha vuku bulmuştur
+previous 4 sentences: Bu depremin şiddeti 4.9 olmuş ve on iki kişi hayatını yitirmiştir | 15 Aralık 1934’te gerçekleşen depremde toplamda 200 ev hasar görmüştür | 3 Günümüz coğrafyasında, böylesine şiddete sahip bir depremin bu kadar can kaybını yaşatması ve hasar meydana getirmesi ihtimal dışı görülmektedir | Bunun nedeni olarak da geçen sürede yapıların malzemelerinde ve kalitelerinde meydana gelen değişimdir. (Bingöl Üniversitesi Araştırma Dergisi Cilt :6 Sayı:2) 1949 Karlıova-Kığı Depremi 17 Ağustos 1949 tarihinde, Karlıova merkezli 6.9 şiddetinde bir deprem yaşanmıştır
+next 4 sentences: Gerçekleşen depremler neticesinde 450 kişi hayatını kaybetmiş, 3000 kadar yapı da hasar görmüştür | Bu deprem, özellikle de Karlıova ve Kığı köylerinde büyük zararlara yol açmıştır | Kığı-Karlıova ile Başköy arasında yer alan bölgede, yüzlerce köyde ağır hasar oluşturmuştur. (deprem.afad.gov.tr) 1968 Kığı Depremi 24 Eylül 1968 tarihinde Kığı merkezli saat 06:19’da büyüklüğü 5.1 olarak tespit edilen deprem sonucunda yirmi kişinin yaralandığı ve maddi hasar meydana gelmiştir | Ancak depremin daha çok etkilediği bölge, merkez üssünün dışında yer alan Karakoçan tarafları olmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_4b370fdf4487d8d850d2, afad_earthquake_733077c21342ebf57a63
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 16
+question_id: Q09
+source_file: Bolu_irap_01_11_2021.pdf
+relative_path: plans/irap/Bolu_irap_01_11_2021.pdf
+page: 67
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Bu depremin birçok artçı şoku olmuştur
+previous 4 sentences: Bu depremlerin gözlemsel dış merkezleri hakkında herhangi bir bilgi verilmemiştir | 2 Eylül 967 tarihinde Bolu-Çerkeş arasında büyük tahribata neden olan bir deprem olmuştur | 3 Mayıs 1035 tarihinde Gerede’nin 40 km doğu-kuzeydoğusunda özellikle Bayındır ve Hamamlı’da hasara neden olan bir deprem olmuştur | 18 Temmuz 1668 tarihinde Kastamonu, Gerede ve Bolu civarını etkileyen bir deprem olmuştur
+next 4 sentences: 24 Kasım 1863 tarihinde Bolu’da hasara neden olan bir deprem olmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_ed32c7fe0a87b65d54fc, afad_earthquake_8b210fe6b7f8d7fdc053
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 17
+question_id: Q09
+source_file: Bolu_irap_01_11_2021.pdf
+relative_path: plans/irap/Bolu_irap_01_11_2021.pdf
+page: 68
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 11 Mart 1944 (Gerede Depremi) tarihinde meydana gelen artçı şokun magnitüdü Ms:5.8, episantırı 40.80K, 32.20D dir
+previous 4 sentences: 1 Şubat 1944 tarihinde meydana gelen Bolu-Gerede depreminin maksimum şiddeti Io:X (MSK) (Ergin vd., 1967), magnitüdü Ms:7.2 ve episantırı 40.80K, 32.20D (Gencoğlu, 1986) olarak saptanmıştır | Gencoglu, (1986)’na göre deprem nedeniyle 9422 yapı yıkılmış, 8206 yapı ağır hasara uğramış ve 2552 kişi ölmüş, 1182 kişi yaralanmıştır | Hasar Bolu, Gerede, Çerkeş, Beypazarı- Güdül’de fazla olmuştur | Ambraseys vd., (1968)’e göre bu depremin artçısı olan ve hasar yapan depremler şunlardır:
+next 4 sentences: Deprem nedeniyle Gerede’de 5300 yapı hasar görmüş ve 700 kişi ölmüştür | 5 Nisan 1944 (Mudurnu Depremi) tarihinde meydana gelen artçı şokun magnitüdü Ms:5.6, episantırı 40.60K, 30.90D ve derinliği 10 km dir | Deprem Mudurnu’da 900 evin hasar görmesine ve 30 kişinin ölmesine neden olmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_ed32c7fe0a87b65d54fc, afad_earthquake_8b210fe6b7f8d7fdc053
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 18
+question_id: Q09
+source_file: Bolu_irap_01_11_2021.pdf
+relative_path: plans/irap/Bolu_irap_01_11_2021.pdf
+page: 82
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Bu depremin birçok artçı şoku olmuştur
+previous 4 sentences: Bu depremlerin gözlemsel dış merkezleri hakkında herhangi bir bilgi verilmemiştir | 2 Eylül 967 tarihinde Bolu-Çerkeş arasında büyük tahribata neden olan bir deprem olmuştur | 3 Mayıs 1035 tarihinde Gerede’nin 40 km doğu-kuzeydoğusunda özellikle Bayındır ve Hamamlı’da hasara neden olan bir deprem olmuştur | 18 Temmuz 1668 tarihinde Kastamonu, Gerede ve Bolu civarını etkileyen bir deprem olmuştur
+next 4 sentences: 24 Kasım 1863 tarihinde Bolu’da hasara neden olan bir deprem olmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f1c8d1b6933f80c0c839
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 19
+question_id: Q09
+source_file: Bolu_irap_01_11_2021.pdf
+relative_path: plans/irap/Bolu_irap_01_11_2021.pdf
+page: 83
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 11 Mart 1944 (Gerede Depremi) tarihinde meydana gelen artçı şokun magnitüdü Ms:5.8, episantırı 40.80K, 32.20D dir
+previous 4 sentences: 1 Şubat 1944 tarihinde meydana gelen Bolu-Gerede depreminin maksimum şiddeti Io:X (MSK) (Ergin vd., 1967), magnitüdü Ms:7.2 ve episantırı 40.80K, 32.20D (Gencoğlu, 1986) olarak saptanmıştır | Gencoglu, (1986)’na göre deprem nedeniyle 9422 yapı yıkılmış, 8206 yapı ağır hasara uğramış ve 2552 kişi ölmüş, 1182 kişi yaralanmıştır | Hasar Bolu, Gerede, Çerkeş, Beypazarı- Güdül’de fazla olmuştur | Ambraseys vd., (1968)’e göre bu depremin artçısı olan ve hasar yapan depremler şunlardır:
+next 4 sentences: Deprem nedeniyle Gerede’de 5300 yapı hasar görmüş ve 700 kişi ölmüştür | 5 Nisan 1944 (Mudurnu Depremi) tarihinde meydana gelen artçı şokun magnitüdü Ms:5.6, episantırı 40.60K, 30.90D ve derinliği 10 km dir | Deprem Mudurnu’da 900 evin hasar görmesine ve 30 kişinin ölmesine neden olmuştur | 26 Mayıs 1957 Bolu-Abant Depremi; KAFZ’ nun Mudurnu vadisindeki kesimi üzerinde gözlenen bu depremin maksimum şiddeti Io=IX, magnitüdü Ms=7.1, odak derinliği 10 km. ve episantırı 40.67K, 31.00D olarak belirlenmiştir (Gencoğlu, 1986)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f1c8d1b6933f80c0c839, afad_earthquake_bfc12579331cd720717c
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 20
+question_id: Q09
+source_file: Bursa-IRAP.pdf
+relative_path: plans/irap/Bursa-IRAP.pdf
+page: 67
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Artçı depremler Haziran ayına kadar devam etmiştir
+previous 4 sentences: Uludağ eteklerinden kayalar düşmüştür (Pınar and Lahn, 1952) | 11 Nisan 1855 Depremi: | 1300 kişi ölmüştür | Mustafakemalpaşa’da yarıklar açılmış, deprem geniş bir alanda hissedilmiştir
+next 4 sentences: Bursa şehri dışında önemli bir hasar meydana gelmediğinden, depremin merkez üssünün şehir içinde, Uludağ eteklerini takip eden kırıklar üzerinde bulunduğu düşünülmektedir. (Tarihçi Kemal Baykal’dan alınan bilgilere göre)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_46e30671bcf40b8a6d98, afad_earthquake_3b29c022650787b26f33
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 21
+question_id: Q09
+source_file: Bursa-IRAP.pdf
+relative_path: plans/irap/Bursa-IRAP.pdf
+page: 69
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Kayıtlarda 18-22.3.1953 tarihleri arasında şiddetli artçı depremlerin olduğu bildirilmiştir
+previous 4 sentences: Bursa İli Gemlik İlçe Sınırlarına 250 km Mesafeye Kadar Meydana Gelen 1900’den Günümüze M>=4.0 Depremler.(Kaynak: | Afet ve Acil Durum Yönetimi Başkanlığı) 18 Mart 1953 Yenice-Gönen Depremi: | 5000 den fazla bina yıkılmış, bir o kadarı da oturulamaz hale gelmiştir | 265 ölümün olduğu tespit edilmiştir
+next 4 sentences: 20 Şubat 1956 Eskişehir Depremi: | İnegöl, Yenişehir ve İznik’te Mercalli cetveline göre VI şiddetinde hissedilmiştir | 18 Eylül 1963 Çınarcık Depremi: | Armutlu, Mudanya ve Gemlik’te çok şiddetli, Mercalli cetveline göre VII şiddetinde algılanmış ve Bursa’da hafif hasarlar yaratmıştır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_3b29c022650787b26f33
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 22
+question_id: Q09
+source_file: CANKIRI_IRAP.pdf
+relative_path: plans/irap/CANKIRI_IRAP.pdf
+page: 70
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 10 Ocak 2021 tarihinde Çankırı Fayı’nın güney ucunda meydana gelen Mw 4,5 büyüklüğündeki deprem ve devamındaki artçı şoklar, bu fayın sismik etkinliğine kuvvetle işaret etmektedir (Kürcer, 2021 ile sözlü görüşme)
+previous 4 sentences: Bu faylardan 1943 yılında kırılan segmentler üzerinde yürütülen paleosismoloji çalışmalarına göre deprem tekrarlanma aralıkları 280 yıl ile 620 yıl arasında değişmektedir (Sugai ve diğ., 1999) | 1944 yılında kırılan segmnetlerin deprem tekrarlanma aralıkları ise 330 yıl olarak belirlenmiştir (Okomura ve diğ., 2002, 2003; Kondo ve diğ., 2004, 2010) | Toplam 73 km uzunluğundaki Çankırı Fayı’nın 38 km uzunluğundaki Kuzey Segmenti’nin Mw 6,93 büyüklüğünde, 35 km uzunluğundaki Güney Segmenti’nin ise Mw 6,88 büyüklüğünde deprem üretme potansiyeli bulunmaktadır | Her iki segmentin birlikte kırılması durumunda ise oluşabilecek maksimum deprem büyüklüğü Wells ve Coppersmith (1994) tarafından ters faylar için önerilen görgül eşitlikler kullanılarak Mw 7,27 olarak hesaplanmıştır
+next 4 sentences: Merzifon-Esençay Fayı’nın her biri 31 km uzunluğunda olan İskilip ve Laçin segmentlerinin her birinin Mw 6,82 büyüklüğünde, iki segmentin birlikte kırılması durumunda ise Mw 7,16 büyüklüğünde deprem üretme potansiyeli mevcuttur. (Kürcer, 2021 ile sözlü görüşme) | Sungurlu Fayı’nın iki segmentinden her birinin Mw 7,3 ve Mw 6,89 büyüklüğünde deprem üretme potansiyeli bulunmaktadır | İki segmentin birlikte kırılması durumunda ise meydana gelebilecek depremin büyüklüğü Mw 7,47 olarak hesaplanmıştır (Kürcer, 2021 ile sözlü görüşme) | Çankırı sismik aktivite açısından oldukça hareketlidir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a93849d9bc87d48d4ef1, afad_earthquake_37d5172831212f74df3e
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 23
+question_id: Q09
+source_file: Canakkale-IRAP.pdf
+relative_path: plans/irap/Canakkale-IRAP.pdf
+page: 11
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 75 Şekil 2.3 24 Mayıs 2014 Ege Denizi depreminin önerilen dışmerkezinin ve artçı depremlerin MTA tarafından yayınlanmış 1:1.250.000 ölçekli Türkiye Diri Fay Haritası (Emre ve diğerleri,2013) üzerindeki yeri (http://yerbilimleri.mta.gov.tr/)
+previous 4 sentences: 67 Şekil 1.63 İl Genelinde Hasara Yol Açmış Meteorolojik Hadiselerin Türkiye İle Kıyaslaması (2008-2019) | 69 Şekil 1.64 Assos Kaya Düşmesi Islah Çalışmaları | 71 Şekil 2.1 Tarihsel Dönem Depremleri | 74 Şekil 2.2 Aletsel Dönem Depremleri
+next 4 sentences: 76 Şekil 2.4 06.02.2017 Çanakkale-AyvacıkDepremi (Mw=5.3) | 77 Şekil 2.5 Türkiye deprem tehlike haritası (tdth.afad.gov.tr) | 78 Şekil 2.6 Çanakkale İl Merkezi Mw:7.5 için sıvılaşma şiddeti indeksine göre yapılmış sıvılaşma potansiyeli haritası | 79 Şekil 2.7 Çalışma Alanı Zemin Büyütme Haritası
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_cf6a00fc8f4a402ea5ee
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 24
+question_id: Q09
+source_file: Canakkale-IRAP.pdf
+relative_path: plans/irap/Canakkale-IRAP.pdf
+page: 73
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Söz konusu depremden sonra ilk 48 saat içerisinde büyüklükleri 1.1 ile 5.3 arasında değişen 405 adet artçı deprem meydana gelmiştir.  Ayvacık Depremi:
+previous 4 sentences: Güneyli Köyünde cami ve 75 ev oturulamaz hale gelmiştir.  Gökçeada Açıkları Ege Denizi Depremi: | 24 Mayıs 2014 tarihinde Gökçeada açıklarında (Ege Denizi) bir deprem meydana gelmiştir | AFAD Türkiye Deprem Veri Merkezi’nden (TDVM) alınan verilere göre meydana gelen depremin büyüklüğü 6.5 olarak hesaplanmıştır | Depremin süresi 42 sn. olarak ölçülmüştür
+next 4 sentences: 06 Şubat 2017 tarihinde AFAD Türkiye Deprem Veri Merkezi’nden (TDVM) alınan verilere göre merkez üssü Ayvacık olan 5.3 büyüklüğünde deprem meydana gelmiştir | 1071 yapı ağır hasar almıştır.  Ayvacık Depremi: | 20 Şubat 2019 tarihinde AFAD Türkiye Deprem Veri Merkezi’nden (TDVM) alınan verilere göre merkez üssü Ayvacık olan 5.0 büyüklüğünde deprem meydana gelmiştir | 1.5.6.5 Orman Yangını Orman Genel Müdürlüğü’nün 2019 yılı istatistiklerine göre İlimizde 480465 hektar orman alanı bulunmakta olup Türkiye’deki orman varlığının %2’sine tekabül etmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_575cd0f6d595b1d347f2
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 25
+question_id: Q09
+source_file: Canakkale-IRAP.pdf
+relative_path: plans/irap/Canakkale-IRAP.pdf
+page: 82
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Depremden hemen sonra ilk dört saat içerisinde büyüklükleri 1.4 ile 4.0 arasında değişen 33 adet artçı deprem meydana gelmiştir
+previous 4 sentences: T.C | ÇANAKKALE VALİLİĞİ 82 76 Şekil 2.3 24 Mayıs 2014 Ege Denizi depreminin önerilen dışmerkezinin ve artçı depremlerin MTA tarafından yayınlanmış 1:1.250.000 ölçekli Türkiye Diri Fay Haritası (Emre ve diğerleri,2013) üzerindeki yeri (http://yerbilimleri.mta.gov.tr/) | 2.1.1.2 06 Şubat 2017 Çanakkale-Ayvacık Depremi 06.02.2017 günü, saat 06.51’de(T.S) Çanakkale-Ayvacık merkezli bir deprem meydana gelmiştir | AFAD–TDVMS (Türkiye Deprem Veri Merkezi Sistemi)’nden alınan verilerle yapılan çözüm sonucu elde edilen büyüklük Mw=5.3 olarak hesaplanmıştır
+next 4 sentences: Depremin merkez üssüne en yakın yerleşim yeri İlimiz Ayvacık ilçesinin Tuzla köyüdür (2.81km) | Depremin şiddeti 7 (güçlü hissedilir) olarak hesaplanmıştır | Depremin merkez üssü yakınlarında bulunan önemli fay sistemleri; Kestanbol Fayı, Gülpınar Fayı, Evciler Fayı ve Edremit Fay Zonu (Emre ve Doğan 2010) olarak bilinmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_14503da740a8f922955f
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 26
+question_id: Q09
+source_file: Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+relative_path: plans/irap/Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+page: 59
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Bu deprem sonrası grabenin kuzeyinde yer alan bölgede yoğun bir artçı deprem aktivitesi gözlenmiştir
+previous 4 sentences: Ayrıca il sınırları içerisinde ilin kuzeyinde Çivril Grabeni, Doğusunda Acıgöl Grabeni, Güney ve Güneydoğusunda Fethiye – Burdur Fay Zonu ile ÇameliGölhisar Fay Zonu bulunur | Gediz Grabeni Manisa’dan Pamukkale’ye kadar uzanan yaklaşık 200 kilometre uzunluğunda bir yapıdır | Grabenin en temel fayı güney kenarı boyunca uzanır, kuzeyde ise yer yer bu fayın antitetik bileşeni yer alır | Graben içinde oluşan M=6.5 büyüklüğündeki 28 Mart 1969 Alaşehir depremi ve 36 km uzunlukta ve K 70°-80° B doğrultulu yüzey kırıkları oluşturmuş ve bu yüzey kırıkları üstünde 3-13 cm düşey atım ölçülmüştür (Arpat ve Bingöl, 1969; Ergin ve diğ., 1971)
+next 4 sentences: Grabenin sismik aktivitesi ve depremleri Eyidoğan ve Jackson (1985) tarafından çalışılmıştır | Gediz Grabeninin Neojen çökellerini metamorfik temelden (Menderes Masifi) ayıran en temel fay, güney sınır fayı (Seyitoğlu ve Scott, 1996) veya Karadut Fayı (Emre, 1996) olarak adlandırılmaktadır | Grabenin iç kesimlerine gerçek bir yarı-paralel fay, NeojenKuvaterner çökellerini sınırlamaktadır (Seyitoğlu ve Scott, 1996) | Gediz grabeninin güney kenarını ve Büyük Menderes grabeninin kuzey kenarını oluşturan Bozdağ horstunun kenarlarındaki genişleme türü fay sistemlerine göre her iki havza, asimetrik yarı-graben olarak tanımlanır (Karamanderesi, 1982; Emre, 1996)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_11ec6ada95703d8d77e3
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 27
+question_id: Q09
+source_file: Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+relative_path: plans/irap/Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+page: 64
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 2007 yılının Ekim ayında ML=5.1 büyüklüğünde ve yine aynı yılın Kasım ayında ML=5.0 büyüklüğünde olan iki büyük deprem meydana gelmiş olup bu depremleri yoğun artçı deprem aktiviteleri takip etmiştir
+previous 4 sentences: 2009) | Çameli ilçesinde olan depremler Güneybatı Anadolu çekme rejiminin denetimi altında, GölhisarÇameli Fay Zonu’nun aktivitesinden kaynaklanmaktadır (Şekil 2.8) | Bu zon, batıda Kelekçi’den doğuda Altınyayla arasında uzanan 40 km uzunlukta ve 30 km genişlikte birbirine paralel KDGB genel gidişli Alcı-Kelekçi, Sarıkavak-Kumafşarı ve Uzunoluk-Çameli faylarından oluşmaktadır | Bu bölgede 2005-2008 yılları arasında büyüklüğü 4.0‟dan fazla yaklaşık 24 adet deprem olmuştur
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_6c215ee2aa773826f015
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 28
+question_id: Q09
+source_file: Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+relative_path: plans/irap/Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+page: 74
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Ana şoktan, 20.03.2019 14:00'a kadar geçen zamanda, büyüklükleri 1.4 ile 4.8 arasında değişen 123 artçı deprem kaydedilmiştir
+previous 4 sentences: Çameli depremi Gölhisar-Çameli Fay zonu ile ilişkili olup, bu zon Gölhisar güneyinde, Kelekçi- ltınyayla arasında uzanan 40 km uzunlukta ve 30 km genişlikte birbirine paralel KD-GB genel gidişli üç faydan oluşmaktadır (Akar F | 2020) | 20.03.2019 günü, Türkiye saati ile 09:34'te merkez üssü Acıpayam (Denizli) olan Mw 5.5 büyüklüğünde bir deprem meydana gelmiştir (Şekil 2.10) | Yerin 10.76 km derininde meydana gelen bu depremin en yakın yerleşim birimi olan Denizli ilinin Acıpayam ilçesine bağlı Yeniköy Mahallesine uzaklığı 1.89 km'dir
+next 4 sentences: Ana şoku izleyen Mw 4.8, Mw 4.5 ve Mw 4.2 büyüklüğünde üç artçı deprem Sol yanal doğrultu atımlı Fethiye-Burdur Fay Zonunun Acıpayam parçasında olmuştur | Acıpayam kesiminde, Acıpayam havzası KD-GB ve KB-GD gidişli normal faylar tarafından sınırlandırılmaktadır | 20 Mart 2019 depremi ana şoku bu fayların kesişim bölgesinde olmuştur | Odak mekanizması çözümünde kayma açısı (rake) -89 olması dikkate alındığında depreme neden olan fayın KB-GD gidişli KD’ya eğimi normal fay üzerinde olduğuna işaret etmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_c7d23785b823b1b1a6a1, afad_earthquake_86bb9b449fcf9ef5de8a
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 29
+question_id: Q09
+source_file: Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+relative_path: plans/irap/Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+page: 276
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Çameli Depremi (5.1) Artçı Şoklarının Çift Fark Algoritması İle İncelenmesi
+previous 4 sentences: KAYNAKLAR AFAD 2019 | 08 Ağustos 2019 Bozkurt (Denızlı) Mw 6.0 Depremine İlişkin Ön Değerlendirme Raporu AFAD 2019 | 20 Mart 2019 Acıpayam (Denizli) Mw 5.5 Depremine İlişkin Ön Değerlendirme Raporu Afet ve Acil Durum Yönetimi Başkanlığı, Doğal Afet Analiz Sistemi, Erişim Tarihi: | 19.02.2021, Erişim adresi: https://arasda.afad.gov.tr/#/ Akar F. (2020)
+next 4 sentences: BEÜ Fen Bilimleri Dergisi BEU Journal of Science 9 (1), 323-333, 2020 Akay, A., 2019, İklim Değişikliğinin Neden Olduğu Afetlerin Etkileri, İklim Değişikliği Eğitim Modülleri Serisi 15, Çevre ve Şehircilik Bakanlığı Çevre Yönetimi Genel Müdürlüğü, Ankara | Akbaş, B., Akdeniz, N., Aksay, A., Altun, İ., Balcı, V., Bilginer, E., Bilgiç, T., Duru, M., Ercan, T., Gedik, İ., Günay, Y., Güven, İ.H., Hakyemez, H | Y., Konak, N., Papak, İ., Pehlivan, Ş., Sevin, M., Şenel, M., Tarhan, N.,Turhan, N., Türkecan, A., Ulu, Ü., Uğuz, M.F., Yurtsever, A. ve diğerleri, Türkiye Jeoloji Haritası Maden Tetkik ve Arama Genel Müdürlüğü Yayını | Ankara Türkiye
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_67bff0300db750a8c165
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 30
+question_id: Q09
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+relative_path: publications/ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+page: 89
+relevance_status: relevant
+matched_terms: artçı, artçı sarsıntı
+matched sentence: Müdahale güvenliği nispeten daha yüksektir; artçı sarsıntı veya ani çökme riski azdır ancak zemin kayması ve oynama riski mevcuttur, destekleme yapılmalıdır
+previous 4 sentences: Profesyonel ekipler acilen bilgilendirilmeli ve müdahale onlar tarafından gerçekleştirilmelidir | Enkaz | Yapısal elemanlar büyük oranda tahrip olmuş, kolon, kiriş ve döşemeler preslenmiş durumdadır | Genellikle dışa yakın alanlarda kalan mağdurlar hızlı kurtarılabilirken, iç kısımlardaki mağdurların kurtarılması uzun ve teknik müdahale gerektirir
+next 4 sentences: Giriş çıkış işlemleri zordur ve uzun sürer | Müdahale önceliği, ilk ekiplerin yüzeye yakın bölgelerde çalışmasıdır; iç kısımlara ulaşım zor olduğundan profesyonel ekiplerin müdahalesi gereklidir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_32bb086828dac4a56fe7, afad_earthquake_fdf6885c5537316d3aed
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 31
+question_id: Q09
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 79
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 17.10.2005 Pazartesi günü İzmir yakın güneybatısında (Urla-Seferihisar) saat 8:45’te (TSİ) M:5.7 büyüklüğünde bir deprem meydana gelmiş ve ana şoku izleyen dört saat içerinde çok sayıda artçı deprem oluşmuştur
+previous 4 sentences: Türkiye Deprem Tehlike Haritası (AFAD 2019) İzmir İlinde geçmişte yaşanmış ve etkili olmuş, hasar ve can kaybına neden olmuş büyük afetlerden bazıları (deprem, su baskını/taşkın, heyelan) tabloda verilmektedir | Tablo 1.30 | İzmir İlinde Yaşanan Bazı Büyük Afet Olaylarının Dökümü (İzmir-AFAD, 2025) İZMİR İLİNDE YAŞANAN BAZI BÜYÜK AFET OLAYLARI AFETİN TÜRÜ AFETİN YERİ AFETİN TARİHİ ÖLÜ SAYISI Su Baskını İl Geneli 04.11.1995 63 Deprem Urla-Seferihisar 17.10.2005 - Çığ Ödemiş-Bozdağ 20.01.2013 1 13.02.2013 - Deprem Ege Denizi-Karaburun 12.06.2017 - Sel/Taşkın Menemen-Çukurköy 22.06.2018 - Kaya Düşmesi Bayraklı-Fuat Edip Baksı 09.12.2018 - Kaya Düşmesi Bayraklı-Çiçek 28.01.2019 - Heyelan Bornova-Eğridere 13.02.2019 - Deprem Ege Denizi-Seferihisar 30.10.2020 117 Tsunami Ege Denizi-Seferihisar 30.10.2020 1 Su Baskını/Taşkın Menderes, Balçova, Karabağlar ve Seferihisar İlçeleri olmak üzere İl Geneli 02.02.2021 2 Fırtına ve Hortum Çeşme-Alaçatı 11.02.2021 - Fırtına Kemalpaşa-Selçuk-Torbalı 26.06.2021 - Su Baskını/Taşkın Konak-Karşıyaka 26.11.2023 - Yangın Karşıyaka, Menderes, Tire, Bayındır, Gaziemir, Foça İlçeleri olmak üzere İl Geneli 2024 - Su Baskını Menderes-Ahmetbeyli-Özdere 11.09.2024 - İzmir İlinde 04.11.1995 tarihinde yaşanan su baskını afetinde 63 vatandaşımız hayatını kaybetmiş, 117 vatandaşımız yaralanmıştır | 6.500 konutun etkilendiği su baskını afetinden toplamda ~300.000 nüfus etkilenmiştir
+next 4 sentences: Bu depremleri saat 12.46’da (TSİ) M:5.9 ve 12:55’te M:5.6 büyüklüğündeki iki büyük şok daha izlemiştir | Bornova İlçesi, Eğridere Mahallesinde 13.02.2019 tarihinde meydana gelen aktif ve muhtemel heyelan nedeniyle 45 konut (5 konutun yıkıldığı), 39 ahır (3 adet ahırın yıkıldığı, 1 adet ahırın kısmen yıkıldığı), 1 cami (duvarlarda hasar oluştuğu), 1 cami lojmanı, 1 su deposu, 1 yem
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_2a2255c15d0faca9638e
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 32
+question_id: Q09
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 109
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Büyüklüğü Ms:6.0 (USGS) derinliği 14 km. olarak belirlenmiş olan bu depremin dış merkezi Doğanbey ile Ürkmez arasında deniz içine rastlarken, artçı şokları Tuzla Fayı üzerinde dağılım göstermektedir (Türkelli ve diğ., 1995; Emre ve diğ., 2005)
+previous 4 sentences: Orhanlı bölümü ise K50D genel doğrultulu ve 16 km. uzunluğundadır | Çalışmacılara göre, fayın güneybatısında yer alan Cumalı bölümü ise, KKD-GGB uzanımında birbirine paralel faylardan oluşan zonal bir yapı sunmaktadır | Fayın bu bölümünün Ege Denizi tabanındaki devamlılığıyla birlikte karada 15 km., deniz altında ise 10 km. devamlılık sunduğu belirtilmektedir | Fayla ilişkili olabilecek en önemli deprem, İzmirDoğanbey arasında düşük hasarlara yol açan 6 Kasım 1992 tarihli depremdir
+next 4 sentences: Depremin odak mekanizma çözümleri depremin doğrultu atımlı bir kırılma mekanizmasıyla geliştiğini göstermektedir. (Tan ve Taymaz, 2001, 2002) 8) İzmir Fayı: | İzmir Fayı, İzmir Körfezi’ni güneyden morfolojik olarak sınırlayan, D-B uzanımlı yapısal sınır olarak tanımlanmaktadır (Emre ve Barka, 2000; Uzel ve diğ., 2012) | İzmir Fayı, Yamanlar yükseltisi içerisinde yer alan Seferihisar bloğunu kuzeyden sınırlar ve bölgedeki KD uzanımlı ana basamakları enine kat eden bir yapısal sınır olarak tanımlanır (Kaya, 1979, 1981) | Fayın düşen bloğunda şekillenmiş olan çöküntü alanı, tabanı Karaburun Yarımadası ile Bayraklı arasında Ege Denizi’nin suları altındadır ve günümüzde oluşumu devam eden İzmir Körfezi’ni oluşturmaktadır (Emre ve diğ., 2005)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_11abc228c6e2b0f27899, afad_earthquake_b08b795f9589094fe4ed
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 33
+question_id: Q09
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 117
+relevance_status: relevant
+matched_terms: artçı, sarsıntılar devam
+matched sentence: Çalışmacı, vekilin raporundan yola çıkarak olayı şu şekilde vermektedir; “Konsolosluğun bütün duvarları çatlamış, artçı sarsıntılar devam ederken aynı günün gece yarısına kadar 27 kez, ertesi gün ise 5 kez yer sarsıntısı gerçekleşmiştir
+previous 4 sentences: 1778 yılı içerisinde gerçekleşen ilk deprem, Fransız gezgin Pierre-Alphonse Guys'un babasına yazdığı mektupta belirtilmektedir | Guys mektubunda şu şekilde bahseder; “16 Şubat 1778 günü sabah saat 10:15’de limanda demirlemiş bir firkateyndeydim, güneyden sert ve sıcak bir rüzgar esti, ardından da sert ama uzun olmayan bir yer sarsıntısı yaşandı | İzmir bu depremi çok ucuz atlattı” | Zachariadou (2001) ise, dönemin Konsolos vekilinin raporuna göre; 3 Temmuz günü şiddetli bir sarsıntı yaşandığının bildirildiğini belgelemektedir
+next 4 sentences: Arkasından gelen şiddetli sarsıntılarla evler ve duvarlar yıkılmış, yıkılan 50 dükkânla beraber içlerinde bulunan insanlar ezilmiştir | Bir başka yerde ise yıkıntılar arasında 70 kişi gömülmüştür” | Çalışmacıya göre; iki cami, bir hamam, pek çok duvar ve beş ev yerle bir olmuştur | Tarihsel dönem kayıtlarında yer alan ve tahmini dış merkez lokasyonu inceleme alanı sınırlarına yakın verilen başka bir olay 1723 tarihinin Eylül ve/veya Ekim ayında gerçekleşmiş olan depremdir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_34ba3690c99fc089cbda, afad_earthquake_648d9fc6e6ce1b52725c
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 34
+question_id: Q09
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 119
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 17.10.2005 Pazartesi günü İzmir yakın güneybatısında (Urla-Seferihisar) saat 8:45’te (TSİ) M:5.7 büyüklüğünde bir deprem meydana gelmiş ve ana şoku izleyen dört saat içerinde çok sayıda artçı deprem oluşmuştur
+previous 4 sentences: Ajansın verdiği bilgilerde, İzmir’de ard arda iki sarsıntı olduğu, kent merkezindeki bazı evlerin yıkıldığı ve bu yıkımlarda 20 kişinin yaralandığı bildirilmiştir | Ayrıca ajans, Buca’daki Sosyal Sigortalar Hastanesinin çok hasar gördüğünü ve boşaltıldığını belirtmektedir | Alsancak, Hatay, İkiçeşmelik, Karşıyaka, Bornova, Gültepe, Gürçeşme ve Tepecik semtlerinde bazı evler büyük hasar görmüş, duvarlar çökmüş ve çatıları uçmuştur | Ajanstan verilen bu bilgilerle, hasar dağılımı depremin verilen dış merkez lokasyonunun doğru olabileceği ve kent merkezinde hasara yol açan bu depremin İZF’den kaynaklanmış olabileceği sonucuna ulaşılır
+next 4 sentences: Bu depremleri saat 12.46’da (TSİ) M:5.9 ve 12:55’te M:5.6 büyüklüğündeki iki büyük şok daha izlemiştir | 30 Ekim 2020 Saat: | 14:51 (TSİ)’de merkez üssü Ege Denizinde, Seferihisar (İzmir) açıkları ile Sisam (Samos) Adası arasında meydana gelen Mw:6.6 büyüklüğündeki deprem (AFAD verisine
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_648d9fc6e6ce1b52725c, afad_earthquake_113531de596a6df2ced8
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 35
+question_id: Q09
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 241
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Deprem sırasında ve sonrasında ortaya çıkan artçı sarsıntılar ile birlikte ortama radon salınmaktadır. ((Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu-TENMAK (Mülga Türkiye Atom Enerjisi Kurumu-TAEK), Konutlarda Radon Ölçümleri Teknik Raporu 2014)) 2.7.2.2.6 Radonla İlgili Radyasyon Korunması Standartları Uluslararası Radyasyondan Korunma Komisyonunun (ICRP) 60 ve 65 No’lu tavsiye raporlarında, radyasyonun stokastik etkileri (kanser oluşumu ve genetik etkiler) için bir eşik dozun bulunmadığı belirtilmiş, doz ve etki arasında lineer bir bağıntı olduğu kabul edilerek, müsaade edilen doz sınırları çok düşük düzeylere indirilmiş ve gereksiz hiçbir radyasyon dozuna maruz kalınmaması önerilmiştir. (ICRP, 1991), (ICRP, 1993) Uluslararası Radyasyondan Korunma Komitesi’nin “Evlerde ve İş Yerlerinde Radon-222'ye Karşı Korunma” konusunda yayınladığı 65 No’lu Raporu’nda (1993) radona maruz kalma sınırlandırılarak, limitdeğerler tavsiye edilmiş ve yıllık doz için bir eylem seviyesi tespit edilmiştir
+previous 4 sentences: Yeraltındaki radon salınımları jeofiziksel öncüler arasında yer almaktadır. (Asada, 1982) Rusya, Japonya ve Çin’de yapılan çalışmalar radon gazı ile sismik aktiviteler arasında doğrudan bir ilişki olduğunu ortaya koymuştur | Radon sızıntısının, aktif faylar üzerinde daha fazla olduğu, atmosferik koşullara ve sismik faaliyetlere bağlı değişiklikler gösterdiği bilinmektedir | Yer kabuğundaki gerilmeler nedeniyle meydana gelecek genleşmeler sonucu, kayalardan yeraltı su sistemine radon geçişi artmaktadır | Bunun sonucu olarak, sismik faaliyetin başlamasından önce çevredeki kuyu ve kaynak sularındaki radon konsantrasyonunda bir artış gözlenmektedir. (Igarash, 1995) Radon gazındaki artışlar deprem öncesinde bir maksimuma ulaşıp, depremle birlikte doğal durumuna dönmektedir
+next 4 sentences: Eylem seviyesinin, 3-10 mSv arasında sınırlandırılması tavsiye edilmiştir | Bu doz değerlerine karşılık gelen radon konsantrasyonu evler için (evde geçirilecek süre yılda 7.000 saat ve denge faktörü 0.4 alınarak) 200-600 Bqm-3, işyerlerinde (okullar, hastaneler, sinemalar, dükkanlar) ise 500-1500 Bqm-3olarak önerilmiştir. ((Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu-TENMAK (Mülga Türkiye Atom Enerjisi Kurumu-TAEK), Konutlarda Radon Ölçümleri Teknik Raporu 2014)) Tablo 2.59 | Evlerde ve İşyerlerinde Radon ve Ürünleri İçin Önerilen Eylem Seviyeleri (ICRP 65) ((Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu-TENMAK (Mülga Türkiye Atom Enerjisi Kurumu-TAEK), Konutlarda Radon Ölçümleri Teknik Raporu, 2014)) Faktör Önerilen Değer Eylem Seviyesi (Etkin Doz) 3 mSv yıl-1 10 mSv yıl-1 Evler İçin Eylem Seviyesi (Radon Konsantrasyonu) 200 Bqm-3 600 Bqm-3 İş Yerleri İçin Eylem Seviyesi (Radon Konsantrasyonu) 500 Bqm-3 1500 Bqm-3 Radonun asıl kaynağının uranyum olması nedeniyle radon konsantrasyonu yerkabuğu üzerinde bölgeden bölgeye değişiklikler göstermektedir | Bu nedenle radon konsantrasyonunda izin verilen limit değerlerde ülkeler arasında değişiklikler göstermektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a2772a100b1d959b859d, afad_earthquake_5e162c2180e0fcec024b
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 36
+question_id: Q09
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 328
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 6 Kasım 1992 İzmir depremi ve artçı şokları
+previous 4 sentences: 328  TMMOB Jeoloji Mühendisleri Odası (JMO), 2025.  TMMOB İnşaat Mühendisleri Odası İzmir Şubesi, 30 Ekim 2020 Tarihinde Meydana Gelen İzmir Depremi Raporu 2020.  Türkelli, N., Kalafat, D. ve İnce, Ş (1990)
+next 4 sentences: Deprem Araştırma Bülteni, 68, 58–95.  Türkelli, N., Kalafat, D. ve Gündoğdu, O. (1995) | 6 Kasım 1992 İzmir (Doğanbeyli) depremi saha gözlemleri ve odak mekanizma çözümü | Jeofizik, 9, 10, 343348.  Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK) 2011.  Türkiye Cumhuriyeti Devlet Demiryolları (TCDD) 3 | Bölge Müdürlüğü, 2024.  Türkiye Elektrik İletim A.Ş
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_406664b2853b4083d559, afad_earthquake_88292b1f4ddc08bcdbad
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 37
+question_id: Q09
+source_file: IRAP-_Il-Afet-Risk-Azaltma-Plani_.pdf
+relative_path: plans/irap/IRAP-_Il-Afet-Risk-Azaltma-Plani_.pdf
+page: 9
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 14 Haziran 2012 Silopi (Sırnak) depremlerinin (M≥3,8) değisik kurumlar tarafından önerilen dısmerkezleri ile artçı soklarının (KRDAE)MTA tarafından güncellenmis 1:250.000 ölçekli Türkiye Diri Fay Haritası Cizre (NJ 38-9) paftası (Duman ve diğ.,2012) üzerindeki yeri……………………………………………………………………...……………………....40 Şekil 2.8
+previous 4 sentences: Bitlis Kenet Sistemi (Bindirme Sistemi) Demirtaş 2008 ..................................………..37 Şekil 2.4 | Şırnak İli Diri Faylar Haritası ........................................................................………..37 Şekil 2.5 | Şırnak Yöresi Stratigrafik Dikme Kesiti ......................................................…………..38 Şekil 2.6 | Şırnak İli Diri Faylar Haritası ....................................................……………………..39 Şekil 2.7
+next 4 sentences: Son yüzyılda Bölgede Meydana Gelen Önemli Depremler (KRDAE) …..………….....41 Şekil 2.9 | AFAD-RED Çalışma Prensibi …..……………………………………….……….......41 Şekil 2.10 | AFAD RED Analizleri Sonucu Mw: | 5.7 Büyüklüğünde Deprem İçin Şiddet Dağılım Haritası …..……………………………………….……………………………………….........43 Şekil 2.11
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_d3d5f11eadbd9bb77a13, afad_earthquake_edc27c9b0092583d452f
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 38
+question_id: Q09
+source_file: IRAP-_Il-Afet-Risk-Azaltma-Plani_.pdf
+relative_path: plans/irap/IRAP-_Il-Afet-Risk-Azaltma-Plani_.pdf
+page: 46
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: 14 Haziran 2012 Silopi (Şırnak) depremlerinin (M≥3,8) değişik kurumlar tarafından önerilen dış merkezleri ile artçı şoklarının (KRDAE)MTA tarafından güncellenmiş 1/250.000 ölçekli Türkiye Diri Fay Haritası Cizre (NJ 38-9) paftası (Duman ve diğ., 2012) üzerindeki yeri
+previous 4 sentences: 4,0 büyüklüğündeki ilk depremin merkezi Cizre fayının tavan bloğuna, sonra meydana gelen ML: | 5,5 ve 4,1 büyüklüğündeki depremlerin merkezleri ise fayın taban bloğuna rastlamaktadır | Bu depremde; hastaneler ve diğer kamu binalarında hasar olmadığı, Şırnak merkezde Bahçelievler Mahallesi'ndeki Külliye Camisi'nin minaresinin yıkıldığı, Silopi merkezde hasarın meydana gelmediği, kırsal kesimlerde ise bazı ev ve ahırlarda hasarlar olduğu belirlenmiştir | Şekil 2.7
+next 4 sentences: 2.1.5 | Uludere Depremi 5 Ağustos 2012 tarihinde Uludere ilçesi Ortabağ köyünde yerel saat ile 23:37’de büyüklüğü 5.3 olan orta şiddette bir deprem meydana gelmiştir | Deprem başta Uludere olmak üzere Şırnak merkez, Beytüşşebap, Silopi ilçeleri ile Siirt, Hakkari ve bazı ilçelerinde etkili olmuştur | Depremin daha çok Güneydoğu Anadolu Bindirme (Sütur) Zonu içerisinde değerlendirilen bir doğrultu atımlı yerel bir fayın kırılması sonucu meydana geldiği tespit edilmiştir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_8b93a9ad7a0d9dbbdb68, afad_earthquake_37e378ab16b4cd3f6992
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 39
+question_id: Q09
+source_file: IRAP_2022.pdf
+relative_path: plans/irap/IRAP_2022.pdf
+page: 110
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 19 Mayıs tarihinde meydana gelen depremden itibaren yaklaşık 1 yıl içerisinde 7000 civarında artçı deprem kaydedilmiştir
+previous 4 sentences: ASFZ üzerinde meydana gelmiş 1928 Emet (M=6.2), 1942 Bigadiç (M=6,1), 1944 Şaphane (M=6.2), 1969 Demirci (M=5.9), 1979 Çavdarhisar (M=5.9), 2011 Simav (M=5.9) depremleri (Ergin vd | 1967; Eyidoğan vd | 1991; Ambrasseys, 2001; Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü, 2011) sistemin günümüzde de aktif olduğunun bir göstergesidir (Özkaymak vd., 2017) | 19 Mayıs 2011 tarihinde meydana gelen depremden (Ml=5.9) yaklaşık 1 ay sonra aynı bölgede büyüklüğü Ml=5.0 olan ikinci bir deprem ve hemen hemen 1 yıl sonra 3 Mayıs 2012’de yine aynı bölgede büyüklüğü Ml=5.4 olan üçüncü bir deprem daha meydana gelmiştir
+next 4 sentences: Bununla birlikte 2009-2012 yıllarında meydana gelen deprem aktivitesinin Simav Grabeni’nin özellikle kuzeydoğusunda yoğunlaştığı görülmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_973ea1738631296e7227
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 40
+question_id: Q09
+source_file: IRAP_2022.pdf
+relative_path: plans/irap/IRAP_2022.pdf
+page: 111
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Depreminin artçı sarsıntıları bir yıldan fazla sürmüş, artçı sarsıntıların bir bölümü M>5.0 olmuştur (Eyidoğan vd., 1991)
+previous 4 sentences: Bu kırıklar, 1970 Gediz depreminde yüzey kırığı oluşturmuşlardır (Arpat ve Özgül, 1970; Grabert, 1971) ve açılma çatlağı şeklinde gelişmiştir | 28 Mart 1970, 23:02’de meydana gelen ve Türkiye deprem tarihine, ‘Gediz Depremi’ adı ile geçen bu deprem (Tablo 2.6.) dışmerkezi Akçaalan Köyü ile Gediz - Emet yolu arasında (Şekil 2.6.) kalan Bozbağlar sırtında yer almaktadır (https://deprem.afad.gov.tr/tarihteBuAy?id=20) | Odak derinliği ise 15-18km arasındadır (AFAD) Depremin magnitüdü Ms=7.2 (Ayhan vd., 1981) | Deprem sırasında toplam 40km uzunluğunda bir fay oluşmuş ve fay üzerinde ölçülen maksimum yer değiştirme 225cm olarak ölçülmüştür
+next 4 sentences: Depreme ait şiddet ve hasar dağılım haritası Şekil 2.7’de verilmiştir | Tablo 2.6 | 28.03.1970 Gediz Depremi (Deprem.gov.tr) Afetin Türü (Deprem) Yapısal Hasarlar AFETİN TARİHİ AFETİN OLDUĞU YER AFETİN BÜYÜKLÜĞÜ ÖLÜ SAYISI YARALI SAYISI AĞIR/YIKIK ORTA AZ Konut İşyeri Konut İşyeri Konut İşyeri 28.03.1970 GEDİZ 7.2 1086 1260 10500 10600
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_973ea1738631296e7227, afad_earthquake_ce0584f42c5d30403793
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 41
+question_id: Q09
+source_file: KIRKLARELI-IRAP.pdf
+relative_path: plans/irap/KIRKLARELI-IRAP.pdf
+page: 71
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Depremden sonra uzun bir süre artçı depremler izlemiş ve 313 kilise ve cami yıkılmıştır
+previous 4 sentences: Tablo 2-1 1900-2020 Tarihleri Arasında Büyüklüğü ≥ 6.0 Olan Depremler (BDTİM 2021) 1912 yılında gerçekleşen Şarköy-Mürefte Depremi ile ilgili Afet ve Acil Durum Yönetimi Başkanlığı Deprem Dairesi Başkanlığının internet sayfasında; “Güneydoğu Trakya'da, ŞarköyMürefte arasında Ms=7.4 büyüklüğünde oldukça büyük yıkıcı bir deprem olmuştur | Depremde 310 köy ve kasaba ile 272 yerleşim alanı ağır derecede hasar görmüştür | Deprem, toplam 83.633 kişinin evsiz kalmasına neden olmuştur | Ana şoktan hemen sonra, yangın ve heyelanlar olmuştur
+next 4 sentences: Yaklaşık 100 km yarıçaplı alan içerisinde yer alan tüm kamu binaları yıkılmıştır | Deprem, 50 km'lik bir yüzey faylanmasına neden olmuştur | Yüzey faylanması, önemli miktarda sağ yanal doğrultu atım bileşenli normal bir karakter göstermiştir | Yüzey kırığı üzerinde 3m kadar sağ yönlü atımlar ölçülmüştür
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f33960d8b3f6ccf39f91
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 42
+question_id: Q09
+source_file: Kayseri_IRAP_Baski.pdf
+relative_path: plans/irap/Kayseri_IRAP_Baski.pdf
+page: 63
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Ana şoktan sonra 10 ya da 15 gün boyunca büyük artçı depremler sürekli meydana gelmiştir
+previous 4 sentences: Deprem 9 Mayıs Perşembe günü gün ağarması sırasında meydana gelmiştir | Deprem, yerde büyük bir inilti ile başlamış ve dünyanın sonu gelmişçesine gürültüler olmuştur | İnsanlar yağmur yağması için duaya çıktıkları altıncı günde deprem olmuş ve yer beş ya da altı defa çok şiddetli bir şekilde sallanmıştır | İlk şok çok kuvvetli olmuş ve Cuma gecesi ayanı saatte çok büyük bir deprem daha meydana gelmiştir
+next 4 sentences: Erkilet, Muncusun ve Molu’daki tüm evler harabe haline gelmiştir | Molu’da 170, Erkilet’de 2861, şehirde 5300 ve Muncusun’da 9 kişi hayatını kaybetmiştir (Ambraseys ve Finkel 1995) | Deprem, Kayseri’nin yarısının yok olmasına neden olmuştur | Büyük caminin kubbesi, kemerli duvarları ve kolanları çökmüştür
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a10970d49c488a6f1534, afad_earthquake_6630b9d40af3446ef59c
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 43
+question_id: Q09
+source_file: Kayseri_IRAP_Baski.pdf
+relative_path: plans/irap/Kayseri_IRAP_Baski.pdf
+page: 64
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Ana şoktan sonra çok sayıda artçı deprem meydana gelmiştir
+previous 4 sentences: Deprem, 20 km çaplı bir alanda hasar yapmıştır | Soysallı ve yakınındaki üç köy harabe haline gelmiştir | Ana şok, Erciyes dağında kaya düşmelerine neden olmuştur | Deprem, Ankara, Konya ve Adana'da da hissedilmiştir
+next 4 sentences: Deprem dışmerkezinde en büyük şiddet MSK=VIII olarak belirlenmiştir (Salomon-Calvi 1940d, Pınar ve Lahn 1952, Ergin vd | 1967, Ambraseys 1988) | 14 Aralık 1998 Kayseri Depremi 14 Aralık 1998 günü saat 14:44 ve 15:06’da Kayseri’de büyüklükleri Ml=4.5 ve Ml=4.7 olan iki deprem olmuştur | Depremlerin dış-merkezlerinin koordinatları sırasıyla, 39.06 K – 35.84 D ve 39.04 K – 35.84 D (DAD) olarak hesaplanmıştır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_6630b9d40af3446ef59c
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 44
+question_id: Q09
+source_file: Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+relative_path: plans/irap/Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf
+page: 55
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Bölgede 26 Nisan 1938 tarihli kararneme uyarınca 1 milyona yakın masraf yapılmış, çadır, sıhhi malzeme ve gıda yardımları gönderilmiştir Ana şok saat 13.00 civarında meydana gelmiş, fakat esas can ve mal kaybına, 20 Nisan’da saat 1:25 ile 1:27 saatleri arasında oluşan artçı depremlerin etkili olduğu sanılmaktadır. (Gömcü,2013) 2.2.1.1938 Akpınar Depreminde Yıkılan Kırşehir Köyleri:
+previous 4 sentences: 54 (https://deprem.afad.gov.tr) 19.04.1938 tarihinde meydana gelen 6.6 büyüklüğündeki Akpınar depremi ile 21.04.1983 tarihinde oluşan 4.7 büyüklüğümdeki Ankara depremidir | Köşker, Deveci, Alişar, Hanyeri, Tatarilyas, Homurlu, Çürükler, Pala, Hüyük, Gölhüyük köylerinde evler tamamen yıkılmış veya kullanılamaz duruma gelmiştir | Bu depremde 3860 bina yıkılmış veya kullanılamaz duruma gelmiş ve 149 can kaybı olmuştur
+next 4 sentences: Tamamen Yıkılmış Köyler: | Köşker, Y | Köşker, Akpınar, Doğancı, Hacı Selimli, Taşkovan, Hanyeri, Eldere, Deveci, Alişar, Tatarilyas, Homurlu, Göllühüyük Bazı Evleri Yıkılmış Köyler:Sofular, İsa Hocalı, Yeni Yapan, Hacı Mirza, Hamitköy, Aşağı Sofrazlı, Çeşit Obası, Kara Ova, Büyük Abdi Uşağı, Çebişler, Kelismail Uşağı(Gömcü,2013) 2.2.2 | 05.10.2012 Kaman Depremi Kaman İlçesi 05.10.2012 tarihinde 4.5 büyüklüğünde deprem meydana gelmiştir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_2265281d47162b1451f2
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 45
+question_id: Q09
+source_file: Kocaeli-IRAP.pdf
+relative_path: plans/irap/Kocaeli-IRAP.pdf
+page: 64
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: Uygulamada duraylı doğrusal ilişkinin elde edilebilmesi için, deprem kataloglarında artçı ve öncü depremler içermeyen ve optimum ölçüde yeniden konumlandırılmış; yani ilksel çözümler içermeyen deprem verileri derlenmelidir
+previous 4 sentences: Yöntem ilk defa Gutenberg ve Richter (1956) tarafından ortaya atılarak, büyüklük (M) ve deprem sayısı (N) arasındaki ilişki, bM a LogN   doğrusal bağıntı ile verilmiştir | Burada a ve b bağıntının bilinmeyenleridir | Olasılıksal tehlike analizinde ilk aşamada belli zaman aralıklarında ve belli bir bölgede depremleri derlemektir | Bu aşama, sonraki hesaplamaların doğruluğunu ve olasılıksal tehlike analizi ve yorumlarının anlamlı olabilmesi için önemlidir
+next 4 sentences: Artçı ve öncü depremler katalogdan ayıklanırken 5 veya 5.5 büyüklüğündeki depremlerin öncü ve artçı şoklarının 4-4.5 aralığında olabileceği dikkate alınmalıdır | Öncü şoklara yönelik kabuller zor ve deneyim isteyen bir konudur | Bununla birlikte özellikle artçı şoklar daha fazla olabileceğinden dikkat edilmelidir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_e40cb273694bd0da4c89, afad_earthquake_163c96f4fdf4acb0e8a5
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 46
+question_id: Q09
+source_file: Kocaeli-IRAP.pdf
+relative_path: plans/irap/Kocaeli-IRAP.pdf
+page: 65
+relevance_status: relevant
+matched_terms: artçı
+matched sentence: KOCAELİ VALİLİĞİ 65 60 Burada genellikle izlenen yol, ana şokun meydana geldiği deformasyon zonu içerisinde belli bir zaman aralığında (6-9 ay gibi) oluşan ve ana şoktan doğal olarak daha küçük depremlerin artçı şok olarak kabul edilip katalogdan ayıklanmasıdır
+previous 4 sentences: T.C
+next 4 sentences: Bu arada çok küçük depremlerin hem çok sayıda olmalarından dolayı istenmeyen ölçüde istatistiksel ağırlıklarının olması hem de tehlike analizinde büyüklüklerinin anlamsız olması nedeniyle bu yöntemde depremler yaygın olarak 4 ve 4‘den büyük olacak şekilde derlenmektedirler | Burada dikkat edilmesi gereken bir husus daha vardır | Poisson modeli olarak tanımlanan bir modelle, örneğin belli büyüklükte bir depremin 50 yıl içinde olma olasılığı yüzde olarak verilirken o depremin büyüklük türü, başlangıçta derlenen büyüklük türüne uygun olması açısından depremler aynı büyüklük türünde derlenmelidir | Bu arada çalışma alanı seçilirken bölge içinden geçen aktif fayları ve kümelenmiş ve kümelenmemiş deprem dağılımlarını kapsayacak şekilde örneğin 100 km veya 150 km yarıçapında bir alan seçilebileceği gibi, birkaç fay kolu üzerinde sismik kaynak bölgelendirmelerine göre derlemeler de yapılabilir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_e40cb273694bd0da4c89, afad_earthquake_163c96f4fdf4acb0e8a5
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 47
+question_id: Q09
+source_file: MANISA-IRAP.pdf
+relative_path: plans/irap/MANISA-IRAP.pdf
+page: 11
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 14 22.01.2020 22:22:16 (TSİ), Akhisar (Manisa) Mw 5.4 depremi ve artçı deprem aktivitesi
+previous 4 sentences: 12 1990 yılı sonrasını kapsayan son 30 yıllık dönemde Manisa İl’i ve yakın çevresinde meydana gelen ~74.000 depremin büyüklük aralığı olmaksızın tek renk olacak şekilde konumsal dağılımının gösterimi | 88 Şekil 2 | 13 1979-2020 yılları arasında Manisa İl’i ve yakın çevresinde meydana gelen, büyüklükleri 4.3 ile 6.0 arasında değişen 25 depreme ait odak mekanizması çözümü | 89 Şekil 2
+next 4 sentences: 91 Şekil 2 | 15 Türkiye Deprem Tehlike Haritasına göre bölgenin deprem tehlikesi | 91 Şekil 2 | 16 AFAD-RED tahmini şiddet haritası
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_fb9ea1415206eb10bc51, afad_earthquake_538659ca0e87b358eb9d
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 48
+question_id: Q09
+source_file: MANISA-IRAP.pdf
+relative_path: plans/irap/MANISA-IRAP.pdf
+page: 96
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Ana şoktan, 23.01.2020 16:30’ a kadar geçen zamanda, büyüklükleri 1.2 ile 4.3 arasında değişen 318 artçı deprem kaydedilmiştir (Şekil 2.64)
+previous 4 sentences: 90 4 26 07 2003 - 5.2 49 29.05 38.03 60 57 -147 5 23 01 2007 21:22 4.6 5 28.52 38.28 301 28 -103 6 17 02 2009 05:28 5.0 19 28.98 39.15 262 46 -128 7 04 12 2009 06:02 4.9 19 28.69 37.90 269 39 -123 8 19 05 2011 20:15 5.9 23 29.11 39.08 98 44 -96 9 28 05 2011 05:47 5.0 17 29.04 39.09 314 45 -65 10 27 06 2011 21:13 4.9 59 29.13 39.07 95 42 -120 11 01 05 2012 14:48 5.0 29 27.00 38.55 294 41 -47 12 03 05 2012 15:20 5.4 26 29.17 39.06 98 39 -89 13 12 09 2016 08:26 4.5 5 27.62 38.82 340 26 -26 14 21 04 2017 13:09 5.0 22 29.25 38.8 76 42 -93 15 21 04 2017 14:12 4.9 23 27.47 38.64 300 36 -95 16 27 05 2017 15:53 5.1 24 27.78 38.73 304 44 -91 17 28 05 2017 02:52 4.8 56 27.68 38.74 291 36 -107 18 28 05 2017 11:04 4.9 59 27.76 38.79 132 41 -73 19 10 12 2019 20:14 4.6 3 27.83 39.41 314 37 -53 20 22 01 2020 19:22 5.6 16 27.79 39.05 345 56 -26 21 28 01 2020 11:26 5.0 15 27.71 39.13 327 28 -51 22 04 02 2020 17:55 4.9 24 27.70 39.11 317 37 -76 23 18 02 2020 16:09 4.8 24 27.77 39.10 351 75 -8 24 24 02 2020 02:43 4.6 35 27.78 39.01 89 72 -163 25 26 06 2020 07:21 5.2 13 27.73 38.77 313 34 -76 22 Ocak 2020 Akhisar Depremi ve Etkileri: | 22.01.2020 günü, Türkiye saati ile 22:22’de merkez üssü Akhisar (Manisa) olan Mw 5.4 büyüklüğünde bir deprem meydana gelmiştir | Yerin 10.35 km derininde meydana gelen bu depremin en yakın yerleşim birimi olan Manisa ilinin Akhisar ilçesine bağlı Musalar köyüne uzaklığı 1.46 km'dir
+next 4 sentences: Depremin belirgin süresi ise ilk belirlemelere göre 9.8 sn olarak hesaplanmıştır | Deprem sonucu Kırkağaç ve Akhisar’ın Mahallelerinde ölü ve yaralı yoktur, 1729 bina az hasarlı, 159 bina orta hasarlı ve bina ağır-yıkık olduğu tespit edilmiştir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_04dac18754892408dc22
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 49
+question_id: Q09
+source_file: MANISA-IRAP.pdf
+relative_path: plans/irap/MANISA-IRAP.pdf
+page: 97
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: 14 22.01.2020 22:22:16 (TSİ), Akhisar (Manisa) Mw 5.4 depremi ve artçı deprem aktivitesi Şekil 2
+previous 4 sentences: 91 Şekil 2
+next 4 sentences: 15 Türkiye Deprem Tehlike Haritasına göre bölgenin deprem tehlikesi
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_04dac18754892408dc22
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 50
+question_id: Q09
+source_file: MANISA-IRAP.pdf
+relative_path: plans/irap/MANISA-IRAP.pdf
+page: 98
+relevance_status: relevant
+matched_terms: artçı, artçı deprem
+matched sentence: Depremden hemen sonra büyüklükleri 1.2 – 4.8 arasında değişen 214 (28.05.2017 Saat:13:00 itibariyle) artçı deprem meydana gelmiştir
+previous 4 sentences: Sismik şiddet ve ön hasar kestirimleri, ampirik bağıntılar kullanılarak otomatik olarak hesaplanmıştır ve saha gözlemlerine dayanmamaktadır | 27 Mayıs 2017 Saruhanlı Depremi ve Etkileri: | 27.05.2017 günü, saat 18:53’de SaruhanlıManisa merkezli bir deprem meydana gelmiştir | AFAD – TDVMS (Türkiye Deprem Veri Merkezi Sistemi)’nden alınan verilerle yapılan çözüm sonucu elde edilen büyüklük Mw= 5.1 olarak hesaplanmıştır
+next 4 sentences: Deprem sonucunda çevre mahallelerde 162 bina az hasarlı, 233 bina ağır hasarlı olarak tespit edilmiştir, ölen ve yaralanan olmamıştır. (Şekil 2.17)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_04dac18754892408dc22, afad_earthquake_17ad053c97c10dfe65cd
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+========================================================================================
+Q13
+Question: Deprem sırasında dışarıdaysam ne yapmalıyım?
+Extracted matches: 395
+Direct pages: 0
+Direct pages in chunks: 0
+Diagnosis: EXTRACTED_CORPUS_COVERAGE_UNRESOLVED
+
+Candidate 1
+question_id: Q13
+source_file: 23052025-TASIP.pdf
+relative_path: plans/tasip/23052025-TASIP.pdf
+page: 12
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Sahil Güvenlik Komutanlığı Karakolu ve Rıhtım/İskelesi İyileştirme İş Adımları ve İş Adım Süreçleri
+previous 4 sentences: Emniyet Hizmet Binaları İyileştirme İş Adımları ve İş Adım Süreçleri | 96 Tablo 4.106 | Jandarma Genel Komutanlığı Hizmet Bina ve Tesisleri İyileştirme İş Adımları ve İş Adım Süreçleri | 96 Tablo 4.107
+next 4 sentences: 97 Tablo 4.108 | Askeri Yapı ve Tesisleri İyileştirme İş Adımları ve İş Adım Süreçleri | 98 Tablo 4.109 | Gümrük Binaları İş Adımları ve İş Adım Süreçleri
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_15274547aeb24e8c5fdd, afad_earthquake_21d81797057e05ffe9a7
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 2
+question_id: Q13
+source_file: 23052025-TASIP.pdf
+relative_path: plans/tasip/23052025-TASIP.pdf
+page: 103
+relevance_status: relevant
+matched_terms: açık alanda
+matched sentence: Bitkisel Ürün Sigortası Bitkisel ürün sigortası, açık alanda yetiştiriciliği yapılan bitkisel ürünler için oluşturulmuş sigorta sistemi olarak tanımlanmaktadır
+previous 4 sentences: Deprem sonrası kentsel dönüşüme alınan binalarda DASK adına sahada hasar ve zarar tespiti yapmakta olan Sigorta Eksperleri tarafından zarar tespitini yapmalarına imkân tanınmasını takiben yıkımlar yapılır | S4-T4-A1-İ2 Tazminat Ödemesi Yapılması DASK DASK | Tazminat tutarı, DASK tarafından hak sahibinin adına Zorunlu Deprem Sigortası Genel Şartları ile belirlenen süre, usul ve esaslara göre ödenir | 4.4.4.2
+next 4 sentences: Bu sigorta bitkisel ürünlerde don, dolu, fırtına, hortum, yangın, deprem, heyelan, taşıt çarpması, sel ve su baskını, yabandomuzu, kuş, yağmur riskleri sonucu sigortalının doğrudan uğradığı maddi zararı temin eder | Belirtilen riskler sonucu bir hasar olması durumunda hasar tespit çalışmaları sonrası tazminat ödenmesi aşamalarını içermektedir | Bitkisel ürün sigortası alt görev alanının iş adımları, iş adım süreçlerinden sorumlu ulusal ve yerel kurumlar Tablo 4.82’de sunulmuştur | Tablo 4.82
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_ba4938bf62f75fcbc23f, afad_earthquake_4364513417d0ea0c8ee1
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 3
+question_id: Q13
+source_file: 23052025-TASIP.pdf
+relative_path: plans/tasip/23052025-TASIP.pdf
+page: 118
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Güvenlik Hizmetleri Altyapısı İyileştirme Afetten zarar görmüş güvenlik hizmetleri altyapısına (emniyet müdürlükleri/amirlikleri, polis merkezi amirlikleri, laboratuvar, havacılık hangarı ve iglo depoları gibi hizmet yapılarının, jandarma birliklerinin konuşlu bulunduğu yapı ve tesisler, sahil güvenlik hizmetlerinin yürütüldüğü karakol/iskele/rıhtım vb.) yönelik iyileştirme faaliyetlerini (hasar tespit, yeniden inşa ya da güçlendirme) kapsamaktadır
+previous 4 sentences: S6-T1-A1-İ5 İnşaat ve Yapım ADB İl Cumhuriyet Başsavcılığı | Bina güçlendirmesi veya yıkım ihalesi yapılır | Güçlendirme imalatlarının yapılarak binanın hizmet devamı sağlanır | 4.6.2
+next 4 sentences: 4.6.2.1 | Emniyet Hizmet Binaları İyileştirme Afetten zarar görmüş emniyete ait hizmet binalarının, hasar tespiti, yeniden inşası ya da güçlendirme yoluyla iyileştirilmesine yönelik faaliyetleri içermektedir | Emniyet hizmet binalarının iyileştirilmesinden sorumlu ulusal ve yerel kurumlar, iş adımları ve iş adım süreçleri Tablo 4.105’de sunulmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_00268b7ac2a9f8aa675f
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 4
+question_id: Q13
+source_file: 28032022-TARAP-kitap_V6.pdf
+relative_path: plans/tarap/28032022-TARAP-kitap_V6.pdf
+page: 7
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 7 İDEP İklim Değişikliği Eylem Planı İDKK İklim Değişikliği Koordinasyon Kurulu İLBANK İller Bankası İRAP İl Risk Azaltma Planı JGK Jandarma Genel Komutanlığı KBRN Kimyasal, Biyolojik, Radyolojik, Nükleer Tehditler KENTGES Bütünleşik Kentsel Gelişme Stratejisi ve Eylem Planı KGM Karayolları Genel Müdürlüğü KKK Kara Kuvvetleri Komutanlığı KOSGEB Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığı KRDAE Kandilli Rasathanesi ve Deprem Araştırma Enstitüsü KTB Kültür ve Turizm Bakanlığı MAPEG Maden ve Petrol İşleri Genel Müdürlüğü MEB Milli Eğitim Bakanlığı MGM Meteoroloji Genel Müdürlüğü MGK Genel Sekreterliği Milli Güvenlik Kurulu Genel Sekreterliği MİT Milli İstihbarat Teşkilatı MKE Makine Kimya Endüstrisi MSB Milli Savunma Bakanlığı MTA Maden Tetkik ve Arama Genel Müdürlüğü NDK Nükleer Düzenleme Kurumu OECD Ekonomik Kalkınma ve İşbirliği Örgütü OGM Orman Genel Müdürlüğü RID Tehlikeli Maddelerin Taşınması Demiryoluyla Taşınması Sözleşmesi SB Sağlık Bakanlığı SBB Strateji ve Bütçe Başkanlığı SEDDK Sigortacılık ve Özel Emeklilik Düzenleme ve Denetleme Kurumu Sendai Çerçeve Belgesi Sendai Afet Risklerini Azaltma Çerçevesi SG Komutanlığı Sahil Güvenlik Komutanlığı SPK Sermaye Piyasası Kurulu STB Sanayi ve Teknoloji Bakanlığı STK Sivil Toplum Kuruluşu TAMP Türkiye Afet Müdahale Planı
+previous 4 sentences: NONE
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_50f14eff4510a438e1d5, afad_earthquake_e4e73dae081ac55bf44d
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: false
+answer_signal_preserved_in_chunks: false
+
+Candidate 5
+question_id: Q13
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 315
+relevance_status: relevant
+matched_terms: açık alan
+matched sentence: Farklı arazi türlerinin bir arada bulunduğu, ormanlık, açık alan, kayalık ve eğimli bölgelerin karışımından oluşan arazi yapısıdır
+previous 4 sentences: A type of structure based on a skeleton system composed of columns, beams, and slabs made from materials like reinforced concrete, steel, or wood | Loads are transferred to the foundation through the frame, while walls serve mainly as partitions or coverings | It is a modern building type offering high resistance to earthquakes and other lateral forces | Karma Arazi:
+next 4 sentences: Bu tür araziler, arazi koşullarının çeşitliliği nedeniyle planlama, yürüyüş veya operasyonlarda ekstra dikkat ve farklı teknikler gerektirir | Mixed Land: | Terrain consisting of a combination of different land types such as forests, open areas, rocky and sloped regions | Due to its diverse conditions, mixed land requires extra caution and specialized techniques in planning, hiking, or operational activities
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_2b913543c8bb7648e673
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 6
+question_id: Q13
+source_file: ARTVIN-IRAP-SON_22102021.pdf
+relative_path: plans/irap/ARTVIN-IRAP-SON_22102021.pdf
+page: 9
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Doğu Karadeniz bölümünün sahil kesimindeki yıllık yağış miktarları (İTÜ, 2009) 33 Şekil 18
+previous 4 sentences: İlimizde bulunan barajlar (AYDES, 2021) | 31 Şekil 16 | Türkiye ortalama yıllık yağış dağılımı (DMİ, 2020) | 32 Şekil 17
+next 4 sentences: Artvin ili yağış normalleri (MGM, 2020) | 34 Şekil 19 | Artvin ili yıllık alansal yağışları (MGM, 2020) | 34 Şekil 20
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_aabeae1b1abfb39204d2, afad_earthquake_744c931f56c6261c2e00
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 7
+question_id: Q13
+source_file: ARTVIN-IRAP-SON_22102021.pdf
+relative_path: plans/irap/ARTVIN-IRAP-SON_22102021.pdf
+page: 72
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: İlin sahil şeridi 4. derece, iç bölgeleri ise 3. derece deprem bölgesidir
+previous 4 sentences: Çalışma ve toplantı ofislerine uydu telefonu, GSM ve sabit telefon ve fiber internet mevcut olup kesintisiz iletişim altyapıları tamamlanmıştır | Mevcut halde İlimizdeki arama ve kurtarma faaliyetleri, Müdürlüğümüz koordinasyonunda, Hopa Arama Kurtarma (HOPAK) sivil toplum örgütü ile işbirliği içerisinde yürütülmektedir | Kurumumuz genelinde afet ve acil durumlar için kurulmuş, çalışır durumda olan bir erken uyarı, ikaz ve alarm sistemi bulunmamaktadır | 1.7.3 Afet Risk Azaltma Konusunda Alınmış Yapısal Önlemler 1.7.3.1 Deprem Artvin deprem bölgesi değildir
+next 4 sentences: Ardahan sınırında ise küçük bir bölüm 2. derece deprem bölgesidir | Kentteki sarsıntılar küçük çaplıdır (URL-13)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_bc4b3f9a9ff849c72f4d, afad_earthquake_acbbe7226bad675ac32b
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 8
+question_id: Q13
+source_file: Afet-Yönetim-Terimleri-Sözlüğü.pdf
+relative_path: books/Afet-Yönetim-Terimleri-Sözlüğü.pdf
+page: 61
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Dd 61 AÇIKLAMALI AFET YÖNETİMİ TERİMLERİ SÖZLÜĞÜ D deniz seddi (İng. seawall) Sahili koruyan ve iç kısımlara yönelik taşkınları önleyen, sahil şeridindeki sağlam duvar. deniz seviyesi ölçümü (İng. sea level measurement) Herhangi bir zamandaki deniz seviyesinin karadaki sabit bir noktaya göre belirlenmesi. deniz yükselmesi (İng. sea level surge) Deniz seviyesinin geçici veya sürekli olarak yükselmesi
+previous 4 sentences: NONE
+next 4 sentences: Ay’ın devirsel hareketleri, atmosfer basıncı değişimi ve şiddetli rüzgâr gibi meteorolojik faktörler, büyük tektonik hareketlerle oluşan deprem, kıyı çökmesi, heyelan, küresel ısınma ve buzul erimeleri gibi nedenlerle olmaktadır | Geçen yüz yıllık sürede ortalama deniz seviyesinin 10-15 cm yükseldiği hesaplanmaktadır. denizde kurtarma (İng. sea rescue) Hem antlaşmalarda hem de uluslararası teamül hukukunda yerleşik bir kural gereği, denizde tehlike altındaki kişileri kurtarma görevi | Kurtarılan kişilerin sınırlarına ulaştığı bir devlet bu kişilerin gemiden indirilmesini reddedebilir ve gemi kaptanından bu kişilerin yetki alanı dışına çıkarılmasını talep edebilir veya gemiden indirilmelerini yerleştirme, bakım ve idame işlemlerinin geminin kayıtlı olduğu devlet veya diğer devletler veya uluslararası örgütler tarafından garanti edilmesi şartına bağlayabilir. depo (İng. storage) Ticari ya da ticari olmayan her türlü varlığın mevcutta muhafaza edildiği bina ve bina bağımsız bölümüdür. deprem (İng. earthquake) Tektonik kuvvetlerin veya volkan faaliyetlerinin etkisiyle yer kabuğunun kırılması sonucunda ortaya çıkan enerjinin sismik dalgalar hâlinde yayılarak geçtikleri ortamları ve yeryüzünü kuvvetle sarsması olayı. deprem gözlem ağları (İng. earthquake observation network) Sismolojik veri toplama ve analizi için birlikte çalışan bir grup istasyon olarak tanımlanır | Farklı noktalarda birbirinden bağımsız olarak çalışan sismik istasyonlardan gelen veriler, bir iletişim ağı yardımıyla veri merkezine iletilir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_81e3cb6054643c3e3c9d
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 9
+question_id: Q13
+source_file: Antalya-IRAP_2022.pdf
+relative_path: plans/irap/Antalya-IRAP_2022.pdf
+page: 117
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Heyelan Sınama Piksel Dağılımı Yapılan duyarlılık analizi sonucunda; İlimizi Jeomorfolojik olarak değerlendirdiğimizde , kuzeyde kıyıya paralel uzanan yüksek dağ sıraları, güneyde verimli sahil ovaları ile sınırladığı, dolayısı ile kuzeye ilerledikçe eğim dereceleri %60-70 seviyelerine ulaştığı, genel olarak bitki örtüsü, Akdeniz İkliminde hakim olan maki, yükseklere çıkıldıkça gür çam ormanlarından oluştuğu, hidrojeoljik açıdan bakıldığında ise geniş ve dar ölçekte akarsu havzaları, yer altı su kaynakları göller ve göletler geniş yer kapladığı, litolojik olarak kırıntılı, meta kırıntılı, ayrışmış kumtaşı, kiltaşı, kireçtaşı, ofiyolit vb., genellikle kil oranı yüksek, altere olmuş birimler ve bunların üstünde kiraçtaşı, mermer, dolomit gibi birimler gözlendiği, depremsel açıdan, Finike, Kaş, Kıbrıs Helensitik fayı, Aksu Bindirme Zonu ve Burdur Fayı bölgeyi etkileyebilecek önemli tektonik yapıların bulunduğu, meteorolojik açıdan, yazları kurak, kışları ılık ve yağışlı olan Akdeniz iklimi hakim olduğu ve buna bağlı olarak da bahar ve kış mevsimlerinde ani, yoğun yağışların gerçekleştiği, bu durumun eğim etkisi ve litoloji ile birleştiğinde heyelan aktivitesini arttırdığı görülmüştür
+previous 4 sentences: 111 Şekil 2.50
+next 4 sentences: Heyelan duyarlılık parametreleri analizinde, Litoloji, Bakı, Eğrisellik, Eğim, Yükseklik, Yola Yakınlık, Arazi Kullanımı parametrelerini kullanarak, 5 ana sınıflama elde edilmiştir | Bunlar; Çok yüksek (%1), Yüksek (%7), Orta (%26), Düşük %57), Çok Düşük (%9) olarak tanımlanmıştır | Kaş, Kumluca, Konyaaltı, Gündoğmuş, Alanya, Gazipaşa ilçelerinin özellikle kuzey kesimlerinde, heyelan duyarlılığının orta-yüksek, diğer ilçelerde ise duyarlılığın nispeten daha düşük olduğu, fakat Antalya genelini baz aldığımızda Çok Yüksek, Yüksek ve Orta duyarlılığın yüz ölçüm olarak 6.424 km2’ lik alanı kapsadığı görülmektedir | Afet Risk Azaltma Sistemi (ARAS) uygulaması üzerinden yapılan deprem kaynaklı tehlike haritasında 100 yıllık deprem periyotunda oluşturulan Deprem Tehlike Haritasında orta derece tehlike arz eden bölgeler ile aktif fay kuşaklarının örtüştüğü gözlenmektedir (Şekil 2.51)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_abeecf8b70ad48a09c7b
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 10
+question_id: Q13
+source_file: Antalya-IRAP_2022.pdf
+relative_path: plans/irap/Antalya-IRAP_2022.pdf
+page: 131
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Aynı zamanda bu ilçelerde sahil bandındaki alüvyonal zemin üzerine yerleşim alanlarının kurulmuş olması ve tarımsal faaliyet nedeniyle nüfusun bu alanlarda yoğunlaşması bu ilçeleri deprem açısından en riskli alanlar haline getirmektedir (Şekil 2.71-2.72-2.73-2.74-2.75-2.76-2.77)
+previous 4 sentences: 125 Şekil 2.75 | Antalya’da Olası En Yüksek Tehlikeye Sahip Noktalara Ait Hız ve İvme Değerleri (Kale –Kekova Fay Zonu) (AFAD, 2019) Şekil 2.76 | Bölgenin Ana Neotektonik Yapısı (Glover, C. ve Robertson, A.H.F., 1998) Tarihsel ve aletsel dönemde Antalya ve çevresinde meydana gelen depremlere bakıldığında ilin batı bölümünün (Kaş, Demre, Kumluca, Finike İlçeleri) Kale-Kekova Fay zonunun aktif olması nedeniyle depremlerden daha çok etkilendiği aşikardır
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_797552ca3afa70886258
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 11
+question_id: Q13
+source_file: Aydin-IRAP-2021.pdf
+relative_path: plans/irap/Aydin-IRAP-2021.pdf
+page: 29
+relevance_status: relevant
+matched_terms: açık alan
+matched sentence: Aydın ili genelinde taşkın riskine en açık alan il merkezi ile Ege Denizi arasında yer alan, büyük oranda Söke Ovasını kapsayan bölgedir
+previous 4 sentences: Aydın İli Hidrojeolojik Durum Aydın ilinde, özellikle BMO’nda taban suyunun yüzeye yakın olduğu kesimlerde çok sayıda sığ kuyu bulunmaktadır | Sığ kuyularda, statik seviyelerin 0.00 m ile 28.30 m aralığında bulunduğu belirlenmiştir | İl sınırlarının batı-güney ucunda, denizden 17 km kadar içeride Bafa Gölü yer almakta olup bunun 2 km. kadar kuzeyinde ise Azap Gölü bulunmaktadır | Göllerin suyu hafif tuzludur (Şekil 1.16) (Aydın-2040 1\25.000 Ölçekli Nazım İmar Planı Açıklama Raporu 2018)
+next 4 sentences: Bu alanda eğim % 0.004 düzeyindedir | Dandalas Çayı, Akçay ve özellikle Çine Çayı’ndan sağlanan güçlü akış ovanın il merkezi mansabında kalan
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_af5048aed97f1974c926, afad_earthquake_a5de35b339adaa707f5a
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 12
+question_id: Q13
+source_file: Aydin-IRAP-2021.pdf
+relative_path: plans/irap/Aydin-IRAP-2021.pdf
+page: 92
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 19 SULTANHİSAR Sahil Sulama Bir.Başk
+previous 4 sentences: 13 KUYUCAK Devlet Hastanesi 14 NAZİLLİ Doğa Kor. ve Mil.Park.Şefliği 15 NAZİLLİ İsabeyli Baraj 16 NAZİLLİ Esenköy Mah | 17 SÖKE Yenikent Mah.Harikalar Diyarı 18 SÖKE Sarıkemer Mah | Bel | Su Dep
+next 4 sentences: 20 YENİPAZAR Koyunlar Göleti(1) 21 YENİPAZAR Koyunlar Göleti(2) 2.1.2.3 Aydın İlinin Deprem ve Zemin İlişkisi : | Aydın ili Batı Anadolu’da BMG olarak adlandırılan normal faylarla şekillenmiş bir çöküntü havzasında yer almaktadır | Bu çöküntü alanının kuzey ve güney kenarı diri faylarla sınırlanmıştır | Tarihsel ve aletsel dönem deprem kayıtlarına bakıldığında özellikle kuzey kenarındaki faylarda meydana gelen depremlerin, bu kesimde kalan yerleşim alanlarında etkisinin daha büyük olduğunu göstermiştir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_9379736d7481653d3910, afad_earthquake_49a11edd5da0a0991782
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 13
+question_id: Q13
+source_file: Aydin-IRAP-2021.pdf
+relative_path: plans/irap/Aydin-IRAP-2021.pdf
+page: 229
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 228 Tablo 4.4 Eylemler, Sorumlu Kuruluşlar ve Süreçler Hedef-3 HEDEF 3 İkincil afetlerin önlenmesi ve oluşturabileceği zararları en aza indirmek EYLEM NO EYLEMLER AFET TÜRÜ EYLEMİ GERÇEKLEŞTİRECEK KURUM VE SÜRECİ Sorumlu Kurum Destekleyici Kurum(lar) Yaklaşık Tamamlama Süresi H3-E1 Denizde meydana gelecek deprem etkisiyle oluşabilecek tsunami olaylarının Kuşadası, Didim ve Söke ilçelerinin kıyı yerleşimlerine olabilecek etkilerinin araştırılıp, önlenmesine yönelik tedbirlerin alınması Deprem - Taşkın Büyükşehir Belediyesi Didim, Kuşadası, Söke Belediyeleri, Sahil Güvenlik Ege Deniz Bölge Komutanlığı, Meteoroloji İl Müdürlüğü 2022-2027 H3-E2 Çine ilçesinde bulunan Adnan Menderes ve İncirliova ilçesinde bulunun İkizdere Barajları başta olmak üzere ilimiz genelinde bulunan barajların depreme vd. etkilere karşın dayanımlarının belirlenmesine yönelik yıkılma analizlerinin yapılması Deprem DSİ 21
+previous 4 sentences: NONE
+next 4 sentences: Bölge Müdürlüğü - 2022-2027 H3-E3 İl genelinde hali hazırda yapılmış istinat yapılarının envanteri çıkarılarak projesine ve deprem yönetmeliğine uygunluklarının kontrollerinin yapılması; uygun olmayanların yıktırılıp yeniden yapılmasının sağlanması Deprem İlçe Belediyeleri - 2022-2027 H3-E4 Büyük ölçekli sanayi tesislerinin bulunduğu alanların zemin yapı ilişkisi göz önünde bulundurularak taşkın risk analizleri yapılıp gerekli tedbirlerin alınması Taşkın DSİ 21 | Bölge Müdürlüğü İl Tarım ve Orman Müdürlüğü, Sanayi ve Teknoloji İl Müdürlüğü, Organize Sanayi Bölge Müdürlükleri(OSB) 2022-2025 H3-E5 Taşkın olabilecek yerlerin kontrolü ile yapılacak önlem projeleri sayesinde ikincil bir afet olan kütle hareketlerinin önlenmesi Taşkın DSİ 21 | Bölge Müdürlüğü İl Afet ve Acil Durum Müdürlüğü, Meteoroloji İl Müdürlüğü 2022-2025 H3-E6 Baraj, gölet vs. gibi yerlerin çevresinde kütle hareketlerinin tetikleyeceği taşkınlar için önlem alınması Kütle Hareketleri DSİ 21 | Bölge Müdürlüğü İl Afet ve Acil Durum Müdürlüğü Sürekli H3-E7 İl genelinde olası depremlerde doğalgaz hattındaki gaz akışını otomatik olarak kesme sistemi olmayan hatlarda bu sistemin oluşturulması Deprem ENERYA Aydın Gaz Dağıtım AŞ - Sürekli
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_d132a01c774ced149e1b
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 14
+question_id: Q13
+source_file: BALIKESIR-IRAP.pdf
+relative_path: plans/irap/BALIKESIR-IRAP.pdf
+page: 93
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Balıkesir İl Afet ve Acil Durum Müdürlüğü’nün koordinasyonunda; “İl Düzeyi Saha Tatbikatları”  Valimizin Başkanlığında,  Garnizon Komutanlığı,  Balıkesir Büyükşehir Belediye Başkanlığı,  Servis Koordinatörü Vali Yardımcıları,  Valilik Yardımcı Birimleri,  İlçe Kaymakamları  İl Jandarma Komutanı,  İl Emniyet Müdürü,  İlgili Belediye Başkanları  (İAADKK) İl Afet ve Acil Durum Koordinasyon Kurulu Üyeleri,  26 Çalışma Grubu Yöneticisi ve Destek Çözüm Ortakları,  Sahil Güvenlik Birimleri,  İlçe birimleri (Kaymakamlık, Belediye, Emniyet, Jandarma, Zabıta)  Bölgede faaliyet gösteren kritik öneme haiz enerji tesislerinin acil müdahale ekiplerinin katılımları ile tatbikatlar düzenlenmektedir
+previous 4 sentences: İl Afet ve Acil Durum Yönetim Merkezi’nde kurulu olan bilgisayarlar üzerinden çalışacak olan sistemin, sirenlerinin kurulumu için yer seçim çalışmaları tamamlanmıştır | 1.7.4.2 | Tatbikatlar Balıkesir İl Afet Müdahale Planı’nın, afet ve acil durumlara yönelik işbirliği ve koordinasyonu geliştirmek ve hizmetlerin daha hızlı ve etkin bir şekilde yerine getirilmesini sağlamak amacıyla;  TAMP-Balıkesir Habersiz İntikal ve Toplanma Tatbikatı  TAMP-Balıkesir Masabaşı Uygulama Tatbikatı  TAMP-Balıkesir İlçe Düzeyi Saha Tatbikatı  TAMP-Balıkesir İl Düzeyi Saha Tatbikatı  TAMP-Balıkesir Bölgesel Tatbikatı  TAMP-Balıkesir Ulusal Tatbikatı  TAMP-Balıkesir Uluslararası Tatbikatı Konulu tatbikatlar gerçekleştirilmektedir | AYDES sistemi üzerinden katılımcılara SMS gönderilmekte, çalışma grupları ve STK temsilcilerinin tatbikat alanına ulaşması ile birlikte hazırlanan deprem senaryosuna göre tatbikatlar icra edilmektedir
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_65705174bc1494f211e5
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 15
+question_id: Q13
+source_file: BALIKESIR-IRAP.pdf
+relative_path: plans/irap/BALIKESIR-IRAP.pdf
+page: 190
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Bu orman alanlarında ibreli ağaç türleri olarak Kızılçam, Karaçam, Fıstıkçamı ve sahil çamı, yapraklı ağaç türleri olarak da Meşe, Kayın, Gürgen gibi ağaç türleri yer almaktadır
+previous 4 sentences: Endüstriyel kazalara ilişkin GZFT sonuçları incelendiğinde ilde aktif fay hatlarının bulunması, büyük tesislerin şehir merkezine ve yerleşim yerlerine çok yakın olması, düzensiz kentleşme, teknolojik gelişmelerin takip edilmeyip uyum sağlanmaması ve ayrıca tehlikeli kimyasal maddelerin karayolu ile taşınması sonucu yaşanan kazaların oluşturduğu tehditler vb. riskleri artıran ekonomik, teknik ve idari unsurlar olarak değerlendirilmiştir | GZFT analizinden ulaşılan diğer bir husus ise yeni kurulan tesislerde depreme karşı dayanıklı yapılar ve sistemler kurulmuş olması, personellere yönelik eğitimler ve tatbikatların her sene düzenli yapılıyor olması, tesislerde Acil Durum Planlarının yapılmış olması, personellerin tecrübeli olması, tesislerde bulunan proses güvenliğine yönelik kurulan otomasyon sistemlerinin olması, işletmelerde ki bakımların düzenli yapılıyor olması, üst seviye kuruluşlarda güvenlik raporunun olması ve ilin coğrafi konumu olası bir endüstriyel kaza olduğunda güçlü olduğumuz yönleri göstermiştir | 3.3.5 | Yangın Balıkesir ilinin % 95 ini kaplayan orman alanlarını toplam 649.115,17 hektardır
+next 4 sentences: Balıkesir ilinde son 10 yılda toplam 610 adet orman yangını çıkmış olup, bu yangınlar sonucu 3.788,52 hektar orman alanı zarar görmüş olup, toplam 275.615 m2 emval yangınları sonucu hasara uğramıştır | Orman yangınları genelde kızılçam ağaç türü ile kaplı alanlarda çıkarak zararlara yol açmıştır | Ancak bu veriler Türkiye ortalamalarının altında kalmaktadır | Burada en etkili faktör orman yangın ekiplerinin tecrübeli, oluşu ormanların 7/24 esasına göre gözetlenmesi, alınan ihbarlara ek kısa sürede müdahalede bulunulması sayılabilir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_41e1b9e81fbf7af8bfae
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 16
+question_id: Q13
+source_file: BALIKESIR-IRAP.pdf
+relative_path: plans/irap/BALIKESIR-IRAP.pdf
+page: 229
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Tüm Afetler İl Milli Eğitim Müdürlüğü Balıkesir AFAD, Büyükşehir Belediyesi, İlçe Belediyeleri Sürekli A1- H8-E3 Özellikle sahil kesiminde yaz aylarında yazlıkçıların sayısı ile ilgili bir çalışma yapılarak afet ve acil durum planları buna göre hazırlanacaktır
+previous 4 sentences: HEDEF 8: | Afet risklerini azaltma kültürü oluşturmak amacıyla eğitim ve bilgilendirme faaliyetlerinin arttırılması KOD EYLEM ADI Afet Türü Sorumlu Kurum(lar) Destekleyici Kurum(lar) Gerçekleştirme Dönemi A1- H8-E1 Afet riskleri ve afet risk azaltma alanında bilginin yayılması için farklı grupların ihtiyaçlarını da gözeterek etkinlikler düzenlenmesi, kampanyalar yürütülmesi ve bu çalışmaların (sosyal medya vb.) yaygınlaştırılması Tüm Afetler Balıkesir AFAD İlçe Belediyeleri, İl Milli Eğitim Müdürlüğü (Halk Eğitim Merkezleri) Sürekli A1- H8-E2 Okullarda okul afet planları yapılarak tatbikatlar ile planlar test edilecektir
+next 4 sentences: Tüm Afetler Balıkesir AFAD Kaymakamlıklar, İl Nüfus Müdürlüğü Sürekli A1- H8-E4 Kamu Kurumlarında, okullarda ve iş yerlerinde halkın katılımıyla deprem bilinci oluşturma ve riskini azaltma amaçlı faaliyetler yürütülmesi Deprem Balıkesir AFAD İl Milli Eğitim Müdürlüğü, Akademik Odalar Birliği Sürekli A1- H8-E5 Deprem sırasında sarsıntıyla meydana gelebilecek kazaları önlemek için tabelaların ilgili esnafın da katılımıyla kontrol edilmesi, bina duvarına sabitlenmesi ve zarar vermeyecek standartlarda ölçülendirilmesi Deprem Büyükşehir Belediyesi Esnaf ve Sanatkârlar Odaları Birliği Sürekli A1- H8-E6 Yürütülmekte olan Afet Gönüllüsü Projesi kapsamında, 1500 afet gönüllüsünün eğitimleri tamamlanacaktır | Tüm Afetler Balıkesir AFAD 2021-2024 A1- H8-E7 İncinebilir gruplara yönelik tahliye ve toplanma ile ilgili özel bir planlama yapılarak, kadın sığınma evleri, çocuk yuvaları, okullar ve huzur evlerinde grup çalışmaları teşvik edilecek, eğitim ve tatbikatlar planlı hale getirilecektir | Deprem Aile ve Sosyal Hizmetler İl Müdürlüğü Balıkesir AFAD, Büyükşehir Belediyesi, İlçe Belediyeleri, İl Jandarma Komutanlığı Sürekli
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_53370d27de7244afa37d
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 17
+question_id: Q13
+source_file: BITLIS_IRAP.pdf
+relative_path: plans/irap/BITLIS_IRAP.pdf
+page: 40
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 32 Adilcevaz Sahil Kalesi:
+previous 4 sentences: NONE
+next 4 sentences: Van Gölü kıyısında sarp kayalar üzerine kurulmuştur | Kulesi bulunan kalenin içinde Süleyman Han Cami, cephane mahzeni, buğday ambarları, su sarnıçları, mehterhane kulesi ve 70 ev bulunduğu kaynaklardan anlaşılmaktadır | Günümüzde sadece kalıntıları mevcuttur | 1.6
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_0c99faacd156dc1fcb10
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 18
+question_id: Q13
+source_file: Bursa-IRAP.pdf
+relative_path: plans/irap/Bursa-IRAP.pdf
+page: 52
+relevance_status: relevant
+matched_terms: açık alan
+matched sentence: Projede, mevcut konut yapıları yıkılarak yaklaşık 4.000 m² açık alan ve meydan oluşturulmuştur
+previous 4 sentences: İlimiz depremsellik açısından yüksek riskli durumda bulunmaktadır | Bu nedenle il genelinde kentsel dönüşüm çalışmalarına hız verilmesi, riskli yapı stokunun belirlenmesi, yenilenmesi veya depreme dayanıklı hale getirilmesi gerekmektedir | İlimizde Büyükşehir Belediyesince yürütülen kentsel dönüşüm projeleri: | Emirsultan Kentsel Dönüşüm Projesi:
+next 4 sentences: Meydanı çevreleyen yeni yapılarda da 50 adet konut, 13 adet dükkan, 200 araç kapasiteli otopark bulunmaktadır | Santral Garaj Kentsel Dönüşüm ve Gelişim Projesi: | Santral Garaj, Hocahasan, Ahmetpaşa, Çırpan, Ulu ve Kırcaali mahallelerinin bir kısmını kapsayan, 12 ha. büyüklüğündeki alan, Bursa Büyükşehir Belediye Meclisinin 14.06.2007 tarih ve 364 sayılı kararıyla Kentsel Dönüşüm ve Gelişim Alanı ilan edilmiştir | Sıcaksu Kentsel Dönüşüm Projesi:
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_37064eb8c8095973dd29, afad_earthquake_bdb3517c6641bbd13775
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 19
+question_id: Q13
+source_file: Canakkale-IRAP.pdf
+relative_path: plans/irap/Canakkale-IRAP.pdf
+page: 71
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: İlimizde; Barbaros Mahallesinde Troya Caddesi ile sahil arasında kalan alanda ve Sarıçay yatağının iki tarafında ve Cevatpaşa Mahallesinin sahile yakın olan kısımlarında yüksek sıvılaşma riski bulunmaktadır
+previous 4 sentences: ÇANAKKALE VALİLİĞİ 71 65 fazladır | Ancak diğer mevsimlerde anlık ani yağışların oluşturduğu sel ve su baskını olayları ilimizde görülmektedir | İlimiz Biga (Güvemalan, Sinekçi), Lapseki (Gürecialtı Köyü), Gökçeada ve Bayramiç ilçelerimizde meydana sel afetleri sonucunda 1 vatandaşımız hayatını kaybetmiş, çok sayıda yapı hasar görmüş olup 4 vatandaşımız hak sahibi kabul edilmiştir | Şekil 1.61 Çanakkale İli 2010-2020 Yılları Arası Su Baskını Haritası 1.5.6.3 Sıvılaşma Riski Suya doygun, gevşek dokulu, ince taneli siltli kumların boşluk suyu basıncı değerlerinin deprem titreşimleri sırasında artması ve etkin yanal gerilmelerin sıfırlanması sonucu taşıma kapasitelerini kaybederek “sıvı ’’ gibi davranış göstermesi muhtemeldir
+next 4 sentences: 1.5.6.4 Depremsellik Çanakkale il sınırları içerisinde Saroz-Gaziköy Fayı, Anafarta Fayları, Etili Fayı, Çan-Biga Fay Zonu, Sarıköy Fayı, Yenice-Gönen Fayı, Evciler Fayı, Pazarköy Fayı ve Edremit Fayı yer almaktadır | Söz konusu fayların aktifliği, depremler ve aletsel verilerle kanıtlanmıştır | Çanakkale İli Ayvacık İlçemizde 06.02.2017 tarihinde meydana gelen 5.5 büyüklüğünde meydana gelen deprem afeti sonrasında 1071 yapı ağır hasarlı sınıflandırılmış ve 575 kişi hak sahibi kabul edilmiştir | Ayvacık İlçemizde 20.02.2019 tarihinde 5.3 büyüklüğündeki deprem afeti sonrasında 149 yapı ağır hasarlı sınıflandırılmış, 30 vatandaşımız hak sahibi kabul edilmiştir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_575cd0f6d595b1d347f2
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 20
+question_id: Q13
+source_file: Diyarbakir-IRAP-kitapcik.pdf
+relative_path: plans/irap/Diyarbakir-IRAP-kitapcik.pdf
+page: 45
+relevance_status: relevant
+matched_terms: dışarıda
+matched sentence: Çalıştay tarafından hazırlanan iyi senaryo Şubat ayında 4.3 şiddetinde olup; soğuk hava koşulları sebebi ile dışarıda mağduriyet yaşayacakları, belediye kontrolü dışında yapılan yapıların zarar görebileceği, kuzey ilçelerinde deprem tetikli; zemin ve eğim koşullarıyla beraber heyelanların oluşacağı, lokal kütle hareketlerinin olacağı, kısmi elektrik kesintileri olması durumunda elektrik nakil hatlarının yeraltında olmadığı durumlarda alanlarda kurtarma faaliyetleri esnasında elektrik çarpmaları olabileceği, İlimizin Lice, Kulp, Hani ilçelerinde deprem etkili zemin ve eğim koşulları ile beraber deprem tetikli heyelanlar meydana geleceği, Kulp ilçesinde lokal kütle hareketleri olabileceği öngörülmüştür
+previous 4 sentences: T.C | DİYARBAKIR VALİLİĞİ 45 yapılan yapıların yıkılacağı, Dicle barajının hasar görebileceği, yerüstü ve yeraltında bulunan karayolu, demiryolu, enerji nakil hatları, köprü viyadükleri, üstgeçitler, altgeçitler, doğalgaz, elektrik, su, kanalizasyon vb alt yapı tesislerinin zarar görebileceği, ormanlık alanlardan geçen enerji nakil hatları nedeniyle orman yangınlarının olabileceği öngörülmüştür
+next 4 sentences: 2.2 | SEL/TAŞKIN/SU BASKINI TEHLİKE VE RİSK DEĞERLENDİRMESİ Dicle Alt Havzası’nı kapsayana Fırat-Dicle Havzası, Türkiye'nin 25 havzasından biridir | Türkiye yüzölçümünün yaklaşık %7’sini kapsayan Dicle Alt Havzası 54.695.7 km2 yağış alanına sahiptir | Havzanın Türkiye haritası üzerindeki konumu haritada gösterilmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_518384ceaa52be7848fc
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 21
+question_id: Q13
+source_file: ERZINCAN_IRAP_2021-.pdf
+relative_path: plans/irap/ERZINCAN_IRAP_2021-.pdf
+page: 147
+relevance_status: relevant
+matched_terms: açık alan
+matched sentence: 141 YAPISAL RİSK AZALTMA KONULARI YAPISAL OLMAYAN RİSK DEĞERLENDİRME VE RİSK AZALTMA KONULARI Altyapı (doğalgaz, kanalizasyon, enerji, İletişim hatları vb.) Tehlike, zarar görebilirlik hesaplama ve risk değerlendirme Ulaşım(Karayolu, Demiryolu, Havayolu) Mekansal planlama (bütüncül afete duyarlı planlama kararları; yerleşime yasaklama, sınırlı yerleşim, çokamaçlı kullanımlar, doku riskleri, uygun olmayan kullanımlara yer seçimi, yoğunluk, yeşil/ açık alan dağılımı vb.) Kentsel dönüşüm ve yeniden yerleşim Finansman hazırlıkları İklim değişiklikleri etkileri ve uyum tedbirleri (şehir sellenmeleri) Mevzuat, standartlar ve denetim Yapı düzeyinde fiziksel güçlendirme ile ilgili önlemler Eğitim, bilinçlendirme ve toplum katılımı Kamu binaları, Okullar, Hastaneler Sosyal kırılganlık çalışmaları ilgili gruplara yönelik tedbirler (kadın, çocuk, yaşlı, engelli, yabancı/turist/göçmenler) Önlem yapıları (taşkın önleme tesisleri, istinat duvarları, kaya düşmesi önlem projeleri vb.) Teknik kapasite Enerji ve sanayi tesisleri Standartlar ve denetim Konut yapıları Kurumsal yapılanma Köprü ve viyadükler Personelin yeterli sayı, nitelikte olması Barajlar Uyarı-ikaz sistemleri Konut yapıları Müdahaleye hazırlık (tahliye alanları/yolları) Kültür varlıkları İyileştirmeye hazırlık Diğerleri Sigorta sistemi Şekil 3.1:
+previous 4 sentences: NONE
+next 4 sentences: İRAP Hazırlarken Dikkate Alınması Gereken Risk Değerlendirme ve Azaltma Alanları (RD ve RA) (Erzincan AFAD) 1 | Afet Türü: | Deprem İlimizi boydan boya geçen Kuzey Anadolu Fay Zonu ile ilimiz sınırlarında bulunan Ovacık Fayı, Kemaliye Fayı, Tercan Fayı, Malatya fayı ilimiz için deprem riski oluşturabilecek aktif faylardır | İlimiz sınırları içerisinde 2 adet Kandilliye, 4 adet M.T
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_59450b09285e1fc03811
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 22
+question_id: Q13
+source_file: ESKISEHIR-IRAP.pdf
+relative_path: plans/irap/ESKISEHIR-IRAP.pdf
+page: 56
+relevance_status: relevant
+matched_terms: bina dışında
+matched sentence: Bu sayede zeminde oluşan hareketlenmelerden etkilenmemektedir.  Çelik hatlar üzerinde herhangi bir sebeple (Deprem, toprak kayması, izinsiz kazı vs.) oluşacak hasar sonrası gaz çıkışının en kısa sürede kesilmesi için belli noktalarda uzaktan kontrollü vanalar konuşlandırılmıştır.  Binaların doğal gaz hatlarının bina dışında kalan kısmında deprem sırasında otomatik gazın kesilmesini sağlayacak deprem vanaları bulunmaktadır.  Herhangi bir afet durumunda iletişim kanallarında sorun oluşması durumunda Ana Kumanda Merkezi ve ekipler arasında (ilçeler dahil) iletişimi sağlamak için telsiz sistemi kullanılmaktadır.31 1.7.4
+previous 4 sentences: T.C | ESKİŞEHİR VALİLİĞİ 55 Genel olarak afet büyüklüğünde oluşabilecek risklere karşı Eskişehir Doğalgaz Dağıtım A.Ş. (ESGAZ) tarafından risklerin azaltılmasına yönelik alınan önlemler de aşağıda belirtilmiştir:  Özel geçiş noktalarında PE (Polietilen) hatlar eksiz yatay sondaj teknolojisi ile imal edilmektedir.  Bütün yer altı doğal gaz hatları imalat sırasında yumuşak yastıklama (pedding) kumu ile yastıklanarak kanala yerleştirilmektedir
+next 4 sentences: Afet Risk Azaltma Çalışmaları- Yapısal Olmayan Önlemler 1.7.4.1 Afet Eğitimleri Eskişehir ilinde 2010-2020 tarihleri arasında İl AFAD Müdürlüğünce gerçekleştirilen eğitimler Tablo 1.36’da belirtilmiştir.32 Tablo 1.36 - Eskişehir İlinde 2010-2020 Tarihleri Arasında Gerçekleştirilen Eğitimler İlde 1'nci Ana Jet Üs Hv | K | KBRN Uzman Savunma Bölük K.lığında kurum içi; Hava Araçları KBRN Temizleme Usulleri Kursu, KBRN Kirli Kargo Yükü Temizleme Usulleri Eğitimi, KBRN Kirlilik Kontrol Sahası Eğitimi, KBRN Keşif ve Numune Alma Usulleri Kursu, KBRN Savunma Modülü Kullanıcı Eğitimi Kursu, Taşınabilir KBRN Toplu Korunma Sistemi Eğitimi verilmektedir.33 İl Sağlık Müdürlüğünce de 2016-2020 yılları içerisinde toplam 471 doktor, paramedik, acil tıp teknisyeni, yardımcı sağlık personeli ve şoföre KBRN Eğitimleri verilmiştir | 34 31 ESGAZ Eskişehir Doğalgaz Dağıtım A.Ş./ Erişim Tarihi:
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_ef1bfbdbcccb352167cc
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 23
+question_id: Q13
+source_file: Elazig_irap__3103-_1_-yeni.pdf
+relative_path: plans/irap/Elazig_irap__3103-_1_-yeni.pdf
+page: 56
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Baskil ve Ağın ilçelerinde Keban Baraj Gölünün ve Karakaya Baraj Gölünün etkisiyle oluşan sahil kesimleri, yüksek potansiyelli doğal turistik yapılardır
+previous 4 sentences: Bunun yanında Ölbe Vadisi, Deve Mağarası, Buzluk Mağarası, Dabakhane Şifalı Suyu doğal varlıklar olarak sayılabilir | Şehrin bir diğer önemli bölgesi ise Hazar Gölü’dür | Burada bulunan karaçalı suyu, Hazar Baba Dağı ve Kayak Merkezi önemli unsurlardır | Yurtbaşı beledisinde bulunan içmeceler ve şifalı sular, Karakoçan ilçesinde bulunan Golan Kaplıcalar, Keban ilçesinde bulunan Çırçır Şelalesi ve alabalık üretim tesisi, Eski Palu yerleşkesinde bulunan şehir hayatı kalıntıları ki bunlar başta Palu Kalesi olmak üzere cami, han, hamam, medrese, çeşme, kilise, köprü gibi yapılardır
+next 4 sentences: Ayrıca Baskil ilçesinde bulunan Karaleylek Kanyonu da son yıllarda keşfedilmiş doğal bir güzellik olarak karşımıza çıkmaktadır | Elazığ ili sınırlarında üç mevsim aynı anda yaşanabilmektedir | Resim 1.2 | Karaleylek Kanyonu (https://sondakika23.com) 1.7 Afet Durumu 1.7.1 İl’deki Hakim Tehlikeler ve Yaşanan Afetler Sivrice, Palu ve Karakoçan ilçelerinde heyelan olayları yoğun olarak gözlenmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_c47f3d304a03d0a9b850, afad_earthquake_b7f3fc4e3417996340c6
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 24
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 71
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: İBŞB-21 ilçe dışında yer alan ve denize kıyısı olan sahil ilçelerindeki yazlık sitelerin yanı sıra 2000 yılı sonrasında, kent merkezine daha yakın karasal bölgelerde, çoğu güvenlik önlemleriyle kuşatılmış kapalı konut siteleri yaygınlaşmaya başlamıştır. (İBŞB, 2024) 2009 yılında yüksek yapıların sayısı, İzmir İlinde (32 adet) Türkiye’nin diğer metropol kentlerine göre oldukça düşük olmakla birlikte (İstanbul 202 adet, Ankara 87 adet) son dönemde karma kullanımlı yüksek yapılara (ticaret, ofis, konut vb.) olan eğilimin arttığı gözlenmektedir
+previous 4 sentences: 71 alanlarında da sosyal donatı yetersizlikleri görülmekte; benzer konut tipolojilerinin tekrarından oluşan mimari niteliği yetersiz konut alanları bulunmaktadır. (İBŞB, 2024) Yapı güvenliği konusu, 1996 yılında yayınlanan Deprem Haritasına göre İzmir İli için kritik önem taşımaktadır | 2000 yılı TÜİK verilerine göre İBŞB sınırları içerisinde, güvenilirliği olmayan deprem ve heyelan riski yüksek olan bölgelerde yoğunlaşmış önemli miktarda yapı stoku bulunmaktadır | 2000 yılındaki bu binaların büyük oranda (%66,7) betonarme iskelet sistemi ya da yığma yapım sistemi ile (%32,6) üretildiği; depreme dayanımının daha yüksek olduğu bilinen çelik taşıyıcı sistemlerin düşük oranda kullanıldığı görülmektedir | 2000 yılı TÜİK verilerine göre mevcut konut yapılaşmasında fiziksel ya da teknik kalite eksikliğinden doğan sağlıksız koşulların İBŞB sınırları içerisinde %7 oranında düşük standartlı (tuvalet, banyo ve borulu suyun herhangi birinin konut dışında olması ya da bulunmaması), %36,6 oranında tadilat gerektiren, %5,6 oranında hijyenik kanalizasyonu, %27.6 su şebekesine sahip olmayan, asansör (%97,4), otopark/garaj (%89,5), yangın merdiveni bulunmayan (%99,6), ağırlıklı olarak soba ile ısınan (%83,7) konutların varlığı görülmektedir. (İBŞB, 2024) Kentsel alandaki apartmanların, toplu konutların ve de yüksek katlı konut bloklarının yanı sıra merkez kente ulaşım kolaylığına sahip olan çeper ilçelerde de az katlı bahçeli evlerden oluşan konut toplulukları bulunmaktadır
+next 4 sentences: Yüksek yapılar, sahip oldukları özellikler yönünden, diğer yapılardan farklı olarak; yakın ve uzak çevresini, fiziksel çevre, kent dokusu ve her türlü kentsel altyapı yönünden etkilemektedirler. (İBŞB, 2024) Yapı denetim sisteminin ülke genelinde olduğu gibi İzmir İlinde de yeterince etkin işlemesine engel olan sorunlar taşıdığı görülmektedir | Konutun niteliği söz konusu olduğunda konut büyüklükleri, donatıları, yaşı, strüktürel özellikleri ve sağlamlığı, kullananın bütçesine uygunluk, altyapı bağlantılarının yeniliği, kentsel servislerinin varlığı, ulaşılabilirlik gibi özellikler de önem taşımaktadır. (İBŞB, 2024) İzmir İlinde 30 Ekim 2020 tarihinde meydana gelen deprem, ekonomik ve sosyal kayıpların yanı sıra fiziksel boyutuyla da ağır kayıplara yol açarak Bayraklı İlçesinde deprem anında yıkımlara, kent genelinde ise birçok yapının ağır hasar almasına neden olmuştur | Bu durum ilde güvenli yapı konusunu öncelikli hale getirmiştir | Bu çerçevede; daha güvenli, dirençli ve yaşanabilir bir kent ve yapı stoku oluşturmak amacıyla İBŞB ile TMMOB İnşaat Mühendisleri Odası İzmir Şubesi Ortak Hizmet Projesi Protokolü imzalanarak, geniş kapsamlı bir Yapı Stoku Envanter Projesi ve Bina Kimlik Belgesi hazırlanması çalışmaları başlatılmıştır. (İBŞB, 2024) İzmir İli genelinde, İçişleri Bakanlığı Nüfus ve Vatandaşlık Genel Müdürlüğünün 2023 yılı Mekansal Adres Kayıt Sistemi (MAKS) verilerine göre yaklaşık 904.000 adet yapı bulunmaktadır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f9f4d4f7cd48c539090f, afad_earthquake_9535de499b6320b2d26d
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 25
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 116
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Tanımlanan bu yüzey deformasyonları deprem esnasında gerek Narlıdere yelpaze deltası gerekse kent içerisindeki sahil boyunca yanal yayılmaların oluştuğunu göstermektedir
+previous 4 sentences: Deprem İzmir Körfezi boyunca I0=X şiddetine eşit yıkımlara neden olmuştur (Ergin ve diğ., 1967) | Depremde İzmir kent merkezinde 20.000’e yakın insanın öldüğü rapor edilmektedir | Deprem esnasında İzmir Fayı’nın yaklaşık 3 km. kuzeyinde Narlıdere yelpaze deltası ucundaki İnciraltı Mevkiinde meydana gelen yüzey deformasyonları sonucu Sancak Kalesi’nin zemine gömüldüğü ve kalenin denize doğru 30 m. kayarak yer değiştirdiği ve bir adacık şekline dönüştüğü belirtilmektedir (Ergin ve diğ., 1967; Ambraseys ve Finkel, 1995) | Deprem sonucunda kent içerisinde kıyı boyunca da bazı çökmelerin oluştuğu ve denizin kara yönünde ilerlediğine ilişkin gözlemler sıralanmaktadır
+next 4 sentences: Pınar&Lahn (1952)’ye göre bu depremde; deniz kenarında kayma olmuş ve bunun neticesinde 100 ayak genişliğinde kanal açılmış; toprak zemini 2 ayağa kadar alçalmıştır | Çalışmacılar çeşitli kaynaklardan topladıkları verileri birleştirerek 15.000-20.000 kişinin yaşamını yitirdiğini belirtirler | Pınar&Lahn (1952) İç Anadolu’da Konya’ya kadar hissedilen depremin, İzmir’de B-D doğrultusu gösteren bir deformasyon hareketinden kaynaklandığını belirterek depremin üst merkezinin İzmir’in Konak bölgesinde bulunduğuna dair tahmin yürütmüşlerdir | Stucchi ve diğ. (2013), 10 Temmuz 1688 depremine ait Papazachos&Papazachou (2003) ile Shebalin ve diğ. (1974)’deki verileri kullanarak bir eşşiddet haritası oluşturmuştur
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_4075e4fe6fabb311c391, afad_earthquake_34ba3690c99fc089cbda
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 26
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 122
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Dalgalar kıyı şeridi boyunca yerleşim yerlerinde, sahil şeridindeki parklarda ve sosyal tesislerde hasara sebep olmuştur
+previous 4 sentences: Marina içerisinde yer alan işletmelerde su basmaları olmuş, Sığacık Marina ile Akkum Caddesi arasındaki bölge tamamen sular altında kalmıştır | Liman Caddesi boyunca araçlarda ve işletmelerde maddi hasarlar oluşmuştur | Ana caddelere ulaşan deniz suları, deniz kıyısına dik sokaklar boyunca iç kısımlara ilerlemiştir | Arazi çalışmaları sırasında tsunaminin etkilediği alan drone ile görüntülenerek haritalanmıştır
+next 4 sentences: Limandaki birçok tekne ise halatlarını kopararak çekilen denizde ve sığ kıyılarda yan yatmıştır (Şekil 2.8) (Resim 2.1) | Şekil 2.8 | Seferihisar İlçesi, Sığacık Kaleiçi ve Çevresinde Etkili Olan Tsunami Dalgalarının Ulaştığı Yaklaşık Alanın Lokasyon Haritası (Sarı renkli alan tsunami dalgalarının etki alanını göstermektedir) (DEÜ DAUM 2020)
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a9865d889cd2e1f9c7f1
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 27
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 137
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 137 Tsunami olayının afete dönüşmesinin nedenleri ve tetikleyici unsurlarının; İzmir İli kıyı açıklarında tsunami yaratabilecek özellikte fayların bulunması, Midilli Fayında gerçekleşecek Mw≥6.9 deprem sonucunda, deniz tabanında gerçekleşecek kütle hareketinden dolayı tsunami dalgaları oluşturması, Tsunami dalgalarının bölgenin batimetrik özellikleri de dikkate alındığında İzmir kuzey kıyılarında ciddi hasara neden olabilecek potansiyele sahip olması, İzmir İç Körfezi batimetrik yapısı gereği sığ bir körfez olup, bu sığ batimetrik seviyelerin tsunami dalgalarının dalga uzunluğunun azalmasına ve buna bağlı olarak da dalga yüksekliğinin artmasına neden olması, özellikle kıyı kesiminde bulunan ve mühendislik hizmeti almamış/eksik almış yerleşimler ve kıyı yapılarının oluşacak bu tsunami dalgalarından etkilenmesinin beklenmesi, dere yataklarının, tarım arazilerinin, sıvılaşma riski yüksek alanların yapılaşmaya açılması, gecekondulaşma ve kaçak/çarpık kentleşmenin/yapılaşmanın engellenerek daha planlı ve güvenli şehirler oluşturulamaması, afet öncesi imar planlamalarının nüfus yoğunluğu ve göç durumuna göre yapılmaması ve güncel olmaması olabileceği, Afetin etkileri ve sonuçları ile etki alanı açısından; İzmir Kuzey kıyılarına (Karaburun, Foça, Aliağa, Urla, Narlıdere, Balçova, Konak, Bayraklı, Karşıyaka, Çiğli, Menemen) ulaştığında ilgili kıyıların batimetrik ve topografik özelliklerine bağlı olarak kıyıdan 500 m. uzaklıklara kadar olan bölgelerin etkilenebileceği, bu alan içerisinde kalan kıyı yapıları (liman, tersane, iskele, marina vb.), alt yapı (elektrik, su, atık su, doğalgaz vb.), konutlar, parklar ve afet toplanma alanlarının hasar görebileceği, Narlıdere, Balçova, Konak, Bayraklı, Karşıyaka ve Çiğli İlçeleri ve sahil şeridinin oluşan Tsunamiden daha çok etkilenebileceği, özellikle İzmir Metropol alanının çevresinde yer aldığı İzmir İç Körfezinin batimetrik yapısı gereği tsunami dalgalarından daha çok etkilenebileceği, afet sonrasında stratejik öneme sahip olan Narlıdere Tersanesi, Üçkuyular Feribot İskelesi, Konak İskelesi, Alsancak Limanı, Alaybey Tersanesi, Karşıyaka İskelesi, Mavişehir Feribot İskelesi ve kıyı şeridinde yer alan afet sonrası toplanma alanlarının hasar görebileceği, Ayrıca vatandaşların kıyı şeridinden yeteri kadar uzaklaşamaması, tsunami nedeniyle ani su basması sonucu binaların hasar görebileceği, ağır hasarlı ve yıkık binaların bulunması ve ayrıca vatandaşların kıyı şeridinden yeteri kadar uzaklaşamaması sebepleriyle can kayıpları olabileceği, ağır yaralıların/hastaların olabileceği, Karaburun, Foça, Aliağa, Urla, Narlıdere, Balçova, Konak, Bayraklı, Karşıyaka, Çiğli, Menemen İlçelerinde yaşayan kişilerin etkilenebileceği, Tsunaminin toplam ekonomik etkisi açısından; binalar, elektrik, doğalgaz, su hatları, yollar, liman, tersane, iskele, marina vb. yapılardaki hasarın maliyetleri olabileceği, Doğa ve çevre üzerindeki etkileri açısından; kıyı şeridinin fiziksel yapısının bozulabileceği, kıyı şeridine yakın tarım alanlarının zarar görebileceği, Günlük yaşamdaki aksamalar açısından; bölgedeki tüm hizmetlerin (elektrik, su, doğalgaz vb.) kesintiye uğratabileceği, yolların kapanması nedeniyle ulaşımın durabileceği, yıkılan ve hasarlı binalar nedeniyle barınma ve beslenme ihtiyacının oluşabileceği, Kültürel miras kaybı açısından; Erytrai Arkeolojik Alanı, Smyrna Antik Kenti, Klazomenai Ören Yeri, Kane Antik Kentinin hasar görebileceği olarak değerlendirilmiştir
+previous 4 sentences: NONE
+next 4 sentences: 2.2 KÜTLE HAREKETLERİ (HEYELAN-KAYA DÜŞMESİ-ÇIĞ) TEHLİKE VE RİSK DEĞERLENDİRMESİ Bu başlık altında İzmir İli genelinde daha önceden yaşanmış ve kayıtlara girmiş olan kütle hareketlerinin (heyelan, kaya düşmesi, çığ) yanı sıra AFAD Başkanlığı tarafından yürütülmekte olan Bütünleşik Afet Tehlike Haritaları ve ARAS Projeleri kapsamında yapılmış olan Heyelan, Kaya Düşmesi ve Çığ Duyarlılık/Tehlike haritalarından bahsedilerek, kütle hareketleri kaynaklı tehlike ve risk değerlendirmeleri yapılmıştır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_df9bc00050e33f2745d7, afad_earthquake_9e229df6342c484fd730
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: false
+answer_signal_preserved_in_chunks: false
+
+Candidate 28
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 276
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Bu projelerin akademik düzeyde projelendirilmesi ✓ Grup çalışmasına yönlenme kabiliyetleri olması ✓ ÇŞB İl Müdürlüğü ile ilgili idarelerin iş birliği içinde kanun ve yönetmelikleri yürütmesi ✓ Telekomünikasyon altyapısının yeterli kapasitede olması ve afet durumunda yazılım mühendisliği ile kapasite kullanımının daha da arttırılabilir omurgaya sahip olması ✓ Kullanılabilir su kaynaklarının depolanarak afet anında kullanıma hazır kılan su havza yataklarının yeterli sayıda bulunması ✓ İzmir İlinde yer alan 1999 öncesi tesis edilen Enerji İletim Tesislerinin yenilenme ihtiyacının olması (Yenileme ile 1999 öncesi yapılan riskli binalar bertaraf edilmektedir.) ✓ İzmir İli enerji tesislerinin az katlı binalardan oluşması ✓ Özellikle ilçelerde, ruhsatsız ve denetimsiz yapı inşaatlarının bulunması ✓ Müteahhitlerin çoğunun ehliyetsizliği, eğitim seviyelerinin yetersizliği nedenleriyle mühendislik hizmeti almayan yapılar inşaa edilmesi ✓ Teorik eğitim, dokümantasyon, organizasyon vb. süreçlerde aktif olunmasına rağmen; tatbikat, saha çalışması vb. süreçlerde de aktif olunması gerekmesi ✓ Karstik boşlukların olması ✓ İl genelinde mikrobölgeleme çalışmalarının eksik olması ✓ İlçe merkezlerinde bina envanter bilgisinin bulunmaması ✓ İlin yüzölçümünün çok büyük olması ✓ Afet risk azaltma çalışmalarına yeterli önemin verilmemesi ✓ Afet öncesi risk ve sakınım planlarının eksikliği ✓ Afet master planının olmaması ✓ İlde kaçak yapıların bulunması ✓ Ulaştırma Bakanlığının İl Müdürlüğü düzeyinde örgütlenmiş olmaması ✓ Deprem-Zemin-Yapı etkileşimi kapsamında kullanılacak derin zemin modelleme çalışmalarının eksik olması ✓ İl Yerleşiminin büyük bir kısmının derin alüvyonel havzalar üzerinde bulunmasına rağmen havza etkilerinin modellenmesi/simülasyonu/ortaya konmasında eksiklikler olması ✓ Bina altlarında trafo merkezlerinin bulunması ✓ Yer altı trafolarının tsunami etkisi açısından tehdit oluşturması ✓ Deprem Erken Uyarı Sisteminin bulunmaması ✓ Karayolları öz kaynaklarının azalması ✓ Toplanma alanlarının yetersiz olması ✓ Nüfusun yoğun olduğu alanlarda daha çok toplanma alanı olmaması ✓ Deprem ve Tsunami üzerinde çalışan ve sorumluluğu bulunan kurumların (AFAD, Üniversitenin İlgili Birimleri, Valilik, Belediye vb.) afet sonrası hızlı ve kesintisiz bir şekilde iletişiminin sağlanması için uydu telefonu imkanlarının bulunmaması ✓ Sistematik afet risk azaltma politikalarının eksik olması ✓ Sağlık personelinin büyük afetlere müdahalesi için yeterli sayıda bulunmaması ✓ Psikososyal destek anlamında kurumlar arası iletişimin güçlü olmaması ✓ Jeolojik/Jeofizik Etüdlerin eksikliği/Yaptırımın eksik olması ✓ CBS veri tabanı eksiklikleri olması ✓ Deprem odaklı çalışmalarda finansal sorunların bulunması ✓ İmar planlarının güncelleme çalışmalarının yavaş olması ✓ Planlama çalışmaları başarılı olmasına rağmen bu planların uygulanması aşamasındaki finansal problemler olması ✓ Finansal kaynakların yetersiz olması ✓ Afet sonrası iletişim problemleri olması ✓ Afet sonrası trafik ulaşım ağını kontrollü ve etkili kullanılmasını sağlayacak bir yapay zeka taban destekli akıllı trafik uygulama yazılımının olmaması ve simülasyon çalışmalarının da hala yeterli seviyede gerçekleşmemesi ✓ Enerji İletim Tesislerinin hizmete esas sürekli olarak çalışması nedeniyle söz konusu tesislerin güçlendirilme zorlukları, elektrik sisteminin uzun süreli enerji kesintilerine uygun alt yapıda olmaması ✓ Elektrik hatlarının büyük çoğunluğunun yer üstünde olması. ✓ Yeraltı kablo hatlarının geçtiği yerlerin ilgili diğer kurumlarca bilinmemesi sonucu kablolara zarar verilmesi ✓ İzmir diri fay harita ve mikro bölgeleme çalışmaların yapılmamış olması ✓ Diri faylara göre İzmir’in üst ölçekten başlayarak tüm imar planlarının revize edilmemiş olması ✓ Mevcut bina stok ve şehir altyapı analizinin yapılmaması ✓ Kentsel dönüşüm çalışmalarının ağır ilerlemesi Dış Etkenler FIRSATLAR TEHDİTLER ✓ 6306 Sayılı Afet Riski Altındaki Alanların Dönüştürülmesi (Kentsel Dönüşüm) Hakkındaki Kanunun olması ✓ Cumhurbaşkanlığı Bilim, Teknoloji ve Yenilik Politikaları Kurulu kapsamında deprem bilim kurulunun oluşturulması ✓ Depreme dayanıklı bina ve temel teknolojilerinde gelişmeler olması ✓ Modern zemin iyileştirme tekniklerinin ilerlemesi ✓ Afet yönetiminin tek elden yürütülmesi ✓ TAMP ile eşgüdümlü, deneyimli personele, yeterli teçhizata ve hızlı müdahale kabiliyetine sahip olunması ✓ Toplanma alanlarının belirlenmiş ve ulaşılabilir olması ✓ Afete Hazır Türkiye Projesi kapsamında Afet Bilinci Eğitimlerinin toplumun her kesimine veriliyor olması ✓ İzmir'de farklı sektörlerin ve endüstri kuruluşları olması talep olması halinde malzeme ve ekipmana kolay ulaşımın sağlanabilmesi ✓ Geniş sahil şeridi nedeniyle kara bağlantısının kopması durumunda denizden ulaşım sağlanması ✓ Deprem öncesi kişilere tv, radyo, internet gibi alanlardan ulaşım sağlanıp eğitim bilicinin artırabilir olması ✓ Karayolu ulaşım ağının ulaşım ve lojistik amaçlı kullanılabilir olması ✓ Mahalle Muhtarlarının organize edilerek ilk elden veri/bilgi temin edilebilir olması ✓ Deprem yönetmeliğinin güncellenmiş olması ✓ Eski ve önemli yapılara sismik yalıtım eklenebilmesi (yeni deprem yönetmeliği dahilinde) ✓ Müteahhitlik sınıflandırma zorunluluğunun başlamış olması. ✓ Siyasette ve toplumda kentsel dönüşümün gerekliliği konusunda söylem oluşması ✓ İlde deprem üretme potansiyeli olan hem karada hem de denizde çok sayıda fayın olması ve kara fayların yerleşim birimlerinden geçiyor olması ✓ İlde bazı yerleşim alanlarının yeraltı su seviyesi ile oturma ve sıvılaşma potansiyelinin yüksek olması ✓ Depremin tetikleyeceği ikincil afetlerin (Heyelan, Kaya düşmesi, Çığ gibi) olması ✓ İlçe yerleşim merkezlerinin sıvılaşma riski taşıyan alüvyal toprak alanları üzerinde kurulmuş olması ✓ Yerel yönetimlerin bilimsel temelli olmayan uygulamaları. ✓ Kurumlararası koordinasyon eksikliği olması ✓ Kentsel dönüşümün rantı yüksek ve şehir içi yoğunluğu arttıracak şekilde uygulanması ✓ Risk azaltma projeleri için yeterli ve uygun liyakatta personel ve yeterli bütçe bulunmaması ✓ Tarihi, kültürel ve doğal varlıkların afetler karşısında yeterince korunmaması ✓ Kıyı şeridindeki alt ve üst yapı yoğunluğu olması ✓ Afet güvenliğine yönelik veri paylaşımını sınırlayan kurum politikaları olması ✓ Afet sonrası ulaşımın kesintisiz olarak sağlanması için yapılması gerekenlerin toplum bilinci şeklinde oluşması için yapılacak eğitimlerin başarısız olması ✓ Afet sonrasında oluşabilecek bilgi kirliliği olması ✓ Afet bilinci eğitimlerinin eksik olması ✓ İlin özellikle son dönemde oluşan, sınır dışından gelen düzensiz göçler sebebiyle en çok kontrolsüz nüfus artışının yaşandığı illerden biri olması ✓ Deprem sonucu elektrik şebekesinin çökmesi
+previous 4 sentences: 276 ✓ İzmir Büyükşehir Belediye Başkanlığı bünyesinde Coğrafi Bilgi Sistemleri (CBS) biriminin bulunması ✓ Yapılan imar planlarında yerleşime uygunluk haritalarının dikkate alınması ve planda gerekli düzeltmelerin yapılarak hayata geçirilmesi ✓ Afet riski olan yerlerin dönüştürülmesi ✓ Tescilli yapıların deprem sonrası durumlarının hızla belirlenmesi ✓ İlde Jeoloji Mühendisleri Odasının olması ve odanın kamu kurumları ve belediyelerle işbirliği içinde olması ✓ Teknik personel açısından güçlü bir kadroya sahip kurumların bulunması ✓ İller Bankasının güçlü teknik eğitimli insan kaynağının olması ✓ Karayolları Bölge Müdürlüğünün yetişmiş elemanları ile İzmir’de bulunması ✓ İzmir’in teknik eleman sayısının yeterli olması ✓ İncinebilir nüfusun barındığı binaların depreme dayanıklı olarak inşa edilmiş olması ✓ Destek illerin incinebilir grup kapasitelerinin bilinmesi ✓ Deprem sonrası risk yönteminde (formlar) iyi durumda olunması ✓ Toplumsal dayanışma, yardımlaşma geleneği olması ✓ İş güvenliği ve afet eğitimlerinin veriliyor olması ✓ Afet gönüllülerinin bulunması ✓ Ulaştırma Bakanlığının iletişim altyapısının güçlü olması ✓ Ulaştırma yapılarının mevcut mevzuatının güçlü olması
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_066a0f0e9dbc37bdbb2f, afad_earthquake_1f4e692b79dc31344b1d, afad_earthquake_fb6e5c811fc32b0cdc6c
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: false
+answer_signal_preserved_in_chunks: false
+
+Candidate 29
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 279
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 279 ✓ Mesleki eğitimin eksik olması ✓ Toplum eğitim düzeyi gözetilerek kırsal yerleşim alanlarını da kapsayacak bilgilendirme ve bilinçlendirme eğitimlerinin yeterli düzeyde ve sıklıkta yapılamaması Dış Etkenler FIRSATLAR TEHDİTLER  İl Afet Risk Azaltma Planının hazırlanıyor olması  TAMP yapılanması ile afet sonrası müdahale ve koordinasyonda kazanılan deneyimlerin, kurum/kuruluşlar arası işbirliğinin yolunu açmış olması  6306 sayılı Afet Riski Altındaki Alanların Dönüştürülmesi Hakkında Kanunun, zemin yapısı sebebiyle can ve mal kaybına yol açma riski taşıyan alanları dikkate alıyor olması  İskan kanunu kapsamında, kırsal alanlardaki afet risklerinden doğabilecek taleplerin değerlendirilebilir olması  İlde kentsel dönüşüme ilişkin örnek çalışmaların var olması  Meteorolojik kökenli afetlerde, tahminler ve uyarılar açısından hava tahmin modellerinin gelişiyor olması  Afet risklerinin azaltılmasına ilişkin uluslararası seviyede stratejik bir belge olan Sendai Afet Risklerinin Azaltılması Çerçevesinin (2015-2030) ülkemizce kabul edilmiş olması  YERBİS sistemine birden fazla kurumun erişiminin sağlanmış olması mevcut olması  Mevcut teknik imkanlarla zemin ile yapı arasındaki davranış ilişkilerinin kurulabiliyor olması  Mevcut teknolojilerin izleme ve değerlendirme olanakları sağlaması; uydu görüntüleri, lidar radar vb. yöntemler ile topoğrafyadaki kısa ve uzun vadeli değişimlerin gözlenebiliyor olması  ARAS sisteminin analiz kabiliyetinin farklı envanterin ve metodolojilerin kullanılarak, farklı tehlike haritalarının üretilmesine imkan sağlaması  Zemin özelliklerinin tespitinde Jeofizik yöntem maliyetlerinin nispeten düşük olması  Kazı güvenliği ve alınacak önlemler hakkında kapsamlı bir genelge yayınlanmış olması  Kütle hareketleri risk alanlarının önceden tespit edilebilir ve imara esas ölçekte haritalanabiliyor olması  Mevcut CBS altyapısı geliştirilip ilçe belediyelerinin hızlıca altyapının içine alınması  İzmir’deki yükseköğretim altyapısı ülkenin diğer illerinin pek çoğundan daha fazla gelişmiş ve kaliteli olması ve bu durumun üniversite-belediye işbirliği açısından fırsatlar oluşturması  AR-GE alanında gelişme görülebilmesi (İBŞB’deki AR-GE ve İnovasyon Şube Müdürlüğü bu duruma iyi bir örnektir)  Bilgi ve deneyim birikimi olması  Bilgiye erişimin hızlı ve kolay olması  Avrupa Birliği ve Dünya Bankası hibe fonlarından yararlanılabilir olması  İmar planlarının yapılmış olması sebebiyle düzenli kentleşmenin yapılabilir olması  Teknolojinin gelişmesi sonucunda afetlerin önceden kestirilebilir oluşu ve acil müdahale olasılığı  İl genelinde kütle hareketi açısından duyarlılığı yüksek alanların olması  İlde jeolojik ve topoğrafik özellikleri nedeniyle kütle hareketleri için potansiyel teşkil edebilecek alanların bulunması  Heyelan ve kaya düşmesi bölgelerinin pek çoğunun şehir içinde olması  İlde sıklıkla yaşanan depremlerin kütle hareketlerinde tetikleyici rol oynaması  Toplumumuzda afet algısı deprem odaklı olduğundan, planlama ve hazırlık faaliyetleri açısından kütle hareketleri kaynaklı risklerin ikincil olarak ele alınması  Yapılaşma öncesinde ve esnasında zemine ilişkin etüt ve çalışmaların yeterince denetlenmemesi  İmar Barışı Kanunu ile, yapısal denetimlerden yoksun bir yapı stoğunun kayıp ve zararların oluşması açısından risk faktörünü artırması  Yapı yapma ve bina inşası ile ilgili yönetmeliklerin uygulanmasında, Büyükşehir statüsüne geçiş süreci boyunca eski mevzuatın yeterli bulunmasının, kırsal alanlarda yeni ancak denetimden yoksun bir yapı stoğu yaratmış olması  İl genelini kapsayan detaylı bir yapı stoğu envanterinin bulunmaması  İldeki yapı stoğunun çoğunluğu, inşa edildikleri tarih itibariyle, güncel standart ve yönetmelikleri sağlayamayacak nitelikte olması  İklim değişiklikleri dolayısıyla ortaya çıkan yağış karakteristiğinin ve ekstrem yağış değerlerinin değişmesi  İklim değişimi uyum çalışmalarının henüz tamamlanmaması  Nüfusun; yapılaşmanın, kritik tesislerin, özetle riskin öznesi olan varlıkların il merkezinde, ilçe merkezlerinde ve bu merkezlerde dahi belirli alanlarda yoğunlaşması  Heyelan, sel ve taşkın afetlerinin birbirlerinin etki boyutlarını artırıyor olması  Kentsel Dönüşüm çalışmalarının belirli bir süreç alması  Ruhsatsız yapıların mevcudiyetinin her afet türü açısından riski artıran bir unsur olarak ortaya çıkması  “Çevresel Risk Değerlendirmesi” aşamasında, afet risk değerlendirmesi konularının ele alınışındaki eksiklikler  İmar planına esas Jeolojik Jeoteknik Etüt çalışmaları ile ortaya konan yerleşime uygunluk durumu ve dikkat edilmesi gereken hususların uygulamaması veya uygulamada yetersiz kalması  İl genelindeki imar planlarındaki eksikliklerin henüz tamamlanmamış olması  Teknik yetersizliğe bağlı tehditlerin oluşabilmesi  İnsan psikolojisini içine alan kriz yönetiminin eksik olması  Afet riski bilincinin zaman içinde kaybolması  Nüfus artışı ve küresel ısınma gibi faktörlerin doğal afet oluşma sıklığını etkilemesi  Üniversitelerin yeterli nitelikte mühendis mezun edemiyor olması  Afetler oluşmadan önlem alınmaması  Sahil beldelerinde yaz aylarında büyük nüfus artışa ve konut sayısındaki artışla ilçe belediyelerinin yetişememesi  Kırsal bölgelerde hobi bahçesi vb. uygulamalar nedeniyle teraslamanın kontrolsüz yapılması  Yoğun göç ve kaçak yapılaşma olması  Afetten etkilenenlerin sosyal açıdan negatif etkilenmesi  Toplumsal bilgi kirliliği oluşması  Yetki karmaşası olması 3.5.3 Taşkın/Sel/Su Baskını İzmir İlinin yaklaşık %16’sı Gediz Havzasında, yaklaşık %24,91’i Kuzey Ege Havzasında, yaklaşık %54,3’ü ise Küçük Menderes Havzası sınırlarında yer almaktadır
+previous 4 sentences: NONE
+next 4 sentences: İzmir İlinin, Çiğli, Foça, Karşıyaka, Kemalpaşa, Menemen, Kiraz, Ödemiş, Bornova, Bayındır ve Aliağa İlçeleri Gediz Havzası’nda, Aliağa, Bergama, Dikili, Foça, Menemen ve Kınık İlçeleri Kuzey Ege Havzası’nda, Balçova, Bayındır, Bayraklı, Beydağ, Bornova, Buca, Çeşme, Çiğli, Gaziemir, Güzelbahçe, Karabağlar, Karaburun, Karşıyaka, Kemalpaşa, Kiraz, Konak, Menderes, Menemen, Narlıdere, Ödemiş, Seferihisar, Selçuk, Tire, Torbalı ve Urla İlçeleri Küçük Menderes Havzası içerisinde kalmaktadır | Ayrıca İzmir il sınırları içinde; Gediz Havzası’nın Gediz deltasının oluşturduğu Menemen alt havzası bulunmaktadır | Kuzey Ege Havzası’nın Kocaçay, Madra, Bakırçay ve Güzelhisar alt
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_7dd9df1563a73bfb216f, afad_earthquake_a0f1057dabb174ce35a7
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: false
+answer_signal_preserved_in_chunks: false
+
+Candidate 30
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 285
+relevance_status: relevant
+matched_terms: dışarıda
+matched sentence: İzmir İli için hazırlanan meteorolojik uyarılar incelendiğinde genel hava durumu değişikliklerini belirtmek için yapılan meteorolojik değerlendirmeler dışarıda bırakıldığında, kuvvetli meteorolojik hadiseler için hazırlanan uyarılarda kuvvetli yağış ve fırtına uyarılarının sayısal çokluk olarak öne çıktığı görülmektedir
+previous 4 sentences: Deniz etkisi nedeniyle kışların çok soğuk geçmemesi ilin ortalama sıcaklık değerinin 18,1˚C civarında gerçekleşmesine sebep olmaktadır | Kışın bile ortalama sıcaklığın ve deniz yüzeyi sıcaklığının oransal olarak yüksek olması özellikle kış mevsiminde kararsızlık etkisini arttırmakta ve İzmir İli genelinde yağışlarının %80’inden fazlası Ekim ayının 2. yarısından başlayıp Nisan ayının ilk yarısında biten 6 aylık zaman diliminde gerçekleşmektedir | Ayrıca kış periyodunda İzmir çevreleri kuzeyden inen soğuk havanın ve Akdeniz kaynaklı nemli ve sıcak hava kütlelerinin karşılaşma alanı olduğundan kuvvetli yağış ve fırtınalar sıklıkla görülmektedir | Yaz periyodunda ise Basra Alçak Basınç Sisteminin etkisiyle hem yer ve deniz yüzeyi hem de atmosferin üst seviyelerinin tamamen ısınması kurak bir dönem yaşanmasına neden olmaktadır
+next 4 sentences: Gerçekleşen kuvvetli hava olayları sonucu oluşan hasar ve can kaybı yaşanan olaylarda da bu iki başlık çok önemli bir yere sahiptir | İlde 2019-2020 yılları arasında yaşanan ve tüm ilçeleri etkileyen meteorolojik ve iklim değişikliği kaynaklı afetlerin başında şiddetli yağış ve buna bağlı olarak meydana gelen sel/taşkın olayları gelmektedir | Bunun yanı sıra fırtına/hortum, yıldırım ve dolu olayları da İl genelinde etkili
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a824c1ad3f19784bb94d, afad_earthquake_97ea7f4a6f18b0bf5ae0
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 31
+question_id: Q13
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 329
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: MERT AYDIN HEKİM DURSUN TUNÇ SAĞLIK MEMURU İRAP HAZIRLIK ÇALIŞMALARINA KATKI SAĞLAYAN KURUMLAR İzmir Valiliği, Ege Ordusu ve Garnizon Komutanlığı, Dokuz Eylül Üniversitesi, Ege Üniversitesi, İzmir Yüksek Teknoloji Enstitüsü, İzmir Ekonomi Üniversitesi, İzmir Büyükşehir Belediye Başkanlığı, 30 İlçe Kaymakamlığı, 30 İlçe Belediye Başkanlığı, İl Jandarma Komutanlığı, İl Emniyet Müdürlüğü, Sahil Güvenlik Ege Deniz Bölge Komutanlığı, TRT İzmir Bölge Müdürlüğü, Aile ve Sosyal Hizmetler İl Müdürlüğü, Çevre, Şehircilik ve İklim Değişikliği İl Müdürlüğü, İLBANK A.Ş
+previous 4 sentences: Gör | TÜRKAN ALKAN ÖĞR | GÖR | BULAŞICI HASTALIKLAR/SALGIN İL SAĞLIK MÜDÜRLÜĞÜ Dr
+next 4 sentences: İzmir Bölge Müdürlüğü, MTA Ege Bölge Müdürlüğü, GDZ Elektrik Dağıtım A.Ş | Genel Müdürlüğü, TEİAŞ 3 | Bölge Müdürlüğü, TEİAŞ Batı Anadolu Yük Tevzi İşletme Müdürlüğü, EÜAŞ Aliağa Kombine Çevrim Santrali ve Gaz Türbinleri İşletme Müdürlüğü, İZSU Genel Müdürlüğü, BOTAŞ-Boru Hatları ile Petrol Taşıma A.Ş | Ege İşletme Müdürlüğü , İzmir Defterdarlığı, İzmir Yatırım İzleme ve Koordinasyon Başkanlığı, İl Göç İdaresi Müdürlüğü, İl Kültür ve Turizm Müdürlüğü, İzmir 1 Numaralı Kültür Varlıklarını Koruma Bölge Kurulu Müdürlüğü, İzmir II Numaralı Kültür Varlıklarını Koruma Bölge Kurulu Müdürlüğü, İzmir Rölöve ve Anıtlar Müdürlüğü, Vakıflar İzmir Bölge Müdürlüğü, İl Milli Eğitim Müdürlüğü, İl Sağlık Müdürlüğü, İl Sanayi ve Teknoloji Müdürlüğü, İZKA Genel Sekreterliği, KOSGEB İzmir Müdürlüğü, İl Tarım ve Orman Müdürlüğü, DSİ 2
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_88292b1f4ddc08bcdbad, afad_earthquake_dea59387c0c975036dc2
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 32
+question_id: Q13
+source_file: IRAP-11102021-basim-yapilan.pdf
+relative_path: plans/irap/IRAP-11102021-basim-yapilan.pdf
+page: 27
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Mamnlı seviyelerin altında yer yer jipsli sahil kumları gözlenir
+previous 4 sentences: Tip mevkii, Karaman ilinin 15 km doğusundaki Yeşildere (İbrala) köyü ile bu köyün hemen güneyindeki Beşikli sırtı arasındadır | Birim, tabanda çakıltaşı, çakıllı-ostrealı kumtaşı ile başlar, üste doğru sarı renkli, gastropodlu, mercanlı, algli kireçtaşları, daha üste doğru algeli, seyrek mercanlı, mollusklu, kalın katmanlı kireçtaşı ve kalın katmanlı marn ardalanması ile devam eder | Mamlı seviyeler arasına yer yer beyaz renkli tüf ve tüfit seviyeleri eşlik eder | Bu seviyelerin üzerinde, gastropodlu, lamellibranşlı kalkarenit, killi kireçtaşı, Operculina'lı mamnlı seviyeler ve mercanlı-algli kireçtaşı ve kalın-çok kalın, masif katmanlı algeli-yumrulu kireçtaşı bulunur
+next 4 sentences: Mut formasyonu uyumlu ve geçişli olarak Üzümvermez formasyonu üzerinde yer alır | Geç Miyosen-Pliyosen yaşlı İnsuyu formasyonu tarafindan uyumsuzlukla üzerlenir | Birim, yaklaşık 350-400 m arasında bir kalınlık sunar | 1.2.2.4 KUVATERNER:
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_9550996784000033dfab, afad_earthquake_66c08d9aa12b10e0590e
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 33
+question_id: Q13
+source_file: IRAP-KASTAMONU-2021.pdf
+relative_path: plans/irap/IRAP-KASTAMONU-2021.pdf
+page: 19
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Kastamonu Karadeniz'e 160 km'lik bir sahil şeridi bulunan ve bu noktada ülkemizin Karadeniz'e en geniş sahili olan ilidir
+previous 4 sentences: Kış dönemindeki yağışlar yıllık yağışın %18'ini, yaz yağışları ise %27'sini oluşturmaktadır | Yağışların büyük bölümü ise bahar aylarında düşmektedir | Merkez ilçenin yıllık yağış ortalaması 449,7 mm'dir | Bu değer kıyı kesimlerinde 1000 mm'den yükseğe çıkmaktadır
+next 4 sentences: Kastamonu ilinde akarsular, güneyde yüksek Ilgaz Dağlarından, kuzeyde ise Karadeniz kıyısı boyunca uzanan Küre Dağları'ndan doğmaktadır | İlden kaynağını alan akarsuların tamamı sularını Karadeniz'e ulaştırdığı için İl Batı Karadeniz Havzası içerisinde kalmaktadır | Kastamonu Doğal Göller açısından oldukça fakirdir | İlin sınırları içerinde yer alan tek doğal göl olan Tosya ilçe sınırları içerisinde bulunan Dipsiz göldür
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_952fb8a4178b26cc6ee6
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 34
+question_id: Q13
+source_file: IRAP-MERSIN.pdf
+relative_path: plans/irap/IRAP-MERSIN.pdf
+page: 215
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 213 Olayın Afete dönüşmesinin nedenleri ve tetikleyici unsurlar - Deprem merkezine yakınlık - Depremin şiddeti - Zemin özellikleri ve sıvılaşma - Kaçak ve denetimsiz yapılaşma - 2000 yılı öncesine ait yapı stoğunun yüksek olması - İkincil afet olaylarının meydana gelmesi - Deprem merkezine yakın sanayi tesislerinin çokluğu - Prefabrik depo tesisleri Afetin etkileri ve sonuçlarıEtki AlanıEtkilenen semt, MahalleAlan -Bina isimleri - Tarsus ilçesinin tamamına yakını, Akdeniz ilçesinin büyük bir kesimini - Mersin Tarsus arasında yer alan sanayi bölgesi Aşağıda belirtilen ilçelerde yer alan mahalleler ve bunların dışında zayıf yapı alanların bulunduğu kesimler ile sahil bantları - Yenişehir – Güvenevler, Bahçelievler Eğriçam Mahalleleri - Mezitli – Deniz, Davultepe Mahalleleri - Toroslar – Çavuşlu, Güneykent Mahalleleri - Erdemli ilçesinin sahil bandı - Çamlıyayla ilçesinde uygun yapılmamış yapılar Tüm altyapı tesislerinin zarar görmesi ( doğalgaz, elektrik, kanalizasyon, içmesuyu, fiberoptik iletişim vb.) Muhtelif Konutların yıkılması Göstergelere Dayalı Etki Göstergesi Sayısı Sebebi Can Kaybı Yıkılan binaların altında kalma, Deprem anında yaşanan panik sonucu Ağır yaralı/hastalar Bina yıkılmaları, deprem anında yaşanan panik, bölgemize özgü binalarda yapılan su deposu ve cam balkonlar Etkilenen kişiler Tüm vatandaşlar Toplam ekonomik etki Sanayi, altyapı tesislerinde, binalarda oluşan hasarlar
+previous 4 sentences: NONE
+next 4 sentences: Enerji nakil hatları ve iletişim hatlarında oluşacak hasarlar | Deprem sonrası yapılacak iaşe, ibate, barınma vb. hizmetlerin maliyeti
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_8e29875151ec496b07ed
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 35
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 63
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 1960’lı yıllarda Rize’nin sahil kesiminde denizden dolgu ile kazanılan yaklaşık 173 bin metrekarelik bu alan üzerinde yer alan ve korozyon nedeniyle riskli duruma gelen 4 bin 174 bağımsız bölüm için kentsel dönüşüm projesi hazırlanmıştır
+previous 4 sentences: Bir diğer husus da İlimizdeki mevcut binalardan özellikle eski tarihlerde yapılmış olanların oransal olarak büyük bölümünün yeterli mühendislik hizmeti görmemiş olması nedeniyle deprem riskine oldukça açık bir durumda olmalarıdır | İlimizde bu güne kadar Rize Merkez Yeniköy Mahallesinde (Timya Vadisi) 79.000 metrekarelik bir alanda kentsel dönüşüm çalışması tamamlanmış olup 759 adet bağımsız bölüm hak sahiplerine teslim edilmiştir | Bunun haricinde ise birçok riskli bina tespiti de yapılmış ve bu binaların dönüşümü de yapılmış kısmen de devam etmektedir | İlimizde son yıllarda medyada da oldukça fazla gündeme gelen Rize Merkez Müftü Mahallesinde yer alan riskli alandaki kentsel dönüşüm çalışmalarına somut şekilde başlanmıştır
+next 4 sentences: Çevre ve Şehircilik Bakanlığınca hazırlanan proje ile daha az katlı, kentin kültürüne ve mimarisine uygun yapılar inşa edilerek, azaltılacak yapı yoğunluğu Merkez İlçeye bağlı Salarha beldesinde 52 bin metrekare ile Yağlıtaş Mahallesi’nde 207 bin metrekarelik iki yeni rezerv alana taşınacaktır | Söz konusu bu 2 rezerv alanın Toplu Konut İdaresi (TOKİ) tarafından kamulaştırılmasına başlanmıştır | 1.7.3.2 | Heyelan, Kaya Düşmesi ve Çığ Önlem Yapıları Heyelan konusunda alınan yapısal önlemlerin başında şev destek yapıları başlıca da istinat duvarlarının yapımı gelmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f3e49d0c233c94b3358f
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 36
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 104
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 1960’lı yıllarda Rize’nin sahil kesiminde denizden dolgu ile kazanılan yaklaşık 2.3 hektarlık bu alan üzerinde yer alan ve korozyon nedeniyle riskli duruma gelen yapılar için 1. etap kentsel dönüşüm projesi hazırlanmıştır
+previous 4 sentences: KAF’ın ilimizdeki etkisinin zayıf olacağı düşünüldüğünde Karadeniz Fayından kaynaklı 6.5 ve üzeri büyüklüğünde meydana gelebilecek bir depremde yapıların depreme karşı dayanımlarından kaynaklı çok sayıda can ve mal kaybı olasılığı bulunmaktadır | İlimizin bina envanterini ve yapı stok durumu belirlemeye yönelik yapılan çalışmalar Merkez ilçe hariç henüz tamamlanmamıştır | Rize’de bu güne kadar Merkez İlçeye bağlı Yeniköy Mahallesinde (Timya Vadisi) 8 hektarlık bir alanda kentsel dönüşüm çalışması tamamlanmış olup, 759 adet bağımsız bölüm hak sahiplerine teslim edilmiştir | Buna ek olarak merkez Müftü Mahallesinde yer alan riskli alandaki kentsel dönüşüm çalışmalarına somut şekilde başlanmıştır
+next 4 sentences: Çevre ve Şehircilik Bakanlığınca hazırlanan proje ile daha az katlı, kentin kültürüne ve mimarisine uygun yapılar inşa edilecektir | Bu sayede azaltılacak yapı yoğunluğu Merkez İlçeye bağlı Salarha Beldesinde 5 hektar ile Yağlıtaş Mahallesinde 24 hektarlık iki yeni rezerv alanına taşınacaktır | Söz konusu bu iki rezerv alanının Toplu Konut İdaresi (TOKİ) tarafından kamulaştırılmasına başlanmıştır | Rize Merkez İlçesinde yer alan Çaykur-Sanayi-Hal alanının rezerv yapı alanına dönüşüm projesine ait çalışmalar halen yürütülmektedir
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_0c2e9c40b1338ac955ed, afad_earthquake_2a85d0b26993a5031757
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 37
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 105
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Her ne kadar Karadeniz Sahil Yolu tsunami dalgaları için önleyici bir bariyer oluştursa da derelerin kesişim yerlerinden irtibaren karaya doğru sokulacak dalgaların buralarda bulunan yerleşim yerlerini olumsuz olarak etkilemesi riski vardır
+previous 4 sentences: Bu dere alüvyonlarının üstünde bulunan Merkez, İyidere, Çayeli, Ardeşen, Pazar ve Fındıklı İlçelerine bağlı yerleşim yerlerinin deprem sırasında sıvılaşmaya bağlı gelişecek olumsuzluklardan etkilenmesi olasıdır | Genel olarak tsunamilere en çok sebep olan fay türü ters faylardır | İlimizin de yaklaşık 10 kilometre uzağında bulunan Karadeniz Ters Fayında meydana gelen 6.8 büyüklüğündeki 1968 Amasra-Bartın depreminde oluşan bir tsunami dalgası 100 metre kadar karaya sokulmuş ve beraberinde odun parçalarını, gemi kızaklarını sürükleyerek birçok kayığı da karaya oturtmuştur | İlimize yakın bir lokasyonda Karadeniz Fayında daha yüksek bir büyüklükte depremin tekrar olması durumunda benzer bir risk ilimiz içinde geçerlidir
+next 4 sentences: Deprem kaynaklı diğer bir tehlike ise oluşacak depremlerden kaynaklı titreşimlerin yamaçlarda veya karayolu şevlerinde askıda duran kaya parçalarını, blokları harekete geçirmesi veya iç bölgelerde çığları tetiklemesi durumudur | Kaya düşmesi ve çığ olayları ilimizin güney kesimlerindeki yükseltinin ve yamaç eğiminin fazla olduğu alanlarda sıklıkla görülmektedir | Deprem kaynaklı bu türden ikincil olayların gelişmesi durumunda bu lokasyonlardaki yerleşim yerlerinin risk altında olması olasıdır | 2.1.5.3
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_0c2e9c40b1338ac955ed, afad_earthquake_2a85d0b26993a5031757
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 38
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 109
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Dolgu alanındaki zemin özelliklerinin zayıf olması, ilçe yerleşim merkezlerinin sıvılaşma riski taşıyan alüvyal toprak alanları üzerinde kurulmuş olması, Limanın ve Karadeniz Sahil Yonunun deprem anındaki performasının bilinmemesi gibi konular çevresel faktörler açısından oldukça önemlidir
+previous 4 sentences: Meteorolojik Kökenli Tehlikeler: | Meteorolojik kökenli tehlikeler tartışma masasında yapılan GZFT analizinde, toplumun iklim değişikliği konusunda yeterince bilincinin olmaması, kentleşmede iklim değişikliğinin dikkate alınmaması, alt ve üst yapılardaki ﬁ ziki yetersizlikler, çay tarımı alanlarında drenaj sistemlerinin olmaması, yaylalarda kaçak yapılaşmanın artması, kurumlar arası iletişim eksikliği gibi konuların iyileştirilmesi üzerinde durulmuştur | Deprem: | GZFT analizinde, Rize İlinin yakın civarındandan geçen KAF ve Karadeniz Fayının önemine vurgu yapılmıştır
+next 4 sentences: Deprem konusunda toplumun bilinçli olmaması, deprem tehdidinin önemsenmemesi durumu ilin sosyal faktörlerinin değerlendirilmesi gerekliliğini ortaya çıkarmaktadır | Finansal eksiklikler, mevzuat sorunları, yapı stok bilgisinin eksikliği, yer seçimi konusunda kurumlar arası iletişimin olmaması, kontrol ve denetim mekanizmalarının işleyişindeki eksiklikler konuları da ekonomik, politik/ yasal açıdan değerlendirilmesi gereken önemli konulardır | 3.2 | GZFT Değerlendirmesi GZFT analizi, beş afet tehlikesi türü çalışma masası için ortak ve ortak olmayan noktalarının belirlenmesini ve geniş bir bakış açısıyla sunulmasını sağlamıştır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a87a743a2710b95d4959
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 39
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 133
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Deprem İl Geneli MTA Çevre ve Şehircilik İl Müd., Belediyeler, Üniversiteler, İlbank, DSİ, AFAD 2021-2023 158 Karadeniz Sahil Yolunun deprem sırasındaki sıvılaşmaya bağlı oturma potansiyeli araştırılacaktır
+previous 4 sentences: T.C | İÇİŞLERİ BAKANLIĞI AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI Sayfa | 132 EYLEM AFET TÜRÜ COĞRAFİ KAPSAM SORUMLU KURULUŞ DESTEKLEYİCİ KURULUŞ GERÇEKLEŞTİRME DÖNEMİ 157 İl sınırları içinde deprem sırasında sıvılaşma riski taşıyan alüvyonlu alanlar belirlenecek, haritalanacak ve bu veriler imar planlarında altlık olarak kullanılacaktır
+next 4 sentences: Deprem İl Geneli Karayolları 10 | Bölge Müdürlüğü Üniversite 2021-2024 159 Köprü ve tünellerin (Pazar aç-kapa, Pazar 1 ve 2, İkiztepe, Çayeli eski ve yeni, Sarayköy 1 ve 2, Güneyce, İkizdere T2, Sivrikaya 1 ve 2, Ovit tünelleri) deprem performansları araştırılacaktır | Deprem Pazar İlçesi, İkizdere İlçesi Karayolları 10 | Bölge Müdürlüğü Üniversite 2021-2023 160 İl sınırı içindeki yerleşim alanları için mikrobölgelendirme çalışmaları yapılacaktır
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_cd859be69b43cfab68ea
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 40
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 190
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Yüksek eğimli yerlerin sahil bandına yakın olması ve kaçış noktaları oluşturması
+previous 4 sentences: Irmak geçişlerinde kesiti küçük büz ve menfezlerin kesitlerinin yetersiz olması | Menfez ve köprü girişlerinde tıkanmaların önlenmesi amacıyla rusubat önleyici taşkın yapılarının olmaması Deniz taşkınlarında bazı ilçelerde kıyı alanlarında kıyı koruma amacıyla yapılan T mahmuzların bulunmaması | Akarsuların denizle birleştiği noktalarda ve köprü, menfez girişlerinde ve dere yataklarında biriken sedimanların düzenli olarak temizlenmemesi - Risk Azaltmadaki fırsatlar neler? - Fark yaratabileceğimiz alanlar neler? - Hangi alanlarda gelişmeler görülebilir? - Bizim için avantajlı konular neler?- Ormanlık Alanların fazla bulunması | İlimizde Recep Tayyip Erdoğan üniversitesi ve hemen yakınımızda KTÜ› nin yer alması ve bu üniversitelerde akademisyenlerin yeterli sayıda olması ve taşkın konusu ile ilgili araştırmaların yapılıyor olması
+next 4 sentences: İlimizin sahil bandında yer alması ile deniz ulaşımının sağlanması İlimizde havalimanı çalışmaların yapılıyor olması. - Risk Azaltmada hangi sorunlar karşımıza çıkabilir? - Bize zarar verebilecek rakipler kimler? - Hangi konularda hata yapabiliriz? - Bizi engelleyebilecek neler var? - Dünyadaki değişimin bize olumsuz etkileri ne olabilir Rize İlinin coğraﬁ yapısının dağlık alanda olması dere ve deniz kenarından uzak alanlarda yerleşimin arazinin yapısına bağlı olarak sağlanamaması | Bölgede aşırı sayıda kuru ve aktif dere alanlarının bulunması Afetlerde ulaşım yollarının kapanması dolayısıyla yardımın ulaşmaması Rize ili yerleşim alanının sahil şeridinde dar bir alan üzerinde yer alması Gürcistan fayının denizden Rize açıklarından geçiyor olması Sayfa | 189
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_42433d3c6e91157537e5
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 41
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 192
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: İlimiz merkez ilçe belediyesi sınırları dâhilinde yapı stoku bilgisinin mevcut olması Deprem sonrasında Karadeniz Sahil yolu gibi ana ulaşım yolları kullanılamaz hale gelirse Erzurum bağlantısının dört mevsim Ovit tüneli sayesinde yapılabilmesi Karayollarından şehrimize ulaşımın sağlanamaması durumunda denizden ikmalin yapılacağı limanın bulunması Kentsel dönüşüm çalışmalarının başlamış olması (Timya vadisi, dolgu alanı 1. etap vd.) Afet anında insanların toplanma alanlarına yönlendirebilecek tabelaların il geneline yerleştirilmiş olması Doğalgaz akışının deprem anında otomatik olarak kesilebileceği vana sistemlerinin bulunması İl genelinde kamu binalarının yenilenmesine hız verilmesi ve dönüştürülmesi Eksik yönlerimiz neler? - Başarısız olduğumuz konular neler? - Hayata geçirmekte zorlandığımız konular neler?
+previous 4 sentences: Başarılı olduğumuz alanlar neler? | Gücümüzü oluşturan kaynaklarımız neler? | Avantajlı olduğumuz alanlar neler? | Bizi farklı kılan ne tür özelliklere sahibiz?
+next 4 sentences: İlçe belediyeleri sınırlarında yapı stoku bilgisinin henüz mevcut olmaması Sıvılaşma veya zemin büyütmesi sonucu Karadeniz sahil yolunun hasara uğrama potansiyelinin olması Deprem anında Karadeniz sahil yolu hasara uğrarsa alternatif bağlantı yollarının yetersiz olması İlçe bazında yerleşime uygunluk haritalarının hazırlanmamış olması Mikrobölgelendirme çalışmalarının mevcut olmaması ve sıvışma riski taşıyan alanların net olarak belirlenmiş olmaması Havadan ulaşımın sağlanacağı durumlarda ilimizdeki helikopter pistlerinin yetersiz olması DASK oranın düşük olması Kentsel dönüşüm uygulamalarının yavaş ilerlemesi - Risk Azaltmadaki fırsatlar neler? - Fark yaratabileceğimiz alanlar neler? - Hangi alanlarda gelişmeler görülebilir? - Bizim için avantajlı konular neler?- Kentsel dönüşüm Kanunun ısrarla uygulanmaya çalışılması Deprem Tehlike Haritasının güncellenmiş olması İnşaat yapım tekniklerinin gelişmiş olması Zemin iyileştirme işlemlerini yapabilecek ﬁ rmaların ilimizde hizmet veriyor olması İlimizdeki üniversite bünyesinde jeoloji ve inşaat mühendisliği bölümlerinin olması İRAP kapsamında ilimizin pilot il olarak seçilmesi Kuzey Anadolu fay hattının ilimizden uzak olması ve yıkıcı etkilerinin minimum düzeyde kalması - Risk Azaltmada hangi sorunlar karşımıza çıkabilir? - Bize zarar verebilecek rakipler kimler? - Hangi konularda hata yapabiliriz? - Bizi engelleyebilecek neler var? - Dünyadaki değişimin bize olumsuz etkileri ne olabilir İlimizin topograﬁ k yapısının eğimli olması Depremin tetikleyeceği heyelanlı alanların fazla olması Depremin tetikleyeceği sıvışma olaylarının gözleneceği alüvyon malzemesin ilimizin sınırları içindeki 8 akarsu yatağında yaygınca bulunması ve buralarda yapılaşmanın fazlaca olması Deprem üretme potansiyeline sahip Karadeniz Fay hattının ilimizin 10-15 km uzağında bulunması Heyelanlı sahaların sayısının fazla olmasına neden olan kaya türlerinin ilimizde yaygın şekilde bulunması Sayfa | 191
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_ffb281c8d98a110dfdb2
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 42
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 193
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: İÇİŞLERİ BAKANLIĞI AFET VE ACİL DURUM YÖNETİMİ BAŞKANLIĞI İç Etkenler Dış Etkenler GÜÇLÜ YÖNLER ZAYIF YÖNLER FIRSATLAR TEHDİTLER Tarihi yapıların (köprü, konak, değirmen, kale vd.) restore edilerek korunmaya çalışılması ve depremden en az hasara uğrayabilecek duruma getirilmiş olmaları Kamu kurumlarındaki personele ilk yardım eğitiminin veriliyor olması Ana yerleşim merkezlerinin haricinde ilimizde kırsalda alternatif barınma yerlerinin fazlaca olması Rize halkının afet durumlarında yardımlaşma duygusunun yüksek olması Diğer illerle mukayese edildiğinde Çayeli ilçemizde iki adet deprem ölçüm istasyonun olması Üniversitemizde yerbilimci hocalarımızın çalışma yapıyor olması Merkez ilçemize ait yerleşime uygunluk hartalarının yapılmış olması Depremin tetikleyeceği heyelan, çığ, kaya düşmesi gibi ikincil afetlere ait duyarlılık haritalarının AFAD müdürlüğü tarafından hazırlanmış olması Deprem afeti sonrasında ilk yardım müdahalesinde bulunabilecek kurum ve kuruluşlar arasındaki koordinasyonun yüksek olması Karadeniz Sahil Yolunun olası tsunami dalgalarını engelleyebilecek yükseklikte olması (4 m) Yapılaşma kültürümüzün plansız olmasından kaynaklı binalar arasındaki yolların dar olması ve acil yardım durumunda hizmet veremeyecek özellikte olması İlimiz genelindeki yapıların deprem risk analizlerinin yapılmamış olması Doğalgaz hattının deprem anında oturma potansiyeline sahip sahil şeridi boyunca geçirilmesi Kentsel dönüşüm rezerv alanlarının sınırlı sayıda olması Kamulaştırma maliyetlerinin yüksek olması ve buna bağlı olarak kentsel dönüşümün hızlı ilerlemesini etkilemesi Kaçak yapılaşmanın fazla olması ve kalitesiz ve dayanıksız yapıların fazlaca olması Şimdiye kadar deprem kaynaklı bir afet yaşanmadığı için kurumsal ve toplumsal bilincin fazla gelişmemesi Kurumlarda yeterli miktarda uzman personelin olmaması Dijital veri altlıklarının tek bir sisteme entegre edilememiş olması Şimdiye kadar ilimizde büyük ölçekli bir depremin gerçeklememiş olması Türkiye Afet Müdahale Planı (TAMP)’nının hazırlanmış ve iyi uygulanıyor olması Havaalanı inşaatının kısa sürede tamamlanacak olması ve havadan da bağlantının yapılabilecek olması Çevre illerin ilimize yakın mesafede bulunması İlimizin yüz ölçümünün küçük olması nedeniyle hızlıca müdahaleye olanak sağlaması Yağışların fazla olmasına bağlı olarak titreşimle heyelanların meydana gelme olasılığının oldukça yüksek olması Deprem anında Hemşin İlçesindeki 17 m yüksekliğindeki HES regülatör yapısının yıkılması ve taşkına neden olma riski taşıması Ormanların tahrip edilmesi ve buna bağlı olarak heyelanlı alanların sayısının artması ve titreşimle kayma riski taşıması İlimizde gözlenebilecek farklı afet türlerine için mevcut kanun, yönetmelik veya mevzuatların uyarlanabilir olmaması ve yeterli cevabı verememesi Sayfa | 192
+previous 4 sentences: T.C
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_ffb281c8d98a110dfdb2
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 43
+question_id: Q13
+source_file: Irap-.pdf
+relative_path: plans/irap/Irap-.pdf
+page: 195
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Yine coğraﬁ yapıdan kaynaklı olarak ana ulaşım güzergahını oluşturan Karadeniz sahil yolu ve diğer ilçelere bağlantı yollarının çok yüksek şevler içermesi, bunun da kaya düşmesi olaylarına neden olması Yol güzergahlarının üst kısımlarında hem bitki örtüsünün yoğunluğu hem de ulaşım açısından oluşturduğu kısıtlar nedeniyle düşme veya yuvarlanma riski oluşturan kaynak alanların tespitlerinin zor olması
+previous 4 sentences: İlimizin yerleşim yerleri ve diğer nüfus hareketleri açısından yoğun olan özellikle kuzey bölümünde ana kayanın örtülü olmasından dolayı mostra veren kaynak alanların çok sınırlı olması Mevcut deprem Tehlike Haritasına göre İlimde beklenen en yüksek yer ivme değerleri 0,215-0,295 g aralığında olması dolayısıyla sismik aktivite kaynaklı kaya düşmesi tetiklenmeleri Ülkemizin geneli ile kıyaslandığında daha zayıf olması | İlimizin coğraﬁ konumundan dolayı denize uzun bir kıyısının olması genel anlamda afetlerde ana ulaşım güzergâhının etkilenmesi halinde dahi uzun sürelerde ulaşımın tamamen kesilmeyeceği deniz yolu ile ulaşım sağlanabilmesi İlimizde inşaat çalışmaları devam eden Rize havalimanı kısa süre içerisinde hizmete açılacak olup bu durumda muhtemel büyük afetlerde çok hızlı şekilde hava ulaşımı sağlanabilmesi | İlimizdeki ilçe ve belde merkezlerinin diğer illere kıyasla birbirine çok yakın konumda olması bir afet durumunda diğer ilçelerden desteklerin çok daha kısa sürede ulaşabilmes Kaya kaynak alanların bulunduğu ilimizin iç kesimlerinde hem mevsimler hem gündüz gece sıcaklık farklarının çok yüksek olması buna bağlı olarak da ayrışma ve süreksizliklerin kontrolündeki duraysızlıkları arttırması | İlimizin aşırı yağışlı bir bölgede yer alması nedeniyle meydana gelebilecek heyelan türü kitle hareketleri sonucu kaya bloklarının yüzeylenmesi yine aynı afetler nedeniyle bağlayıcı malzemeleri zayıﬂ atarak kaya düşmelerine yol açabilmesi
+next 4 sentences: NONE
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_0c71472bb80127244e57
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 44
+question_id: Q13
+source_file: Kirikkale-IRAP-Raporu-07102021.pdf
+relative_path: plans/irap/Kirikkale-IRAP-Raporu-07102021.pdf
+page: 90
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Barut Fabrikası, Arpalık Çukuru mevkii yol güzergahı, Yahşihan Yeşilvadi mahallesi sahil kısmı
+previous 4 sentences: 85 Bağlam Konum-Yer Hacılar, Bahşılı, Merkez, Yahşihan Tarih 03.12.2021 Etki Alanı-Etkilenen Semt, Mahalle-Alan isimleri Tüpraş Rafinerisi dolum tesislerinin bir kısmı, Kırşehir-Ankara Karayolu, Kırıkkale- Kony karayolu, Bahşili ilçe merkezinin büyük bir kısmı, Merkez ilçe Kızılırmak Mahallesi, M.K.E
+next 4 sentences: Olay Afeti kısa açıklaması ve sonuçları Bahşili İlçesinde meydana gelen deprem afeti nedeniyle Kapulukaya Baraj gövdesinin hasar alması sonucu su baskını afetinin oluşması | Su baskını sebebiyle ekonomik ve sosyo ekonomik zararların oluşması | Olayın afete dönüşmesinin nedenleri ve tetikleyici unsurlar Baraj gövdesinde öngörülmeyen hasarın oluşması ve baraj havzasında yapılaşmanın olması | Erken uyarı sistemlerinin yetersiz kalması
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_caf91aaa97820c88f2c1
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 45
+question_id: Q13
+source_file: Kocaeli-IRAP.pdf
+relative_path: plans/irap/Kocaeli-IRAP.pdf
+page: 52
+relevance_status: relevant
+matched_terms: açık alan
+matched sentence: İl genelinde afetzedelerin kalıcı iskanları sağlanıncaya kadar geçici olarak iskan edileceği park, okul bahçesi gibi 82 adet açık alan tespit edilmiştir
+previous 4 sentences: Afet toplanma alanları aşağıdaki tabloda belirtilmiştir | Tablo 1 | 31 | Afet Toplanma Alanları KOCAELİ İLİ TOPLANMA ALANLARININ İLÇE DAĞILIMLARI İlçe Adı Toplanma Alanı Sayısı Toplam Kapsama Alanı (m2) Nüfus Kişi Başına Düşen Alan (m2) Başiskele 30 279353 108,185 2.58 Çayırova 59 508391 140,274 3.62 Darıca 40 124200 214,796 0.58 Derince 28 163145 143,884 1.13 Dilovası 9 27781 51,060 0.54 Gebze 71 2199515 392,945 5.60 Gölcük 62 401987 170,503 2.36 İzmit 66 234452 365,893 0.64 Kandıra 9 44589 52,268 0.85 Karamürsel 56 316565 58,412 5.42 Kartepe 45 361008 125,974 2.87 Körfez 60 276257 173,064 1.59 TOPLAM 535 4,937,243 1,997,258 2.47 Geçici Barınma Alanları:
+next 4 sentences: Tablo 1 | 32 | Geçici İskan Alanları İlçe Adı Toplanma Alan Sayısı Toplam Kapsama Alanı (m2) Toplam Kapasite Nüfus Başiskele 3 33645 2692 108.185 Çayırova 5 81100 6488 140.274 Darıca 10 133114 10650 214.796 Derince 4 53442 4275 143.884 Dilovası 2 48220 3858 51.060 Gebze 4 120500 9640 392.945 Gölcük 7 183290 14663 170.503 İzmit 15 579983 46487 365.893 Kandıra 3 25150 2012 52.268 Karamürsel 3 19000 1520 58.412 Kartepe 15 403449 32275 125.974 Körfez 11 116365 9311 173.064 TOPLAM 82 1.797.258 143.871 1.997.258 KOCAELİ İLİ GEÇİCİ İSKAN ALANLARININ İLÇE DAĞILIMLARI
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_e4954c849a8f3731c41d, afad_earthquake_4300482b4c3927fad8ea
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 46
+question_id: Q13
+source_file: Mugla_IRAP_20102021_Baski.pdf
+relative_path: plans/irap/Mugla_IRAP_20102021_Baski.pdf
+page: 70
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Alüvyon kalınlığının fazla olması, zayıf mühendislik özellikleri nedeniyle depremden kaynaklanan sarsıntıyı binaya iletirken daha fazla büyütür. (Karabörtlen, Kıyra, Gölcük, Gökova, Kızılyaka, Ataköy, Şirinköy, Akçapınar, Alparslan, Demirtaş, Köprünaşı, Ayazkıyı, Elmalı, Portakallık, Sarayyanı, Örnekköy, Gökçe, Çörüş, Yeşilçam, Yeşilova Sıvılaşma Akyaka (Sahil kesimi), Akçapınar, Şirinköy Olası büyük bir deprem durumunda, bahse konu alanların büyük bir kısmında sıvılaşma ve buna bağlı etkilerinin belirgin şekilde görüleceği öngörülmektedir
+previous 4 sentences: Hastanelerin, sağlık ocaklarının, okulların ve kamu binalarının bu mahallelerimizde bulunması nedeniyle de önem arz etmektedir | 30 Mahallemizde bulunan binaların çoğu eski olup, 2018 yılında yayınlanarak yürürlüğe giren Türkiye Bina Deprem yönetmeliği öncesinde yapılmıştır | Mahallelerin aktif fay zonlarına yakın olması, | Yapı stoğunun kötü olması,
+next 4 sentences: Belirtilen bölgeler imara açılmış olup Akyakada yapılaşma yoğunluğu yüksektir | Belirtilen bölgede bulunan binaların çoğu eskidir | Sıvılaşma riskinin bulunduğu alanlarda yeni yapılaşmalarda Türkiye bina deprem yönetmeliği kapsamında yapılmıştır | Aktif fay zonuna yakın olması,
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_2652cd236a492449ba0b
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 47
+question_id: Q13
+source_file: Mugla_IRAP_20102021_Baski.pdf
+relative_path: plans/irap/Mugla_IRAP_20102021_Baski.pdf
+page: 72
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: Tsunami *Karagözler *Cumhuriyet *Kesikkapı *Tuzla *Akarca *Babataşı *Foça *Çalış bölgesi *Kargı *Çiftlik *Yanıklar *İnlice *Göcek *Ölüdeniz sahil kesimleri Denizde olası bir deprem (6.5<) olması durumunda ya da denizaltı heyelanı veya volkanizması nedeniyle Tsunami riski bulunmakta olup, bu durumda belirtilen bölgelerin kıyı kesimleri etkilenebileceği gibi ayrıca taşkınlara da neden olabilecektir
+previous 4 sentences: Mahallelerin aktif fay zonlarına yakın olması, | Yapı stoğunun kötüolması, | Alüvyon kalınlığının fazla olması, zayıf mühendislik özellikleri nedeniyle depremden kaynaklanan sarsıntıyı binaya iletirken daha fazla büyütür. (Cumhuriyet, Tuzla, Akarca, Foça, Yanıklar, Çiftlik, Kargı, İnlice, Göcek, Yeşil Üzümlü, Ölüdeniz, Kayaköy vb.), | Depremin büyüklüğü ve süresi
+next 4 sentences: Belirtilen bölgeler imara açılmış olup, nüfus yoğunluğunun fazla olduğu alanları kapsamaktadır | Belirtilen bölgedeki yapılaşmalarının/yerleşmele rin sahil kesimlerine doğru ve nüfusun fazla oluşu dezavantaj oluşturmaktadır | Denizde aktif/diri fay hatlarına yakınlık, | Taşkın oluşturma riski,
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_2652cd236a492449ba0b, afad_earthquake_75959b7363af049f775c
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 48
+question_id: Q13
+source_file: Mugla_IRAP_20102021_Baski.pdf
+relative_path: plans/irap/Mugla_IRAP_20102021_Baski.pdf
+page: 149
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 17- Sahil kesimlerinde özellikle tsunami tehlikesi olan yerlerde yapılaşmanın yoğun olması
+previous 4 sentences: 13- Kurumlararası koordinasyon eksikliğinden dolayı doğacak aksaklıkların olması | 14- Muğla İli özelinde iki aktif fay sistemine yakın 3 termik santralin olması ve olası zarar görme durumunda enerji verilemeyecek olması | 15- İlde bulunan iki havalimanının mevcut sıvılaşma riskli alanlarda bulunuyor olması | 16- İkincil afetlerde (kütle hareketleri, kaya düşmesi vb.) ulaşımda aksaklıkların yaşanabilecek olması
+next 4 sentences: 18- Bölgemiz turizm beldesi olması sebebiyle yaz aylarında nüfus yoğunluğu sebebiyle zarar görebilirliğin daha fazla olacak olması | 19- İlimiz genelinde afet sonrası için belirlenmiş olan toplanma alanları ve barınma alanlarının özellikle nüfus hareketliliğin fazla olduğu yaz aylarında yetersiz olması | 20- İmar yönetmeliğinin ve uygulamaların yeterli düzeyde gözden geçirilerek sahada uygulanmaması | 21- Afet sonrası için ilimizdeki hastanelerin yetersiz olması
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_a95c71ed5a9b63dedc73
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 49
+question_id: Q13
+source_file: Mugla_IRAP_20102021_Baski.pdf
+relative_path: plans/irap/Mugla_IRAP_20102021_Baski.pdf
+page: 183
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: 176 AMAÇ İlimizdeki afet risklerini belirleyerek olası riskleri azaltmak ve kayıpları mümkün olduğunca en aza indirmek, İlimizi afetlere hazır ve dirençli bir hale getirmek HEDEF- 18 Kritik altyapıları güvenli hale getirmek EYLEM NO EYLEMLER AFET TÜRÜ EYLEMİ GERÇEKLEŞTİREN KURUM VE SÜRECİ SORUMLU DESTEK DÖNEMİ H18-E1 Köyceğiz, Ortaca, Dalaman, Fethiye İlçelerindeki bazı bölgelerde (sahil kesimleri) yer altı su seviyesinin yüksek olması, zeminin killi, kumlu bir yapıya sahip olması nedeniyle (zemin dinamik ve statik parametrelerinin düşük olması) Özel/Kamu hastanelerinin, kamu binalarının gerekli güçlendirme ve dönüşüm çalışmalarının gerçekleştirilmesi
+previous 4 sentences: NONE
+next 4 sentences: Deprem İl Sağlık Müdürlüğü Çevre ve Şehircilik İl Müdürlüğü, İlgili Kurum ve Kuruluşlar 2021-2026 H18-E2 Kültürel miras, tarihi yapı ve alanlar ile müzeleri afetlerin etkilerinden korumak için risk önceliklendirme ve güçlendirme çalışmalarının yapılması | Tüm Afetler İl Kültür ve Turizm Müdürlüğü Çevre ve Şehircilik İl Müdürlüğü, Tabiat Varlıklarını Koruma Kurulu Müze Müdürlükleri 2021-2026 H18-E3 Milli Eğitim Bakanlığının deprem risk analiz sonuçlarına göre önceliklendirmiş olduğu eğitim kurumlarının güçlendirilmesi veya yeniden inşaa çalışmalarının yapılması | Deprem İl Milli Eğitim Müdürlüğü Çevre ve Şehircilik İl Müdürlüğü 2021 H18-E4 Termik Santrallerin etrafında yangın koruma bandı oluşturulması ve bu durumun önüne çıkabilecek mevzuatsal engellerin kaldırılması | Yangın müdahale ekipleriyle Termik Santral İşletmesinin ortak çalışma yaparak yangına karşı gerekli tedbirlerin alınması
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_afb28423372bd07f39e0
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+Candidate 50
+question_id: Q13
+source_file: Ordu-Irap-Kurumlara-Dagitim.pdf
+relative_path: plans/irap/Ordu-Irap-Kurumlara-Dagitim.pdf
+page: 9
+relevance_status: relevant
+matched_terms: sahil
+matched sentence: - 3 - ŞEKİLLER Şekil 1 Ordu İlinin Ülke ve Bölge İçindeki Yeri ...................................................................................................... - 6 - Şekil 2 Ordu İlinin ilçeleri ..................................................................................................................................... - 6 - Şekil 3 Ordu İli Jeomorfoloji haritası .................................................................................................................. - 11 - Şekil 4 Ordu İli Jeolojik Haritası(MTA) ............................................................................................................... - 12 - Şekil 5 Ordu İli ve çevresinin stratigrafik dikme kesiti ....................................................................................... - 13 - Şekil 6 Ordu İline ait uzun yıllar (1959-2019) meteorolojik veriler (MGM, 2020) .............................................. - 16 - Şekil 7 Ordu İli Sanayisi Ölçek Dağılımı (Sanayi ve Teknoloji ............................................................................. - 25 - Şekil 8 Ordu İlinde Sanayi İşletmelerinin Sektörel Dağılımı (Sanayi ve Teknoloji............................................... - 26 - Şekil 9 Önde Gelen Sektörel Dağılım ................................................................................................................. - 26 - Şekil 10 Ordu İli Tünel Bilgileri(KGM)................................................................................................................. - 33 - Şekil 11 Ordu İli Eğim Haritası ........................................................................................................................... - 39 - Şekil 12 Ordu ili yükseklik haritası ..................................................................................................................... - 40 - Şekil 13 Altınordu İlçesi Riskli Alanın kent içindeki konumu(Ordu Büyükşehir Belediyesi) ................................ - 42 - Şekil 14 Altınordu İlçesi Riskli Alanı zeminin yerleşime uygunluk durumu(Ordu Büyükşehir Belediyesi) ........... - 43 - Şekil 15 Altınordu ilçesi Riskli Alanındaki yapıların yaşlarının durumu(Ordu Büyükşehir Belediyesi) ................ - 44 - Şekil 16 Fatsa İlçesi Riskli Alanın kent içindeki konumu(Ordu Büyükşehir Belediyesi) ....................................... - 44 - Şekil 17 Fatsa İlçesi Riskli Alanı zeminin yerleşime uygunluk durumu(Ordu Büyükşehir Belediyesi) ................. - 45 - Şekil 18 Fatsa İlçesi Riskli Alanındaki yapıların yaşlarının durumu(Ordu Büyükşehir Belediyesi) ...................... - 46 - Şekil 19 Ünye İlçesi Riskli Alanın kent içindeki konumu(Ordu Büyükşehir Belediyesi) ....................................... - 46 - Şekil 20 Ünye İlçesi Riskli Alanı zeminin yerleşime uygunluk durumu(Ordu Büyükşehir Belediyesi) ................. - 47 - Şekil 21 Ünye İlçesi Riskli Alandaki yapıların yaşlarının durumu(Ordu Büyükşehir Belediyesi) ......................... - 48 - Şekil 22 Ordu İli Afetsellik Grafiği(İl Afet ve Acil Durum Müdürlüğü) ................................................................ - 49 - Şekil 23 2018 Sel Afeti (08.08.2018 tarihinde meydana gelen sel olayı sonucu Karadeniz Sahil Yolu üzerinde yıkılan Ünye Cevizdere Köprüsü) ....................................................................................................................... - 51 - Şekil 24 2019 Aybastı Sağlık Mahallesi Heyelanı (15.05.2019 tarihinde meydana gelen heyelan, 22 hektarlık bir alanı etkilemiş, bu alandaki 80 konut tahliye edilmiştir) ................................................................................... - 51 - Şekil 25 Türkiye Deprem Tehlike Haritasında Ordu ili ve çevresi(tdth.afad.gov.tr) ........................................... - 56 - Şekil 26 İstinad Duvarı Çalışmaları .................................................................................................................... - 58 - Şekil 27 Afet konutlarına ait çalışmalar ............................................................................................................ - 60 - Şekil 28 Kaya Düşmesi örnekleri ........................................................................................................................ - 60 - Şekil 29 Lojistik Merkezler(İl Afet ve Acil Durum Müdürlüğü) ........................................................................... - 62 - Şekil 30 Perşembe Yeniköy Mahallesi Heyelanı-2011 ....................................................................................... - 67 - Şekil 31:
+previous 4 sentences: NONE
+next 4 sentences: Afete Maruz Bölgelerin Uydu Görüntüsü Üzerindeki Görünümü (İl Afet ve Acil Durum Müdürlüğü) - 67 - Şekil 32: | Geçmiş Heyelanların İlçelere Göre Dağılımı(İl Afet ve Acil Durum Müdürlüğü) .................................. - 68 - Şekil 33: | Ordu ili MTA Heyelan Envanteri (yerbilimleri.mta.gov.tr) .................................................................. - 69 - Şekil 34: | Ordu İli Heyelan Envanteri (İl Afet ve Acil Durum Müdürlüğü) ........................................................... - 69 - Şekil 35 Karayolu ağı, köprü ve tünelleri(AYDES) .............................................................................................. - 75 - Şekil 36 Enerji nakil hatları (ana hat) ve Trafo merkezleri(AYDES) .................................................................... - 75 - Şekil 37 Fabrikalar ve sağlık tesisleri(AYDES) .................................................................................................... - 76 - Şekil 38:
+page represented in chunks: true
+covering chunk_ids: afad_earthquake_f4fb1deaa262079472b3, afad_earthquake_6df66b207d2816c44c4f
+answer_candidate: RELATED_GUIDANCE
+matched_sentence_preserved_in_chunks: true
+answer_signal_preserved_in_chunks: false
+
+========================================================================================
+Summary Table
+Question | Extracted matches | Direct pages | Direct pages relevant | Direct pages uncertain | Direct pages excluded | Direct pages represented in chunks | Diagnosis
+Q09 | 124 | 1 | 1 | 0 | 0 | 1 | RETRIEVAL_OR_PATTERN_DIAGNOSTIC_FAILURE
+Q13 | 395 | 0 | 0 | 0 | 0 | 0 | EXTRACTED_CORPUS_COVERAGE_UNRESOLVED

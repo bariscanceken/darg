@@ -1,0 +1,1253 @@
+{
+  "source_judgments_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+  "unique_key": "question_id + chunk_id",
+  "manual_review_count": 42,
+  "records": [
+    {
+      "manual_review_id": "M001",
+      "question_id": "Q01",
+      "question": "Deprem sırasında evin içindeysem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "csv_rows": [
+        {
+          "csv_line_number": 4,
+          "alpha": "0.50",
+          "question_id": "Q01",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "csv_line_number": 105,
+          "alpha": "0.60",
+          "question_id": "Q01",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "csv_line_number": 206,
+          "alpha": "0.70",
+          "question_id": "Q01",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M002",
+      "question_id": "Q01",
+      "question": "Deprem sırasında evin içindeysem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "csv_rows": [
+        {
+          "csv_line_number": 5,
+          "alpha": "0.50",
+          "question_id": "Q01",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 106,
+          "alpha": "0.60",
+          "question_id": "Q01",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M003",
+      "question_id": "Q02",
+      "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "csv_rows": [
+        {
+          "csv_line_number": 9,
+          "alpha": "0.50",
+          "question_id": "Q02",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "csv_line_number": 109,
+          "alpha": "0.60",
+          "question_id": "Q02",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "csv_line_number": 209,
+          "alpha": "0.70",
+          "question_id": "Q02",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "csv_line_number": 310,
+          "alpha": "0.80",
+          "question_id": "Q02",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "csv_line_number": 411,
+          "alpha": "0.90",
+          "question_id": "Q02",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M004",
+      "question_id": "Q02",
+      "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "csv_rows": [
+        {
+          "csv_line_number": 10,
+          "alpha": "0.50",
+          "question_id": "Q02",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "csv_line_number": 110,
+          "alpha": "0.60",
+          "question_id": "Q02",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "csv_line_number": 210,
+          "alpha": "0.70",
+          "question_id": "Q02",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M005",
+      "question_id": "Q02",
+      "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "csv_rows": [
+        {
+          "csv_line_number": 11,
+          "alpha": "0.50",
+          "question_id": "Q02",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M006",
+      "question_id": "Q03",
+      "question": "Depremden sonra hasarlı binaya tekrar girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "csv_rows": [
+        {
+          "csv_line_number": 12,
+          "alpha": "0.50",
+          "question_id": "Q03",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "csv_line_number": 113,
+          "alpha": "0.60",
+          "question_id": "Q03",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "csv_line_number": 213,
+          "alpha": "0.70",
+          "question_id": "Q03",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "csv_line_number": 313,
+          "alpha": "0.80",
+          "question_id": "Q03",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "csv_line_number": 414,
+          "alpha": "0.90",
+          "question_id": "Q03",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M007",
+      "question_id": "Q03",
+      "question": "Depremden sonra hasarlı binaya tekrar girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_77dd84078e4dec5a8f39",
+      "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+      "page_start": 66,
+      "page_end": 68,
+      "csv_rows": [
+        {
+          "csv_line_number": 16,
+          "alpha": "0.50",
+          "question_id": "Q03",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_77dd84078e4dec5a8f39"
+        },
+        {
+          "csv_line_number": 116,
+          "alpha": "0.60",
+          "question_id": "Q03",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_77dd84078e4dec5a8f39"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M008",
+      "question_id": "Q04",
+      "question": "Deprem sırasında asansör kullanmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "csv_rows": [
+        {
+          "csv_line_number": 19,
+          "alpha": "0.50",
+          "question_id": "Q04",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 119,
+          "alpha": "0.60",
+          "question_id": "Q04",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 220,
+          "alpha": "0.70",
+          "question_id": "Q04",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M009",
+      "question_id": "Q04",
+      "question": "Deprem sırasında asansör kullanmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "csv_rows": [
+        {
+          "csv_line_number": 20,
+          "alpha": "0.50",
+          "question_id": "Q04",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M010",
+      "question_id": "Q04",
+      "question": "Deprem sırasında asansör kullanmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 24,
+      "page_end": 25,
+      "csv_rows": [
+        {
+          "csv_line_number": 21,
+          "alpha": "0.50",
+          "question_id": "Q04",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335"
+        },
+        {
+          "csv_line_number": 121,
+          "alpha": "0.60",
+          "question_id": "Q04",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335"
+        },
+        {
+          "csv_line_number": 221,
+          "alpha": "0.70",
+          "question_id": "Q04",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335"
+        },
+        {
+          "csv_line_number": 320,
+          "alpha": "0.80",
+          "question_id": "Q04",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M011",
+      "question_id": "Q05",
+      "question": "Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "csv_rows": [
+        {
+          "csv_line_number": 25,
+          "alpha": "0.50",
+          "question_id": "Q05",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 125,
+          "alpha": "0.60",
+          "question_id": "Q05",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 226,
+          "alpha": "0.70",
+          "question_id": "Q05",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 326,
+          "alpha": "0.80",
+          "question_id": "Q05",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 426,
+          "alpha": "0.90",
+          "question_id": "Q05",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M012",
+      "question_id": "Q06",
+      "question": "Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "csv_rows": [
+        {
+          "csv_line_number": 29,
+          "alpha": "0.50",
+          "question_id": "Q06",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 129,
+          "alpha": "0.60",
+          "question_id": "Q06",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 229,
+          "alpha": "0.70",
+          "question_id": "Q06",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 329,
+          "alpha": "0.80",
+          "question_id": "Q06",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 429,
+          "alpha": "0.90",
+          "question_id": "Q06",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M013",
+      "question_id": "Q06",
+      "question": "Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_1e247ece4763a9e3d913",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 36,
+      "page_end": 37,
+      "csv_rows": [
+        {
+          "csv_line_number": 30,
+          "alpha": "0.50",
+          "question_id": "Q06",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_1e247ece4763a9e3d913"
+        },
+        {
+          "csv_line_number": 130,
+          "alpha": "0.60",
+          "question_id": "Q06",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_1e247ece4763a9e3d913"
+        },
+        {
+          "csv_line_number": 230,
+          "alpha": "0.70",
+          "question_id": "Q06",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_1e247ece4763a9e3d913"
+        },
+        {
+          "csv_line_number": 330,
+          "alpha": "0.80",
+          "question_id": "Q06",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_1e247ece4763a9e3d913"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M014",
+      "question_id": "Q06",
+      "question": "Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_72fad7711c9eb5a1244c",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 33,
+      "page_end": 35,
+      "csv_rows": [
+        {
+          "csv_line_number": 31,
+          "alpha": "0.50",
+          "question_id": "Q06",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_72fad7711c9eb5a1244c"
+        },
+        {
+          "csv_line_number": 131,
+          "alpha": "0.60",
+          "question_id": "Q06",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_72fad7711c9eb5a1244c"
+        },
+        {
+          "csv_line_number": 231,
+          "alpha": "0.70",
+          "question_id": "Q06",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_72fad7711c9eb5a1244c"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M015",
+      "question_id": "Q07",
+      "question": "Depremden sonra telefonla yakınlarımı aramalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "csv_rows": [
+        {
+          "csv_line_number": 34,
+          "alpha": "0.50",
+          "question_id": "Q07",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 135,
+          "alpha": "0.60",
+          "question_id": "Q07",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 236,
+          "alpha": "0.70",
+          "question_id": "Q07",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 336,
+          "alpha": "0.80",
+          "question_id": "Q07",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 436,
+          "alpha": "0.90",
+          "question_id": "Q07",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M016",
+      "question_id": "Q09",
+      "question": "Deprem sonrası artçı sarsıntılarda ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "csv_rows": [
+        {
+          "csv_line_number": 44,
+          "alpha": "0.50",
+          "question_id": "Q09",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M017",
+      "question_id": "Q09",
+      "question": "Deprem sonrası artçı sarsıntılarda ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205",
+      "source_file": "document-_11_.pdf",
+      "page_start": 298,
+      "page_end": 299,
+      "csv_rows": [
+        {
+          "csv_line_number": 45,
+          "alpha": "0.50",
+          "question_id": "Q09",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205"
+        },
+        {
+          "csv_line_number": 146,
+          "alpha": "0.60",
+          "question_id": "Q09",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M018",
+      "question_id": "Q09",
+      "question": "Deprem sonrası artçı sarsıntılarda ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_f1bf19df55834f66b9dd",
+      "source_file": "Kirikkale-IRAP-Raporu-07102021.pdf",
+      "page_start": 189,
+      "page_end": 190,
+      "csv_rows": [
+        {
+          "csv_line_number": 46,
+          "alpha": "0.50",
+          "question_id": "Q09",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_f1bf19df55834f66b9dd"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M019",
+      "question_id": "Q10",
+      "question": "Deprem çantasında neler bulunmalı?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "csv_rows": [
+        {
+          "csv_line_number": 50,
+          "alpha": "0.50",
+          "question_id": "Q10",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 150,
+          "alpha": "0.60",
+          "question_id": "Q10",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "csv_line_number": 250,
+          "alpha": "0.70",
+          "question_id": "Q10",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M020",
+      "question_id": "Q10",
+      "question": "Deprem çantasında neler bulunmalı?",
+      "chunk_id": "afad_earthquake_v2_016a8be0deb9aa9719ab",
+      "source_file": "olagandisi.pdf",
+      "page_start": 32,
+      "page_end": 34,
+      "csv_rows": [
+        {
+          "csv_line_number": 51,
+          "alpha": "0.50",
+          "question_id": "Q10",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_016a8be0deb9aa9719ab"
+        },
+        {
+          "csv_line_number": 151,
+          "alpha": "0.60",
+          "question_id": "Q10",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_016a8be0deb9aa9719ab"
+        },
+        {
+          "csv_line_number": 251,
+          "alpha": "0.70",
+          "question_id": "Q10",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_016a8be0deb9aa9719ab"
+        },
+        {
+          "csv_line_number": 351,
+          "alpha": "0.80",
+          "question_id": "Q10",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_016a8be0deb9aa9719ab"
+        },
+        {
+          "csv_line_number": 451,
+          "alpha": "0.90",
+          "question_id": "Q10",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_016a8be0deb9aa9719ab"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M021",
+      "question_id": "Q11",
+      "question": "Depremden sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "csv_rows": [
+        {
+          "csv_line_number": 54,
+          "alpha": "0.50",
+          "question_id": "Q11",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        },
+        {
+          "csv_line_number": 156,
+          "alpha": "0.60",
+          "question_id": "Q11",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M022",
+      "question_id": "Q12",
+      "question": "Toplanma alanı nedir?",
+      "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86",
+      "source_file": "Antalya-IRAP_2022.pdf",
+      "page_start": 79,
+      "page_end": 81,
+      "csv_rows": [
+        {
+          "csv_line_number": 57,
+          "alpha": "0.50",
+          "question_id": "Q12",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86"
+        },
+        {
+          "csv_line_number": 158,
+          "alpha": "0.60",
+          "question_id": "Q12",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86"
+        },
+        {
+          "csv_line_number": 258,
+          "alpha": "0.70",
+          "question_id": "Q12",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86"
+        },
+        {
+          "csv_line_number": 359,
+          "alpha": "0.80",
+          "question_id": "Q12",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86"
+        },
+        {
+          "csv_line_number": 459,
+          "alpha": "0.90",
+          "question_id": "Q12",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M023",
+      "question_id": "Q13",
+      "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "csv_rows": [
+        {
+          "csv_line_number": 64,
+          "alpha": "0.50",
+          "question_id": "Q13",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        },
+        {
+          "csv_line_number": 165,
+          "alpha": "0.60",
+          "question_id": "Q13",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        },
+        {
+          "csv_line_number": 266,
+          "alpha": "0.70",
+          "question_id": "Q13",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M024",
+      "question_id": "Q14",
+      "question": "Deprem sırasında araç kullanıyorsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "csv_rows": [
+        {
+          "csv_line_number": 70,
+          "alpha": "0.50",
+          "question_id": "Q14",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 170,
+          "alpha": "0.60",
+          "question_id": "Q14",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M025",
+      "question_id": "Q14",
+      "question": "Deprem sırasında araç kullanıyorsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "csv_rows": [
+        {
+          "csv_line_number": 71,
+          "alpha": "0.50",
+          "question_id": "Q14",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        },
+        {
+          "csv_line_number": 171,
+          "alpha": "0.60",
+          "question_id": "Q14",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M026",
+      "question_id": "Q15",
+      "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+      "chunk_id": "afad_earthquake_v2_80b2ea75900c7037ae14",
+      "source_file": "sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf",
+      "page_start": 147,
+      "page_end": 148,
+      "csv_rows": [
+        {
+          "csv_line_number": 74,
+          "alpha": "0.50",
+          "question_id": "Q15",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_80b2ea75900c7037ae14"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M027",
+      "question_id": "Q15",
+      "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "csv_rows": [
+        {
+          "csv_line_number": 76,
+          "alpha": "0.50",
+          "question_id": "Q15",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M028",
+      "question_id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "chunk_id": "afad_earthquake_v2_8fc6b9d97fb74acbd00b",
+      "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+      "page_start": 70,
+      "page_end": 71,
+      "csv_rows": [
+        {
+          "csv_line_number": 80,
+          "alpha": "0.50",
+          "question_id": "Q16",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8fc6b9d97fb74acbd00b"
+        },
+        {
+          "csv_line_number": 180,
+          "alpha": "0.60",
+          "question_id": "Q16",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8fc6b9d97fb74acbd00b"
+        },
+        {
+          "csv_line_number": 280,
+          "alpha": "0.70",
+          "question_id": "Q16",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8fc6b9d97fb74acbd00b"
+        },
+        {
+          "csv_line_number": 380,
+          "alpha": "0.80",
+          "question_id": "Q16",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8fc6b9d97fb74acbd00b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M029",
+      "question_id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "chunk_id": "afad_earthquake_v2_956d4e8deb3a555c8ea7",
+      "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+      "page_start": 71,
+      "page_end": 74,
+      "csv_rows": [
+        {
+          "csv_line_number": 81,
+          "alpha": "0.50",
+          "question_id": "Q16",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_956d4e8deb3a555c8ea7"
+        },
+        {
+          "csv_line_number": 181,
+          "alpha": "0.60",
+          "question_id": "Q16",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_956d4e8deb3a555c8ea7"
+        },
+        {
+          "csv_line_number": 281,
+          "alpha": "0.70",
+          "question_id": "Q16",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_956d4e8deb3a555c8ea7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M030",
+      "question_id": "Q17",
+      "question": "Depremden sonra tahliye nasıl yapılmalıdır?",
+      "chunk_id": "afad_earthquake_v2_120191a2fe11cfd3704e",
+      "source_file": "olagandisi.pdf",
+      "page_start": 16,
+      "page_end": 18,
+      "csv_rows": [
+        {
+          "csv_line_number": 86,
+          "alpha": "0.50",
+          "question_id": "Q17",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_120191a2fe11cfd3704e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M031",
+      "question_id": "Q18",
+      "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "csv_rows": [
+        {
+          "csv_line_number": 90,
+          "alpha": "0.50",
+          "question_id": "Q18",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        },
+        {
+          "csv_line_number": 190,
+          "alpha": "0.60",
+          "question_id": "Q18",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        },
+        {
+          "csv_line_number": 290,
+          "alpha": "0.70",
+          "question_id": "Q18",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        },
+        {
+          "csv_line_number": 391,
+          "alpha": "0.80",
+          "question_id": "Q18",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M032",
+      "question_id": "Q18",
+      "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "csv_rows": [
+        {
+          "csv_line_number": 91,
+          "alpha": "0.50",
+          "question_id": "Q18",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "csv_line_number": 191,
+          "alpha": "0.60",
+          "question_id": "Q18",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M033",
+      "question_id": "Q19",
+      "question": "Depremden sonra yaralı birine nasıl yaklaşmalıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "csv_rows": [
+        {
+          "csv_line_number": 94,
+          "alpha": "0.50",
+          "question_id": "Q19",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M034",
+      "question_id": "Q20",
+      "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "csv_rows": [
+        {
+          "csv_line_number": 100,
+          "alpha": "0.50",
+          "question_id": "Q20",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 200,
+          "alpha": "0.60",
+          "question_id": "Q20",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 300,
+          "alpha": "0.70",
+          "question_id": "Q20",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 401,
+          "alpha": "0.80",
+          "question_id": "Q20",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "csv_line_number": 501,
+          "alpha": "0.90",
+          "question_id": "Q20",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M035",
+      "question_id": "Q20",
+      "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_29c8fca800da878b45b1",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "csv_rows": [
+        {
+          "csv_line_number": 101,
+          "alpha": "0.50",
+          "question_id": "Q20",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_29c8fca800da878b45b1"
+        },
+        {
+          "csv_line_number": 201,
+          "alpha": "0.60",
+          "question_id": "Q20",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_29c8fca800da878b45b1"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M036",
+      "question_id": "Q02",
+      "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_32bab3c630cd41969132",
+      "source_file": "olagandisi.pdf",
+      "page_start": 46,
+      "page_end": 49,
+      "csv_rows": [
+        {
+          "csv_line_number": 111,
+          "alpha": "0.60",
+          "question_id": "Q02",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_32bab3c630cd41969132"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M037",
+      "question_id": "Q15",
+      "question": "Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?",
+      "chunk_id": "afad_earthquake_v2_f6faafb1909babb4bb84",
+      "source_file": "olagandisi.pdf",
+      "page_start": 24,
+      "page_end": 25,
+      "csv_rows": [
+        {
+          "csv_line_number": 176,
+          "alpha": "0.60",
+          "question_id": "Q15",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_f6faafb1909babb4bb84"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M038",
+      "question_id": "Q01",
+      "question": "Deprem sırasında evin içindeysem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2",
+      "source_file": "olagandisi.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "csv_rows": [
+        {
+          "csv_line_number": 205,
+          "alpha": "0.70",
+          "question_id": "Q01",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        },
+        {
+          "csv_line_number": 306,
+          "alpha": "0.80",
+          "question_id": "Q01",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M039",
+      "question_id": "Q09",
+      "question": "Deprem sonrası artçı sarsıntılarda ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_097009c6a56e24323255",
+      "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+      "page_start": 57,
+      "page_end": 59,
+      "csv_rows": [
+        {
+          "csv_line_number": 246,
+          "alpha": "0.70",
+          "question_id": "Q09",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_097009c6a56e24323255"
+        },
+        {
+          "csv_line_number": 346,
+          "alpha": "0.80",
+          "question_id": "Q09",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_097009c6a56e24323255"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M040",
+      "question_id": "Q11",
+      "question": "Depremden sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "csv_rows": [
+        {
+          "csv_line_number": 256,
+          "alpha": "0.70",
+          "question_id": "Q11",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M041",
+      "question_id": "Q18",
+      "question": "Deprem sonrası iletişim nasıl sağlanmalıdır?",
+      "chunk_id": "afad_earthquake_v2_c47777e3bba0b3c58392",
+      "source_file": "sozluk.pdf",
+      "page_start": 7,
+      "page_end": 9,
+      "csv_rows": [
+        {
+          "csv_line_number": 291,
+          "alpha": "0.70",
+          "question_id": "Q18",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_c47777e3bba0b3c58392"
+        },
+        {
+          "csv_line_number": 390,
+          "alpha": "0.80",
+          "question_id": "Q18",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_c47777e3bba0b3c58392"
+        },
+        {
+          "csv_line_number": 490,
+          "alpha": "0.90",
+          "question_id": "Q18",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_c47777e3bba0b3c58392"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M042",
+      "question_id": "Q16",
+      "question": "Ağır hasarlı bina ne demektir?",
+      "chunk_id": "afad_earthquake_v2_8f31059c06898d62fa39",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 89,
+      "page_end": 90,
+      "csv_rows": [
+        {
+          "csv_line_number": 381,
+          "alpha": "0.80",
+          "question_id": "Q16",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8f31059c06898d62fa39"
+        }
+      ]
+    }
+  ]
+}

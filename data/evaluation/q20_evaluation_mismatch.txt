@@ -1,0 +1,1114 @@
+========================================================================================
+Q20 Evaluation Mismatch Diagnostic
+Question: Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?
+
+Q20 direct guidance chunks: 6
+
+========================================================================================
+DIRECT_GUIDANCE Chunks
+
+chunk_id: afad_earthquake_7c69885178c1e4c7d975
+source_file: OLAY-YERİ-YÖNETİMİ-TEMEL-EĞİTİMİ-220925.pdf
+page_start: 62
+page_end: 64
+context_mismatch: false
+trace_faiss_rank: NOT_IN_TOP_100
+trace_rerank_rank: NOT_IN_TOP_100
+trace_matched_sentence: Güvenlik fonksiyonu şunlardan sorumludur: • Olayın ve müdahalenin doğurduğu risklere göre sağlık ve güvenlik bilgilerini toplamak, analiz etmek • Risk Danışmanı ile birlikte çalışarak risk kayıtlarının güvenlik ve sağlık konularını kapsamasını sağlamak • OYY fonksiyonları tarafından güvenlik konularının izlenmesi ve raporlanması için düzenlemeler oluşturmak • Vardiya değişimlerinde güvenlik faaliyetlerinin sürekliliğini sağlamak • Operasyonların ön saflarında güvenlik uygulamalarını belirlemek • Personel ihtiyacını ve gerekli teknik danışmanları belirlemek ve gerektiğinde gözden geçirmek • Diğer OYY fonksiyonları içinde Güvenlik Temsilcileri veya alt yöneticiler görevlendirmek No Güvenlik Adımı Eylem / Gereklilik Sorumlu Kişi / Birim 1 AFAD ile İletişim Güvenlik konularında sürekli iletişim kur Ekip Amiri 2 Risk Analizi OYYM, güzergahlar ve çalışma alanı için risk değerlendirmesi yap Güvenlik Sorumlusu 3 Çevre Kontrolü OYYM ve çalışma alanı çevre kontrol prosedürlerini oluştur Güvenlik Sorumlusu 4 Güvenlik Brifingi Eylem planına güvenlik hususlarını ekle Operasyon Lideri 5 Tahliye Planı Uyarı sistemi ve tahliye planını hazırla Güvenlik + Lojistik 6 Personel Kontrolü Tüm personelin düzenli yoklamasını yap Ekip Amiri 7 Eşli Sistemi Personelin eşli kuralına uymasını sağla Tüm Ekip Liderleri 8 Aydınlatma Çalışma alanı ve OYYM’da yeterli aydınlatma sağla Lojistik 9 Hava Takibi Hava tahminlerini sürekli izle Güvenlik Sorumlusu 10 Biyomedikal Önlemler Hijyen, sanitasyon, hasta bakımı önlemlerine uy Medikal Ekip 11 Kaza Raporu Tüm kazaları araştır ve raporla Güvenlik Sorumlusu 12 Dekontaminasyon Personel ve ekipmanı OYYM’ya girmeden dekontamine et HAZMAT / Lojistik 13 İletişim Tüm personelin güvenilir iletişim araçlarına sahip olmasını sağla Lojistik 14 Personel Sağlığı Dinlenme, rotasyon, sıvı alımı ve beslenme sağla Ekip Amiri Tablo 5.4.
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: false
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: false
+
+Sentence contexts:
+Context 1
+sentence_index: 9
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Güvenlik Güvenlik fonksiyonu, müdahaleye katılan herkesin güvenliğini sağlamak üzere Olay Yöneticisini destekler.
+  - Güvenlik Yöneticisi, diğer OYY fonksiyonları ve müdahaleye dahil olan kurumlarla yakın iş birliği içinde çalışır.
+  - Güvenlik fonksiyonu, kurumların kendi personelinin sağlık ve güvenliğine dair sorumluluğunu ortadan kaldırmaz.
+matched_sentence: Güvenlik fonksiyonu şunlardan sorumludur: • Olayın ve müdahalenin doğurduğu risklere göre sağlık ve güvenlik bilgilerini toplamak, analiz etmek • Risk Danışmanı ile birlikte çalışarak risk kayıtlarının güvenlik ve sağlık konularını kapsamasını sağlamak • OYY fonksiyonları tarafından güvenlik konularının izlenmesi ve raporlanması için düzenlemeler oluşturmak • Vardiya değişimlerinde güvenlik faaliyetlerinin sürekliliğini sağlamak • Operasyonların ön saflarında güvenlik uygulamalarını belirlemek • Personel ihtiyacını ve gerekli teknik danışmanları belirlemek ve gerektiğinde gözden geçirmek • Diğer OYY fonksiyonları içinde Güvenlik Temsilcileri veya alt yöneticiler görevlendirmek No Güvenlik Adımı Eylem / Gereklilik Sorumlu Kişi / Birim 1 AFAD ile İletişim Güvenlik konularında sürekli iletişim kur Ekip Amiri 2 Risk Analizi OYYM, güzergahlar ve çalışma alanı için risk değerlendirmesi yap Güvenlik Sorumlusu 3 Çevre Kontrolü OYYM ve çalışma alanı çevre kontrol prosedürlerini oluştur Güvenlik Sorumlusu 4 Güvenlik Brifingi Eylem planına güvenlik hususlarını ekle Operasyon Lideri 5 Tahliye Planı Uyarı sistemi ve tahliye planını hazırla Güvenlik + Lojistik 6 Personel Kontrolü Tüm personelin düzenli yoklamasını yap Ekip Amiri 7 Eşli Sistemi Personelin eşli kuralına uymasını sağla Tüm Ekip Liderleri 8 Aydınlatma Çalışma alanı ve OYYM’da yeterli aydınlatma sağla Lojistik 9 Hava Takibi Hava tahminlerini sürekli izle Güvenlik Sorumlusu 10 Biyomedikal Önlemler Hijyen, sanitasyon, hasta bakımı önlemlerine uy Medikal Ekip 11 Kaza Raporu Tüm kazaları araştır ve raporla Güvenlik Sorumlusu 12 Dekontaminasyon Personel ve ekipmanı OYYM’ya girmeden dekontamine et HAZMAT / Lojistik 13 İletişim Tüm personelin güvenilir iletişim araçlarına sahip olmasını sağla Lojistik 14 Personel Sağlığı Dinlenme, rotasyon, sıvı alımı ve beslenme sağla Ekip Amiri Tablo 5.4.
+next_3_sentences:
+  - Güvenlik ve Emniyet Kontrol Listesi OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 41 Güvenlik ve Emniyet Kontrol Listesi AFAD ile sürekli güvenlik iletişimi kur OYYM , ulaşım yolları ve çalışma alanı için risk değerlendirmesi yap Çevre kontrol prosedürlerini uygula Müdahale planına güvenlik hususlarını dahil et Uyarı sistemi ve tahliye planı hazırla, brifing ver Tüm personel için düzenli yoklama yap “Eşli sistem” e uyulmasını sağla OYYM ve çalışma alanı aydınlatmasını sağla Hava tahminlerini takip et Hijyen, sanitasyon, hasta bakımı vb. biyomedikal önlemlere uy Tüm kazaları araştır ve raporla Ayrılmadan önce personel/ekipman dekontaminasyonu yap Güvenilir iletişim araçlarını sağla Personelin dinlenme, rotasyon, sıvı alımı ve beslenmesini kontrol et Tablo 5.5.
+  - Güvenlik ve Emniyet 5.2.2.
+  - İrtibat Sorumlusu Büyük ölçekli olay yeri yönetimi süreçlerinde, paydaş kurum ve kuruluşlar ile olay yeri yönetimi arasındaki iletişimi sağlamakla görevli kişidir.
+
+Context 2
+sentence_index: 10
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Güvenlik Yöneticisi, diğer OYY fonksiyonları ve müdahaleye dahil olan kurumlarla yakın iş birliği içinde çalışır.
+  - Güvenlik fonksiyonu, kurumların kendi personelinin sağlık ve güvenliğine dair sorumluluğunu ortadan kaldırmaz.
+  - Güvenlik fonksiyonu şunlardan sorumludur: • Olayın ve müdahalenin doğurduğu risklere göre sağlık ve güvenlik bilgilerini toplamak, analiz etmek • Risk Danışmanı ile birlikte çalışarak risk kayıtlarının güvenlik ve sağlık konularını kapsamasını sağlamak • OYY fonksiyonları tarafından güvenlik konularının izlenmesi ve raporlanması için düzenlemeler oluşturmak • Vardiya değişimlerinde güvenlik faaliyetlerinin sürekliliğini sağlamak • Operasyonların ön saflarında güvenlik uygulamalarını belirlemek • Personel ihtiyacını ve gerekli teknik danışmanları belirlemek ve gerektiğinde gözden geçirmek • Diğer OYY fonksiyonları içinde Güvenlik Temsilcileri veya alt yöneticiler görevlendirmek No Güvenlik Adımı Eylem / Gereklilik Sorumlu Kişi / Birim 1 AFAD ile İletişim Güvenlik konularında sürekli iletişim kur Ekip Amiri 2 Risk Analizi OYYM, güzergahlar ve çalışma alanı için risk değerlendirmesi yap Güvenlik Sorumlusu 3 Çevre Kontrolü OYYM ve çalışma alanı çevre kontrol prosedürlerini oluştur Güvenlik Sorumlusu 4 Güvenlik Brifingi Eylem planına güvenlik hususlarını ekle Operasyon Lideri 5 Tahliye Planı Uyarı sistemi ve tahliye planını hazırla Güvenlik + Lojistik 6 Personel Kontrolü Tüm personelin düzenli yoklamasını yap Ekip Amiri 7 Eşli Sistemi Personelin eşli kuralına uymasını sağla Tüm Ekip Liderleri 8 Aydınlatma Çalışma alanı ve OYYM’da yeterli aydınlatma sağla Lojistik 9 Hava Takibi Hava tahminlerini sürekli izle Güvenlik Sorumlusu 10 Biyomedikal Önlemler Hijyen, sanitasyon, hasta bakımı önlemlerine uy Medikal Ekip 11 Kaza Raporu Tüm kazaları araştır ve raporla Güvenlik Sorumlusu 12 Dekontaminasyon Personel ve ekipmanı OYYM’ya girmeden dekontamine et HAZMAT / Lojistik 13 İletişim Tüm personelin güvenilir iletişim araçlarına sahip olmasını sağla Lojistik 14 Personel Sağlığı Dinlenme, rotasyon, sıvı alımı ve beslenme sağla Ekip Amiri Tablo 5.4.
+matched_sentence: Güvenlik ve Emniyet Kontrol Listesi OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 41 Güvenlik ve Emniyet Kontrol Listesi AFAD ile sürekli güvenlik iletişimi kur OYYM , ulaşım yolları ve çalışma alanı için risk değerlendirmesi yap Çevre kontrol prosedürlerini uygula Müdahale planına güvenlik hususlarını dahil et Uyarı sistemi ve tahliye planı hazırla, brifing ver Tüm personel için düzenli yoklama yap “Eşli sistem” e uyulmasını sağla OYYM ve çalışma alanı aydınlatmasını sağla Hava tahminlerini takip et Hijyen, sanitasyon, hasta bakımı vb. biyomedikal önlemlere uy Tüm kazaları araştır ve raporla Ayrılmadan önce personel/ekipman dekontaminasyonu yap Güvenilir iletişim araçlarını sağla Personelin dinlenme, rotasyon, sıvı alımı ve beslenmesini kontrol et Tablo 5.5.
+next_3_sentences:
+  - Güvenlik ve Emniyet 5.2.2.
+  - İrtibat Sorumlusu Büyük ölçekli olay yeri yönetimi süreçlerinde, paydaş kurum ve kuruluşlar ile olay yeri yönetimi arasındaki iletişimi sağlamakla görevli kişidir.
+  - Görev ve sorumlulukları şunlardır: • Paydaş kurum temsilcileri ile koordinasyon sağlamak ve Olay Yöneticisine destek vermek • Gerektiğinde veya belirli periyotlarda brifing sunmak ve soruları yanıtlamak • Kurumlar arası iletişimde stresi azaltmak, yanlış anlamaları önlemek ve açık bir dil kullanılmasını sağlamak • Tecrübeli ve iletişim becerisi yüksek bir personel tarafından yürütülmesi tercih edilir 5.2.3.
+
+Context 3
+sentence_index: 19
+matched_terms: yetkili
+previous_3_sentences:
+  - Enformasyon yönetim fonksiyonu şunlardan sorumludur: • Olaydan etkilenen topluma, doğru, sık ve zamanında bilgi sağlamak (sosyal medya, halk toplantıları, broşürler vb. aracılığıyla) • Diğer kurumların enformasyon birimleriyle koordinasyon sağlamak, • Medya ile iletişim kurmak, basın açıklamaları hazırlamak • Fotoğraf ve video sağlayarak müdahalenin şeffaf br şekilde anlatılmasına yardımcı olmak • Konuşma notları ve röportaj alanlarını hazırlamak • Stratejik İletişim ile iş birliği yaparak kamuya verilen bilgilerin tutarlılığını sağlamak • Kriz iletişim planı oluşturmak ve söylenti/yanlış bilgi yayılımını önleyecek tedbirler almak 5.3.
+  - Olay Yönetim Ekibi Oluşturma Seçenekleri Olay Yönetim Ekibinin yapısı ve fonksiyonlarının kurumun ihtiyaçlarına göre uyarlanması gerekir.
+  - Bir Olay Yönetim Ekibi oluşturma sürecinde aşağıdaki yöntemlerden biri veya birkaçı kullanılabilir: • Eğitimli: Üyeler, yerine getirecekleri olay yönetimi rolü için seçilir ve eğitilir.
+matched_sentence: • Eğitimli ve akredite/yetkili: Üyeler belirli bir olayda seçilir, eğitilir ve bu rol için akreditasyon veya yetkilendirme süreçleri uygulanır.
+next_3_sentences:
+  - • Önceden oluşturulmuş: Ekip, önceden belirlenmiş, akredite ve yetkili personelden oluşur.
+  - • Önceden konumlandırılmış: Bazı durumlarda önceden oluşturulmuş Olay Yönetim Ekipleri, olay riskine bağlı olarak önceden devreye girer ve olay başladığında operasyona hazır hale gelir.
+
+Context 4
+sentence_index: 20
+matched_terms: yetkili
+previous_3_sentences:
+  - Olay Yönetim Ekibi Oluşturma Seçenekleri Olay Yönetim Ekibinin yapısı ve fonksiyonlarının kurumun ihtiyaçlarına göre uyarlanması gerekir.
+  - Bir Olay Yönetim Ekibi oluşturma sürecinde aşağıdaki yöntemlerden biri veya birkaçı kullanılabilir: • Eğitimli: Üyeler, yerine getirecekleri olay yönetimi rolü için seçilir ve eğitilir.
+  - • Eğitimli ve akredite/yetkili: Üyeler belirli bir olayda seçilir, eğitilir ve bu rol için akreditasyon veya yetkilendirme süreçleri uygulanır.
+matched_sentence: • Önceden oluşturulmuş: Ekip, önceden belirlenmiş, akredite ve yetkili personelden oluşur.
+next_3_sentences:
+  - • Önceden konumlandırılmış: Bazı durumlarda önceden oluşturulmuş Olay Yönetim Ekipleri, olay riskine bağlı olarak önceden devreye girer ve olay başladığında operasyona hazır hale gelir.
+
+full text:
+Bilgi Teknolojisi • Koordinasyon Merkezinde bilgi teknolojisi altyapısını kurmak ve sürdürmek • Veri güvenliği ve bilgi paylaşımı için gerekli sistemleri işletmek • Gerektiğinde uzaktan erişim çözümleri sağlamak 4. İletişim • İletişim ekipmanlarının temini, kurulumu ve bakımı • Haberleşme ekipmanlarının (telsiz, uydu telefonu, GSM vb.) temini, kurulumu ve bakımını yapmak • Operasyonel İletişim Planı’nı hazırlamak ve uygulamak • Tüm mesaj trafiğini (telsiz, yazılı, dijital) kayıt altına almak ve ilgili fonksiyonlara iletmek • Büyük ölçekli olaylarda bağımsız bir fonksiyon olarak yapılandırılabilir AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 40 5.1.5. Finans ve İdare Fonksiyonu Finans ve idare fonksiyonu, olay yeri yönetiminin sürdürülebilirliğini sağlamak için kritik bir görev üstlenir. Bu fonksiyon; mali işlerin takibi, personel yönetimi ve idari süreçlerin düzenlenmesinden sorumludur. Görev ve sorumlulukları şunlardır: • Finansal harcamaları izlemek, fatura ve ödemeleri gerçekleştirmek • Nakit avans sağlamak ve kayıtlarını tutmak • Koordinasyon Merkezi için insan kaynağını sağlamak ve yönetmek • Vardiya planlaması, personel kayıtları, oryantasyon ve eğitimleri düzenlemek • Diğer Koordinasyon Merkezlerinden gelen saha personelinin karşılanması, yönlendirilmesi ve görev atamalarını yapmak • Lojistik destek ihtiyacının tespit edilmesi ve diğer birimlerle koordineli şekilde temin edilmesi 5.2. Destekleyici Fonksiyonlar 5.2.1. Güvenlik Güvenlik fonksiyonu, müdahaleye katılan herkesin güvenliğini sağlamak üzere Olay Yöneticisini destekler. Güvenlik Yöneticisi, diğer OYY fonksiyonları ve müdahaleye dahil olan kurumlarla yakın iş birliği içinde çalışır. Güvenlik fonksiyonu, kurumların kendi personelinin sağlık ve güvenliğine dair sorumluluğunu ortadan kaldırmaz. Güvenlik fonksiyonu şunlardan sorumludur: • Olayın ve müdahalenin doğurduğu risklere göre sağlık ve güvenlik bilgilerini toplamak, analiz etmek • Risk Danışmanı ile birlikte çalışarak risk kayıtlarının güvenlik ve sağlık konularını kapsamasını sağlamak • OYY fonksiyonları tarafından güvenlik konularının izlenmesi ve raporlanması için düzenlemeler oluşturmak • Vardiya değişimlerinde güvenlik faaliyetlerinin sürekliliğini sağlamak • Operasyonların ön saflarında güvenlik uygulamalarını belirlemek • Personel ihtiyacını ve gerekli teknik danışmanları belirlemek ve gerektiğinde gözden geçirmek • Diğer OYY fonksiyonları içinde Güvenlik Temsilcileri veya alt yöneticiler görevlendirmek No Güvenlik Adımı Eylem / Gereklilik Sorumlu Kişi / Birim 1 AFAD ile İletişim Güvenlik konularında sürekli iletişim kur Ekip Amiri 2 Risk Analizi OYYM, güzergahlar ve çalışma alanı için risk değerlendirmesi yap Güvenlik Sorumlusu 3 Çevre Kontrolü OYYM ve çalışma alanı çevre kontrol prosedürlerini oluştur Güvenlik Sorumlusu 4 Güvenlik Brifingi Eylem planına güvenlik hususlarını ekle Operasyon Lideri 5 Tahliye Planı Uyarı sistemi ve tahliye planını hazırla Güvenlik + Lojistik 6 Personel Kontrolü Tüm personelin düzenli yoklamasını yap Ekip Amiri 7 Eşli Sistemi Personelin eşli kuralına uymasını sağla Tüm Ekip Liderleri 8 Aydınlatma Çalışma alanı ve OYYM’da yeterli aydınlatma sağla Lojistik 9 Hava Takibi Hava tahminlerini sürekli izle Güvenlik Sorumlusu 10 Biyomedikal Önlemler Hijyen, sanitasyon, hasta bakımı önlemlerine uy Medikal Ekip 11 Kaza Raporu Tüm kazaları araştır ve raporla Güvenlik Sorumlusu 12 Dekontaminasyon Personel ve ekipmanı OYYM’ya girmeden dekontamine et HAZMAT / Lojistik 13 İletişim Tüm personelin güvenilir iletişim araçlarına sahip olmasını sağla Lojistik 14 Personel Sağlığı Dinlenme, rotasyon, sıvı alımı ve beslenme sağla Ekip Amiri Tablo 5.4. Güvenlik ve Emniyet Kontrol Listesi OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 41 Güvenlik ve Emniyet Kontrol Listesi AFAD ile sürekli güvenlik iletişimi kur OYYM , ulaşım yolları ve çalışma alanı için risk değerlendirmesi yap Çevre kontrol prosedürlerini uygula Müdahale planına güvenlik hususlarını dahil et Uyarı sistemi ve tahliye planı hazırla, brifing ver Tüm personel için düzenli yoklama yap “Eşli sistem” e uyulmasını sağla OYYM ve çalışma alanı aydınlatmasını sağla Hava tahminlerini takip et Hijyen, sanitasyon, hasta bakımı vb. biyomedikal önlemlere uy Tüm kazaları araştır ve raporla Ayrılmadan önce personel/ekipman dekontaminasyonu yap Güvenilir iletişim araçlarını sağla Personelin dinlenme, rotasyon, sıvı alımı ve beslenmesini kontrol et Tablo 5.5. Güvenlik ve Emniyet 5.2.2. İrtibat Sorumlusu Büyük ölçekli olay yeri yönetimi süreçlerinde, paydaş kurum ve kuruluşlar ile olay yeri yönetimi arasındaki iletişimi sağlamakla görevli kişidir. Görev ve sorumlulukları şunlardır: • Paydaş kurum temsilcileri ile koordinasyon sağlamak ve Olay Yöneticisine destek vermek • Gerektiğinde veya belirli periyotlarda brifing sunmak ve soruları yanıtlamak • Kurumlar arası iletişimde stresi azaltmak, yanlış anlamaları önlemek ve açık bir dil kullanılmasını sağlamak • Tecrübeli ve iletişim becerisi yüksek bir personel tarafından yürütülmesi tercih edilir 5.2.3. Enformasyon Enformasyon yönetimi, olay sırasında kamuya doğru ve zamanında bilgi vermekten sorumludur. Tüm duyurular, Olay Yöneticisinin onayıyla yapılır. Enformasyon yönetim fonksiyonu şunlardan sorumludur: • Olaydan etkilenen topluma, doğru, sık ve zamanında bilgi sağlamak (sosyal medya, halk toplantıları, broşürler vb. aracılığıyla) • Diğer kurumların enformasyon birimleriyle koordinasyon sağlamak, • Medya ile iletişim kurmak, basın açıklamaları hazırlamak • Fotoğraf ve video sağlayarak müdahalenin şeffaf br şekilde anlatılmasına yardımcı olmak • Konuşma notları ve röportaj alanlarını hazırlamak • Stratejik İletişim ile iş birliği yaparak kamuya verilen bilgilerin tutarlılığını sağlamak • Kriz iletişim planı oluşturmak ve söylenti/yanlış bilgi yayılımını önleyecek tedbirler almak 5.3. Olay Yönetim Ekibi Oluşturma Seçenekleri Olay Yönetim Ekibinin yapısı ve fonksiyonlarının kurumun ihtiyaçlarına göre uyarlanması gerekir. Bir Olay Yönetim Ekibi oluşturma sürecinde aşağıdaki yöntemlerden biri veya birkaçı kullanılabilir: • Eğitimli: Üyeler, yerine getirecekleri olay yönetimi rolü için seçilir ve eğitilir. • Eğitimli ve akredite/yetkili: Üyeler belirli bir olayda seçilir, eğitilir ve bu rol için akreditasyon veya yetkilendirme süreçleri uygulanır. • Önceden oluşturulmuş: Ekip, önceden belirlenmiş, akredite ve yetkili personelden oluşur. • Önceden konumlandırılmış: Bazı durumlarda önceden oluşturulmuş Olay Yönetim Ekipleri, olay riskine bağlı olarak önceden devreye girer ve olay başladığında operasyona hazır hale gelir.
+
+chunk_id: afad_earthquake_ba5c62ecfcc1b36c1340
+source_file: OLAY-YERİ-YÖNETİMİ-TEMEL-EĞİTİMİ-220925.pdf
+page_start: 64
+page_end: 68
+context_mismatch: false
+trace_faiss_rank: NOT_IN_TOP_100
+trace_rerank_rank: NOT_IN_TOP_100
+trace_matched_sentence: OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 41 Güvenlik ve Emniyet Kontrol Listesi AFAD ile sürekli güvenlik iletişimi kur OYYM , ulaşım yolları ve çalışma alanı için risk değerlendirmesi yap Çevre kontrol prosedürlerini uygula Müdahale planına güvenlik hususlarını dahil et Uyarı sistemi ve tahliye planı hazırla, brifing ver Tüm personel için düzenli yoklama yap “Eşli sistem” e uyulmasını sağla OYYM ve çalışma alanı aydınlatmasını sağla Hava tahminlerini takip et Hijyen, sanitasyon, hasta bakımı vb. biyomedikal önlemlere uy Tüm kazaları araştır ve raporla Ayrılmadan önce personel/ekipman dekontaminasyonu yap Güvenilir iletişim araçlarını sağla Personelin dinlenme, rotasyon, sıvı alımı ve beslenmesini kontrol et Tablo 5.5.
+
+Rule-based direct answer check:
+authority_instruction_present: false
+evacuation_context_present: true
+earthquake_context_present: true
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: false
+
+Sentence contexts:
+Context 1
+sentence_index: 1
+matched_terms: yetkili
+previous_3_sentences:
+  - Bir Olay Yönetim Ekibi oluşturma sürecinde aşağıdaki yöntemlerden biri veya birkaçı kullanılabilir: • Eğitimli: Üyeler, yerine getirecekleri olay yönetimi rolü için seçilir ve eğitilir.
+matched_sentence: • Eğitimli ve akredite/yetkili: Üyeler belirli bir olayda seçilir, eğitilir ve bu rol için akreditasyon veya yetkilendirme süreçleri uygulanır.
+next_3_sentences:
+  - • Önceden oluşturulmuş: Ekip, önceden belirlenmiş, akredite ve yetkili personelden oluşur.
+  - • Önceden konumlandırılmış: Bazı durumlarda önceden oluşturulmuş Olay Yönetim Ekipleri, olay riskine bağlı olarak önceden devreye girer ve olay başladığında operasyona hazır hale gelir.
+  - AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 42 5.4.
+
+Context 2
+sentence_index: 2
+matched_terms: yetkili
+previous_3_sentences:
+  - Bir Olay Yönetim Ekibi oluşturma sürecinde aşağıdaki yöntemlerden biri veya birkaçı kullanılabilir: • Eğitimli: Üyeler, yerine getirecekleri olay yönetimi rolü için seçilir ve eğitilir.
+  - • Eğitimli ve akredite/yetkili: Üyeler belirli bir olayda seçilir, eğitilir ve bu rol için akreditasyon veya yetkilendirme süreçleri uygulanır.
+matched_sentence: • Önceden oluşturulmuş: Ekip, önceden belirlenmiş, akredite ve yetkili personelden oluşur.
+next_3_sentences:
+  - • Önceden konumlandırılmış: Bazı durumlarda önceden oluşturulmuş Olay Yönetim Ekipleri, olay riskine bağlı olarak önceden devreye girer ve olay başladığında operasyona hazır hale gelir.
+  - AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 42 5.4.
+  - Olay Yeri Yönetiminde Kullanılacak Tesisler Olay yeri yönetim tesisleri, olay yönetim merkezi ile destek hizmetlerin yürütüldüğü alanlardır.
+
+Context 3
+sentence_index: 28
+matched_terms: yetkili
+previous_3_sentences:
+  - Ancak her durumda olayın genel kontrolü tek bir merkezde toplanır.
+  - Olay Yeri Yönetiminde Kontrol Bölgeleri Olay yönetiminde alan yönetimi kapsamında, olay yeri ve çevresi kontrol alanlarına ayrılır.
+  - Bu bölgeler; kalabalığı, trafik düzenini ve ekiplerin güvenli konuşlanmasını sağlamak amacıyla oluşturulur.
+matched_sentence: Temel amaç: • Eğitim ve donanıma sahip olmayan kişilerin riskli alanlara girmesini önlemek • Sadece yetkili ve teçhizatlı personelin çalışmasını sağlamak • Gereksiz kalabalığı ve karışıklığı önlemek • Personel güvenliğini artırmaktır.
+next_3_sentences:
+  - AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 44 Özellikle sıcak bölge adı verilen yüksek risk içeren bölgede personel takip sistemlerinin kullanımı ile tehlikeli olduğu varsayılan bölgede her zaman için kimlerin, nerede ve ne durumda olduklarını takip etmek mümkün olabilmektedir.
+  - Genel uygulama; olay yeri ve yakın çevresinin üç bölgeye ayrılmasıdır: Sıcak (Kısıtlı) Bölge Arama ve kurtarma çalışmalarında ‘Kurtarma Bölgesi’ olarak da adlandırılan bu bölgede; yalnızca tıbbi müdahale ve kurtarma çalışmalarını direkt olarak gerçekleştiren kişilerin giriş ve çıkışına izin verilir.
+  - Mümkün olan koşullarda bu bölgeye giriş ve çıkış tek bir noktadan gerçekleştirilir.
+
+Context 4
+sentence_index: 38
+matched_terms: tahliye
+previous_3_sentences:
+  - Şekil 5.3.
+  - Olay Yeri Yönetiminde Kontrol Bölgeleri Bölge Türü Tanım Sıcak Bölge Olayın doğrudan meydana geldiği, tehlikenin en yüksek olduğu alandır.
+  - Sadece müdahale ekipleri bu alanda çalışabilir.
+matched_sentence: Diğer herkes tahliye edilir.
+next_3_sentences:
+  - Ilık Bölge Sıcak bölge ile dış çevre arasında tampon bölgedir.
+  - Alana giriş-çıkışları kontrol etmek için kullanılır.
+  - Müdahale ekipleri burada hazırlanır, lojistik destek sağlanır.
+
+full text:
+Bir Olay Yönetim Ekibi oluşturma sürecinde aşağıdaki yöntemlerden biri veya birkaçı kullanılabilir: • Eğitimli: Üyeler, yerine getirecekleri olay yönetimi rolü için seçilir ve eğitilir. • Eğitimli ve akredite/yetkili: Üyeler belirli bir olayda seçilir, eğitilir ve bu rol için akreditasyon veya yetkilendirme süreçleri uygulanır. • Önceden oluşturulmuş: Ekip, önceden belirlenmiş, akredite ve yetkili personelden oluşur. • Önceden konumlandırılmış: Bazı durumlarda önceden oluşturulmuş Olay Yönetim Ekipleri, olay riskine bağlı olarak önceden devreye girer ve olay başladığında operasyona hazır hale gelir. AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 42 5.4. Olay Yeri Yönetiminde Kullanılacak Tesisler Olay yeri yönetim tesisleri, olay yönetim merkezi ile destek hizmetlerin yürütüldüğü alanlardır. Bu alanlar; çadır, karavan veya yönetim tırlarından oluşabilir. Başlıca tesis türleri: • Olay Yönetim Merkezi • Toplanma Bölgeleri • Rehabilitasyon Alanı • Ana Kamp • Kamplar • Helikopter İniş Alanları Tesis Planlaması ve Kullanımı Bir olayı yönetmek için kullanılacak tesis, olay gerçekleşmeden önce belirlenmelidir. Bu tesisler amaca uygun olarak inşa edilmiş olabileceği gibi, yönetim kurulu odası veya eğitim odası gibi çok amaçlı alanlardan da dönüştürülebilir. Dönüştürülen alanlarda; • Kurulum süresi • Kaynak ve ekipman depolama düzeni • Güvenlik ve erişim önceden planlanmalıdır. Olay yönetimi merkezinin işleyişi, çeşitli yazılım programlarıyla desteklenebilir. Sanal Olay Kontrol Merkezi yazılımını kullanacak personelin, olay yaşanmadan önce uygulamada deneyim sahibi olması önemlidir. Sistem sorunlarında teknik destek imkânı bulunmalı, stresli ortamlarda yeni yazılımların kullanımının zorlaşabileceği dikkate alınmalıdır. Gerekli Kaynaklar Bir olay yönetimi tesisi için ihtiyaç duyulabilecek başlıca unsurlar şunlardır: • İletişim altyapısı (telefon, internet) • Elektrik prizleri • Beyaz tahtalar • Bilgisayarlar ve ekranlar • Kırtasiye malzemeleri • Güncel planlar ve prosedür belgeleri • Yeterli alan ve oturma yeri • 7/24 erişim ve teknik destek Yerleşim Düzeni ve Operasyon Olay yönetim tesislerinde farklı düzenler kullanılabilir. Doğru düzen; işin niteliğine, çalışma gruplarının yapısına, bilgi paylaşımı gereksinimlerine ve hızlı uyarlanabilirliğe göre belirlenir. Yerleşik düzen, sistem erişimi, teknoloji ve kritik işlevlere yönelik yedeklemeler, Olay Yönetim Ekibinin daha hızlı faaliyete geçmesini sağlar. Tesislerin büyüklüğü ve konumu değerlendirilirken şu unsurlar dikkate alınmalıdır: • 7/24 sürekli çalışma kapasitesi • Kritik altyapı ve hizmetlerde kesinti olsa dahi operasyonun devam edebilmesi • Güvenlik ve yetkisiz erişimin engellenmesi • Sistem erişimi ve teknolojinin düzenli kontrolü Olay Yönetim Ekibi, planlar, prosedürler ve tesis kullanımı konularında önceden eğitim almalı; bu eğitimler tatbikatlarla pekiştirilmelidir. OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 43 Olay Yönetim Merkezi (Koordinasyon Merkezi) Olayın yönetildiği, Olay Yöneticisinin bulunduğu ana merkezdir. Her olay için yalnızca bir adet bulunur. Konum seçiminde: • Gürültü ve karmaşadan uzak • Mevcut ve olası tehlikelerden uzak • Olay yeri ile göz teması olan bir nokta ercih edilmelidir. Şekil 5.2. Afet ve Acil Durum Yönetim Çadırı Yerleşim Düzeni Olay yönetim yapısı kurarken, Olay Yöneticisi kontrol veya koordinasyon tesisi kurar. OYY bu tesislere “Koordinasyon Merkezleri” adını verir. Olayın büyüklüğü, karmaşıklığı ve lider kurumun yapısı, hangi Koordinasyon Merkezi üzerinden yönetileceğini belirler. Birden fazla olay varsa üst seviye bir merkezden yönetim sağlanabilir. Ancak her durumda olayın genel kontrolü tek bir merkezde toplanır. Olay Yeri Yönetiminde Kontrol Bölgeleri Olay yönetiminde alan yönetimi kapsamında, olay yeri ve çevresi kontrol alanlarına ayrılır. Bu bölgeler; kalabalığı, trafik düzenini ve ekiplerin güvenli konuşlanmasını sağlamak amacıyla oluşturulur. Temel amaç: • Eğitim ve donanıma sahip olmayan kişilerin riskli alanlara girmesini önlemek • Sadece yetkili ve teçhizatlı personelin çalışmasını sağlamak • Gereksiz kalabalığı ve karışıklığı önlemek • Personel güvenliğini artırmaktır. AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ HİZMETE ÖZEL 44 Özellikle sıcak bölge adı verilen yüksek risk içeren bölgede personel takip sistemlerinin kullanımı ile tehlikeli olduğu varsayılan bölgede her zaman için kimlerin, nerede ve ne durumda olduklarını takip etmek mümkün olabilmektedir. Genel uygulama; olay yeri ve yakın çevresinin üç bölgeye ayrılmasıdır: Sıcak (Kısıtlı) Bölge Arama ve kurtarma çalışmalarında ‘Kurtarma Bölgesi’ olarak da adlandırılan bu bölgede; yalnızca tıbbi müdahale ve kurtarma çalışmalarını direkt olarak gerçekleştiren kişilerin giriş ve çıkışına izin verilir. Mümkün olan koşullarda bu bölgeye giriş ve çıkış tek bir noktadan gerçekleştirilir. Ilık (Sınırlı Geçiş) Bölge Yalnızca sıcak bölgedeki personeli direkt olarak destekleyecek personelin girişine izin verilir. Sıcak bölgede kullanılan ekipmanı besleyen jeneratörler, enkaz içinde kurtarma yapan personel için tahkimat tahtalarını hazırlayan kesim istasyonları vb. bu bölgede yer alır. Soğuk (Destek) Bölge ‘Genel Alan’ olarak da isimlendirilen bu bölge; görev dışında olan personelin içinde bekletildiği toplanma bölgesi, olay yönetim merkezi ve enformasyon sorumlusunun bulunduğu konumu ifade eder. Şekil 5.3. Olay Yeri Yönetiminde Kontrol Bölgeleri Bölge Türü Tanım Sıcak Bölge Olayın doğrudan meydana geldiği, tehlikenin en yüksek olduğu alandır. Sadece müdahale ekipleri bu alanda çalışabilir. Diğer herkes tahliye edilir. Ilık Bölge Sıcak bölge ile dış çevre arasında tampon bölgedir. Alana giriş-çıkışları kontrol etmek için kullanılır. Müdahale ekipleri burada hazırlanır, lojistik destek sağlanır. Soğuk Bölge Tamamen güvenli alandır. Olay yönetimi, koordinasyon ve medya gibi unsurlar bu bölgede yer alır. Görev öncesi hazırlık, ekipman kontrolü, brifing, dinlenme, yemek, yeniden ikmal gibi faaliyetler için kullanılır. Tablo 5.6. Sıcak, Ilık ve Soğuk Bölge Tanımı OLAY YERİ YÖNETİMİ TEMEL EĞİTİMİ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ HİZMETE ÖZEL 45
+
+chunk_id: afad_earthquake_02a16a39e3b84aba9972
+source_file: ilk72saat1.pdf
+page_start: 44
+page_end: 46
+context_mismatch: false
+trace_faiss_rank: 72
+trace_rerank_rank: 5
+trace_matched_sentence: BaëÈnÈzÈ da kask gibi bir ëeyle koruyun. • Evin kapÈsÈnÈ arkanÈzdan kilitleyin. • Resmi yetkililer tarafÈndan tahliye baëlatÈlÈrsa ve size tahliye emri verilirse tahliye olun.
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: true
+citizen_guidance_present: true
+direct_answer: true
+context_mismatch: false
+
+Sentence contexts:
+Context 1
+sentence_index: 2
+matched_terms: yetkili, talimat
+previous_3_sentences:
+  - 34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir.
+  - Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin.
+matched_sentence: Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin.
+next_3_sentences:
+  - Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn.
+  - Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir.
+  - Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin.
+
+Context 2
+sentence_index: 3
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - 34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir.
+  - Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin.
+  - Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin.
+matched_sentence: Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn.
+next_3_sentences:
+  - Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir.
+  - Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin.
+  - Onun da afet bölgesindekilerden bu tür telefonlarÈ aldÈèÈnda, tüm bilgileri toplayÈp daha sonra arayanlara aktaracaèÈnÈ bilmesi gerekir.
+
+Context 3
+sentence_index: 15
+matched_terms: tahliye
+previous_3_sentences:
+  - Bu destek aèÈ çocuklar, engelliler veya özel ihtiyaç sahipleri için özel koëullara da uyarlanmalÈdÈr.
+  - Destek aèÈndaki kiëilerle önceden yapÈlacak düzenlemelerde iletiëim mekanizmasÈ kurulmasÈ önceliklidir.
+  - Gerekiyorsa, kiëinin özel durumuna göre destek aèÈ içerisinde bulunan kiëilerle önemli evrak kopyalarÈnÈn ve ev gibi yerlerin anahtarlarÈnÈn paylaëÈmÈ gibi konular da planlara eklenebilir.
+matched_sentence: Bölgesel Tahliye Afet sonrasÈ durumunuzu sürekli olarak deèerlendirmelisiniz.
+next_3_sentences:
+  - Bunun için basÈn ve yayÈn araçlarÈnÈ takip ederek yerel yöneticilerin talimatlarÈnÈ dinleyin; eve veya daha önce Aile Afet PlanÈ’nda belirlemië olduèunuz toplanma alanlarÈna gidebileceèiniz güvenli yollarÈ belirleyin.
+  - Bölgenizin boëaltÈlmasÈ resmen istenmiyorsa da bulunduèunuz binanÈn çevreden kaynaklanan yangÈn, sel gibi tehlikeler karëÈsÈnda güvenli olup olmamasÈna göre tahliye konusunda karar vermeniz gerekir.
+  - Eèer bina güvenli deèilse, hava ëartlarÈnÈn ve yollarÈn müsaade ettièi ölçüde daha güvenli bir bölgeye gidin.
+
+Context 4
+sentence_index: 16
+matched_terms: talimat
+previous_3_sentences:
+  - Destek aèÈndaki kiëilerle önceden yapÈlacak düzenlemelerde iletiëim mekanizmasÈ kurulmasÈ önceliklidir.
+  - Gerekiyorsa, kiëinin özel durumuna göre destek aèÈ içerisinde bulunan kiëilerle önemli evrak kopyalarÈnÈn ve ev gibi yerlerin anahtarlarÈnÈn paylaëÈmÈ gibi konular da planlara eklenebilir.
+  - Bölgesel Tahliye Afet sonrasÈ durumunuzu sürekli olarak deèerlendirmelisiniz.
+matched_sentence: Bunun için basÈn ve yayÈn araçlarÈnÈ takip ederek yerel yöneticilerin talimatlarÈnÈ dinleyin; eve veya daha önce Aile Afet PlanÈ’nda belirlemië olduèunuz toplanma alanlarÈna gidebileceèiniz güvenli yollarÈ belirleyin.
+next_3_sentences:
+  - Bölgenizin boëaltÈlmasÈ resmen istenmiyorsa da bulunduèunuz binanÈn çevreden kaynaklanan yangÈn, sel gibi tehlikeler karëÈsÈnda güvenli olup olmamasÈna göre tahliye konusunda karar vermeniz gerekir.
+  - Eèer bina güvenli deèilse, hava ëartlarÈnÈn ve yollarÈn müsaade ettièi ölçüde daha güvenli bir bölgeye gidin.
+  - Baëka bir bölgeye tahliye olurken veya böyle bir risk varken ëunlarÈ göz önünde bulundurun: • AracÈnÈz varsa deposunun her zaman en azÈndan yarÈ yarÈya dolu olmasÈna dikkat edin.
+
+Context 5
+sentence_index: 17
+matched_terms: tahliye
+previous_3_sentences:
+  - Gerekiyorsa, kiëinin özel durumuna göre destek aèÈ içerisinde bulunan kiëilerle önemli evrak kopyalarÈnÈn ve ev gibi yerlerin anahtarlarÈnÈn paylaëÈmÈ gibi konular da planlara eklenebilir.
+  - Bölgesel Tahliye Afet sonrasÈ durumunuzu sürekli olarak deèerlendirmelisiniz.
+  - Bunun için basÈn ve yayÈn araçlarÈnÈ takip ederek yerel yöneticilerin talimatlarÈnÈ dinleyin; eve veya daha önce Aile Afet PlanÈ’nda belirlemië olduèunuz toplanma alanlarÈna gidebileceèiniz güvenli yollarÈ belirleyin.
+matched_sentence: Bölgenizin boëaltÈlmasÈ resmen istenmiyorsa da bulunduèunuz binanÈn çevreden kaynaklanan yangÈn, sel gibi tehlikeler karëÈsÈnda güvenli olup olmamasÈna göre tahliye konusunda karar vermeniz gerekir.
+next_3_sentences:
+  - Eèer bina güvenli deèilse, hava ëartlarÈnÈn ve yollarÈn müsaade ettièi ölçüde daha güvenli bir bölgeye gidin.
+  - Baëka bir bölgeye tahliye olurken veya böyle bir risk varken ëunlarÈ göz önünde bulundurun: • AracÈnÈz varsa deposunun her zaman en azÈndan yarÈ yarÈya dolu olmasÈna dikkat edin.
+  - • Öncelikle aile üyelerinizle Aile Afet PlanÈ’na uygun olarak, yaëadÈèÈnÈz bölge dÈëÈnda belirlemië olduèunuz buluëma noktasÈna gitmeyi deèerlendirin.
+
+Context 6
+sentence_index: 19
+matched_terms: tahliye
+previous_3_sentences:
+  - Bunun için basÈn ve yayÈn araçlarÈnÈ takip ederek yerel yöneticilerin talimatlarÈnÈ dinleyin; eve veya daha önce Aile Afet PlanÈ’nda belirlemië olduèunuz toplanma alanlarÈna gidebileceèiniz güvenli yollarÈ belirleyin.
+  - Bölgenizin boëaltÈlmasÈ resmen istenmiyorsa da bulunduèunuz binanÈn çevreden kaynaklanan yangÈn, sel gibi tehlikeler karëÈsÈnda güvenli olup olmamasÈna göre tahliye konusunda karar vermeniz gerekir.
+  - Eèer bina güvenli deèilse, hava ëartlarÈnÈn ve yollarÈn müsaade ettièi ölçüde daha güvenli bir bölgeye gidin.
+matched_sentence: Baëka bir bölgeye tahliye olurken veya böyle bir risk varken ëunlarÈ göz önünde bulundurun: • AracÈnÈz varsa deposunun her zaman en azÈndan yarÈ yarÈya dolu olmasÈna dikkat edin.
+next_3_sentences:
+  - • Öncelikle aile üyelerinizle Aile Afet PlanÈ’na uygun olarak, yaëadÈèÈnÈz bölge dÈëÈnda belirlemië olduèunuz buluëma noktasÈna gitmeyi deèerlendirin.
+  - IX.
+  - 3.
+
+Context 7
+sentence_index: 25
+matched_terms: tahliye
+previous_3_sentences:
+  - 3.
+  - SAAT éÇéN IX.
+  - 3.
+matched_sentence: SAAT éÇéN HAZIRLIK HAZIRLIK 35 • Tavsiye edilen tahliye yollarÈnÈ takip edin.
+next_3_sentences:
+  - KÈsa yollarÈ deneyerek kendinizi tehlikeye atmayÈn.
+  - • Bölge dÈëÈndan belirlenmië olan baèlantÈ kiëilerine, gideceèiniz yer ve yol hakkÈnda bilgi verin.
+  - • KapÈnÈza da ne zaman, hangi yoldan ve nereye gittièinize dair bir not asÈn.
+
+Context 8
+sentence_index: 34
+matched_terms: yetkili, tahliye
+previous_3_sentences:
+  - • Yaya gidecekseniz uzun kollu giysiler ve kalÈn ayakkabÈlar giyin.
+  - BaëÈnÈzÈ da kask gibi bir ëeyle koruyun.
+  - • Evin kapÈsÈnÈ arkanÈzdan kilitleyin.
+matched_sentence: • Resmi yetkililer tarafÈndan tahliye baëlatÈlÈrsa ve size tahliye emri verilirse tahliye olun.
+next_3_sentences:
+  - Psikolojik élkyardÈm Birey ve ailelerde afete baèlÈ olarak geliëen travma sonrasÈ bazÈ psikolojik tepkiler ortaya çÈkar.
+  - Bu tepkilerin anlaëÈlmasÈ ve saèlanmasÈ gereken psikolojik ilkyardÈm son derece önemlidir.
+  - Kitlesel yaralanmalarÈn meydana geldièi afet durumlarÈna hazÈrlÈklÈ olmak için sosyal ve psikolojik/duygusal gereksinimler göz önüne alÈnmalÈdÈr.
+
+Context 9
+sentence_index: 40
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - Kitlesel yaralanmalarÈn meydana geldièi afet durumlarÈna hazÈrlÈklÈ olmak için sosyal ve psikolojik/duygusal gereksinimler göz önüne alÈnmalÈdÈr.
+  - Afetin, kiëilerin psikolojik durumlarÈ üzerinde yarattÈèÈ etkiler üç aëamada incelenebilir: 1.
+  - Aëama: Afet sonrasÈ ilk dönem akut aëama olarak adlandÈrÈlÈr.
+matched_sentence: Afet yaëayanlarda bu dönemde ëöyle duygular gözlenir: • Fizyolojik uyarÈlma • MantÈklÈ düëünme kapasitesinde azalma • YaëadÈklarÈna inanamama • Her ëeyin bir rüya olduèunu düëünme • Korku • KaygÈ • Suçluluk • Öfke • Gerginlik • Çaresizlik • Üzüntü • Güvensizlik DavranÈëlarda ise ëu tür deèiëiklikler gözlenebilir: • AëÈrÈ bir uyarÈlmÈëlÈk durumu • Yerinde duramama • Uyku sorunlarÈ • éëtahta deèiëiklikler • éçki/sigara kullanÈmÈnda artÈë Zihinsel olarak, bellek ve dikkatle ilgili sorunlar ortaya çÈkar ve afetzede hafÈza ve dikkatini toplayamama ëikâyetlerinden yakÈnÈr.
+next_3_sentences:
+  - Afetle ilgili tekrarlayan düëünceler ve hayaller gibi sorunlar da gözlenir.
+  - 36 2.
+  - Aëama: Bu aëamayÈ tepki aëamasÈ olarak adlandÈrabiliriz.
+
+full text:
+34 Bir Araya Gelme ve Haberleëme Afet sonrasÈ ailenizin tüm üyeleri bir arada olmayabilir. Eèer çocuèunuz okula gidiyorsa okulun afet sonrasÈ öèrencileri nerede ve nasÈl barÈndÈracaèÈnÈ ve onlarla nasÈl haberleëebileceèinizi okul yönetimine sorup öèrenin. Çocuèunuz toplanma noktasÈna kadar yürüyebilecek veya herhangi bir ulaëÈm aracÈna binebilecek kadar büyükse ondan yetkililerin talimatlarÈna uymasÈnÈ isteyin. Aile fertlerini, bir afet veya acil durumdan sonra bölge içi veya dÈëÈndaki aile baèlantÈ kiëisini mümkün olduèunda hemen aramasÈ için uyarÈn. Herkes acil bir durum veya afetten sonra fiziksel durumunu ve bulunduèu yeri haber vermelidir. Bölge dÈëÈndaki aile baèlantÈsÈnÈ oluëturan kiëinin de bu durumdan haberdar edilmesini isteyin. Onun da afet bölgesindekilerden bu tür telefonlarÈ aldÈèÈnda, tüm bilgileri toplayÈp daha sonra arayanlara aktaracaèÈnÈ bilmesi gerekir. Böylece afet bölgesinde birbirleriyle haberleëemeyenler, bölge dÈëÈndaki aile baèlantÈsÈ vasÈtasÈyla iletiëim kurmuë olacaktÈr. Aile acil durum kartlarÈndaki bölge dÈëÈndan verilen aile baèlantÈ telefonlarÈnÈn geçerlilièinden emin olmak için, bu telefon numaralarÈ arada bir aranarak kontrol edilmelidir. Bütün bunlar için depreme hazÈrlÈk çalÈëmalarÈ kapsamÈnda mutlaka yakÈn çevrenizdeki tanÈdÈklarÈnÈzla bir destek aèÈ oluëturmalÈsÈnÈz. Çünkü afetin ëiddetine ve yol açtÈèÈ zararlara baèlÈ olarak bulunduèunuz yerden tek baëÈnÈza çÈkmanÈz mümkün olmayabilir. Özellikle, kiëinin sÈklÈkla bulunduèu yerlerdeyken (ev, okul, ië) meydana gelebilecek bir depremde, kendisine kimlerin yardÈmcÈ olabileceèi belirlenmeli ve bu konuda gerekli düzenlemeler önceden yapÈlmalÈdÈr. Bu destek aèÈ çocuklar, engelliler veya özel ihtiyaç sahipleri için özel koëullara da uyarlanmalÈdÈr. Destek aèÈndaki kiëilerle önceden yapÈlacak düzenlemelerde iletiëim mekanizmasÈ kurulmasÈ önceliklidir. Gerekiyorsa, kiëinin özel durumuna göre destek aèÈ içerisinde bulunan kiëilerle önemli evrak kopyalarÈnÈn ve ev gibi yerlerin anahtarlarÈnÈn paylaëÈmÈ gibi konular da planlara eklenebilir. Bölgesel Tahliye Afet sonrasÈ durumunuzu sürekli olarak deèerlendirmelisiniz. Bunun için basÈn ve yayÈn araçlarÈnÈ takip ederek yerel yöneticilerin talimatlarÈnÈ dinleyin; eve veya daha önce Aile Afet PlanÈ’nda belirlemië olduèunuz toplanma alanlarÈna gidebileceèiniz güvenli yollarÈ belirleyin. Bölgenizin boëaltÈlmasÈ resmen istenmiyorsa da bulunduèunuz binanÈn çevreden kaynaklanan yangÈn, sel gibi tehlikeler karëÈsÈnda güvenli olup olmamasÈna göre tahliye konusunda karar vermeniz gerekir. Eèer bina güvenli deèilse, hava ëartlarÈnÈn ve yollarÈn müsaade ettièi ölçüde daha güvenli bir bölgeye gidin. Baëka bir bölgeye tahliye olurken veya böyle bir risk varken ëunlarÈ göz önünde bulundurun: • AracÈnÈz varsa deposunun her zaman en azÈndan yarÈ yarÈya dolu olmasÈna dikkat edin. • Öncelikle aile üyelerinizle Aile Afet PlanÈ’na uygun olarak, yaëadÈèÈnÈz bölge dÈëÈnda belirlemië olduèunuz buluëma noktasÈna gitmeyi deèerlendirin. IX. 3. SAAT éÇéN IX. 3. SAAT éÇéN HAZIRLIK HAZIRLIK 35 • Tavsiye edilen tahliye yollarÈnÈ takip edin. KÈsa yollarÈ deneyerek kendinizi tehlikeye atmayÈn. • Bölge dÈëÈndan belirlenmië olan baèlantÈ kiëilerine, gideceèiniz yer ve yol hakkÈnda bilgi verin. • KapÈnÈza da ne zaman, hangi yoldan ve nereye gittièinize dair bir not asÈn. • Size eëlik etmeleri için komëularÈnÈzÈ kontrol edin. • Afet ve acil durum çantanÈzÈ yanÈnÈza alÈn. • Yaya gidecekseniz uzun kollu giysiler ve kalÈn ayakkabÈlar giyin. BaëÈnÈzÈ da kask gibi bir ëeyle koruyun. • Evin kapÈsÈnÈ arkanÈzdan kilitleyin. • Resmi yetkililer tarafÈndan tahliye baëlatÈlÈrsa ve size tahliye emri verilirse tahliye olun. Psikolojik élkyardÈm Birey ve ailelerde afete baèlÈ olarak geliëen travma sonrasÈ bazÈ psikolojik tepkiler ortaya çÈkar. Bu tepkilerin anlaëÈlmasÈ ve saèlanmasÈ gereken psikolojik ilkyardÈm son derece önemlidir. Kitlesel yaralanmalarÈn meydana geldièi afet durumlarÈna hazÈrlÈklÈ olmak için sosyal ve psikolojik/duygusal gereksinimler göz önüne alÈnmalÈdÈr. Afetin, kiëilerin psikolojik durumlarÈ üzerinde yarattÈèÈ etkiler üç aëamada incelenebilir: 1. Aëama: Afet sonrasÈ ilk dönem akut aëama olarak adlandÈrÈlÈr. Afet yaëayanlarda bu dönemde ëöyle duygular gözlenir: • Fizyolojik uyarÈlma • MantÈklÈ düëünme kapasitesinde azalma • YaëadÈklarÈna inanamama • Her ëeyin bir rüya olduèunu düëünme • Korku • KaygÈ • Suçluluk • Öfke • Gerginlik • Çaresizlik • Üzüntü • Güvensizlik DavranÈëlarda ise ëu tür deèiëiklikler gözlenebilir: • AëÈrÈ bir uyarÈlmÈëlÈk durumu • Yerinde duramama • Uyku sorunlarÈ • éëtahta deèiëiklikler • éçki/sigara kullanÈmÈnda artÈë Zihinsel olarak, bellek ve dikkatle ilgili sorunlar ortaya çÈkar ve afetzede hafÈza ve dikkatini toplayamama ëikâyetlerinden yakÈnÈr. Afetle ilgili tekrarlayan düëünceler ve hayaller gibi sorunlar da gözlenir. 36 2. Aëama: Bu aëamayÈ tepki aëamasÈ olarak adlandÈrabiliriz. Bu noktada afetzede afeti hatÈrlatan her türlü durum ve uyarandan kaçÈnÈr. Kiëide ëu tepkiler gözlenir: • Gerginlik • Korku • Huzursuzluk • Depresyon • Kendini toplumdan kopuk ve yalnÈz hissetme Bu aëamada rüyalar ve kâbuslar kiëiyi rahatsÈz eder. AyrÈca hayatta kalmÈë olmak ve yeterince baëkalarÈna yardÈmcÈ olamamÈë olma duygusu suçluluèa yol açabilir. 3. Aëama: éyileëme aëamasÈdÈr. Bu dönemde afet sonrasÈ verilen tepkilerin ëiddeti azalÈr. Afetzede günlük hayata daha fazla ilgi göstermeye ve gelecekle ilgili hayaller kurup planlar yapmaya baëlar. Birey artÈk duygusal açÈdan da toparlanmÈëtÈr. SÈralanan bu üç aëama ve tepkileri afet sonrasÈ en sÈklÈkla karëÈlaëÈlan psikolojik tablodur. Ancak nasÈl ki afetler sonrasÈ bazÈ fiziksel yapÈlar çok aèÈr hasar görüyorsa, bazÈ afet yaëayanlarda da daha aèÈr psikolojik etkiler görülebilir. Travma SonrasÈ Stres Bozukluèu (TSSB) olarak tanÈmlanan bu durumda mutlaka profesyonel tedavi gerekir. Özellikle bir kaza veya afet durumunda çocuklar da yetiëkinlerden yardÈm ister. Bir olayda sizin nasÈl davrandÈèÈnÈz onlarÈn nasÈl davranmasÈ gerektièini gösterecektir. Eèer panièe kapÈlÈrsanÈz onlarÈn korkularÈ daha da artacaktÈr. Sakin davranarak, çocuklara neler olduèunu anlatÈn ve yardÈm geleceèini söyleyin. Afet sonrasÈ bölgede verilen psikolojik destek çalÈëmalarÈ, afetlere baèlÈ oluëan duygularÈn ifade edilip paylaëÈlmasÈ ve bunlarÈn “olaèanüstü bir duruma verilen olaèan tepkiler” olduèunun vurgulanmasÈ temeline oturur. Bu duygularÈn ve davranÈëlarÈn neler olduèu ve bunlarla nasÈl baëa çÈkÈlabileceèi yolunda hazÈrlanan kÈsa, anlaëÈlabilir kitapçÈklar, afetzedeleri bilgilendirmek ve yaëadÈklarÈnÈ normalleëtirmek açÈsÈndan çok önemli bir iëleve sahiptir.
+
+chunk_id: afad_earthquake_123dee12b6430478db8e
+source_file: olagandisi.pdf
+page_start: 18
+page_end: 21
+context_mismatch: false
+trace_faiss_rank: NOT_IN_TOP_100
+trace_rerank_rank: NOT_IN_TOP_100
+trace_matched_sentence: Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir. • Bireyler kendi kendilerine bölgeyi tahliye eder.
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: true
+citizen_guidance_present: true
+direct_answer: true
+context_mismatch: false
+
+Sentence contexts:
+Context 1
+sentence_index: 33
+matched_terms: yetkili, talimat
+previous_3_sentences:
+  - Bölge dışı bağlantı kişisine hangi bilgilerin verileceği önceden düşünülmeli ve bu doğrultuda SMS yazılmalıdır.
+  - Böylece eksik bilgi verilmesi ve tekrar tekrar mesaj atılması engellenmiş olur.
+  - Okul çağında çocuğunuz varsa, okulun, öğrencileri afet sonrasında nerede ve nasıl barındıracağını ve onlarla nasıl haberleşebileceğinizi okul yönetimine sorup öğrenebilirsiniz.
+matched_sentence: Çocuğunuz toplanma noktasına kadar yürüyebilecek veya herhangi bir ulaşım aracına binebilecek yaştaysa, ondan yetkililerin talimatlarına uymasını istemeniz gerekir.
+next_3_sentences:
+  - Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir.
+  - Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir.
+  - Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+
+Context 2
+sentence_index: 34
+matched_terms: talimat, tahliye
+previous_3_sentences:
+  - Böylece eksik bilgi verilmesi ve tekrar tekrar mesaj atılması engellenmiş olur.
+  - Okul çağında çocuğunuz varsa, okulun, öğrencileri afet sonrasında nerede ve nasıl barındıracağını ve onlarla nasıl haberleşebileceğinizi okul yönetimine sorup öğrenebilirsiniz.
+  - Çocuğunuz toplanma noktasına kadar yürüyebilecek veya herhangi bir ulaşım aracına binebilecek yaştaysa, ondan yetkililerin talimatlarına uymasını istemeniz gerekir.
+matched_sentence: Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir.
+next_3_sentences:
+  - Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir.
+  - Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+  - • Bireyler kendi kendilerine bölgeyi tahliye eder.
+
+Context 3
+sentence_index: 35
+matched_terms: tahliye
+previous_3_sentences:
+  - Okul çağında çocuğunuz varsa, okulun, öğrencileri afet sonrasında nerede ve nasıl barındıracağını ve onlarla nasıl haberleşebileceğinizi okul yönetimine sorup öğrenebilirsiniz.
+  - Çocuğunuz toplanma noktasına kadar yürüyebilecek veya herhangi bir ulaşım aracına binebilecek yaştaysa, ondan yetkililerin talimatlarına uymasını istemeniz gerekir.
+  - Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir.
+matched_sentence: Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir.
+next_3_sentences:
+  - Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+  - • Bireyler kendi kendilerine bölgeyi tahliye eder.
+  - Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+
+Context 4
+sentence_index: 36
+matched_terms: tahliye
+previous_3_sentences:
+  - Çocuğunuz toplanma noktasına kadar yürüyebilecek veya herhangi bir ulaşım aracına binebilecek yaştaysa, ondan yetkililerin talimatlarına uymasını istemeniz gerekir.
+  - Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir.
+  - Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir.
+matched_sentence: Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+next_3_sentences:
+  - • Bireyler kendi kendilerine bölgeyi tahliye eder.
+  - Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+  - Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+
+Context 5
+sentence_index: 37
+matched_terms: tahliye
+previous_3_sentences:
+  - Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir.
+  - Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir.
+  - Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+matched_sentence: • Bireyler kendi kendilerine bölgeyi tahliye eder.
+next_3_sentences:
+  - Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+  - Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+  - Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+
+Context 6
+sentence_index: 38
+matched_terms: tahliye
+previous_3_sentences:
+  - Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir.
+  - Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+  - • Bireyler kendi kendilerine bölgeyi tahliye eder.
+matched_sentence: Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+next_3_sentences:
+  - Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+  - Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+  - Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır.
+
+Context 7
+sentence_index: 39
+matched_terms: tahliye
+previous_3_sentences:
+  - Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir.
+  - • Bireyler kendi kendilerine bölgeyi tahliye eder.
+  - Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+matched_sentence: Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+next_3_sentences:
+  - Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+  - Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır.
+  - Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir.
+
+Context 8
+sentence_index: 40
+matched_terms: tahliye
+previous_3_sentences:
+  - • Bireyler kendi kendilerine bölgeyi tahliye eder.
+  - Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+  - Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+matched_sentence: Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+next_3_sentences:
+  - Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır.
+  - Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir.
+  - Bölgesel tahliye yapılırken acil müdahale birimleri, kolluk kuvvetleri ve askeri birliklerin, düzeni sağlamak üzere bölgede olması beklenmelidir.
+
+Context 9
+sentence_index: 41
+matched_terms: tahliye
+previous_3_sentences:
+  - Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir.
+  - Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+  - Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+matched_sentence: Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır.
+next_3_sentences:
+  - Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir.
+  - Bölgesel tahliye yapılırken acil müdahale birimleri, kolluk kuvvetleri ve askeri birliklerin, düzeni sağlamak üzere bölgede olması beklenmelidir.
+  - Yapılan yönlendirmeler aynen uygulanmalı, kişiler afet ve acil durum çantasını ve kişisel evraklarını beraberinde götürmelidir.
+
+Context 10
+sentence_index: 42
+matched_terms: tahliye
+previous_3_sentences:
+  - Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir.
+  - Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+  - Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır.
+matched_sentence: Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir.
+next_3_sentences:
+  - Bölgesel tahliye yapılırken acil müdahale birimleri, kolluk kuvvetleri ve askeri birliklerin, düzeni sağlamak üzere bölgede olması beklenmelidir.
+  - Yapılan yönlendirmeler aynen uygulanmalı, kişiler afet ve acil durum çantasını ve kişisel evraklarını beraberinde götürmelidir.
+  - ÇIKIﬁ ﬁekil 13.
+
+Context 11
+sentence_index: 43
+matched_terms: tahliye
+previous_3_sentences:
+  - Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir.
+  - Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır.
+  - Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir.
+matched_sentence: Bölgesel tahliye yapılırken acil müdahale birimleri, kolluk kuvvetleri ve askeri birliklerin, düzeni sağlamak üzere bölgede olması beklenmelidir.
+next_3_sentences:
+  - Yapılan yönlendirmeler aynen uygulanmalı, kişiler afet ve acil durum çantasını ve kişisel evraklarını beraberinde götürmelidir.
+  - ÇIKIﬁ ﬁekil 13.
+  - Afet sonrasında telefonlar çalıﬂmayabilir.
+
+Context 12
+sentence_index: 49
+matched_terms: tahliye
+previous_3_sentences:
+  - Afet sonrasında telefonlar çalıﬂmayabilir.
+  - ÇIKIﬁ 9 ÇIKIﬁ ﬁekil 12.
+  - Bölge d›ﬂ› ba¤lant› kiﬂisi belirlenmelidir.
+matched_sentence: Bölgenin boşaltılması resmi olarak istenmese de binanın yangın, sel gibi tehlikelere karşı güvenli olup olmadığına bakılarak tahliyeye karar vermek gerekir.
+next_3_sentences:
+  - Bununla birlikte tahliye emrinin verilmediği durumlarda bireysel hareket ederek bölgeyi tahliye etmek olumsuz sonuçlara yol açabilir.
+  - Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır.
+  - Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır.
+
+Context 13
+sentence_index: 50
+matched_terms: tahliye
+previous_3_sentences:
+  - ÇIKIﬁ 9 ÇIKIﬁ ﬁekil 12.
+  - Bölge d›ﬂ› ba¤lant› kiﬂisi belirlenmelidir.
+  - Bölgenin boşaltılması resmi olarak istenmese de binanın yangın, sel gibi tehlikelere karşı güvenli olup olmadığına bakılarak tahliyeye karar vermek gerekir.
+matched_sentence: Bununla birlikte tahliye emrinin verilmediği durumlarda bireysel hareket ederek bölgeyi tahliye etmek olumsuz sonuçlara yol açabilir.
+next_3_sentences:
+  - Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır.
+  - Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır.
+  - Başka bir bölgeye tahliye olurken veya böyle bir risk varken şunlara dikkat edilmelidir: • Aracınız varsa her zaman en az yarım depo benzin bulundurun.
+
+Context 14
+sentence_index: 52
+matched_terms: tahliye
+previous_3_sentences:
+  - Bölgenin boşaltılması resmi olarak istenmese de binanın yangın, sel gibi tehlikelere karşı güvenli olup olmadığına bakılarak tahliyeye karar vermek gerekir.
+  - Bununla birlikte tahliye emrinin verilmediği durumlarda bireysel hareket ederek bölgeyi tahliye etmek olumsuz sonuçlara yol açabilir.
+  - Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır.
+matched_sentence: Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır.
+next_3_sentences:
+  - Başka bir bölgeye tahliye olurken veya böyle bir risk varken şunlara dikkat edilmelidir: • Aracınız varsa her zaman en az yarım depo benzin bulundurun.
+  - • Tavsiye edilen tahliye yollarını takip edin.
+  - Kısa yolları deneyerek kendinizi tehlikeye atmayın.
+
+Context 15
+sentence_index: 53
+matched_terms: tahliye
+previous_3_sentences:
+  - Bununla birlikte tahliye emrinin verilmediği durumlarda bireysel hareket ederek bölgeyi tahliye etmek olumsuz sonuçlara yol açabilir.
+  - Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır.
+  - Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır.
+matched_sentence: Başka bir bölgeye tahliye olurken veya böyle bir risk varken şunlara dikkat edilmelidir: • Aracınız varsa her zaman en az yarım depo benzin bulundurun.
+next_3_sentences:
+  - • Tavsiye edilen tahliye yollarını takip edin.
+  - Kısa yolları deneyerek kendinizi tehlikeye atmayın.
+  - • Diğer araçları riske atacak şekilde araç kullanmayın.
+
+Context 16
+sentence_index: 54
+matched_terms: tahliye
+previous_3_sentences:
+  - Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır.
+  - Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır.
+  - Başka bir bölgeye tahliye olurken veya böyle bir risk varken şunlara dikkat edilmelidir: • Aracınız varsa her zaman en az yarım depo benzin bulundurun.
+matched_sentence: • Tavsiye edilen tahliye yollarını takip edin.
+next_3_sentences:
+  - Kısa yolları deneyerek kendinizi tehlikeye atmayın.
+  - • Diğer araçları riske atacak şekilde araç kullanmayın.
+  - • Bölge dışı bağlantı kişisine, gideceğiniz yer ve yol hakkında bilgi verin.
+
+full text:
+Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir. Bir kişi kendi sağlığından emin olup sonra ailesine ulaşmak ve onların iyi olduğundan haberdar olmak isteyecek; daha sonra sıra çeşitli yakınlık derecelerindeki akraba ve arkadaşlara gelecektir. Bu durumda iki olasılığı düşünmek gerekir. Bunlardan biri depreme tüm ailenin bir arada olduğu bir anda yakalanılmasıdır. Bu durumda aile bireyleriyle buluşmaya gerek kalmayacak, diğer yakınlardan ve arkadaşlardan haber alma ihtiyacı doğacaktır. Diğer bir olasılık aile bireylerinin tümünün aynı yerde olmamasıdır. Bu durumda kişi, ailesinden haber almakla yetinmeyecek, onlarla bir araya gelmek isteyecektir. Afet sonrası haberleşme için iki farklı yol izlenebilir. Bu yollardan ilki, bölge dışından bir bağlantı kişisi tespit etmektir. Afet sonrasında kablo hattına bağlı telefonların uzun süre çalışmayabileceği unutulmamalıdır. Bununla birlikte cep telefonları, baz istasyonları yıkılmadığı müddetçe muhtemelen çalışabilecek durumda olacaktır. Fakat aynı anda herkes cep telefonuyla yakınlarını aramaya başladığında kapasite aşılacak ve şebeke kilitlenecektir. Bu tür zamanlarda SMS kanalıyla, afetten etkilenen bölgenin dışına ulaşmak daha kolay olabilir. ﬁekil 10. Yerinde s›¤›nak ad›mlar›. 8 ﬁekil 11. Önceden bir toplanma yeri belirlenmelidir. Bulunulan şehir dışında ikamet eden bir akraba veya arkadaş, bölge dışı bağlantı kişisi olarak belirlenmelidir. Başkentte yaşayan akraba veya arkadaşlar bölge dışı bağlantı kişisi olarak seçilmemelidir. Afetin hemen ardından ilgili bilgi bu kişiye SMS yoluyla aktarılabilir. Bütün aile ve yakınları aynı kişiyle bağlantı kurmalı, bölge dışında bulunan diğer akrabalar ve yakınlar da bu kişiyi arayıp bilgi almalıdır. Özellikle birbirine yakın ikamet eden kişiler için geçerli olan ikinci yola göre ise, bölgedeki bir park veya herkesçe bilinen, deprem sonrasında emniyetli olabilecek bir yer buluşma yeri olarak belirlenir. Bu sayede herkes aynı yerde buluşabilir ve telefonla haberleşme ihtiyacı böylelikle ortadan kaldırılmış olur. Bu yol özellikle aile fertlerinin afet anında bir arada olmadığı durumlarda, afetten sonra buluşmak için kullanılmalıdır. Afete, buluşma noktasına gidilmesi imkânsız bir yerdeyken yakalanılması durumunda ise, bölge dışı bağlantı kişisiyle irtibata geçilmeli ve gerekli bilgiler bu kişiye tercihen SMS yoluyla iletilmelidir. Bölge dışı bağlantı kişisine hangi bilgilerin verileceği önceden düşünülmeli ve bu doğrultuda SMS yazılmalıdır. Böylece eksik bilgi verilmesi ve tekrar tekrar mesaj atılması engellenmiş olur. Okul çağında çocuğunuz varsa, okulun, öğrencileri afet sonrasında nerede ve nasıl barındıracağını ve onlarla nasıl haberleşebileceğinizi okul yönetimine sorup öğrenebilirsiniz. Çocuğunuz toplanma noktasına kadar yürüyebilecek veya herhangi bir ulaşım aracına binebilecek yaştaysa, ondan yetkililerin talimatlarına uymasını istemeniz gerekir. Bölgesel Tahliye Afet sonrasında basın yayın araçlarının ve yerel yöneticilerin talimatları sürekli takip edilmelidir. Eğer bir bölge tamamıyla risk altındaysa bölgesel tahliye yapılabilir. Bölgesel tahliye iki türlü gerçekleşebilir: • Resmi makamlar tahliye emri verir. • Bireyler kendi kendilerine bölgeyi tahliye eder. Eğer resmi makamlar tahliye emri verdiyse, bu emre uyulması gerekir. Zira tahliye emrinin verilmesi, bölgede insan hayatını tehdit eden çok ciddi bir risk bulunduğunu gösterir. Bu nedenle, tehlike altındaki bölge hızlı fakat düzenli bir şekilde tahliye edilmelidir. Bölgesel tahliye için resmi makamlardan gelecek emir radyo ve televizyonlar kanalıyla yayınlanacaktır. Bununla beraber, acil müdahale ekipleri tahliyeye destek verecektir. Bölgesel tahliye yapılırken acil müdahale birimleri, kolluk kuvvetleri ve askeri birliklerin, düzeni sağlamak üzere bölgede olması beklenmelidir. Yapılan yönlendirmeler aynen uygulanmalı, kişiler afet ve acil durum çantasını ve kişisel evraklarını beraberinde götürmelidir. ÇIKIﬁ ﬁekil 13. Afet sonrasında telefonlar çalıﬂmayabilir. ÇIKIﬁ 9 ÇIKIﬁ ﬁekil 12. Bölge d›ﬂ› ba¤lant› kiﬂisi belirlenmelidir. Bölgenin boşaltılması resmi olarak istenmese de binanın yangın, sel gibi tehlikelere karşı güvenli olup olmadığına bakılarak tahliyeye karar vermek gerekir. Bununla birlikte tahliye emrinin verilmediği durumlarda bireysel hareket ederek bölgeyi tahliye etmek olumsuz sonuçlara yol açabilir. Depremin ilk saatlerinde yollar hakkında fikir sahibi olmak güçtür; ayrıca yola araçla çıkmak gereksiz bir trafik yükü yaratacak, müdahale araçlarının geçişini zorlaştıracaktır. Dolayısıyla tahliye emri verilmediği durumlarda, eğer söz konusu bölgede kalmak hayati tehlike içermiyorsa (tsunami, kimyasal serpinti, vb.) bölgesel tahliye yapılmamalıdır. Başka bir bölgeye tahliye olurken veya böyle bir risk varken şunlara dikkat edilmelidir: • Aracınız varsa her zaman en az yarım depo benzin bulundurun. • Tavsiye edilen tahliye yollarını takip edin. Kısa yolları deneyerek kendinizi tehlikeye atmayın. • Diğer araçları riske atacak şekilde araç kullanmayın. • Bölge dışı bağlantı kişisine, gideceğiniz yer ve yol hakkında bilgi verin. • Kapınıza ne zaman ayrıldığınızı, hangi yoldan ve nereye gittiğinizi bildiren bir not asın. • Size eşlik etmeleri için komşularınızı da gidişinizden haberdar edin. • Afet ve Acil Durum Çantanızı yanınıza alın. • Yaya olarak gidecekseniz uzun kollu giysiler ve kalın ayakkabılar giyin. Özellikle başınızı tehlikelere karşı koruyacak (baret, vs.) bir koruyucu kullanın. • Evinizin kapısını kilitleyin. 10 Enkaz Altında Hayatın İdamesi Binanın tamamıyla yıkılması ve enkaz altında kalınması, deprem durumunda gerçekleşebilecek en olumsuz ihtimallerdir. Ancak böyle bir durumda dahi hayatta kalma olasılığı vardır. Böyle bir durumda sakin olmak ve sağlıklı bir durum değerlendirmesi yapmak her şeyden önemlidir; zira afetzedelerin enkaz altında sahip olduğu en büyük güç moraldir. Morali yüksek tutmak her zaman ve her koşulda olumlu sonuç verir; güçlü bir psikoloji, dayanıklılığı ve umudu artırır.
+
+chunk_id: afad_earthquake_8582c1630cc44a410c0d
+source_file: KARS-IRAP.pdf
+page_start: 105
+page_end: 106
+context_mismatch: true
+trace_faiss_rank: 80
+trace_rerank_rank: 54
+trace_matched_sentence: Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: false
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: true
+
+Sentence contexts:
+Context 1
+sentence_index: 0
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - NONE
+matched_sentence: 96 Taşkın Tahmini ve Erken Uyarı Taşkınlar önceden tahmin edilebilir afetlerdendir.
+next_3_sentences:
+  - Bu sebeple tahmin ve erken uyarı sistemleri taşkın yönetiminde kullanılmakta olan, can ve mal kayıplarını önlemek açısından önemli tedbirlerdendir.
+  - ERKEN UYARI VE TAHLİYE Özellikle ani taşkınlarda akarsuların aşağı kesimlerindeki halkın uyarılması ve bu bölgelerin boşatılması için çok kısa bir süre vardır.
+  - Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir.
+
+Context 2
+sentence_index: 1
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - 96 Taşkın Tahmini ve Erken Uyarı Taşkınlar önceden tahmin edilebilir afetlerdendir.
+matched_sentence: Bu sebeple tahmin ve erken uyarı sistemleri taşkın yönetiminde kullanılmakta olan, can ve mal kayıplarını önlemek açısından önemli tedbirlerdendir.
+next_3_sentences:
+  - ERKEN UYARI VE TAHLİYE Özellikle ani taşkınlarda akarsuların aşağı kesimlerindeki halkın uyarılması ve bu bölgelerin boşatılması için çok kısa bir süre vardır.
+  - Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir.
+  - Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar.
+
+Context 3
+sentence_index: 2
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - 96 Taşkın Tahmini ve Erken Uyarı Taşkınlar önceden tahmin edilebilir afetlerdendir.
+  - Bu sebeple tahmin ve erken uyarı sistemleri taşkın yönetiminde kullanılmakta olan, can ve mal kayıplarını önlemek açısından önemli tedbirlerdendir.
+matched_sentence: ERKEN UYARI VE TAHLİYE Özellikle ani taşkınlarda akarsuların aşağı kesimlerindeki halkın uyarılması ve bu bölgelerin boşatılması için çok kısa bir süre vardır.
+next_3_sentences:
+  - Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir.
+  - Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar.
+  - Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir.
+
+Context 4
+sentence_index: 4
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - Bu sebeple tahmin ve erken uyarı sistemleri taşkın yönetiminde kullanılmakta olan, can ve mal kayıplarını önlemek açısından önemli tedbirlerdendir.
+  - ERKEN UYARI VE TAHLİYE Özellikle ani taşkınlarda akarsuların aşağı kesimlerindeki halkın uyarılması ve bu bölgelerin boşatılması için çok kısa bir süre vardır.
+  - Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir.
+matched_sentence: Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar.
+next_3_sentences:
+  - Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir.
+  - Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir.
+  - Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+
+Context 5
+sentence_index: 5
+matched_terms: tahliye
+previous_3_sentences:
+  - ERKEN UYARI VE TAHLİYE Özellikle ani taşkınlarda akarsuların aşağı kesimlerindeki halkın uyarılması ve bu bölgelerin boşatılması için çok kısa bir süre vardır.
+  - Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir.
+  - Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar.
+matched_sentence: Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir.
+next_3_sentences:
+  - Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir.
+  - Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+  - Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+
+Context 6
+sentence_index: 6
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir.
+  - Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar.
+  - Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir.
+matched_sentence: Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir.
+next_3_sentences:
+  - Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+  - Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+
+Context 7
+sentence_index: 7
+matched_terms: tahliye
+previous_3_sentences:
+  - Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar.
+  - Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir.
+  - Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir.
+matched_sentence: Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+next_3_sentences:
+  - Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+
+Context 8
+sentence_index: 8
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir.
+  - Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir.
+  - Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+matched_sentence: Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+next_3_sentences:
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+
+Context 9
+sentence_index: 9
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir.
+  - Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+  - Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+matched_sentence: Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+next_3_sentences:
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+
+Context 10
+sentence_index: 10
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019).
+  - Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+matched_sentence: İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+next_3_sentences:
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+
+Context 11
+sentence_index: 11
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+matched_sentence: Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+next_3_sentences:
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir.
+
+Context 12
+sentence_index: 12
+matched_terms: tahliye
+previous_3_sentences:
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019).
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+matched_sentence: Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+next_3_sentences:
+  - Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir.
+  - Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+
+Context 13
+sentence_index: 13
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+matched_sentence: Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+next_3_sentences:
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir.
+  - Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+
+Context 14
+sentence_index: 14
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+matched_sentence: Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir.
+next_3_sentences:
+  - Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi, bu konudaki hazırlıklara vatandaşın da katılımı ve eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+
+Context 15
+sentence_index: 15
+matched_terms: talimat, tahliye
+previous_3_sentences:
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir.
+matched_sentence: Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+next_3_sentences:
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi, bu konudaki hazırlıklara vatandaşın da katılımı ve eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - Taşkın riskinde olanlar tahliye emri aldığında, evini ya da iş yerini hemen terk edip güvenli bir bölgede bulunan arkadaşı, akrabası ya daha önceden belirlenmiş olan toplu barınma yerine gidebilmesi gerekir.
+
+Context 16
+sentence_index: 16
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir.
+  - Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+matched_sentence: Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+next_3_sentences:
+  - Bunun için taşkından önce yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi, bu konudaki hazırlıklara vatandaşın da katılımı ve eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - Taşkın riskinde olanlar tahliye emri aldığında, evini ya da iş yerini hemen terk edip güvenli bir bölgede bulunan arkadaşı, akrabası ya daha önceden belirlenmiş olan toplu barınma yerine gidebilmesi gerekir.
+  - Bunun için de taşkın erken uyarısı, insanlara bu taşkına ve tahliyeye hazırlık ile birlikte güvenli yere ulaşım için yeterli zamanı sağlamalıdır.
+
+Context 17
+sentence_index: 18
+matched_terms: tahliye
+previous_3_sentences:
+  - Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi, bu konudaki hazırlıklara vatandaşın da katılımı ve eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+matched_sentence: Taşkın riskinde olanlar tahliye emri aldığında, evini ya da iş yerini hemen terk edip güvenli bir bölgede bulunan arkadaşı, akrabası ya daha önceden belirlenmiş olan toplu barınma yerine gidebilmesi gerekir.
+next_3_sentences:
+  - Bunun için de taşkın erken uyarısı, insanlara bu taşkına ve tahliyeye hazırlık ile birlikte güvenli yere ulaşım için yeterli zamanı sağlamalıdır.
+  - Maalesef özellikle ani taşkınlarda bu mümkün olamamaktadır.
+  - Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır.
+
+Context 18
+sentence_index: 19
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi, bu konudaki hazırlıklara vatandaşın da katılımı ve eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - Taşkın riskinde olanlar tahliye emri aldığında, evini ya da iş yerini hemen terk edip güvenli bir bölgede bulunan arkadaşı, akrabası ya daha önceden belirlenmiş olan toplu barınma yerine gidebilmesi gerekir.
+matched_sentence: Bunun için de taşkın erken uyarısı, insanlara bu taşkına ve tahliyeye hazırlık ile birlikte güvenli yere ulaşım için yeterli zamanı sağlamalıdır.
+next_3_sentences:
+  - Maalesef özellikle ani taşkınlarda bu mümkün olamamaktadır.
+  - Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır.
+  - Hatta daha kötüsü, tahliye sırasında insanların yolda taşkın sularına yakalanma tehlikesi her zaman göz önünde bulundurulması gereken bir konudur. (SYGM, 2019).
+
+Context 19
+sentence_index: 21
+matched_terms: tahliye
+previous_3_sentences:
+  - Taşkın riskinde olanlar tahliye emri aldığında, evini ya da iş yerini hemen terk edip güvenli bir bölgede bulunan arkadaşı, akrabası ya daha önceden belirlenmiş olan toplu barınma yerine gidebilmesi gerekir.
+  - Bunun için de taşkın erken uyarısı, insanlara bu taşkına ve tahliyeye hazırlık ile birlikte güvenli yere ulaşım için yeterli zamanı sağlamalıdır.
+  - Maalesef özellikle ani taşkınlarda bu mümkün olamamaktadır.
+matched_sentence: Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır.
+next_3_sentences:
+  - Hatta daha kötüsü, tahliye sırasında insanların yolda taşkın sularına yakalanma tehlikesi her zaman göz önünde bulundurulması gereken bir konudur. (SYGM, 2019).
+  - Tahliyenin Sona Ermesi: Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+  - Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir.
+
+Context 20
+sentence_index: 22
+matched_terms: tahliye
+previous_3_sentences:
+  - Bunun için de taşkın erken uyarısı, insanlara bu taşkına ve tahliyeye hazırlık ile birlikte güvenli yere ulaşım için yeterli zamanı sağlamalıdır.
+  - Maalesef özellikle ani taşkınlarda bu mümkün olamamaktadır.
+  - Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır.
+matched_sentence: Hatta daha kötüsü, tahliye sırasında insanların yolda taşkın sularına yakalanma tehlikesi her zaman göz önünde bulundurulması gereken bir konudur. (SYGM, 2019).
+next_3_sentences:
+  - Tahliyenin Sona Ermesi: Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+  - Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir.
+  - Taşkından etkilenebilecek nüfuslar dikkate alınarak nüfus projeksiyonları hesaplanmış olup Tablo 2.18’de verilmektedir (SYGM, 2019).
+
+Context 21
+sentence_index: 23
+matched_terms: tahliye
+previous_3_sentences:
+  - Maalesef özellikle ani taşkınlarda bu mümkün olamamaktadır.
+  - Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır.
+  - Hatta daha kötüsü, tahliye sırasında insanların yolda taşkın sularına yakalanma tehlikesi her zaman göz önünde bulundurulması gereken bir konudur. (SYGM, 2019).
+matched_sentence: Tahliyenin Sona Ermesi: Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+next_3_sentences:
+  - Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir.
+  - Taşkından etkilenebilecek nüfuslar dikkate alınarak nüfus projeksiyonları hesaplanmış olup Tablo 2.18’de verilmektedir (SYGM, 2019).
+  - Tablo 2.18.
+
+Context 22
+sentence_index: 24
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır.
+  - Hatta daha kötüsü, tahliye sırasında insanların yolda taşkın sularına yakalanma tehlikesi her zaman göz önünde bulundurulması gereken bir konudur. (SYGM, 2019).
+  - Tahliyenin Sona Ermesi: Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+matched_sentence: Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir.
+next_3_sentences:
+  - Taşkından etkilenebilecek nüfuslar dikkate alınarak nüfus projeksiyonları hesaplanmış olup Tablo 2.18’de verilmektedir (SYGM, 2019).
+  - Tablo 2.18.
+  - Taşkından Etkilenen Nüfus Projeksiyonları (SYGM, 2019) TAŞKIN SONRASI YAPILACAK FAALİYETLER Taşkın yataklarında güvenli bir düzene ulaşmak için iki temel yol vardır.
+
+full text:
+96 Taşkın Tahmini ve Erken Uyarı Taşkınlar önceden tahmin edilebilir afetlerdendir. Bu sebeple tahmin ve erken uyarı sistemleri taşkın yönetiminde kullanılmakta olan, can ve mal kayıplarını önlemek açısından önemli tedbirlerdendir. ERKEN UYARI VE TAHLİYE Özellikle ani taşkınlarda akarsuların aşağı kesimlerindeki halkın uyarılması ve bu bölgelerin boşatılması için çok kısa bir süre vardır. Bu yüzden bu bölgelere yerleşmiş insanların, olası bir taşkın tehlikesi karşısında bölgeyi mümkün olduğunca çabuk, diğer bir ifadeyle, mümkünse hemen boşaltabilecek şekilde hazır olmaları gerekir. Bu hazırlık, "Erken Uyarı Sistemi"nde olduğu gibi tahmin ile başlar. Beklenen taşkın tehlikesi izlenirken halk tahliyeye hazır bir şekilde beklemelidir. Taşkın oluştuğu ya da oluşmak üzere olduğuna dair uyarı yapıldığında tahmin ve izleme aşamasında tahliyeye hazırlanmış olan halkın gecikmeden harekete geçmesi gerekir. Aras Havzası'nda taşkın alanlarına göre tahliye bölgeleri ve buralara ulaşım bilgileri rapora ek haritalar ile verilmektedir (SYGM, 2019). Tahliyenin Üç Aşaması: Tahliye Uyarısı: Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar. Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır (SYGM, 2019). İlk Uyarıda Dikkat Edilmesi Gereken Konular: Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, Su geçirmez giysi ve ayakkabı giymeleri, Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi, Tahliye Emri: Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir. Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır. Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir. Tahliye emri; riskte olan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an (daha önce ilk uyarı ile harekete geçmek üzere tahliyeye hazır olan halka tahliye planlarına uygun bir şekilde verilir. Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, 97 zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini riskte olanlara tebliğ etmelidir. Risk altında olan halkın, verilen talimatlara uyması tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir. Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir. Bunun için taşkından önce yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi, bu konudaki hazırlıklara vatandaşın da katılımı ve eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır. Taşkın riskinde olanlar tahliye emri aldığında, evini ya da iş yerini hemen terk edip güvenli bir bölgede bulunan arkadaşı, akrabası ya daha önceden belirlenmiş olan toplu barınma yerine gidebilmesi gerekir. Bunun için de taşkın erken uyarısı, insanlara bu taşkına ve tahliyeye hazırlık ile birlikte güvenli yere ulaşım için yeterli zamanı sağlamalıdır. Maalesef özellikle ani taşkınlarda bu mümkün olamamaktadır. Bu nedenle başka bir bölgeye tahliyenin her zaman mümkün olamayacağı da unutulmamalıdır. Hatta daha kötüsü, tahliye sırasında insanların yolda taşkın sularına yakalanma tehlikesi her zaman göz önünde bulundurulması gereken bir konudur. (SYGM, 2019). Tahliyenin Sona Ermesi: Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir. Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir. Taşkından etkilenebilecek nüfuslar dikkate alınarak nüfus projeksiyonları hesaplanmış olup Tablo 2.18’de verilmektedir (SYGM, 2019). Tablo 2.18. Taşkından Etkilenen Nüfus Projeksiyonları (SYGM, 2019) TAŞKIN SONRASI YAPILACAK FAALİYETLER Taşkın yataklarında güvenli bir düzene ulaşmak için iki temel yol vardır. Birincisi; taşkın olmadan önce yerleşim biriminde (taşkından zarar görme olasılığı bulunan bölgede) yapılan risk azaltma uygulamalarıdır. İkincisi ise; bu bölümde ele alınacak olan taşkın sonrasında taşkından zarar görmüş olan yerleşim biriminde 'iyileştirme' ve 'yenilenme' çalışmalarıdır. Bununla beraber, taşkın risk yönetiminde yapılacak olan sistematik çalışmalar ile taşkınların neden olabileceği olumsuz etkileri en baştan önlemek, taşkın sonrası iyileştirme çalışmalarını önemli ölçüde azaltmak taşkın yönetiminin temel hedefidir. İyileştirme çalışmaları ne kadar başarılı olursa olsun asla taşkında oluşabilecek can ve mal kayıplarını yerine getiremez. Taşkınlar ile ortaya çıkan acil duruma ilişkin görevlerin (arama ve kurtarma çalışmaları, geçici barınma, sağlık ve günlük ihtiyaçların karşılanması, vb.) yerine getirilmesinden sonra yerel toplulukların ve bireylerin elden geldiğince ivedilikle taşkın öncesi yaşam koşullarına
+
+chunk_id: afad_earthquake_db32c9500f3762921dbd
+source_file: SivasIRAP.pdf
+page_start: 142
+page_end: 143
+context_mismatch: true
+trace_faiss_rank: 3
+trace_rerank_rank: 18
+trace_matched_sentence: Ayrıca, bölge sakinleri tahliye emri verildiğinde yanlarında götürebilecekleri eşyaları önceden hazırlamış olmalıdır.
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: false
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: true
+
+Sentence contexts:
+Context 1
+sentence_index: 1
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Ayrıca, bu merkezlerde parçalanmış ailelerin birleştirilmesine yönelik çalışmaların da yapılması gerekeceği unutulmamalıdır.
+matched_sentence: Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+next_3_sentences:
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır.
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+
+Context 2
+sentence_index: 2
+matched_terms: uyarı, uyari
+previous_3_sentences:
+  - Ayrıca, bu merkezlerde parçalanmış ailelerin birleştirilmesine yönelik çalışmaların da yapılması gerekeceği unutulmamalıdır.
+  - Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+matched_sentence: Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır.
+next_3_sentences:
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+
+Context 3
+sentence_index: 3
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Ayrıca, bu merkezlerde parçalanmış ailelerin birleştirilmesine yönelik çalışmaların da yapılması gerekeceği unutulmamalıdır.
+  - Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır.
+matched_sentence: İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+next_3_sentences:
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+
+Context 4
+sentence_index: 4
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar.
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır.
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+matched_sentence: Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+next_3_sentences:
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir.
+
+Context 5
+sentence_index: 5
+matched_terms: tahliye
+previous_3_sentences:
+  - Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır.
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+matched_sentence: Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+next_3_sentences:
+  - Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir.
+  - Risk altında olan halkın verilen talimatlara uyması, tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+
+Context 6
+sentence_index: 6
+matched_terms: tahliye
+previous_3_sentences:
+  - İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir.
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+matched_sentence: Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+next_3_sentences:
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir.
+  - Risk altında olan halkın verilen talimatlara uyması, tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+
+Context 7
+sentence_index: 7
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır.
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+matched_sentence: Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir.
+next_3_sentences:
+  - Risk altında olan halkın verilen talimatlara uyması, tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce, yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi amacıyla eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+
+Context 8
+sentence_index: 8
+matched_terms: talimat, tahliye
+previous_3_sentences:
+  - Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir.
+  - Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir.
+matched_sentence: Risk altında olan halkın verilen talimatlara uyması, tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+next_3_sentences:
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce, yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi amacıyla eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - 3.
+
+Context 9
+sentence_index: 9
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir.
+  - Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir.
+  - Risk altında olan halkın verilen talimatlara uyması, tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir.
+matched_sentence: Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+next_3_sentences:
+  - Bunun için taşkından önce, yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi amacıyla eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - 3.
+  - Tahliyenin Sona Ermesi Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+
+Context 10
+sentence_index: 12
+matched_terms: tahliye
+previous_3_sentences:
+  - Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir.
+  - Bunun için taşkından önce, yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi amacıyla eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - 3.
+matched_sentence: Tahliyenin Sona Ermesi Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+next_3_sentences:
+  - Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir.
+  - Taşkın Sonrası Yapılacak Faaliyetler Taşkın yataklarında güvenli bir düzene ulaşmak için iki temel yol vardır.
+  - Birincisi; taşkın olmadan önce yerleşim biriminde (taşkından zarar görme olasılığı bulunan bölgede) yapılan risk azaltma uygulamalarıdır.
+
+Context 11
+sentence_index: 13
+matched_terms: tahliye, uyarı, uyari
+previous_3_sentences:
+  - Bunun için taşkından önce, yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi amacıyla eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır.
+  - 3.
+  - Tahliyenin Sona Ermesi Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir.
+matched_sentence: Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir.
+next_3_sentences:
+  - Taşkın Sonrası Yapılacak Faaliyetler Taşkın yataklarında güvenli bir düzene ulaşmak için iki temel yol vardır.
+  - Birincisi; taşkın olmadan önce yerleşim biriminde (taşkından zarar görme olasılığı bulunan bölgede) yapılan risk azaltma uygulamalarıdır.
+  - İkincisi ise; bu bölümde ele alınacak olan taşkın sonrasında taşkından zarar görmüş olan yerleşim biriminde ‘iyileştirme’ ve ‘yenilenme’ çalışmalarıdır.
+
+full text:
+Ayrıca, bu merkezlerde parçalanmış ailelerin birleştirilmesine yönelik çalışmaların da yapılması gerekeceği unutulmamalıdır. Tahliyenin Aşamalaları 1.Tahliye Uyarısı Havza veya il genelindeki erken uyarı sistemi can ve mal kaybını azaltmak için ilk uyarıda halkı harekete geçebilecek şekilde tahliyeye hazırlanmaları için bir uyarı yayımlar. Bu ilk uyarı, süresi bir kaç günden bir kaç saate değişen hava tahminlerine veya taşkın gözlenmesine dayalı olarak yerel medya ya da diğer şekillerde yapılmalıdır. İlk Uyarıda Dikkat Edilmesi Gereken Konular: 1) Halka yapılacak uyarı ve bilgilendirmelerde afet çantalarına temel malzemelerden başka ve aşırı miktarlarda bir şey koymamaları, 2) Su geçirmez giysi ve ayakkabı giymeleri, 3) Terk edilen ev, iş yeri ve binalar için mutlaka güvenlik güçlerinin mal ve mülk güvenliğini sağlayacağının bilinmesi, Sayfa | 139 4) Ulaşım için yardıma ihtiyacı olanların nerede toplanacağı ya da nereye başvuracağına dair verilen bilgilere önemle dikkat etmeleri, 5) Yaşlılar, engelliler ve diğer özel ihtiyaç sahibi kişilerin hemen tahliyeye hazırlanması ve hayvanların da güvenli alanlara (başka bir uyarı beklemeden) hemen taşınması, 6) Tahliye edilince toplu barınaklar yerine güvenli bir bölgede bulunan akrabasının yanına ya da başka bir özel yere gitmek isteyenlerin (başka bir uyarı beklemeden) hemen gitmesi gerektiği, bu vatandaşların yerel yönetimlere ya da komşularına bu konuda bilgi vererek harekete geçmesi 2.Tahliye Emri Tahliye emri verildiğinde halk, tehlike bölgesini sadece tahliye yolu olarak daha önceden belirlenmiş ve duyurulmuş olan güvenli yolları kullanarak hemen terk etmelidir. Tahliye yolları, taşkın bölgesinden çıkış yönünde tek yönlü trafik ile olacaktır. Tahliye yollarındaki emniyet şeritleri sadece acil durum araçlarının kullanımına tahsis edilecek ve taşkın bölgesine görevliler dışında girişler engellenecektir. Tahliye emri; risk altında bulunan halkın hayatını kaybetme ya da yaralanma potansiyeli oluştuğu an, tahliye planlarına uygun bir şekilde verilir. Yerel basın ve diğer tüm iletişim kanalları ile birlikte polis, jandarma, itfaiye, zabıta, arama ve kurtarma ekipleri gerekirse kapı kapı dolaşarak tahliye emrini risk altında bulunanlara tebliğ etmelidir. Risk altında olan halkın verilen talimatlara uyması, tahliyenin güvenli ve düzenli bir şekilde yapılabilmesi için çok önemlidir. Tahliye emri verildiğinde hala taşkının gelmesini bekleyen ve taşkın sularını görmeden harekete geçmek istemeyenler olabilir. Bunun için taşkından önce, yerel halka içinde bulundukları taşkın riski hakkında bilgi verilmesi amacıyla eğitimlerin tekrar tekrar verilmesi çok büyük önem taşımaktadır. 3. Tahliyenin Sona Ermesi Taşkın bölgesindeki şartlar güvenli bir hale döndüğünde halka, evine dönebileceği konusunda bilgi verilir. Tahliye sonrası, taşkın sularına maruz kalmış halkın, taşkından hemen sonraya yönelik koruma önlemlerine dikkat edilmesi konusunda özellikle uyarılması gerekir. Taşkın Sonrası Yapılacak Faaliyetler Taşkın yataklarında güvenli bir düzene ulaşmak için iki temel yol vardır. Birincisi; taşkın olmadan önce yerleşim biriminde (taşkından zarar görme olasılığı bulunan bölgede) yapılan risk azaltma uygulamalarıdır. İkincisi ise; bu bölümde ele alınacak olan taşkın sonrasında taşkından zarar görmüş olan yerleşim biriminde ‘iyileştirme’ ve ‘yenilenme’ çalışmalarıdır. Bununla beraber, taşkın risk yönetiminde yapılacak olan sistematik çalışmalar ile taşkınların neden olabileceği olumsuz etkileri en baştan önlemek, taşkın sonrası iyileştirme çalışmalarını önemli ölçüde azaltmak taşkın yönetiminin temel hedefidir. İyileştirme çalışmaları ne kadar başarılı olursa olsun asla taşkında oluşabilecek can ve mal kayıplarını yerine getiremez. Taşkınlar ile ortaya çıkan acil duruma ilişkin görevlerin (arama ve kurtarma çalışmaları, geçici barınma, sağlık ve günlük ihtiyaçların karşılanması, vb.) yerine getirilmesinden sonra yerel toplulukların ve bireylerin elden geldiğince ivedilikle taşkın öncesi yaşam koşullarına kavuşturulması gerekmektedir. Bu kişilerin bir önceki durumlarından daha güvenli bir düzene dönüş süresinin mümkün olduğunca kısaltılması iyileştirme çalışmalarının başlıca maksatıdır. Bu tür iyileştirme görevi de kademeli bir sorumluluklar zinciri ile tanımlanır. İyileştirme çalışmalarında öncelikli hedef, taşkın mağdurlarının zararlarının paylaşılarak azaltılması ise de güncel anlayışla iyileştirmeden, yerel ekonomik canlılığın yeniden kazanılması, altyapının geliştirilmesi, sanayinin ve ticaretin desteklenmesi, toplumun eğitimi ve işgücünün katma değerinin yükseltilmesi, sosyal ve psikolojik destek hizmetlerinin sağlanarak toplumun olası bir yeni afet karşısında daha dirençli kılınması olduğu anlaşılmalıdır. Bu Taşkın Yönetim Planı’nın iyileştirme bölümü; olası bir taşkın sonrası geniş çaptaki iyileştirme faaliyetlerini desteklemek için çeşitli kaynakların öncelik sırasına konulması ve ilgili kurumların koordine edilmesini kapsar. Özetle, iyileştirme faaliyetleri üç aşamada yerine getirilir. 1. Ön İyileştirme Aşaması: Taşkından hemen sonraki iyileştirmenin erken safhası, acil müdahale faaliyetleri ve ön iyileştirme operasyonlarından oluşur. Bu, Taşkın Yönetim Planının iyileştirme bölümünün uygulanması ve ilgili kurum ve kuruluşlarının kendi iyileştirme stratejilerinin geliştirilmesi aşamasıdır. Bu aşamanın tamamlanmasının ardından iyileştirme çabaları kapsamında orta ve uzun vadeli iyileştirme ve yeniden yapılandırma hedeflerine odaklanılmalıdır. 2. İyileştirme ve Yeniden Yapılanma Aşaması: İkinci aşama taşkından etkilenen bölgeleri iyileştirip yeniden yapılandırmak için kaynak ve hizmetlerin dağıtımını ve fonksiyonel faaliyetlerin ele alınmasını içerir. Bu aşama aynı zamanda, iyileştirme faaliyetlerinin gözlenmesini ve gerektiğinde fonksiyonel iyileştirme planının dinamik doğası ile uygun hale getirilmesi için düzenlenmesini içerir. Bu aşama esnasında afet bölgesinin gelecekteki taşkın risklerine dayanıklılığını arttırmak için girişimler ve stratejiler geliştirilip uygulanır.
+
+========================================================================================
+Q20 Test 2 Reranked Top-5 Results
+
+reranked_rank: 1
+original_faiss_rank: 6
+chunk_id: afad_earthquake_362624beed722576e9f3
+source_file: ilk72saatengelliler.pdf
+pages: 34-36
+rerank_score: 0.170096
+current_relevant_label: 0
+in_DIRECT_GUIDANCE_chunk_list: false
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: true
+citizen_guidance_present: true
+direct_answer: true
+context_mismatch: false
+
+full text:
+Bunun yanÈ sÈra öèretmenlerinin veya dièer okul görevlilerinin komutlarÈnÈ dinlemesi gerekmektedir. Durumu veya yaëÈ ne olursa olsun, görme engelli kiëinin deprem anÈnda panièe kapÈlmamasÈ önemlidir. Bunun için de deprem anÈnda hangi ortamda nasÈl hareket etmesi gerektièi konusunda tatbikatlar yapmÈë olmalÈdÈr. éëitme Engelliler éëitme engelli bir kiëi deprem anÈnda kendini korumak üzere hedef küçülterek Çök-Kapan-Tutun hareketini yapmalÈdÈr. Dièer kiëilerden farklÈ olarak iëitme engelli kiëilerin en çok dikkat etmesi gereken konu, bir yandan hedef küçültüp vücutlarÈnÈ korurken, dièer yandan gözleriyle dÈëarÈdan gelebilecek tehlikelere karëÈ sürekli alarmda olmaktÈr. Üzerlerine düëebilecek cisimler ile yÈkÈlabilecek yapÈsal olmayan elemanlar, bu kiëiler için en büyük sorunu teëkil etmektedir. éëitme engelli kiëi çocuksa ve deprem sÈrasÈnda okulda bulunuyorsa, öèretmenlerinin ve dièer okul görevlilerinin yönlendirmelerine harfiyen uymalÈdÈr. éëitme engelli kiëinin, afet anÈnda varlÈèÈnÈ baëkalarÈna duyurabilmek için kullanmak üzere düdük veya benzer bir aleti üzerinde veya yakÈn bir yerde bulundurmasÈ yararlÈ olacaktÈr. Afet anÈnda evde bulunulmasÈ halinde dÈëarÈya karëÈ uyarÈcÈ olmak üzere, görünür bir yere ev içerisinde iëitme engelli birinin olduèunu belirten ÈëÈklÈ bir levhanÈn yerleëtirilmesi uygun olur. 25 Tahliye Engelli kiëilerin sarsÈntÈ bittikten sonra içinde bulunduklarÈ yapÈdan tahliye olmasÈ gerekir. Eèer engelli kiëi bulunduèu yapÈyÈ tek baëÈna terk edemiyorsa tahliye iëlemi dièer kiëilerin yardÈmÈyla yapÈlmalÈdÈr. FarklÈ engelli gruplarÈna göre bu süreç farklÈ ëekillerde geliëebilmektedir. Deprem sonrasÈnda evinizi tahliye etmeniz gerekirse aëaèÈdakilere dikkat edin: • Afet ve Acil Durum ÇantasÈnÈzÈ yanÈnÈza alÈn. • Destek aèÈnÈzdaki kiëilerle iletiëime geçin. • Yetkililerin hoparlör, radyo gibi çeëitli iletiëim araçlarÈndan yapacaèÈ uyarÈlar doèrultusunda hareket edin . • Koruyucu giysiler ve saèlam ayakkabÈlar giyin. • élaç, kimlik gibi kiëisel eëyalarÈnÈzÈ yanÈnÈza alÈn. • Evinizi kilitleyin. • Yetkililerin belirledièi tahliye yollarÈnÈ kullanÈn. Deprem sonrasÈ binada yapÈsal bir hasar yoksa içeride kalmak güvenlidir. Eèer tahliye anÈnda vaktiniz varsa ëunlarÈ yapÈn: • Elektrik, su ve doèalgaz vanalarÈnÈ kapatÈn. • TanÈdÈklarÈnÈza nereye gittièinizi haber verin. • Evcil hayvanlarÈnÈz için önlem alÈn. • Tehlikenin geçtièi bilgisi gelene kadar binaya tekrar hiçbir nedenle girmeyin. Tahliye anÈnda farklÈ engelli gruplarÈna göre aëaèÈdaki konulara dikkat edilmelidir: Bedensel Engelliler BazÈ bedensel engelliler bulunduklarÈ yapÈyÈ kendi kendilerine terk edebilirler. Bu kiëiler, çÈkÈë yolu üzerinde kendileri için tehlike oluëturacak unsurlarÈn olup olmadÈèÈna dikkat etmelidirler. Gerektièi durumlarda önceden belirlenen alternatif tahliye yollarÈ kullanÈlabilir. Eèer kiëi taëÈyabiliyorsa tahliye sÈrasÈnda Afet ve Acil Durum ÇantasÈ’nÈ da yanÈna almalÈdÈr. Eèer bu kiëi kendi kendine tahliye olamÈyorsa birilerinin yardÈmÈna ihtiyaç duyacaktÈr. Engelli kiëinin tahliyesi, engellilik durumuna, yardÈmcÈ olacak kiëilerin durumuna ve içinde bulunulan yapÈnÈn hasarÈna göre farklÈ yöntemlerle yapÈlabilir. Tahliye planÈ, tüm olasÈlÈklar önceden düëünülerek yapÈlmalÈdÈr. Örneèin tekerlekli sandalyedeki birinin, sandalyesi bÈrakÈlarak taëÈnmak suretiyle tahliye edilmesi gerekebilir. AyrÈca yaëam destek ünitelerine baèlÈ kiëilerin tahliye sÈrasÈnda bu ünitelere ihtiyaç duyacaèÈ unutulmamalÈdÈr. Solunum güçlüèü çeken bazÈ kiëilerin göreceli olarak kolay bir taëÈma yöntemi sayÈlan itfaiyeci yöntemiyle taëÈnmamasÈ, dikkat edilmesi gereken konulardan biridir. DEPREM SONRASINDA YAPILMASI GEREKENLER DEPREM SONRASINDA DEPREM SONRASINDA YAPILMASI GEREKENLER YAPILMASI GEREKENLER 26 Zihinsel Engelliler Zihinsel engelli kiëilerin tahliyesi önemli oranda dièer kiëilere baèlÈdÈr. Bu nedenle, destek aèÈndaki kiëilerin yardÈmÈ bu engelli grubu için çok önemlidir. Zihinsel engelliler deprem anÈnda kendini korumakta güçlük çekebilir ve/veya büyük panik yaëayabilir; dolayÈsÈyla bu durum tahliye sÈrasÈnda güçlükler çÈkarabilir. Tüm bu olasÈlÈklar göz önünde bulundurularak önceden tahliye tatbikatlarÈ yapÈlmÈë olmalÈdÈr. Tahliyede bu kiëilere yardÈmcÈ olan kiëilerin kendilerine de çok dikkat etmesi gerekir. Zihinsel engelli kiëi öèrenciyse ve deprem anÈnda okulda bulunuyorsa, tahliyesi için öèretmenlerinin ve dièer görevlilerin yardÈmÈna ihtiyaç duyacaktÈr. Eèer öèrenciler bir zincir halinde el ele tutuëup tahliye oluyorsa zihinsel engelli öèrenciler bu zincirin farklÈ yerlerine daèÈtÈlarak tahliye edilebilir. Görme Engelliler Görme engelli kiëi deprem anÈnda tek baëÈna veya baëka kiëilerle birlikte bir bina içinde veya dÈëarÈda olabilir. Bu kiëinin deprem anÈndaki durumuna göre tahliye sÈrasÈndaki hareket tarzÈ da farklÈ olabilir. Bu farklÈ durumlarÈn her birinin farkÈnda olunmalÈ ve her biri için önceden geliëtirilmië tahliye planÈna göre hareket edilmelidir. Görme engelli kiëi deprem anÈnda bir bina içinde ve kendisi gibi görme engelli dièer kiëilerle birlikte (örneèin okulda) ise, bir zincir oluëturularak tahliye olma yöntemi kullanÈlabilir. Buna göre en tecrübeli ve/veya görme yeteneèi dièerlerine göre en iyi olan görme engelli kiëiler en önde, ortada ve en arkada olmak üzere, tüm görme engelliler el ele tutuëur. Bu sistemde mümkünse hiç görmeyenleri aralara daèÈtmak uygun olacaktÈr. UnutulmamasÈ gereken dièer bir konu ise, görme engellilerin iëitme duyularÈnÈn genellikle çok geliëmië olduèudur. Bu nedenle, tahliyede bir kiëinin sesli komut vermesi görme engellilerin yönlendirilmesi için çok iyi bir araç olacaktÈr. Bu komutun aynÈ anda birden fazla kaynak yerine tek bir kaynaktan gelmesi, kargaëayÈ önlemek adÈna uygun olacaktÈr. Görme engelli kiëinin, deprem sÈrasÈnda bilmedièi bir yerde, açÈk alanda olmasÈ halinde, bulunduèu yerde kalmasÈ daha uygun olacaktÈr. Bulunduèu yerden baëka bir yere gitmeye çalÈëmasÈ zor olabilir. Böyle bir durumda destek aèÈndaki kiëilerden veya en yakÈndaki profesyonel müdahalecilerden ve devlet kuruluëlarÈndan (polis, muhtarlÈk, belediye, askeriye, vb.) yardÈm isteyebilir. éëitme Engelliler éëitme engelliler pek çok durumda tahliyeyi kendi kendilerine yapabilirler. Tahliyeyi tek baëlarÈna yapmak durumunda olmalarÈ halinde kendileri için tehlike oluëturabilecek cisimlere çok dikkat etmelidirler. Eèer iëitme engelli kiëi çocuksa ve deprem anÈnda okuldaysa, tahliye sÈrasÈnda öèretmenlerinin ve dièer okul görevlilerinin talimatlarÈna uymalÈdÈr. Engelli kiëi, tahliyeden sonraki ilk saatlerden itibaren çeëitli konularda yardÈm ve desteèe ihtiyaç duyabilir. Bu yardÈm ve destek, kiëinin destek aèÈndaki kiëilerden gelebileceèi gibi, dièer engelli gruplarÈndan veya resmi ve gönüllü müdahale kuruluëlarÈndan da gelebilir.
+
+reranked_rank: 2
+original_faiss_rank: 10
+chunk_id: afad_earthquake_f485ea324516195f79aa
+source_file: ilk72saatengelliler.pdf
+pages: 29-31
+rerank_score: -0.233364
+current_relevant_label: 0
+in_DIRECT_GUIDANCE_chunk_list: false
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: true
+citizen_guidance_present: true
+direct_answer: true
+context_mismatch: false
+
+full text:
+Patlama ya da yangÈn tehlikesi olmasÈ halinde, hasta/yaralÈyÈ dikkatlice olay yerinden uzaklaëtÈrmak, bunun mümkün olmadÈèÈ durumlarda ise asla yerinden kÈmÈldatmamak gerekir. Bildirme: Kendimizin ve hasta/yaralÈnÈn güvenlièini saèladÈktan sonra olayÈ/kazayÈ saèlÈkla ilgili acil yardÈm telefonunu (112) arayarak bildirmeliyiz. Acil yardÈm telefonlarÈ HéÇBéR ZAMAN gereksiz yere aranmamalÈdÈr; böylece acil yardÈma gerçekten ihtiyacÈ olan kiëiler bu telefonlarÈ aradÈèÈnda ilgili kiëilere kolayca ulaëabilirler. Kurtarma: Bir olay ya da kaza yerindeki yaralÈlara yapÈlan tüm ilkyardÈm uygulamalarÈnÈ kapsamaktadÈr. Olay yerinde birden fazla hasta/yaralÈ varsa hangisinin durumunun öncelikli olduèu çok önemlidir. Bu durumda hÈzlÈ ve doèru bir deèerlendirme, doèru ilkyardÈm uygulanmasÈnÈ ve hasta/ yaralÈnÈn hayatÈnÈn kurtulmasÈnÈ saèlayacaktÈr. Tatbikat Engelli kiëilerin, farklÈ senaryolara göre tatbikat yapmasÈ gerekir. Bu tatbikatlarda, destek aèÈndaki kiëilerin deprem sÈrasÈnda engelli bireylerin yanÈnda bulunmasÈ ve bulunmamasÈ gibi durumlar göz önüne alÈnmalÈdÈr. Tatbikatlar hem deprem anÈnda yapÈlmasÈ gerekenleri, hem de depremden sonra tahliyeyi kapsamalÈ ve engelli kiëilerin en sÈk bulunduèu yerlerin tümünde (ev, okul, iëyeri) uygulanmalÈdÈr. TatbikatlarÈn farklÈ zaman dilimlerinde, örneèin hem gündüz hem de gece uygulanmasÈ faydalÈ olacaktÈr. Destek aèÈndaki kiëilerin yanÈnda olmamasÈ halinde, engelli kiëi kendisine yardÈmcÈ olabilecek kiëileri nasÈl yönlendirmesi gerektièine iliëkin tatbikat yapmalÈdÈr. Engellilik durumu elveriyorsa, bu kiëileri aëaèÈdaki konularda bilgilendirmesi ve doèru ëekilde yönlendirmesi gerekir: • KÈsa ve öz talimatlarla kendisini nasÈl tahliye etmeleri gerektièi • SÈkÈëmÈë veya yaralÈ durumdaysa kendisini nasÈl kurtarmalarÈ gerektièi • Afet ve Acil Durum ÇantasÈ ve araç gereçleri yanÈnda deèilse, öncelikli olarak nelere ihtiyaç duyduèu Tahliye tatbikatlarÈna hazÈrlÈk için öncelikle bir çÈkÈë planÈ yapÈlmalÈdÈr. Bu plan destek aèÈndaki kiëilerle birlikte uygulanmalÈ ve deprem anÈnda içinde bulunulan mekânÈn özellikleri göz önünde tutulmalÈdÈr. Planda çÈkÈë yollarÈ alternatifleriyle birlikte belirlenmelidir. ÇÈkÈë planÈ yapÈlÈrken, engelli kiëinin deprem sÈrasÈnda yalnÈz olmasÈ ve destek aèÈndaki kiëilerle birlikte olmasÈ ihtimalleri göz önüne alÈnarak hareket edilmelidir. Planlama çalÈëmalarÈnda ayrÈca, engelli kiëinin deprem sonrasÈ aile bireyleriyle buluëacaèÈ yerler de alternatifleriyle birlikte belirlenmelidir. Bunun için ev, okul, iëyeri gibi sÈklÈkla bulunulan mekânlarÈn yakÈnÈnda bir buluëma alanÈ seçilmelidir. Deprem sÈrasÈnda buralardan baëka bir yerde bulunulmasÈ halinde aile üyelerinin nerede ve nasÈl buluëacaèÈ da, planda belirlenmesi gereken konular arasÈndadÈr. Gerektièinde evlerin tahliye edilebilmesi için atÈlacak ilk adÈm, bir tahliye planÈ hazÈrlanmasÈdÈr. 20 Engelli kiëinin çocuk olmasÈ durumunda, aile üyelerinin çocuklarÈnÈ okuldan teslim almasÈ konusunda da planlar yapÈlmalÈ ve tatbikatlar düzenlenmelidir. AyrÈca, deprem anÈnda nasÈl davranmalarÈ gerektièini engelli çocuklara öèretmek büyük önem taëÈmaktadÈr. Yerel Afet Gönüllüleri (YAG) Afet sonrasÈ resmi görevliler gelene kadar genellikle ilk müdahalenin yakÈn çevredeki kiëi ve gönüllülerce yapÈldÈèÈ bilinmektedir. Bu müdahalenin bilinçli yapÈlmasÈ halinde yaëama ëansÈnÈ büyük ölçüde artÈrdÈèÈ, kurtarma ekiplerinin alana ulaëmasÈnÈ ve müdahaleyi kolaylaëtÈrdÈèÈ, ayrÈca afete baèlÈ yeni sorunlarÈn (yangÈn, kimyasal serpinti, vb.) önlenmesinde yarar saèladÈèÈ bilinmektedir. Bununla birlikte afet sonrasÈndaki ilk aëamada yardÈma koëanlarÈn büyük çoèunluèu, bilinçsiz müdahale nedeniyle ek sorunlara yol açabilmektedir. Can ve mal kayÈplarÈnÈn yaëandÈèÈ, toplumsal yaëamÈn derinden etkilendièi bu durumlarda sadece insani duygularla topluma yardÈm etme isteèi yeterli olmamakta; bilinçsizce yapÈlan müdahaleler, can kurtarmak yerine belki de can kayÈplarÈna veya sakat kalmalara yol açabilmektedir. Acil müdahalede en önemli koëul, bu müdahaleleri yapacak kiëilerin örgütlü, bilinçli ve eèitimli olmasÈdÈr. Acil müdahalede aëaèÈdaki özellikleri taëÈyan bireylerin oluëturduèu yerel afet gönüllüleri (YAG) gibi organize gruplara ihtiyaç vardÈr: • Afet riskleri ve bu risklere karëÈ alÈnabilecek önlemler konusunda bilgilendirilmië, afetlere duyarlÈlÈèÈ ve bilinç düzeyi yüksek • Gerekli eèitim ve ekipmanla donatÈlmÈë • Afet sonrasÈnda profesyonel ekipler gelene kadar ilk saatlerde müdahale için imkân ve kabiliyeti güçlenmië YAG’lar, öncelikle aralarÈnda baè olan gruplar tarafÈndan oluëturulmalÈdÈr. Bunlar komëular, apartman/site sakinleri, mahalle esnafÈ, ië arkadaëlarÈ, sivil savunma yükümlüleri, müdahale ekiplerinin aileleri, izciler ve benzeri kiëilerin bulunduèu gruplar olabilir. Engelli birey ve ailesi de YAG’lardan haberdar olmalÈ, onlarÈn desteèini almalÈdÈr. • YakÈn çevrenizde yerel afet gönüllüleri (YAG) varsa bu kiëilerle mutlaka tanÈëÈn. Özellikle ev, iëyeri ve okul gibi zamanÈnÈzÈn önemli bir kÈsmÈnÈ geçirdièiniz yerlerdeki YAG’larla irtibata geçin. • YAG’lara kendiniz hakkÈnda mutlaka bilgi verin. OlasÈ bir afette sizlere yardÈm edebilmeleri için öncelikle sizin varlÈèÈnÈzdan ve durumunuzdan haberdar olmalarÈ gerekmektedir. • YAG’larÈn düzenledièi tatbikatlara katÈlÈn; müdahale planlarÈnÈn bir parçasÈ haline gelin. • Ailenizdeki engellileri YAG’lara bildirin. • Afete hazÈrlÈk, planlama, tahliye ve benzeri konularda YAG’lardan yardÈm alabileceèinizi aklÈnÈzda bulundurun. • YaptÈèÈnÈz tahliye ve tatbikatlara YAG’larÈ da dahil edin. YAG’lar bir afette zor durumda kalanlara yardÈmcÈ olabilmek için çeëitli bilgi ve becerilerle donatÈlmÈë, bu konuda eèitim almÈë gönüllülerdir. OnlarÈ destek aèÈnÈzÈn önemli bir parçasÈ olarak düëünebilirsiniz. 21 Deprem sÈrasÈnda kendimizi koruyabilmek için ne yapacaèÈmÈzÈ bilmemiz gerekmektedir. Panièe kapÈlÈp merdiven ve balkonlara koëturmak birçok küçük depremde dahi gereksiz yere ölümlere neden olmaktadÈr. SarsÈntÈ baëlar baëlamaz, donup kalmadan veya saèa sola kaçÈëmadan, bulunduèumuz yerde ve kendimizi koruyacak en uygun ëekilde davranmamÈz gerekmektedir. Korku ve Panik Depremler korkutucu olabilir, ama sarsÈntÈnÈn kÈsa süre içinde sona ereceèi unutulmamalÈdÈr. Geçmiëte yaëanan kÈsa süreli ve binalarda hiçbir zarara yol açmayan pek çok depremde evlerinden dÈëarÈ atlayÈp ciddi ëekilde yaralanan çok sayÈda insanÈn olduèunu anÈmsamak gerekir. Panièe kapÈlmak sadece depremin yaratacaèÈ zararÈ artÈracaktÈr. Deprem anÈnda tamamen yerle bir olmamÈë, az hasarlÈ veya hiç hasar görmemië binalarda ölüm ve yaralanmalara daha çok yapÈsal olmayan riskler yol açmaktadÈr. Bu tür risklerden korunmak için “Çök-Kapan-Tutun” davranÈëÈnÈ uygulamak yararlÈ olacaktÈr. Çök-Kapan-Tutun “Çök-Kapan-Tutun” davranÈëÈ deprem, uçak kazasÈ, heyelan, bomba patlamasÈ, bomba tehdidi, yÈldÈrÈm ve hortum gibi tehlike anlarÈnda uygulanÈr. Örneèin zemin sarsÈlmaya baëladÈèÈnda veya büyük bir patlama duyulduèunda/hissedildièinde herkesin bu hareketi yapmasÈ gerekir.
+
+reranked_rank: 3
+original_faiss_rank: 16
+chunk_id: afad_earthquake_4f4dfce08b956cf8331d
+source_file: olagandisi.pdf
+pages: 16-18
+rerank_score: -0.739549
+current_relevant_label: 0
+in_DIRECT_GUIDANCE_chunk_list: false
+
+Rule-based direct answer check:
+authority_instruction_present: false
+evacuation_context_present: true
+earthquake_context_present: true
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: false
+
+full text:
+Yanan bir binadaki herkesin binayı terk etmesi, toplu tahliyeye örnek olarak verilebilir. Tahliye edilen yerler de iki türlüdür. Tahliye edilen yer, tahliye esnasında uygulanması gereken prosedürleri belirler. Bir yapının tahliyesi ile bir bölgenin tahliyesi birbirinden farklı olduğu için bu iki durumun farklı planlanması gerekir. Bina Tahliyesi Binalar insanları dış koşullardan korumak, güvenli barınma ve çalışma ortamları sağlamak amacıyla yapılır. Modern şehirlerde insanların zamanının büyük bölümü binalarda geçer; dolayısıyla binalar hem yaşam, hem çalışma, hem de sosyalleşme alanı olarak çok büyük önem taşır. Bazı afetlerde binalar, korunaklı birer barınma ve çalışma alanı olma özelliklerini yitirebilir; aksine insan yaşamına karşı tehlike oluşturabilir. Örnek olarak deprem veya yangın gibi olaylarda yapıların içinde bulunmak insanlar için çok tehlikelidir; çünkü bu olaylar binaya yapısal olarak hasar verebilecek ve bina içi koşulları insan yaşamına uygunsuz hale getirecek, dolayısıyla binaların hızla tahliye edilmesi gerekebilecektir. Bazı afetler karşısında ise binalar büyük bir koruma sağlar. Bazı afetler dış mekânları daha çok etkiler. Özellikle şiddetli olmayan kötü hava şartları, küçük ölçekli kimyasal sızıntılar, sivil olaylar gibi durumlarda bölge terk edilememişse binaların içi dışından daha güvenli olabilmektedir. Bu durumlarda “içe tahliye” denen uygulama tercih edilmeli, dış mekânlardan ve binaların dış mekân etkilerine açık yerlerinden (örn. pencereler, balkonlar, teras, vb.) uzaklaşılmalıdır. Dışa tahliye Dışa tahliye, bina içinde bulunan kişilerin tehlike altında olduğu durumlarda yapılır. Burada amaç, tehlike oluşturan yapıyı terk ederek risk içermeyen bir alana çıkmaktır. Dışa tahliye yapılırken binanın yapısal ve iç tasarımı büyük önem taşır. Binaların içerisindeki tahliye yolları binanın yapım aşamasında düşünülüp yerleştirilmeli ve iç tasarım yapılırken sınırlandırılmamalıdır. Kaçış yolları görülebilecek şekilde işaretlenmelidir. Ayrıca tahliyeden sorumlu bir ekip belirlenmeli; bu ekip tahliye süresince insanların doğru tahliye rotasını takip ettiğinden, tahliye sonrasında binayı terk ederken de içeride kimsenin kalmadığından emin olmalıdır. Bir bina genel olarak aşağıdaki durumlarda tahliye edilebilir: • Yangın anı • Deprem sonrası • Patlama sonrası • Sel/su baskını öncesi ve anı • Kimyasal kazalar • Terör/bomba tehdidi • Heyelan tehlikesi 6 ÇIKIﬁ ﬁekil 8. Acil ç›k›ﬂ kap›lar› eﬂyalarla bloke edilmemelidir. Bir binayı tahliye ederken uyulması gereken bazı prensipler vardır. Tahliye prosedürleri aşağıdaki basamaklardan oluşur: • Alarm ve ikaz duyulduğunda yapılması gerekenler • Görevlilerin ve tahliye edilenlerin sorumlulukları (eş sistemi, özel ihtiyaç sahipleri, vs.) • İtfaiyeye haber verme • Zaman kazandıracak önlemler (eşyaları bırakma, vb.) • Toplanma bölgesi • Özel tedbirler Yukarıda belirtilen prosedürler bulunulan yerde mevcutsa ve uygulanıyorsa, soğukkanlı bir şekilde bunları takip etmek gerekir. Yabancı bir binayı tahliye etmek gerektiğinde, varsa anonslara veya tahliye görevlilerinin yönlendirmelerine uyulmalı; aksi halde acil çıkış işaretleri takip edilmelidir. Eviniz ve aileniz için de bir tahliye planı yapmanız gerekmektedir. Bu plan bir şirket ya da tesisinki kadar karmaşık ve detaylı olmak zorunda değildir. Fakat tahliye anında neyi nasıl yapacağınıza önceden karar vermek, tahliye anında işinizi kolaylaştıracaktır. Tahliye anında uygulanması gerekenler şöyle sıralanabilir: • Koruyucu giysiler ve sağlam ayakkabılar giyin. • Afet ve Acil Durum Çantanızı yanınıza alın. • Önceden belirlenen toplanma yerine ulaşın . • Önceden belirlenen tahliye uygulamasına uyun. Eğer tahliye anında imkân varsa şunlar yapılmalıdır: • Elektrik, su ve doğalgaz vanalarını kapatın. • Tanıdıklarınıza nereye gittiğinizi haber verin. • Yalnız yaşayan, yaşlı ve engelli komşularınıza yardımcı olun. • Evcil hayvanlarınız için önlem alın. • “Tehlike geçti” değerlendirmesi gelene kadar binaya tekrar hiçbir nedenle girmeyin. Tahliyelerin sağlıklı yapılabilmesi, kontrol mekanizmasının etkinliği, ilk müdahalenin zamanında yapılabilmesi ve yedekli görevlendirmeler için, yakın birimler/kişiler arasında eşleştirmeler yapılmalıdır. Eş birimler, gerek iç gerekse dış tahliye esnasında birbirlerini kontrol etmelidir. Yapılan eşleştirmeler, birimler bazında tahliye planları üzerinde şematik olarak gösterilmelidir. İçe tahliye Daha önce de belirtildiği gibi bazı durumlarda bina içi bina dışından daha güvenli olabilir. Bina içinin daha güvenli olduğu durumlar kar ve yağmur fırtınaları, seller ve sivil olaylardır. Bu gibi durumlarda kesinlikle dışarı çıkılmamalı, bina dışında bulunuluyorsa içeri girilmelidir. İçe tahliyenin de en az dışa tahliye kadar dikkatli bir şekilde planlanması gerekir. İçe tahliye yapıldığı zaman bina içindeki kişilerin nerelerde toplanacağı önceden belirlenmelidir. İçe tahliyede amaç dış ortamdaki olumsuz durumun etkilerinden uzak kalmaktır. Bu durum özellikle kimyasal ve radyoaktif etkileri olan olaylarda önem kazanmaktadır. Bu nedenle içe tahliye konusunda aynı zamanda “yerinde sığınak” uygulamasını bilmek gerekir. 7 ﬁekil 9. Tesisat›n kapat›lmas›. Yerinde Sığınak Yerinde sığınak uygulaması, dışarıdaki tehlikeli durumdan bina içinde korunmayı amaçlar ve temel olarak binanın içini izole etmeye yönelik önlemleri kapsar. Yerinde sığınak adımları aşağıdaki gibidir: • Hızlı bir şekilde kapalı mekâna girin. • Kapıları ve pencereleri hızlıca kapatın. • Havalandırma sistemlerini, baca girişlerini kapatın. • Bant kullanarak bütün pencere ve kapıları, hava girişi olabilecek yerleri kapatın. Bunu yaparken streç film veya naylon poşet gibi malzemeler kullanabilirsiniz; fakat kullandığınız malzemenin hava geçirmez olduğuna emin olun. • Önceden belirlediğiniz, evin dış etkilere en uzak (ev planına göre orta kısma yakın) odasına girip kapısını kapatın. • Yanınızda bir radyo ve telefon bulundurun. Bina içinde bulunmak riskliyse, yerinde sığınak uygulamasına başvurmamak gerekir. Bir Araya Gelme ve Haberleşme Depremden sonra herkesin önce kendi güvenliği önemlidir. Kişi, depremden sonra durumunu kontrol edip, mümkünse tehlikeli ortamdan uzaklaşmalıdır. Tehlikeli ortamdan kendi başına uzaklaşamıyorsa başkalarını yardıma çağırmalıdır. Bu gibi durumlarda herkes önce kendi güvenliğini sağlamalı, ardından yakınlarını düşünmeye başlamalıdır. Afet gerçekleştikten sonra yakınlarına ulaşmaya çalışan insanlar, hasar görmüş olan iletişim ve ulaşım sistemlerine aşırı yüklenilmesine neden olur. Bu durum, müdahale ekiplerinin hareketini zorlaştırır; dolayısıyla bireylerin önceden yakınlarıyla bir iletişim planı geliştirmesi gerekir.
+
+reranked_rank: 4
+original_faiss_rank: 8
+chunk_id: afad_earthquake_cbadb3c843f0cf3c15bc
+source_file: ZONGULDAK_IRAP.pdf
+pages: 124-126
+rerank_score: -0.868419
+current_relevant_label: 0
+in_DIRECT_GUIDANCE_chunk_list: false
+
+Rule-based direct answer check:
+authority_instruction_present: false
+evacuation_context_present: false
+earthquake_context_present: true
+citizen_guidance_present: false
+direct_answer: false
+context_mismatch: false
+
+full text:
+T.C. ZONGULDAK VALİLİĞİ 124 1999 yılında meydana gelen deprem sonrasında oluşturulan deprem yönetmeliği kapsamında ülkemizde depreme dayanıklı binalar yapılmaya başlanmış olup bu yönetmeliklerin çeşitli tarihlerde güncellenerek binaların depreme karşı daha dayanıklı ve daha hazırlıklı olmaları sağlanmış, ilimizde de bu kapsamda binalar yapılmaya başlanmıştır. Deprem sonucu oluşabilecek ikincil afet olan heyelanlı alanlarda da önlemler alınmalı ve önlemler alınmadan yapılaşmaya gidilmemesi gerekmektedir. Özellikle köylerde ilan edilen Afete maruz bölgelerde İl Özel İdaresi’nce yapılaşmaya izin verilmemesi bu kapsamda gerekli önlemlerin alınması ve bilgilendirilmelerin yapılması gerekmektedir. Köylerde yapılan binaların daha etkin bir şekilde kontrolünün sağlanması, yapı ve ikamete yasaklı alanlarda konut yapımına izin verilmemesi, bu alanlar dışında olsa dahi bu alanlara yakın bölgelerde yapılacak yapıların zemin araştırılmasının daha detaylı olarak yapılarak ileride yaşanabilecek olumsuzlukların önüne geçilmesi sağlanmalıdır. Köyler dışında il ve ilçe merkezlerinde yapılacak binalarında ilgili belediyesince imar planına esas jeolojik ve jeoteknik raporlarda belirtilen hususlara riayet edilerek yapılması, özellikle önlemli alan (Ö.A) olarak belirtilen alanlarda gerekli önlemlerin alınmadan yapı yapılmasına izin verilmemeli, bu raporda belirtilen hususlara riayet edilerek gerekli çalışmaların yapılması gerekmektedir. Bu nedenle yapılaşmadan önce yapılan Zemin ve Temel Etüt raporlarının heyelan afetine karşı daha detaylı ve titiz yapılması, etüt çalışmalarında heyelan afetin ortaya koyulmasına yönelik aletsel çalışmalar yapılmalıdır. İl ve İlçe merkezleri ve köylerde kesinlikle Afete Maruz Bölgelere yapı yapılmasının önlenmesi, bu hususta gerekli denetimlerin yapılması, yapı izni/ruhsatı verilmemesi gerekmektedir. Heyelan kayma düzlemin yüzeye yakın durumlarında önlem alınması daha mümkün olup, kayma dairesi daha derinde bulunan heyelanlarda önlem alınması ya çok maliyetli ya da mümkün olmamakla birlikte bu durumlarında göz önüne alınarak yapılaşmaya gidilmesi, ilgili belediyesinin ya da İl Özel İdaresinin bu hususları göz önüne alarak yapı yapılamasına izin vermesi önemlidir. Özellikle köylerde yapılan yapıların genellikle Zemin ve Temel Etüt Raporlarının olmayışı bu açıdan büyük bir risk olup, bu hususlar bağlı kurumlarınca titizlikle ele alınmalıdır. 2.3. Taşkın/Sel/Su Baskını Tehlikesi ve Risk Değerlendirmesi Zonguldak İli Batı Karadeniz Havzası sınırları içinde yer almaktadır. Akarsu taşkın tehlikesi çalışmaları, havza sınırları içinde etkili olan yağış istatistikleri, tekerrür periyotları, barajlar, akarsu ve kollarını dikkate alan akarsu dağılım ağı, topoğrafya, toprak yapısı, akış yönü, debiler, kapasiteler, arazi kullanımlar vb. gibi parametreler dikkate alınarak hazırlanmaktadır. Ülkemizde 2011 yılında kurulan SYGM Türkiye genelindeki 25 adet havza için taşkın tehlike ve risk haritaları üretmekte ve taşkın yönetim planları oluşturmaktadır. Bu kapsamda Batı Karadeniz Havzası çalışılmış, Zonguldak ili ve ilçeleri için taşkın yayılım risk haritaları üretilmiş ve havza genelinde taşkın risk yönetim adına gerekli görülen tedbirlerin neler olduğu, takip eden kısımlarda Zonguldak özelinde bahsedilecektir. 2.3.1. Batı Karadeniz Havzasının Tanıtılması 2.3.1.1. Havzanın Yeri Ve Genel Bilgiler Batı Karadeniz Havzası, Türkiye'nin 25 havzasından biridir. Türkiye yüzölçümünün yaklaşık %3.7’sini kapsayan Batı Karadeniz Havzası 28.855 km2 yağış alanına sahiptir. Havzanın Türkiye haritası üzerindeki konumu Şekil-81’de gösterilmektedir. T.C. ZONGULDAK VALİLİĞİ 125 Şekil-81: Batı Karadeniz Havzası'nın İşaretlendiği 25 Farklı Hidrolojik Havzası Kaynak: D.S.İ Şekil-82:Batı Karadeniz Havzası Siyasi Haritası Kaynak: D.S.İ Batı Karadeniz Havzası, doğudan itibaren Çangal Dağı, Zindan Dağı, Küre Dağları, Ilgaz Dağları, Benlidağ, Bolu Dağları, Karadağ, Işık Dağı ve Elmacık Dağı doruklarından geçen su bölüm çizgisi ile kuzey bölümünde bulunan Karadeniz ile çevrilidir. T.C. ZONGULDAK VALİLİĞİ 126 Türkiye yüzölçümünün % 3,7’ ni oluşturan 13’ nolu Batı Karadeniz havzası; DevrekaniGerze, Filyos, Bartın Çayı, Melen Çayı ve Ereğli olmak üzere 5 adet alt havzaya ayrılmıştır. Havza içerisinde Melen Çayı, Bartın Çayı, Filyos Çayı, Devrekani Çayı gibi alt havzalara adlarını veren çaylar ile Karadeniz boyunca uzanan sıradağların eteklerinden gelen ve vadiler boyunca devam ederek direk Karadeniz’e dökülen Alaplı Çayı, Gülüç Çayı, Aydos Çayı, Zerbana Çayı, Güble Çayı, Ezine Çayı, Sarımsaklı Çayı, Helaldi Çayı, İnebolu Çayı, Akçay, Ayancık Çayı, Güzelçay (Kanlıçay) vb. birçok çay bulunmaktadır. Ayrıca havza içerisinde birbirleriyle birleşerek büyük çay ve ırmakları oluşturan birçok yan dere ve çay bulunmaktadır. Batı Karadeniz Havzası’nda ortalama yıllık yağış 774.05 mm’dir. Havzanın yıllık ortalama akımı 10.8 km3 ‘tür. Havzada Ankara, Bartın, Bolu, Çankırı, Düzce, Karabük, Kastamonu, Sakarya, Samsun, Sinop ve Zonguldak illerinin tamamı ya da bir bölümü yer almaktadır. Bahsi geçen illerden Bartın, Karabük ve Zonguldak il topraklarının tamamı, diğer illerin de; Bolu il topraklarının 4093,86 km²’lik bir bölümü, Çankırı il topraklarının 1662,60 km², Düzce’nin 2446,71 km², Kastamonu’nun 7275,23 km²’lik bir kısmı havzada yer almaktadır. Ankara, Sakarya ve Samsun il topraklarının da sırasıyla 19,45 km², 296,02 km² ve 193,16 km² alanları havza içindedir. Havzanın yüz ölçümü 28 855 km²’dir. Batı Karadeniz Havzası’nda yer alan baraj, göller ve il sınırları Şekil-83’te Batı Karadeniz Havzası fiziki haritasında gösterilmiştir. Şekil-83: Batı Karadeniz Havzası Fiziki Haritası Kaynak: D.S.İ
+
+reranked_rank: 5
+original_faiss_rank: 20
+chunk_id: afad_earthquake_04ad2861734f94adf056
+source_file: Denizli_Il_Afet_Risk_Azaltma-Plani.pdf
+pages: 155-155
+rerank_score: -1.433434
+current_relevant_label: 0
+in_DIRECT_GUIDANCE_chunk_list: false
+
+Rule-based direct answer check:
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: false
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: true
+
+full text:
+2015). Gözlemsel kayıtların kullanımı ile bu tip süreçlerin tespit edilmesi yada tahmini yeterli olmamaktadır. Böyle bir modelden tutarlı hidrolojik tahminler elde etmek için güvenilir yağış verilerine ihtiyaç vardır. Bölgesel SHT modellerinin yağış tahmin performanslarını artırmada model içinde veri asimilasyonu ve yüksek çözünürlüklü kara yüzeyi modeli kullanımı çok önemlidir. Taşkınların saatler hatta günler önceden tahmin edilebilmesi ve buna dayanarak erken uyarıların yapılabilmesi özelliğinden de yararlanarak, bazı ülkelerde afet yönetim programlarının bir parçası olan taşkın tahmin ve erken uyarı, planlama ve eğitim ile can kayıplarında önemli azalmalar ve ekonomik zararlarda da önemli düşüşler sağlanmaktadır. 4) Tahliye Planları Büyük Menderes Havzası’nda taşkın anında canlıların tahliye edilebilmesi için tahliye planları yapılmıştır. Olası bir Tahliye sırasında özellikle dikkate alınması gereken diğer noktalar şunlardır: • Tahliye sırasında idarenin talimatlarına uyulmalıdır. • İnsanların yönlendirildikleri bölge ya da binaların, bulundukları yerden daha güvenli olduğundan emin olunmalıdır. • Toplanma noktasına gitmek için kullanılacak olan yolların güvenli olduğundan emin olunmalıdır. • Engelliler ve onların özel ihtiyaçları da mutlaka dikkate alınmalıdır. • Evcil hayvanlar da dikkate alınmalıdır. • Park, bahçe ve duraklar gibi yerlerde halka tahliye yeri ve yolları hakkında bilgi veren yönlendirici levhalar olmalıdır. • Geçici toplanma alanları ve tahliye alanları ile birlikte yol ve ulaşım araçları da ayrı ayrı planlanmalıdır. • Tahliye güvenli, planlı, sakin bir şekilde yapılmalıdır. Anket sonuçlarına göre; Sel ve taşkın riskinin etkili olduğu alanlar (İlçe ve Mahalle adları ile): Büyük Menderes havzası, Çürüksu, Honaz, Kızılyer ve Menteşe Mahallesi, Acıpayam ilçesinin Dalaman Çayı, Dokuzkavaklar, Altgeçitler, Çivril (Beydilli), Akvadi Toplu Konut Alanı, Güney Kuraklık riskinin etkili olduğu alanlar: Çivril (Işıklı), Baklan Ovası Denizli ilindeki Büyük Menderes Nehri ve Dalaman Çayı kış aylarında şiddetli yağışlarda sel oluşturmaktadır. Denizli Büyükşehir Belediyesi mevzi imar sahasının batısında Zindan dere, koru deresi, domuz deresi boyunca yağışlı mevsimlerde ve ani yağış olduğu günlerde su akışlarının olması söz konusudur. Büyük Menderes Nehri kanallar, barajlar ve bentlerle kesilmiş olmasına rağmen şiddetli yağışlarda A. Mahmutlar vb. mahallelerde sel afetine neden olmakta binlerce dekar araziyi su
+
+========================================================================================
+Q20 Test 2 Judgments CSV Rows
+{"question_id": "Q20", "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?", "reranked_rank": "1", "original_rank": "6", "original_similarity_score": "0.853561", "rerank_score": "0.170096", "chunk_id": "afad_earthquake_362624beed722576e9f3", "source_file": "ilk72saatengelliler.pdf", "page_start": "34", "page_end": "36", "relevant": "0"}
+{"question_id": "Q20", "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?", "reranked_rank": "2", "original_rank": "10", "original_similarity_score": "0.851318", "rerank_score": "-0.233364", "chunk_id": "afad_earthquake_f485ea324516195f79aa", "source_file": "ilk72saatengelliler.pdf", "page_start": "29", "page_end": "31", "relevant": "0"}
+{"question_id": "Q20", "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?", "reranked_rank": "3", "original_rank": "16", "original_similarity_score": "0.848817", "rerank_score": "-0.739549", "chunk_id": "afad_earthquake_4f4dfce08b956cf8331d", "source_file": "olagandisi.pdf", "page_start": "16", "page_end": "18", "relevant": "0"}
+{"question_id": "Q20", "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?", "reranked_rank": "4", "original_rank": "8", "original_similarity_score": "0.853071", "rerank_score": "-0.868419", "chunk_id": "afad_earthquake_cbadb3c843f0cf3c15bc", "source_file": "ZONGULDAK_IRAP.pdf", "page_start": "124", "page_end": "126", "relevant": "0"}
+{"question_id": "Q20", "question": "Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?", "reranked_rank": "5", "original_rank": "20", "original_similarity_score": "0.847709", "rerank_score": "-1.433434", "chunk_id": "afad_earthquake_04ad2861734f94adf056", "source_file": "Denizli_Il_Afet_Risk_Azaltma-Plani.pdf", "page_start": "155", "page_end": "155", "relevant": "0"}
+
+========================================================================================
+Rank 5 Check
+Q20 rank5 chunk_id: afad_earthquake_04ad2861734f94adf056
+Q20 rank5 current label: 0
+Q20 rank5 in DIRECT_GUIDANCE chunk list: false
+authority_instruction_present: true
+evacuation_context_present: true
+earthquake_context_present: false
+citizen_guidance_present: true
+direct_answer: false
+context_mismatch: true
+
+========================================================================================
+Summary
+Q20 direct guidance chunks: 6
+Q20 top5 direct-answer chunks: 2
+Q20 rank5 chunk: afad_earthquake_04ad2861734f94adf056
+Q20 rank5 current label: 0
+Diagnosis: EVALUATION_LABEL_ERROR
+
+Classification options:
+A) EVALUATION_LABEL_ERROR
+B) DIRECT_GUIDANCE_FALSE_POSITIVE
+C) CONTEXT_MISMATCH
+D) OTHER

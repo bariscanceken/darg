@@ -1,0 +1,82 @@
+{
+  "experiment": "Test 6 - V2 FAISS Top-50 + Cross-Encoder + dense/reranker score fusion",
+  "judgments_file": "data\\evaluation\\retrieval_score_fusion_judgments.csv",
+  "manual_mapping_file": "data\\evaluation\\retrieval_score_fusion_manual_mapping.json",
+  "total_judgment_rows": 500,
+  "updated_rows_from_manual_mapping": 112,
+  "blank_relevant_rows": 0,
+  "relevant_results_total": 222,
+  "metrics_by_alpha": [
+    {
+      "alpha": "0.50",
+      "relevant_results": 47,
+      "precision_at_5": 0.4700000000000001,
+      "hit_rate_at_5": 0.9,
+      "mrr": 0.7791666666666666,
+      "total_questions": 20,
+      "evaluated_results": 100,
+      "questions_with_no_relevant": 2,
+      "failed_question_ids": [
+        "Q13",
+        "Q14"
+      ]
+    },
+    {
+      "alpha": "0.60",
+      "relevant_results": 47,
+      "precision_at_5": 0.4700000000000001,
+      "hit_rate_at_5": 0.9,
+      "mrr": 0.7766666666666666,
+      "total_questions": 20,
+      "evaluated_results": 100,
+      "questions_with_no_relevant": 2,
+      "failed_question_ids": [
+        "Q13",
+        "Q14"
+      ]
+    },
+    {
+      "alpha": "0.70",
+      "relevant_results": 44,
+      "precision_at_5": 0.44000000000000006,
+      "hit_rate_at_5": 0.85,
+      "mrr": 0.7583333333333333,
+      "total_questions": 20,
+      "evaluated_results": 100,
+      "questions_with_no_relevant": 3,
+      "failed_question_ids": [
+        "Q01",
+        "Q13",
+        "Q14"
+      ]
+    },
+    {
+      "alpha": "0.80",
+      "relevant_results": 43,
+      "precision_at_5": 0.43000000000000005,
+      "hit_rate_at_5": 0.9,
+      "mrr": 0.7708333333333333,
+      "total_questions": 20,
+      "evaluated_results": 100,
+      "questions_with_no_relevant": 2,
+      "failed_question_ids": [
+        "Q13",
+        "Q14"
+      ]
+    },
+    {
+      "alpha": "0.90",
+      "relevant_results": 41,
+      "precision_at_5": 0.41000000000000003,
+      "hit_rate_at_5": 0.9,
+      "mrr": 0.7916666666666667,
+      "total_questions": 20,
+      "evaluated_results": 100,
+      "questions_with_no_relevant": 2,
+      "failed_question_ids": [
+        "Q13",
+        "Q14"
+      ]
+    }
+  ]
+}

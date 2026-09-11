@@ -1,0 +1,89 @@
+========================================
+DOCUMENT TYPE: citizen_guidance
+source_priority: 3
+
+- 13_afad_bilgilendirme_afisleri_tr_afet_cantasi_info_.pdf
+- hasar_tespit_-_10x21.pdf
+- ilk72saat1.pdf
+- ilk72saatengelliler.pdf
+- olagandisi.pdf
+- SoruCevap-Kitapcik-2.pdf
+
+========================================
+DOCUMENT TYPE: training_guidance
+source_priority: 2
+
+- 04_ikaz_alarm_isaretleri_tr-REVIZE.pdf
+- abep_kitap_matbaa_final_04122008_small.pdf
+- Afet-barinma-faaliyetleri.pdf
+- Afet-Yönetim-Terimleri-Sözlüğü.pdf
+- ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+- ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+- OLAY-YERİ-YÖNETİMİ-TEMEL-EĞİTİMİ-220925.pdf
+- psikososyal_-_10x21.pdf
+- sozluk.pdf
+- yapilacak_yardimlar_-_10x21.pdf
+- yapisalolmayanriskler.pdf
+- yapisalriskler.pdf
+
+========================================
+DOCUMENT TYPE: plan
+source_priority: 1
+
+- 23052025-TASIP.pdf
+- 28032022-TARAP-kitap_V6.pdf
+- ADANA-IRAP.pdf
+- adiyaman-irap.pdf
+- AKSARAY-IRAP-2021.pdf
+- ANKARA_IRAP_2021.pdf
+- Antalya-IRAP_2022.pdf
+- Ardahan-IRAP.pdf
+- ARTVIN-IRAP-SON_22102021.pdf
+- Aydin-IRAP-2021.pdf
+- BALIKESIR-IRAP.pdf
+- BARTIN-IRAP-2022.pdf
+- Batman-IRAP.pdf
+- Bayburt-IRAP.pdf
+- bilecik_irap_2023.pdf
+- BINGOL-AFAD-IRAP-2012.pdf
+- BITLIS_IRAP.pdf
+- Bolu_irap_01_11_2021.pdf
+- Bursa-IRAP.pdf
+- Canakkale-IRAP.pdf
+... (53 more)
+
+========================================
+DOCUMENT TYPE: technical
+source_priority: 1
+
+- istanbulda-afetler.pdf
+- sismik-mikrobolgeleme_genisletilmis_ozet_tr.pdf
+- sismik_mikrobolgeleme_bilimsel_son_durum_raporu_tr.pdf
+- sismik_mikrobolgeleme_el_kitabi_tr.pdf
+- sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf
+
+========================================
+DOCUMENT TYPE: unknown
+source_priority: 1
+
+- 2020yilidogakaynakliolayistatistikleri.pdf
+- 2022-Yili-Doga-Kaynakli-Olay-Istatistikleri.pdf
+- 2023yilidogakaynakliolayistatistikleri-_1_.pdf
+- 2024-Yili-Doga-Kaynakli-Olay-Istatistikleri.pdf
+- 92-20140602121022-afetler_il_ilce_eng.pdf
+- 93-2014060215017-afetler_il_ilce_final_27102008_3.pdf
+- afad_red.pdf
+- afet_sonrasi_iyilestirme_calismalari-1.pdf
+- Afete_Direncli_Toplum_Uygulama_Ornekleri.pdf
+- AYDES.pdf
+- deprem_haritasi.pdf
+- deprem_nedir.pdf
+- deprem_takibi.pdf
+- document-_11_.pdf
+- fayin_merkezi.pdf
+- gozlem_aglari.pdf
+- Kahramanmaraş Depremi Bağış Kampanyası Harcama Detayları_.pdf
+- Kahramanmaraş Depremi Bağış Kampanyası Harcamaları_.pdf
+- mudahale_edilen_olaylar.pdf
+- mudahale_kapasitesi.pdf
+... (5 more)

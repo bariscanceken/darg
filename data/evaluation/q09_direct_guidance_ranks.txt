@@ -1,0 +1,71 @@
+========================================================================================
+Q09 Direct Guidance Rank Diagnostic
+Question: Deprem sonrası artçı sarsıntılarda ne yapmalıyım?
+Known direct guidance sentence: Artçı şoklar için hazırlıklı olmalıyız
+FAISS Top-K: 100
+
+Direct guidance chunks found: 1
+
+========================================================================================
+Direct Guidance Chunks
+
+Direct chunk 1
+chunk_id: afad_earthquake_9934dddf1886db4d4037
+source_file: ilk72saat1.pdf
+page_start: 29
+page_end: 33
+FAISS rank: 35
+FAISS similarity score: 0.852832
+Rerank rank: 4
+Rerank score: 0.575105
+full text:
+Depremin ilk 3 saniyesinde kendimizi korumak için ne yapacaèÈmÈzÈ bilmeliyiz. Panièe kapÈlÈp merdiven ve balkonlara koëturmak, küçük depremlerde dahi gereksiz yere ölümlere neden olmaktadÈr. SarsÈntÈ baëlar baëlamaz donup kalmadan veya saèa sola kaçÈëmadan, bulunduèumuz yerde kendimizi koruyacak konumu almalÈyÈz. Korku ve Panik Depremden korkuyorsanÈz, korkularÈnÈzÈ etrafÈnÈzdakilerle paylaëÈn. Depremler korkutucu olabilir ama unutmayÈn, sarsÈntÈ kÈsa sürede sona erecektir. Panièe kapÈlmamak için deprem öncesinde, sÈrasÈnda ve sonrasÈnda yapÈlacaklarÈ öèrenmek ve gerekli önlemleri önceden almakla birlikte farklÈ ortamlarda deprem tatbikatlarÈ da yapÈn. AyrÈca panik durumunu engellemek için, panièe kapÈlmamÈë gibi davranmaya çalÈëÈn. Kendinize ve çevrenizdekilere ancak bu ëekilde yardÈm edebilirsiniz. Soru: Deprem anÈnda panik yaratmamak için nasÈl davranmalÈyÈz? a. Çök-Kapan-Tutun hareketini yaparÈm. b. éçimden 60’a kadar saymaya baëlarÈm. c. Depremin kÈsa zamanda geçeceèini düëünürüm. d. YukarÈdakilerin hepsini yaparÈm. YanÈt: (d) ëÈkkÈ! Deprem anÈnda tamamen yÈkÈlÈp “sandviç” ya da “yassÈ kadayÈf” olarak adlandÈrÈlan ëekli almayan, az hasarlÈ veya hasarsÈz binalarda da ölüm ve yaralanmalar gerçekleëir; bunlara daha çok, ev içindeki eëyalar gibi yapÈsal olmayan riskler neden olur. Bu nedenle, binalarÈmÈzÈn büyük bir kÈsmÈnÈn yassÈ kadayÈf olmayacaèÈ dikkate alÈndÈèÈnda, yapÈsal olmayan risklerden korunmanÈn evrensel olarak kabul edilen tek davranÈë ëekli “ÇökKapan-Tutun”dur. Çök-Kapan-Tutun Deprem, uçak kazasÈ, heyelan, bomba patlamasÈ ve bomba tehdidi, yÈldÈrÈm ve hortum gibi tehlikelerde bu yöntem uygulanÈr. Örneèin, zemin sarsÈlmaya baëladÈèÈnda veya büyük bir patlama duyulduèunda herkesin Çök-Kapan-Tutun hareketini yapmasÈ gerekir. Vücudun kapladÈèÈ alanÈ küçülten bu davranÈë, bizi havada uçuëan, saçÈlan ve dökülen cisimlerden koruyacak ve onlara hedef olmayacak bir yerde yapÈlmalÈdÈr. Eèer bina içerisindeysek depremi hissettièimizde ayakta durmamalÈ, kesinlikle; • oradan oraya koëmamalÈ • balkona çÈkmamalÈ • merdivenden inmemeli • asansöre binmemeli • pencere ve balkondan atlamamalÈyÈz. VI. 3. SANéYE éÇéN VI. 3. SANéYE éÇéN HAZIRLIK HAZIRLIK 20 Öncelikle • pencerelerden • kapÈlardan • cam bölmelerden • kitaplÈklardan • kütüphanelerden • lambalardan • tablolardan • asÈlÈ çiçeklerden ve saksÈlardan • raflardan • dolaplardan • kimyasallardan • yanan ocak ve fÈrÈnlardan • yüksek mobilyalardan • gevëek yapÈ elemanlarÈndan sabitlemediysek UZAK DURmalÈyÈz. Eèer deprem anÈnda mutfaktaysak ve yanan bir ocak varsa; • SarsÈntÈ hissedilir hissedilmez ocaklardaki ateëleri kapatmalÈyÈz. • Sonra ÇÖK-KAPAN-TUTUN hareketini yapmalÈyÈz. Bir acil durum ya da afet sÈrasÈnda bulunduèunuz yerde en uygun ÇÖK-KAPAN-TUTUN pozisyonunu alarak hedef küçültün. Tehlike geçinceye kadar aynÈ pozisyonda kalÈn. Engelliler ve özel ihtiyaç sahiplerinin afetlere hazÈrlÈèÈ, onlar için afet anÈ ve sonrasÈnda yapÈlmasÈ gerekenler hakkÈnda daha fazla bilgi için Engelliler ‹çin Depremde élk 72 Saat Eèitim KitapçÈèÈ‘na bakÈnÈz. Deprem anÈnda doèru davranÈë ëeklini hatÈrlayabilmek ve uygulayabilmek için mutlaka ve sürekli olarak tatbikat yapÈlmasÈ gerekir. Çök-Kapan-Tutun TatbikatÈ Gerçek bir depremde insanlarÈn panièe kapÈlmadan doèru hareket etme ëansÈnÈn, her Çök-Kapan-Tutun egzersiziyle iki kat arttÈèÈ bilimsel olarak ispatlanmÈëtÈr. Bu nedenle, ister evde, okulda, dÈëarÈda, ister baëka bir yerde olalÈm, deprem anÈnda kendimizi nasÈl koruyacaèÈmÈzÈ bilmek önemlidir. Ailece, sÈnÈfça veya arkadaëlarÈmÈzla, deprem olunca ne yapacaèÈmÈzÈn provalarÈnÈ yaparsak deprem baëladÈèÈnda reflekslerimiz otomatik olarak bizi doèru davranÈëlarda bulunmaya yöneltecektir. YukarÈda deprem sÈrasÈnda yapmanÈz gerekenleri öèrendiniz. êimdi tatbikatÈ yöneten bir aile ferdinin okuyacaèÈ yandaki metin eëlièinde hareketli bir Çök-Kapan-Tutun uygulamasÈ yapmalÈsÈnÈz. Bu tatbikatÈ yöneten bir aile ferdi Çök-Kapan-Tutun tatbikatÈ için yan sayfadakileri okurken, dièerleri de yapÈlmasÈ gerekenleri uygulamalÈdÈr. énsanlar DuyduklarÈnÈ Unuturlar, Gördüklerini HatÈrlarlar ve YalnÈzca YaptÈklarÈnÈ Anlarlar! (Konfüçyüs) ÇÖKüp saèlam bir nesnenin altÈna girin veya yanÈna geçin. Özellikle sÈrtÈnÈz pencerelere dönük bir ëekilde KAPANÈp baëÈnÈzÈ ve ensenizi düëen cisimlerden koruyun. SarsÈntÈ sona erene kadar, sallanan nesneyle beraber hareket edebilmek için nesneye TUTUNun. Nesneyi tutan kollarÈnÈzÈn üzerine yüzünüzü koyarak uçuëan cisimlerden gözlerinizi ve yüzünüzü koruyun. 21 22 22 23 23 VII. 3. DAKéKA éÇéN VII. 3. DAKéKA éÇéN HAZIRLIK HAZIRLIK Depremden hemen sonra; • Kendimizin ve etrafÈmÈzdakilerin saèlÈèÈnÈ kontrol etmeliyiz. • YangÈndan korunabilmeli ve ufak yangÈnlarÈ söndürebilmeliyiz. • ArtçÈ ëoklar için hazÈrlÈklÈ olmalÈyÈz. Normal günlerde en kÈsa zamanda yardÈmÈmÈza koëan saèlÈk görevlileri ve itfaiye, büyük bir depremde kanamalarÈn, kesik ve yangÈnlarÈn hepsine müdahale edemeyecektir. Bu nedenle, herkesin küçük kanama ve yangÈnlara nasÈl müdahale edeceèini bilmesi ve bunun için gerekli olan yangÈn söndürücü ve ilkyardÈm malzemelerini bulundurmasÈ gerekmektedir. Depremden sonra yangÈnlarÈn büyümeden halk tarafÈndan söndürülmesi çok önemlidir. Kendisi de afetzede olmasÈ muhtemel itfaiyenin kapanan yollar ve tÈkanan trafik gibi imkânsÈzlÈklarÈn içinde birçok yangÈna yetiëmesi beklenmemelidir. Bu nedenle, her ev ve iëyerinde küçük yangÈnlara ve yaralanmalara müdahale edebilecek ilkyardÈm, yangÈn ve afete hazÈrlÈk eèitimleri almÈë kiëilerin ve acil durum ihtiyaç malzemelerinin bulunmasÈ gerekir. AëaèÈda özetlenen pratik bilgileri öèrenerek gerekli hazÈrlÈklarÈ yapmalÈsÈnÈz. Bu pratik bilgiler sizin hayatÈnÈzÈ ya da sevdiklerinizinkini kurtarabilir. • Sakin olun, panièe kapÈlmayÈn. • Kendinizin ve çevrenizdeki insanlarÈn yaralanÈp yaralanmadÈèÈnÈ kontrol edin. • Depremden sonra artçÈ sarsÈntÈlara hazÈrlÈklÈ olun. • Saèlam bir ayakkabÈ ve hava ëartlarÈna uygun bir ëekilde giyinin. • Güvenlièiniz için gaz kaçaèÈ ve yanÈcÈ madde sÈzÈntÈsÈ olmadÈèÈndan emin olana dek kibrit ateëlemeyin, ÈëÈklarÈ kapalÈysa açmayÈn, açÈksa söndürmeyin. • Eèer yangÈn baëlamadÈysa ve gaz kokusu alÈyor ya da patlama veya gaz kaçÈrma sesi duyuyorsanÈz bir pencere açÈn, daire içinde veya daire kapÈsÈ dÈëÈnda bulunan doèalgaz tesisat valfini mümkünse kapatÈn ve binayÈ hemen terk edin. • Bulunduèunuz yerden ayrÈlÈyorsanÈz çevrenizdekilere bilgi verin. • Acil yardÈma ihtiyaç duyarsanÈz camlara bir yardÈm iëareti koyun. • Pilli radyodan acil durum talimatlarÈnÈ dinleyin. • YÈkÈlmÈë elektrik hatlarÈndan uzak durun. • Üzerinize düëebilecek cisimlerden uzak durun. • Hasar görmüë binalardan uzak durun. • KÈrÈk cam, döküntü, çivi gibi tehlikelerden korunmak için bot veya saèlam ayakkabÈ ve eldiven giyin. • Acil durum planlarÈna ve bu planlarÈn uygulayÈcÈlarÈnÈn direktiflerine titizlikle uyun. • Eèer kalabalÈk ve halka açÈk bir yerdeyseniz, kapÈlara ulaëmak için acele etmeyin. • Tsunami veya deniz kabarmasÈ olabilecek bölgelerde plajlardan ve kÈyÈlardan uzaklaëÈn. • TelefonlarÈ meëgul etmeyin, sadece acil durumlarda kullanÈn; sms atmayÈ tercih edin.
+
+========================================================================================
+Test 2 Q09 Top-5 Results
+
+rerank rank: 1
+original FAISS rank: 16
+chunk_id: afad_earthquake_632e70f741b800eb5bfb
+source_file: hasar_tespit_-_10x21.pdf
+current relevant label: 0
+
+rerank rank: 2
+original FAISS rank: 18
+chunk_id: afad_earthquake_a57f27e768ee29dc6a03
+source_file: document-_11_.pdf
+current relevant label: 0
+
+rerank rank: 3
+original FAISS rank: 14
+chunk_id: afad_earthquake_b2d22d6f081db05f23b6
+source_file: abep_kitap_matbaa_final_04122008_small.pdf
+current relevant label: 0
+
+rerank rank: 4
+original FAISS rank: 1
+chunk_id: afad_earthquake_de1e5df0254dea4a2102
+source_file: sismik_mikrobolgeleme_el_kitabi_tr.pdf
+current relevant label: 0
+
+rerank rank: 5
+original FAISS rank: 9
+chunk_id: afad_earthquake_fdf6885c5537316d3aed
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+current relevant label: 0
+
+========================================================================================
+Summary
+Diagnosis: CANDIDATE_RETRIEVAL_WEAK
+
+Chunk afad_earthquake_9934dddf1886db4d4037:
+FAISS rank: 35
+FAISS similarity score: 0.852832
+Rerank rank: 4
+Rerank score: 0.575105
+
+Classification options:
+1. RERANKING_FAILURE
+2. CANDIDATE_RETRIEVAL_WEAK
+3. EMBEDDING_RETRIEVAL_FAILURE
+4. EVALUATION_LABEL_ERROR

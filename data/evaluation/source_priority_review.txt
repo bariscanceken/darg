@@ -1,0 +1,6 @@
+SOURCE PRIORITY EXPERIMENT REVIEW
+Only development Q01-Q20 were used.
+
+Missing judgments:
+
+No missing judgments. Existing development labels covered all boosted Top-5 results.

@@ -1,0 +1,62 @@
+================================================================================
+Q04 DIRECT_GUIDANCE Rank Diagnostic
+Query: Deprem sırasında asansör kullanmalı mıyım?
+FAISS Top-K: 100
+Reranker: cross-encoder/mmarco-mMiniLMv2-L12-H384-v1
+
+Direct guidance chunks: 3
+
+Chunk: afad_earthquake_f485ea324516195f79aa
+Trace source_file: ilk72saatengelliler.pdf
+Trace page: 31
+Trace matched_sentence: • Merdiven ve asansörleri kullanmayÈn.
+FAISS rank: 12
+FAISS score: 0.852335
+source_file: ilk72saatengelliler.pdf
+pages: 29-31
+Rerank rank: 9
+Rerank score: -1.013471
+
+Chunk: afad_earthquake_628e4978a3a3a946879b
+Trace source_file: ilk72saatengelliler.pdf
+Trace page: 31
+Trace matched_sentence: • Merdiven ve asansörleri kullanmayÈn.
+FAISS rank: 1
+FAISS score: 0.866314
+source_file: ilk72saatengelliler.pdf
+pages: 31-34
+Rerank rank: 1
+Rerank score: -0.182924
+
+Chunk: afad_earthquake_b0a29ad8d56ade1a433e
+Trace source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+Trace page: 119
+Trace matched_sentence: Kullanımda Dikkat Edilecek Hususlar • Trifor, amacı dışında yük asansörü olarak kullanılmamalıdır.
+FAISS rank: NOT_IN_TOP_100
+FAISS score: NOT_IN_TOP_100
+source_file: NOT_IN_TOP_100
+pages: NOT_IN_TOP_100
+Rerank rank: NOT_IN_TOP_100
+Rerank score: NOT_IN_TOP_100
+
+================================================================================
+Summary
+Direct guidance chunks: 3
+
+Chunk afad_earthquake_f485ea324516195f79aa:
+FAISS rank: 12
+FAISS score: 0.852335
+Rerank rank: 9
+Rerank score: -1.013471
+
+Chunk afad_earthquake_628e4978a3a3a946879b:
+FAISS rank: 1
+FAISS score: 0.866314
+Rerank rank: 1
+Rerank score: -0.182924
+
+Chunk afad_earthquake_b0a29ad8d56ade1a433e:
+FAISS rank: NOT_IN_TOP_100
+FAISS score: NOT_IN_TOP_100
+Rerank rank: NOT_IN_TOP_100
+Rerank score: NOT_IN_TOP_100

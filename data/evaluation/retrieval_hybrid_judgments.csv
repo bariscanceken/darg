@@ -1,0 +1,101 @@
+question_id,question,final_rank,rerank_score,chunk_id,source_file,page_start,page_end,retrieved_by,faiss_rank,faiss_score,bm25_rank,bm25_score,relevant
+Q01,Deprem sırasında evin içindeysem ne yapmalıyım?,1,5.107857,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense,6,0.875593,,,0
+Q01,Deprem sırasında evin içindeysem ne yapmalıyım?,2,4.161930,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,dense,38,0.854380,,,1
+Q01,Deprem sırasında evin içindeysem ne yapmalıyım?,3,3.238868,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,dense,7,0.873268,,,0
+Q01,Deprem sırasında evin içindeysem ne yapmalıyım?,4,3.146870,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,dense+bm25,23,0.859152,1,15.722142,0
+Q01,Deprem sırasında evin içindeysem ne yapmalıyım?,5,3.016024,afad_earthquake_v2_4bdedca0c68877d01292,document-_11_.pdf,104,106,dense,8,0.872102,,,0
+Q02,Deprem sonrası ilk 72 saatte ne yapmalıyım?,1,3.042614,afad_earthquake_v2_1adff00bc1c849413cf2,KARS-IRAP.pdf,138,140,bm25,,,16,9.582214,0
+Q02,Deprem sonrası ilk 72 saatte ne yapmalıyım?,2,2.702373,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense,5,0.872315,,,1
+Q02,Deprem sonrası ilk 72 saatte ne yapmalıyım?,3,2.277358,afad_earthquake_v2_427409e8ec2698972bcf,SAMSUN.pdf,60,61,bm25,,,36,8.039500,0
+Q02,Deprem sonrası ilk 72 saatte ne yapmalıyım?,4,1.847287,afad_earthquake_v2_3090f0f7bb18af01247f,ilk72saatengelliler.pdf,11,12,bm25,,,3,15.658227,0
+Q02,Deprem sonrası ilk 72 saatte ne yapmalıyım?,5,1.279373,afad_earthquake_v2_ffdff7f13a611a036f47,Mus-IRAP-Plani.pdf,84,86,bm25,,,7,12.185656,0
+Q03,Depremden sonra hasarlı binaya tekrar girebilir miyim?,1,4.952865,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,dense+bm25,2,0.873427,4,14.242623,0
+Q03,Depremden sonra hasarlı binaya tekrar girebilir miyim?,2,4.432816,afad_earthquake_v2_45813868383605cb8925,afet_sonrasi_iyilestirme_calismalari-1.pdf,134,135,bm25,,,7,12.807219,0
+Q03,Depremden sonra hasarlı binaya tekrar girebilir miyim?,3,2.831481,afad_earthquake_v2_f6faafb1909babb4bb84,olagandisi.pdf,24,25,dense,13,0.863802,,,0
+Q03,Depremden sonra hasarlı binaya tekrar girebilir miyim?,4,2.774809,afad_earthquake_v2_40c2d2d833b4b85327f6,SoruCevap-Kitapcik-2.pdf,2,2,dense+bm25,3,0.873199,6,13.736831,1
+Q03,Depremden sonra hasarlı binaya tekrar girebilir miyim?,5,2.718158,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense,42,0.858267,,,0
+Q04,Deprem sırasında asansör kullanmalı mıyım?,1,1.741600,afad_earthquake_v2_ec31a2d507c55fadf4d6,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,16,17,bm25,,,13,6.220774,0
+Q04,Deprem sırasında asansör kullanmalı mıyım?,2,0.605106,afad_earthquake_v2_2b2ba212c05726889da2,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,153,154,bm25,,,3,9.004302,0
+Q04,Deprem sırasında asansör kullanmalı mıyım?,3,0.326905,afad_earthquake_v2_37ee2cd11258a0f68065,ilk72saat1.pdf,29,33,dense,32,0.848241,,,1
+Q04,Deprem sırasında asansör kullanmalı mıyım?,4,-0.182924,afad_earthquake_v2_acf546f192d6f7580fac,ilk72saatengelliler.pdf,31,33,dense,3,0.866314,,,1
+Q04,Deprem sırasında asansör kullanmalı mıyım?,5,-0.208804,afad_earthquake_v2_5550e5e148897498cc8e,document-_11_.pdf,54,55,bm25,,,2,9.692685,0
+Q05,Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?,1,5.026379,afad_earthquake_v2_37ee2cd11258a0f68065,ilk72saat1.pdf,29,33,dense+bm25,2,0.885046,2,14.793743,1
+Q05,Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?,2,4.067625,afad_earthquake_v2_acf546f192d6f7580fac,ilk72saatengelliler.pdf,31,33,dense+bm25,1,0.890316,3,14.146374,1
+Q05,Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?,3,3.317750,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,dense,3,0.875866,,,1
+Q05,Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?,4,2.312296,afad_earthquake_v2_a160e813b66aba54c36d,ilk72saatengelliler.pdf,34,35,bm25,,,6,10.383951,0
+Q05,Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?,5,0.782387,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense,10,0.858674,,,0
+Q06,Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?,1,2.211765,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,dense+bm25,1,0.869801,14,10.538543,1
+Q06,Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?,2,1.169788,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,dense,3,0.857158,,,0
+Q06,Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?,3,-0.422011,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,dense,26,0.841865,,,0
+Q06,Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?,4,-0.759265,afad_earthquake_v2_6e7342ce2519e56a10d6,ilk72saat1.pdf,49,51,dense+bm25,21,0.843148,21,9.431152,0
+Q06,Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?,5,-0.997019,afad_earthquake_v2_380cafc8226774560e1c,KIRKLARELI-IRAP.pdf,123,123,dense,15,0.844769,,,0
+Q07,Depremden sonra telefonla yakınlarımı aramalı mıyım?,1,4.710067,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,dense+bm25,3,0.870005,3,9.547734,1
+Q07,Depremden sonra telefonla yakınlarımı aramalı mıyım?,2,3.512946,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,dense,5,0.862543,,,0
+Q07,Depremden sonra telefonla yakınlarımı aramalı mıyım?,3,2.940293,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,dense,1,0.891853,,,1
+Q07,Depremden sonra telefonla yakınlarımı aramalı mıyım?,4,2.689999,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense+bm25,4,0.862996,19,7.887472,1
+Q07,Depremden sonra telefonla yakınlarımı aramalı mıyım?,5,1.164991,afad_earthquake_v2_b9f1f37fc6b9c132abef,hasar_tespit_-_10x21.pdf,1,2,dense,50,0.842133,,,0
+Q08,Enkaz altında kalırsam ne yapmalıyım?,1,3.550556,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,dense+bm25,2,0.875836,4,12.134726,1
+Q08,Enkaz altında kalırsam ne yapmalıyım?,2,2.360023,afad_earthquake_v2_57aa4f0d0c58f1556844,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,99,99,dense+bm25,9,0.856844,7,9.671850,0
+Q08,Enkaz altında kalırsam ne yapmalıyım?,3,1.309032,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,dense+bm25,1,0.899332,2,14.425264,0
+Q08,Enkaz altında kalırsam ne yapmalıyım?,4,1.263325,afad_earthquake_v2_385ab31d1233619c9ccd,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,101,102,dense+bm25,7,0.862462,11,9.430423,0
+Q08,Enkaz altında kalırsam ne yapmalıyım?,5,1.237819,afad_earthquake_v2_25ad6e5142b53a951bd4,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,173,174,bm25,,,49,6.970633,0
+Q09,Deprem sonrası artçı sarsıntılarda ne yapmalıyım?,1,3.184690,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,dense,1,0.868664,,,1
+Q09,Deprem sonrası artçı sarsıntılarda ne yapmalıyım?,2,2.150344,afad_earthquake_v2_20d1a673c2b050cdeb6e,ilk72saat1.pdf,31,33,dense,39,0.854237,,,1
+Q09,Deprem sonrası artçı sarsıntılarda ne yapmalıyım?,3,1.759001,afad_earthquake_v2_b9f1f37fc6b9c132abef,hasar_tespit_-_10x21.pdf,1,2,dense+bm25,25,0.856246,5,10.940098,0
+Q09,Deprem sonrası artçı sarsıntılarda ne yapmalıyım?,4,0.966242,afad_earthquake_v2_a6a2e971e4aa9280ab91,yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf,101,102,bm25,,,35,7.777875,0
+Q09,Deprem sonrası artçı sarsıntılarda ne yapmalıyım?,5,-0.252719,afad_earthquake_v2_f543ffc8b023a9e1a8c8,yft_min1.pdf,14,16,dense,5,0.864066,,,0
+Q10,Deprem çantasında neler bulunmalı?,1,2.910674,afad_earthquake_v2_447d2d6bc4c14fa76217,ilk72saatengelliler.pdf,23,24,dense,4,0.863747,,,1
+Q10,Deprem çantasında neler bulunmalı?,2,2.082944,afad_earthquake_v2_24a5e827c98bf732f335,ilk72saatengelliler.pdf,24,25,dense,3,0.865981,,,1
+Q10,Deprem çantasında neler bulunmalı?,3,1.138998,afad_earthquake_v2_dd631026938f44680d2b,olagandisi.pdf,31,32,dense+bm25,1,0.872956,1,13.138766,1
+Q10,Deprem çantasında neler bulunmalı?,4,0.895202,afad_earthquake_v2_c8c7b70c2799105f0156,ilk72saatengelliler.pdf,18,19,dense+bm25,15,0.851384,29,5.095584,0
+Q10,Deprem çantasında neler bulunmalı?,5,0.661008,afad_earthquake_v2_62d572ab1266c325ed9a,olagandisi.pdf,34,35,dense+bm25,43,0.844660,4,9.986143,0
+Q11,Depremden sonra nereye gitmeliyim?,1,4.037138,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense+bm25,6,0.853076,22,7.887472,1
+Q11,Depremden sonra nereye gitmeliyim?,2,3.465536,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,dense,1,0.861818,,,1
+Q11,Depremden sonra nereye gitmeliyim?,3,2.622898,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,dense,24,0.844055,,,0
+Q11,Depremden sonra nereye gitmeliyim?,4,2.492104,afad_earthquake_v2_572074d49992362287d5,ilk72saatengelliler.pdf,36,38,dense+bm25,5,0.853783,50,6.379204,0
+Q11,Depremden sonra nereye gitmeliyim?,5,1.818564,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense+bm25,4,0.855427,25,7.763134,0
+Q12,Toplanma alanı nedir?,1,4.000923,afad_earthquake_v2_cbd25a444d05ab121b8a,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,510,510,dense,9,0.841828,,,1
+Q12,Toplanma alanı nedir?,2,3.861110,afad_earthquake_v2_5f94eb091fec5868a669,SIIRT-IRAP.pdf,101,103,dense,2,0.849789,,,1
+Q12,Toplanma alanı nedir?,3,2.267397,afad_earthquake_v2_5042e1888af675e6a3d6,Yozgat-IRAP.pdf,54,57,dense,10,0.841664,,,0
+Q12,Toplanma alanı nedir?,4,2.234658,afad_earthquake_v2_56b43f1c6d0727b9a983,Yozgat-IRAP.pdf,57,59,dense,14,0.839764,,,0
+Q12,Toplanma alanı nedir?,5,2.119124,afad_earthquake_v2_24ab15ac9588f2131aaa,ARTVIN-IRAP-SON_22102021.pdf,86,91,dense,11,0.841133,,,0
+Q13,Deprem sırasında dışarıdaysam ne yapmalıyım?,1,3.522222,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,dense,2,0.881950,,,0
+Q13,Deprem sırasında dışarıdaysam ne yapmalıyım?,2,3.152293,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense,6,0.874786,,,0
+Q13,Deprem sırasında dışarıdaysam ne yapmalıyım?,3,2.928070,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense,8,0.870550,,,0
+Q13,Deprem sırasında dışarıdaysam ne yapmalıyım?,4,2.330405,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,dense,37,0.854572,,,0
+Q13,Deprem sırasında dışarıdaysam ne yapmalıyım?,5,2.209877,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,bm25,,,1,15.722142,0
+Q14,Deprem sırasında araç kullanıyorsam ne yapmalıyım?,1,1.297349,afad_earthquake_v2_ae7004b7adb20b96f5fb,ilk72saat1.pdf,56,57,dense,1,0.877275,,,0
+Q14,Deprem sırasında araç kullanıyorsam ne yapmalıyım?,2,1.165430,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,dense+bm25,2,0.872999,22,7.063596,0
+Q14,Deprem sırasında araç kullanıyorsam ne yapmalıyım?,3,0.961426,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense,33,0.855697,,,0
+Q14,Deprem sırasında araç kullanıyorsam ne yapmalıyım?,4,0.854692,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,bm25,,,1,15.722142,0
+Q14,Deprem sırasında araç kullanıyorsam ne yapmalıyım?,5,0.730465,afad_earthquake_v2_ff7c7e3294aaf3245c9a,ilk72saatengelliler.pdf,33,34,dense,7,0.866673,,,0
+Q15,Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?,1,4.883060,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,dense+bm25,36,0.862671,10,13.357382,0
+Q15,Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?,2,4.720657,afad_earthquake_v2_40c2d2d833b4b85327f6,SoruCevap-Kitapcik-2.pdf,2,2,dense+bm25,2,0.877796,7,16.338103,1
+Q15,Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?,3,4.188185,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,dense+bm25,30,0.863860,29,11.185667,0
+Q15,Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?,4,4.022561,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,dense+bm25,1,0.894105,1,27.778672,0
+Q15,Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?,5,4.001386,afad_earthquake_v2_effbf1b87ddccea4f4e4,ilk72saat1.pdf,22,25,dense,22,0.866826,,,0
+Q16,Ağır hasarlı bina ne demektir?,1,7.007330,afad_earthquake_v2_f5460af0d9e5b082c5e9,Afet-barinma-faaliyetleri.pdf,11,13,dense+bm25,3,0.861071,2,22.396419,1
+Q16,Ağır hasarlı bina ne demektir?,2,6.780669,afad_earthquake_v2_dc95f4d347d1b1a39bcc,SoruCevap-Kitapcik-2.pdf,1,1,dense+bm25,5,0.859559,1,23.278936,0
+Q16,Ağır hasarlı bina ne demektir?,3,3.560541,afad_earthquake_v2_472271b72c476e01c9af,Afet-Yönetim-Terimleri-Sözlüğü.pdf,36,37,bm25,,,40,12.770226,1
+Q16,Ağır hasarlı bina ne demektir?,4,2.574077,afad_earthquake_v2_15228a457be9c1c471df,Afet-Yönetim-Terimleri-Sözlüğü.pdf,183,184,dense,28,0.842005,,,0
+Q16,Ağır hasarlı bina ne demektir?,5,2.327909,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,dense,4,0.860981,,,0
+Q17,Depremden sonra tahliye nasıl yapılmalıdır?,1,6.423724,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,dense+bm25,2,0.899924,29,9.281471,1
+Q17,Depremden sonra tahliye nasıl yapılmalıdır?,2,5.239894,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense+bm25,11,0.870239,9,11.922114,0
+Q17,Depremden sonra tahliye nasıl yapılmalıdır?,3,4.856904,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense+bm25,9,0.875475,14,10.756415,0
+Q17,Depremden sonra tahliye nasıl yapılmalıdır?,4,4.552635,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,dense+bm25,1,0.901360,3,13.134218,0
+Q17,Depremden sonra tahliye nasıl yapılmalıdır?,5,4.125374,afad_earthquake_v2_df3f7ea3d41870c7a362,ilk72saatengelliler.pdf,35,36,dense,8,0.877257,,,1
+Q18,Deprem sonrası iletişim nasıl sağlanmalıdır?,1,3.990476,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense,2,0.888240,,,1
+Q18,Deprem sonrası iletişim nasıl sağlanmalıdır?,2,3.751338,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,dense,1,0.888946,,,1
+Q18,Deprem sonrası iletişim nasıl sağlanmalıdır?,3,2.894029,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,dense,6,0.879461,,,1
+Q18,Deprem sonrası iletişim nasıl sağlanmalıdır?,4,2.230166,afad_earthquake_v2_31851f4c7f260d8ec6be,afet_sonrasi_iyilestirme_calismalari-1.pdf,107,110,bm25,,,29,7.621585,0
+Q18,Deprem sonrası iletişim nasıl sağlanmalıdır?,5,2.022613,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense,23,0.862641,,,0
+Q19,Depremden sonra yaralı birine nasıl yaklaşmalıyım?,1,3.999915,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,dense,1,0.888862,,,1
+Q19,Depremden sonra yaralı birine nasıl yaklaşmalıyım?,2,3.573255,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,dense,11,0.871006,,,0
+Q19,Depremden sonra yaralı birine nasıl yaklaşmalıyım?,3,3.047945,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,dense+bm25,8,0.875319,47,7.887472,0
+Q19,Depremden sonra yaralı birine nasıl yaklaşmalıyım?,4,2.748786,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,dense,9,0.871921,,,1
+Q19,Depremden sonra yaralı birine nasıl yaklaşmalıyım?,5,1.658314,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,dense,4,0.880571,,,0
+Q20,Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?,1,5.424854,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,dense+bm25,1,0.874284,1,16.425538,1
+Q20,Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?,2,2.746863,afad_earthquake_v2_572074d49992362287d5,ilk72saatengelliler.pdf,36,38,dense+bm25,2,0.867205,17,8.023091,1
+Q20,Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?,3,2.655779,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,dense+bm25,3,0.862792,35,7.319452,1
+Q20,Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?,4,1.513736,afad_earthquake_v2_df3f7ea3d41870c7a362,ilk72saatengelliler.pdf,35,36,dense+bm25,25,0.852053,26,7.565624,0
+Q20,Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?,5,0.937277,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,bm25,,,40,7.210014,0

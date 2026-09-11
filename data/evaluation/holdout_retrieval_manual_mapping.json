@@ -1,0 +1,4260 @@
+{
+  "source_judgments_file": "data\\evaluation\\holdout_retrieval_judgments.csv",
+  "unique_key": "question_id + chunk_id",
+  "manual_review_count": 223,
+  "records": [
+    {
+      "manual_review_id": "M001",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 33,
+      "page_end": 34,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a"
+        },
+        {
+          "question_id": "H01",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M002",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M003",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324",
+      "source_file": "olagandisi.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M004",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_df10bc43e2cbf2acc8ce",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 26,
+      "page_end": 28,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_df10bc43e2cbf2acc8ce"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M005",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M006",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M007",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M008",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M009",
+      "question_id": "H01",
+      "question": "Deprem anında yatağın yanındaysam nasıl korunmalıyım?",
+      "chunk_id": "afad_earthquake_v2_53055e13abae8e29401b",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 37,
+      "page_end": 39,
+      "judgment_rows": [
+        {
+          "question_id": "H01",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_53055e13abae8e29401b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M010",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "question_id": "H02",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M011",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+      "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+      "page_start": 82,
+      "page_end": 83,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M012",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_ff0a814d245b07ed5564",
+      "source_file": "istanbulda-afetler.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_ff0a814d245b07ed5564"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M013",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8",
+      "source_file": "yft_min1.pdf",
+      "page_start": 14,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M014",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_92110d5d9a44bdaaf24b",
+      "source_file": "document-_11_.pdf",
+      "page_start": 102,
+      "page_end": 104,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_92110d5d9a44bdaaf24b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M015",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_1a3ec93138ebac8d4746",
+      "source_file": "Bayburt-IRAP.pdf",
+      "page_start": 55,
+      "page_end": 56,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_1a3ec93138ebac8d4746"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M016",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_f1bf19df55834f66b9dd",
+      "source_file": "Kirikkale-IRAP-Raporu-07102021.pdf",
+      "page_start": 189,
+      "page_end": 190,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_f1bf19df55834f66b9dd"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M017",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_33ac31a130fc42410a99",
+      "source_file": "HATAY-İRAP-2022.pdf",
+      "page_start": 40,
+      "page_end": 41,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_33ac31a130fc42410a99"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M018",
+      "question_id": "H02",
+      "question": "Deprem sırasında merdivenlere yönelmek doğru mu?",
+      "chunk_id": "afad_earthquake_v2_bb29b9898e871ce429df",
+      "source_file": "document-_11_.pdf",
+      "page_start": 92,
+      "page_end": 93,
+      "judgment_rows": [
+        {
+          "question_id": "H02",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_bb29b9898e871ce429df"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M019",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_37ee2cd11258a0f68065",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 29,
+      "page_end": 33,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_37ee2cd11258a0f68065"
+        },
+        {
+          "question_id": "H03",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_37ee2cd11258a0f68065"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M020",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_097009c6a56e24323255",
+      "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+      "page_start": 57,
+      "page_end": 59,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_097009c6a56e24323255"
+        },
+        {
+          "question_id": "H03",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_097009c6a56e24323255"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M021",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M022",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8",
+      "source_file": "yft_min1.pdf",
+      "page_start": 14,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M023",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        },
+        {
+          "question_id": "H03",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M024",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205",
+      "source_file": "document-_11_.pdf",
+      "page_start": 298,
+      "page_end": 299,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M025",
+      "question_id": "H03",
+      "question": "Sarsıntı sırasında balkona çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_341816f2c12c1016548d",
+      "source_file": "Trabzon-IRAP-03042026.pdf",
+      "page_start": 170,
+      "page_end": 170,
+      "judgment_rows": [
+        {
+          "question_id": "H03",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_341816f2c12c1016548d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M026",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_e719e4ab124af1720a4e",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 38,
+      "page_end": 38,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_e719e4ab124af1720a4e"
+        },
+        {
+          "question_id": "H04",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_e719e4ab124af1720a4e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M027",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        },
+        {
+          "question_id": "H04",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M028",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        },
+        {
+          "question_id": "H04",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M029",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_acf546f192d6f7580fac",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 31,
+      "page_end": 33,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_acf546f192d6f7580fac"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M030",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M031",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_4bdedca0c68877d01292",
+      "source_file": "document-_11_.pdf",
+      "page_start": 104,
+      "page_end": 106,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_4bdedca0c68877d01292"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M032",
+      "question_id": "H04",
+      "question": "Deprem anında camlardan uzak durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79",
+      "source_file": "ZONGULDAK_IRAP.pdf",
+      "page_start": 124,
+      "page_end": 124,
+      "judgment_rows": [
+        {
+          "question_id": "H04",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M033",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2",
+      "source_file": "olagandisi.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        },
+        {
+          "question_id": "H05",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M034",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324",
+      "source_file": "olagandisi.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M035",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 33,
+      "page_end": 34,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M036",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        },
+        {
+          "question_id": "H05",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M037",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_df10bc43e2cbf2acc8ce",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 26,
+      "page_end": 28,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_df10bc43e2cbf2acc8ce"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M038",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M039",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_32bab3c630cd41969132",
+      "source_file": "olagandisi.pdf",
+      "page_start": 46,
+      "page_end": 49,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_32bab3c630cd41969132"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M040",
+      "question_id": "H05",
+      "question": "Deprem sırasında mutfaktaysam ilk ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H05",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M041",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 47,
+      "page_end": 48,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M042",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_84c64740b6367b6b9a8b",
+      "source_file": "afet_sonrasi_iyilestirme_calismalari-1.pdf",
+      "page_start": 188,
+      "page_end": 189,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_84c64740b6367b6b9a8b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M043",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc",
+      "source_file": "SoruCevap-Kitapcik-2.pdf",
+      "page_start": 1,
+      "page_end": 1,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_dc95f4d347d1b1a39bcc"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M044",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_cd1ec4a7cb0ebfc19a2c",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_cd1ec4a7cb0ebfc19a2c"
+        },
+        {
+          "question_id": "H06",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_cd1ec4a7cb0ebfc19a2c"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M045",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_33f6ccaba56162302eea",
+      "source_file": "IIRAP_Izmir-2025-_1_-a.pdf",
+      "page_start": 289,
+      "page_end": 289,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_33f6ccaba56162302eea"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M046",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_40c2d2d833b4b85327f6",
+      "source_file": "SoruCevap-Kitapcik-2.pdf",
+      "page_start": 2,
+      "page_end": 2,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_40c2d2d833b4b85327f6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M047",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M048",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8",
+      "source_file": "yft_min1.pdf",
+      "page_start": 14,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M049",
+      "question_id": "H06",
+      "question": "Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_da1fef50402230c09609",
+      "source_file": "document-_11_.pdf",
+      "page_start": 51,
+      "page_end": 52,
+      "judgment_rows": [
+        {
+          "question_id": "H06",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_da1fef50402230c09609"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M050",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H07",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M051",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 41,
+      "page_end": 42,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0"
+        },
+        {
+          "question_id": "H07",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M052",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "question_id": "H07",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M053",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_20d1a673c2b050cdeb6e",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 31,
+      "page_end": 33,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_20d1a673c2b050cdeb6e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M054",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_ec5ee80e05ed4235f96e",
+      "source_file": "irap_istanbul.pdf",
+      "page_start": 150,
+      "page_end": 151,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_ec5ee80e05ed4235f96e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M055",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 54,
+      "page_end": 55,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M056",
+      "question_id": "H07",
+      "question": "Deprem sonrası elektrik şalterini kapatmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_53273a64845ddf3af39f",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 40,
+      "page_end": 41,
+      "judgment_rows": [
+        {
+          "question_id": "H07",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_53273a64845ddf3af39f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M057",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_92110d5d9a44bdaaf24b",
+      "source_file": "document-_11_.pdf",
+      "page_start": 102,
+      "page_end": 104,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_92110d5d9a44bdaaf24b"
+        },
+        {
+          "question_id": "H08",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_92110d5d9a44bdaaf24b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M058",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M059",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 41,
+      "page_end": 42,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0"
+        },
+        {
+          "question_id": "H08",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M060",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_20d1a673c2b050cdeb6e",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 31,
+      "page_end": 33,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_20d1a673c2b050cdeb6e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M061",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        },
+        {
+          "question_id": "H08",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M062",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_0ec077f85f5224aae6a8",
+      "source_file": "VAN-IRAP.pdf",
+      "page_start": 147,
+      "page_end": 148,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_0ec077f85f5224aae6a8"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M063",
+      "question_id": "H08",
+      "question": "Depremden sonra gaz vanasını kapatmak gerekir mi?",
+      "chunk_id": "afad_earthquake_v2_3bf876a4663b60228186",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 27,
+      "judgment_rows": [
+        {
+          "question_id": "H08",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_3bf876a4663b60228186"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M064",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 41,
+      "page_end": 42,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0"
+        },
+        {
+          "question_id": "H09",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_5243c7568406dc6d07b0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M065",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 54,
+      "page_end": 55,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M066",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_be80eb0d93f94480d96c",
+      "source_file": "04_ikaz_alarm_isaretleri_tr-REVIZE.pdf",
+      "page_start": 7,
+      "page_end": 14,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_be80eb0d93f94480d96c"
+        },
+        {
+          "question_id": "H09",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_be80eb0d93f94480d96c"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M067",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_598da8f8a593d0907ccb",
+      "source_file": "IIRAP_Izmir-2025-_1_-a.pdf",
+      "page_start": 169,
+      "page_end": 169,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_598da8f8a593d0907ccb"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M068",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_eca16533b2601900f0df",
+      "source_file": "ZONGULDAK_IRAP.pdf",
+      "page_start": 187,
+      "page_end": 188,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_eca16533b2601900f0df"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M069",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M070",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_463843bd656187980659",
+      "source_file": "Gaziantep-IRAP.pdf",
+      "page_start": 75,
+      "page_end": 77,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_463843bd656187980659"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M071",
+      "question_id": "H09",
+      "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H09",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M072",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_90304a4a981acd040412",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 28,
+      "page_end": 29,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_90304a4a981acd040412"
+        },
+        {
+          "question_id": "H10",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_90304a4a981acd040412"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M073",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H10",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M074",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_2fff61b4977651757430",
+      "source_file": "document-_11_.pdf",
+      "page_start": 295,
+      "page_end": 296,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_2fff61b4977651757430"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M075",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_cd14a09057fdc336cfed",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_cd14a09057fdc336cfed"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M076",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M077",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M078",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M079",
+      "question_id": "H10",
+      "question": "Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_acf546f192d6f7580fac",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 31,
+      "page_end": 33,
+      "judgment_rows": [
+        {
+          "question_id": "H10",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_acf546f192d6f7580fac"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M080",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H11",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M081",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 47,
+      "page_end": 48,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M082",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H11",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M083",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_0fb5efd0727e419802bc",
+      "source_file": "olagandisi.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_0fb5efd0727e419802bc"
+        },
+        {
+          "question_id": "H11",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_0fb5efd0727e419802bc"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M084",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M085",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M086",
+      "question_id": "H11",
+      "question": "Binadan çıktıktan sonra nereye gitmeliyim?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H11",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M087",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_64fa27dc10ae97efe12d",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 93,
+      "page_end": 94,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_64fa27dc10ae97efe12d"
+        },
+        {
+          "question_id": "H12",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_64fa27dc10ae97efe12d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M088",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_679fb63ef1e4cf3c1be1",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 92,
+      "page_end": 93,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_679fb63ef1e4cf3c1be1"
+        },
+        {
+          "question_id": "H12",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_679fb63ef1e4cf3c1be1"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M089",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+      "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+      "page_start": 82,
+      "page_end": 83,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M090",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86",
+      "source_file": "Antalya-IRAP_2022.pdf",
+      "page_start": 79,
+      "page_end": 81,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_6228a810282e0d3cbe86"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M091",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_5f94eb091fec5868a669",
+      "source_file": "SIIRT-IRAP.pdf",
+      "page_start": 101,
+      "page_end": 103,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_5f94eb091fec5868a669"
+        },
+        {
+          "question_id": "H12",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_5f94eb091fec5868a669"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M092",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M093",
+      "question_id": "H12",
+      "question": "Toplanma alanına giderken hangi risklere dikkat etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_0aedf80398d173c70f16",
+      "source_file": "KARS-IRAP.pdf",
+      "page_start": 105,
+      "page_end": 106,
+      "judgment_rows": [
+        {
+          "question_id": "H12",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_0aedf80398d173c70f16"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M094",
+      "question_id": "H13",
+      "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H13",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H13",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M095",
+      "question_id": "H13",
+      "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 47,
+      "page_end": 48,
+      "judgment_rows": [
+        {
+          "question_id": "H13",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3"
+        },
+        {
+          "question_id": "H13",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M096",
+      "question_id": "H13",
+      "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H13",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H13",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M097",
+      "question_id": "H13",
+      "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_c4d6b7fa229e6ac8db9b",
+      "source_file": "afet_sonrasi_iyilestirme_calismalari-1.pdf",
+      "page_start": 247,
+      "page_end": 249,
+      "judgment_rows": [
+        {
+          "question_id": "H13",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_c4d6b7fa229e6ac8db9b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M098",
+      "question_id": "H13",
+      "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_4bdedca0c68877d01292",
+      "source_file": "document-_11_.pdf",
+      "page_start": 104,
+      "page_end": 106,
+      "judgment_rows": [
+        {
+          "question_id": "H13",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_4bdedca0c68877d01292"
+        },
+        {
+          "question_id": "H13",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_4bdedca0c68877d01292"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M099",
+      "question_id": "H13",
+      "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_589f99bca4ae6cea8542",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 43,
+      "page_end": 44,
+      "judgment_rows": [
+        {
+          "question_id": "H13",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_589f99bca4ae6cea8542"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M100",
+      "question_id": "H14",
+      "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H14",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H14",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M101",
+      "question_id": "H14",
+      "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_a0247e973a0bfd1c162d",
+      "source_file": "sismik_mikrobolgeleme_el_kitabi_tr.pdf",
+      "page_start": 68,
+      "page_end": 70,
+      "judgment_rows": [
+        {
+          "question_id": "H14",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_a0247e973a0bfd1c162d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M102",
+      "question_id": "H14",
+      "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_8f31059c06898d62fa39",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 89,
+      "page_end": 90,
+      "judgment_rows": [
+        {
+          "question_id": "H14",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8f31059c06898d62fa39"
+        },
+        {
+          "question_id": "H14",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8f31059c06898d62fa39"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M103",
+      "question_id": "H14",
+      "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_693645664db4b0cc7da7",
+      "source_file": "sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf",
+      "page_start": 148,
+      "page_end": 149,
+      "judgment_rows": [
+        {
+          "question_id": "H14",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_693645664db4b0cc7da7"
+        },
+        {
+          "question_id": "H14",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_693645664db4b0cc7da7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M104",
+      "question_id": "H14",
+      "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H14",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "question_id": "H14",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M105",
+      "question_id": "H14",
+      "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?",
+      "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8",
+      "source_file": "yft_min1.pdf",
+      "page_start": 14,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H14",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M106",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2",
+      "source_file": "olagandisi.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        },
+        {
+          "question_id": "H15",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M107",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324",
+      "source_file": "olagandisi.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M108",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_20d1a673c2b050cdeb6e",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 31,
+      "page_end": 33,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_20d1a673c2b050cdeb6e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M109",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 47,
+      "page_end": 48,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M110",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 29,
+      "page_end": 30,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        },
+        {
+          "question_id": "H15",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M111",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M112",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M113",
+      "question_id": "H15",
+      "question": "Depremden sonra çevredeki yaralılara yardım etmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_572074d49992362287d5",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 36,
+      "page_end": 38,
+      "judgment_rows": [
+        {
+          "question_id": "H15",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_572074d49992362287d5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M114",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 29,
+      "page_end": 30,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        },
+        {
+          "question_id": "H16",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M115",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_07aa1636cd58234a5c0e",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 325,
+      "page_end": 325,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_07aa1636cd58234a5c0e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M116",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2",
+      "source_file": "olagandisi.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        },
+        {
+          "question_id": "H16",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M117",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_290fbbc000f4552f24c9",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 325,
+      "page_end": 326,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_290fbbc000f4552f24c9"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M118",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324",
+      "source_file": "olagandisi.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M119",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_244dae961d87a10b4dc6",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 279,
+      "page_end": 279,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_244dae961d87a10b4dc6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M120",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_4d5ea58b6e8cae71b403",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 30,
+      "page_end": 31,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_4d5ea58b6e8cae71b403"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M121",
+      "question_id": "H16",
+      "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?",
+      "chunk_id": "afad_earthquake_v2_48d34fc579bb6aa24a9b",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 278,
+      "page_end": 278,
+      "judgment_rows": [
+        {
+          "question_id": "H16",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_48d34fc579bb6aa24a9b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M122",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H17",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M123",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_64fa27dc10ae97efe12d",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 93,
+      "page_end": 94,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_64fa27dc10ae97efe12d"
+        },
+        {
+          "question_id": "H17",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_64fa27dc10ae97efe12d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M124",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_320b854139e725771f23",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_320b854139e725771f23"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M125",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_385ab31d1233619c9ccd",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 101,
+      "page_end": 102,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_385ab31d1233619c9ccd"
+        },
+        {
+          "question_id": "H17",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_385ab31d1233619c9ccd"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M126",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_04441e708a3419906c99",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 8,
+      "page_end": 8,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_04441e708a3419906c99"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M127",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M128",
+      "question_id": "H17",
+      "question": "Enkaz altındaysam sürekli bağırmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H17",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M129",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_385ab31d1233619c9ccd",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 101,
+      "page_end": 102,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_385ab31d1233619c9ccd"
+        },
+        {
+          "question_id": "H18",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_385ab31d1233619c9ccd"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M130",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H18",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M131",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_ab725531b7d65e8c17a6",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 96,
+      "page_end": 99,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_ab725531b7d65e8c17a6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M132",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_02d79f0152f26ad87fb7",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 103,
+      "page_end": 104,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_02d79f0152f26ad87fb7"
+        },
+        {
+          "question_id": "H18",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_02d79f0152f26ad87fb7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M133",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_57aa4f0d0c58f1556844",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 99,
+      "page_end": 99,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_57aa4f0d0c58f1556844"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M134",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M135",
+      "question_id": "H18",
+      "question": "Enkaz altında sesimi duyuramıyorsam ne yapabilirim?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H18",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M136",
+      "question_id": "H19",
+      "question": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?",
+      "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 29,
+      "page_end": 30,
+      "judgment_rows": [
+        {
+          "question_id": "H19",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        },
+        {
+          "question_id": "H19",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M137",
+      "question_id": "H19",
+      "question": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "judgment_rows": [
+        {
+          "question_id": "H19",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        },
+        {
+          "question_id": "H19",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M138",
+      "question_id": "H19",
+      "question": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "judgment_rows": [
+        {
+          "question_id": "H19",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        },
+        {
+          "question_id": "H19",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M139",
+      "question_id": "H19",
+      "question": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H19",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H19",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M140",
+      "question_id": "H19",
+      "question": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?",
+      "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+      "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+      "page_start": 82,
+      "page_end": 83,
+      "judgment_rows": [
+        {
+          "question_id": "H19",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M141",
+      "question_id": "H19",
+      "question": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H19",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M142",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        },
+        {
+          "question_id": "H20",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M143",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_8d7728abd65402a4e976",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 34,
+      "page_end": 35,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8d7728abd65402a4e976"
+        },
+        {
+          "question_id": "H20",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8d7728abd65402a4e976"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M144",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 29,
+      "page_end": 30,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        },
+        {
+          "question_id": "H20",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_687d9401c527bf64a875"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M145",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_f957ebbb84c492de20e3",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 566,
+      "page_end": 566,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_f957ebbb84c492de20e3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M146",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_94ad29f03513766c93b3",
+      "source_file": "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf",
+      "page_start": 200,
+      "page_end": 200,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_94ad29f03513766c93b3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M147",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M148",
+      "question_id": "H20",
+      "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H20",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M149",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M150",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 24,
+      "page_end": 25,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335"
+        },
+        {
+          "question_id": "H21",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_24a5e827c98bf732f335"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M151",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H21",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M152",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M153",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79",
+      "source_file": "ZONGULDAK_IRAP.pdf",
+      "page_start": 124,
+      "page_end": 124,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M154",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M155",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_447d2d6bc4c14fa76217"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M156",
+      "question_id": "H21",
+      "question": "Deprem çantasını binadan çıkarken yanıma almalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H21",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M157",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_0231a20304da7fc45b4a",
+      "source_file": "olagandisi.pdf",
+      "page_start": 35,
+      "page_end": 36,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_0231a20304da7fc45b4a"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M158",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_6e7342ce2519e56a10d6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 49,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_6e7342ce2519e56a10d6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M159",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H22",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M160",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        },
+        {
+          "question_id": "H22",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M161",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M162",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_32bab3c630cd41969132",
+      "source_file": "olagandisi.pdf",
+      "page_start": 46,
+      "page_end": 49,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_32bab3c630cd41969132"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M163",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M164",
+      "question_id": "H22",
+      "question": "Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303",
+      "source_file": "olagandisi.pdf",
+      "page_start": 23,
+      "page_end": 24,
+      "judgment_rows": [
+        {
+          "question_id": "H22",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_a793c631a1482c5fb303"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M165",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79",
+      "source_file": "ZONGULDAK_IRAP.pdf",
+      "page_start": 124,
+      "page_end": 124,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79"
+        },
+        {
+          "question_id": "H23",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M166",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M167",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M168",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8",
+      "source_file": "yft_min1.pdf",
+      "page_start": 14,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_f543ffc8b023a9e1a8c8"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M169",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M170",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_bd2a61f797a38fd1f2af",
+      "source_file": "Aydin-IRAP-2021.pdf",
+      "page_start": 204,
+      "page_end": 205,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_bd2a61f797a38fd1f2af"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M171",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205",
+      "source_file": "document-_11_.pdf",
+      "page_start": 298,
+      "page_end": 299,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8db6c99699fc2d7bb205"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M172",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_1fd7203fd5e5e1d50259",
+      "source_file": "Mugla_IRAP_20102021_Baski.pdf",
+      "page_start": 147,
+      "page_end": 148,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_1fd7203fd5e5e1d50259"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M173",
+      "question_id": "H23",
+      "question": "Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?",
+      "chunk_id": "afad_earthquake_v2_68161805f9aec04640b4",
+      "source_file": "IRAP-11102021-basim-yapilan.pdf",
+      "page_start": 167,
+      "page_end": 168,
+      "judgment_rows": [
+        {
+          "question_id": "H23",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_68161805f9aec04640b4"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M174",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79",
+      "source_file": "ZONGULDAK_IRAP.pdf",
+      "page_start": 124,
+      "page_end": 124,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79"
+        },
+        {
+          "question_id": "H24",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8576896ff3249adc6c79"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M175",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "question_id": "H24",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M176",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_320b854139e725771f23",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_320b854139e725771f23"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M177",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_8641b392086766056ad0",
+      "source_file": "olagandisi.pdf",
+      "page_start": 17,
+      "page_end": 19,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        },
+        {
+          "question_id": "H24",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_8641b392086766056ad0"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M178",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_e87aa0d3b1f002837dd9",
+      "source_file": "olagandisi.pdf",
+      "page_start": 38,
+      "page_end": 39,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_e87aa0d3b1f002837dd9"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M179",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 47,
+      "page_end": 48,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_6aaa76364003179aaab3"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M180",
+      "question_id": "H24",
+      "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?",
+      "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+      "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+      "page_start": 82,
+      "page_end": 83,
+      "judgment_rows": [
+        {
+          "question_id": "H24",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M181",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_a160e813b66aba54c36d",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 34,
+      "page_end": 35,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_a160e813b66aba54c36d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M182",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_7b5848d0a49faf2a5359",
+      "source_file": "Bayburt-IRAP.pdf",
+      "page_start": 86,
+      "page_end": 87,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_7b5848d0a49faf2a5359"
+        },
+        {
+          "question_id": "H25",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_7b5848d0a49faf2a5359"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M183",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_5860571a1f2bd2bec125",
+      "source_file": "AKSARAY-IRAP-2021.pdf",
+      "page_start": 197,
+      "page_end": 198,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_5860571a1f2bd2bec125"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M184",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M185",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_ae7004b7adb20b96f5fb",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 56,
+      "page_end": 57,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_ae7004b7adb20b96f5fb"
+        },
+        {
+          "question_id": "H25",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_ae7004b7adb20b96f5fb"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M186",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe",
+      "source_file": "olagandisi.pdf",
+      "page_start": 14,
+      "page_end": 15,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_01666ddd4a29c3eac6fe"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M187",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_bd2a61f797a38fd1f2af",
+      "source_file": "Aydin-IRAP-2021.pdf",
+      "page_start": 204,
+      "page_end": 205,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_bd2a61f797a38fd1f2af"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M188",
+      "question_id": "H25",
+      "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?",
+      "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2",
+      "source_file": "olagandisi.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H25",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_5231d857573b43a191f2"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M189",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 54,
+      "page_end": 55,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f"
+        },
+        {
+          "question_id": "H26",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_d9ff882714f41a353c6f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M190",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_ae7004b7adb20b96f5fb",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 56,
+      "page_end": 57,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_ae7004b7adb20b96f5fb"
+        },
+        {
+          "question_id": "H26",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_ae7004b7adb20b96f5fb"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M191",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_be80eb0d93f94480d96c",
+      "source_file": "04_ikaz_alarm_isaretleri_tr-REVIZE.pdf",
+      "page_start": 7,
+      "page_end": 14,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_be80eb0d93f94480d96c"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M192",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_243ddcd89bea8d126adb",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 42,
+      "page_end": 44,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_243ddcd89bea8d126adb"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M193",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20",
+      "source_file": "olagandisi.pdf",
+      "page_start": 20,
+      "page_end": 21,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        },
+        {
+          "question_id": "H26",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_fe5a81c9950597aaee20"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M194",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fefa541e63e6a986ae45",
+      "source_file": "ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf",
+      "page_start": 45,
+      "page_end": 45,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_fefa541e63e6a986ae45"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M195",
+      "question_id": "H26",
+      "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?",
+      "chunk_id": "afad_earthquake_v2_ca4995e8e406b1ab5333",
+      "source_file": "SivasIRAP.pdf",
+      "page_start": 141,
+      "page_end": 141,
+      "judgment_rows": [
+        {
+          "question_id": "H26",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_ca4995e8e406b1ab5333"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M196",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 33,
+      "page_end": 34,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a"
+        },
+        {
+          "question_id": "H27",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_ff7c7e3294aaf3245c9a"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M197",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M198",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7",
+      "source_file": "olagandisi.pdf",
+      "page_start": 21,
+      "page_end": 22,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_156cea4b9ed7845976b7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M199",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_001647c78a293925a1f4",
+      "source_file": "yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf",
+      "page_start": 107,
+      "page_end": 108,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_001647c78a293925a1f4"
+        },
+        {
+          "question_id": "H27",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_001647c78a293925a1f4"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M200",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "question_id": "H27",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M201",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263",
+      "source_file": "yapisalolmayanriskler.pdf",
+      "page_start": 42,
+      "page_end": 43,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_9e3cf6277a88559a5263"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M202",
+      "question_id": "H27",
+      "question": "Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_df3f7ea3d41870c7a362",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 35,
+      "page_end": 36,
+      "judgment_rows": [
+        {
+          "question_id": "H27",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_df3f7ea3d41870c7a362"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M203",
+      "question_id": "H28",
+      "question": "Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_4812e4d628714ed46737",
+      "source_file": "SivasIRAP.pdf",
+      "page_start": 142,
+      "page_end": 143,
+      "judgment_rows": [
+        {
+          "question_id": "H28",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_4812e4d628714ed46737"
+        },
+        {
+          "question_id": "H28",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_4812e4d628714ed46737"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M204",
+      "question_id": "H28",
+      "question": "Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_0aedf80398d173c70f16",
+      "source_file": "KARS-IRAP.pdf",
+      "page_start": 105,
+      "page_end": 106,
+      "judgment_rows": [
+        {
+          "question_id": "H28",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_0aedf80398d173c70f16"
+        },
+        {
+          "question_id": "H28",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_0aedf80398d173c70f16"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M205",
+      "question_id": "H28",
+      "question": "Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_53055e13abae8e29401b",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 37,
+      "page_end": 39,
+      "judgment_rows": [
+        {
+          "question_id": "H28",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_53055e13abae8e29401b"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M206",
+      "question_id": "H28",
+      "question": "Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "judgment_rows": [
+        {
+          "question_id": "H28",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        },
+        {
+          "question_id": "H28",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M207",
+      "question_id": "H28",
+      "question": "Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324",
+      "source_file": "olagandisi.pdf",
+      "page_start": 15,
+      "page_end": 16,
+      "judgment_rows": [
+        {
+          "question_id": "H28",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324"
+        },
+        {
+          "question_id": "H28",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_1a63bcf03fa83c353324"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M208",
+      "question_id": "H28",
+      "question": "Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?",
+      "chunk_id": "afad_earthquake_v2_809a46868fdf2e7085b5",
+      "source_file": "SivasIRAP.pdf",
+      "page_start": 141,
+      "page_end": 142,
+      "judgment_rows": [
+        {
+          "question_id": "H28",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_809a46868fdf2e7085b5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M209",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396",
+      "source_file": "olagandisi.pdf",
+      "page_start": 19,
+      "page_end": 20,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        },
+        {
+          "question_id": "H29",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_7302a4f456736e75e396"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M210",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6",
+      "source_file": "ilk72saat1.pdf",
+      "page_start": 44,
+      "page_end": 45,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        },
+        {
+          "question_id": "H29",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_8edcf886d51b509b94e6"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M211",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d",
+      "source_file": "Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf",
+      "page_start": 82,
+      "page_end": 83,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9f15c8328caf803c696d"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M212",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_66615c78e5a234f9fbc1",
+      "source_file": "yft_min1.pdf",
+      "page_start": 64,
+      "page_end": 65,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_66615c78e5a234f9fbc1"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M213",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_098ea7122b006dd148bf",
+      "source_file": "Denizli_Il_Afet_Risk_Azaltma-Plani.pdf",
+      "page_start": 172,
+      "page_end": 173,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_098ea7122b006dd148bf"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M214",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_9c0c24a9b5d41267f617",
+      "source_file": "IRAP_2022.pdf",
+      "page_start": 201,
+      "page_end": 202,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_9c0c24a9b5d41267f617"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M215",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_68161805f9aec04640b4",
+      "source_file": "IRAP-11102021-basim-yapilan.pdf",
+      "page_start": 167,
+      "page_end": 168,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_68161805f9aec04640b4"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M216",
+      "question_id": "H29",
+      "question": "Deprem sonrası resmi açıklamaları nereden takip etmeliyim?",
+      "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f",
+      "source_file": "olagandisi.pdf",
+      "page_start": 26,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H29",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_47906b2fade86f52003f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M217",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 50,
+      "page_end": 51,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test4_baseline",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        },
+        {
+          "question_id": "H30",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 1,
+          "chunk_id": "afad_earthquake_v2_fe92b1366549464b873f"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M218",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_50e0ee9dcaef0254795e",
+      "source_file": "sismik-mikrobolgeleme_genisletilmis_ozet_tr.pdf",
+      "page_start": 6,
+      "page_end": 7,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test4_baseline",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_50e0ee9dcaef0254795e"
+        },
+        {
+          "question_id": "H30",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_50e0ee9dcaef0254795e"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M219",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_45ed20d04b412a8407b9",
+      "source_file": "yapisalriskler.pdf",
+      "page_start": 36,
+      "page_end": 38,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test4_baseline",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_45ed20d04b412a8407b9"
+        },
+        {
+          "question_id": "H30",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 2,
+          "chunk_id": "afad_earthquake_v2_45ed20d04b412a8407b9"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M220",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_ee93cd58b5bb32e381e7",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 28,
+      "page_end": 29,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test4_baseline",
+          "final_rank": 4,
+          "chunk_id": "afad_earthquake_v2_ee93cd58b5bb32e381e7"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M221",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5",
+      "source_file": "olagandisi.pdf",
+      "page_start": 22,
+      "page_end": 23,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test4_baseline",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_3b28344ad0c4e1559be5"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M222",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_29c8fca800da878b45b1",
+      "source_file": "ilk72saatengelliler.pdf",
+      "page_start": 25,
+      "page_end": 26,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 3,
+          "chunk_id": "afad_earthquake_v2_29c8fca800da878b45b1"
+        }
+      ]
+    },
+    {
+      "manual_review_id": "M223",
+      "question_id": "H30",
+      "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?",
+      "chunk_id": "afad_earthquake_v2_ace50981b3988c2229c0",
+      "source_file": "Afete_Direncli_Toplum_Uygulama_Ornekleri.pdf",
+      "page_start": 54,
+      "page_end": 55,
+      "judgment_rows": [
+        {
+          "question_id": "H30",
+          "system": "test6_score_fusion_alpha_0.50",
+          "final_rank": 5,
+          "chunk_id": "afad_earthquake_v2_ace50981b3988c2229c0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "precision_at_5": 0.38,
+  "hit_rate_at_5": 0.9,
+  "mrr": 0.7583333333333333,
+  "total_questions": 20,
+  "evaluated_results": 100,
+  "questions_with_no_relevant": 2,
+  "failed_question_ids": [
+    "Q13",
+    "Q14"
+  ]
+}

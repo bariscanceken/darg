@@ -1,0 +1,415 @@
+================================================================================
+Q04 - Deprem sırasında asansör kullanmalı mıyım?
+
+Match 1
+source_file: document-_11_.pdf
+relative_path: books/document-_11_.pdf
+page: 55
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: Yapısal Olmayan Risk Azaltma Tanımı ve Kapsamı 53 Yapıya Ait Olmayan Hareketsiz Eşyalar Aşağıdaki eşyalar ve benzerleri ise yapının içinde bir kereliğine sabitlenip genellikle aynı yerde kaldığından, “hareketsiz eşyalar (Şekil 2.7.)” olarak adlandırılır. | Şekil 2.7.
+matched_sentence: Yapıya Ait Olmayan Hareketsiz Eşyalar A Tüm pencere ve kapı doğramalar A Çeşitli boyutlara sahip asansör sistemleri A Yüksek yerlere asılmış panel radyatörler ve bağlantı boruları A Kombi cihazları, termosifonlar, şofbenler A Aydınlatma sistemleri A Çeşitli boyutlarda avizeler A Camdan üretilmiş lambalar, floresan lambalar A Asma tavan tipi yerlerde kullanılan spot lambalar ve ekipmanlar A Yapılarda bulunan yangın merdivenleri A Alışveriş merkezlerindeki cam vitrinler ve bunlara benzeyen birçok eşya A Havalandırma sistemleri Yapıya Ait Olmayan Hareketsiz Eşyalar Başka çalışmalarda “Yapısal Olmayan Elemanlar” olarak korkuluklar, bacalar, yük taşımayan duvarlar, yangın söndürme sistemleri, havalandırma sistemleri, asma tavanlar ve ışıklar, pencereler, su ısıtıcıları, fırınlar, klimalar ve acil durum jeneratörlerine dikkat çekilmiştir.
+next_2_sentences: Tekrar özetlendiğinde bina içeriği, özellikle kitaplıklar, dosya dolapları, depolama rafları, bilgisayarlar, monitörler, televizyonlar ve diğerleri gibi düşmeleri halinde can güvenliği riski oluşturan uzun ve/veya ağır nesneleri kısıtlamak, desteklemek veya sabitlemek yapısal olmayan hafifletme önlemleri arasında yer almaktadır. | Ülkemizde, mevcut sanayi altyapısının yoğunlaştığı, nüfusun yüksek ve sosyo-ekonomik gelişmişlik düzeyinin ileri olduğu bölgeler, önemli bir deprem tehlikesi altındadır.
+covering_chunk_ids: afad_earthquake_9f41deefd948e2e2f078, afad_earthquake_0a0d2bc19fbdb0cab39c
+chunk_contains_asansor: true
+
+Match 2
+source_file: document-_11_.pdf
+relative_path: books/document-_11_.pdf
+page: 359
+relevance_status: excluded
+category: RELATED_GUIDANCE
+previous_2_sentences: Tayfun, Fırtına ve Kasırga 357 Afet ve acil durum çantasıyla birlikte önceden belirlenmiş olan en güvenli yere yani sığınağa gidilmesi, en guvenli yer bilinmiyorsa en alt kata ya da banyo, dolap, merkez koridor gibi daha güvenli kısımlara, bodruma veya penceresiz bir iç odaya gidilmesi, Pencerelerden, dış kapı ve duvarlardan uzak durulması, ek koruma için sağlam bir nesnenin örneğin ağır bir masanın, mobilya veya mutfak tezgahının altında kalınması gerekmektedir.
+matched_sentence: Vücudun bir battaniye, uyku tulumu veya şilte ile örtülmesi, kafa ve boynun ceket veya battaniyeler, yastık vb. bir şeyle örterek ayrıca korunulması, asansör kullanılmaması, pencereleri açılmaması gerekmektedir.
+next_2_sentences: Şekil 11.18. | Hortum Veya Fırtına Anında Açık Havada Veya Bir Araç İçerisinde Kendinizi Korumak İçin Yapılması Gereken Doğru Davranış Şekillerinden Bazıları.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 3
+source_file: ilk72saat1.pdf
+relative_path: books/ilk72saat1.pdf
+page: 29
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: Örneèin, zemin sarsÈlmaya baëladÈèÈnda veya büyük bir patlama duyulduèunda herkesin Çök-Kapan-Tutun hareketini yapmasÈ gerekir. | Vücudun kapladÈèÈ alanÈ küçülten bu davranÈë, bizi havada uçuëan, saçÈlan ve dökülen cisimlerden koruyacak ve onlara hedef olmayacak bir yerde yapÈlmalÈdÈr.
+matched_sentence: Eèer bina içerisindeysek depremi hissettièimizde ayakta durmamalÈ, kesinlikle; • oradan oraya koëmamalÈ • balkona çÈkmamalÈ • merdivenden inmemeli • asansöre binmemeli • pencere ve balkondan atlamamalÈyÈz.
+next_2_sentences: VI. | 3.
+covering_chunk_ids: afad_earthquake_f5add7f9ac00fe25fcc5, afad_earthquake_9934dddf1886db4d4037
+chunk_contains_asansor: true
+
+Match 4
+source_file: ilk72saatengelliler.pdf
+relative_path: books/ilk72saatengelliler.pdf
+page: 31
+relevance_status: relevant
+category: DIRECT_GUIDANCE
+previous_2_sentences: Eèer bina içerisindeyseniz depremi hissettièinizde ayakta durmayÈn ve ëunlarÈ kesinlikle yapmayÈn: • Oradan oraya koëmayÈn. | • Balkona çÈkmayÈn.
+matched_sentence: • Merdiven ve asansörleri kullanmayÈn.
+next_2_sentences: • Pencere ve balkondan atlamayÈn. | Öncelikle sabitlemediyseniz ëu noktalardan uzak durun: • Pencereler • KapÈlar • Cam bölmeler • Kütüphane • Lambalar • Tablolar • AsÈlÈ çiçekler ve saksÈlar • Raflar • Dolaplar • Kimyasallar • Yanan ocak ve fÈrÈnlar • Yüksek mobilyalar • Gevëek yapÈ elemanlarÈ (baca, asma tavan, kalorifer, vb.) DEPREM SIRASINDA YAPILMASI GEREKENLER DEPREM SIRASINDA DEPREM SIRASINDA YAPILMASI GEREKENLER YAPILMASI GEREKENLER
+covering_chunk_ids: afad_earthquake_f485ea324516195f79aa, afad_earthquake_628e4978a3a3a946879b
+chunk_contains_asansor: true
+
+Match 5
+source_file: yapisalolmayanriskler.pdf
+relative_path: books/yapisalolmayanriskler.pdf
+page: 13
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: 3 • Mobilyalar - Çeëitli boyutlara sahip vitrinler, elbise dolaplarÈ, kitaplÈklar - êifoniyerler ve aynalarÈ, portmantolar - Mutfak dolaplarÈnÈn kapak ve çekmeceleri • Tüm elektronik cihazlar (bilgisayar, televizyon, müzik seti, vb.) • Tüm beyaz eëyalar (buzdolabÈ, çamaëÈr makinesi, vb.) • Deèiëik özelliklere sahip sobalar (elektrikli, kömürlü, odunlu, vb.) • Çeëitli büyüklüklerdeki tablolar • Banyo aksesuarlarÈ • Okullardaki öèrenci, öèretmen dolaplarÈ, öèrenci sÈralarÈ, aydÈnlatma elemanlarÈ, laboratuvar malzemeleri • Hastanelerdeki ameliyathane ekipmanÈ, laboratuvar ekipmanÈ • AlÈëverië merkezlerindeki ürün sergileme raflarÈ ve raf içinde bulunan eëyalar • Müzeler-sanat galerilerinde sergilenme raflarÈ ve tarihi sanatsal unsurlar YapÈya Ait Olmayan Hareketsiz Eëyalar AëaèÈdaki eëyalar ve benzerleri ise yapÈnÈn içinde bir kerelièine sabitlenip genellikle aynÈ yerde kaldÈèÈndan, “hareketsiz eëyalar” olarak adlandÈrÈlÈr.
+matched_sentence: • Tüm pencere ve kapÈ doèramalarÈ • Çeëitli boyutlara sahip asansör sistemleri • Yüksek yerlere asÈlmÈë panel radyatörler ve baèlantÈ borularÈ • Kombi cihazlarÈ, termosifonlar, ëofbenler • AydÈnlatma sistemleri - Çeëitli boyutlarda avizeler - Camdan üretilmië lambalar, floresan lambalar - Asma tavan tipi yerlerde kullanÈlan spot lambalar ve ekipmanlarÈ • YapÈlarda bulunan yangÈn merdivenleri • AlÈëverië merkezlerindeki cam vitrinler ve bunlara benzeyen birçok eëya • HavalandÈrma sistemleri YapÈya ait olmayan elemanlarÈ “YapÈsal Olmayan Elemanlar” olarak ifade ederiz.
+next_2_sentences: NONE
+covering_chunk_ids: afad_earthquake_61c3fd7a8b8263a795ff
+chunk_contains_asansor: true
+
+Match 6
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 71
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: 2000 yılı TÜİK verilerine göre İBŞB sınırları içerisinde, güvenilirliği olmayan deprem ve heyelan riski yüksek olan bölgelerde yoğunlaşmış önemli miktarda yapı stoku bulunmaktadır. | 2000 yılındaki bu binaların büyük oranda (%66,7) betonarme iskelet sistemi ya da yığma yapım sistemi ile (%32,6) üretildiği; depreme dayanımının daha yüksek olduğu bilinen çelik taşıyıcı sistemlerin düşük oranda kullanıldığı görülmektedir.
+matched_sentence: 2000 yılı TÜİK verilerine göre mevcut konut yapılaşmasında fiziksel ya da teknik kalite eksikliğinden doğan sağlıksız koşulların İBŞB sınırları içerisinde %7 oranında düşük standartlı (tuvalet, banyo ve borulu suyun herhangi birinin konut dışında olması ya da bulunmaması), %36,6 oranında tadilat gerektiren, %5,6 oranında hijyenik kanalizasyonu, %27.6 su şebekesine sahip olmayan, asansör (%97,4), otopark/garaj (%89,5), yangın merdiveni bulunmayan (%99,6), ağırlıklı olarak soba ile ısınan (%83,7) konutların varlığı görülmektedir. (İBŞB, 2024) Kentsel alandaki apartmanların, toplu konutların ve de yüksek katlı konut bloklarının yanı sıra merkez kente ulaşım kolaylığına sahip olan çeper ilçelerde de az katlı bahçeli evlerden oluşan konut toplulukları bulunmaktadır.
+next_2_sentences: İBŞB-21 ilçe dışında yer alan ve denize kıyısı olan sahil ilçelerindeki yazlık sitelerin yanı sıra 2000 yılı sonrasında, kent merkezine daha yakın karasal bölgelerde, çoğu güvenlik önlemleriyle kuşatılmış kapalı konut siteleri yaygınlaşmaya başlamıştır. (İBŞB, 2024) 2009 yılında yüksek yapıların sayısı, İzmir İlinde (32 adet) Türkiye’nin diğer metropol kentlerine göre oldukça düşük olmakla birlikte (İstanbul 202 adet, Ankara 87 adet) son dönemde karma kullanımlı yüksek yapılara (ticaret, ofis, konut vb.) olan eğilimin arttığı gözlenmektedir. | Yüksek yapılar, sahip oldukları özellikler yönünden, diğer yapılardan farklı olarak; yakın ve uzak çevresini, fiziksel çevre, kent dokusu ve her türlü kentsel altyapı yönünden etkilemektedirler. (İBŞB, 2024) Yapı denetim sisteminin ülke genelinde olduğu gibi İzmir İlinde de yeterince etkin işlemesine engel olan sorunlar taşıdığı görülmektedir.
+covering_chunk_ids: afad_earthquake_f9f4d4f7cd48c539090f, afad_earthquake_9535de499b6320b2d26d
+chunk_contains_asansor: true
+
+Match 7
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 73
+relevance_status: excluded
+category: UNKNOWN
+previous_2_sentences: NONE
+matched_sentence: 73 1.6.4 Doğal-Kültürel Varlıklar ve Miras Alanları Şehir merkezinde antik dönemden beri varlığını korumuş olan Pagos (Kadifekale) (Konak) ve Agora Ören Yeri (Konak) ile kendine has dokuya sahip Kemeraltı Çarşısı (Konak) olmak üzere, İzmir merkezde görülmesi gereken tarihi ve turistik yerlerden bazıları, Saat Kulesi (Konak), Tarihi Asansör (Konak), Kızlarağası Hanı (Konak), Hükümet Konağı (Konak), Kültürpark-İzmir Fuar Alanı (Konak), İnciraltı Kent Ormanı (Balçova), Teleferik (Balçova), Gölet (Buca), İzmir Doğal Yaşam Parkı (Çiğli), İzmir Kuş Cenneti (Çiğli), Homeros Vadisi (Bornova) ve Smyrna Antik Kenti-Tepekule Höyüğü (Bayraklı)’dır.
+next_2_sentences: İzmir’in İl merkezi dışındaki ilçelerde de; Ephesos Antik Kenti (Efes)(Selçuk), Yamaç Evleri (Efes-Selçuk), Pergamon Akropolü (Bergama), Bazilika-Kızıl Avlu (Serapeion)(Bergama), Asklepieion (Bergama), Allianoi (Yortanlı-Bergama), Erythrai (Ildırı-Çeşme), Kolophon (Değirmendere-Menderes), Notion (Menderes), Klaros (Menderes), Lebedos (GümüldürMenderes), Klazomenai (Urla), Larissa Antik Kenti (Menemen), Neon Teikhos Antik Kenti (Yanıkköy-Menemen), Metropolis (Torbalı), Teos (Sığacık-Seferihisar), Airai (Erai) Kentçiği (Urla), Phokea (Foça), Kyme (Aliağa), Myrina (Aliağa), Gryneion (Aliağa), Elaia Antik Kenti (Çandarlı-Dikili), Pitane (Çandarlı-Dikili), Yeşilova Höyüğü (Altındağ-Bornova), Ulucak Höyüğü (Kemalpaşa), Çakırağa Konağı (Birgi-Ödemiş) gibi görülmesi gereken tarihi ve turistik yerler bulunmaktadır. | Ayrıca ilde çok sayıda camiler, mescitler, kiliseler, katedraller, havralar, sinagoglar, çeşmeler, sebiller, şadırvanlar, su kemerleri, köprüler, hanlar, hamamlar, müzeler/galeriler, kaplıcalar, ılıcalar, içmeler, ören yerleri, özel çevre koruma bölgeleri, sulak alanlar, tabiat parkları, tabiat anıtları ve yaban hayatı geliştirme sahaları bulunmaktadır.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 8
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 81
+relevance_status: excluded
+category: UNKNOWN
+previous_2_sentences: DEĞİRMENYANI KÜMEEVLER HEYELAN 15.03.2019 / 2019/828 CUMHURBAŞKANI KARARI 24 KONAK KOCAKAPI MAH. | KAYA DÜŞMESİ 14.01.2019 / 2019/615 CUMHURBAŞKANI KARARI 25 KONAK TURGUT REİS MAH.
+matched_sentence: ASANSÖR MEVKİİ KAYA DÜŞMESİ 30.06.2021 / 2021/4201 CUMHURBAŞKANI KARARI 26 KONAK KADİFEKALE-GÜRÇEŞME BÖLGESİ (KADİFEKALE, İMARİYE, VEZİRAĞA, 1.
+next_2_sentences: KADRİYE, ALTAY, SUVARİ, KOSOVA, 19 MAYIS, HASAN ÖZDEMİR, YEŞİLDERE, FERAHLI, KÜÇÜKADA, LALE MAHALLELERİ) HEYELAN 08.12.2022 / 2022/6462 CUMHURBAŞKANI KARARI 27 MENEMEN HASANLAR MAH. | HEYELAN 14.01.2019 / 2019/615 CUMHURBAŞKANI KARARI 28 MENEMEN IRMAK MAH.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 9
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 131
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: NONE
+matched_sentence: 131 Doğa ve çevre üzerindeki etkileri açısından; bazı bölgelerde depreme bağlı yüzey deformasyonlarının oluşabileceği, deprem tetikli heyelanlar nedeniyle topoğrafyanın değişebileceği, jeotermal kaynaklarda debi ve sıcaklık değişimleri yaşanabileceğı, depremden tetiklenen heyelanlar yaşanabileceği, deprem sonrası oluşacak yıkım ve sonrasında barınma, kişisel ve çevresel temizlik konusunda problemler yaşanabileceği, kıyı kesimlerde yanal yayılma ve çökmeler yaşanabileceği, Günlük yaşamdaki aksamalar açısından; bölgedeki tüm hizmetlerin (elektrik, su, doğalgaz vb.) kesintiye uğrayabileceği, yolların kapanması nedeniyle ulaşımın durabileceği, yıkılan ve hasarlı binalar nedeniyle barınma ve beslenme ihtiyacının oluşabileceği, hasar gören bölgelerdeki yıkım çalışmalarının trafik yoğunluğu ve sağlık problemleri oluşturabileceği, İl genelindeki barajların (özellikle Tahtalı Barajı) hasar görmesi nedeniyle su sıkıntısı yaşanması olabileceği, Kültürel miras kaybı açısından; Seferihisar İlçesinde bulunan Teos Antik Kenti ve Konak İlçesinde bulunan Tarihi Asansör binasının hasar görebileceği, deprem sonrası oluşabilecek kargaşadan dolayı yağmalama eylemleri yaşanabileceği değerlendirilmiştir.
+next_2_sentences: En Kötü Deprem Senaryosu; Merkez üssü Konak İlçesi olan 6.6 büyüklüğünde ve Balçova, Bayraklı, Bornova, Buca, Çiğli, Foça, Gaziemir, Güzelbahçe, Karabağlar, Karaburun, Karşıyaka, Kemalpaşa, Konak, Menderes, Menemen, Narlıdere, Seferihisar, Torbalı ve Urla İlçelerinin birçok mahallesini etkileyebilecek En Kötü Deprem Senaryosu üretilmiştir. | Deprem olayının afete dönüşmesinin nedenleri ve tetikleyici unsurlarının; İzmir kent nüfusunun büyük bir çoğunluğunun fay boyunca yerleşmiş olması, Deprem Yönetmeliğine uygunluğun denetlenmemesi ile gerekli önlemlerin alınarak riskli yapı stoğunun azaltılmaması, yapıların güçlendirilmesine ilişkin çalışmaların yapılmaması, mevzuata uygun yapılaşma ve kentleşmenin oluşturulamaması, yerleşime uygunluk değerlendirmesinde İmar Planına Esas JeolojikJeoteknik Etüd Raporları ile Zemin Etüdlerinin dikkate alınmaması, 1999 yılında yapılmış olan Deprem Master Planının uygulanmaması ve revize edilememiş olması, dere yataklarının, tarım arazilerinin sıvılaşma riski yüksek alanların yapılaşmaya açılması, gecekondulaşma ve kaçak/çarpık kentleşmenin/yapılaşmanın engellenerek daha planlı ve güvenli şehirler oluşturulamaması, afet öncesi imar planlamalarının nüfus yoğunluğu ve göç durumuna göre yapılmaması ve güncel olmaması, fay yasasının çıkarılmamış olması, eski binaların dayanıklılığının periyodik aralıklarla kontrol edilmesinin gerçekleştirilememesi, yapıların temelinden başlamak suretiyle ikamet sürecinde dahi (Yapı Kullanma İzni alınan yapılar da dahil olmak üzere) yapıların Yapı/Performans Denetimlerinin sürekli ve düzenli yapılmaması, yapı kullanma izni verilen yapıların, yapı ruhsatında verilen amaçlar dışında kullanılmasına izin verilmesi olabileceği, Afetin etkileri ve sonuçları ile etki alanı açısından; can kaybı olabileceği, ağır hasarlı ve yıkık binaların bulunabileceği, bu ilçelerdeki kritik tesisler, okullar ve hastanelerin, kamu yönetim binalarının etkileneceği, ayrıca doğalgaz hatları, su hatları, otoyol ve karayollarının hasar görmüş olabileceği, Ayrıca yapı hasarları, trafik kazaları, yangınlar, fay boyunca yapılaşma sebebiyle çok sayıda can kaybı olabileceği, deprem nedeniyle bir çok ilçede ağır hasarlı ve yıkık binaların bulunması sebebiyle ağır yaralıların/hastaların olabileceği, İlin genelinde (yoğunlukla kent merkezinde olmak üzere) kişilerin etkilenebileceği, Depremin toplam ekonomik etkisi açısından; deprem nedeniyle binalar, elektrik, doğalgaz, su hatları ve yolların hasar görmesinin, KBRN problemlerinin, sağlık hizmetleri, arama kurtarma, lojistik kaynak kullanımları, psikolojik destek hizmetleri maliyetleri olabileceği, Doğa ve çevre üzerindeki etkileri açısından; bazı bölgelerde depreme bağlı yüzey deformasyonlarının oluşabileceği, deprem tetikli heyelanlar nedeniyle topoğrafyanın
+covering_chunk_ids: afad_earthquake_5fd56485877623041c7c, afad_earthquake_295f5c23c2d680c44aee
+chunk_contains_asansor: true
+
+Match 10
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 139
+relevance_status: excluded
+category: UNKNOWN
+previous_2_sentences: Kaya Düşmesi 14.01.2019 / 2019/615 Cumhurbaşkanı Kararı 8 Kemalpaşa Atatürk Mah. | Kaya Düşmesi, Heyelan 14.01.2019 / 2019/615 Cumhurbaşkanı Kararı 9 Konak Turgut Reis Mah.
+matched_sentence: Asansör Mevkii Kaya Düşmesi 30.06.2021 / 2021/4201 Cumhurbaşkanı Kararı 10 Konak Kocakapı Mah.
+next_2_sentences: Kaya Düşmesi 14.01.2019 / 2019/615 Cumhurbaşkanı Kararı 11 Menemen Zeytinlik Mah. | Yeşilpınar Mah.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 11
+source_file: IIRAP_Izmir-2025-_1_-a.pdf
+relative_path: plans/irap/IIRAP_Izmir-2025-_1_-a.pdf
+page: 150
+relevance_status: excluded
+category: RELATED_GUIDANCE
+previous_2_sentences: NONE
+matched_sentence: 150 Afetin etkileri ve sonuçları ile etki alanı açısından; etkilenen alanda bulunan konut, park, sinagog ve anaokulunun hasar görebileceği, Mithatpaşa Caddesine çok yakın olması nedeniyle ulaşımın aksayabileceği, Asansör çevresinin ve bu alanda bulunan sarnıcın hasar görebileceği, Ayrıca alanda bulunan parkta spor yapanların hayatını kaybedebileceği, Sinagog çatısına düşen kaya parçalarından insanların ağır yaralı/hasta olabileceği, yürüyüşe çıkan insanların, Sinagogtaki düğün davetlilerinin, parkta oyun oynayan çocukların, caddeden geçen taşıtlar ve yayaların etkilenebileceği, Kütle Hareketleri/Kaya Düşmesinin toplam ekonomik etkisi açısından; konutlarda oluşabilecek hasarlar, cadde ve parkın hasar görmesi (kamu zararı), tarihi eserdeki tahribat, Asansörü ziyaret eden turist sayısının azalmasının maliyeti olabileceği, Doğa ve çevre üzerindeki etkileri açısından; bitki örtüsünün zarar görebileceği, caddenin kullanılamayabileceği, Sinagogun ibadete kapanabileceği, Günlük yaşamdaki aksamalar açısından; çevredeki diğer yapılarda yaşayan vatandaşların endişe duyabileceği, trafiğin aksayabileceği, Sinagogda ibadet yapılamayabileceği, Kültürel miras kaybı açısından; Sinagogun ve tarihi sarnıcın hasar görebileceği değerlendirilmiştir.
+next_2_sentences: 2.3 TAŞKIN/SEL/SU BASKINI TEHLİKE VE RİSK DEĞERLENDİRMESİ 2.3.1 Geçmiş Taşkın/Sel/Su Baskınları ve Etki Alanları İzmir İlinin yaklaşık %16’sı Gediz Havzasında, yaklaşık %24,91’i Kuzey Ege Havzasında, yaklaşık %54,3’ü ise Küçük Menderes Havzası sınırlarında yer almaktadır. | Şekil 2.34.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 12
+source_file: irap_istanbul.pdf
+relative_path: plans/irap/irap_istanbul.pdf
+page: 336
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: NONE
+matched_sentence: 335 No Eylem Afet Türü Sorumlu Kurum Destekleyecek Kurum Dönemi A2-H2-E6 Acil durum-afet davranış şekilleri, binaların koridor, asansör, bekleme alanları gibi görünür bölümlerinde bina kullanıcı ve misafirler dikkatine sunulacaktır.
+next_2_sentences: Tüm Afetler AFAD İl Müdürlüğü Tüm Kamu Kurum ve Kuruluşları 2022 A2-H2-E7 Eğitim alma yeterliliği bulunan tüm kamu personelinin, özel güvenlik görevlileri ile 20'den fazla kişinin çalıştığı kamu-özel-sivil bina yöneticilerinin hafif düzey arama kurtarma, temel ilkyardım eğitimleri alması sağlanacaktır. | Tüm Afetler AFAD İl Müdürlüğü Tüm Kamu Kurum ve Kuruluşları 2022 A2-H2-E8 Afet ve acil durumlar hakkına farkındalık oluşturmak amaçlı açıköğretim, LGS, LYS, KPSS, YDS soruları başta olmak üzere özel eğitim kurslarının düzenlediği kamusal kurs ve sınav içeriklerine, afet farkındalığı, afete dirençli kentler, afetlerde hareket biçimleri konusunda içerik ve ölçümleyici soru ve hazırlık süreçleri tasarlanacaktır.
+covering_chunk_ids: afad_earthquake_1ae7348f7659f4057ce3
+chunk_contains_asansor: true
+
+Match 13
+source_file: irap_istanbul.pdf
+relative_path: plans/irap/irap_istanbul.pdf
+page: 355
+relevance_status: excluded
+category: RELATED_GUIDANCE
+previous_2_sentences: NONE
+matched_sentence: İSTANBUL İRAP İL AFET RİSK AZALATMA PLANI 354 No Eylem Afet Türü Sorumlu Kurum Destekleyecek Kurum Dönemi A2-H6-E54 Afet anında raylı sistemlerin acil yardım malzemesi, personel, hasta nakilleri için kullanımının planlamasında istasyonlar / yüzeyler arasında talep kapasitesine uygun yükleme / boşaltma-uygun ekipman –asansör hacimleri açılarından kontrolü yapılacak, geliştirilmesi sağlanacaktır.
+next_2_sentences: Tüm Afetler TCDD 1. | Bölge Müdürlüğü İstanbul Büyükşehir Belediyesi Metro A.Ş.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 14
+source_file: KIRKLARELI-IRAP.pdf
+relative_path: plans/irap/KIRKLARELI-IRAP.pdf
+page: 95
+relevance_status: uncertain
+category: UNKNOWN
+previous_2_sentences: Doğrudan temas: Mikroorganizmaların insandan insana fiziksel dokunma ile bulaşmasıdır. | Uçuk ve bit enfeksiyonu örnek verilebilir.
+matched_sentence: Dolaylı temas: Duyarlı kişi mikropla bulaşmış bir nesneye dokunursa meydana gelir. ( Kapı kolu, asansör düğmesi v.b.) Damlacık saçılması: Hasta kişinin solunum salgıları ile temas sonucu oluşur.
+next_2_sentences: Hasta konuşma, gülme, hapşırma, öksürme ile ortama enfekte salgılar saçar. | Bunlar havada 1 metre kadar yayılarak yakında ki kişinin ağız, burun, göz dokularında yerleşebilir.
+covering_chunk_ids: afad_earthquake_5caa6bf37d5f00b97f5a
+chunk_contains_asansor: true
+
+Match 15
+source_file: Trabzon-IRAP-03042026.pdf
+relative_path: plans/irap/Trabzon-IRAP-03042026.pdf
+page: 39
+relevance_status: uncertain
+category: UNKNOWN
+previous_2_sentences: TR90 Bölgesi Kümelenme Stratejisi ve Eylem Planı çalışmasına göre “Fındığa Dayalı Ürünler”, “Çay”, Gemi İnşa”, “Mobilya”, “Su Ürünleri” ve “Kuyumculuk”, sektörleri Trabzon İli için kümelenmede öncelikli sektörler olarak belirlenmiştir. | Bu sektörlere yönelik bölgesel kümelenme faaliyetlerinin etkisinden faydalanmak amacı ile söz konusu sektörler de Trabzon için kümelenmede öncelikli sektörler arasına alınmıştır.
+matched_sentence: Trabzon İlinde öncelikli olarak değerlendirilen diğer sektörler: yöresel ürünler, süt ve süt ürünleri, orman ürünleri, inşaat, planlama, turizm, endemik bitkiler, asansör imalatı, enerji ve HES yan sanayi, bilişim (yazılım), madencilik ve maden işleme, silah sanayi, Sürmene Bıçağı, lojistik (taşımacılık ve depolama), medikal, süs bitkileri, yalıtım malzemeleri ve yapı kimyasalları, et ve et ürünleri, matbaacılık, kaynak suyu, iş makinaları ve yedek parçası, plastik sektörleri olmuştur 1.4.2 Ekonomik Faaliyet Sektörleri Günümüzde Trabzon sanayisi var olan potansiyeline rağmen yeterince gelişememiştir.
+next_2_sentences: İlde büyük ölçekli sanayi yok denecek kadar azdır. | Bunun en önemli nedeni mevcut arazi yapısının büyük ölçekli sanayi tesislerinin kurulmasına elverişli olmaması ve ihracat bölgelerine ulaşımın sağlanamamasıdır.
+covering_chunk_ids: afad_earthquake_6674fbb1a289635772c3
+chunk_contains_asansor: true
+
+Match 16
+source_file: Yozgat-IRAP.pdf
+relative_path: plans/irap/Yozgat-IRAP.pdf
+page: 148
+relevance_status: excluded
+category: RELATED_GUIDANCE
+previous_2_sentences: NONE
+matched_sentence: A1 - H1- 21 Çatı katı imalatlarında (Asansör Odası, Havalandırma ve Aydınlatma Kısımları, vb. yapıların) yığma sistem değil, betonarme sistem (duvarlar ve tabliye) olmasına dair projelerde zorunluluk getirilmesine dair mevzuat çalışmaları yapmak Meteorolojik Olaylar Tüm İl ve İlçe Belediyeleri Çevre ve Şehircilik Müdürlüğü 2022-2024 A1- H1- 22 Şiddetli rüzgârlardan etkilenebilecek ağaçlar, bina kaplamaları, tabelalar, bayrak/aydınlatma direkleri, antenler, trafik lambaları ve reklam panoları vb. malzemelerin belirlenerek sağlamlaştırılması, şiddetli rüzgârlar nedeni ile devrilme/ düşme/yıkılma riskleri bulunan yapıların tespit edilmesi (kamu binaları, cami minareleri, çatılar, vb) ve gerekli önlemlerin alınması Meteorolojik Olaylar Tüm İl ve İlçe Belediyeleri ÇEDAŞ, Karayolları 65.
+next_2_sentences: Şube Şefliği, İl Emniyet Müd, Jandarma Komutanlığı, Çevre ve Şehircilik İl Müd., İl Müftülüğü Sürekli A1- H1-23 Merkez İlçesindeki Yozgat Deresi (Yimpaş AVM yanı ) peyzaj düzenlemesinin yapılması Taşkın Yozgat Belediyesi Çevre ve Şehircilik İl Müd., İller Bankası, DSİ 12. | Bölge Müd.
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 17
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 16
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: Emergency Call Management: Emergency Call Management is the comprehensive process of sorting, analyzing, and transferring incoming calls to emergency call centers to the appropriate units, as well as monitoring the entire response process. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Çıkış: Afet ve acil durumlar sırasında insanların binayı hızlı ve güvenli bir şekilde terk edebilmesini sağlamak amacıyla önceden belirlenmiş, açıkça işaretlenmiş ve her zaman erişilebilir durumda olan çıkış yoludur. | Emergency Exit: An Emergency Exit is a pre-designated, clearly marked, and always accessible route designed to enable people to quickly and safely evacuate a building during disasters and emergencies. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Durum: Toplumun tamamının veya belirli kesimlerinin normal yaşam faaliyetlerini durduran ya da kesintiye uğratan, acil müdahale gerektiren olaylar ve bu olayların yol açtığı kriz halidir.
+matched_sentence: Emergency: An Emergency is an event or crisis that disrupts or halts the normal life activities of an entire community or specific groups and requires immediate intervention. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Durum Asansörü: Acil durum asansörü, müdahale ekiplerinin gerekli ekipmanlarıyla birlikte bina içinde hızlı ve güvenli şekilde katlara ulaşmasını sağlamak ve engelli bireylerin tahliyesini kolaylaştırmak amacıyla tesis edilen özel asansör sistemidir.
+next_2_sentences: Bina yüksekliği 51,50 metreyi aşan yapılarda, ilgili yönetmelikler gereği en az bir asansörün acil durum kullanımına uygun olması zorunludur. | Bu asansörler; yangına dayanıklı malzemelerle inşa edilmiş kuyu, kapı ve kabinlere sahip olmalı; basınçlandırma sistemi, acil çıkış kapısı ve özel kumanda sistemiyle donatılmalıdır.
+covering_chunk_ids: afad_earthquake_1711ef03f3d093ab7dc3, afad_earthquake_65dd84d97800594976c1
+chunk_contains_asansor: true
+
+Match 18
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 17
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: NONE
+matched_sentence: 16 A AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Emergency Evacuation Lift: An Emergency Evacuation Lift is a specially installed elevator system designed to enable emergency response teams to quickly and safely reach floors within a building, along with facilitating the evacuation of disabled individuals.
+next_2_sentences: In buildings taller than 51.5 meters, regulations require at least one elevator to be suitable for emergency use. | These elevators must have shafts, doors, and cabins constructed with fireresistant materials and be equipped with pressurization systems, emergency exit doors, and specialized control systems. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Acil Durum Asistanı: Motorlu taşıtlarda sürücünün sağlık durumu, dikkat seviyesi ve araç kontrolü üzerindeki hakimiyetini izleyerek olası acil riskleri tespit etmek amacıyla geliştirilen gelişmiş bir sürücü destek sistemidir.
+covering_chunk_ids: afad_earthquake_65dd84d97800594976c1, afad_earthquake_321cfe424fe732ea8372
+chunk_contains_asansor: true
+
+Match 19
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 48
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: Makine operatörleri, kurtarma ekipleriyle sürekli iletişim içinde çalışarak enkaz altındaki olası yaşam alanlarının zarar görmemesini sağlar. | Ağırlık dağılım sensörleri ve yük denge sistemleri ise operasyonun güvenliğini artırır.
+matched_sentence: Heavy Machinery Assisted Rescue: Coordinated operations carried out with special heavy machinery to lift large concrete blocks and heavy debris piles.
+next_2_sentences: Cranes, excavators, and specialized debris removal equipment are used with precise lifting techniques. | Machine operators work in continuous communication with rescue teams to avoid damaging potential survival spaces under the rubble.
+covering_chunk_ids: afad_earthquake_b35dbfe3b7c14f305cd6, afad_earthquake_6342c15a69f8473cc3c6
+chunk_contains_asansor: true
+
+Match 20
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 49
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: Heavy Urban Search and Rescue Team: A term used for professional teams equipped, staffed, and trained to rescue people trapped under rubble. | These teams are organized to operate continuously 24/7.
+matched_sentence: They are equipped with heavy machinery to access, cut, lift, and support structural elements under debris.
+next_2_sentences: Medical personnel and equipment are also included to assess the survivors’ health, provide first aid, and ensure safe evacuation. | Such teams are certified according to internationally recognized INSARAG standards. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Ağır Seviye Kentsel Arama Kurtarma Ekibi: Büyük çaplı afetler ve yüksek yıkım riski taşıyan olaylarda görev yapan, özel eğitimli ve gelişmiş ekipmanlarla donatılmış profesyonel arama kurtarma birimleridir.
+covering_chunk_ids: afad_earthquake_6342c15a69f8473cc3c6, afad_earthquake_068be54ac3e7169b2d09
+chunk_contains_asansor: true
+
+Match 21
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 84
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: Aftershock: They are smaller-scale earthquakes that occur after the main earthquake. | Aftershocks occur along with the effects of the main earthquake and usually occur on the same fault line.
+matched_sentence: Aftershocks can cause the collapse of structures weakened by the main earthquake, making post-earthquake search and rescue operations more difficult. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Asansör Boşluğu: Asansörün dikey olarak hareket ettiği, bina içerisinde katlar boyunca devam eden perde betondan yapılı kapalı alan boşluğudur.
+next_2_sentences: Arama kurtarma çalışmalarında düşme, sıkışma riski taşıdığı için dikkat edilmesi gereken alanlardandır. | Elevator shaft: It is a closed area space made of curtain concrete that continues along the floors in the building where the elevator moves vertically.
+covering_chunk_ids: afad_earthquake_6e360f7ea90c01e330a9, afad_earthquake_85e7807dd21a68f04cf4
+chunk_contains_asansor: true
+
+Match 22
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 153
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: Ana yük taşıyıcı ip (birinci ip) ile yedek emniyet ipi (ikinci ip) olmak üzere iki bağımsız sistemden oluşur. | Ana ipte oluşabilecek herhangi bir arıza durumunda, yedek ip yükü taşıyarak düşmeyi engeller.
+matched_sentence: Bu sistem, yangın merdivenlerinin kullanılamadığı durumlarda, deprem anlarında, asansör boşluğuna sıkışmalarda ve endüstriyel kazalarda sıklıkla tercih edilir.
+next_2_sentences: Double Rope Descent System: It is a method used for the safe evacuation of disaster victims from high-rise buildings or hard-to-reach locations. | It consists of two independent systems: the main load-bearing rope (primary rope) and the backup safety rope (secondary rope).
+covering_chunk_ids: afad_earthquake_d9205c27e0200183638f
+chunk_contains_asansor: true
+
+Match 23
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 205
+relevance_status: relevant
+category: RELATED_GUIDANCE
+previous_2_sentences: Birinci ip (ana yük taşıyıcı) ve ikinci ip (yedek emniyet) olmak üzere iki bağımsız sistemden oluşur. | Birinci ipte oluşabilecek olumsuzluklara karşı ikinci hat, yükü karşılayarak düşmeyi önler.
+matched_sentence: Yangın merdivenlerinin kullanılmadığı durumlarda, deprem, asansör boşluğuna sıkışmalar ve endüstiriyel kazalarda yaygın olarak uygulanır.
+next_2_sentences: Safety Rope Descent System: It is a method used for the safe evacuation of disaster survivors from high-rise buildings or hard-to-reach places. | It consists of two independent systems, the first rope (main load carrier) and the second rope (backup safety).
+covering_chunk_ids: afad_earthquake_c972d065aac6ecc85018, afad_earthquake_ebbe18304a189b542d27
+chunk_contains_asansor: true
+
+Match 24
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 298
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: 297 JKL AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Kaldırma Kancası: Kaldırma cihazlarının yükleri sıkıca kavrayıp kaldırması ve taşıması için tasarlanmış sapan ve zincirlerin bağlandığı aparattır. | Tek ve çift yönlü olabilirler.
+matched_sentence: Lifting Hook: An attachment used on lifting devices to firmly grip, lift, and carry loads.
+next_2_sentences: It can be single or double directional and is connected to slings or chains. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kaldırma Yastıkları: Enkaz, moloz, araç veya diğer ağır malzemeleri kaldırmak için kullanılan, hava ile şişirilen ve yüksek basınca dayanıklı kauçuk veya plastikten yapılmış yastıklardır. | Lifting Pads: They are cushions made of rubber or plastic, inflated with air and resistant to high pressure, used for lifting debris, rubble, vehicles or other heavy materials. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kalıcı Ajanlar: Belirli sıcaklık, basınç, rüzgâr şartlarında çevrede bir günden fazla kalabilen ajanlardır.
+covering_chunk_ids: afad_earthquake_ad59003d5964891c6eab, afad_earthquake_f94f1341ace32ba49bef
+chunk_contains_asansor: true
+
+Match 25
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 356
+relevance_status: excluded
+category: UNKNOWN
+previous_2_sentences: User Load Coefficient: It is the expression of the usage area per person in buildings in square meters in m2/person. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kuluçka Süresi: Patojen ile ilk temastan, hastalığın ilk belirtilerinin görülmeye başlamasına kadar geçen zamandır. | Incubation Period: It is the time from the first contact with the pathogen until the first symptoms of the disease appear. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kum Fırtınası: Güçlü rüzgarların kuru ve gevşek toprak yüzeylerinden ince kum ve toz parçacıklarını havaya kaldırarak görüşü ciddi şekilde azaltan, solunum yollarını tehdit eden ve ulaşım ve altyapıyı olumsuz etkileyen doğal bir hava olayıdır.
+matched_sentence: Sandstorm: It is a natural weather phenomenon in which strong winds lift fine sand and dust particles from dry and loose soil surfaces into the air, severely reducing visibility, threatening the respiratory tract and adversely affecting transportation and infrastructure. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+next_2_sentences: NONE
+covering_chunk_ids: NONE
+chunk_contains_asansor: false
+
+Match 26
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 359
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: It is also used for controlled transport of heavy loads. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kurtarma Makara Sistemi: Dağcılıkta, yük kaldırma veya çekme işlemlerini kolaylaştırmak için kullanılan, hareketli olanları ise kuvveti azaltarak iş yükünü hafifleten mekanik sistemdir. | Kurtarma operasyonlarında kazazedelerin güvenli tahliyesi, ağır yüklerin taşınması ve ip germe gibi işlemlerde kullanılır.
+matched_sentence: Rescue Pulley System: A mechanical system used in mountaineering and rescue operations to lift or pull loads more easily.
+next_2_sentences: Moving pulleys reduce the force required, making survivor evacuation, heavy load handling, and rope tensioning more efficient and safe. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kurtarma Operasyonlarında Dayanıklılık Yönetimi: Uzun süren kurtarma faaliyetlerinde performans kaybını önlemek amacıyla uyku, su, beslenme ve dinlenme gibi ihtiyaçları içeren planlama ve uygulama sürecidir. | Bu düzenli periyotlar, aşırı yorgunluk ve dikkatsizlikten kaynaklanan kazaların önlenmesini sağlar.
+covering_chunk_ids: afad_earthquake_404be58083e7a1b367e6, afad_earthquake_9bcd4432b49f78c9c901
+chunk_contains_asansor: true
+
+Match 27
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 360
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: Rescue Trains: These are trains used in emergency intervention and rescue operations, equipped with special equipment to repair trains or tracks damaged in railway accidents, to remove debris, to ensure that rescue teams and heavy equipment can reach the scene quickly. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kurtarma Tripodu: Kuyu, silo ve benzeri operasyonlarda üç ayak ve üzerindeki makara sistemi sayesinde derinden kurtarma operasyonlarında kullanılan sağlam yapıdır. | Kurtarma personelinin güvenli bir şekilde iniş ve çıkış yapması veya kazazedelerin ya da ağır ekipmanların kaldırılıp indirilmesi için sabit bir ankraj noktası sağlar.
+matched_sentence: Rescue Tripod: A three-legged structure equipped with a pulley system used in confined space rescues, such as wells or silos, to safely lower or lift rescuers, survivors, or heavy equipment by providing a secure anchor point. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Kurtarma Triyajı: Olay yerinde birden fazla afetzede bulunması durumunda ilk önce hangi afetzedelerin çıkarılacağı veya tahliye edileceğinin belirlenmesidir.
+next_2_sentences: Sınıflandırma ve öncelik belirleme işlemi olarak ifade edilir. | Rescue Triage: In case there is more than one disaster survivor at the scene, it is the determination of which disaster survivors will be removed or evacuated first.
+covering_chunk_ids: afad_earthquake_9bcd4432b49f78c9c901, afad_earthquake_cd7fb08b7bd7047291cb
+chunk_contains_asansor: true
+
+Match 28
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 373
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: 372 MN AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Mekanik Destek: Enkazda destekleme yapmak için kullanılan yüksekliği ayarlanabilir mekanik sistemlerdir. | Mechanical Support: Height-adjustable mechanical systems used to support debris. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Mekanik Ekipman: Kurtarma çalışmalarında kuvvet uygulamak, kaldırmak, kesmek veya ayırmak amacıyla kullanılan; motorlu ya da el gücüyle çalışan araç ve gereçlerdir.
+matched_sentence: Mechanical Equipment: Motorized or manual tools and devices used in rescue operations to apply force, lift, cut, or separate materials. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Mekanik İp Tutucu: İpin hızlı şekilde sabitlenmesini veya çözülmesini sağlayan, yaylı dişli mekanizmaya sahip kilit sistemidir.
+next_2_sentences: Kurtarma operasyonlarında hızlı bağlantı ve ayar gerektiren durumlarda kullanılır. | Mechanical Rope Gripper: It is a locking system with a spring-loaded gear mechanism that allows the rope to be quickly fixed or untied.
+covering_chunk_ids: afad_earthquake_f0fdfe3d42d2cf11a71b
+chunk_contains_asansor: true
+
+Match 29
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 410
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: 409 OÖP AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Palanga Sistemi: Az kuvvetle ağır yükleri kaldırmak için kullanılan makaralar sistemidir. | Sabit makaraya, aynı gövdeye bağlı bir veya daha fazla hareketli makaranın ilave edilmesiyle meydana gelir.
+matched_sentence: Pulley System: It is a system of pulleys used to lift heavy loads with little force.
+next_2_sentences: It is formed by adding one or more moving pulleys connected to the same body to the fixed pulley. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · PAN-PAN: Uluslararası alanda tanınan, yardım gerektiren ancak hayati tehlike oluşturmayan bir durumu belirtmek için kullanılan acil durum sinyalidir. | PAN-PAN: An internationally recognized urgency signal used to indicate a situation requiring assistance but not an immediate danger to life. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Paralel Arama ‘S’ Tekniği: Arama personeli ya da hava aracı bölgede ‘S’ biçiminde bir rota kullanarak arama yapmasıdır.
+covering_chunk_ids: afad_earthquake_7677c497f356ed494f5f, afad_earthquake_07e19a0fb47315631b2f
+chunk_contains_asansor: true
+
+Match 30
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 419
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: 418 OÖP AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Portable Crane: A small-sized lifting device that can be easily transported and set up.
+matched_sentence: Used in disaster, emergency, and rescue operations to lift, move, or reposition heavy loads.
+next_2_sentences: Its compact design allows practical use in confined and difficult environments, speeding up response efforts. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Portatif Yol Bariyeri: Trafik kazası veya afet alanını hızla çevreleyerek araç girişini engellemek amacıyla kullanılan, portatif, kolay taşınabilir yol kapama sistemidir. | Portable Road Barrier: It is a portable, easily transportable road closure system used to prevent vehicle entry by quickly surrounding the traffic accident or disaster area. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Postmortem Koku Dağılımı: İnsan vücudu ölümden sonra çözünürken ortaya çıkan kokuların çevreye yayılma sürecidir.
+covering_chunk_ids: afad_earthquake_3bc3d1ebb1afcb062ade, afad_earthquake_b613126c60590ecdd414
+chunk_contains_asansor: true
+
+Match 31
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 448
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: 447 QRSŞ AFETLERE MÜDAHALE GENEL MÜDÜRLÜĞÜ ARAMA VE KURTARMA AÇIKLAMALI TERIMLER SÖZLÜĞÜ Sapanla Bağlama Uzmanı: Yüksekten çalışma veya kurtarma operasyonlarında yükleri, ekipmanları veya kazazedeleri güvenli şekilde kaldırmak, taşımak veya sabitlemek amacıyla sapan (halat, zincir, sentetik kayış) kullanan eğitimli kişidir.
+matched_sentence: Slingshot Binding Expert: A trained person who uses slings (ropes, chains, synthetic belts) to safely lift, carry or secure loads, equipment or casualties in working at height or rescue operations. · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Sapma İstasyonu: Doğada arama kurtarma operasyonlarında İp hattının yönünü değiştirmek için kullanılan ara bağlantı noktasıdır.
+next_2_sentences: Engellerin aşılması veya güvenli iniş için kullanılır. | Deviation Station: It is an intermediate connection point used to change the direction of the rope line in search and rescue operations in nature.
+covering_chunk_ids: afad_earthquake_92ed2c22ab6eb876ac6b, afad_earthquake_b82a386ec1262c1adfa6
+chunk_contains_asansor: true
+
+Match 32
+source_file: ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+relative_path: publications/ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf
+page: 546
+relevance_status: uncertain
+category: RELATED_GUIDANCE
+previous_2_sentences: Genellikle kW/m (kilowatt/metre) olarak ifade edilir. | Fire Intensity: The amount of heat energy released by a fire per unit time and per unit length (e.g., 1 meter along the fire front).
+matched_sentence: It is usually expressed in kW/m (kilowatt/meter). · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · Yangın Tahliye ve Müdahale Projesi: Mimari plan üzerinde kaçış yolları, yangın merdivenleri, acil durum asansörleri, yangın dolapları, itfaiye su verme ve alma ağızları ile yangın pompalarının yerlerinin renkli işaretlerle gösterildiği detaylı bir projedir.
+next_2_sentences: Bu proje, acil durumlarda güvenli tahliyeyi sağlamak amacıyla hazırlanır.
+covering_chunk_ids: afad_earthquake_2b3512e67edea847186b
+chunk_contains_asansor: true
+
+Match 33
+source_file: ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+relative_path: publications/ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf
+page: 119
+relevance_status: uncertain
+category: DIRECT_GUIDANCE
+previous_2_sentences: • Çekme tamamlandıktan sonra halat dikkatlice yükten ayrılır. | • Triforun çekme kapasitesi, makara sistemi kullanılarak artırılabilir.
+matched_sentence: Kullanımda Dikkat Edilecek Hususlar • Trifor, amacı dışında yük asansörü olarak kullanılmamalıdır.
+next_2_sentences: • Trifor yalnızca yük çekme amaçlı tasarlanmıştır; canlı taşıma işlemlerinde kullanılmaz. | • Trifor, nominal kapasitesinin üzerinde yük çekebilir; ancak çekme yükü kapasiteyi %25 oranında aşarsa, kaldırma kolundaki emniyet pimi aşırı zorlanma nedeniyle kırılır ve makine devre dışı kalır.
+covering_chunk_ids: afad_earthquake_b0a29ad8d56ade1a433e
+chunk_contains_asansor: true
+
+================================================================================
+Summary
+Total extracted matches: 33
+Relevant matches: 9
+Uncertain matches: 16
+Excluded matches: 8
+
+Pages represented in chunks: 25
+Pages NOT represented in chunks: 8
+
+Chunks containing "asansör": 23
+
+DIRECT_GUIDANCE: 2
+RELATED_GUIDANCE: 25
+MENTION_ONLY: 0
+UNKNOWN: 6

@@ -1,0 +1,301 @@
+question_id,question,system,final_rank,chunk_id,source_file,page_start,page_end,faiss_rank,faiss_score,reranker_score,final_fusion_score,relevant
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test4_baseline,1,afad_earthquake_v2_ff7c7e3294aaf3245c9a,ilk72saatengelliler.pdf,33,34,1,0.883627,2.532429,,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test4_baseline,2,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,19,0.861862,1.778173,,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test4_baseline,3,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,37,0.854143,1.063223,,1
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test4_baseline,4,afad_earthquake_v2_df10bc43e2cbf2acc8ce,ilk72saatengelliler.pdf,26,28,50,0.850263,0.712808,,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test4_baseline,5,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,33,0.855351,0.637017,,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_ff7c7e3294aaf3245c9a,ilk72saatengelliler.pdf,33,34,1,0.883627,2.532429,1.000000,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,2,0.876306,-1.035588,0.684578,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,3,0.874999,-0.801334,0.678490,0
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,4,0.874180,-1.180826,0.644332,1
+H01,Deprem anında yatağın yanındaysam nasıl korunmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_53055e13abae8e29401b,ilk72saat1.pdf,37,39,5,0.872614,-0.985045,0.632159,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test4_baseline,1,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,5,0.852131,-0.782032,,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test4_baseline,2,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,23,0.848161,-0.982812,,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test4_baseline,3,afad_earthquake_v2_ff0a814d245b07ed5564,istanbulda-afetler.pdf,26,26,38,0.845876,-1.132915,,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test4_baseline,4,afad_earthquake_v2_f543ffc8b023a9e1a8c8,yft_min1.pdf,14,16,19,0.848487,-1.139565,,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test4_baseline,5,afad_earthquake_v2_92110d5d9a44bdaaf24b,document-_11_.pdf,102,104,46,0.845119,-1.517796,,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,5,0.852131,-0.782032,0.755120,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_1a3ec93138ebac8d4746,Bayburt-IRAP.pdf,55,56,1,0.859035,-3.875780,0.726796,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_f1bf19df55834f66b9dd,Kirikkale-IRAP-Raporu-07102021.pdf,189,190,2,0.856439,-2.940707,0.717298,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_33ac31a130fc42410a99,HATAY-İRAP-2022.pdf,40,41,4,0.853409,-2.627857,0.637425,0
+H02,Deprem sırasında merdivenlere yönelmek doğru mu?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_bb29b9898e871ce429df,document-_11_.pdf,92,93,8,0.851474,-1.929016,0.630535,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test4_baseline,1,afad_earthquake_v2_37ee2cd11258a0f68065,ilk72saat1.pdf,29,33,2,0.838252,0.112572,,1
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test4_baseline,2,afad_earthquake_v2_097009c6a56e24323255,sismik_mikrobolgeleme_el_kitabi_tr.pdf,57,59,1,0.841144,-2.014035,,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test4_baseline,3,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,20,0.830496,-2.608196,,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test4_baseline,4,afad_earthquake_v2_f543ffc8b023a9e1a8c8,yft_min1.pdf,14,16,21,0.830275,-2.622858,,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test4_baseline,5,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,5,0.834554,-2.650768,,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_37ee2cd11258a0f68065,ilk72saat1.pdf,29,33,2,0.838252,0.112572,0.898352,1
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_097009c6a56e24323255,sismik_mikrobolgeleme_el_kitabi_tr.pdf,57,59,1,0.841144,-2.014035,0.838493,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,5,0.834554,-2.650768,0.558494,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_8db6c99699fc2d7bb205,document-_11_.pdf,298,299,4,0.836358,-3.499756,0.557445,0
+H03,Sarsıntı sırasında balkona çıkmalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_341816f2c12c1016548d,Trabzon-IRAP-03042026.pdf,170,170,3,0.837630,-4.555263,0.521981,0
+H04,Deprem anında camlardan uzak durmalı mıyım?,test4_baseline,1,afad_earthquake_v2_e719e4ab124af1720a4e,yapisalolmayanriskler.pdf,38,38,3,0.865128,1.368763,,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test4_baseline,2,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,4,0.862183,1.309983,,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test4_baseline,3,afad_earthquake_v2_9e3cf6277a88559a5263,yapisalolmayanriskler.pdf,42,43,1,0.870416,1.045586,,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test4_baseline,4,afad_earthquake_v2_acf546f192d6f7580fac,ilk72saatengelliler.pdf,31,33,28,0.846860,1.037348,,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test4_baseline,5,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,25,0.847154,0.766254,,0
+H04,Deprem anında camlardan uzak durmalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_9e3cf6277a88559a5263,yapisalolmayanriskler.pdf,42,43,1,0.870416,1.045586,0.973486,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_e719e4ab124af1720a4e,yapisalolmayanriskler.pdf,38,38,3,0.865128,1.368763,0.905146,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,4,0.862183,1.309983,0.847497,1
+H04,Deprem anında camlardan uzak durmalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_4bdedca0c68877d01292,document-_11_.pdf,104,106,2,0.868705,-0.955982,0.778572,0
+H04,Deprem anında camlardan uzak durmalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_8576896ff3249adc6c79,ZONGULDAK_IRAP.pdf,124,124,10,0.854672,-0.560338,0.559347,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test4_baseline,1,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,8,0.856798,1.805596,,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test4_baseline,2,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,37,0.847976,-0.009555,,1
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test4_baseline,3,afad_earthquake_v2_ff7c7e3294aaf3245c9a,ilk72saatengelliler.pdf,33,34,17,0.853282,-0.237847,,1
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test4_baseline,4,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,3,0.862024,-0.261984,,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test4_baseline,5,afad_earthquake_v2_df10bc43e2cbf2acc8ce,ilk72saatengelliler.pdf,26,28,9,0.856620,-0.277420,,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,8,0.856798,1.805596,0.751202,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,1,0.867411,-1.479783,0.744696,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,3,0.862024,-0.261984,0.713031,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_32bab3c630cd41969132,olagandisi.pdf,46,49,4,0.860768,-0.622820,0.655544,0
+H05,Deprem sırasında mutfaktaysam ilk ne yapmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,2,0.866431,-2.448086,0.646470,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test4_baseline,1,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,36,0.841302,-0.213602,,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test4_baseline,2,afad_earthquake_v2_84c64740b6367b6b9a8b,afet_sonrasi_iyilestirme_calismalari-1.pdf,188,189,15,0.846597,-0.835600,,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test4_baseline,3,afad_earthquake_v2_dc95f4d347d1b1a39bcc,SoruCevap-Kitapcik-2.pdf,1,1,19,0.845891,-1.037288,,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test4_baseline,4,afad_earthquake_v2_cd1ec4a7cb0ebfc19a2c,yapisalriskler.pdf,25,26,4,0.852159,-1.182448,,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test4_baseline,5,afad_earthquake_v2_33f6ccaba56162302eea,IIRAP_Izmir-2025-_1_-a.pdf,289,289,48,0.838964,-1.197090,,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_40c2d2d833b4b85327f6,SoruCevap-Kitapcik-2.pdf,2,2,1,0.866418,-2.197896,0.829473,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,2,0.857247,-1.923257,0.689001,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_cd1ec4a7cb0ebfc19a2c,yapisalriskler.pdf,25,26,4,0.852159,-1.182448,0.661635,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_f543ffc8b023a9e1a8c8,yft_min1.pdf,14,16,7,0.850891,-1.269489,0.631481,0
+H06,Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_da1fef50402230c09609,document-_11_.pdf,51,52,3,0.856682,-2.599789,0.620757,0
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test4_baseline,1,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,21,0.848508,1.147073,,0
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test4_baseline,2,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,8,0.852996,0.947324,,1
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test4_baseline,3,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,3,0.858321,0.804115,,1
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test4_baseline,4,afad_earthquake_v2_20d1a673c2b050cdeb6e,ilk72saat1.pdf,31,33,44,0.844960,0.191049,,0
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test4_baseline,5,afad_earthquake_v2_ec5ee80e05ed4235f96e,irap_istanbul.pdf,150,151,25,0.847665,0.035584,,0
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,3,0.858321,0.804115,0.864219,1
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_d9ff882714f41a353c6f,ilk72saat1.pdf,54,55,2,0.861647,-0.920018,0.800843,0
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,8,0.852996,0.947324,0.725887,1
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_53273a64845ddf3af39f,yapisalolmayanriskler.pdf,40,41,4,0.856767,-0.531958,0.697613,0
+H07,Deprem sonrası elektrik şalterini kapatmalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,21,0.848508,1.147073,0.616557,0
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test4_baseline,1,afad_earthquake_v2_92110d5d9a44bdaaf24b,document-_11_.pdf,102,104,2,0.861936,2.591899,,0
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test4_baseline,2,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,33,0.838975,1.300016,,0
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test4_baseline,3,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,1,0.866580,1.105798,,1
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test4_baseline,4,afad_earthquake_v2_20d1a673c2b050cdeb6e,ilk72saat1.pdf,31,33,19,0.842063,0.554978,,1
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test4_baseline,5,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,4,0.858571,0.040512,,1
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_92110d5d9a44bdaaf24b,document-_11_.pdf,102,104,2,0.861936,2.591899,0.920484,0
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,1,0.866580,1.105798,0.906606,1
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,4,0.858571,0.040512,0.702510,1
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_0ec077f85f5224aae6a8,VAN-IRAP.pdf,147,148,3,0.859026,-1.460159,0.616000,0
+H08,Depremden sonra gaz vanasını kapatmak gerekir mi?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_3bf876a4663b60228186,olagandisi.pdf,26,27,5,0.854527,-0.487040,0.600113,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test4_baseline,1,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,1,0.849360,-1.026344,,1
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test4_baseline,2,afad_earthquake_v2_d9ff882714f41a353c6f,ilk72saat1.pdf,54,55,27,0.825983,-1.825854,,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test4_baseline,3,afad_earthquake_v2_be80eb0d93f94480d96c,04_ikaz_alarm_isaretleri_tr-REVIZE.pdf,7,14,6,0.833916,-2.221393,,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test4_baseline,4,afad_earthquake_v2_598da8f8a593d0907ccb,IIRAP_Izmir-2025-_1_-a.pdf,169,169,25,0.826242,-2.517050,,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test4_baseline,5,afad_earthquake_v2_eca16533b2601900f0df,ZONGULDAK_IRAP.pdf,187,188,45,0.824043,-2.689443,,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_5243c7568406dc6d07b0,ilk72saat1.pdf,41,42,1,0.849360,-1.026344,1.000000,1
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_be80eb0d93f94480d96c,04_ikaz_alarm_isaretleri_tr-REVIZE.pdf,7,14,6,0.833916,-2.221393,0.611692,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,3,0.836517,-2.966613,0.598970,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_463843bd656187980659,Gaziantep-IRAP.pdf,75,77,4,0.835722,-3.119561,0.571440,0
+H09,Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,5,0.835709,-3.180341,0.566179,1
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test4_baseline,1,afad_earthquake_v2_90304a4a981acd040412,yapisalolmayanriskler.pdf,28,29,7,0.863765,0.181337,,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test4_baseline,2,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,2,0.872961,0.061290,,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test4_baseline,3,afad_earthquake_v2_2fff61b4977651757430,document-_11_.pdf,295,296,13,0.858099,-0.198975,,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test4_baseline,4,afad_earthquake_v2_cd14a09057fdc336cfed,ilk72saat1.pdf,25,26,16,0.857468,-0.494143,,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test4_baseline,5,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,28,0.855591,-0.605758,,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,2,0.872961,0.061290,0.945353,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_90304a4a981acd040412,yapisalolmayanriskler.pdf,28,29,7,0.863765,0.181337,0.754396,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,1,0.874773,-2.000595,0.741590,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_9e3cf6277a88559a5263,yapisalolmayanriskler.pdf,42,43,3,0.868876,-1.382457,0.683228,0
+H10,Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_acf546f192d6f7580fac,ilk72saatengelliler.pdf,31,33,6,0.863804,-0.730051,0.647312,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test4_baseline,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,9,0.843043,2.058402,,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test4_baseline,2,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,36,0.832029,-0.355409,,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test4_baseline,3,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,7,0.844864,-0.355912,,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test4_baseline,4,afad_earthquake_v2_0fb5efd0727e419802bc,olagandisi.pdf,15,16,6,0.845340,-0.686941,,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test4_baseline,5,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,49,0.830312,-0.951349,,1
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,1,0.859794,-1.511717,0.819623,1
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,9,0.843043,2.058402,0.721132,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,7,0.844864,-0.355912,0.629467,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_0fb5efd0727e419802bc,olagandisi.pdf,15,16,6,0.845340,-0.686941,0.620667,0
+H11,Binadan çıktıktan sonra nereye gitmeliyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,5,0.845530,-1.972342,0.558888,0
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test4_baseline,1,afad_earthquake_v2_64fa27dc10ae97efe12d,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,93,94,33,0.858296,2.212570,,1
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test4_baseline,2,afad_earthquake_v2_679fb63ef1e4cf3c1be1,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,92,93,11,0.863752,1.919488,,1
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test4_baseline,3,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,30,0.858930,0.774638,,0
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test4_baseline,4,afad_earthquake_v2_6228a810282e0d3cbe86,Antalya-IRAP_2022.pdf,79,81,19,0.861577,0.455268,,0
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test4_baseline,5,afad_earthquake_v2_5f94eb091fec5868a669,SIIRT-IRAP.pdf,101,103,14,0.862975,0.384947,,0
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,1,0.870822,-0.538149,0.769810,1
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_679fb63ef1e4cf3c1be1,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,92,93,11,0.863752,1.919488,0.728771,1
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_5f94eb091fec5868a669,SIIRT-IRAP.pdf,101,103,14,0.862975,0.384947,0.573238,0
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_0aedf80398d173c70f16,KARS-IRAP.pdf,105,106,9,0.863988,-0.130882,0.565401,0
+H12,Toplanma alanına giderken hangi risklere dikkat etmeliyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_64fa27dc10ae97efe12d,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,93,94,33,0.858296,2.212570,0.562879,1
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test4_baseline,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,16,0.851882,2.338333,,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test4_baseline,2,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,5,0.858270,1.907015,,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test4_baseline,3,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,9,0.855859,1.089680,,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test4_baseline,4,afad_earthquake_v2_c4d6b7fa229e6ac8db9b,afet_sonrasi_iyilestirme_calismalari-1.pdf,247,249,43,0.845544,0.992270,,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test4_baseline,5,afad_earthquake_v2_4bdedca0c68877d01292,document-_11_.pdf,104,106,2,0.859217,0.928373,,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_589f99bca4ae6cea8542,yapisalolmayanriskler.pdf,43,44,1,0.865117,-0.019578,0.813333,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,5,0.858270,1.907015,0.796397,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_4bdedca0c68877d01292,document-_11_.pdf,104,106,2,0.859217,0.928373,0.742366,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,16,0.851882,2.338333,0.672433,0
+H13,Deprem sonrası binaya eşya almak için geri girebilir miyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,9,0.855859,1.089680,0.672026,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test4_baseline,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,2,0.865884,2.204092,,1
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test4_baseline,2,afad_earthquake_v2_a0247e973a0bfd1c162d,sismik_mikrobolgeleme_el_kitabi_tr.pdf,68,70,45,0.852630,1.479015,,1
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test4_baseline,3,afad_earthquake_v2_8f31059c06898d62fa39,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,89,90,16,0.857624,0.426882,,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test4_baseline,4,afad_earthquake_v2_693645664db4b0cc7da7,sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf,148,149,7,0.860210,0.297205,,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test4_baseline,5,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,1,0.874039,-0.219865,,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,1,0.874039,-0.219865,0.845166,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,2,0.865884,2.204092,0.817189,1
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_f543ffc8b023a9e1a8c8,yft_min1.pdf,14,16,6,0.862298,-0.318750,0.575662,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_693645664db4b0cc7da7,sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf,148,149,7,0.860210,0.297205,0.568208,0
+H14,Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_8f31059c06898d62fa39,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,89,90,16,0.857624,0.426882,0.518511,0
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test4_baseline,1,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,4,0.868342,3.944547,,1
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test4_baseline,2,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,36,0.851731,3.472242,,0
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test4_baseline,3,afad_earthquake_v2_20d1a673c2b050cdeb6e,ilk72saat1.pdf,31,33,39,0.851119,3.062495,,1
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test4_baseline,4,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,23,0.854578,2.951889,,0
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test4_baseline,5,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,8,0.861950,2.810676,,1
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,4,0.868342,3.944547,0.849763,1
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,1,0.876708,0.704516,0.781144,0
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_9e3cf6277a88559a5263,yapisalolmayanriskler.pdf,42,43,3,0.871904,0.574880,0.686103,0
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_572074d49992362287d5,ilk72saatengelliler.pdf,36,38,2,0.872004,0.285583,0.668362,0
+H15,Depremden sonra çevredeki yaralılara yardım etmeli miyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,8,0.861950,2.810676,0.658379,1
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test4_baseline,1,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,2,0.863826,0.100367,,1
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test4_baseline,2,afad_earthquake_v2_07aa1636cd58234a5c0e,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,325,325,48,0.835551,-0.196658,,0
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test4_baseline,3,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,7,0.854643,-0.970307,,1
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test4_baseline,4,afad_earthquake_v2_290fbbc000f4552f24c9,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,325,326,16,0.845585,-1.338364,,0
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test4_baseline,5,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,49,0.835431,-1.418370,,0
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,2,0.863826,0.100367,0.948338,1
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_244dae961d87a10b4dc6,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,279,279,1,0.867113,-2.920494,0.716611,0
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_4d5ea58b6e8cae71b403,ilk72saatengelliler.pdf,30,31,3,0.862486,-2.275035,0.704433,1
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,7,0.854643,-0.970307,0.703559,1
+H16,İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_48d34fc579bb6aa24a9b,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,278,278,4,0.861611,-2.485910,0.670895,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test4_baseline,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,2,0.856744,0.738272,,1
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test4_baseline,2,afad_earthquake_v2_64fa27dc10ae97efe12d,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,93,94,3,0.850762,-1.355521,,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test4_baseline,3,afad_earthquake_v2_320b854139e725771f23,yapisalolmayanriskler.pdf,15,16,12,0.829285,-1.549390,,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test4_baseline,4,afad_earthquake_v2_385ab31d1233619c9ccd,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,101,102,6,0.841049,-1.635215,,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test4_baseline,5,afad_earthquake_v2_04441e708a3419906c99,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,8,8,15,0.827113,-1.815312,,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,2,0.856744,0.738272,0.858196,1
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,1,0.870857,-2.431952,0.834695,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_64fa27dc10ae97efe12d,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,93,94,3,0.850762,-1.355521,0.688914,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,4,0.850095,-1.890151,0.654338,0
+H17,Enkaz altındaysam sürekli bağırmalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_385ab31d1233619c9ccd,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,101,102,6,0.841049,-1.635215,0.576742,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test4_baseline,1,afad_earthquake_v2_385ab31d1233619c9ccd,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,101,102,3,0.870215,2.177401,,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test4_baseline,2,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,1,0.875144,1.650861,,1
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test4_baseline,3,afad_earthquake_v2_ab725531b7d65e8c17a6,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,96,99,13,0.850440,0.806217,,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test4_baseline,4,afad_earthquake_v2_02d79f0152f26ad87fb7,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,103,104,6,0.861868,0.580218,,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test4_baseline,5,afad_earthquake_v2_57aa4f0d0c58f1556844,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,99,99,24,0.841333,0.562772,,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,1,0.875144,1.650861,0.966753,1
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_385ab31d1233619c9ccd,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,101,102,3,0.870215,2.177401,0.942428,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_02d79f0152f26ad87fb7,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,103,104,6,0.861868,0.580218,0.744082,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,2,0.872690,-1.521566,0.737769,0
+H18,Enkaz altında sesimi duyuramıyorsam ne yapabilirim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,5,0.861984,-0.378632,0.684890,0
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test4_baseline,1,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,3,0.865734,2.809660,,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test4_baseline,2,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,2,0.872405,2.789395,,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test4_baseline,3,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,1,0.883347,1.957536,,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test4_baseline,4,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,4,0.864756,0.822048,,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test4_baseline,5,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,8,0.856134,0.130955,,0
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,1,0.883347,1.957536,0.954007,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,2,0.872405,2.789395,0.874303,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,3,0.865734,2.809660,0.799433,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,4,0.864756,0.822048,0.681005,1
+H19,Deprem sonrası telefonu hangi durumlarda kullanmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,5,0.864022,-0.699364,0.590531,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test4_baseline,1,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,7,0.841737,-0.139383,,1
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test4_baseline,2,afad_earthquake_v2_8d7728abd65402a4e976,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,34,35,14,0.836885,-1.713969,,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test4_baseline,3,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,2,0.845823,-1.806728,,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test4_baseline,4,afad_earthquake_v2_f957ebbb84c492de20e3,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,566,566,42,0.829650,-2.076969,,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test4_baseline,5,afad_earthquake_v2_94ad29f03513766c93b3,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,200,200,23,0.831950,-2.186815,,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,1,0.861842,-3.338888,0.805227,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,7,0.841737,-0.139383,0.697774,1
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_687d9401c527bf64a875,ilk72saatengelliler.pdf,29,30,2,0.845823,-1.806728,0.657695,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,9,0.840121,-2.383694,0.536854,0
+H20,Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_8d7728abd65402a4e976,ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf,34,35,14,0.836885,-1.713969,0.528989,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test4_baseline,1,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,20,0.847937,0.034717,,1
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test4_baseline,2,afad_earthquake_v2_24a5e827c98bf732f335,ilk72saatengelliler.pdf,24,25,5,0.855087,-0.182827,,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test4_baseline,3,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,1,0.860640,-0.458005,,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test4_baseline,4,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,41,0.842100,-0.558461,,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test4_baseline,5,afad_earthquake_v2_8576896ff3249adc6c79,ZONGULDAK_IRAP.pdf,124,124,46,0.841816,-0.578414,,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,1,0.860640,-0.458005,0.955681,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_24a5e827c98bf732f335,ilk72saatengelliler.pdf,24,25,5,0.855087,-0.182827,0.839985,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,4,0.856779,-0.761215,0.830758,1
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_447d2d6bc4c14fa76217,ilk72saatengelliler.pdf,23,24,8,0.851692,-0.803549,0.698263,0
+H21,Deprem çantasını binadan çıkarken yanıma almalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,6,0.854328,-1.634200,0.690238,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test4_baseline,1,afad_earthquake_v2_0231a20304da7fc45b4a,olagandisi.pdf,35,36,28,0.856691,2.237710,,1
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test4_baseline,2,afad_earthquake_v2_6e7342ce2519e56a10d6,ilk72saat1.pdf,49,51,40,0.854370,2.181342,,1
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test4_baseline,3,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,4,0.866271,0.954890,,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test4_baseline,4,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,6,0.863387,0.577536,,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test4_baseline,5,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,11,0.860734,0.235261,,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,4,0.866271,0.954890,0.731007,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_32bab3c630cd41969132,olagandisi.pdf,46,49,3,0.866552,-0.301190,0.637682,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,6,0.863387,0.577536,0.625972,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,2,0.867401,-1.017257,0.602355,0
+H22,Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_a793c631a1482c5fb303,olagandisi.pdf,23,24,1,0.872679,-2.730976,0.601978,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test4_baseline,1,afad_earthquake_v2_8576896ff3249adc6c79,ZONGULDAK_IRAP.pdf,124,124,2,0.867543,3.983737,,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test4_baseline,2,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,24,0.856679,2.285471,,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test4_baseline,3,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,14,0.858814,2.066191,,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test4_baseline,4,afad_earthquake_v2_f543ffc8b023a9e1a8c8,yft_min1.pdf,14,16,48,0.852811,1.961418,,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test4_baseline,5,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,49,0.852553,1.583419,,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_8576896ff3249adc6c79,ZONGULDAK_IRAP.pdf,124,124,2,0.867543,3.983737,0.853743,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_bd2a61f797a38fd1f2af,Aydin-IRAP-2021.pdf,204,205,1,0.873773,1.321421,0.808757,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_8db6c99699fc2d7bb205,document-_11_.pdf,298,299,5,0.864689,1.318712,0.595314,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_1fd7203fd5e5e1d50259,Mugla_IRAP_20102021_Baski.pdf,147,148,3,0.867399,-0.363557,0.538085,0
+H23,Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_68161805f9aec04640b4,IRAP-11102021-basim-yapilan.pdf,167,168,6,0.864675,0.505976,0.536598,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test4_baseline,1,afad_earthquake_v2_8576896ff3249adc6c79,ZONGULDAK_IRAP.pdf,124,124,8,0.855396,1.557670,,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test4_baseline,2,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,1,0.872042,1.377843,,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test4_baseline,3,afad_earthquake_v2_320b854139e725771f23,yapisalolmayanriskler.pdf,15,16,41,0.847813,1.255793,,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test4_baseline,4,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,10,0.855285,0.970732,,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test4_baseline,5,afad_earthquake_v2_e87aa0d3b1f002837dd9,olagandisi.pdf,38,39,22,0.852218,0.803967,,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,1,0.872042,1.377843,0.984941,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_8576896ff3249adc6c79,ZONGULDAK_IRAP.pdf,124,124,8,0.855396,1.557670,0.671297,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_8641b392086766056ad0,olagandisi.pdf,17,19,10,0.855285,0.970732,0.619956,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_6aaa76364003179aaab3,ilk72saat1.pdf,47,48,11,0.855035,0.638349,0.587191,0
+H24,Sokaktayken deprem olursa binaların yanında beklemeli miyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,13,0.854537,0.456938,0.562158,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test4_baseline,1,afad_earthquake_v2_a160e813b66aba54c36d,ilk72saatengelliler.pdf,34,35,20,0.846424,0.092896,,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test4_baseline,2,afad_earthquake_v2_7b5848d0a49faf2a5359,Bayburt-IRAP.pdf,86,87,14,0.849206,-0.340536,,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test4_baseline,3,afad_earthquake_v2_5860571a1f2bd2bec125,AKSARAY-IRAP-2021.pdf,197,198,41,0.843770,-1.003962,,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test4_baseline,4,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,15,0.849166,-1.099953,,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test4_baseline,5,afad_earthquake_v2_ae7004b7adb20b96f5fb,ilk72saat1.pdf,56,57,8,0.851976,-1.145681,,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_01666ddd4a29c3eac6fe,olagandisi.pdf,14,15,1,0.858797,-2.062237,0.779334,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_bd2a61f797a38fd1f2af,Aydin-IRAP-2021.pdf,204,205,2,0.856865,-1.997122,0.725303,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_5231d857573b43a191f2,olagandisi.pdf,25,26,3,0.854671,-1.665314,0.690367,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_ae7004b7adb20b96f5fb,ilk72saat1.pdf,56,57,8,0.851976,-1.145681,0.658905,0
+H25,Araçtayken deprem olursa köprü üzerinde durmalı mıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_7b5848d0a49faf2a5359,Bayburt-IRAP.pdf,86,87,14,0.849206,-0.340536,0.654328,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test4_baseline,1,afad_earthquake_v2_d9ff882714f41a353c6f,ilk72saat1.pdf,54,55,4,0.839830,-0.995014,,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test4_baseline,2,afad_earthquake_v2_ae7004b7adb20b96f5fb,ilk72saat1.pdf,56,57,1,0.845828,-1.179144,,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test4_baseline,3,afad_earthquake_v2_be80eb0d93f94480d96c,04_ikaz_alarm_isaretleri_tr-REVIZE.pdf,7,14,13,0.828756,-1.523994,,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test4_baseline,4,afad_earthquake_v2_243ddcd89bea8d126adb,ilk72saat1.pdf,42,44,20,0.826074,-2.005206,,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test4_baseline,5,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,2,0.843329,-2.132697,,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_ae7004b7adb20b96f5fb,ilk72saat1.pdf,56,57,1,0.845828,-1.179144,0.982216,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_d9ff882714f41a353c6f,ilk72saat1.pdf,54,55,4,0.839830,-0.995014,0.890402,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_fe5a81c9950597aaee20,olagandisi.pdf,20,21,2,0.843329,-2.132697,0.844453,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_fefa541e63e6a986ae45,ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf,45,45,6,0.839497,-2.211703,0.766814,0
+H26,Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_ca4995e8e406b1ab5333,SivasIRAP.pdf,141,141,7,0.839487,-2.255657,0.762375,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test4_baseline,1,afad_earthquake_v2_ff7c7e3294aaf3245c9a,ilk72saatengelliler.pdf,33,34,1,0.866915,-0.104311,,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test4_baseline,2,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,37,0.846689,-0.128697,,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test4_baseline,3,afad_earthquake_v2_156cea4b9ed7845976b7,olagandisi.pdf,21,22,23,0.847883,-0.422420,,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test4_baseline,4,afad_earthquake_v2_001647c78a293925a1f4,yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf,107,108,16,0.849553,-0.526226,,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test4_baseline,5,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,5,0.852850,-0.592657,,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_ff7c7e3294aaf3245c9a,ilk72saatengelliler.pdf,33,34,1,0.866915,-0.104311,1.000000,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_9e3cf6277a88559a5263,yapisalolmayanriskler.pdf,42,43,2,0.866620,-1.683272,0.846773,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,5,0.852850,-0.592657,0.643425,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_001647c78a293925a1f4,yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf,107,108,16,0.849553,-0.526226,0.576642,0
+H27,Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_df3f7ea3d41870c7a362,ilk72saatengelliler.pdf,35,36,14,0.849943,-0.660982,0.572750,0
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test4_baseline,1,afad_earthquake_v2_4812e4d628714ed46737,SivasIRAP.pdf,142,143,2,0.866684,1.145546,,0
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test4_baseline,2,afad_earthquake_v2_0aedf80398d173c70f16,KARS-IRAP.pdf,105,106,4,0.858676,0.671712,,1
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test4_baseline,3,afad_earthquake_v2_53055e13abae8e29401b,ilk72saat1.pdf,37,39,30,0.844832,0.518288,,1
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test4_baseline,4,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,8,0.856974,0.266107,,1
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test4_baseline,5,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,1,0.867652,-0.529252,,1
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_4812e4d628714ed46737,SivasIRAP.pdf,142,143,2,0.866684,1.145546,0.981918,0
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_1a63bcf03fa83c353324,olagandisi.pdf,15,16,1,0.867652,-0.529252,0.912027,1
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_809a46868fdf2e7085b5,SivasIRAP.pdf,141,142,3,0.866091,-0.872698,0.864818,0
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_0aedf80398d173c70f16,KARS-IRAP.pdf,105,106,4,0.858676,0.671712,0.807411,1
+H28,Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,8,0.856974,0.266107,0.754321,1
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test4_baseline,1,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,3,0.860177,2.527382,,1
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test4_baseline,2,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,1,0.863932,-0.222791,,1
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test4_baseline,3,afad_earthquake_v2_9f15c8328caf803c696d,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,42,0.848353,-0.440832,,0
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test4_baseline,4,afad_earthquake_v2_66615c78e5a234f9fbc1,yft_min1.pdf,64,65,13,0.854403,-0.578102,,0
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test4_baseline,5,afad_earthquake_v2_098ea7122b006dd148bf,Denizli_Il_Afet_Risk_Azaltma-Plani.pdf,172,173,20,0.852257,-0.828639,,0
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_7302a4f456736e75e396,olagandisi.pdf,19,20,3,0.860177,2.527382,0.887924,1
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_8edcf886d51b509b94e6,ilk72saat1.pdf,44,45,1,0.863932,-0.222791,0.847954,1
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_9c0c24a9b5d41267f617,IRAP_2022.pdf,201,202,2,0.863514,-3.099021,0.676463,0
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_68161805f9aec04640b4,IRAP-11102021-basim-yapilan.pdf,167,168,4,0.858978,-1.416912,0.634061,0
+H29,Deprem sonrası resmi açıklamaları nereden takip etmeliyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_47906b2fade86f52003f,olagandisi.pdf,26,26,8,0.856415,-1.286992,0.564752,1
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test4_baseline,1,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,1,0.876655,1.316194,,1
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test4_baseline,2,afad_earthquake_v2_50e0ee9dcaef0254795e,sismik-mikrobolgeleme_genisletilmis_ozet_tr.pdf,6,7,22,0.847582,1.202771,,0
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test4_baseline,3,afad_earthquake_v2_45ed20d04b412a8407b9,yapisalriskler.pdf,36,38,10,0.853212,1.036344,,1
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test4_baseline,4,afad_earthquake_v2_ee93cd58b5bb32e381e7,ilk72saatengelliler.pdf,28,29,20,0.848143,0.208599,,0
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test4_baseline,5,afad_earthquake_v2_3b28344ad0c4e1559be5,olagandisi.pdf,22,23,36,0.843923,0.142853,,0
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test6_score_fusion_alpha_0.50,1,afad_earthquake_v2_fe92b1366549464b873f,yapisalriskler.pdf,50,51,1,0.876655,1.316194,1.000000,1
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test6_score_fusion_alpha_0.50,2,afad_earthquake_v2_45ed20d04b412a8407b9,yapisalriskler.pdf,36,38,10,0.853212,1.036344,0.627795,1
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test6_score_fusion_alpha_0.50,3,afad_earthquake_v2_29c8fca800da878b45b1,ilk72saatengelliler.pdf,25,26,5,0.858993,-0.329821,0.591742,1
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test6_score_fusion_alpha_0.50,4,afad_earthquake_v2_50e0ee9dcaef0254795e,sismik-mikrobolgeleme_genisletilmis_ozet_tr.pdf,6,7,22,0.847582,1.202771,0.559234,0
+H30,Binanın güvenli olup olmadığına kendim karar verebilir miyim?,test6_score_fusion_alpha_0.50,5,afad_earthquake_v2_ace50981b3988c2229c0,Afete_Direncli_Toplum_Uygulama_Ornekleri.pdf,54,55,3,0.859708,-0.967271,0.545555,0

@@ -1,0 +1,14 @@
+question_id,chunk_id,relevant,source_file,page_start,page_end,judgment_source
+Q04,afad_earthquake_628e4978a3a3a946879b,1,ilk72saatengelliler.pdf,31,34,manual_conflict_resolution
+Q05,afad_earthquake_316e61fd7b2f60faef6f,0,ilk72saat1.pdf,53,55,manual_conflict_resolution
+Q08,afad_earthquake_v2_fe5a81c9950597aaee20,1,olagandisi.pdf,20,21,manual_conflict_resolution
+Q10,afad_earthquake_v2_24a5e827c98bf732f335,0,ilk72saatengelliler.pdf,24,25,manual_conflict_resolution
+Q10,afad_earthquake_v2_447d2d6bc4c14fa76217,1,ilk72saatengelliler.pdf,23,24,manual_conflict_resolution
+Q12,afad_earthquake_v2_24ab15ac9588f2131aaa,1,ARTVIN-IRAP-SON_22102021.pdf,86,91,manual_conflict_resolution
+Q15,afad_earthquake_v2_fe92b1366549464b873f,0,yapisalriskler.pdf,50,51,manual_conflict_resolution
+Q16,afad_earthquake_v2_15228a457be9c1c471df,1,Afet-Yönetim-Terimleri-Sözlüğü.pdf,183,184,manual_conflict_resolution
+Q16,afad_earthquake_v2_dc95f4d347d1b1a39bcc,1,SoruCevap-Kitapcik-2.pdf,1,1,manual_conflict_resolution
+Q16,afad_earthquake_v2_f5460af0d9e5b082c5e9,0,Afet-barinma-faaliyetleri.pdf,11,13,manual_conflict_resolution
+Q17,afad_earthquake_v2_7302a4f456736e75e396,1,olagandisi.pdf,19,20,manual_conflict_resolution
+Q18,afad_earthquake_v2_9f15c8328caf803c696d,0,Kirsehir-IRAP_-Il-Afet-Risk-Azaltma-Plani.pdf,82,83,manual_conflict_resolution
+Q20,afad_earthquake_v2_572074d49992362287d5,0,ilk72saatengelliler.pdf,36,38,manual_conflict_resolution
