@@ -1,0 +1,10 @@
+Final Test v1 Summary
+
+evaluated questions: 40
+correct: 37
+wrong: 3
+answerability accuracy: 0.9250
+TP: 16
+FN: 2
+FP: 1
+TN: 21

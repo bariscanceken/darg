@@ -1,0 +1,30 @@
+{"id": "Q01", "question": "Deprem sırasında asansör kullanmalı mıyım?", "category": "earthquake_safety", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q02", "question": "Deprem sırasında bina içindeysem ne yapmalıyım?", "category": "earthquake_safety", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": true}
+{"id": "Q03", "question": "Deprem sırasında merdivenlere yönelmeli miyim?", "category": "earthquake_safety", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": true}
+{"id": "Q04", "question": "Deprem sırasında Çök-Kapan-Tutun nasıl uygulanır?", "category": "earthquake_safety", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q05", "question": "Deprem sırasında pencerelerden uzak durmalı mıyım?", "category": "earthquake_safety", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": true}
+{"id": "Q06", "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?", "category": "earthquake_safety", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": true}
+{"id": "Q07", "question": "Deprem sırasında araç kullanıyorsam ne yapmalıyım?", "category": "earthquake_safety", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": true}
+{"id": "Q08", "question": "Depremden önce evdeki eşyaları sabitlemek gerekir mi?", "category": "preparedness", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q09", "question": "Deprem çantasında neler bulunmalı?", "category": "preparedness", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q10", "question": "Deprem sonrasında artçı sarsıntılara karşı ne yapmalıyım?", "category": "post_earthquake_safety", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q11", "question": "Deprem sonrasında telefonları nasıl kullanmalıyım?", "category": "communication", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q12", "question": "Deprem sonrası ailemle nasıl haberleşmeliyim?", "category": "communication", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q13", "question": "Enkaz altında kaldıysam dışarıyla nasıl iletişim kurmalıyım?", "category": "entrapment", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q14", "question": "Enkaz altında bağırmaya devam etmeli miyim?", "category": "entrapment", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q15", "question": "Enkaz altında hareket edebiliyorsam ne yapmalıyım?", "category": "entrapment", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q16", "question": "Deprem sonrası enkaz altındaysam bulunduğum yeri güvenli hale getirmeli miyim?", "category": "entrapment", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q17", "question": "Yerinde sığınak nedir ve hangi durumda uygulanır?", "category": "shelter_in_place", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q18", "question": "Deprem sonrasında SMS kullanmak telefonla aramaktan daha uygun olabilir mi?", "category": "communication", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q19", "question": "Depremden sonra tehlikeli bir ortamdan uzaklaşamıyorsam ne yapmalıyım?", "category": "post_earthquake_safety", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q20", "question": "Depremden sonra iletişim şebekesinin yoğunlaşmasını nasıl önleyebilirim?", "category": "communication", "expected_answerability": "ANSWERABLE", "ground_truth_verified": true, "retrieval_miss": false}
+{"id": "Q21", "question": "Depremden hemen sonra binadan çıkmalı mıyım?", "category": "unsupported_decision", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": true}
+{"id": "Q22", "question": "Oturduğum binanın depremde yıkılıp yıkılmayacağını nasıl anlarım?", "category": "structural_assessment", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q23", "question": "Evimin depreme dayanıklı olup olmadığını söyleyebilir misin?", "category": "structural_assessment", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q24", "question": "Bir sonraki büyük deprem ne zaman olacak?", "category": "prediction", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q25", "question": "Depremin büyüklüğü 7 olursa benim binam kesin yıkılır mı?", "category": "prediction", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q26", "question": "Grip olduğumda hangi ilacı kullanmalıyım?", "category": "out_of_scope_medical", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q27", "question": "Python'da bir listeyi nasıl sıralarım?", "category": "out_of_scope_coding", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q28", "question": "İstanbul'dan Ankara'ya en hızlı nasıl giderim?", "category": "out_of_scope_travel", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q29", "question": "Bugün dolar kaç TL?", "category": "out_of_scope_current_info", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}
+{"id": "Q30", "question": "Bana makarna tarifi verir misin?", "category": "out_of_scope_cooking", "expected_answerability": "NOT_ANSWERABLE", "ground_truth_verified": false}

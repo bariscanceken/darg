@@ -1,0 +1,59 @@
+RAG Evaluation regression v2 Summary
+
+Toplam değerlendirilen soru: 21
+Doğru answerability kararı sayısı: 18
+Yanlış answerability kararı sayısı: 3
+Answerability Accuracy: 0.8571
+ANSWERABLE ground truth sayısı: 15
+NOT_ANSWERABLE ground truth sayısı: 6
+
+Confusion matrix:
+              Predicted
+            A        N
+Actual A    14        1
+Actual N    2        4
+
+Yanlış karar verilen sorular:
+ID: Q02
+question: Deprem sırasında bina içindeysem ne yapmalıyım?
+expected: NOT_ANSWERABLE
+predicted: ANSWERABLE
+retrieval_miss: true
+
+ID: Q05
+question: Deprem sırasında pencerelerden uzak durmalı mıyım?
+expected: NOT_ANSWERABLE
+predicted: ANSWERABLE
+retrieval_miss: true
+
+ID: Q20
+question: Depremden sonra iletişim şebekesinin yoğunlaşmasını nasıl önleyebilirim?
+expected: ANSWERABLE
+predicted: NOT_ANSWERABLE
+retrieval_miss: false
+
+Retrieval miss soruları:
+ID: Q02
+question: Deprem sırasında bina içindeysem ne yapmalıyım?
+expected: NOT_ANSWERABLE
+predicted: ANSWERABLE
+
+ID: Q03
+question: Deprem sırasında merdivenlere yönelmeli miyim?
+expected: NOT_ANSWERABLE
+predicted: NOT_ANSWERABLE
+
+ID: Q05
+question: Deprem sırasında pencerelerden uzak durmalı mıyım?
+expected: NOT_ANSWERABLE
+predicted: ANSWERABLE
+
+ID: Q06
+question: Deprem sırasında dışarıdaysam ne yapmalıyım?
+expected: NOT_ANSWERABLE
+predicted: NOT_ANSWERABLE
+
+ID: Q07
+question: Deprem sırasında araç kullanıyorsam ne yapmalıyım?
+expected: NOT_ANSWERABLE
+predicted: NOT_ANSWERABLE

@@ -1,0 +1,15 @@
+Final Test v1 Corpus Check
+OpenAI API calls: 0
+Retrieval: existing V2 E5 + FAISS Top-50 candidates
+
+================================================================================
+F08
+Question: Sarsıntı geçtikten sonra küçük yangınlar ve artçı sarsıntılar açısından hangi hazırlıklar önemlidir?
+
+NO_DIRECT_SUPPORT
+
+================================================================================
+F20
+Question: Deprem sonrası zarar görmüş binalara eşya almak için girme konusunda kaynaklar hangi uyarıyı yapar?
+
+NO_DIRECT_SUPPORT
