@@ -1,0 +1,101 @@
+DARG Query Normalization v1 Evaluation
+========================================
+Vocabulary source sha256: 54d431a02e5552cc07be62ee8dc5d8bcdab86859dd15a6d156bb5b842d8ad27f
+
+1) Calibration sets (clean queries, used for tuning)
+Changed: 0/80
+
+2) Spec examples (seen during design, not independent)
+  [OK] Deprem sırasında asaönser kullanmalı mıyım? -> Deprem sırasında asansör kullanmalı mıyım?
+  [OK] Deprem sırasında asansor kullanmalı mıyım? -> Deprem sırasında asansör kullanmalı mıyım?
+
+3) Independent typo set (query_typo_eval_v1.jsonl, never used for tuning)
+should_fix exact match: 6/15
+should_keep unchanged: 15/15
+Token corrections: correct=7 wrong=0 missed=14
+  [MISS] T01: Deprem sirasinda merdivenlere yonelmeli miyim?
+         got:      Deprem sirasinda merdivenlere yonelmeli miyim?
+         expected: Deprem sırasında merdivenlere yönelmeli miyim?
+         skipped:  too_many_unknown_words
+  [OK] T02: Depremden sonra gaz vanasini kapatmak gerekir mi?
+         got:      Depremden sonra gaz vanasını kapatmak gerekir mi?
+         expected: Depremden sonra gaz vanasını kapatmak gerekir mi?
+  [MISS] T03: Sarsinti bittikten sonra binadan cikmak guvenli mi?
+         got:      Sarsinti bittikten sonra binadan cikmak guvenli mi?
+         expected: Sarsıntı bittikten sonra binadan çıkmak güvenli mi?
+         skipped:  too_many_corrections
+  [MISS] T04: Enkaz altinda kalirsam ne yapmaliyim?
+         got:      Enkaz altinda kalirsam ne yapmaliyim?
+         expected: Enkaz altında kalırsam ne yapmalıyım?
+         skipped:  too_many_unknown_words
+  [MISS] T05: Deprem cantasina neler koymaliyim?
+         got:      Deprem çantasına neler koymaliyim?
+         expected: Deprem çantasına neler koymalıyım?
+  [OK] T06: Deprem sırasında pencrelerden uzak durmalı mıyım?
+         got:      Deprem sırasında pencerelerden uzak durmalı mıyım?
+         expected: Deprem sırasında pencerelerden uzak durmalı mıyım?
+  [MISS] T07: Depremden sonra elektirk şalterini kapatmalı mıyım?
+         got:      Depremden sonra elektirk şalterini kapatmalı mıyım?
+         expected: Depremden sonra elektrik şalterini kapatmalı mıyım?
+  [OK] T08: Artçı sarsıntılar sırasında binada kalmak güvneli mi?
+         got:      Artçı sarsıntılar sırasında binada kalmak güvenli mi?
+         expected: Artçı sarsıntılar sırasında binada kalmak güvenli mi?
+  [OK] T09: Deprm sırasında mutfaktaysam ne yapmalıyım?
+         got:      Deprem sırasında mutfaktaysam ne yapmalıyım?
+         expected: Deprem sırasında mutfaktaysam ne yapmalıyım?
+  [MISS] T10: Enkaz altında kalırsam düdük kulanmalı mıyım?
+         got:      Enkaz altında kalırsam düdük kulanmalı mıyım?
+         expected: Enkaz altında kalırsam düdük kullanmalı mıyım?
+  [OK] T11: Yaralılara ilk yardım yapamk doğru mu?
+         got:      Yaralılara ilk yardım yapmak doğru mu?
+         expected: Yaralılara ilk yardım yapmak doğru mu?
+  [MISS] T12: Deprem sonrası telefonu hangi durumlrda kullanmalıyım?
+         got:      Deprem sonrası telefonu hangi durumlrda kullanmalıyım?
+         expected: Deprem sonrası telefonu hangi durumlarda kullanmalıyım?
+  [MISS] T13: Tsunami uyarsı gelirse sahilden uzaklaşmalı mıyım?
+         got:      Tsunami uyarsı gelirse sahilden uzaklaşmalı mıyım?
+         expected: Tsunami uyarısı gelirse sahilden uzaklaşmalı mıyım?
+  [OK] T14: Hasralı binaya eşyalarımı almak için girebilir miyim?
+         got:      Hasarlı binaya eşyalarımı almak için girebilir miyim?
+         expected: Hasarlı binaya eşyalarımı almak için girebilir miyim?
+  [MISS] T15: Deprem anında kolonların yanına çömelmek doğru mu? Yoksa masanın altına mı girmeliyim? Afet sonrsı ne yapmalıyım?
+         got:      Deprem anında kolonların yanına çömelmek doğru mu? Yoksa masanın altına mı girmeliyim? Afet sonrsı ne yapmalıyım?
+         expected: Deprem anında kolonların yanına çömelmek doğru mu? Yoksa masanın altına mı girmeliyim? Afet sonrası ne yapmalıyım?
+  [OK] K01: Depremde evcil hayvanımı nasıl korurum?
+  [OK] K02: Annemle babamı deprem sonrası nasıl bulabilirim?
+  [OK] K03: Kızımın okulu depremde güvenli mi?
+  [OK] K04: Ofisteyken sarsıntı başlarsa masanın altına girmeli miyim?
+         skipped:  too_many_unknown_words
+  [OK] K05: Kahramanmaraş'taki tanıdıklarıma nasıl ulaşırım?
+  [OK] K06: WhatsApp üzerinden konum paylaşmalı mıyım?
+  [OK] K07: Babaannemin ilaçlarını deprem çantasına koymalı mıyım?
+  [OK] K08: Gökdelende oturuyorsam deprem anında ne yapmalıyım?
+  [OK] K09: Kocaeli'de deprem riski yüksek mi?
+  [OK] K10: Deprem sırasında sandalyenin yanına çömelmeli miyim?
+  [OK] K11: Hoparlörden anons yapılırsa dinlemeli miyim?
+  [OK] K12: Zelzele olursa ne yapmalıyım?
+  [OK] K13: Deprem sırasında bebeğimi nasıl korumalıyım?
+  [OK] K14: Yazlıktayken deprem olursa nereye gitmeliyiz?
+  [OK] K15: AFAD 112 dışında hangi numarayı aramalıyım?
+
+4) Retrieval check: Top-5 overlap with the clean query's Top-5 (frozen pipeline)
+   label | typo query | normalized query
+   S1    | 1/5 | 5/5
+   S2    | 4/5 | 5/5
+   T01   | 0/5 | 0/5
+   T02   | 5/5 | 5/5
+   T03   | 0/5 | 0/5
+   T04   | 4/5 | 4/5
+   T05   | 2/5 | 4/5
+   T06   | 4/5 | 5/5
+   T07   | 4/5 | 4/5
+   T08   | 3/5 | 5/5
+   T09   | 2/5 | 5/5
+   T10   | 4/5 | 4/5
+   T11   | 4/5 | 5/5
+   T12   | 4/5 | 4/5
+   T13   | 4/5 | 4/5
+   T14   | 4/5 | 5/5
+   T15   | 5/5 | 5/5
+   Mean typo overlap: 3.18/5
+   Mean normalized overlap: 4.06/5

@@ -1,0 +1,58 @@
+{"id": "Q01", "base_id": "Q01", "variant": "base", "question": "Deprem sırasında asansör kullanmalı mıyım?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q01-V1", "base_id": "Q01", "variant": "V1", "question": "Deprem anında asansör kullanılır mı?", "expected_answerability": "ANSWERABLE", "variation": "anında + edilgen"}
+{"id": "Q01-V2", "base_id": "Q01", "variant": "V2", "question": "Deprem olurken asansöre binmek doğru mu?", "expected_answerability": "ANSWERABLE", "variation": "farklı fiil"}
+{"id": "Q01-V3", "base_id": "Q01", "variant": "V3", "question": "deprem anında asöansör kullanılır mı?", "expected_answerability": "ANSWERABLE", "variation": "gerçek kullanıcı sorgusu, yazım hatalı"}
+{"id": "Q01-V4", "base_id": "Q01", "variant": "V4", "question": "Deprem anında asansör kullanmalı mıyım?", "expected_answerability": "ANSWERABLE", "variation": "yalnızca sırasında -> anında"}
+{"id": "Q04", "base_id": "Q04", "variant": "base", "question": "Deprem sırasında Çök-Kapan-Tutun nasıl uygulanır?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q04-V1", "base_id": "Q04", "variant": "V1", "question": "Deprem anında Çök-Kapan-Tutun hareketi nasıl yapılır?", "expected_answerability": "ANSWERABLE", "variation": "anında + eşanlamlı fiil"}
+{"id": "Q04-V2", "base_id": "Q04", "variant": "V2", "question": "Çök Kapan Tutun nedir, nasıl yapılır?", "expected_answerability": "ANSWERABLE", "variation": "kısa, tiresiz"}
+{"id": "Q04-V3", "base_id": "Q04", "variant": "V3", "question": "Sarsıntı sırasında çök kapan tutun pozisyonunu nasıl almalıyım?", "expected_answerability": "ANSWERABLE", "variation": "birinci tekil"}
+{"id": "Q08", "base_id": "Q08", "variant": "base", "question": "Depremden önce evdeki eşyaları sabitlemek gerekir mi?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q08-V1", "base_id": "Q08", "variant": "V1", "question": "Deprem olmadan önce ev eşyalarını sabitlemeli miyim?", "expected_answerability": "ANSWERABLE", "variation": "birinci tekil"}
+{"id": "Q08-V2", "base_id": "Q08", "variant": "V2", "question": "Evdeki dolapları ve eşyaları depreme karşı sabitlemek gerekli mi?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı"}
+{"id": "Q08-V3", "base_id": "Q08", "variant": "V3", "question": "Depreme hazırlık için evdeki eşyalar sabitlenmeli mi?", "expected_answerability": "ANSWERABLE", "variation": "edilgen"}
+{"id": "Q09", "base_id": "Q09", "variant": "base", "question": "Deprem çantasında neler bulunmalı?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q09-V1", "base_id": "Q09", "variant": "V1", "question": "Deprem çantasına neler koymalıyım?", "expected_answerability": "ANSWERABLE", "variation": "birinci tekil"}
+{"id": "Q09-V2", "base_id": "Q09", "variant": "V2", "question": "Afet ve acil durum çantasında hangi malzemeler olmalı?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı terim"}
+{"id": "Q09-V3", "base_id": "Q09", "variant": "V3", "question": "Deprem çantası nasıl hazırlanır, içinde ne olmalı?", "expected_answerability": "ANSWERABLE", "variation": "genişletilmiş"}
+{"id": "Q10", "base_id": "Q10", "variant": "base", "question": "Deprem sonrasında artçı sarsıntılara karşı ne yapmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q10-V1", "base_id": "Q10", "variant": "V1", "question": "Depremden sonra artçı depremler için nelere dikkat etmeliyim?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı"}
+{"id": "Q10-V2", "base_id": "Q10", "variant": "V2", "question": "Artçı sarsıntı olursa ne yapılmalı?", "expected_answerability": "ANSWERABLE", "variation": "edilgen, kısa"}
+{"id": "Q10-V3", "base_id": "Q10", "variant": "V3", "question": "Ana depremden sonra gelen artçılara karşı nasıl önlem almalıyım?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q11", "base_id": "Q11", "variant": "base", "question": "Deprem sonrasında telefonları nasıl kullanmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q11-V1", "base_id": "Q11", "variant": "V1", "question": "Depremden sonra telefon nasıl kullanılmalı?", "expected_answerability": "ANSWERABLE", "variation": "edilgen"}
+{"id": "Q11-V2", "base_id": "Q11", "variant": "V2", "question": "Deprem sonrası cep telefonu kullanırken nelere dikkat etmeliyim?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q11-V3", "base_id": "Q11", "variant": "V3", "question": "Deprem sonrası cep telefonu kullanımında nelere dikkat edilmeli?", "expected_answerability": "ANSWERABLE", "variation": "edilgen, adlaştırma"}
+{"id": "Q12", "base_id": "Q12", "variant": "base", "question": "Deprem sonrası ailemle nasıl haberleşmeliyim?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q12-V1", "base_id": "Q12", "variant": "V1", "question": "Depremden sonra ailemle nasıl iletişim kurabilirim?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı"}
+{"id": "Q12-V2", "base_id": "Q12", "variant": "V2", "question": "Deprem olduktan sonra yakınlarıma nasıl ulaşmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "yakınlar"}
+{"id": "Q12-V3", "base_id": "Q12", "variant": "V3", "question": "Deprem sonrası aile üyeleriyle haberleşme nasıl sağlanır?", "expected_answerability": "ANSWERABLE", "variation": "edilgen, adlaştırma"}
+{"id": "Q13", "base_id": "Q13", "variant": "base", "question": "Enkaz altında kaldıysam dışarıyla nasıl iletişim kurmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q13-V1", "base_id": "Q13", "variant": "V1", "question": "Enkaz altında kalırsam sesimi dışarıya nasıl duyurabilirim?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q13-V2", "base_id": "Q13", "variant": "V2", "question": "Göçük altındayken kurtarma ekiplerine nasıl haber verebilirim?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı terim"}
+{"id": "Q13-V3", "base_id": "Q13", "variant": "V3", "question": "Enkaz altında kalan biri dışarıyla nasıl iletişim kurar?", "expected_answerability": "ANSWERABLE", "variation": "üçüncü şahıs"}
+{"id": "Q14", "base_id": "Q14", "variant": "base", "question": "Enkaz altında bağırmaya devam etmeli miyim?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q14-V1", "base_id": "Q14", "variant": "V1", "question": "Enkaz altındayken sürekli bağırmak doğru mu?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q14-V2", "base_id": "Q14", "variant": "V2", "question": "Enkaz altında kaldığımda bağırmalı mıyım?", "expected_answerability": "ANSWERABLE", "variation": "birinci tekil"}
+{"id": "Q14-V3", "base_id": "Q14", "variant": "V3", "question": "Enkaz altındaki kişi sürekli bağırmalı mı?", "expected_answerability": "ANSWERABLE", "variation": "üçüncü şahıs"}
+{"id": "Q17", "base_id": "Q17", "variant": "base", "question": "Yerinde sığınak nedir ve hangi durumda uygulanır?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q17-V1", "base_id": "Q17", "variant": "V1", "question": "Yerinde sığınma ne demek, ne zaman yapılır?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı"}
+{"id": "Q17-V2", "base_id": "Q17", "variant": "V2", "question": "Yerinde sığınak uygulaması hangi durumlarda gerekir?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q17-V3", "base_id": "Q17", "variant": "V3", "question": "Yerinde sığınak ne anlama gelir ve ne zaman uygulanır?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q18", "base_id": "Q18", "variant": "base", "question": "Deprem sonrasında SMS kullanmak telefonla aramaktan daha uygun olabilir mi?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q18-V1", "base_id": "Q18", "variant": "V1", "question": "Depremden sonra arama yerine mesaj atmak daha mı iyi?", "expected_answerability": "ANSWERABLE", "variation": "gündelik dil"}
+{"id": "Q18-V2", "base_id": "Q18", "variant": "V2", "question": "Deprem sonrası SMS mi göndermeliyim yoksa telefonla mı aramalıyım?", "expected_answerability": "ANSWERABLE", "variation": "seçmeli soru"}
+{"id": "Q18-V3", "base_id": "Q18", "variant": "V3", "question": "Deprem sonrasında kısa mesaj kullanmak aramaktan daha mı uygun?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı terim"}
+{"id": "Q19", "base_id": "Q19", "variant": "base", "question": "Depremden sonra tehlikeli bir ortamdan uzaklaşamıyorsam ne yapmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "base"}
+{"id": "Q19-V1", "base_id": "Q19", "variant": "V1", "question": "Deprem sonrası tehlikeli bir yerden çıkamıyorsam ne yapmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "eşanlamlı"}
+{"id": "Q19-V2", "base_id": "Q19", "variant": "V2", "question": "Depremden sonra tehlikeli ortamdan uzaklaşma imkânı yoksa ne yapılmalı?", "expected_answerability": "ANSWERABLE", "variation": "edilgen"}
+{"id": "Q19-V3", "base_id": "Q19", "variant": "V3", "question": "Deprem sonrasında bulunduğum tehlikeli yerden ayrılamazsam nasıl davranmalıyım?", "expected_answerability": "ANSWERABLE", "variation": "yeniden ifade"}
+{"id": "Q21", "base_id": "Q21", "variant": "base", "question": "Depremden hemen sonra binadan çıkmalı mıyım?", "expected_answerability": "NOT_ANSWERABLE", "variation": "base, kontrol"}
+{"id": "Q21-V1", "base_id": "Q21", "variant": "V1", "question": "Deprem biter bitmez binayı terk etmeli miyim?", "expected_answerability": "NOT_ANSWERABLE", "variation": "kontrol"}
+{"id": "Q21-V2", "base_id": "Q21", "variant": "V2", "question": "Sarsıntı durunca hemen dışarı çıkmak doğru mu?", "expected_answerability": "NOT_ANSWERABLE", "variation": "kontrol"}
+{"id": "Q24", "base_id": "Q24", "variant": "base", "question": "Bir sonraki büyük deprem ne zaman olacak?", "expected_answerability": "NOT_ANSWERABLE", "variation": "base, kontrol"}
+{"id": "Q24-V1", "base_id": "Q24", "variant": "V1", "question": "Büyük deprem ne zaman gelecek?", "expected_answerability": "NOT_ANSWERABLE", "variation": "kontrol"}
+{"id": "Q24-V2", "base_id": "Q24", "variant": "V2", "question": "Sıradaki büyük depremin tarihi belli mi?", "expected_answerability": "NOT_ANSWERABLE", "variation": "kontrol"}
+{"id": "Q26", "base_id": "Q26", "variant": "base", "question": "Grip olduğumda hangi ilacı kullanmalıyım?", "expected_answerability": "NOT_ANSWERABLE", "variation": "base, kontrol"}
+{"id": "Q26-V1", "base_id": "Q26", "variant": "V1", "question": "Gribe hangi ilaç iyi gelir?", "expected_answerability": "NOT_ANSWERABLE", "variation": "kontrol"}
+{"id": "Q26-V2", "base_id": "Q26", "variant": "V2", "question": "Grip olunca ne ilacı içmeliyim?", "expected_answerability": "NOT_ANSWERABLE", "variation": "kontrol"}

@@ -23,6 +23,7 @@ from src.retrieval.search import DEFAULT_MODEL_NAME
 from .answerability import REFUSAL_ANSWER, check_answerability, is_answerable
 from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
 from .prompt import SYSTEM_PROMPT, build_user_prompt
+from .query_normalization import normalize_query as normalize_retrieval_query
 
 
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
@@ -44,6 +45,11 @@ def parse_args() -> argparse.Namespace:
         "--allow-model-download",
         action="store_true",
         help="Allow Hugging Face network access if local retrieval models are not in cache.",
+    )
+    parser.add_argument(
+        "--no-query-normalization",
+        action="store_true",
+        help="Disable local typo normalization of the retrieval query.",
     )
     return parser.parse_args()
 
@@ -126,9 +132,24 @@ def generate_answer(
     openai_model: str | None = None,
     max_output_tokens: int = DEFAULT_MAX_OUTPUT_TOKENS,
     allow_model_download: bool = False,
+    normalize_query: bool = False,
 ) -> dict[str, Any]:
-    """Generate an answer with Python-owned retrieval source metadata."""
-    chunks = retrieve_top_chunks(question, allow_model_download=allow_model_download)
+    """Generate an answer with Python-owned retrieval source metadata.
+
+    With normalize_query, only retrieval sees the typo-normalized query; the
+    answerability gate and generation always receive the original question.
+    """
+    retrieval_query = question
+    normalization_fields: dict[str, Any] = {}
+    if normalize_query:
+        normalization = normalize_retrieval_query(question)
+        retrieval_query = normalization["normalized"]
+        normalization_fields = {
+            "retrieval_query": retrieval_query,
+            "query_corrections": normalization["corrections"],
+        }
+
+    chunks = retrieve_top_chunks(retrieval_query, allow_model_download=allow_model_download)
     formatted = format_context(chunks)
     load_environment()
     model = openai_model or os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
@@ -142,6 +163,7 @@ def generate_answer(
             "sources": [],
             "retrieved_sources": formatted["sources"],
             "answerability": answerability,
+            **normalization_fields,
         }
 
     response = client.responses.create(
@@ -161,6 +183,7 @@ def generate_answer(
         "sources": cited_sources,
         "retrieved_sources": formatted["sources"],
         "answerability": answerability,
+        **normalization_fields,
     }
 
 
@@ -178,7 +201,13 @@ def main() -> None:
         openai_model=args.openai_model,
         max_output_tokens=args.max_output_tokens,
         allow_model_download=args.allow_model_download,
+        normalize_query=not args.no_query_normalization,
     )
+
+    corrections = result.get("query_corrections") or []
+    if corrections:
+        pairs = ", ".join(f"{item['original']} → {item['corrected']}" for item in corrections)
+        print(f"(Arama için yazım düzeltildi: {pairs})")
 
     print("")
     print("DARG:")

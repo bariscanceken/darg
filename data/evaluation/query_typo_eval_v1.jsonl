@@ -1,0 +1,30 @@
+{"id": "T01", "group": "should_fix", "typo_query": "Deprem sirasinda merdivenlere yonelmeli miyim?", "expected_query": "Deprem sırasında merdivenlere yönelmeli miyim?", "note": "ASCII yazım"}
+{"id": "T02", "group": "should_fix", "typo_query": "Depremden sonra gaz vanasini kapatmak gerekir mi?", "expected_query": "Depremden sonra gaz vanasını kapatmak gerekir mi?", "note": "ASCII yazım"}
+{"id": "T03", "group": "should_fix", "typo_query": "Sarsinti bittikten sonra binadan cikmak guvenli mi?", "expected_query": "Sarsıntı bittikten sonra binadan çıkmak güvenli mi?", "note": "ASCII yazım, büyük harfle başlayan kelime"}
+{"id": "T04", "group": "should_fix", "typo_query": "Enkaz altinda kalirsam ne yapmaliyim?", "expected_query": "Enkaz altında kalırsam ne yapmalıyım?", "note": "ASCII yazım"}
+{"id": "T05", "group": "should_fix", "typo_query": "Deprem cantasina neler koymaliyim?", "expected_query": "Deprem çantasına neler koymalıyım?", "note": "ASCII yazım"}
+{"id": "T06", "group": "should_fix", "typo_query": "Deprem sırasında pencrelerden uzak durmalı mıyım?", "expected_query": "Deprem sırasında pencerelerden uzak durmalı mıyım?", "note": "eksik harf"}
+{"id": "T07", "group": "should_fix", "typo_query": "Depremden sonra elektirk şalterini kapatmalı mıyım?", "expected_query": "Depremden sonra elektrik şalterini kapatmalı mıyım?", "note": "yer değiştirme"}
+{"id": "T08", "group": "should_fix", "typo_query": "Artçı sarsıntılar sırasında binada kalmak güvneli mi?", "expected_query": "Artçı sarsıntılar sırasında binada kalmak güvenli mi?", "note": "yer değiştirme"}
+{"id": "T09", "group": "should_fix", "typo_query": "Deprm sırasında mutfaktaysam ne yapmalıyım?", "expected_query": "Deprem sırasında mutfaktaysam ne yapmalıyım?", "note": "eksik harf, cümle başı"}
+{"id": "T10", "group": "should_fix", "typo_query": "Enkaz altında kalırsam düdük kulanmalı mıyım?", "expected_query": "Enkaz altında kalırsam düdük kullanmalı mıyım?", "note": "eksik harf"}
+{"id": "T11", "group": "should_fix", "typo_query": "Yaralılara ilk yardım yapamk doğru mu?", "expected_query": "Yaralılara ilk yardım yapmak doğru mu?", "note": "yer değiştirme"}
+{"id": "T12", "group": "should_fix", "typo_query": "Deprem sonrası telefonu hangi durumlrda kullanmalıyım?", "expected_query": "Deprem sonrası telefonu hangi durumlarda kullanmalıyım?", "note": "eksik harf"}
+{"id": "T13", "group": "should_fix", "typo_query": "Tsunami uyarsı gelirse sahilden uzaklaşmalı mıyım?", "expected_query": "Tsunami uyarısı gelirse sahilden uzaklaşmalı mıyım?", "note": "eksik harf, 'uyarı' ile belirsiz olabilir"}
+{"id": "T14", "group": "should_fix", "typo_query": "Hasralı binaya eşyalarımı almak için girebilir miyim?", "expected_query": "Hasarlı binaya eşyalarımı almak için girebilir miyim?", "note": "yer değiştirme, cümle başı"}
+{"id": "T15", "group": "should_fix", "typo_query": "Deprem anında kolonların yanına çömelmek doğru mu? Yoksa masanın altına mı girmeliyim? Afet sonrsı ne yapmalıyım?", "expected_query": "Deprem anında kolonların yanına çömelmek doğru mu? Yoksa masanın altına mı girmeliyim? Afet sonrası ne yapmalıyım?", "note": "eksik harf, uzun sorgu"}
+{"id": "K01", "group": "should_keep", "typo_query": "Depremde evcil hayvanımı nasıl korurum?", "expected_query": "Depremde evcil hayvanımı nasıl korurum?", "note": "korpusta olmayan geçerli çekimler"}
+{"id": "K02", "group": "should_keep", "typo_query": "Annemle babamı deprem sonrası nasıl bulabilirim?", "expected_query": "Annemle babamı deprem sonrası nasıl bulabilirim?", "note": "birinci tekil iyelik"}
+{"id": "K03", "group": "should_keep", "typo_query": "Kızımın okulu depremde güvenli mi?", "expected_query": "Kızımın okulu depremde güvenli mi?", "note": "birinci tekil iyelik"}
+{"id": "K04", "group": "should_keep", "typo_query": "Ofisteyken sarsıntı başlarsa masanın altına girmeli miyim?", "expected_query": "Ofisteyken sarsıntı başlarsa masanın altına girmeli miyim?", "note": "-yken eki"}
+{"id": "K05", "group": "should_keep", "typo_query": "Kahramanmaraş'taki tanıdıklarıma nasıl ulaşırım?", "expected_query": "Kahramanmaraş'taki tanıdıklarıma nasıl ulaşırım?", "note": "özel isim + kesme işareti"}
+{"id": "K06", "group": "should_keep", "typo_query": "WhatsApp üzerinden konum paylaşmalı mıyım?", "expected_query": "WhatsApp üzerinden konum paylaşmalı mıyım?", "note": "marka adı, karışık büyük harf"}
+{"id": "K07", "group": "should_keep", "typo_query": "Babaannemin ilaçlarını deprem çantasına koymalı mıyım?", "expected_query": "Babaannemin ilaçlarını deprem çantasına koymalı mıyım?", "note": "akrabalık + iyelik"}
+{"id": "K08", "group": "should_keep", "typo_query": "Gökdelende oturuyorsam deprem anında ne yapmalıyım?", "expected_query": "Gökdelende oturuyorsam deprem anında ne yapmalıyım?", "note": "koşul eki"}
+{"id": "K09", "group": "should_keep", "typo_query": "Kocaeli'de deprem riski yüksek mi?", "expected_query": "Kocaeli'de deprem riski yüksek mi?", "note": "özel isim + kesme işareti"}
+{"id": "K10", "group": "should_keep", "typo_query": "Deprem sırasında sandalyenin yanına çömelmeli miyim?", "expected_query": "Deprem sırasında sandalyenin yanına çömelmeli miyim?", "note": "nadir fiil çekimi"}
+{"id": "K11", "group": "should_keep", "typo_query": "Hoparlörden anons yapılırsa dinlemeli miyim?", "expected_query": "Hoparlörden anons yapılırsa dinlemeli miyim?", "note": "nadir kelimeler"}
+{"id": "K12", "group": "should_keep", "typo_query": "Zelzele olursa ne yapmalıyım?", "expected_query": "Zelzele olursa ne yapmalıyım?", "note": "eşanlamlı eski kelime, yazım hatası değil"}
+{"id": "K13", "group": "should_keep", "typo_query": "Deprem sırasında bebeğimi nasıl korumalıyım?", "expected_query": "Deprem sırasında bebeğimi nasıl korumalıyım?", "note": "birinci tekil iyelik"}
+{"id": "K14", "group": "should_keep", "typo_query": "Yazlıktayken deprem olursa nereye gitmeliyiz?", "expected_query": "Yazlıktayken deprem olursa nereye gitmeliyiz?", "note": "birinci çoğul"}
+{"id": "K15", "group": "should_keep", "typo_query": "AFAD 112 dışında hangi numarayı aramalıyım?", "expected_query": "AFAD 112 dışında hangi numarayı aramalıyım?", "note": "kısaltma + sayı"}

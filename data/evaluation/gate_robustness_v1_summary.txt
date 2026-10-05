@@ -1,0 +1,98 @@
+DARG Answerability Gate Robustness v1
+========================================
+Model: gpt-4o-mini | repeats per question: 3
+Questions: 15 base + 43 paraphrase variants (dev-derived; Final Test not used)
+
+1) Accuracy (majority label vs expected)
+   Base questions:                 14/15 (93%)
+   ANSWERABLE paraphrase variants: 25/37 (68%)
+   NOT_ANSWERABLE control variants:6/6 (100%)
+   False accepts (N expected, A predicted): 0
+
+2) Stability
+   Variants whose label differs from their base question: 11/43
+   Questions with disagreeing repeats (same input): 4/58
+
+3) Attribution of ANSWERABLE-variant failures
+   Failures: 12
+   context (variant question passes with base context):  2
+   phrasing (base question passes with variant context): 1
+   both fail:                                             5
+   interaction (each passes when swapped):                4
+
+4) Per base question
+   Q01 (expected ANSWERABLE)
+     OK base [AAA] Deprem sırasında asansör kullanmalı mıyım?
+     XX V1   [NNN] Deprem anında asansör kullanılır mı? | overlap 2/5 | varQ+baseCtx=A baseQ+varCtx=A | cause=interaction
+     XX V2   [NNN] Deprem olurken asansöre binmek doğru mu? | overlap 2/5 | varQ+baseCtx=A baseQ+varCtx=N | cause=context
+     XX V3   [NNN] deprem anında asöansör kullanılır mı? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=N | cause=context
+     XX V4   [NNN] Deprem anında asansör kullanmalı mıyım? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A | cause=interaction
+   Q04 (expected ANSWERABLE)
+     OK base [AAA] Deprem sırasında Çök-Kapan-Tutun nasıl uygulanır?
+     OK V1   [AAA] Deprem anında Çök-Kapan-Tutun hareketi nasıl yapılır? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V2   [AAA] Çök Kapan Tutun nedir, nasıl yapılır? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V3   [AAA] Sarsıntı sırasında çök kapan tutun pozisyonunu nasıl almalıyım? | overlap 2/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q08 (expected ANSWERABLE)
+     OK base [AAA] Depremden önce evdeki eşyaları sabitlemek gerekir mi?
+     OK V1   [AAA] Deprem olmadan önce ev eşyalarını sabitlemeli miyim? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V2   [AAA] Evdeki dolapları ve eşyaları depreme karşı sabitlemek gerekli mi? | overlap 1/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V3   [AAA] Depreme hazırlık için evdeki eşyalar sabitlenmeli mi? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q09 (expected ANSWERABLE)
+     OK base [AAA] Deprem çantasında neler bulunmalı?
+     OK V1   [AAA] Deprem çantasına neler koymalıyım? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=N
+     OK V2   [AAA] Afet ve acil durum çantasında hangi malzemeler olmalı? | overlap 1/5 | varQ+baseCtx=A baseQ+varCtx=A
+     XX V3   [NNN] Deprem çantası nasıl hazırlanır, içinde ne olmalı? | overlap 2/5 | varQ+baseCtx=A baseQ+varCtx=A | cause=interaction
+   Q10 (expected ANSWERABLE)
+     XX base [NNN] Deprem sonrasında artçı sarsıntılara karşı ne yapmalıyım?
+     OK V1   [AAA] Depremden sonra artçı depremler için nelere dikkat etmeliyim? | overlap 2/5 | varQ+baseCtx=A baseQ+varCtx=A
+     XX V2   [NNN] Artçı sarsıntı olursa ne yapılmalı? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=N | cause=both
+     XX V3   [ANN] Ana depremden sonra gelen artçılara karşı nasıl önlem almalıyım? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=A | cause=phrasing
+   Q11 (expected ANSWERABLE)
+     OK base [ANA] Deprem sonrasında telefonları nasıl kullanmalıyım?
+     OK V1   [AAA] Depremden sonra telefon nasıl kullanılmalı? | overlap 5/5 | varQ+baseCtx=A baseQ+varCtx=A
+     XX V2   [NNN] Deprem sonrası cep telefonu kullanırken nelere dikkat etmeliyim? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=N | cause=both
+     XX V3   [NNN] Deprem sonrası cep telefonu kullanımında nelere dikkat edilmeli? | overlap 3/5 | varQ+baseCtx=N baseQ+varCtx=N | cause=both
+   Q12 (expected ANSWERABLE)
+     OK base [AAA] Deprem sonrası ailemle nasıl haberleşmeliyim?
+     OK V1   [AAA] Depremden sonra ailemle nasıl iletişim kurabilirim? | overlap 5/5 | varQ+baseCtx=A baseQ+varCtx=A
+     XX V2   [NNA] Deprem olduktan sonra yakınlarıma nasıl ulaşmalıyım? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A | cause=interaction
+     OK V3   [AAA] Deprem sonrası aile üyeleriyle haberleşme nasıl sağlanır? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q13 (expected ANSWERABLE)
+     OK base [AAA] Enkaz altında kaldıysam dışarıyla nasıl iletişim kurmalıyım?
+     OK V1   [AAA] Enkaz altında kalırsam sesimi dışarıya nasıl duyurabilirim? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V2   [ANA] Göçük altındayken kurtarma ekiplerine nasıl haber verebilirim? | overlap 2/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V3   [AAA] Enkaz altında kalan biri dışarıyla nasıl iletişim kurar? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q14 (expected ANSWERABLE)
+     OK base [AAA] Enkaz altında bağırmaya devam etmeli miyim?
+     XX V1   [NNN] Enkaz altındayken sürekli bağırmak doğru mu? | overlap 4/5 | varQ+baseCtx=N baseQ+varCtx=N | cause=both
+     OK V2   [AAA] Enkaz altında kaldığımda bağırmalı mıyım? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=N
+     XX V3   [NNN] Enkaz altındaki kişi sürekli bağırmalı mı? | overlap 3/5 | varQ+baseCtx=N baseQ+varCtx=N | cause=both
+   Q17 (expected ANSWERABLE)
+     OK base [AAA] Yerinde sığınak nedir ve hangi durumda uygulanır?
+     OK V1   [AAA] Yerinde sığınma ne demek, ne zaman yapılır? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V2   [AAA] Yerinde sığınak uygulaması hangi durumlarda gerekir? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V3   [AAA] Yerinde sığınak ne anlama gelir ve ne zaman uygulanır? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q18 (expected ANSWERABLE)
+     OK base [AAA] Deprem sonrasında SMS kullanmak telefonla aramaktan daha uygun olabilir mi?
+     OK V1   [AAA] Depremden sonra arama yerine mesaj atmak daha mı iyi? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V2   [AAA] Deprem sonrası SMS mi göndermeliyim yoksa telefonla mı aramalıyım? | overlap 5/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V3   [AAA] Deprem sonrasında kısa mesaj kullanmak aramaktan daha mı uygun? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q19 (expected ANSWERABLE)
+     OK base [AAA] Depremden sonra tehlikeli bir ortamdan uzaklaşamıyorsam ne yapmalıyım?
+     OK V1   [AAA] Deprem sonrası tehlikeli bir yerden çıkamıyorsam ne yapmalıyım? | overlap 4/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V2   [AAA] Depremden sonra tehlikeli ortamdan uzaklaşma imkânı yoksa ne yapılmalı? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+     OK V3   [AAA] Deprem sonrasında bulunduğum tehlikeli yerden ayrılamazsam nasıl davranmalıyım? | overlap 3/5 | varQ+baseCtx=A baseQ+varCtx=A
+   Q21 (expected NOT_ANSWERABLE)
+     OK base [NNN] Depremden hemen sonra binadan çıkmalı mıyım?
+     OK V1   [NNN] Deprem biter bitmez binayı terk etmeli miyim? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=N
+     OK V2   [NNN] Sarsıntı durunca hemen dışarı çıkmak doğru mu? | overlap 1/5 | varQ+baseCtx=N baseQ+varCtx=N
+   Q24 (expected NOT_ANSWERABLE)
+     OK base [NNN] Bir sonraki büyük deprem ne zaman olacak?
+     OK V1   [NNN] Büyük deprem ne zaman gelecek? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=N
+     OK V2   [NNN] Sıradaki büyük depremin tarihi belli mi? | overlap 0/5 | varQ+baseCtx=N baseQ+varCtx=N
+   Q26 (expected NOT_ANSWERABLE)
+     OK base [NNN] Grip olduğumda hangi ilacı kullanmalıyım?
+     OK V1   [NNN] Gribe hangi ilaç iyi gelir? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=N
+     OK V2   [NNN] Grip olunca ne ilacı içmeliyim? | overlap 2/5 | varQ+baseCtx=N baseQ+varCtx=N
+
+Legend: A=ANSWERABLE, N=NOT_ANSWERABLE; [AAN] = repeated gate labels on own context.
