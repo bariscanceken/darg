@@ -1,0 +1,14 @@
+{"id": "Q01-V1", "review_category": "A_gate_error", "include_in_gate_v2_eval": true, "note": "Context: 'Merdiven ve asansörleri kullanmayın'. Anlam korunmuş, kanıt açık."}
+{"id": "Q01-V2", "review_category": "A_gate_error", "include_in_gate_v2_eval": true, "note": "Context (sıra 4): 'Merdiven ve asansörleri kullanmayın'. Anlam korunmuş, kanıt açık."}
+{"id": "Q01-V3", "review_category": "A_gate_error", "include_in_gate_v2_eval": true, "note": "Gerçek kullanıcı sorgusu. Context: 'asansörleri kullanmayın' + 'asansöre binmemeli'."}
+{"id": "Q01-V4", "review_category": "A_gate_error", "include_in_gate_v2_eval": true, "note": "Context: 'asansörleri kullanmayın' + 'asansöre binmemeli'."}
+{"id": "Q12-V2", "review_category": "A_gate_error", "include_in_gate_v2_eval": true, "note": "Context: bölge dışı bağlantı kişisine SMS, buluşma yeri belirleme."}
+{"id": "Q11-V2", "review_category": "B_partial_evidence", "include_in_gate_v2_eval": true, "note": "Anlam korunmuş; soru temel sorudan biraz geniş, kanıt kısmi. Kabul beklenir ama zorunlu hedef değil."}
+{"id": "Q11-V3", "review_category": "B_partial_evidence", "include_in_gate_v2_eval": true, "note": "Anlam korunmuş; soru temel sorudan biraz geniş, kanıt kısmi. Kabul beklenir ama zorunlu hedef değil."}
+{"id": "Q09-V3", "review_category": "C_meaning_shift", "include_in_gate_v2_eval": false, "note": "Varyant iki soru içeriyor (nasıl hazırlanır + içinde ne olmalı); temel soru yalnızca içeriği soruyor."}
+{"id": "Q14-V1", "review_category": "C_meaning_shift", "include_in_gate_v2_eval": false, "note": "'Sürekli' kelimesi AFAD'ın koşullu tavsiyesini (kırma/delme çalışması varken bağırmak işe yaramaz) genelleştiriyor."}
+{"id": "Q14-V3", "review_category": "C_meaning_shift", "include_in_gate_v2_eval": false, "note": "'Sürekli' kelimesi AFAD'ın koşullu tavsiyesini genelleştiriyor."}
+{"id": "Q10", "review_category": "D_weak_evidence", "include_in_gate_v2_eval": false, "note": "Tek genel kanıt 'Artçı şoklar için hazırlıklı olmalıyız'; diğer artçı paragrafı enkaz altı tavsiyesi. rag_eval_v1 etiketi değiştirilmedi."}
+{"id": "Q10-V1", "review_category": "D_weak_evidence", "include_in_gate_v2_eval": false, "note": "Q10 grubu zayıf kanıt nedeniyle ölçüm dışı."}
+{"id": "Q10-V2", "review_category": "D_weak_evidence", "include_in_gate_v2_eval": false, "note": "Q10 grubu zayıf kanıt nedeniyle ölçüm dışı."}
+{"id": "Q10-V3", "review_category": "D_weak_evidence", "include_in_gate_v2_eval": false, "note": "Q10 grubu zayıf kanıt nedeniyle ölçüm dışı."}

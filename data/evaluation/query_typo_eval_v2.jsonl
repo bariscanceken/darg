@@ -1,0 +1,27 @@
+{"id": "U01", "group": "should_fix", "query": "Deprm sirasinda asnsöre binilirmi?", "expected_query": "Deprem sırasında asansöre binilir mi?"}
+{"id": "U02", "group": "should_fix", "query": "depremde binwadan cikmali miyim", "expected_query": "depremde binadan çıkmalı mıyım"}
+{"id": "U03", "group": "should_fix", "query": "deprem çantsına neler kymalıyım", "expected_query": "deprem çantasına neler koymalıyım"}
+{"id": "U04", "group": "should_fix", "query": "artçı srsıntılarda ne yapmalyım", "expected_query": "artçı sarsıntılarda ne yapmalıyım"}
+{"id": "U05", "group": "should_fix", "query": "enkas altinda kalirsam nasil sesimi duyururum", "expected_query": "enkaz altında kalırsam nasıl sesimi duyururum"}
+{"id": "U06", "group": "should_fix", "query": "toplanma alnına nasil giderim", "expected_query": "toplanma alanına nasıl giderim"}
+{"id": "U07", "group": "should_fix", "query": "gaz vansını kapatmalımıyım", "expected_query": "gaz vanasını kapatmalı mıyım"}
+{"id": "U08", "group": "should_fix", "query": "yangın söndürücüyü nasıl kulanırım", "expected_query": "yangın söndürücüyü nasıl kullanırım"}
+{"id": "U09", "group": "should_fix", "query": "çök kapan tutunu nasıl yaparm", "expected_query": "çök kapan tutunu nasıl yaparım"}
+{"id": "U10", "group": "should_fix", "query": "depremden snra telefonla aramlı mıyım", "expected_query": "depremden sonra telefonla aramalı mıyım"}
+{"id": "U11", "group": "should_fix", "query": "evdeki dolaplrı sabtlemek gerkir mi", "expected_query": "evdeki dolapları sabitlemek gerekir mi"}
+{"id": "U12", "group": "should_fix", "query": "yerinde sığnak nedir", "expected_query": "yerinde sığınak nedir"}
+{"id": "U13", "group": "should_fix", "query": "hasarlı binya girilirmi", "expected_query": "hasarlı binaya girilir mi"}
+{"id": "U14", "group": "should_fix", "query": "deprm anında penceeden atlamalı mıyım", "expected_query": "deprem anında pencereden atlamalı mıyım"}
+{"id": "U15", "group": "should_fix", "query": "ilkyardım çantsında ne olmalı", "expected_query": "ilkyardım çantasında ne olmalı"}
+{"id": "N01", "group": "should_keep", "query": "Deprem sırasında torunumu nasıl korumalıyım?", "expected_query": "Deprem sırasında torunumu nasıl korumalıyım?"}
+{"id": "N02", "group": "should_keep", "query": "Komşumun evine depremden sonra girebilir miyim?", "expected_query": "Komşumun evine depremden sonra girebilir miyim?"}
+{"id": "N03", "group": "should_keep", "query": "Deprem anında tramvaydaysam ne yapmalıyım?", "expected_query": "Deprem anında tramvaydaysam ne yapmalıyım?"}
+{"id": "N04", "group": "should_keep", "query": "Depremzedelere nasıl gönüllü olabilirim?", "expected_query": "Depremzedelere nasıl gönüllü olabilirim?"}
+{"id": "N05", "group": "should_keep", "query": "Deprem çantama powerbank koymalı mıyım?", "expected_query": "Deprem çantama powerbank koymalı mıyım?"}
+{"id": "N06", "group": "should_keep", "query": "Sarsıntıda kliniğin bekleme salonundaysam ne yapmalıyım?", "expected_query": "Sarsıntıda kliniğin bekleme salonundaysam ne yapmalıyım?"}
+{"id": "N07", "group": "should_keep", "query": "Deprem sonrası çadırkentte hijyeni nasıl sağlarım?", "expected_query": "Deprem sonrası çadırkentte hijyeni nasıl sağlarım?"}
+{"id": "N08", "group": "should_keep", "query": "Ankaralıyım, fay hattına yakın mıyım?", "expected_query": "Ankaralıyım, fay hattına yakın mıyım?"}
+{"id": "X01", "group": "should_not_guess", "query": "deprmde xqzt ne yapmlıyım", "must_keep_tokens": ["xqzt"]}
+{"id": "X02", "group": "should_not_guess", "query": "asdfgh jklö", "must_keep_tokens": ["asdfgh", "jklö"]}
+{"id": "X03", "group": "should_not_guess", "query": "bnm deprmde ne yapmlyım", "must_keep_tokens": ["bnm"]}
+{"id": "O01", "group": "observe", "query": "depremde binwadan çikimi", "note": "kullanıcının gerçek sorgusu; 'çikimi' niyeti belirsiz, etiketsiz gözlem"}

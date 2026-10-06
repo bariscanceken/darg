@@ -1,0 +1,45 @@
+LLM judge calibration (gpt-4o, judge_v1) vs human labels
+============================================================
+Pairs: 381 (human relevant: 108, not relevant: 273)
+Agreement: 91.9%
+Cohen's kappa: 0.801
+Judge precision (vs human): 84.7%
+Judge recall (vs human): 87.0%
+
+Confusion (rows=human, cols=judge):
+            judge=1  judge=0
+  human=1        94       14
+  human=0        17      256
+
+Disagreements:
+  human=1 judge=0 | Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi? | d0c4e1559be5
+  human=0 judge=1 | Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi? | 4db4b0cc7da7
+  human=0 judge=1 | Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi? | 06898d62fa39
+  human=0 judge=1 | Binadan çıktıktan sonra nereye gitmeliyim? | 727e419802bc
+  human=0 judge=1 | Binadan çıktıktan sonra nereye gitmeliyim? | 4003179aaab3
+  human=1 judge=0 | Binanın güvenli olup olmadığına kendim karar verebilir miyim? | 4b412a8407b9
+  human=1 judge=0 | Deprem sonrası artçı sarsıntılarda ne yapmalıyım? | a1482c5fb303
+  human=0 judge=1 | Deprem sonrası iletişim nasıl sağlanmalıdır? | 7f260d8ec6be
+  human=0 judge=1 | Deprem sonrası iletişim nasıl sağlanmalıdır? | d0c4e1559be5
+  human=0 judge=1 | Deprem sonrası iletişim nasıl sağlanmalıdır? | 8caf803c696d
+  human=0 judge=1 | Deprem sonrası ilk 72 saatte ne yapmalıyım? | bb18af01247f
+  human=1 judge=0 | Deprem sonrası ilk 72 saatte ne yapmalıyım? | d0c4e1559be5
+  human=0 judge=1 | Deprem sonrası ilk 72 saatte ne yapmalıyım? | 58f173a45272
+  human=1 judge=0 | Deprem sonrası resmi açıklamaları nereden takip etmeliyim? | ade86f52003f
+  human=1 judge=0 | Deprem sonrası resmi açıklamaları nereden takip etmeliyim? | 56736e75e396
+  human=1 judge=0 | Deprem sonrası resmi açıklamaları nereden takip etmeliyim? | d51b509b94e6
+  human=0 judge=1 | Deprem sonrası telefonu hangi durumlarda kullanmalıyım? | ade86f52003f
+  human=1 judge=0 | Deprem sırasında mutfaktaysam ilk ne yapmalıyım? | 94aaf3245c9a
+  human=0 judge=1 | Deprem çantasında neler bulunmalı? | c4c14fa76217
+  human=1 judge=0 | Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım? | 6549464b873f
+  human=1 judge=0 | Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım? | ade86f52003f
+  human=0 judge=1 | Depremden sonra gaz vanasını kapatmak gerekir mi? | 663b60228186
+  human=1 judge=0 | Depremden sonra nereye gitmeliyim? | 086766056ad0
+  human=1 judge=0 | Depremden sonra yaralı birine nasıl yaklaşmalıyım? | 573b43a191f2
+  human=0 judge=1 | Enkaz altında sesimi duyuramıyorsam ne yapabilirim? | 9ed7845976b7
+  human=0 judge=1 | Enkaz altındaysam sürekli bağırmalı mıyım? | 9ed7845976b7
+  human=0 judge=1 | Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim? | b2601900f0df
+  human=1 judge=0 | Toplanma alanına giderken hangi risklere dikkat etmeliyim? | f1e4cf3c1be1
+  human=0 judge=1 | Yetkililer tahliye çağrısı yaparsa ne yapmalıyım? | 28714ed46737
+  human=0 judge=1 | Yetkililer tahliye çağrısı yaparsa ne yapmalıyım? | 8fdf2e7085b5
+  human=1 judge=0 | İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim? | 573b43a191f2

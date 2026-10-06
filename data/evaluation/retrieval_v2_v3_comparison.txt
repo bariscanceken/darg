@@ -1,0 +1,13 @@
+DARG retrieval: mobile_v2 vs mobile_v3 (encoding-repaired text)
+================================================================
+Same E5 model, reranker, Top-50 -> Top-5. Unlabeled results count as not relevant.
+
+## dev (20 questions)
+  v2: Hit@5 18/20  MRR 0.758  P@5 0.380  unlabeled in Top-5: 0
+  v3: Hit@5 16/20  MRR 0.704  P@5 0.350  unlabeled in Top-5: 27
+
+## holdout (30 questions)
+  v2: Hit@5 21/30  MRR 0.562  P@5 0.280  unlabeled in Top-5: 0
+  v3: Hit@5 18/30  MRR 0.507  P@5 0.240  unlabeled in Top-5: 45
+
+Pairs still waiting for a label in data\evaluation\retrieval_v3_labeling.csv: 72

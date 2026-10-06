@@ -33,6 +33,28 @@ ANSWERABLE kriterleri sıkıdır:
   kalma tavsiyesi değildir.
 """
 
+# v2 keeps every v1 rule verbatim and only appends clarifications on phrasing and source scope.
+ANSWERABILITY_SYSTEM_PROMPT_V2 = ANSWERABILITY_SYSTEM_PROMPT + """
+Soru ifadesi hakkında:
+- Karar, sorunun kelimelerine değil anlamına göre verilmelidir. Aynı soru farklı
+  biçimlerde sorulabilir: "kullanmalı mıyım" / "kullanılır mı" / "kullanmak doğru mu";
+  "sırasında" / "anında" / "esnasında"; eşanlamlı kelimeler.
+- Evet/hayır biçimindeki bir soru, context ilgili davranışı açıkça öneriyor veya
+  yasaklıyorsa ANSWERABLE'dır.
+
+Kaynak kapsamı hakkında:
+- Belirli bir grup için hazırlanmış bir rehberde (ör. engelli bireyler rehberi), herkes
+  için geçerli bir koşulla yazılmış talimat (ör. "bina içindeyseniz asansörleri
+  kullanmayın") genel bir talimat olarak kabul edilebilir.
+- Talimat açıkça o gruba özgü bir koşula bağlıysa bu kural uygulanmaz.
+"""
+
+GATE_PROMPTS = {
+    "v1": ANSWERABILITY_SYSTEM_PROMPT,
+    "v2": ANSWERABILITY_SYSTEM_PROMPT_V2,
+}
+DEFAULT_GATE_VERSION = "v1"
+
 
 def build_answerability_prompt(question: str, context: str) -> str:
     """Build the answerability check input."""
@@ -74,11 +96,17 @@ def parse_answerability_label(raw_text: str) -> str:
     return NOT_ANSWERABLE
 
 
-def check_answerability(client: Any, model: str, question: str, context: str) -> dict[str, str]:
+def check_answerability(
+    client: Any,
+    model: str,
+    question: str,
+    context: str,
+    gate_version: str = DEFAULT_GATE_VERSION,
+) -> dict[str, str]:
     """Call the answerability gate and return a parsed decision."""
     response = client.responses.create(
         model=model,
-        instructions=ANSWERABILITY_SYSTEM_PROMPT,
+        instructions=GATE_PROMPTS[gate_version],
         input=build_answerability_prompt(question, context),
         max_output_tokens=16,
         temperature=0,

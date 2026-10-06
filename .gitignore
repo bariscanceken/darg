@@ -16,3 +16,6 @@ venv/
 # Models / caches
 models/
 .cache/
+
+# Invoices / bills
+bills/

@@ -1,0 +1,65 @@
+DARG retrieval versions — LLM judge (gpt-4o, kappa 0.80 vs human)
+================================================================
+Same E5 model, reranker, Top-50 -> Top-5.
+
+## dev
+  v2: Hit@5 18/20  MRR 0.729  P@5 0.390
+  v3: Hit@5 18/20  MRR 0.714  P@5 0.400
+  v4: Hit@5 18/20  MRR 0.835  P@5 0.520
+
+## holdout
+  v2: Hit@5 20/30  MRR 0.539  P@5 0.273
+  v3: Hit@5 22/30  MRR 0.573  P@5 0.320
+  v4: Hit@5 26/30  MRR 0.758  P@5 0.407
+
+Per-question Hit@5 (v2 / v3 / v4):
+  [dev] ✅ ✅ ✅  Deprem sırasında evin içindeysem ne yapmalıyım?
+  [dev] ✅ ✅ ✅  Deprem sonrası ilk 72 saatte ne yapmalıyım?
+  [dev] ✅ ✅ ✅  Depremden sonra hasarlı binaya tekrar girebilir miyim?
+  [dev] ✅ ✅ ✅  Deprem sırasında asansör kullanmalı mıyım?
+  [dev] ✅ ✅ ✅  Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?
+  [dev] ✅ ✅ ✅  Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?
+  [dev] ✅ ✅ ✅  Depremden sonra telefonla yakınlarımı aramalı mıyım?
+  [dev] ✅ ✅ ✅  Enkaz altında kalırsam ne yapmalıyım?
+  [dev] ✅ ✅ ✅  Deprem sonrası artçı sarsıntılarda ne yapmalıyım?
+  [dev] ✅ ✅ ✅  Deprem çantasında neler bulunmalı?
+  [dev] ✅ ✅ ✅  Depremden sonra nereye gitmeliyim?
+  [dev] ✅ ✅ ✅  Toplanma alanı nedir?
+  [dev] ❌ ❌ ❌  Deprem sırasında dışarıdaysam ne yapmalıyım?
+  [dev] ❌ ❌ ❌  Deprem sırasında araç kullanıyorsam ne yapmalıyım?
+  [dev] ✅ ✅ ✅  Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?
+  [dev] ✅ ✅ ✅  Ağır hasarlı bina ne demektir?
+  [dev] ✅ ✅ ✅  Depremden sonra tahliye nasıl yapılmalıdır?
+  [dev] ✅ ✅ ✅  Deprem sonrası iletişim nasıl sağlanmalıdır?
+  [dev] ✅ ✅ ✅  Depremden sonra yaralı birine nasıl yaklaşmalıyım?
+  [dev] ✅ ✅ ✅  Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?
+  [holdout] ✅ ✅ ✅  Deprem anında yatağın yanındaysam nasıl korunmalıyım?
+  [holdout] ❌ ❌ ✅  Deprem sırasında merdivenlere yönelmek doğru mu?
+  [holdout] ✅ ✅ ✅  Sarsıntı sırasında balkona çıkmalı mıyım?
+  [holdout] ✅ ✅ ✅  Deprem anında camlardan uzak durmalı mıyım?
+  [holdout] ✅ ✅ ✅  Deprem sırasında mutfaktaysam ilk ne yapmalıyım?
+  [holdout] ❌ ❌ ✅  Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?
+  [holdout] ✅ ✅ ✅  Deprem sonrası elektrik şalterini kapatmalı mıyım?
+  [holdout] ✅ ✅ ✅  Depremden sonra gaz vanasını kapatmak gerekir mi?
+  [holdout] ✅ ✅ ✅  Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?
+  [holdout] ❌ ❌ ✅  Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?
+  [holdout] ✅ ✅ ✅  Binadan çıktıktan sonra nereye gitmeliyim?
+  [holdout] ✅ ✅ ✅  Toplanma alanına giderken hangi risklere dikkat etmeliyim?
+  [holdout] ❌ ❌ ✅  Deprem sonrası binaya eşya almak için geri girebilir miyim?
+  [holdout] ✅ ✅ ✅  Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?
+  [holdout] ✅ ✅ ✅  Depremden sonra çevredeki yaralılara yardım etmeli miyim?
+  [holdout] ✅ ✅ ✅  İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?
+  [holdout] ✅ ✅ ✅  Enkaz altındaysam sürekli bağırmalı mıyım?
+  [holdout] ✅ ✅ ✅  Enkaz altında sesimi duyuramıyorsam ne yapabilirim?
+  [holdout] ✅ ✅ ✅  Deprem sonrası telefonu hangi durumlarda kullanmalıyım?
+  [holdout] ✅ ✅ ✅  Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?
+  [holdout] ✅ ✅ ✅  Deprem çantasını binadan çıkarken yanıma almalı mıyım?
+  [holdout] ✅ ✅ ✅  Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?
+  [holdout] ❌ ✅ ✅  Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?
+  [holdout] ❌ ✅ ❌  Sokaktayken deprem olursa binaların yanında beklemeli miyim?
+  [holdout] ❌ ❌ ❌  Araçtayken deprem olursa köprü üzerinde durmalı mıyım?
+  [holdout] ❌ ❌ ❌  Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?
+  [holdout] ❌ ❌ ❌  Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?
+  [holdout] ✅ ✅ ✅  Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?
+  [holdout] ❌ ❌ ✅  Deprem sonrası resmi açıklamaları nereden takip etmeliyim?
+  [holdout] ✅ ✅ ✅  Binanın güvenli olup olmadığına kendim karar verebilir miyim?

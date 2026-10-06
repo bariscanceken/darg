@@ -1,0 +1,116 @@
+DARG Query Repair v2 Evaluation (independent set, run once)
+============================================================
+Model: gpt-4o-mini
+
+                                        local only   local+LLM
+should_fix exact                              1/15       10/15
+should_keep unchanged                          8/8         8/8
+should_not_guess unknown word kept             3/3         2/3
+
+Details:
+  [exact] U01 (accepted): Deprm sirasinda asnsöre binilirmi?
+      local:  Deprm sirasinda asnsöre binilirmi?
+      final:  Deprem sırasında asansöre binilir mi?
+      expect: Deprem sırasında asansöre binilir mi?
+  [different] U02 (not_needed): depremde binwadan cikmali miyim
+      local:  depremde binadan çıkmalı miyim
+      final:  depremde binadan çıkmalı miyim
+      expect: depremde binadan çıkmalı mıyım
+  [exact] U03 (accepted): deprem çantsına neler kymalıyım
+      local:  deprem çantsına neler kymalıyım
+      final:  deprem çantasına neler koymalıyım
+      expect: deprem çantasına neler koymalıyım
+  [different] U04 (not_needed): artçı srsıntılarda ne yapmalyım
+      local:  artçı sarsıntılara ne yapmalyım
+      final:  artçı sarsıntılara ne yapmalyım
+      expect: artçı sarsıntılarda ne yapmalıyım
+  [exact] U05 (accepted): enkas altinda kalirsam nasil sesimi duyururum
+      local:  enkas altinda kalirsam nasil sesimi duyururum
+      final:  enkaz altında kalırsam nasıl sesimi duyururum
+      expect: enkaz altında kalırsam nasıl sesimi duyururum
+  [exact] U06 (accepted): toplanma alnına nasil giderim
+      local:  toplanma alnına nasıl giderim
+      final:  toplanma alanına nasıl giderim
+      expect: toplanma alanına nasıl giderim
+  [exact] U07 (accepted): gaz vansını kapatmalımıyım
+      local:  gaz vansını kapatmalımıyım
+      final:  gaz vanasını kapatmalı mıyım?
+      expect: gaz vanasını kapatmalı mıyım
+  [unchanged] U08 (not_needed): yangın söndürücüyü nasıl kulanırım
+      local:  yangın söndürücüyü nasıl kulanırım
+      final:  yangın söndürücüyü nasıl kulanırım
+      expect: yangın söndürücüyü nasıl kullanırım
+  [different] U09 (not_needed): çök kapan tutunu nasıl yaparm
+      local:  çök kapan tutunu nasıl yapar
+      final:  çök kapan tutunu nasıl yapar
+      expect: çök kapan tutunu nasıl yaparım
+  [exact] U10 (accepted): depremden snra telefonla aramlı mıyım
+      local:  depremden snra telefonla aramlı mıyım
+      final:  depremden sonra telefonla aramalı mıyım
+      expect: depremden sonra telefonla aramalı mıyım
+  [exact] U11 (accepted): evdeki dolaplrı sabtlemek gerkir mi
+      local:  evdeki dolaplrı sabtlemek gerkir mi
+      final:  evdeki dolapları sabitlemek gerekir mi
+      expect: evdeki dolapları sabitlemek gerekir mi
+  [exact] U12 (not_needed): yerinde sığnak nedir
+      local:  yerinde sığınak nedir
+      final:  yerinde sığınak nedir
+      expect: yerinde sığınak nedir
+  [exact] U13 (accepted): hasarlı binya girilirmi
+      local:  hasarlı binya girilirmi
+      final:  hasarlı binaya girilir mi
+      expect: hasarlı binaya girilir mi
+  [exact] U14 (accepted): deprm anında penceeden atlamalı mıyım
+      local:  deprm anında penceeden atlamalı mıyım
+      final:  deprem anında pencereden atlamalı mıyım?
+      expect: deprem anında pencereden atlamalı mıyım
+  [unchanged] U15 (rejected_rewrite): ilkyardım çantsında ne olmalı
+      local:  ilkyardım çantsında ne olmalı
+      final:  ilkyardım çantsında ne olmalı
+      expect: ilkyardım çantasında ne olmalı
+      LLM proposed (not used): ilk yardım çantasında ne olmalı
+  [kept] N01 (not_needed): Deprem sırasında torunumu nasıl korumalıyım?
+      local:  Deprem sırasında torunumu nasıl korumalıyım?
+      final:  Deprem sırasında torunumu nasıl korumalıyım?
+      expect: Deprem sırasında torunumu nasıl korumalıyım?
+  [kept] N02 (not_needed): Komşumun evine depremden sonra girebilir miyim?
+      local:  Komşumun evine depremden sonra girebilir miyim?
+      final:  Komşumun evine depremden sonra girebilir miyim?
+      expect: Komşumun evine depremden sonra girebilir miyim?
+  [kept] N03 (not_needed): Deprem anında tramvaydaysam ne yapmalıyım?
+      local:  Deprem anında tramvaydaysam ne yapmalıyım?
+      final:  Deprem anında tramvaydaysam ne yapmalıyım?
+      expect: Deprem anında tramvaydaysam ne yapmalıyım?
+  [kept] N04 (not_needed): Depremzedelere nasıl gönüllü olabilirim?
+      local:  Depremzedelere nasıl gönüllü olabilirim?
+      final:  Depremzedelere nasıl gönüllü olabilirim?
+      expect: Depremzedelere nasıl gönüllü olabilirim?
+  [kept] N05 (not_needed): Deprem çantama powerbank koymalı mıyım?
+      local:  Deprem çantama powerbank koymalı mıyım?
+      final:  Deprem çantama powerbank koymalı mıyım?
+      expect: Deprem çantama powerbank koymalı mıyım?
+  [kept] N06 (unchanged): Sarsıntıda kliniğin bekleme salonundaysam ne yapmalıyım?
+      local:  Sarsıntıda kliniğin bekleme salonundaysam ne yapmalıyım?
+      final:  Sarsıntıda kliniğin bekleme salonundaysam ne yapmalıyım?
+      expect: Sarsıntıda kliniğin bekleme salonundaysam ne yapmalıyım?
+  [kept] N07 (unchanged): Deprem sonrası çadırkentte hijyeni nasıl sağlarım?
+      local:  Deprem sonrası çadırkentte hijyeni nasıl sağlarım?
+      final:  Deprem sonrası çadırkentte hijyeni nasıl sağlarım?
+      expect: Deprem sonrası çadırkentte hijyeni nasıl sağlarım?
+  [kept] N08 (not_needed): Ankaralıyım, fay hattına yakın mıyım?
+      local:  Ankaralıyım, fay hattına yakın mıyım?
+      final:  Ankaralıyım, fay hattına yakın mıyım?
+      expect: Ankaralıyım, fay hattına yakın mıyım?
+  [kept_unknown] X01 (rejected_rewrite): deprmde xqzt ne yapmlıyım
+      local:  deprmde xqzt ne yapmlıyım
+      final:  deprmde xqzt ne yapmlıyım
+      LLM proposed (not used): depremde ne yapmalıyım
+  [kept_unknown] X02 (unchanged): asdfgh jklö
+      local:  asdfgh jklö
+      final:  asdfgh jklö
+  [guessed] X03 (accepted): bnm deprmde ne yapmlyım
+      local:  bnm deprmde ne yapmlyım
+      final:  ben depremde ne yapmalıyım
+  [observed] O01 (accepted): depremde binwadan çikimi
+      local:  depremde binwadan çikimi
+      final:  depremde binadan çıkımı

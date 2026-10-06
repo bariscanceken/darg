@@ -1,0 +1,31 @@
+DARG Answerability Gate v1 vs v2 — Tuning evaluation
+============================================================
+Model: gpt-4o-mini | repeats: 3
+
+## robustness_v1_reviewed (51 questions)
+                                      v1          v2
+Accuracy                           43/51       39/51
+ANSWERABLE accepted                34/42       30/42
+False accepts                        0/9         0/9
+Unstable repeats                    2/51        0/51
+Changed decisions v1 -> v2: 4
+  [BAD] Q09: A -> N (expected A) Deprem çantasında neler bulunmalı?
+  [BAD] Q09-V1: A -> N (expected A) Deprem çantasına neler koymalıyım?
+  [BAD] Q13-V2: A -> N (expected A) Göçük altındayken kurtarma ekiplerine nasıl haber verebilirim?
+  [BAD] Q14: A -> N (expected A) Enkaz altında bağırmaya devam etmeli miyim?
+Target gate errors fixed by v2: 0/5
+
+## rag_eval_v1 (30 questions)
+                                      v1          v2
+Accuracy                           26/30       24/30
+ANSWERABLE accepted                13/15       11/15
+False accepts                       2/15        2/15
+Unstable repeats                    1/30        0/30
+  v1 false accepts: Q02, Q05
+  v2 false accepts: Q02, Q05
+Changed decisions v1 -> v2: 4
+  [BAD] Q09: A -> N (expected A) Deprem çantasında neler bulunmalı?
+  [OK ] Q10: N -> A (expected A) Deprem sonrasında artçı sarsıntılara karşı ne yapmalıyım?
+  [BAD] Q11: A -> N (expected A) Deprem sonrasında telefonları nasıl kullanmalıyım?
+  [BAD] Q14: A -> N (expected A) Enkaz altında bağırmaya devam etmeli miyim?
+

@@ -1,0 +1,23 @@
+{"id": "G01", "base_id": "Q01", "question": "Sarsıntı sürerken asansörle aşağı inebilir miyim?", "expected_answerability": "ANSWERABLE", "note": "asansör, yeni ifade"}
+{"id": "G02", "base_id": "Q01", "question": "Deprem esnasında asansöre binilir mi?", "expected_answerability": "ANSWERABLE", "note": "asansör, edilgen"}
+{"id": "G03", "base_id": "Q04", "question": "Deprem olunca çök kapan tutun nasıl yapılıyor?", "expected_answerability": "ANSWERABLE", "note": "gündelik dil"}
+{"id": "G04", "base_id": "Q08", "question": "Deprem gelmeden önce mobilyaları duvara sabitlemem gerekir mi?", "expected_answerability": "ANSWERABLE", "note": "eşanlamlı"}
+{"id": "G05", "base_id": "Q09", "question": "Afet çantasına hangi eşyaları koymak gerekir?", "expected_answerability": "ANSWERABLE", "note": "eşanlamlı terim"}
+{"id": "G06", "base_id": "Q11", "question": "Depremden sonra telefonu nasıl kullanmak gerekir?", "expected_answerability": "ANSWERABLE", "note": "edilgen yapı"}
+{"id": "G07", "base_id": "Q12", "question": "Depremden sonra ailemle haberleşmek için ne yapabilirim?", "expected_answerability": "ANSWERABLE", "note": "yeniden ifade"}
+{"id": "G08", "base_id": "Q13", "question": "Göçük altında kalırsam varlığımı nasıl belli edebilirim?", "expected_answerability": "ANSWERABLE", "note": "eşanlamlı terim"}
+{"id": "G09", "base_id": "Q14", "question": "Enkaz altında kaldığımda bağırmayı sürdürmem doğru olur mu?", "expected_answerability": "ANSWERABLE", "note": "eşanlamlı fiil"}
+{"id": "G10", "base_id": "Q15", "question": "Enkaz altında hareket edebilecek durumdaysam ne yapmam gerekir?", "expected_answerability": "ANSWERABLE", "note": "v1'de olmayan temel soru"}
+{"id": "G11", "base_id": "Q15", "question": "Göçük altında kıpırdayabiliyorsam nasıl davranmalıyım?", "expected_answerability": "ANSWERABLE", "note": "v1'de olmayan temel soru"}
+{"id": "G12", "base_id": "Q16", "question": "Enkaz altındaysam bulunduğum alanı nasıl daha güvenli hale getirebilirim?", "expected_answerability": "ANSWERABLE", "note": "v1'de olmayan temel soru"}
+{"id": "G13", "base_id": "Q17", "question": "Yerinde sığınak uygulaması nedir?", "expected_answerability": "ANSWERABLE", "note": "kısaltılmış"}
+{"id": "G14", "base_id": "Q18", "question": "Deprem sonrası telefonla aramak yerine SMS atmak daha mı doğru?", "expected_answerability": "ANSWERABLE", "note": "yeniden ifade"}
+{"id": "G15", "base_id": "Q19", "question": "Depremden sonra tehlikeli yerden kendi başıma çıkamıyorsam ne yapmalıyım?", "expected_answerability": "ANSWERABLE", "note": "yeniden ifade"}
+{"id": "C01", "base_id": "Q24", "question": "Önümüzdeki ay İstanbul'da deprem olacak mı?", "expected_answerability": "NOT_ANSWERABLE", "note": "tahmin"}
+{"id": "C02", "base_id": "Q25", "question": "7 büyüklüğünde bir depremde benim apartmanım kesin çöker mi?", "expected_answerability": "NOT_ANSWERABLE", "note": "kişisel kesin tahmin"}
+{"id": "C03", "base_id": "Q23", "question": "Evimin depreme dayanıklı olduğunu bana kesin olarak söyleyebilir misin?", "expected_answerability": "NOT_ANSWERABLE", "note": "kişisel yapı değerlendirmesi"}
+{"id": "C04", "base_id": "Q26", "question": "Baş ağrısı için hangi ilacı almalıyım?", "expected_answerability": "NOT_ANSWERABLE", "note": "alan dışı, tıbbi"}
+{"id": "C05", "base_id": "Q27", "question": "JavaScript'te bir diziyi nasıl ters çeviririm?", "expected_answerability": "NOT_ANSWERABLE", "note": "alan dışı, kod"}
+{"id": "C06", "base_id": "Q29", "question": "Euro bugün kaç lira?", "expected_answerability": "NOT_ANSWERABLE", "note": "alan dışı, güncel bilgi"}
+{"id": "C07", "base_id": "Q30", "question": "Kek tarifi verir misin?", "expected_answerability": "NOT_ANSWERABLE", "note": "alan dışı, yemek"}
+{"id": "C08", "base_id": "Q28", "question": "İzmir'den Antalya'ya otobüsle kaç saat sürer?", "expected_answerability": "NOT_ANSWERABLE", "note": "alan dışı, seyahat"}
