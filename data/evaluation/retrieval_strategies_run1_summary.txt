@@ -1,0 +1,96 @@
+DARG retrieval strategy ablation on mobile_v4 (LLM judge, gpt-4o, kappa 0.80)
+==================================================================
+
+## dev
+  A_baseline   Hit@5 18/20  MRR 0.835  P@5 0.520
+  B_lexical    Hit@5 17/20  MRR 0.825  P@5 0.520
+  C_diversity  Hit@5 18/20  MRR 0.835  P@5 0.500
+  D_both       Hit@5 17/20  MRR 0.825  P@5 0.490
+
+## holdout
+  A_baseline   Hit@5 26/30  MRR 0.758  P@5 0.407
+  B_lexical    Hit@5 25/30  MRR 0.736  P@5 0.453
+  C_diversity  Hit@5 26/30  MRR 0.758  P@5 0.413
+  D_both       Hit@5 25/30  MRR 0.736  P@5 0.433
+
+## regional
+  A_baseline   Hit@5 19/24  MRR 0.540  P@5 0.392
+  B_lexical    Hit@5 20/24  MRR 0.578  P@5 0.417
+  C_diversity  Hit@5 19/24  MRR 0.542  P@5 0.283
+  D_both       Hit@5 20/24  MRR 0.580  P@5 0.300
+
+Per question Hit@5 (A / B / C / D):
+  [dev] ✅ ✅ ✅ ✅  Deprem sırasında evin içindeysem ne yapmalıyım?
+  [dev] ✅ ✅ ✅ ✅  Deprem sonrası ilk 72 saatte ne yapmalıyım?
+  [dev] ✅ ✅ ✅ ✅  Depremden sonra hasarlı binaya tekrar girebilir miyim?
+  [dev] ✅ ✅ ✅ ✅  Deprem sırasında asansör kullanmalı mıyım?
+  [dev] ✅ ✅ ✅ ✅  Deprem sırasında Çök-Kapan-Tutun nasıl yapılır?
+  [dev] ✅ ✅ ✅ ✅  Depremden sonra doğalgaz kokusu alırsam ne yapmalıyım?
+  [dev] ✅ ✅ ✅ ✅  Depremden sonra telefonla yakınlarımı aramalı mıyım?
+  [dev] ✅ ✅ ✅ ✅  Enkaz altında kalırsam ne yapmalıyım?
+  [dev] ✅ ✅ ✅ ✅  Deprem sonrası artçı sarsıntılarda ne yapmalıyım?
+  [dev] ✅ ✅ ✅ ✅  Deprem çantasında neler bulunmalı?
+  [dev] ✅ ✅ ✅ ✅  Depremden sonra nereye gitmeliyim?
+  [dev] ✅ ✅ ✅ ✅  Toplanma alanı nedir?
+  [dev] ❌ ❌ ❌ ❌  Deprem sırasında dışarıdaysam ne yapmalıyım?
+  [dev] ❌ ❌ ❌ ❌  Deprem sırasında araç kullanıyorsam ne yapmalıyım?
+  [dev] ✅ ❌ ✅ ❌  Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?
+  [dev] ✅ ✅ ✅ ✅  Ağır hasarlı bina ne demektir?
+  [dev] ✅ ✅ ✅ ✅  Depremden sonra tahliye nasıl yapılmalıdır?
+  [dev] ✅ ✅ ✅ ✅  Deprem sonrası iletişim nasıl sağlanmalıdır?
+  [dev] ✅ ✅ ✅ ✅  Depremden sonra yaralı birine nasıl yaklaşmalıyım?
+  [dev] ✅ ✅ ✅ ✅  Deprem sonrasında resmi makamların tahliye talimatına uymalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Deprem anında yatağın yanındaysam nasıl korunmalıyım?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sırasında merdivenlere yönelmek doğru mu?
+  [holdout] ✅ ✅ ✅ ✅  Sarsıntı sırasında balkona çıkmalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Deprem anında camlardan uzak durmalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sırasında mutfaktaysam ilk ne yapmalıyım?
+  [holdout] ✅ ✅ ✅ ✅  Sarsıntı bittikten hemen sonra binadan çıkmalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sonrası elektrik şalterini kapatmalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Depremden sonra gaz vanasını kapatmak gerekir mi?
+  [holdout] ✅ ✅ ✅ ✅  Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sonrası kibrit veya çakmak kullanmak güvenli mi?
+  [holdout] ✅ ✅ ✅ ✅  Binadan çıktıktan sonra nereye gitmeliyim?
+  [holdout] ✅ ✅ ✅ ✅  Toplanma alanına giderken hangi risklere dikkat etmeliyim?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sonrası binaya eşya almak için geri girebilir miyim?
+  [holdout] ✅ ✅ ✅ ✅  Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?
+  [holdout] ✅ ✅ ✅ ✅  Depremden sonra çevredeki yaralılara yardım etmeli miyim?
+  [holdout] ✅ ✅ ✅ ✅  İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?
+  [holdout] ✅ ✅ ✅ ✅  Enkaz altındaysam sürekli bağırmalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Enkaz altında sesimi duyuramıyorsam ne yapabilirim?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sonrası telefonu hangi durumlarda kullanmalıyım?
+  [holdout] ✅ ✅ ✅ ✅  Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?
+  [holdout] ✅ ✅ ✅ ✅  Deprem çantasını binadan çıkarken yanıma almalı mıyım?
+  [holdout] ✅ ✅ ✅ ✅  Deprem sonrasında temiz suya ulaşamazsam ne yapmalıyım?
+  [holdout] ✅ ✅ ✅ ✅  Depremden sonra açık alanda hangi yapılardan uzak durmalıyım?
+  [holdout] ❌ ❌ ❌ ❌  Sokaktayken deprem olursa binaların yanında beklemeli miyim?
+  [holdout] ❌ ❌ ❌ ❌  Araçtayken deprem olursa köprü üzerinde durmalı mıyım?
+  [holdout] ❌ ❌ ❌ ❌  Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?
+  [holdout] ❌ ❌ ❌ ❌  Sahildeyken güçlü bir deprem hissedersem ne yapmalıyım?
+  [holdout] ✅ ✅ ✅ ✅  Yetkililer tahliye çağrısı yaparsa ne yapmalıyım?
+  [holdout] ✅ ❌ ✅ ❌  Deprem sonrası resmi açıklamaları nereden takip etmeliyim?
+  [holdout] ✅ ✅ ✅ ✅  Binanın güvenli olup olmadığına kendim karar verebilir miyim?
+  [regional] ✅ ✅ ❌ ❌  Deprem sonrası Ceyhan'da güvenli bir yere nasıl geçerim?
+  [regional] ✅ ✅ ✅ ✅  Adana'da deprem sonrası geçici barınma alanları nerelerde?
+  [regional] ✅ ✅ ✅ ✅  Hatay'da deprem riski neden yüksek?
+  [regional] ✅ ✅ ✅ ✅  İskenderun'da deprem sonrası tsunami tehlikesi var mı?
+  [regional] ✅ ✅ ✅ ✅  İzmir'de tsunami riski var mı?
+  [regional] ✅ ✅ ✅ ✅  İstanbul'da hangi ilçeler deprem açısından daha riskli?
+  [regional] ✅ ✅ ✅ ✅  Kocaeli'de 1999 depreminden sonra ne tür önlemler alındı?
+  [regional] ✅ ✅ ✅ ✅  Bursa'da aktif fay hatları nerelerden geçiyor?
+  [regional] ❌ ❌ ❌ ❌  Elbistan'da 2023 depreminin etkileri nelerdi?
+  [regional] ❌ ❌ ✅ ✅  Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?
+  [regional] ✅ ✅ ✅ ✅  Van'da depremden sonra nereye gitmeliyim?
+  [regional] ✅ ✅ ✅ ✅  Erciş'te deprem riski ne durumda?
+  [regional] ✅ ✅ ✅ ✅  Denizli'de deprem tehlikesi nasıl değerlendiriliyor?
+  [regional] ✅ ✅ ✅ ✅  Bodrum'da deprem olursa tsunami bekleniyor mu?
+  [regional] ❌ ❌ ❌ ❌  Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?
+  [regional] ✅ ✅ ✅ ✅  Erzincan'da geçmişte hangi büyük depremler oldu?
+  [regional] ✅ ✅ ✅ ✅  Antep'te deprem sonrası barınma ihtiyacı nasıl karşılanacak?
+  [regional] ✅ ✅ ✅ ✅  Ankara Gölbaşı'nda deprem riski var mı?
+  [regional] ✅ ✅ ✅ ✅  Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?
+  [regional] ❌ ✅ ❌ ✅  Hatay'da deprem sırasında asansör kullanmalı mıyım?
+  [regional] ✅ ✅ ✅ ✅  Malatya'da deprem sonrası nereye gitmeliyim?
+  [regional] ✅ ✅ ✅ ✅  Düzce'de deprem riski yüksek mi?
+  [regional] ✅ ✅ ✅ ✅  Sakarya'da deprem olursa ne yapmalıyım?
+  [regional] ❌ ❌ ❌ ❌  Osmaniye'de geçici barınma alanları nerede?

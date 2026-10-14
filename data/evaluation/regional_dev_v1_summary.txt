@@ -1,0 +1,37 @@
+DARG regional retrieval — regional_dev_v1 (LLM judge)
+============================================================
+Location detection correct: 25/25
+
+Provinces WITH a regional plan (20 questions):
+                                    v4   v4+regional
+Hit@5                            17/20         15/20
+Regional Hit@5                   13/20         13/20
+Wrong-province chunks (with plan)        25             0
+Wrong-province chunks (without plan)        15             0
+
+Per question (v4 | v4+regional): H=hit R=regional hit W=wrong-province chunks
+  R01 [behaviour+local] H1R0W0 | H0R0W0  Deprem sonrası Ceyhan'da güvenli bir yere nasıl geçerim?  -> Ceyhan (Adana)
+  R02 [local_fact] H1R1W2 | H1R1W0  Adana'da deprem sonrası geçici barınma alanları nerelerde?  -> Adana
+  R03 [local_fact] H1R1W2 | H1R1W0  Hatay'da deprem riski neden yüksek?  -> Hatay
+  R04 [local_fact] H1R1W1 | H1R1W0  İskenderun'da deprem sonrası tsunami tehlikesi var mı?  -> İskenderun (Hatay)
+  R05 [local_fact] H1R1W0 | H1R1W0  İzmir'de tsunami riski var mı?  -> İzmir
+  R06 [local_fact] H1R1W0 | H1R1W0  İstanbul'da hangi ilçeler deprem açısından daha riskli?  -> İstanbul
+  R07 [local_fact] H1R1W0 | H1R1W0  Kocaeli'de 1999 depreminden sonra ne tür önlemler alındı?  -> Kocaeli
+  R08 [local_fact] H1R1W2 | H1R1W0  Bursa'da aktif fay hatları nerelerden geçiyor?  -> Bursa
+  R09 [local_fact] H0R0W3 | H0R0W0  Elbistan'da 2023 depreminin etkileri nelerdi?  -> Elbistan (Kahramanmaraş)
+  R10 [local_fact] H1R0W2 | H0R0W0  Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?  -> Kahramanmaraş
+  R11 [behaviour+local] H1R1W0 | H1R1W0  Van'da depremden sonra nereye gitmeliyim?  -> Van
+  R12 [local_fact] H1R1W1 | H1R1W0  Erciş'te deprem riski ne durumda?  -> Erciş (Van)
+  R13 [local_fact] H1R1W0 | H1R1W0  Denizli'de deprem tehlikesi nasıl değerlendiriliyor?  -> Denizli
+  R14 [local_fact] H1R1W3 | H1R1W0  Bodrum'da deprem olursa tsunami bekleniyor mu?  -> Bodrum (Muğla)
+  R15 [local_fact] H0R0W0 | H0R0W0  Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?  -> Bingöl
+  R16 [local_fact] H1R1W2 | H1R1W0  Erzincan'da geçmişte hangi büyük depremler oldu?  -> Erzincan
+  R17 [local_fact] H1R0W2 | H1R0W0  Antep'te deprem sonrası barınma ihtiyacı nasıl karşılanacak?  -> Gaziantep
+  R18 [local_fact] H1R1W4 | H1R1W0  Ankara Gölbaşı'nda deprem riski var mı?  -> Gölbaşı (Ankara)
+  R19 [behaviour+local] H1R0W0 | H1R0W0  Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?  -> Kahramanmaraş
+  R20 [behaviour+local] H0R0W1 | H0R0W0  Hatay'da deprem sırasında asansör kullanmalı mıyım?  -> Hatay
+  R21 [no_irap] H1R0W2 | H1R0W0  Malatya'da deprem sonrası nereye gitmeliyim?  -> Malatya
+  R22 [no_irap] H1R1W5 | H1R1W0  Düzce'de deprem riski yüksek mi?  -> Düzce
+  R23 [no_irap] H1R0W3 | H1R0W0  Sakarya'da deprem olursa ne yapmalıyım?  -> Sakarya
+  R24 [no_irap] H0R0W5 | H0R0W0  Osmaniye'de geçici barınma alanları nerede?  -> Osmaniye
+  R25 [ambiguous] H0R0W5 | H0R0W5  Gölbaşı'nda deprem sonrası toplanma alanı nerede?  -> Gölbaşı

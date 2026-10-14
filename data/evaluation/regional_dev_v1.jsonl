@@ -1,0 +1,25 @@
+{"id": "R01", "question": "Deprem sonrası Ceyhan'da güvenli bir yere nasıl geçerim?", "province": "Adana", "type": "behaviour+local"}
+{"id": "R02", "question": "Adana'da deprem sonrası geçici barınma alanları nerelerde?", "province": "Adana", "type": "local_fact"}
+{"id": "R03", "question": "Hatay'da deprem riski neden yüksek?", "province": "Hatay", "type": "local_fact"}
+{"id": "R04", "question": "İskenderun'da deprem sonrası tsunami tehlikesi var mı?", "province": "Hatay", "type": "local_fact"}
+{"id": "R05", "question": "İzmir'de tsunami riski var mı?", "province": "İzmir", "type": "local_fact"}
+{"id": "R06", "question": "İstanbul'da hangi ilçeler deprem açısından daha riskli?", "province": "İstanbul", "type": "local_fact"}
+{"id": "R07", "question": "Kocaeli'de 1999 depreminden sonra ne tür önlemler alındı?", "province": "Kocaeli", "type": "local_fact"}
+{"id": "R08", "question": "Bursa'da aktif fay hatları nerelerden geçiyor?", "province": "Bursa", "type": "local_fact"}
+{"id": "R09", "question": "Elbistan'da 2023 depreminin etkileri nelerdi?", "province": "Kahramanmaraş", "type": "local_fact"}
+{"id": "R10", "question": "Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?", "province": "Kahramanmaraş", "type": "local_fact"}
+{"id": "R11", "question": "Van'da depremden sonra nereye gitmeliyim?", "province": "Van", "type": "behaviour+local"}
+{"id": "R12", "question": "Erciş'te deprem riski ne durumda?", "province": "Van", "type": "local_fact"}
+{"id": "R13", "question": "Denizli'de deprem tehlikesi nasıl değerlendiriliyor?", "province": "Denizli", "type": "local_fact"}
+{"id": "R14", "question": "Bodrum'da deprem olursa tsunami bekleniyor mu?", "province": "Muğla", "type": "local_fact"}
+{"id": "R15", "question": "Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?", "province": "Bingöl", "type": "local_fact"}
+{"id": "R16", "question": "Erzincan'da geçmişte hangi büyük depremler oldu?", "province": "Erzincan", "type": "local_fact"}
+{"id": "R17", "question": "Antep'te deprem sonrası barınma ihtiyacı nasıl karşılanacak?", "province": "Gaziantep", "type": "local_fact"}
+{"id": "R18", "question": "Ankara Gölbaşı'nda deprem riski var mı?", "province": "Ankara", "type": "local_fact"}
+{"id": "R19", "question": "Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?", "province": "Kahramanmaraş", "type": "behaviour+local"}
+{"id": "R20", "question": "Hatay'da deprem sırasında asansör kullanmalı mıyım?", "province": "Hatay", "type": "behaviour+local"}
+{"id": "R21", "question": "Malatya'da deprem sonrası nereye gitmeliyim?", "province": "Malatya", "type": "no_irap"}
+{"id": "R22", "question": "Düzce'de deprem riski yüksek mi?", "province": "Düzce", "type": "no_irap"}
+{"id": "R23", "question": "Sakarya'da deprem olursa ne yapmalıyım?", "province": "Sakarya", "type": "no_irap"}
+{"id": "R24", "question": "Osmaniye'de geçici barınma alanları nerede?", "province": "Osmaniye", "type": "no_irap"}
+{"id": "R25", "question": "Gölbaşı'nda deprem sonrası toplanma alanı nerede?", "province": null, "type": "ambiguous"}

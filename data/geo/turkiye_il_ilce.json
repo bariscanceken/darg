@@ -1,0 +1,4493 @@
+{
+ "source": "TurkiyeAPI (https://github.com/ubeydeozdmr/turkiye-api), MIT licence",
+ "provinces": [
+  {
+   "name": "Adana",
+   "districts": [
+    {
+     "name": "Aladağ",
+     "population": 15839
+    },
+    {
+     "name": "Ceyhan",
+     "population": 156081
+    },
+    {
+     "name": "Çukurova",
+     "population": 380653
+    },
+    {
+     "name": "Feke",
+     "population": 15586
+    },
+    {
+     "name": "İmamoğlu",
+     "population": 27196
+    },
+    {
+     "name": "Karaisalı",
+     "population": 22872
+    },
+    {
+     "name": "Karataş",
+     "population": 24005
+    },
+    {
+     "name": "Kozan",
+     "population": 132572
+    },
+    {
+     "name": "Pozantı",
+     "population": 19983
+    },
+    {
+     "name": "Saimbeyli",
+     "population": 13133
+    },
+    {
+     "name": "Sarıçam",
+     "population": 263080
+    },
+    {
+     "name": "Seyhan",
+     "population": 782204
+    },
+    {
+     "name": "Tufanbeyli",
+     "population": 16027
+    },
+    {
+     "name": "Yumurtalık",
+     "population": 17806
+    },
+    {
+     "name": "Yüreğir",
+     "population": 396572
+    }
+   ]
+  },
+  {
+   "name": "Adıyaman",
+   "districts": [
+    {
+     "name": "Besni",
+     "population": 75398
+    },
+    {
+     "name": "Çelikhan",
+     "population": 14530
+    },
+    {
+     "name": "Gerger",
+     "population": 14497
+    },
+    {
+     "name": "Gölbaşı",
+     "population": 47917
+    },
+    {
+     "name": "Kahta",
+     "population": 136769
+    },
+    {
+     "name": "Merkez",
+     "population": 296876
+    },
+    {
+     "name": "Samsat",
+     "population": 6834
+    },
+    {
+     "name": "Sincik",
+     "population": 15801
+    },
+    {
+     "name": "Tut",
+     "population": 9199
+    }
+   ]
+  },
+  {
+   "name": "Afyonkarahisar",
+   "districts": [
+    {
+     "name": "Başmakçı",
+     "population": 9089
+    },
+    {
+     "name": "Bayat",
+     "population": 7580
+    },
+    {
+     "name": "Bolvadin",
+     "population": 45906
+    },
+    {
+     "name": "Çay",
+     "population": 29140
+    },
+    {
+     "name": "Çobanlar",
+     "population": 14457
+    },
+    {
+     "name": "Dazkırı",
+     "population": 11723
+    },
+    {
+     "name": "Dinar",
+     "population": 46878
+    },
+    {
+     "name": "Emirdağ",
+     "population": 43350
+    },
+    {
+     "name": "Evciler",
+     "population": 7038
+    },
+    {
+     "name": "Hocalar",
+     "population": 8220
+    },
+    {
+     "name": "İhsaniye",
+     "population": 27636
+    },
+    {
+     "name": "İscehisar",
+     "population": 25220
+    },
+    {
+     "name": "Kızılören",
+     "population": 1977
+    },
+    {
+     "name": "Merkez",
+     "population": 331982
+    },
+    {
+     "name": "Sandıklı",
+     "population": 54376
+    },
+    {
+     "name": "Sinanpaşa",
+     "population": 38292
+    },
+    {
+     "name": "Sultandağı",
+     "population": 13641
+    },
+    {
+     "name": "Şuhut",
+     "population": 35303
+    }
+   ]
+  },
+  {
+   "name": "Ağrı",
+   "districts": [
+    {
+     "name": "Diyadin",
+     "population": 35439
+    },
+    {
+     "name": "Doğubayazıt",
+     "population": 113699
+    },
+    {
+     "name": "Eleşkirt",
+     "population": 28661
+    },
+    {
+     "name": "Hamur",
+     "population": 14336
+    },
+    {
+     "name": "Merkez",
+     "population": 150035
+    },
+    {
+     "name": "Patnos",
+     "population": 105968
+    },
+    {
+     "name": "Taşlıçay",
+     "population": 17431
+    },
+    {
+     "name": "Tutak",
+     "population": 25920
+    }
+   ]
+  },
+  {
+   "name": "Amasya",
+   "districts": [
+    {
+     "name": "Göynücek",
+     "population": 10823
+    },
+    {
+     "name": "Gümüşhacıköy",
+     "population": 22319
+    },
+    {
+     "name": "Hamamözü",
+     "population": 3628
+    },
+    {
+     "name": "Merkez",
+     "population": 151433
+    },
+    {
+     "name": "Merzifon",
+     "population": 77077
+    },
+    {
+     "name": "Suluova",
+     "population": 46928
+    },
+    {
+     "name": "Taşova",
+     "population": 30034
+    }
+   ]
+  },
+  {
+   "name": "Ankara",
+   "districts": [
+    {
+     "name": "Akyurt",
+     "population": 46956
+    },
+    {
+     "name": "Altındağ",
+     "population": 418072
+    },
+    {
+     "name": "Ayaş",
+     "population": 13136
+    },
+    {
+     "name": "Bala",
+     "population": 20109
+    },
+    {
+     "name": "Beypazarı",
+     "population": 48359
+    },
+    {
+     "name": "Çamlıdere",
+     "population": 10203
+    },
+    {
+     "name": "Çankaya",
+     "population": 952198
+    },
+    {
+     "name": "Çubuk",
+     "population": 101437
+    },
+    {
+     "name": "Elmadağ",
+     "population": 45644
+    },
+    {
+     "name": "Etimesgut",
+     "population": 632458
+    },
+    {
+     "name": "Evren",
+     "population": 2927
+    },
+    {
+     "name": "Gölbaşı",
+     "population": 172810
+    },
+    {
+     "name": "Güdül",
+     "population": 8028
+    },
+    {
+     "name": "Haymana",
+     "population": 25798
+    },
+    {
+     "name": "Kahramankazan",
+     "population": 63143
+    },
+    {
+     "name": "Kalecik",
+     "population": 12564
+    },
+    {
+     "name": "Keçiören",
+     "population": 931722
+    },
+    {
+     "name": "Kızılcahamam",
+     "population": 27841
+    },
+    {
+     "name": "Mamak",
+     "population": 690329
+    },
+    {
+     "name": "Nallıhan",
+     "population": 26083
+    },
+    {
+     "name": "Polatlı",
+     "population": 131894
+    },
+    {
+     "name": "Pursaklar",
+     "population": 168881
+    },
+    {
+     "name": "Sincan",
+     "population": 605366
+    },
+    {
+     "name": "Şereflikoçhisar",
+     "population": 32831
+    },
+    {
+     "name": "Yenimahalle",
+     "population": 721531
+    }
+   ]
+  },
+  {
+   "name": "Antalya",
+   "districts": [
+    {
+     "name": "Akseki",
+     "population": 10609
+    },
+    {
+     "name": "Aksu",
+     "population": 87070
+    },
+    {
+     "name": "Alanya",
+     "population": 371547
+    },
+    {
+     "name": "Demre",
+     "population": 28075
+    },
+    {
+     "name": "Döşemealtı",
+     "population": 97121
+    },
+    {
+     "name": "Elmalı",
+     "population": 41550
+    },
+    {
+     "name": "Finike",
+     "population": 52436
+    },
+    {
+     "name": "Gazipaşa",
+     "population": 55850
+    },
+    {
+     "name": "Gündoğmuş",
+     "population": 6953
+    },
+    {
+     "name": "İbradı",
+     "population": 3256
+    },
+    {
+     "name": "Kaş",
+     "population": 63957
+    },
+    {
+     "name": "Kemer",
+     "population": 52339
+    },
+    {
+     "name": "Kepez",
+     "population": 649102
+    },
+    {
+     "name": "Konyaaltı",
+     "population": 199414
+    },
+    {
+     "name": "Korkuteli",
+     "population": 58381
+    },
+    {
+     "name": "Kumluca",
+     "population": 75588
+    },
+    {
+     "name": "Manavgat",
+     "population": 266480
+    },
+    {
+     "name": "Muratpaşa",
+     "population": 510887
+    },
+    {
+     "name": "Serik",
+     "population": 147062
+    }
+   ]
+  },
+  {
+   "name": "Artvin",
+   "districts": [
+    {
+     "name": "Ardanuç",
+     "population": 10889
+    },
+    {
+     "name": "Arhavi",
+     "population": 22025
+    },
+    {
+     "name": "Borçka",
+     "population": 21628
+    },
+    {
+     "name": "Hopa",
+     "population": 27844
+    },
+    {
+     "name": "Kemalpaşa",
+     "population": 9263
+    },
+    {
+     "name": "Merkez",
+     "population": 35710
+    },
+    {
+     "name": "Murgul",
+     "population": 6457
+    },
+    {
+     "name": "Şavşat",
+     "population": 16151
+    },
+    {
+     "name": "Yusufeli",
+     "population": 17564
+    }
+   ]
+  },
+  {
+   "name": "Aydın",
+   "districts": [
+    {
+     "name": "Bozdoğan",
+     "population": 31624
+    },
+    {
+     "name": "Buharkent",
+     "population": 13137
+    },
+    {
+     "name": "Çine",
+     "population": 47906
+    },
+    {
+     "name": "Didim",
+     "population": 103141
+    },
+    {
+     "name": "Efeler",
+     "population": 310241
+    },
+    {
+     "name": "Germencik",
+     "population": 44697
+    },
+    {
+     "name": "İncirliova",
+     "population": 58230
+    },
+    {
+     "name": "Karacasu",
+     "population": 17225
+    },
+    {
+     "name": "Karpuzlu",
+     "population": 10352
+    },
+    {
+     "name": "Koçarlı",
+     "population": 22234
+    },
+    {
+     "name": "Köşk",
+     "population": 28307
+    },
+    {
+     "name": "Kuşadası",
+     "population": 141431
+    },
+    {
+     "name": "Kuyucak",
+     "population": 26196
+    },
+    {
+     "name": "Nazilli",
+     "population": 162156
+    },
+    {
+     "name": "Söke",
+     "population": 123843
+    },
+    {
+     "name": "Sultanhisar",
+     "population": 19791
+    },
+    {
+     "name": "Yenipazar",
+     "population": 11596
+    }
+   ]
+  },
+  {
+   "name": "Balıkesir",
+   "districts": [
+    {
+     "name": "Altıeylül",
+     "population": 188858
+    },
+    {
+     "name": "Ayvalık",
+     "population": 75815
+    },
+    {
+     "name": "Balya",
+     "population": 12296
+    },
+    {
+     "name": "Bandırma",
+     "population": 169476
+    },
+    {
+     "name": "Bigadiç",
+     "population": 49275
+    },
+    {
+     "name": "Burhaniye",
+     "population": 68370
+    },
+    {
+     "name": "Dursunbey",
+     "population": 32168
+    },
+    {
+     "name": "Edremit",
+     "population": 176251
+    },
+    {
+     "name": "Erdek",
+     "population": 32080
+    },
+    {
+     "name": "Gömeç",
+     "population": 19020
+    },
+    {
+     "name": "Gönen",
+     "population": 75730
+    },
+    {
+     "name": "Havran",
+     "population": 28152
+    },
+    {
+     "name": "İvrindi",
+     "population": 31295
+    },
+    {
+     "name": "Karesi",
+     "population": 189444
+    },
+    {
+     "name": "Kepsut",
+     "population": 21386
+    },
+    {
+     "name": "Manyas",
+     "population": 17650
+    },
+    {
+     "name": "Marmara",
+     "population": 11827
+    },
+    {
+     "name": "Savaştepe",
+     "population": 16266
+    },
+    {
+     "name": "Sındırgı",
+     "population": 31482
+    },
+    {
+     "name": "Susurluk",
+     "population": 37676
+    }
+   ]
+  },
+  {
+   "name": "Bilecik",
+   "districts": [
+    {
+     "name": "Bozüyük",
+     "population": 81332
+    },
+    {
+     "name": "Gölpazarı",
+     "population": 10049
+    },
+    {
+     "name": "İnhisar",
+     "population": 2079
+    },
+    {
+     "name": "Merkez",
+     "population": 82863
+    },
+    {
+     "name": "Osmaneli",
+     "population": 22025
+    },
+    {
+     "name": "Pazaryeri",
+     "population": 9671
+    },
+    {
+     "name": "Söğüt",
+     "population": 18284
+    },
+    {
+     "name": "Yenipazar",
+     "population": 2692
+    }
+   ]
+  },
+  {
+   "name": "Bingöl",
+   "districts": [
+    {
+     "name": "Adaklı",
+     "population": 7491
+    },
+    {
+     "name": "Genç",
+     "population": 31654
+    },
+    {
+     "name": "Karlıova",
+     "population": 25265
+    },
+    {
+     "name": "Kiğı",
+     "population": 4487
+    },
+    {
+     "name": "Merkez",
+     "population": 175438
+    },
+    {
+     "name": "Solhan",
+     "population": 33233
+    },
+    {
+     "name": "Yayladere",
+     "population": 1889
+    },
+    {
+     "name": "Yedisu",
+     "population": 2842
+    }
+   ]
+  },
+  {
+   "name": "Bitlis",
+   "districts": [
+    {
+     "name": "Adilcevaz",
+     "population": 28769
+    },
+    {
+     "name": "Ahlat",
+     "population": 45637
+    },
+    {
+     "name": "Güroymak",
+     "population": 49372
+    },
+    {
+     "name": "Hizan",
+     "population": 29948
+    },
+    {
+     "name": "Merkez",
+     "population": 74904
+    },
+    {
+     "name": "Mutki",
+     "population": 26748
+    },
+    {
+     "name": "Tatvan",
+     "population": 105045
+    }
+   ]
+  },
+  {
+   "name": "Bolu",
+   "districts": [
+    {
+     "name": "Dörtdivan",
+     "population": 6214
+    },
+    {
+     "name": "Gerede",
+     "population": 37196
+    },
+    {
+     "name": "Göynük",
+     "population": 14257
+    },
+    {
+     "name": "Kıbrıscık",
+     "population": 3783
+    },
+    {
+     "name": "Mengen",
+     "population": 14152
+    },
+    {
+     "name": "Merkez",
+     "population": 222589
+    },
+    {
+     "name": "Mudurnu",
+     "population": 18101
+    },
+    {
+     "name": "Seben",
+     "population": 4438
+    },
+    {
+     "name": "Yeniçağa",
+     "population": 6443
+    }
+   ]
+  },
+  {
+   "name": "Burdur",
+   "districts": [
+    {
+     "name": "Ağlasun",
+     "population": 7347
+    },
+    {
+     "name": "Altınyayla",
+     "population": 5060
+    },
+    {
+     "name": "Bucak",
+     "population": 68312
+    },
+    {
+     "name": "Çavdır",
+     "population": 12539
+    },
+    {
+     "name": "Çeltikçi",
+     "population": 4914
+    },
+    {
+     "name": "Gölhisar",
+     "population": 23969
+    },
+    {
+     "name": "Karamanlı",
+     "population": 8097
+    },
+    {
+     "name": "Kemer",
+     "population": 2727
+    },
+    {
+     "name": "Merkez",
+     "population": 120832
+    },
+    {
+     "name": "Tefenni",
+     "population": 9514
+    },
+    {
+     "name": "Yeşilova",
+     "population": 13915
+    }
+   ]
+  },
+  {
+   "name": "Bursa",
+   "districts": [
+    {
+     "name": "Büyükorhan",
+     "population": 9148
+    },
+    {
+     "name": "Gemlik",
+     "population": 124400
+    },
+    {
+     "name": "Gürsu",
+     "population": 105799
+    },
+    {
+     "name": "Harmancık",
+     "population": 6089
+    },
+    {
+     "name": "İnegöl",
+     "population": 306004
+    },
+    {
+     "name": "İznik",
+     "population": 45510
+    },
+    {
+     "name": "Karacabey",
+     "population": 86543
+    },
+    {
+     "name": "Keles",
+     "population": 10939
+    },
+    {
+     "name": "Kestel",
+     "population": 77374
+    },
+    {
+     "name": "Mudanya",
+     "population": 112225
+    },
+    {
+     "name": "Mustafakemalpaşa",
+     "population": 103652
+    },
+    {
+     "name": "Nilüfer",
+     "population": 578059
+    },
+    {
+     "name": "Orhaneli",
+     "population": 18963
+    },
+    {
+     "name": "Orhangazi",
+     "population": 81997
+    },
+    {
+     "name": "Osmangazi",
+     "population": 886111
+    },
+    {
+     "name": "Yenişehir",
+     "population": 55609
+    },
+    {
+     "name": "Yıldırım",
+     "population": 654589
+    }
+   ]
+  },
+  {
+   "name": "Çanakkale",
+   "districts": [
+    {
+     "name": "Ayvacık",
+     "population": 35411
+    },
+    {
+     "name": "Bayramiç",
+     "population": 28480
+    },
+    {
+     "name": "Biga",
+     "population": 94526
+    },
+    {
+     "name": "Bozcaada",
+     "population": 3384
+    },
+    {
+     "name": "Çan",
+     "population": 46612
+    },
+    {
+     "name": "Eceabat",
+     "population": 8746
+    },
+    {
+     "name": "Ezine",
+     "population": 31894
+    },
+    {
+     "name": "Gelibolu",
+     "population": 44689
+    },
+    {
+     "name": "Gökçeada",
+     "population": 11331
+    },
+    {
+     "name": "Lapseki",
+     "population": 30654
+    },
+    {
+     "name": "Merkez",
+     "population": 208613
+    },
+    {
+     "name": "Yenice",
+     "population": 29636
+    }
+   ]
+  },
+  {
+   "name": "Çankırı",
+   "districts": [
+    {
+     "name": "Atkaracalar",
+     "population": 5063
+    },
+    {
+     "name": "Bayramören",
+     "population": 2209
+    },
+    {
+     "name": "Çerkeş",
+     "population": 16927
+    },
+    {
+     "name": "Eldivan",
+     "population": 6198
+    },
+    {
+     "name": "Ilgaz",
+     "population": 13948
+    },
+    {
+     "name": "Kızılırmak",
+     "population": 6830
+    },
+    {
+     "name": "Korgun",
+     "population": 4239
+    },
+    {
+     "name": "Kurşunlu",
+     "population": 9130
+    },
+    {
+     "name": "Merkez",
+     "population": 99287
+    },
+    {
+     "name": "Orta",
+     "population": 17223
+    },
+    {
+     "name": "Şabanözü",
+     "population": 12493
+    },
+    {
+     "name": "Yapraklı",
+     "population": 7002
+    }
+   ]
+  },
+  {
+   "name": "Çorum",
+   "districts": [
+    {
+     "name": "Alaca",
+     "population": 28989
+    },
+    {
+     "name": "Bayat",
+     "population": 13312
+    },
+    {
+     "name": "Boğazkale",
+     "population": 3587
+    },
+    {
+     "name": "Dodurga",
+     "population": 5036
+    },
+    {
+     "name": "İskilip",
+     "population": 28132
+    },
+    {
+     "name": "Kargı",
+     "population": 15119
+    },
+    {
+     "name": "Laçin",
+     "population": 4094
+    },
+    {
+     "name": "Mecitözü",
+     "population": 12911
+    },
+    {
+     "name": "Merkez",
+     "population": 299565
+    },
+    {
+     "name": "Oğuzlar",
+     "population": 4610
+    },
+    {
+     "name": "Ortaköy",
+     "population": 6491
+    },
+    {
+     "name": "Osmancık",
+     "population": 42673
+    },
+    {
+     "name": "Sungurlu",
+     "population": 49079
+    },
+    {
+     "name": "Uğurludağ",
+     "population": 5992
+    }
+   ]
+  },
+  {
+   "name": "Denizli",
+   "districts": [
+    {
+     "name": "Acıpayam",
+     "population": 54769
+    },
+    {
+     "name": "Babadağ",
+     "population": 6199
+    },
+    {
+     "name": "Baklan",
+     "population": 5266
+    },
+    {
+     "name": "Bekilli",
+     "population": 6243
+    },
+    {
+     "name": "Beyağaç",
+     "population": 6011
+    },
+    {
+     "name": "Bozkurt",
+     "population": 11176
+    },
+    {
+     "name": "Buldan",
+     "population": 26231
+    },
+    {
+     "name": "Çal",
+     "population": 17277
+    },
+    {
+     "name": "Çameli",
+     "population": 17447
+    },
+    {
+     "name": "Çardak",
+     "population": 8497
+    },
+    {
+     "name": "Çivril",
+     "population": 59689
+    },
+    {
+     "name": "Güney",
+     "population": 9043
+    },
+    {
+     "name": "Honaz",
+     "population": 34468
+    },
+    {
+     "name": "Kale",
+     "population": 18855
+    },
+    {
+     "name": "Merkezefendi",
+     "population": 351085
+    },
+    {
+     "name": "Pamukkale",
+     "population": 343071
+    },
+    {
+     "name": "Sarayköy",
+     "population": 30883
+    },
+    {
+     "name": "Serinhisar",
+     "population": 14661
+    },
+    {
+     "name": "Tavas",
+     "population": 40104
+    }
+   ]
+  },
+  {
+   "name": "Diyarbakır",
+   "districts": [
+    {
+     "name": "Bağlar",
+     "population": 402275
+    },
+    {
+     "name": "Bismil",
+     "population": 119815
+    },
+    {
+     "name": "Çermik",
+     "population": 49299
+    },
+    {
+     "name": "Çınar",
+     "population": 79114
+    },
+    {
+     "name": "Çüngüş",
+     "population": 10057
+    },
+    {
+     "name": "Dicle",
+     "population": 35948
+    },
+    {
+     "name": "Eğil",
+     "population": 21674
+    },
+    {
+     "name": "Ergani",
+     "population": 141098
+    },
+    {
+     "name": "Hani",
+     "population": 32285
+    },
+    {
+     "name": "Hazro",
+     "population": 16024
+    },
+    {
+     "name": "Kayapınar",
+     "population": 454311
+    },
+    {
+     "name": "Kocaköy",
+     "population": 15088
+    },
+    {
+     "name": "Kulp",
+     "population": 33973
+    },
+    {
+     "name": "Lice",
+     "population": 24060
+    },
+    {
+     "name": "Silvan",
+     "population": 86752
+    },
+    {
+     "name": "Sur",
+     "population": 97961
+    },
+    {
+     "name": "Yenişehir",
+     "population": 232622
+    }
+   ]
+  },
+  {
+   "name": "Edirne",
+   "districts": [
+    {
+     "name": "Enez",
+     "population": 10399
+    },
+    {
+     "name": "Havsa",
+     "population": 17302
+    },
+    {
+     "name": "İpsala",
+     "population": 25278
+    },
+    {
+     "name": "Keşan",
+     "population": 85259
+    },
+    {
+     "name": "Lalapaşa",
+     "population": 5932
+    },
+    {
+     "name": "Meriç",
+     "population": 12329
+    },
+    {
+     "name": "Merkez",
+     "population": 200753
+    },
+    {
+     "name": "Süloğlu",
+     "population": 6101
+    },
+    {
+     "name": "Uzunköprü",
+     "population": 59085
+    }
+   ]
+  },
+  {
+   "name": "Elazığ",
+   "districts": [
+    {
+     "name": "Ağın",
+     "population": 2532
+    },
+    {
+     "name": "Alacakaya",
+     "population": 5336
+    },
+    {
+     "name": "Arıcak",
+     "population": 12340
+    },
+    {
+     "name": "Baskil",
+     "population": 13397
+    },
+    {
+     "name": "Karakoçan",
+     "population": 28320
+    },
+    {
+     "name": "Keban",
+     "population": 7112
+    },
+    {
+     "name": "Kovancılar",
+     "population": 37874
+    },
+    {
+     "name": "Maden",
+     "population": 9139
+    },
+    {
+     "name": "Merkez",
+     "population": 463686
+    },
+    {
+     "name": "Palu",
+     "population": 17872
+    },
+    {
+     "name": "Sivrice",
+     "population": 8070
+    }
+   ]
+  },
+  {
+   "name": "Erzincan",
+   "districts": [
+    {
+     "name": "Çayırlı",
+     "population": 7491
+    },
+    {
+     "name": "İliç",
+     "population": 8543
+    },
+    {
+     "name": "Kemah",
+     "population": 6419
+    },
+    {
+     "name": "Kemaliye",
+     "population": 4484
+    },
+    {
+     "name": "Merkez",
+     "population": 169506
+    },
+    {
+     "name": "Otlukbeli",
+     "population": 2123
+    },
+    {
+     "name": "Refahiye",
+     "population": 10954
+    },
+    {
+     "name": "Tercan",
+     "population": 16145
+    },
+    {
+     "name": "Üzümlü",
+     "population": 13960
+    }
+   ]
+  },
+  {
+   "name": "Erzurum",
+   "districts": [
+    {
+     "name": "Aşkale",
+     "population": 19983
+    },
+    {
+     "name": "Aziziye",
+     "population": 71827
+    },
+    {
+     "name": "Çat",
+     "population": 14015
+    },
+    {
+     "name": "Hınıs",
+     "population": 23011
+    },
+    {
+     "name": "Horasan",
+     "population": 34896
+    },
+    {
+     "name": "İspir",
+     "population": 13984
+    },
+    {
+     "name": "Karaçoban",
+     "population": 19922
+    },
+    {
+     "name": "Karayazı",
+     "population": 22570
+    },
+    {
+     "name": "Köprüköy",
+     "population": 12903
+    },
+    {
+     "name": "Narman",
+     "population": 11119
+    },
+    {
+     "name": "Oltu",
+     "population": 29765
+    },
+    {
+     "name": "Olur",
+     "population": 5985
+    },
+    {
+     "name": "Palandöken",
+     "population": 181922
+    },
+    {
+     "name": "Pasinler",
+     "population": 25401
+    },
+    {
+     "name": "Pazaryolu",
+     "population": 3537
+    },
+    {
+     "name": "Şenkaya",
+     "population": 14918
+    },
+    {
+     "name": "Tekman",
+     "population": 20826
+    },
+    {
+     "name": "Tortum",
+     "population": 12881
+    },
+    {
+     "name": "Uzundere",
+     "population": 8263
+    },
+    {
+     "name": "Yakutiye",
+     "population": 189149
+    }
+   ]
+  },
+  {
+   "name": "Eskişehir",
+   "districts": [
+    {
+     "name": "Alpu",
+     "population": 9725
+    },
+    {
+     "name": "Beylikova",
+     "population": 5611
+    },
+    {
+     "name": "Çifteler",
+     "population": 14487
+    },
+    {
+     "name": "Günyüzü",
+     "population": 5008
+    },
+    {
+     "name": "Han",
+     "population": 2126
+    },
+    {
+     "name": "İnönü",
+     "population": 6114
+    },
+    {
+     "name": "Mahmudiye",
+     "population": 7407
+    },
+    {
+     "name": "Mihalgazi",
+     "population": 2861
+    },
+    {
+     "name": "Mihalıççık",
+     "population": 7605
+    },
+    {
+     "name": "Odunpazarı",
+     "population": 431652
+    },
+    {
+     "name": "Sarıcakaya",
+     "population": 4477
+    },
+    {
+     "name": "Seyitgazi",
+     "population": 12565
+    },
+    {
+     "name": "Sivrihisar",
+     "population": 20189
+    },
+    {
+     "name": "Tepebaşı",
+     "population": 398129
+    }
+   ]
+  },
+  {
+   "name": "Gaziantep",
+   "districts": [
+    {
+     "name": "Araban",
+     "population": 32540
+    },
+    {
+     "name": "İslahiye",
+     "population": 66107
+    },
+    {
+     "name": "Karkamış",
+     "population": 9087
+    },
+    {
+     "name": "Nizip",
+     "population": 152660
+    },
+    {
+     "name": "Nurdağı",
+     "population": 38269
+    },
+    {
+     "name": "Oğuzeli",
+     "population": 36644
+    },
+    {
+     "name": "Şahinbey",
+     "population": 957792
+    },
+    {
+     "name": "Şehitkamil",
+     "population": 905880
+    },
+    {
+     "name": "Yavuzeli",
+     "population": 23436
+    }
+   ]
+  },
+  {
+   "name": "Giresun",
+   "districts": [
+    {
+     "name": "Alucra",
+     "population": 8473
+    },
+    {
+     "name": "Bulancak",
+     "population": 70397
+    },
+    {
+     "name": "Çamoluk",
+     "population": 5709
+    },
+    {
+     "name": "Çanakçı",
+     "population": 5783
+    },
+    {
+     "name": "Dereli",
+     "population": 20100
+    },
+    {
+     "name": "Doğankent",
+     "population": 7327
+    },
+    {
+     "name": "Espiye",
+     "population": 39182
+    },
+    {
+     "name": "Eynesil",
+     "population": 12548
+    },
+    {
+     "name": "Görele",
+     "population": 31536
+    },
+    {
+     "name": "Güce",
+     "population": 8194
+    },
+    {
+     "name": "Keşap",
+     "population": 20859
+    },
+    {
+     "name": "Merkez",
+     "population": 143915
+    },
+    {
+     "name": "Piraziz",
+     "population": 15109
+    },
+    {
+     "name": "Şebinkarahisar",
+     "population": 19130
+    },
+    {
+     "name": "Tirebolu",
+     "population": 32124
+    },
+    {
+     "name": "Yağlıdere",
+     "population": 14688
+    }
+   ]
+  },
+  {
+   "name": "Gümüşhane",
+   "districts": [
+    {
+     "name": "Kelkit",
+     "population": 38520
+    },
+    {
+     "name": "Köse",
+     "population": 6107
+    },
+    {
+     "name": "Kürtün",
+     "population": 11327
+    },
+    {
+     "name": "Merkez",
+     "population": 54697
+    },
+    {
+     "name": "Şiran",
+     "population": 18377
+    },
+    {
+     "name": "Torul",
+     "population": 9779
+    }
+   ]
+  },
+  {
+   "name": "Hakkari",
+   "districts": [
+    {
+     "name": "Çukurca",
+     "population": 14299
+    },
+    {
+     "name": "Derecik",
+     "population": 24869
+    },
+    {
+     "name": "Merkez",
+     "population": 76165
+    },
+    {
+     "name": "Şemdinli",
+     "population": 43034
+    },
+    {
+     "name": "Yüksekova",
+     "population": 121314
+    }
+   ]
+  },
+  {
+   "name": "Hatay",
+   "districts": [
+    {
+     "name": "Altınözü",
+     "population": 69834
+    },
+    {
+     "name": "Antakya",
+     "population": 301855
+    },
+    {
+     "name": "Arsuz",
+     "population": 115077
+    },
+    {
+     "name": "Belen",
+     "population": 37876
+    },
+    {
+     "name": "Defne",
+     "population": 139605
+    },
+    {
+     "name": "Dörtyol",
+     "population": 132987
+    },
+    {
+     "name": "Erzin",
+     "population": 43103
+    },
+    {
+     "name": "Hassa",
+     "population": 57457
+    },
+    {
+     "name": "İskenderun",
+     "population": 228149
+    },
+    {
+     "name": "Kırıkhan",
+     "population": 108200
+    },
+    {
+     "name": "Kumlu",
+     "population": 16242
+    },
+    {
+     "name": "Payas",
+     "population": 44530
+    },
+    {
+     "name": "Reyhanlı",
+     "population": 117645
+    },
+    {
+     "name": "Samandağ",
+     "population": 122952
+    },
+    {
+     "name": "Yayladağı",
+     "population": 42019
+    }
+   ]
+  },
+  {
+   "name": "Isparta",
+   "districts": [
+    {
+     "name": "Aksu",
+     "population": 4073
+    },
+    {
+     "name": "Atabey",
+     "population": 6204
+    },
+    {
+     "name": "Eğirdir",
+     "population": 29200
+    },
+    {
+     "name": "Gelendost",
+     "population": 13985
+    },
+    {
+     "name": "Gönen",
+     "population": 7065
+    },
+    {
+     "name": "Keçiborlu",
+     "population": 14033
+    },
+    {
+     "name": "Merkez",
+     "population": 273638
+    },
+    {
+     "name": "Senirkent",
+     "population": 10331
+    },
+    {
+     "name": "Sütçüler",
+     "population": 9228
+    },
+    {
+     "name": "Şarkikaraağaç",
+     "population": 24310
+    },
+    {
+     "name": "Uluborlu",
+     "population": 6287
+    },
+    {
+     "name": "Yalvaç",
+     "population": 44596
+    },
+    {
+     "name": "Yenişarbademli",
+     "population": 2353
+    }
+   ]
+  },
+  {
+   "name": "Mersin",
+   "districts": [
+    {
+     "name": "Akdeniz",
+     "population": 254292
+    },
+    {
+     "name": "Anamur",
+     "population": 66952
+    },
+    {
+     "name": "Aydıncık",
+     "population": 11271
+    },
+    {
+     "name": "Bozyazı",
+     "population": 26832
+    },
+    {
+     "name": "Çamlıyayla",
+     "population": 8383
+    },
+    {
+     "name": "Erdemli",
+     "population": 157566
+    },
+    {
+     "name": "Gülnar",
+     "population": 32785
+    },
+    {
+     "name": "Mezitli",
+     "population": 233140
+    },
+    {
+     "name": "Mut",
+     "population": 62758
+    },
+    {
+     "name": "Silifke",
+     "population": 139610
+    },
+    {
+     "name": "Tarsus",
+     "population": 358510
+    },
+    {
+     "name": "Toroslar",
+     "population": 322971
+    },
+    {
+     "name": "Yenişehir",
+     "population": 281358
+    }
+   ]
+  },
+  {
+   "name": "İstanbul",
+   "districts": [
+    {
+     "name": "Adalar",
+     "population": 17489
+    },
+    {
+     "name": "Arnavutköy",
+     "population": 358469
+    },
+    {
+     "name": "Ataşehir",
+     "population": 412125
+    },
+    {
+     "name": "Avcılar",
+     "population": 440663
+    },
+    {
+     "name": "Bağcılar",
+     "population": 707635
+    },
+    {
+     "name": "Bahçelievler",
+     "population": 539035
+    },
+    {
+     "name": "Bakırköy",
+     "population": 218204
+    },
+    {
+     "name": "Başakşehir",
+     "population": 536797
+    },
+    {
+     "name": "Bayrampaşa",
+     "population": 272978
+    },
+    {
+     "name": "Beşiktaş",
+     "population": 165895
+    },
+    {
+     "name": "Beykoz",
+     "population": 246833
+    },
+    {
+     "name": "Beylikdüzü",
+     "population": 422988
+    },
+    {
+     "name": "Beyoğlu",
+     "population": 215991
+    },
+    {
+     "name": "Büyükçekmece",
+     "population": 283239
+    },
+    {
+     "name": "Çatalca",
+     "population": 81143
+    },
+    {
+     "name": "Çekmeköy",
+     "population": 315959
+    },
+    {
+     "name": "Esenler",
+     "population": 419878
+    },
+    {
+     "name": "Esenyurt",
+     "population": 1003905
+    },
+    {
+     "name": "Eyüpsultan",
+     "population": 425216
+    },
+    {
+     "name": "Fatih",
+     "population": 351786
+    },
+    {
+     "name": "Gaziosmanpaşa",
+     "population": 478395
+    },
+    {
+     "name": "Güngören",
+     "population": 251242
+    },
+    {
+     "name": "Kadıköy",
+     "population": 458573
+    },
+    {
+     "name": "Kağıthane",
+     "population": 446420
+    },
+    {
+     "name": "Kartal",
+     "population": 475630
+    },
+    {
+     "name": "Küçükçekmece",
+     "population": 785270
+    },
+    {
+     "name": "Maltepe",
+     "population": 525044
+    },
+    {
+     "name": "Pendik",
+     "population": 752033
+    },
+    {
+     "name": "Sancaktepe",
+     "population": 507500
+    },
+    {
+     "name": "Sarıyer",
+     "population": 344883
+    },
+    {
+     "name": "Silivri",
+     "population": 240029
+    },
+    {
+     "name": "Sultanbeyli",
+     "population": 378908
+    },
+    {
+     "name": "Sultangazi",
+     "population": 529306
+    },
+    {
+     "name": "Şile",
+     "population": 50090
+    },
+    {
+     "name": "Şişli",
+     "population": 261959
+    },
+    {
+     "name": "Tuzla",
+     "population": 313865
+    },
+    {
+     "name": "Ümraniye",
+     "population": 728913
+    },
+    {
+     "name": "Üsküdar",
+     "population": 514294
+    },
+    {
+     "name": "Zeytinburnu",
+     "population": 275471
+    }
+   ]
+  },
+  {
+   "name": "İzmir",
+   "districts": [
+    {
+     "name": "Aliağa",
+     "population": 110892
+    },
+    {
+     "name": "Balçova",
+     "population": 75743
+    },
+    {
+     "name": "Bayındır",
+     "population": 39971
+    },
+    {
+     "name": "Bayraklı",
+     "population": 296481
+    },
+    {
+     "name": "Bergama",
+     "population": 107549
+    },
+    {
+     "name": "Beydağ",
+     "population": 11904
+    },
+    {
+     "name": "Bornova",
+     "population": 452479
+    },
+    {
+     "name": "Buca",
+     "population": 520941
+    },
+    {
+     "name": "Çeşme",
+     "population": 51902
+    },
+    {
+     "name": "Çiğli",
+     "population": 216430
+    },
+    {
+     "name": "Dikili",
+     "population": 49138
+    },
+    {
+     "name": "Foça",
+     "population": 37711
+    },
+    {
+     "name": "Gaziemir",
+     "population": 137220
+    },
+    {
+     "name": "Güzelbahçe",
+     "population": 39474
+    },
+    {
+     "name": "Karabağlar",
+     "population": 467572
+    },
+    {
+     "name": "Karaburun",
+     "population": 13725
+    },
+    {
+     "name": "Karşıyaka",
+     "population": 339624
+    },
+    {
+     "name": "Kemalpaşa",
+     "population": 122840
+    },
+    {
+     "name": "Kınık",
+     "population": 28604
+    },
+    {
+     "name": "Kiraz",
+     "population": 43340
+    },
+    {
+     "name": "Konak",
+     "population": 317399
+    },
+    {
+     "name": "Menderes",
+     "population": 112853
+    },
+    {
+     "name": "Menemen",
+     "population": 220510
+    },
+    {
+     "name": "Narlıdere",
+     "population": 61320
+    },
+    {
+     "name": "Ödemiş",
+     "population": 132548
+    },
+    {
+     "name": "Seferihisar",
+     "population": 63712
+    },
+    {
+     "name": "Selçuk",
+     "population": 38578
+    },
+    {
+     "name": "Tire",
+     "population": 87571
+    },
+    {
+     "name": "Torbalı",
+     "population": 224133
+    },
+    {
+     "name": "Urla",
+     "population": 82021
+    }
+   ]
+  },
+  {
+   "name": "Kars",
+   "districts": [
+    {
+     "name": "Akyaka",
+     "population": 9382
+    },
+    {
+     "name": "Arpaçay",
+     "population": 13770
+    },
+    {
+     "name": "Digor",
+     "population": 17557
+    },
+    {
+     "name": "Kağızman",
+     "population": 42717
+    },
+    {
+     "name": "Merkez",
+     "population": 121154
+    },
+    {
+     "name": "Sarıkamış",
+     "population": 35518
+    },
+    {
+     "name": "Selim",
+     "population": 20476
+    },
+    {
+     "name": "Susuz",
+     "population": 8417
+    }
+   ]
+  },
+  {
+   "name": "Kastamonu",
+   "districts": [
+    {
+     "name": "Abana",
+     "population": 4474
+    },
+    {
+     "name": "Ağlı",
+     "population": 3176
+    },
+    {
+     "name": "Araç",
+     "population": 18121
+    },
+    {
+     "name": "Azdavay",
+     "population": 7266
+    },
+    {
+     "name": "Bozkurt",
+     "population": 9250
+    },
+    {
+     "name": "Cide",
+     "population": 22496
+    },
+    {
+     "name": "Çatalzeytin",
+     "population": 7185
+    },
+    {
+     "name": "Daday",
+     "population": 7736
+    },
+    {
+     "name": "Devrekani",
+     "population": 12033
+    },
+    {
+     "name": "Doğanyurt",
+     "population": 5057
+    },
+    {
+     "name": "Hanönü",
+     "population": 4286
+    },
+    {
+     "name": "İhsangazi",
+     "population": 4976
+    },
+    {
+     "name": "İnebolu",
+     "population": 19678
+    },
+    {
+     "name": "Küre",
+     "population": 5108
+    },
+    {
+     "name": "Merkez",
+     "population": 158953
+    },
+    {
+     "name": "Pınarbaşı",
+     "population": 5782
+    },
+    {
+     "name": "Seydiler",
+     "population": 4639
+    },
+    {
+     "name": "Şenpazar",
+     "population": 4083
+    },
+    {
+     "name": "Taşköprü",
+     "population": 36544
+    },
+    {
+     "name": "Tosya",
+     "population": 39091
+    }
+   ]
+  },
+  {
+   "name": "Kayseri",
+   "districts": [
+    {
+     "name": "Akkışla",
+     "population": 5440
+    },
+    {
+     "name": "Bünyan",
+     "population": 30362
+    },
+    {
+     "name": "Develi",
+     "population": 67818
+    },
+    {
+     "name": "Felahiye",
+     "population": 5529
+    },
+    {
+     "name": "Hacılar",
+     "population": 13701
+    },
+    {
+     "name": "İncesu",
+     "population": 29780
+    },
+    {
+     "name": "Kocasinan",
+     "population": 421472
+    },
+    {
+     "name": "Melikgazi",
+     "population": 593262
+    },
+    {
+     "name": "Özvatan",
+     "population": 3877
+    },
+    {
+     "name": "Pınarbaşı",
+     "population": 20598
+    },
+    {
+     "name": "Sarıoğlan",
+     "population": 13510
+    },
+    {
+     "name": "Sarız",
+     "population": 9213
+    },
+    {
+     "name": "Talas",
+     "population": 173657
+    },
+    {
+     "name": "Tomarza",
+     "population": 20156
+    },
+    {
+     "name": "Yahyalı",
+     "population": 35207
+    },
+    {
+     "name": "Yeşilhisar",
+     "population": 15409
+    }
+   ]
+  },
+  {
+   "name": "Kırklareli",
+   "districts": [
+    {
+     "name": "Babaeski",
+     "population": 46355
+    },
+    {
+     "name": "Demirköy",
+     "population": 9364
+    },
+    {
+     "name": "Kofçaz",
+     "population": 2291
+    },
+    {
+     "name": "Lüleburgaz",
+     "population": 157136
+    },
+    {
+     "name": "Merkez",
+     "population": 114710
+    },
+    {
+     "name": "Pehlivanköy",
+     "population": 3276
+    },
+    {
+     "name": "Pınarhisar",
+     "population": 17694
+    },
+    {
+     "name": "Vize",
+     "population": 28769
+    }
+   ]
+  },
+  {
+   "name": "Kırşehir",
+   "districts": [
+    {
+     "name": "Akçakent",
+     "population": 3301
+    },
+    {
+     "name": "Akpınar",
+     "population": 6435
+    },
+    {
+     "name": "Boztepe",
+     "population": 5049
+    },
+    {
+     "name": "Çiçekdağı",
+     "population": 13350
+    },
+    {
+     "name": "Kaman",
+     "population": 33354
+    },
+    {
+     "name": "Merkez",
+     "population": 163368
+    },
+    {
+     "name": "Mucur",
+     "population": 17920
+    }
+   ]
+  },
+  {
+   "name": "Kocaeli",
+   "districts": [
+    {
+     "name": "Başiskele",
+     "population": 131387
+    },
+    {
+     "name": "Çayırova",
+     "population": 162262
+    },
+    {
+     "name": "Darıca",
+     "population": 235632
+    },
+    {
+     "name": "Derince",
+     "population": 147892
+    },
+    {
+     "name": "Dilovası",
+     "population": 55355
+    },
+    {
+     "name": "Gebze",
+     "population": 414960
+    },
+    {
+     "name": "Gölcük",
+     "population": 181227
+    },
+    {
+     "name": "İzmit",
+     "population": 381254
+    },
+    {
+     "name": "Kandıra",
+     "population": 54260
+    },
+    {
+     "name": "Karamürsel",
+     "population": 59488
+    },
+    {
+     "name": "Kartepe",
+     "population": 154377
+    },
+    {
+     "name": "Körfez",
+     "population": 183077
+    }
+   ]
+  },
+  {
+   "name": "Konya",
+   "districts": [
+    {
+     "name": "Ahırlı",
+     "population": 4536
+    },
+    {
+     "name": "Akören",
+     "population": 5744
+    },
+    {
+     "name": "Akşehir",
+     "population": 93613
+    },
+    {
+     "name": "Altınekin",
+     "population": 14374
+    },
+    {
+     "name": "Beyşehir",
+     "population": 80353
+    },
+    {
+     "name": "Bozkır",
+     "population": 24704
+    },
+    {
+     "name": "Cihanbeyli",
+     "population": 49126
+    },
+    {
+     "name": "Çeltik",
+     "population": 9482
+    },
+    {
+     "name": "Çumra",
+     "population": 68803
+    },
+    {
+     "name": "Derbent",
+     "population": 3954
+    },
+    {
+     "name": "Derebucak",
+     "population": 5353
+    },
+    {
+     "name": "Doğanhisar",
+     "population": 14097
+    },
+    {
+     "name": "Emirgazi",
+     "population": 7647
+    },
+    {
+     "name": "Ereğli",
+     "population": 158010
+    },
+    {
+     "name": "Güneysınır",
+     "population": 9237
+    },
+    {
+     "name": "Hadim",
+     "population": 10621
+    },
+    {
+     "name": "Halkapınar",
+     "population": 3947
+    },
+    {
+     "name": "Hüyük",
+     "population": 14878
+    },
+    {
+     "name": "Ilgın",
+     "population": 53167
+    },
+    {
+     "name": "Kadınhanı",
+     "population": 31478
+    },
+    {
+     "name": "Karapınar",
+     "population": 51756
+    },
+    {
+     "name": "Karatay",
+     "population": 395499
+    },
+    {
+     "name": "Kulu",
+     "population": 51732
+    },
+    {
+     "name": "Meram",
+     "population": 349685
+    },
+    {
+     "name": "Sarayönü",
+     "population": 28401
+    },
+    {
+     "name": "Selçuklu",
+     "population": 703449
+    },
+    {
+     "name": "Seydişehir",
+     "population": 66079
+    },
+    {
+     "name": "Taşkent",
+     "population": 5669
+    },
+    {
+     "name": "Tuzlukçu",
+     "population": 6052
+    },
+    {
+     "name": "Yalıhüyük",
+     "population": 1704
+    },
+    {
+     "name": "Yunak",
+     "population": 20259
+    }
+   ]
+  },
+  {
+   "name": "Kütahya",
+   "districts": [
+    {
+     "name": "Altıntaş",
+     "population": 14739
+    },
+    {
+     "name": "Aslanapa",
+     "population": 7813
+    },
+    {
+     "name": "Çavdarhisar",
+     "population": 5503
+    },
+    {
+     "name": "Domaniç",
+     "population": 13900
+    },
+    {
+     "name": "Dumlupınar",
+     "population": 2812
+    },
+    {
+     "name": "Emet",
+     "population": 17352
+    },
+    {
+     "name": "Gediz",
+     "population": 48539
+    },
+    {
+     "name": "Hisarcık",
+     "population": 10799
+    },
+    {
+     "name": "Merkez",
+     "population": 277000
+    },
+    {
+     "name": "Pazarlar",
+     "population": 4713
+    },
+    {
+     "name": "Simav",
+     "population": 60886
+    },
+    {
+     "name": "Şaphane",
+     "population": 5540
+    },
+    {
+     "name": "Tavşanlı",
+     "population": 100882
+    }
+   ]
+  },
+  {
+   "name": "Malatya",
+   "districts": [
+    {
+     "name": "Akçadağ",
+     "population": 31479
+    },
+    {
+     "name": "Arapgir",
+     "population": 9917
+    },
+    {
+     "name": "Arguvan",
+     "population": 6859
+    },
+    {
+     "name": "Battalgazi",
+     "population": 274563
+    },
+    {
+     "name": "Darende",
+     "population": 24806
+    },
+    {
+     "name": "Doğanşehir",
+     "population": 36037
+    },
+    {
+     "name": "Doğanyol",
+     "population": 4002
+    },
+    {
+     "name": "Hekimhan",
+     "population": 17116
+    },
+    {
+     "name": "Kale",
+     "population": 7462
+    },
+    {
+     "name": "Kuluncak",
+     "population": 7414
+    },
+    {
+     "name": "Pütürge",
+     "population": 12372
+    },
+    {
+     "name": "Yazıhan",
+     "population": 13937
+    },
+    {
+     "name": "Yeşilyurt",
+     "population": 309890
+    }
+   ]
+  },
+  {
+   "name": "Manisa",
+   "districts": [
+    {
+     "name": "Ahmetli",
+     "population": 17612
+    },
+    {
+     "name": "Akhisar",
+     "population": 181472
+    },
+    {
+     "name": "Alaşehir",
+     "population": 104565
+    },
+    {
+     "name": "Demirci",
+     "population": 35629
+    },
+    {
+     "name": "Gölmarmara",
+     "population": 15140
+    },
+    {
+     "name": "Gördes",
+     "population": 25456
+    },
+    {
+     "name": "Kırkağaç",
+     "population": 37363
+    },
+    {
+     "name": "Köprübaşı",
+     "population": 12217
+    },
+    {
+     "name": "Kula",
+     "population": 43015
+    },
+    {
+     "name": "Salihli",
+     "population": 165007
+    },
+    {
+     "name": "Sarıgöl",
+     "population": 34786
+    },
+    {
+     "name": "Saruhanlı",
+     "population": 58475
+    },
+    {
+     "name": "Selendi",
+     "population": 18568
+    },
+    {
+     "name": "Soma",
+     "population": 110188
+    },
+    {
+     "name": "Şehzadeler",
+     "population": 168582
+    },
+    {
+     "name": "Turgutlu",
+     "population": 179326
+    },
+    {
+     "name": "Yunusemre",
+     "population": 270355
+    }
+   ]
+  },
+  {
+   "name": "Kahramanmaraş",
+   "districts": [
+    {
+     "name": "Afşin",
+     "population": 80124
+    },
+    {
+     "name": "Andırın",
+     "population": 31609
+    },
+    {
+     "name": "Çağlayancerit",
+     "population": 22440
+    },
+    {
+     "name": "Dulkadiroğlu",
+     "population": 213930
+    },
+    {
+     "name": "Ekinözü",
+     "population": 9896
+    },
+    {
+     "name": "Elbistan",
+     "population": 132036
+    },
+    {
+     "name": "Göksun",
+     "population": 49145
+    },
+    {
+     "name": "Nurhak",
+     "population": 11675
+    },
+    {
+     "name": "Onikişubat",
+     "population": 447591
+    },
+    {
+     "name": "Pazarcık",
+     "population": 66777
+    },
+    {
+     "name": "Türkoğlu",
+     "population": 81055
+    }
+   ]
+  },
+  {
+   "name": "Mardin",
+   "districts": [
+    {
+     "name": "Artuklu",
+     "population": 198718
+    },
+    {
+     "name": "Dargeçit",
+     "population": 26675
+    },
+    {
+     "name": "Derik",
+     "population": 61553
+    },
+    {
+     "name": "Kızıltepe",
+     "population": 275217
+    },
+    {
+     "name": "Mazıdağı",
+     "population": 37381
+    },
+    {
+     "name": "Midyat",
+     "population": 125791
+    },
+    {
+     "name": "Nusaybin",
+     "population": 119559
+    },
+    {
+     "name": "Ömerli",
+     "population": 14112
+    },
+    {
+     "name": "Savur",
+     "population": 23404
+    },
+    {
+     "name": "Yeşilli",
+     "population": 21166
+    }
+   ]
+  },
+  {
+   "name": "Muğla",
+   "districts": [
+    {
+     "name": "Bodrum",
+     "population": 207196
+    },
+    {
+     "name": "Dalaman",
+     "population": 53327
+    },
+    {
+     "name": "Datça",
+     "population": 26067
+    },
+    {
+     "name": "Fethiye",
+     "population": 187332
+    },
+    {
+     "name": "Kavaklıdere",
+     "population": 10854
+    },
+    {
+     "name": "Köyceğiz",
+     "population": 41810
+    },
+    {
+     "name": "Marmaris",
+     "population": 97373
+    },
+    {
+     "name": "Menteşe",
+     "population": 126288
+    },
+    {
+     "name": "Milas",
+     "population": 152275
+    },
+    {
+     "name": "Ortaca",
+     "population": 58704
+    },
+    {
+     "name": "Seydikemer",
+     "population": 65648
+    },
+    {
+     "name": "Ula",
+     "population": 27649
+    },
+    {
+     "name": "Yatağan",
+     "population": 45024
+    }
+   ]
+  },
+  {
+   "name": "Muş",
+   "districts": [
+    {
+     "name": "Bulanık",
+     "population": 68983
+    },
+    {
+     "name": "Hasköy",
+     "population": 27684
+    },
+    {
+     "name": "Korkut",
+     "population": 19251
+    },
+    {
+     "name": "Malazgirt",
+     "population": 40595
+    },
+    {
+     "name": "Merkez",
+     "population": 203810
+    },
+    {
+     "name": "Varto",
+     "population": 28804
+    }
+   ]
+  },
+  {
+   "name": "Nevşehir",
+   "districts": [
+    {
+     "name": "Acıgöl",
+     "population": 19430
+    },
+    {
+     "name": "Avanos",
+     "population": 32093
+    },
+    {
+     "name": "Derinkuyu",
+     "population": 21107
+    },
+    {
+     "name": "Gülşehir",
+     "population": 21173
+    },
+    {
+     "name": "Hacıbektaş",
+     "population": 10564
+    },
+    {
+     "name": "Kozaklı",
+     "population": 12678
+    },
+    {
+     "name": "Merkez",
+     "population": 163126
+    },
+    {
+     "name": "Ürgüp",
+     "population": 39979
+    }
+   ]
+  },
+  {
+   "name": "Niğde",
+   "districts": [
+    {
+     "name": "Altunhisar",
+     "population": 12004
+    },
+    {
+     "name": "Bor",
+     "population": 62594
+    },
+    {
+     "name": "Çamardı",
+     "population": 11631
+    },
+    {
+     "name": "Çiftlik",
+     "population": 25157
+    },
+    {
+     "name": "Merkez",
+     "population": 244326
+    },
+    {
+     "name": "Ulukışla",
+     "population": 18780
+    }
+   ]
+  },
+  {
+   "name": "Ordu",
+   "districts": [
+    {
+     "name": "Akkuş",
+     "population": 20465
+    },
+    {
+     "name": "Altınordu",
+     "population": 239714
+    },
+    {
+     "name": "Aybastı",
+     "population": 19784
+    },
+    {
+     "name": "Çamaş",
+     "population": 8407
+    },
+    {
+     "name": "Çatalpınar",
+     "population": 12888
+    },
+    {
+     "name": "Çaybaşı",
+     "population": 11656
+    },
+    {
+     "name": "Fatsa",
+     "population": 129844
+    },
+    {
+     "name": "Gölköy",
+     "population": 24780
+    },
+    {
+     "name": "Gülyalı",
+     "population": 8881
+    },
+    {
+     "name": "Gürgentepe",
+     "population": 12499
+    },
+    {
+     "name": "İkizce",
+     "population": 12537
+    },
+    {
+     "name": "Kabadüz",
+     "population": 6794
+    },
+    {
+     "name": "Kabataş",
+     "population": 9949
+    },
+    {
+     "name": "Korgan",
+     "population": 26428
+    },
+    {
+     "name": "Kumru",
+     "population": 27638
+    },
+    {
+     "name": "Mesudiye",
+     "population": 11829
+    },
+    {
+     "name": "Perşembe",
+     "population": 30053
+    },
+    {
+     "name": "Ulubey",
+     "population": 18027
+    },
+    {
+     "name": "Ünye",
+     "population": 135914
+    }
+   ]
+  },
+  {
+   "name": "Rize",
+   "districts": [
+    {
+     "name": "Ardeşen",
+     "population": 43519
+    },
+    {
+     "name": "Çamlıhemşin",
+     "population": 7051
+    },
+    {
+     "name": "Çayeli",
+     "population": 42032
+    },
+    {
+     "name": "Derepazarı",
+     "population": 6772
+    },
+    {
+     "name": "Fındıklı",
+     "population": 16388
+    },
+    {
+     "name": "Güneysu",
+     "population": 15013
+    },
+    {
+     "name": "Hemşin",
+     "population": 2299
+    },
+    {
+     "name": "İkizdere",
+     "population": 6287
+    },
+    {
+     "name": "İyidere",
+     "population": 8495
+    },
+    {
+     "name": "Kalkandere",
+     "population": 13350
+    },
+    {
+     "name": "Merkez",
+     "population": 153597
+    },
+    {
+     "name": "Pazar",
+     "population": 32144
+    }
+   ]
+  },
+  {
+   "name": "Sakarya",
+   "districts": [
+    {
+     "name": "Adapazarı",
+     "population": 284006
+    },
+    {
+     "name": "Akyazı",
+     "population": 99561
+    },
+    {
+     "name": "Arifiye",
+     "population": 55589
+    },
+    {
+     "name": "Erenler",
+     "population": 92549
+    },
+    {
+     "name": "Ferizli",
+     "population": 36015
+    },
+    {
+     "name": "Geyve",
+     "population": 51708
+    },
+    {
+     "name": "Hendek",
+     "population": 93990
+    },
+    {
+     "name": "Karapürçek",
+     "population": 13734
+    },
+    {
+     "name": "Karasu",
+     "population": 75887
+    },
+    {
+     "name": "Kaynarca",
+     "population": 25440
+    },
+    {
+     "name": "Kocaali",
+     "population": 24966
+    },
+    {
+     "name": "Pamukova",
+     "population": 31536
+    },
+    {
+     "name": "Sapanca",
+     "population": 47505
+    },
+    {
+     "name": "Serdivan",
+     "population": 168855
+    },
+    {
+     "name": "Söğütlü",
+     "population": 15288
+    },
+    {
+     "name": "Taraklı",
+     "population": 7064
+    }
+   ]
+  },
+  {
+   "name": "Samsun",
+   "districts": [
+    {
+     "name": "19 Mayıs",
+     "population": 28658
+    },
+    {
+     "name": "Alaçam",
+     "population": 24560
+    },
+    {
+     "name": "Asarcık",
+     "population": 15673
+    },
+    {
+     "name": "Atakum",
+     "population": 261809
+    },
+    {
+     "name": "Ayvacık",
+     "population": 18557
+    },
+    {
+     "name": "Bafra",
+     "population": 143387
+    },
+    {
+     "name": "Canik",
+     "population": 100247
+    },
+    {
+     "name": "Çarşamba",
+     "population": 143206
+    },
+    {
+     "name": "Havza",
+     "population": 38103
+    },
+    {
+     "name": "İlkadım",
+     "population": 330290
+    },
+    {
+     "name": "Kavak",
+     "population": 25370
+    },
+    {
+     "name": "Ladik",
+     "population": 15942
+    },
+    {
+     "name": "Salıpazarı",
+     "population": 19406
+    },
+    {
+     "name": "Tekkeköy",
+     "population": 59356
+    },
+    {
+     "name": "Terme",
+     "population": 71348
+    },
+    {
+     "name": "Vezirköprü",
+     "population": 87575
+    },
+    {
+     "name": "Yakakent",
+     "population": 8916
+    }
+   ]
+  },
+  {
+   "name": "Siirt",
+   "districts": [
+    {
+     "name": "Baykan",
+     "population": 23219
+    },
+    {
+     "name": "Eruh",
+     "population": 18339
+    },
+    {
+     "name": "Kurtalan",
+     "population": 60674
+    },
+    {
+     "name": "Merkez",
+     "population": 180837
+    },
+    {
+     "name": "Pervari",
+     "population": 26437
+    },
+    {
+     "name": "Şirvan",
+     "population": 18773
+    },
+    {
+     "name": "Tillo",
+     "population": 4090
+    }
+   ]
+  },
+  {
+   "name": "Sinop",
+   "districts": [
+    {
+     "name": "Ayancık",
+     "population": 23818
+    },
+    {
+     "name": "Boyabat",
+     "population": 44901
+    },
+    {
+     "name": "Dikmen",
+     "population": 4810
+    },
+    {
+     "name": "Durağan",
+     "population": 16788
+    },
+    {
+     "name": "Erfelek",
+     "population": 12565
+    },
+    {
+     "name": "Gerze",
+     "population": 30701
+    },
+    {
+     "name": "Merkez",
+     "population": 70311
+    },
+    {
+     "name": "Saraydüzü",
+     "population": 5656
+    },
+    {
+     "name": "Türkeli",
+     "population": 16298
+    }
+   ]
+  },
+  {
+   "name": "Sivas",
+   "districts": [
+    {
+     "name": "Akıncılar",
+     "population": 4641
+    },
+    {
+     "name": "Altınyayla",
+     "population": 8245
+    },
+    {
+     "name": "Divriği",
+     "population": 15657
+    },
+    {
+     "name": "Doğanşar",
+     "population": 2770
+    },
+    {
+     "name": "Gemerek",
+     "population": 21342
+    },
+    {
+     "name": "Gölova",
+     "population": 2998
+    },
+    {
+     "name": "Gürün",
+     "population": 17062
+    },
+    {
+     "name": "Hafik",
+     "population": 8950
+    },
+    {
+     "name": "İmranlı",
+     "population": 6788
+    },
+    {
+     "name": "Kangal",
+     "population": 19406
+    },
+    {
+     "name": "Koyulhisar",
+     "population": 11782
+    },
+    {
+     "name": "Merkez",
+     "population": 393912
+    },
+    {
+     "name": "Suşehri",
+     "population": 25056
+    },
+    {
+     "name": "Şarkışla",
+     "population": 37282
+    },
+    {
+     "name": "Ulaş",
+     "population": 7603
+    },
+    {
+     "name": "Yıldızeli",
+     "population": 26567
+    },
+    {
+     "name": "Zara",
+     "population": 21340
+    }
+   ]
+  },
+  {
+   "name": "Tekirdağ",
+   "districts": [
+    {
+     "name": "Çerkezköy",
+     "population": 223975
+    },
+    {
+     "name": "Çorlu",
+     "population": 306939
+    },
+    {
+     "name": "Ergene",
+     "population": 68648
+    },
+    {
+     "name": "Hayrabolu",
+     "population": 29706
+    },
+    {
+     "name": "Kapaklı",
+     "population": 152509
+    },
+    {
+     "name": "Malkara",
+     "population": 50123
+    },
+    {
+     "name": "Marmaraereğlisi",
+     "population": 33623
+    },
+    {
+     "name": "Muratlı",
+     "population": 30410
+    },
+    {
+     "name": "Saray",
+     "population": 51468
+    },
+    {
+     "name": "Süleymanpaşa",
+     "population": 226582
+    },
+    {
+     "name": "Şarköy",
+     "population": 34458
+    }
+   ]
+  },
+  {
+   "name": "Tokat",
+   "districts": [
+    {
+     "name": "Almus",
+     "population": 28135
+    },
+    {
+     "name": "Artova",
+     "population": 7589
+    },
+    {
+     "name": "Başçiftlik",
+     "population": 8445
+    },
+    {
+     "name": "Erbaa",
+     "population": 103409
+    },
+    {
+     "name": "Merkez",
+     "population": 201969
+    },
+    {
+     "name": "Niksar",
+     "population": 63594
+    },
+    {
+     "name": "Pazar",
+     "population": 12875
+    },
+    {
+     "name": "Reşadiye",
+     "population": 43108
+    },
+    {
+     "name": "Sulusaray",
+     "population": 6536
+    },
+    {
+     "name": "Turhal",
+     "population": 77707
+    },
+    {
+     "name": "Yeşilyurt",
+     "population": 8045
+    },
+    {
+     "name": "Zile",
+     "population": 52729
+    }
+   ]
+  },
+  {
+   "name": "Trabzon",
+   "districts": [
+    {
+     "name": "Akçaabat",
+     "population": 131162
+    },
+    {
+     "name": "Araklı",
+     "population": 49230
+    },
+    {
+     "name": "Arsin",
+     "population": 31493
+    },
+    {
+     "name": "Beşikdüzü",
+     "population": 23246
+    },
+    {
+     "name": "Çarşıbaşı",
+     "population": 15004
+    },
+    {
+     "name": "Çaykara",
+     "population": 12921
+    },
+    {
+     "name": "Dernekpazarı",
+     "population": 3717
+    },
+    {
+     "name": "Düzköy",
+     "population": 13105
+    },
+    {
+     "name": "Hayrat",
+     "population": 7410
+    },
+    {
+     "name": "Köprübaşı",
+     "population": 4271
+    },
+    {
+     "name": "Maçka",
+     "population": 24931
+    },
+    {
+     "name": "Of",
+     "population": 43591
+    },
+    {
+     "name": "Ortahisar",
+     "population": 335116
+    },
+    {
+     "name": "Sürmene",
+     "population": 25281
+    },
+    {
+     "name": "Şalpazarı",
+     "population": 10575
+    },
+    {
+     "name": "Tonya",
+     "population": 13332
+    },
+    {
+     "name": "Vakfıkebir",
+     "population": 27278
+    },
+    {
+     "name": "Yomra",
+     "population": 51660
+    }
+   ]
+  },
+  {
+   "name": "Tunceli",
+   "districts": [
+    {
+     "name": "Çemişgezek",
+     "population": 7505
+    },
+    {
+     "name": "Hozat",
+     "population": 5332
+    },
+    {
+     "name": "Mazgirt",
+     "population": 7257
+    },
+    {
+     "name": "Merkez",
+     "population": 41045
+    },
+    {
+     "name": "Nazımiye",
+     "population": 3095
+    },
+    {
+     "name": "Ovacık",
+     "population": 6700
+    },
+    {
+     "name": "Pertek",
+     "population": 10569
+    },
+    {
+     "name": "Pülümür",
+     "population": 3580
+    }
+   ]
+  },
+  {
+   "name": "Şanlıurfa",
+   "districts": [
+    {
+     "name": "Akçakale",
+     "population": 131351
+    },
+    {
+     "name": "Birecik",
+     "population": 91837
+    },
+    {
+     "name": "Bozova",
+     "population": 50534
+    },
+    {
+     "name": "Ceylanpınar",
+     "population": 93105
+    },
+    {
+     "name": "Eyyübiye",
+     "population": 414516
+    },
+    {
+     "name": "Halfeti",
+     "population": 41624
+    },
+    {
+     "name": "Haliliye",
+     "population": 395975
+    },
+    {
+     "name": "Harran",
+     "population": 101710
+    },
+    {
+     "name": "Hilvan",
+     "population": 41969
+    },
+    {
+     "name": "Karaköprü",
+     "population": 312031
+    },
+    {
+     "name": "Siverek",
+     "population": 277399
+    },
+    {
+     "name": "Suruç",
+     "population": 98022
+    },
+    {
+     "name": "Viranşehir",
+     "population": 215727
+    }
+   ]
+  },
+  {
+   "name": "Uşak",
+   "districts": [
+    {
+     "name": "Banaz",
+     "population": 34624
+    },
+    {
+     "name": "Eşme",
+     "population": 34444
+    },
+    {
+     "name": "Karahallı",
+     "population": 9408
+    },
+    {
+     "name": "Merkez",
+     "population": 265371
+    },
+    {
+     "name": "Sivaslı",
+     "population": 19193
+    },
+    {
+     "name": "Ulubey",
+     "population": 11365
+    }
+   ]
+  },
+  {
+   "name": "Van",
+   "districts": [
+    {
+     "name": "Bahçesaray",
+     "population": 11438
+    },
+    {
+     "name": "Başkale",
+     "population": 37568
+    },
+    {
+     "name": "Çaldıran",
+     "population": 50170
+    },
+    {
+     "name": "Çatak",
+     "population": 16361
+    },
+    {
+     "name": "Edremit",
+     "population": 132309
+    },
+    {
+     "name": "Erciş",
+     "population": 169040
+    },
+    {
+     "name": "Gevaş",
+     "population": 26253
+    },
+    {
+     "name": "Gürpınar",
+     "population": 28505
+    },
+    {
+     "name": "İpekyolu",
+     "population": 362816
+    },
+    {
+     "name": "Muradiye",
+     "population": 41402
+    },
+    {
+     "name": "Özalp",
+     "population": 51357
+    },
+    {
+     "name": "Saray",
+     "population": 17036
+    },
+    {
+     "name": "Tuşba",
+     "population": 167758
+    }
+   ]
+  },
+  {
+   "name": "Yozgat",
+   "districts": [
+    {
+     "name": "Akdağmadeni",
+     "population": 39642
+    },
+    {
+     "name": "Aydıncık",
+     "population": 9317
+    },
+    {
+     "name": "Boğazlıyan",
+     "population": 35316
+    },
+    {
+     "name": "Çandır",
+     "population": 4360
+    },
+    {
+     "name": "Çayıralan",
+     "population": 11777
+    },
+    {
+     "name": "Çekerek",
+     "population": 18426
+    },
+    {
+     "name": "Kadışehri",
+     "population": 9854
+    },
+    {
+     "name": "Merkez",
+     "population": 109042
+    },
+    {
+     "name": "Saraykent",
+     "population": 12605
+    },
+    {
+     "name": "Sarıkaya",
+     "population": 30785
+    },
+    {
+     "name": "Sorgun",
+     "population": 80068
+    },
+    {
+     "name": "Şefaatli",
+     "population": 14008
+    },
+    {
+     "name": "Yenifakılı",
+     "population": 5008
+    },
+    {
+     "name": "Yerköy",
+     "population": 33000
+    }
+   ]
+  },
+  {
+   "name": "Zonguldak",
+   "districts": [
+    {
+     "name": "Alaplı",
+     "population": 43217
+    },
+    {
+     "name": "Çaycuma",
+     "population": 91796
+    },
+    {
+     "name": "Devrek",
+     "population": 56900
+    },
+    {
+     "name": "Ereğli",
+     "population": 173884
+    },
+    {
+     "name": "Gökçebey",
+     "population": 21070
+    },
+    {
+     "name": "Kilimli",
+     "population": 32441
+    },
+    {
+     "name": "Kozlu",
+     "population": 50616
+    },
+    {
+     "name": "Merkez",
+     "population": 115279
+    }
+   ]
+  },
+  {
+   "name": "Aksaray",
+   "districts": [
+    {
+     "name": "Ağaçören",
+     "population": 7480
+    },
+    {
+     "name": "Eskil",
+     "population": 27946
+    },
+    {
+     "name": "Gülağaç",
+     "population": 19099
+    },
+    {
+     "name": "Güzelyurt",
+     "population": 10419
+    },
+    {
+     "name": "Merkez",
+     "population": 327575
+    },
+    {
+     "name": "Ortaköy",
+     "population": 31089
+    },
+    {
+     "name": "Sarıyahşi",
+     "population": 4717
+    },
+    {
+     "name": "Sultanhanı",
+     "population": 12811
+    }
+   ]
+  },
+  {
+   "name": "Bayburt",
+   "districts": [
+    {
+     "name": "Aydıntepe",
+     "population": 5982
+    },
+    {
+     "name": "Demirözü",
+     "population": 8139
+    },
+    {
+     "name": "Merkez",
+     "population": 68715
+    }
+   ]
+  },
+  {
+   "name": "Karaman",
+   "districts": [
+    {
+     "name": "Ayrancı",
+     "population": 7127
+    },
+    {
+     "name": "Başyayla",
+     "population": 3353
+    },
+    {
+     "name": "Ermenek",
+     "population": 27629
+    },
+    {
+     "name": "Kazımkarabekir",
+     "population": 4679
+    },
+    {
+     "name": "Merkez",
+     "population": 207973
+    },
+    {
+     "name": "Sarıveliler",
+     "population": 11594
+    }
+   ]
+  },
+  {
+   "name": "Kırıkkale",
+   "districts": [
+    {
+     "name": "Bahşılı",
+     "population": 7353
+    },
+    {
+     "name": "Balışeyh",
+     "population": 5888
+    },
+    {
+     "name": "Çelebi",
+     "population": 2587
+    },
+    {
+     "name": "Delice",
+     "population": 10577
+    },
+    {
+     "name": "Karakeçili",
+     "population": 3062
+    },
+    {
+     "name": "Keskin",
+     "population": 15841
+    },
+    {
+     "name": "Merkez",
+     "population": 192821
+    },
+    {
+     "name": "Sulakyurt",
+     "population": 5564
+    },
+    {
+     "name": "Yahşihan",
+     "population": 39137
+    }
+   ]
+  },
+  {
+   "name": "Batman",
+   "districts": [
+    {
+     "name": "Beşiri",
+     "population": 31864
+    },
+    {
+     "name": "Gercüş",
+     "population": 18894
+    },
+    {
+     "name": "Hasankeyf",
+     "population": 7152
+    },
+    {
+     "name": "Kozluk",
+     "population": 58781
+    },
+    {
+     "name": "Merkez",
+     "population": 517785
+    },
+    {
+     "name": "Sason",
+     "population": 28150
+    }
+   ]
+  },
+  {
+   "name": "Şırnak",
+   "districts": [
+    {
+     "name": "Beytüşşebap",
+     "population": 13971
+    },
+    {
+     "name": "Cizre",
+     "population": 166290
+    },
+    {
+     "name": "Güçlükonak",
+     "population": 12562
+    },
+    {
+     "name": "İdil",
+     "population": 76548
+    },
+    {
+     "name": "Merkez",
+     "population": 105697
+    },
+    {
+     "name": "Silopi",
+     "population": 152610
+    },
+    {
+     "name": "Uludere",
+     "population": 45988
+    }
+   ]
+  },
+  {
+   "name": "Bartın",
+   "districts": [
+    {
+     "name": "Amasra",
+     "population": 13705
+    },
+    {
+     "name": "Kurucaşile",
+     "population": 6316
+    },
+    {
+     "name": "Merkez",
+     "population": 163766
+    },
+    {
+     "name": "Ulus",
+     "population": 22876
+    }
+   ]
+  },
+  {
+   "name": "Ardahan",
+   "districts": [
+    {
+     "name": "Çıldır",
+     "population": 8048
+    },
+    {
+     "name": "Damal",
+     "population": 4526
+    },
+    {
+     "name": "Göle",
+     "population": 22038
+    },
+    {
+     "name": "Hanak",
+     "population": 7668
+    },
+    {
+     "name": "Merkez",
+     "population": 42136
+    },
+    {
+     "name": "Posof",
+     "population": 5976
+    }
+   ]
+  },
+  {
+   "name": "Iğdır",
+   "districts": [
+    {
+     "name": "Aralık",
+     "population": 18477
+    },
+    {
+     "name": "Karakoyunlu",
+     "population": 12614
+    },
+    {
+     "name": "Merkez",
+     "population": 152455
+    },
+    {
+     "name": "Tuzluca",
+     "population": 21525
+    }
+   ]
+  },
+  {
+   "name": "Yalova",
+   "districts": [
+    {
+     "name": "Altınova",
+     "population": 35490
+    },
+    {
+     "name": "Armutlu",
+     "population": 11984
+    },
+    {
+     "name": "Çınarcık",
+     "population": 40174
+    },
+    {
+     "name": "Çiftlikköy",
+     "population": 58589
+    },
+    {
+     "name": "Merkez",
+     "population": 157901
+    },
+    {
+     "name": "Termal",
+     "population": 7497
+    }
+   ]
+  },
+  {
+   "name": "Karabük",
+   "districts": [
+    {
+     "name": "Eflani",
+     "population": 8663
+    },
+    {
+     "name": "Eskipazar",
+     "population": 12570
+    },
+    {
+     "name": "Merkez",
+     "population": 135819
+    },
+    {
+     "name": "Ovacık",
+     "population": 3986
+    },
+    {
+     "name": "Safranbolu",
+     "population": 69592
+    },
+    {
+     "name": "Yenice",
+     "population": 18984
+    }
+   ]
+  },
+  {
+   "name": "Kilis",
+   "districts": [
+    {
+     "name": "Elbeyli",
+     "population": 5273
+    },
+    {
+     "name": "Merkez",
+     "population": 135430
+    },
+    {
+     "name": "Musabeyli",
+     "population": 11692
+    },
+    {
+     "name": "Polateli",
+     "population": 4968
+    }
+   ]
+  },
+  {
+   "name": "Osmaniye",
+   "districts": [
+    {
+     "name": "Bahçe",
+     "population": 22989
+    },
+    {
+     "name": "Düziçi",
+     "population": 88274
+    },
+    {
+     "name": "Hasanbeyli",
+     "population": 4914
+    },
+    {
+     "name": "Kadirli",
+     "population": 127644
+    },
+    {
+     "name": "Merkez",
+     "population": 284895
+    },
+    {
+     "name": "Sumbas",
+     "population": 13049
+    },
+    {
+     "name": "Toprakkale",
+     "population": 22358
+    }
+   ]
+  },
+  {
+   "name": "Düzce",
+   "districts": [
+    {
+     "name": "Akçakoca",
+     "population": 41134
+    },
+    {
+     "name": "Cumayeri",
+     "population": 16162
+    },
+    {
+     "name": "Çilimli",
+     "population": 19022
+    },
+    {
+     "name": "Gölyaka",
+     "population": 20840
+    },
+    {
+     "name": "Gümüşova",
+     "population": 17344
+    },
+    {
+     "name": "Kaynaşlı",
+     "population": 20379
+    },
+    {
+     "name": "Merkez",
+     "population": 267249
+    },
+    {
+     "name": "Yığılca",
+     "population": 13492
+    }
+   ]
+  }
+ ],
+ "aliases": {
+  "Maraş": "Kahramanmaraş",
+  "Antep": "Gaziantep",
+  "Urfa": "Şanlıurfa",
+  "Afyon": "Afyonkarahisar",
+  "İçel": "Mersin"
+ },
+ "ambiguous_districts": {
+  "Gölbaşı": [
+   "Adıyaman",
+   "Ankara"
+  ],
+  "Merkez": [
+   "Adıyaman",
+   "Afyonkarahisar",
+   "Aksaray",
+   "Amasya",
+   "Ardahan",
+   "Artvin",
+   "Ağrı",
+   "Bartın",
+   "Batman",
+   "Bayburt",
+   "Bilecik",
+   "Bingöl",
+   "Bitlis",
+   "Bolu",
+   "Burdur",
+   "Düzce",
+   "Edirne",
+   "Elazığ",
+   "Erzincan",
+   "Giresun",
+   "Gümüşhane",
+   "Hakkari",
+   "Isparta",
+   "Iğdır",
+   "Karabük",
+   "Karaman",
+   "Kars",
+   "Kastamonu",
+   "Kilis",
+   "Kütahya",
+   "Kırklareli",
+   "Kırıkkale",
+   "Kırşehir",
+   "Muş",
+   "Nevşehir",
+   "Niğde",
+   "Osmaniye",
+   "Rize",
+   "Siirt",
+   "Sinop",
+   "Sivas",
+   "Tokat",
+   "Tunceli",
+   "Uşak",
+   "Yalova",
+   "Yozgat",
+   "Zonguldak",
+   "Çanakkale",
+   "Çankırı",
+   "Çorum",
+   "Şırnak"
+  ],
+  "Bayat": [
+   "Afyonkarahisar",
+   "Çorum"
+  ],
+  "Aksu": [
+   "Antalya",
+   "Isparta"
+  ],
+  "Kemer": [
+   "Antalya",
+   "Burdur"
+  ],
+  "Kemalpaşa": [
+   "Artvin",
+   "İzmir"
+  ],
+  "Yenipazar": [
+   "Aydın",
+   "Bilecik"
+  ],
+  "Edremit": [
+   "Balıkesir",
+   "Van"
+  ],
+  "Gönen": [
+   "Balıkesir",
+   "Isparta"
+  ],
+  "Altınyayla": [
+   "Burdur",
+   "Sivas"
+  ],
+  "Yenişehir": [
+   "Bursa",
+   "Diyarbakır",
+   "Mersin"
+  ],
+  "Ayvacık": [
+   "Samsun",
+   "Çanakkale"
+  ],
+  "Yenice": [
+   "Karabük",
+   "Çanakkale"
+  ],
+  "Ortaköy": [
+   "Aksaray",
+   "Çorum"
+  ],
+  "Bozkurt": [
+   "Denizli",
+   "Kastamonu"
+  ],
+  "Kale": [
+   "Denizli",
+   "Malatya"
+  ],
+  "Aydıncık": [
+   "Mersin",
+   "Yozgat"
+  ],
+  "Pınarbaşı": [
+   "Kastamonu",
+   "Kayseri"
+  ],
+  "Ereğli": [
+   "Konya",
+   "Zonguldak"
+  ],
+  "Yeşilyurt": [
+   "Malatya",
+   "Tokat"
+  ],
+  "Köprübaşı": [
+   "Manisa",
+   "Trabzon"
+  ],
+  "Ulubey": [
+   "Ordu",
+   "Uşak"
+  ],
+  "Pazar": [
+   "Rize",
+   "Tokat"
+  ],
+  "Saray": [
+   "Tekirdağ",
+   "Van"
+  ],
+  "Ovacık": [
+   "Karabük",
+   "Tunceli"
+  ]
+ },
+ "common_word_names": [
+  "Aralık",
+  "Araç",
+  "Bahçe",
+  "Bodrum",
+  "Genç",
+  "Güce",
+  "Güney",
+  "Han",
+  "Havza",
+  "Hendek",
+  "Kale",
+  "Kemer",
+  "Keskin",
+  "Kiraz",
+  "Kumlu",
+  "Maden",
+  "Merkez",
+  "Of",
+  "Olur",
+  "Orta",
+  "Pazar",
+  "Sarıçam",
+  "Sur",
+  "Termal",
+  "Ula",
+  "Yapraklı",
+  "Yıldırım",
+  "Çay",
+  "Çeşme",
+  "Çiftlik"
+ ]
+}

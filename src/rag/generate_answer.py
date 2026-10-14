@@ -24,8 +24,10 @@ from .answerability import DEFAULT_GATE_VERSION, GATE_PROMPTS, REFUSAL_ANSWER, c
 from .clarification import suggest_clarifications
 from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
 from .llm_query_repair import repair_query
+from .location import Location, detect_location, has_regional_plan
 from .prompt import SYSTEM_PROMPT, build_user_prompt
 from .query_normalization import normalize_query as normalize_question_text
+from .regional_retrieval import retrieve_enhanced
 
 
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
@@ -34,6 +36,8 @@ CLI_GATE_VERSION = "v1"  # switch to "v2" only after it passes the held-out eval
 CLI_LLM_REPAIR = True  # enabled after query_typo_eval_v2 (fix 10/15, keep 8/8)
 # Encoding-repaired, E5-window-sized chunks; holdout Hit@5 20/30 -> 26/30 vs mobile_v2 (LLM judge).
 CLI_INDEX_DIR = Path("data/indexes/mobile_v4")
+NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
+                         "cevap genel AFAD bilgilerine dayanmaktadır.")
 REFUSAL_HINT = (
     "İpucu: Sorunuzu daha açık yazmayı deneyin; örneğin durumu ('deprem sırasında', "
     "'deprem sonrasında', 'enkaz altındaysam') ve ne yapmak istediğinizi belirtin."
@@ -78,6 +82,24 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=True,
         help="When the gate refuses, offer 'did you mean…?' questions for the user to choose from.",
+    )
+    parser.add_argument(
+        "--regional",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Region-aware retrieval when the question names a province or district.",
+    )
+    parser.add_argument(
+        "--lexical",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Add a BM25 (F5-stemmed) candidate pool to the dense pool before reranking.",
+    )
+    parser.add_argument(
+        "--llm-rerank",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Reorder the cross-encoder top-20 with the LLM before taking the Top-5.",
     )
     return parser.parse_args()
 
@@ -164,6 +186,10 @@ def generate_answer(
     gate_version: str = DEFAULT_GATE_VERSION,
     llm_repair: bool = False,
     index_dir: Path = DEFAULT_INDEX_DIR,
+    regional: bool = False,
+    location: Location | None = None,
+    lexical: bool = False,
+    llm_rerank: bool = False,
 ) -> dict[str, Any]:
     """Generate an answer with Python-owned retrieval source metadata.
 
@@ -193,7 +219,30 @@ def generate_answer(
             normalization_fields["normalized_question"] = normalized_question
             normalization_fields["query_repair"] = repair
 
-    chunks = retrieve_top_chunks(normalized_question, index_dir=index_dir, allow_model_download=allow_model_download)
+    if regional and location is None:
+        location = detect_location(normalized_question)
+    location_for_search = location if regional and location is not None and not location.is_ambiguous else None
+    if llm_rerank and client is None:
+        load_environment()
+        model = openai_model or os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
+        client = load_openai_client()
+    if location_for_search is not None or lexical or llm_rerank:
+        index, metadata, embedding_model, reranker = load_retrieval_components(
+            str(index_dir), DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE, DEFAULT_MODEL_NAME, DEFAULT_RERANKER_MODEL,
+            allow_model_download,
+        )
+        chunks = retrieve_enhanced(normalized_question, location_for_search, index, metadata, embedding_model, reranker,
+                                   top_k=DEFAULT_RERANK_TOP_K, lexical=lexical,
+                                   llm_reranker=(client, model) if llm_rerank else None)
+    else:
+        chunks = retrieve_top_chunks(normalized_question, index_dir=index_dir, allow_model_download=allow_model_download)
+    if regional:
+        normalization_fields["location"] = None if location is None else {
+            "province": location.province,
+            "district": location.district,
+            "ambiguous_provinces": list(location.ambiguous_provinces),
+            "has_regional_plan": has_regional_plan(location.province),
+        }
     formatted = format_context(chunks)
     if client is None:
         load_environment()
@@ -240,7 +289,8 @@ def main() -> None:
     if not question:
         raise SystemExit("Soru boş olamaz.")
 
-    result = answer_for_cli(question, args)
+    location = choose_location(question) if args.regional else None
+    result = answer_for_cli(question, args, location)
     print_result(result)
     if is_answerable(result["answerability"]["label"]) or not args.clarify:
         if not is_answerable(result["answerability"]["label"]):
@@ -276,7 +326,22 @@ def main() -> None:
     print_result(answerable[int(choice) - 1][1])
 
 
-def answer_for_cli(question: str, args: argparse.Namespace) -> dict[str, Any]:
+def choose_location(question: str) -> Location | None:
+    """Ask which province is meant when a district name exists in several provinces."""
+    location = detect_location(question)
+    if location is None or not location.is_ambiguous:
+        return location
+    print(f"'{location.district}' adında birden fazla ilçe var. Hangisini kastediyorsunuz?")
+    for number, province in enumerate(location.ambiguous_provinces, start=1):
+        print(f"  {number}) {location.district} ({province})")
+    choice = input(f"Seçiminiz (1-{len(location.ambiguous_provinces)}, geçmek için Enter): ").strip()
+    if choice.isdigit() and 1 <= int(choice) <= len(location.ambiguous_provinces):
+        province = location.ambiguous_provinces[int(choice) - 1]
+        return Location(province=province, district=location.district, matched_text=location.matched_text)
+    return location
+
+
+def answer_for_cli(question: str, args: argparse.Namespace, location: Location | None = None) -> dict[str, Any]:
     return generate_answer(
         question,
         openai_model=args.openai_model,
@@ -286,6 +351,10 @@ def answer_for_cli(question: str, args: argparse.Namespace) -> dict[str, Any]:
         gate_version=args.gate_version,
         llm_repair=args.llm_repair,
         index_dir=args.index_dir,
+        regional=args.regional,
+        location=location,
+        lexical=args.lexical,
+        llm_rerank=args.llm_rerank,
     )
 
 
@@ -301,10 +370,15 @@ def print_result(result: dict[str, Any]) -> None:
     print("")
     print("DARG:")
     print(result["answer"])
+    location = result.get("location") or {}
+    if location.get("province") and not location.get("has_regional_plan"):
+        print("")
+        print(NO_REGIONAL_PLAN_NOTE.format(province=location["province"]))
     print("")
     print("Kaynaklar:")
     source_text = format_sources_for_cli(result["sources"])
     print(source_text if source_text else "Cevapta kaynak referansı bulunmadı.")
+
 
 if __name__ == "__main__":
     main()

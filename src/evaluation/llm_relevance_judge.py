@@ -18,6 +18,7 @@ import json
 import os
 import re
 import sys
+import time
 from pathlib import Path
 from typing import Any
 
@@ -69,17 +70,28 @@ class RelevanceJudge:
                     row = json.loads(line)
                     self.cache[row["key"]] = row
 
+    def _call_with_retry(self, question: str, passage: str, attempts: int = 3) -> Any:
+        """Retry transient connection/rate-limit errors so long evaluations are not lost."""
+        from openai import APIConnectionError, APITimeoutError, RateLimitError
+
+        for attempt in range(1, attempts + 1):
+            try:
+                return self.client.responses.create(
+                    model=self.model,
+                    instructions=JUDGE_SYSTEM_PROMPT,
+                    input=f"Soru:\n{question}\n\nMetin parçası:\n{passage}",
+                    max_output_tokens=80,
+                    temperature=0,
+                )
+            except (APIConnectionError, APITimeoutError, RateLimitError):
+                if attempt == attempts:
+                    raise
+                time.sleep(5 * attempt)
+
     def judge(self, question: str, passage: str) -> int:
         key = cache_key(question, passage, self.model)
         if key not in self.cache:
-            response = self.client.responses.create(
-                model=self.model,
-                instructions=JUDGE_SYSTEM_PROMPT,
-                input=f"Soru:\n{question}\n\nMetin parçası:\n{passage}",
-                max_output_tokens=80,
-                temperature=0,
-            )
-            raw = extract_response_text(response)
+            raw = extract_response_text(self._call_with_retry(question, passage))
             match = re.search(r"\{.*\}", raw, re.DOTALL)
             try:
                 payload = json.loads(match.group()) if match else {}
