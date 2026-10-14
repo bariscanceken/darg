@@ -22,6 +22,7 @@ from typing import Any
 from src.rag.generate_answer import DEFAULT_OPENAI_MODEL, load_environment, load_openai_client, load_retrieval_components
 from src.rag.location import detect_location
 from src.rag.regional_retrieval import retrieve_enhanced
+from src.rag.source_routing import classify_question, policy_for
 from src.retrieval.evaluate_holdout import HOLDOUT_QUESTIONS
 from src.retrieval.evaluate_reranked_v2 import DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE
 from src.retrieval.rerank import DEFAULT_RERANKER_MODEL
@@ -31,11 +32,12 @@ from .llm_relevance_judge import RelevanceJudge
 
 
 INDEX_DIR = "data/indexes/mobile_v4"
+# Run 2 (retrieval_strategies_run2_*): A, E (BM25-10), F (BM25-10 + LLM), G (BM25-30 + LLM).
+# Run 3 (this configuration): source-type routing on top of G.
 STRATEGIES = {
     "A_baseline": {"lexical": False},
-    "E_bm25_10": {"lexical": True, "bm25_top_k": 10},
-    "F_bm25_10_llm": {"lexical": True, "bm25_top_k": 10, "llm": True},
     "G_bm25_30_llm": {"lexical": True, "bm25_top_k": 30, "llm": True},
+    "H_G_routing": {"lexical": True, "bm25_top_k": 30, "llm": True, "routing": True},
 }
 RESULTS_FILE = Path("data/evaluation/retrieval_strategies_results.jsonl")
 SUMMARY_FILE = Path("data/evaluation/retrieval_strategies_summary.txt")
@@ -68,8 +70,9 @@ def main() -> None:
             for name, options in STRATEGIES.items():
                 opts = dict(options)
                 use_llm = opts.pop("llm", False)
+                policy = policy_for(classify_question(question, *llm)) if opts.pop("routing", False) else None
                 top = retrieve_enhanced(question, location, index, metadata, embedding_model, reranker, 5,
-                                        llm_reranker=llm if use_llm else None, **opts)
+                                        llm_reranker=llm if use_llm else None, policy=policy, **opts)
                 labels = [judge.judge(question, str(chunk["text"])) for chunk in top]
                 rows.append({"set": set_name, "question": question, "strategy": name, "labels": labels,
                              "sources": [f"{c['source_file']} p{c['page_start']}" for c in top]})

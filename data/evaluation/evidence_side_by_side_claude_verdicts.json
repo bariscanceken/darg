@@ -1,0 +1,17 @@
+{
+ "assessor": "Claude (blind to which side was which while judging; not a human evaluation)",
+ "verdicts": {
+  "1": "A",
+  "2": "B",
+  "3": "B",
+  "4": "B",
+  "5": "A",
+  "6": "B",
+  "7": "A",
+  "8": "E",
+  "9": "A",
+  "10": "E",
+  "11": "A",
+  "12": "A"
+ }
+}

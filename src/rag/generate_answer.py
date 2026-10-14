@@ -30,11 +30,13 @@ from .answerability import (
 )
 from .clarification import suggest_clarifications
 from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
+from .evidence import ANSWER_FROM_EVIDENCE_INSTRUCTIONS, format_evidence, select_evidence
 from .llm_query_repair import repair_query
 from .location import Location, detect_location, has_regional_plan
 from .prompt import DEFAULT_GENERATION_VERSION, GENERATION_PROMPTS, build_user_prompt
 from .query_normalization import normalize_query as normalize_question_text
 from .regional_retrieval import retrieve_enhanced
+from .source_routing import classify_question, policy_for
 
 
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
@@ -45,6 +47,11 @@ CLI_LLM_REPAIR = True  # enabled after query_typo_eval_v2 (fix 10/15, keep 8/8)
 CLI_INDEX_DIR = Path("data/indexes/mobile_v4")
 # Faithfulness pilot (20 questions, gpt-4o judge): answers with a critical issue 5/16 (v1) -> 1/14 (v2).
 CLI_GENERATION_VERSION = "v2"
+# Source-type routing: retrieval Hit@5 67 vs 68/74 (losses were past-event reports for behaviour questions);
+# blind side-by-side (12 user-flagged questions, assessed by Claude): better 5, worse 1, equal 6.
+CLI_SOURCE_ROUTING = True
+# Evidence-first answers on top of routing (same 12 questions): better 7, worse 3, equal 2; answers can be terse.
+CLI_EVIDENCE_FIRST = True
 CLI_GATE_VOTES = 1  # set after the full faithfulness / false-accept measurement
 NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
                          "cevap genel AFAD bilgilerine dayanmaktadır.")
@@ -110,6 +117,18 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=True,
         help="Reorder the cross-encoder top-20 with the LLM before taking the Top-5.",
+    )
+    parser.add_argument(
+        "--source-routing",
+        action=argparse.BooleanOptionalAction,
+        default=CLI_SOURCE_ROUTING,
+        help="Classify the question type and restrict retrieval to suitable source types.",
+    )
+    parser.add_argument(
+        "--evidence-first",
+        action=argparse.BooleanOptionalAction,
+        default=CLI_EVIDENCE_FIRST,
+        help="Select verbatim evidence first and write the answer only from it.",
     )
     parser.add_argument(
         "--gate-votes",
@@ -216,6 +235,8 @@ def generate_answer(
     generation_version: str = DEFAULT_GENERATION_VERSION,
     generation_model: str | None = None,
     gate_votes: int = 1,
+    source_routing: bool = False,
+    evidence_first: bool = False,
 ) -> dict[str, Any]:
     """Generate an answer with Python-owned retrieval source metadata.
 
@@ -248,18 +269,23 @@ def generate_answer(
     if regional and location is None:
         location = detect_location(normalized_question)
     location_for_search = location if regional and location is not None and not location.is_ambiguous else None
-    if llm_rerank and client is None:
+    if (llm_rerank or source_routing) and client is None:
         load_environment()
         model = openai_model or os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
         client = load_openai_client()
-    if location_for_search is not None or lexical or llm_rerank:
+    policy = None
+    if source_routing:
+        question_type = classify_question(normalized_question, client, model)
+        policy = policy_for(question_type)
+        normalization_fields["question_type"] = question_type
+    if location_for_search is not None or lexical or llm_rerank or source_routing:
         index, metadata, embedding_model, reranker = load_retrieval_components(
             str(index_dir), DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE, DEFAULT_MODEL_NAME, DEFAULT_RERANKER_MODEL,
             allow_model_download,
         )
         chunks = retrieve_enhanced(normalized_question, location_for_search, index, metadata, embedding_model, reranker,
                                    top_k=DEFAULT_RERANK_TOP_K, lexical=lexical,
-                                   llm_reranker=(client, model) if llm_rerank else None)
+                                   llm_reranker=(client, model) if llm_rerank else None, policy=policy)
     else:
         chunks = retrieve_top_chunks(normalized_question, index_dir=index_dir, allow_model_download=allow_model_download)
     if regional:
@@ -291,10 +317,27 @@ def generate_answer(
             **normalization_fields,
         }
 
+    instructions = GENERATION_PROMPTS[generation_version]
+    generation_context = formatted["context"]
+    if evidence_first:
+        selection = select_evidence(normalized_question, formatted["context"], chunks, client, model)
+        normalization_fields["evidence"] = selection
+        if not selection["evidence"]:
+            return {
+                "question": question,
+                "answer": REFUSAL_ANSWER,
+                "sources": [],
+                "retrieved_sources": formatted["sources"],
+                "answerability": answerability,
+                **normalization_fields,
+            }
+        instructions = instructions + ANSWER_FROM_EVIDENCE_INSTRUCTIONS
+        generation_context = "Seçilmiş kanıtlar:\n" + format_evidence(selection["evidence"])
+
     response = client.responses.create(
         model=generation_model or model,
-        instructions=GENERATION_PROMPTS[generation_version],
-        input=build_user_prompt(normalized_question, formatted["context"]),
+        instructions=instructions,
+        input=build_user_prompt(normalized_question, generation_context),
         max_output_tokens=max_output_tokens,
         temperature=0.2,
     )
@@ -389,6 +432,8 @@ def answer_for_cli(question: str, args: argparse.Namespace, location: Location |
         llm_rerank=args.llm_rerank,
         generation_version=args.generation_version,
         gate_votes=args.gate_votes,
+        source_routing=args.source_routing,
+        evidence_first=args.evidence_first,
     )
 
 

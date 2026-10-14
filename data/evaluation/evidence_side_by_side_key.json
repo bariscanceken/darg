@@ -1,0 +1,349 @@
+[
+ {
+  "n": 1,
+  "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+  "evidence_is": "A",
+  "evidence_answer": "Evet, yakınlarınıza ulaşmak için arama yerine mesaj kullanmak daha uygun olabilir. Çünkü aynı anda herkesin cep telefonuyla arama yapması şebeke kapasitesini aşarak kilitlenmesine neden olabilir. Bu tür durumlarda SMS ile iletişim kurmak, afetten etkilenen bölgenin dışına ulaşmak için daha kolaydır [Kaynak 1].",
+  "routed_answer": "Evet, yakınlarınıza ulaşmak için mesaj kullanmak daha uygun olabilir. Deprem sonrası cep telefonları çalışabilir, ancak aynı anda birçok kişi arama yapmaya çalıştığında şebeke kapasitesi aşılabilir ve iletişim zorlaşabilir. Bu durumda, SMS yoluyla iletişim kurmak, afetten etkilenen bölgenin dışına ulaşmak için daha etkili bir yöntem olabilir. Ayrıca, bölge dışından bir bağlantı kişisi belirleyerek, bu kişiyle SMS yoluyla bilgi alışverişi yapmak da önerilmektedir. Bu sayede, iletişim yükü azaltılabilir ve daha düzenli bir bilgi akışı sağlanabilir. [Kaynak 1][Kaynak 2][Kaynak 3]",
+  "evidence": {
+   "question_situation": "deprem sonrasında",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Fakat aynı anda herkes cep telefonuyla yakınlarını aramaya başladığında kapasite aşılacak ve şebeke kilitlenecektir. Bu tür zamanlarda SMS kanalıyla, afetten etkilenen bölgenin dışına ulaşmak daha kolay olabilir.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 1,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 2,
+  "question": "Deprem sonrası Ceyhan'da güvenli bir yere nasıl geçerim?",
+  "evidence_is": "B",
+  "evidence_answer": "Deprem sonrası Ceyhan'da güvenli bir yere geçmek için şu adımları izleyin:\n\n1. **Durum Değerlendirmesi**: Afet sonrası durumunuzu sürekli olarak değerlendirin.\n2. **Yerel Yöneticilerin Talimatları**: Basın ve yayın araçlarını takip ederek yerel yöneticilerin talimatlarını dinleyin.\n3. **Güvenli Yolları Belirleme**: Eve veya daha önce Aile Afet Planı’nda belirlemiş olduğunuz toplanma alanlarına gidebileceğiniz güvenli yolları belirleyin [Kaynak 1].",
+  "routed_answer": "Deprem sonrası Ceyhan'da güvenli bir yere geçmek için aşağıdaki adımları izleyebilirsiniz:\n\n1. **Durumu Değerlendirin**: Bulunduğunuz binada yapısal bir hasar yoksa içeride kalmak güvenlidir. Ancak, bina güvenli değilse veya çevrede yangın, sel gibi tehlikeler varsa tahliye olmalısınız.\n\n2. **Aile Afet Planı**: Aile üyelerinizle birlikte, daha önce belirlediğiniz toplanma alanına gitmeyi değerlendirin. Bu alanı Aile Afet Planı'nda önceden belirlemiş olmalısınız.\n\n3. **Tahliye Yollarını Belirleyin**: Yerel yöneticilerin talimatlarını takip edin ve güvenli yolları belirleyin. Tavsiye edilen tahliye yollarını kullanın; kısa yolları denemekten kaçının.\n\n4. **Araç Kullanımı**: Eğer aracınız varsa, deposunun en az yarı dolu olmasına dikkat edin. Araçla giderken diğer araçları riske atmayacak şekilde kullanın.\n\n5. **Bilgilendirme**: Kapınıza ne zaman ayrıldığınızı, hangi yoldan ve nereye gittiğinizi belirten bir not asın. Ayrıca, gideceğiniz yer ve yol hakkında bir bağlantı kişisine bilgi verin.\n\n6. **Güvenlik Önlemleri**: Evinizin kapısını kilitleyin ve Acil Durum Çantanızı yanınıza alın. Yaya olarak gidecekseniz uzun kollu giysiler ve kalın ayakkabılar giyin.\n\n7. **Çevrenizi Kontrol Edin**: Kendinizin ve çevrenizdeki insanların güvende olduğundan emin olun. Yardıma ihtiyacı olan kişilere yardımcı olun.\n\nBu adımlar, deprem sonrası güvenli bir yere geçmenize yardımcı olacaktır. [Kaynak 1][Kaynak 3][Kaynak 4]",
+  "evidence": {
+   "question_situation": "deprem sonrasında",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Bölgesel Tahliye Afet sonrası durumunuzu sürekli olarak değerlendirmelisiniz. Bunun için basın ve yayın araçlarını takip ederek yerel yöneticilerin talimatlarını dinleyin; eve veya daha önce Aile Afet Planı’nda belirlemiş olduğunuz toplanma alanlarına gidebileceğiniz güvenli yolları belirleyin.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 1,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 3,
+  "question": "Hatay'da deprem riski neden yüksek?",
+  "evidence_is": "B",
+  "evidence_answer": "Hatay'da deprem riski yüksek olmasının nedenleri şunlardır:\n\n1. Hatay, önemli tektonik yapıların bulunduğu bir bölgede yer almaktadır. \n2. Bu yapılar arasında en önemlileri Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF) bulunmaktadır.\n3. Doğu Anadolu Fay Zonu ve Ölü Deniz Fay Zonu'nun Amik Ovası'nda birleşmesi, bölgedeki deprem kaynaklarını artırmaktadır.\n\nBu faktörler, Hatay'ın ciddi deprem tehlikesi ile karşı karşıya olduğunu göstermektedir [Kaynak 1][Kaynak 2].",
+  "routed_answer": "Hatay'da deprem riski yüksek olmasının nedenleri şunlardır:\n\n1. **Tektonik Yapılar**: Hatay, Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF) gibi önemli tektonik yapıların bulunduğu bir bölgede yer almaktadır. Bu yapılar, depremlerin oluşumunda etkili rol oynamaktadır. [Kaynak 1]\n\n2. **Tarihsel Depremler**: Bölgedeki tarihsel deprem kayıtları, son 130 yıldır büyük yıkıcı depremlerin meydana gelmediğini göstermektedir. Bu durum, gelecekte yıkıcı depremler olabileceği anlamına gelmektedir. [Kaynak 1]\n\n3. **Aktif Fay Hatları**: Antakya ve çevresi, Garb fayında ve Karasu (DAF) fayında meydana gelecek depremlerden etkilenme riski taşımaktadır. [Kaynak 1]\n\n4. **Zemin Sorunları ve Yapılaşma**: Bölgedeki zemin sorunları, sıvılaşma riski ve yoğun yapılaşma, depremin etkilerini artırabilir. Ayrıca, yapı stoğunun eski olması ve kaçak yapılaşma da risk faktörlerindendir. [Kaynak 3]\n\n5. **Diri Fay Hatları**: Hatay ilinin merkez ilçeleri, diri fay hatları veya zonları üzerinde yer almaktadır. Bu durum, depremlerin olasılığını artırmaktadır. [Kaynak 2]\n\nBu nedenler, Hatay'ın deprem riski açısından yüksek bir tehlike altında olduğunu göstermektedir.",
+  "evidence": {
+   "question_situation": "genel bilgi",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Hatay deprem üreten önemli tektonik yapıların bulunduğu bölgede yer almaktadır.",
+     "about": "general_fact"
+    },
+    {
+     "source": 1,
+     "quote": "Bölgenin günümüzdeki topoğrafik yapısını kazanmasında etkin olan bu tektonik yapıların en önemlileri Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF)’dır.",
+     "about": "general_fact"
+    },
+    {
+     "source": 1,
+     "quote": "Bütün bu veriler bölgenin ciddi deprem tehlikesi ile karşı karşıya olduğunu göstermektedir.",
+     "about": "general_fact"
+    },
+    {
+     "source": 2,
+     "quote": "Doğu Anadolu Fay Zonu ve Ölü Deniz Fay Zonunun Amik Ovasında birleşmesi, Antakya, Yayladağı ve Samandağ’a kadar uzanan fay kolları, Akdeniz içerisindeki faylar İlin en önemli deprem kaynaklarıdır.",
+     "about": "general_fact"
+    }
+   ],
+   "raw_count": 4,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 4,
+  "question": "Kocaeli'de 1999 depreminden sonra ne tür önlemler alındı?",
+  "evidence_is": "A",
+  "evidence_answer": "Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.",
+  "routed_answer": "1999 Kocaeli depreminden sonra alınan önlemler şunlardır:\n\n1. **Zorunlu Deprem Sigortası**: 27 Aralık 1999 tarihinde çıkarılan 587 Sayılı Zorunlu Deprem Sigortası’na Dair Kanun Hükmünde Kararname ile Doğal Afet Sigortaları Kurumu (DASK) kurulmuştur. Bu sigorta, deprem sonucunda konut sahiplerine maddi zararları telafi etme güvencesi sağlamaktadır. Sigorta, tapuya kayıtlı ve ruhsatı olan binaları kapsamaktadır. [Kaynak 3]\n\n2. **Ulusal Deprem Stratejisi ve Eylem Planı**: Deprem riskini azaltmak amacıyla ilk kez “Ulusal Deprem Stratejisi ve Eylem Planı” hazırlanmıştır. Bu plan, depremlerin neden olabileceği zararları önlemek veya etkilerini azaltmak için bir çerçeve sunmaktadır. [Kaynak 2]\n\n3. **Kurumsal Yeniden Yapılanma**: Afet yönetiminde bir yeniden yapılanma süreci başlatılmıştır. Bu süreçte, mevcut kuruluşların etkinliği gözden geçirilmiş ve yeni birimlerin kurulması öngörülmüştür. Yerel idarelerin sorumlulukları, afet zararlarını azaltma çalışmalarını da kapsayacak şekilde genişletilmiştir. [Kaynak 4]\n\n4. **Erken Uyarı Sistemleri**: Deprem erken uyarı sistemleri geliştirilmiş, bu sistemler depremin P dalgaları ile S dalgaları arasındaki süre içinde uyarıda bulunabilmektedir. [Kaynak 1]\n\nBu önlemler, depremin ardından can ve mal kaybını azaltmak, toplumun hazırlıklı olmasını sağlamak ve afet yönetiminde etkinliği artırmak amacıyla alınmıştır.",
+  "evidence": {}
+ },
+ {
+  "n": 5,
+  "question": "İskenderun'da deprem sonrası tsunami tehlikesi var mı?",
+  "evidence_is": "B",
+  "evidence_answer": "İskenderun'da deprem sonrası tsunami tehlikesi olabilir. Deniz kıyısındaki açık alanların tsunami tehlikesine açık olduğu unutulmamalıdır [Kaynak 4].",
+  "routed_answer": "İskenderun'da deprem sonrası tsunami tehlikesi bulunmaktadır. Geçmişte yaşanan depremler, özellikle Ege Denizi ve Akdeniz bölgelerinde tsunami olaylarına yol açmıştır. Örneğin, 6 Şubat 2023 tarihinde İskenderun körfezinde tsunami olayları kaydedilmiştir. Bu nedenle, deniz kıyısında yaşayanların tsunami riskini dikkate alması önemlidir.\n\nDeprem sırasında deniz çekilmesi gözlemlendiğinde veya bir deprem hissedildiğinde, tsunami tehlikesi olabileceği unutulmamalıdır. Bu gibi durumlarda, açık alanlara yönelmek ve tahliye planlarını gözden geçirmek gerekmektedir. [Kaynak 1], [Kaynak 2], [Kaynak 4].",
+  "evidence": {
+   "question_situation": "deprem sonrasında",
+   "evidence": [
+    {
+     "source": 4,
+     "quote": "Deniz kıyısındaki açık alanların tsunami tehlikesine açık olacağı unutulmamalıdır.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 1,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 6,
+  "question": "Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?",
+  "evidence_is": "B",
+  "evidence_answer": "Bingöl'de deprem sonrası ilk müdahale planlaması, kurtarma ekiplerinin hızla afet bölgesine ulaşımının sağlanması, DASK bilincinin oluşması, bina stoğunun yenilenmesi, acil toplanma ve barınma alanlarının tespit edilmesi, düzenli tatbikatların yapılması ve afet bilinci eğitimlerinin verilmesi gibi güçlü yanlar üzerine kurulmuştur [Kaynak 1].",
+  "routed_answer": "Bingöl'de deprem sonrası ilk müdahale, çeşitli kurum ve kuruluşların iş birliği ile planlanmıştır. İlk olarak, merkezi teşkilatlanma sağlanmış ve yerel birimler acil durum eylem planlarını devreye sokmuştur. Diyarbakır Valiliği, acil kurtarma, enkaz kaldırma, çadır dağıtımı, ilk yardım hizmetleri, yemek dağıtımı ve hasar tespiti gibi konularda çalışacak alt komisyonlar oluşturmuştur. Askeri birlikler, depremden üç saat sonra afet bölgesine ulaşarak kurtarma çalışmalarına başlamıştır. Ayrıca, helikopterler, ulaşımı zor köylere acil ulaşım sağlamak için kullanılmıştır. İlk yardım, arama kurtarma, barınma ve yemek konularında hızlı bir şekilde hizmet verilmiştir. \n\nBingöl'ün güçlü yanları arasında, deprem bilincinin yüksek olması, kentsel dönüşüm projeleri, deprem gözlem istasyonlarının varlığı ve acil toplanma alanlarının tespit edilmiş olması yer almaktadır. Bu unsurlar, müdahale sürecinin etkinliğini artırmıştır. [Kaynak 1][Kaynak 2]",
+  "evidence": {
+   "question_situation": "deprem sonrasında",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Kurtarma Ekiplerinin hızla afet bölgesine ulaşımı sağlanması, DASK bilincinin oluşmuş olması, afetlerden dolayı bina stoğun yenilenmesi, ilimizde acil toplanma alanlarının ve barınma alanlarının tespit edilmiş olması, depremle ilgili düzenli tatbikatların yapılması ve afet bilinci eğitimlerinin verilmesi ilimizin güçlü yanlarıdır.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 1,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 7,
+  "question": "Erzincan'da geçmişte hangi büyük depremler oldu?",
+  "evidence_is": "A",
+  "evidence_answer": "Erzincan'da geçmişte meydana gelen büyük depremler şunlardır:\n\n1. **1939 Depremi**: 7,9 büyüklüğünde olup, 32.000 kişinin hayatını kaybetmesine ve ülkenin %5’inde hasar meydana gelmesine neden olmuştur. Bu deprem, Erzincan'ın tarihsel olarak en yıkıcı depremlerinden biridir. [Kaynak 1][Kaynak 5]\n\n2. **1992 Depremi**: 13 Mart 1992 tarihinde 6,8 büyüklüğünde gerçekleşmiş ve 657 kişinin hayatını kaybetmesine yol açmıştır. [Kaynak 2] \n\nBu depremler, Erzincan'ın tarihsel olarak sık sık yıkıcı depremlerle karşılaştığını göstermektedir. [Kaynak 1]",
+  "routed_answer": "Erzincan'da geçmişte meydana gelen büyük depremler şunlardır:\n\n1. **1939 Erzincan Depremi**: 7,9 büyüklüğünde olan bu deprem, Türkiye'nin en ciddi deprem felaketlerinden biri olarak kaydedilmiştir. Deprem sonucunda 32.962 kişi hayatını kaybetmiş, yaklaşık 100.000 kişi yaralanmış ve 116.720 bina yıkılmıştır. Bu deprem, Erzincan'da neredeyse insan yapısı hiçbir şeyin ayakta kalmadığı bir yıkıma yol açmıştır.\n\n2. **1992 Erzincan Depremi**: 13 Mart 1992 tarihinde meydana gelen bu deprem 6,8 büyüklüğündeydi ve 657 kişinin hayatını kaybetmesine neden oldu. Toplamda 44.671 konutun %13'ü yıkılmış veya ağır hasar görmüştür. Bu deprem, şehir merkezinin 3 km güneydoğusunda gerçekleşmiştir.\n\n3. **1983 Depremi**: 1983 yılında meydana gelen bir diğer sarsıntı da Erzincan'da ağır hasara yol açmıştır.\n\nErzincan, son bin yıl içinde toplamda 11 defa büyük depremlerle tahrip olmuştur. [Kaynak 1][Kaynak 2][Kaynak 5]",
+  "evidence": {
+   "question_situation": "geçmiş olaylar",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Tarihsel dönemlerde çok yıkıcı depremlere maruz kalan İlimiz, son bin yılda 11 defa tamamen tahrip olduğu bilinmektedir.1939 yılında 7,9 büyüklüğündeki Erzincan depremi, ülkenin %5’inde hasar yapmış %20’sini etkilemiş bir afet olması ile dikkat çekmiştir.",
+     "about": "past_event"
+    },
+    {
+     "source": 2,
+     "quote": "En son önemli deprem 13 Mart 1992 tarihinde richter ölçeğine göre 6,8 büyüklüğünde meydana gelmiş ve 657 kişi hayatını yitirmiştir.",
+     "about": "past_event"
+    },
+    {
+     "source": 5,
+     "quote": "1939’da meydana gelen 7.9 büyüklüğündeki depremde 32.000 kişi hayatını kaybetmiş, 1983’deki sarsıntı da ağır hasara yol açmıştır.",
+     "about": "past_event"
+    }
+   ],
+   "raw_count": 3,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 8,
+  "question": "Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?",
+  "evidence_is": "B",
+  "evidence_answer": "Maraş'ta deprem sonrası toplanma alanları, ilgili belediye tarafından yürütülen çalışmalarla belirlenmiştir. Bu alanların tespiti sırasında aşağıdaki kriterlere dikkat edilmiştir:\n\n- Nüfus yoğunluğu\n- Ulaşılabilirlik ve tahliye kolaylığı\n- Engellilerin ve yaşlıların ulaşımına uygunluk\n- İkincil tehlikelerden (yangın, su taşkını, tsunami vb.) uzaklık\n- Engebesiz düz araziler\n- Konut alanlarına yakınlık ancak yapısal unsurlardan etkilenmeme\n- Temel ihtiyaçların karşılanabileceği yapılara yakınlık\n\nBu kriterler doğrultusunda, mümkün olduğunca kamuya ait uygun yerler seçilmiştir [Kaynak 1].",
+  "routed_answer": "Maraş'ta deprem sonrası toplanma alanları, çeşitli kriterlere göre belirlenmiştir. Bu kriterler arasında:\n\n- Nüfus yoğunluğu,\n- Ulaşılabilirlik ve tahliye kolaylığı,\n- Engellilerin ve yaşlıların ulaşımına uygunluk,\n- İkincil tehlikelerden (yangın, su taşkını, vb.) uzaklık,\n- Engebesiz düz araziler olması,\n- Konut alanlarına yakınlık ancak yapısal unsurlardan etkilenmemesi,\n- Temel ihtiyaçların karşılanabileceği yapılara yakınlık gibi unsurlar bulunmaktadır.\n\nToplanma alanlarının tespiti ve kontrolü, ilgili belediyeler tarafından yürütülmektedir. Ayrıca, seçilen alanların kamuya ait olması ve mülkiyet durumlarının uygunluğu da dikkate alınmaktadır. [Kaynak 1]",
+  "evidence": {
+   "question_situation": "deprem sonrasında",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Afet ve acil durum sonrası kullanılacak toplanma alanlarının tespiti ve mahallinde kontrolüne yönelik çalışmalar ilgili Belediye tarafından yürütülmektedir.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Afet ve Acil Durum Toplanma Alanları belirlenirken; • Nüfus yoğunluğu, • Ulaşılabilirlik ve tahliye kolaylığı, • Mümkün olduğunca engellilerin ve yaşlıların ulaşımına uygunluğu, • Yangın, su taşkını, tsunami, altyapı ve benzerleri gibi ikincil tehlikeler ile deniz, akarsu kenarları, sıvılaşmadan etkilenmeyecek ve fay hatlarından uzak alanlar olması, • Mümkün olduğunca engebesiz düz araziler olması, • Konut alanlarına yakın ancak yapısal ve yapısal olmayan unsurlardan etkilenmemesi, • Elektrik, su, tuvalet gibi temel ihtiyaçlar ve benzeri unsurların karşılanabileceği yapılara yakınlığı gibi, seçim kriterlerine dikkat edilerek ve mümkün olduğunca kamuya ait uygun yerler seçilerek belirlenmektedir.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 2,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 9,
+  "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?",
+  "evidence_is": "B",
+  "evidence_answer": "Deprem sırasında dışarıdaysanız, aşağıdaki adımları izlemelisiniz:\n\n1. **Açık Alan Bulun**: Binalardan, ağaçlardan ve elektrik direklerinden uzaklaşın.\n2. **Çök-Kapan-Tutun**: Zemin sarsılmaya başladığında, en uygun pozisyonu alarak hedefinizi küçültün. Bu, daha az zarar görmenizi sağlar [Kaynak 1][Kaynak 2][Kaynak 3]. \n\nBu adımlar, deprem sırasında güvenliğinizi artırmak için önemlidir.",
+  "routed_answer": "Deprem sırasında dışarıdaysanız, aşağıdaki adımları izlemelisiniz:\n\n1. **Açık Alanlara Yönelin**: Binalardan, ağaçlardan ve elektrik direklerinden uzak durun. Bu tür yapılar depremin etkisiyle yıkılabilir veya devrilebilir.\n\n2. **Çök-Kapan-Tutun Pozisyonu Alın**: Eğer sarsıntı hissediyorsanız, yere çökün, başınızı ve boynunuzu koruyacak şekilde kapanın ve bir nesneyle (çanta, yastık vb.) kendinizi koruyun.\n\n3. **Tehlikeleri Gözlemleyin**: Etrafınızdaki potansiyel tehlikeleri (cam kırıkları, düşebilecek nesneler) gözlemleyin ve bunlardan uzak durun.\n\n4. **Sakin Kalın**: Panik yapmamaya çalışın ve çevrenizdeki insanlara yardımcı olun.\n\nBu tavsiyeler, deprem sırasında dışarıda bulunanlar için geçerlidir. [Kaynak 1][Kaynak 2][Kaynak 5]",
+  "evidence": {
+   "question_situation": "deprem sırasında",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Örneğin, zemin sarsılmaya başladığında veya büyük bir patlama duyulduğunda herkesin Çök-Kapan-Tutun hareketini yapması gerekir.",
+     "about": "same_situation"
+    },
+    {
+     "source": 2,
+     "quote": "Çök-Kapan-Tutun hareketinin amacı hedef küçülterek daha az zarar görmektir.",
+     "about": "same_situation"
+    },
+    {
+     "source": 2,
+     "quote": "Eğer bina içerisindeyseniz depremi hissettiğinizde ayakta durmayın ve şunları kesinlikle yapmayın: • Oradan oraya koşmayın. • Balkona çıkmayın. • Merdiven ve asansörleri kullanmayın. • Pencere ve balkondan atlamayın.",
+     "about": "same_situation"
+    },
+    {
+     "source": 3,
+     "quote": "Bir acil durum ya da afet sırasında bulunduğunuz yerde en uygun ÇÖK-KAPAN-TUTUN pozisyonunu alarak hedef küçültün.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 4,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 10,
+  "question": "Toplanma alanı nedir?",
+  "evidence_is": "B",
+  "evidence_answer": "Toplanma alanı, afet ve acil durumlar sonrasında geçici barınma merkezleri hazır olana kadar halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli alanlardır. Bu alanlar, yaşanacak paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla oluşturulmuştur [Kaynak 1][Kaynak 2].",
+  "routed_answer": "Toplanma alanı, afet ve acil durumlar sonrasında geçici barınma merkezleri hazır olana kadar halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli alanlardır. Bu alanlar, paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla belirlenmiştir. Ayrıca, arama ve kurtarma ekiplerinin brifing, bilgi paylaşımı ve koordinasyon için bir araya geldiği alanlardır. Toplanma alanları, tehlikeli bölgelerden uzakta ve erişilebilir yerlerde konumlandırılmaktadır. [Kaynak 1], [Kaynak 2], [Kaynak 3].",
+  "evidence": {
+   "question_situation": "genel bilgi",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Toplanma Alanı: 1. Afet ve acil durumlar sonrasında geçici barınma merkezleri hazır olana kadar geçecek süre içerisinde yaşanacak paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli alanlardır.",
+     "about": "general_fact"
+    },
+    {
+     "source": 2,
+     "quote": "Aile ve Bireyler İçin Toplanma Alanı; Afet ve acil durumlar sonrasında geçici barınma merkezleri hazır olana kadar geçecek süre içerisinde yaşanacak paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli alanlardır.",
+     "about": "general_fact"
+    }
+   ],
+   "raw_count": 2,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 11,
+  "question": "Sakarya'da deprem olursa ne yapmalıyım?",
+  "evidence_is": "A",
+  "evidence_answer": "Sakarya'da deprem olursa aşağıdaki adımları izlemelisiniz:\n\n### Deprem Sırasında\n- Sakin olun, paniğe kapılmayın.\n- Üzerinize düşebilecek cisimlerden uzak durun.\n- Güvenli bir yere, mümkünse masa veya sağlam bir mobilyanın altına geçin.\n\n### Deprem Sonrasında\n- Kendinizin ve çevrenizdeki insanların yaralanıp yaralanmadığını kontrol edin.\n- Gaz kaçağı ve yanıcı madde sızıntısı olmadığından emin olun; kibrit ateşlemeyin, ışıkları açmayın.\n- Eğer gaz kokusu alıyorsanız, bir pencere açın ve doğalgaz tesisat valfini kapatın, ardından binayı terk edin.\n- Hasar görmüş binalardan uzak durun.\n- Yıkılmış elektrik hatlarından uzak durun.\n- Acil yardıma ihtiyaç duyarsanız camlara bir yardım işareti koyun.\n- Pilli radyodan acil durum talimatlarını dinleyin.\n- Depremden sonra artçı sarsıntılara hazırlıklı olun.\n- Bulunduğunuz yerden ayrılıyorsanız çevrenizdekilere bilgi verin. \n\nBu adımlar, deprem anında ve sonrasında güvenliğinizi sağlamak için önemlidir. [Kaynak 1]",
+  "routed_answer": "### Deprem Sırasında Ne Yapmalıyım?\n\n1. **Sakin Olun:** Paniğe kapılmayın.\n2. **Güvenli Bir Yer Bulun:** Serbest hareket eden eşyalardan uzak durun. Devrilmeyecek bir eşyanın yanına geçin.\n3. **Çök, Kapan, Tutun:** Yere çömelin, başınızı koruyacak bir şeyle (yastık, çanta) kapatın. Bir elinizle en yakın eşyaya tutunun.\n4. **Düşebilecek Cisimlerden Uzak Durun:** Üzerinize düşebilecek cisimlerden kaçının.\n5. **Yıkılmış Elektrik Hatlarından Uzak Durun:** Elektrik hatlarına yaklaşmayın.\n6. **Artçı Sarsıntılara Hazırlıklı Olun:** Deprem sonrası artçı sarsıntılar olabilir.\n\n### Deprem Sonrasında Ne Yapmalıyım?\n\n1. **Yaralıları Kontrol Edin:** Kendinizin ve çevrenizdekilerin yaralanıp yaralanmadığını kontrol edin.\n2. **Gaz Kaçağı Kontrolü:** Gaz kokusu alıyorsanız, pencere açın ve doğalgaz vanasını kapatmaya çalışın. Yangın yoksa binayı terk edin.\n3. **Acil Durum Talimatlarını Dinleyin:** Pilli radyodan talimatları takip edin.\n4. **Hasarlı Binalardan Uzak Durun:** Hasar görmüş binalara yaklaşmayın.\n5. **Yardım İşareti Koyun:** Acil yardıma ihtiyaç duyuyorsanız, camlara yardım işareti koyun.\n6. **Güvenli Bir Yere Geçin:** Eğer hareket edebiliyorsanız, daha güvenli bir yere geçin.\n\nBu bilgiler, Sakarya'da bir deprem anında ve sonrasında yapılması gerekenleri kapsamaktadır. [Kaynak 1][Kaynak 2][Kaynak 3][Kaynak 4].",
+  "evidence": {
+   "question_situation": "hazırlık",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "Aşağıda özetlenen pratik bilgileri öğrenerek gerekli hazırlıkları yapmalısınız.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Sakin olun, paniğe kapılmayın.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Kendinizin ve çevrenizdeki insanların yaralanıp yaralanmadığını kontrol edin.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Depremden sonra artçı sarsıntılara hazırlıklı olun.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Sağlam bir ayakkabı ve hava şartlarına uygun bir şekilde giyinin.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Güvenliğiniz için gaz kaçağı ve yanıcı madde sızıntısı olmadığından emin olana dek kibrit ateşlemeyin, ışıkları kapalıysa açmayın, açıksa söndürmeyin.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Eğer yangın başlamadıysa ve gaz kokusu alıyor ya da patlama veya gaz kaçırma sesi duyuyorsanız bir pencere açın, daire içinde veya daire kapısı dışında bulunan doğalgaz tesisat valfini mümkünse kapatın ve binayı hemen terk edin.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Bulunduğunuz yerden ayrılıyorsanız çevrenizdekilere bilgi verin.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Acil yardıma ihtiyaç duyarsanız camlara bir yardım işareti koyun.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Pilli radyodan acil durum talimatlarını dinleyin.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Yıkılmış elektrik hatlarından uzak durun.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Üzerinize düşebilecek cisimlerden uzak durun.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Hasar görmüş binalardan uzak durun.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 13,
+   "status": "ok"
+  }
+ },
+ {
+  "n": 12,
+  "question": "Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?",
+  "evidence_is": "A",
+  "evidence_answer": "Kahramanmaraş'ta deprem anında evdeyseniz şu adımları izleyin:\n\n1. **Sakin olun** ve paniğe kapılmayın [Kaynak 2].\n2. **Çökerek sağlam bir nesnenin altına girin** veya yanına geçin. Sırtınızı pencerelere dönük bir şekilde kapatın ve başınızı, ensenizi düşen cisimlerden koruyun [Kaynak 1].\n3. Sarsıntı sona erene kadar, sallanan nesneyle beraber hareket edebilmek için nesneye tutunun [Kaynak 1].\n4. Üzerinize düşebilecek cisimlerden uzak durun [Kaynak 2].\n5. En uygun Çök-Kapan-Tutun pozisyonunu alarak tehlike geçinceye kadar aynı pozisyonda kalın [Kaynak 1].",
+  "routed_answer": "Deprem anında evdeyseniz, aşağıdaki adımları izlemelisiniz:\n\n1. **Sakin Olun**: Paniğe kapılmayın.\n2. **Çök-Kapan-Tutun**: \n   - Sağlam bir nesnenin altına girin veya yanına geçin.\n   - Sırtınızı pencerelere dönük bir şekilde kapanın ve başınızı, ensenizi koruyun.\n   - Nesneye tutunun ve sarsıntı sona erene kadar bu pozisyonda kalın.\n3. **Mutfaktaysanız**: \n   - Yanan bir ocak varsa, sarsıntı hissedilir hissettiğiniz anda ocağı kapatın ve ardından Çök-Kapan-Tutun hareketini yapın.\n4. **Tehlikelerden Uzak Durun**: \n   - Üzerinize düşebilecek cisimlerden ve camlardan uzak durun.\n   - Yıkılmış elektrik hatlarından uzak durun.\n5. **Güvenli Yerleri Belirleyin**: \n   - Sağlam bir nesnenin altı veya koridor içleri gibi güvenli yerleri kullanmaya çalışın.\n\nBu adımlar, deprem anında kendinizi korumanıza yardımcı olacaktır. [Kaynak 1] [Kaynak 2] [Kaynak 3]",
+  "evidence": {
+   "question_situation": "deprem sırasında",
+   "evidence": [
+    {
+     "source": 1,
+     "quote": "ÇÖKerek sağlam bir nesnenin altına girin veya yanına geçin. Özellikle sırtınız pencerelere dönük bir şekilde KAPANıp başınızı ve ensenizi düşen cisimlerden koruyun.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Sarsıntı sona erene kadar, sallanan nesneyle beraber hareket edebilmek için nesneye TUTUNun.",
+     "about": "same_situation"
+    },
+    {
+     "source": 1,
+     "quote": "Bir acil durum ya da afet sırasında, bulunduğunuz yerde en uygun Çök-Kapan-Tutun pozisyonunu alarak hedef küçültün ve tehlike geçinceye kadar aynı pozisyonda kalın.",
+     "about": "same_situation"
+    },
+    {
+     "source": 2,
+     "quote": "Sakin olun, paniğe kapılmayın.",
+     "about": "same_situation"
+    },
+    {
+     "source": 2,
+     "quote": "Üzerinize düşebilecek cisimlerden uzak durun.",
+     "about": "same_situation"
+    }
+   ],
+   "raw_count": 5,
+   "status": "ok"
+  }
+ }
+]

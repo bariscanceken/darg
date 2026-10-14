@@ -27,10 +27,12 @@ from .hybrid_retrieval import BM25_TOP_K, BM25_TOP_K_WITH_LLM, diversify, lexica
 from .llm_rerank import llm_rerank
 from .location import IRAP_MAP_FILE, Location
 from .query_normalization import turkish_lower
+from .source_routing import RoutingPolicy, source_type
 
 
 GENERAL_TOP_K = 50
 REGIONAL_TOP_K = 20
+PREFERRED_TOP_K = 20
 
 
 _VECTOR_CACHE: dict[int, np.ndarray] = {}
@@ -101,25 +103,35 @@ def retrieve_enhanced(
     max_per_document: int | None = None,
     llm_reranker: tuple[Any, str] | None = None,
     bm25_top_k: int | None = None,
+    policy: RoutingPolicy | None = None,
 ) -> list[dict[str, Any]]:
-    """Dense Top-50 (+ BM25-F5 pool) (+ regional pool), one rerank, optional diversity cap.
+    """Dense Top-50 (+ BM25-F5 pool) (+ regional pool) (+ preferred-type pool), one rerank.
 
-    With a location, IRAP chunks of other provinces are removed from every pool.
+    With a location, IRAP chunks of other provinces are removed from every pool. With a
+    routing policy, only allowed source types survive and a focused pool over the preferred
+    types is added; if that leaves fewer than top_k candidates, the policy is dropped.
     """
     irap_map = irap_province_map()
+    allowed_types = None
+    if policy is not None:
+        allowed_types = set(policy.allowed)
+        if location is None and "il_plani" not in policy.preferred:
+            allowed_types.discard("il_plani")  # a random province's plan never answers a behaviour question
 
-    def allowed(source_file: str) -> bool:
-        return location is None or irap_map.get(source_file) in (None, location.province)
+    def allowed(record: dict[str, Any]) -> bool:
+        if location is not None and irap_map.get(record["source_file"]) not in (None, location.province):
+            return False
+        return allowed_types is None or source_type(record) in allowed_types
 
     pool: dict[str, dict[str, Any]] = {}
     for candidate in retrieve_v2_candidates(question, index, metadata, embedding_model, GENERAL_TOP_K):
-        if allowed(candidate["source_file"]):
+        if allowed(candidate):
             pool[candidate["chunk_id"]] = candidate
     rank = GENERAL_TOP_K
     if lexical:
         lexical_k = bm25_top_k or (BM25_TOP_K_WITH_LLM if llm_reranker is not None else BM25_TOP_K)
         for row, score in lexical_rows(question, metadata, lexical_k):
-            if allowed(metadata[row]["source_file"]):
+            if allowed(metadata[row]):
                 rank += 1
                 pool.setdefault(metadata[row]["chunk_id"], candidate_from_row(metadata[row], row, rank, score))
     regional_ids: set[str] = set()
@@ -133,6 +145,17 @@ def retrieve_enhanced(
                 candidate = candidate_from_row(metadata[rows[i]], rows[i], rank, float(scores[i]))
                 regional_ids.add(candidate["chunk_id"])
                 pool.setdefault(candidate["chunk_id"], candidate)
+    if policy is not None and policy.preferred:
+        rows = [row for row in range(len(metadata)) if source_type(metadata[row]) in policy.preferred and allowed(metadata[row])]
+        if rows:
+            query_vector = embed_query(embedding_model, question)[0]
+            scores = index_vectors(index)[rows] @ query_vector
+            for i in np.argsort(-scores)[:PREFERRED_TOP_K]:
+                rank += 1
+                pool.setdefault(metadata[rows[i]]["chunk_id"], candidate_from_row(metadata[rows[i]], rows[i], rank, float(scores[i])))
+    if policy is not None and len(pool) < top_k:
+        return retrieve_enhanced(question, location, index, metadata, embedding_model, reranker, top_k, lexical,
+                                 max_per_document, llm_reranker, bm25_top_k, policy=None)
 
     ranked = rerank_candidates(question, list(pool.values()), reranker, top_k=len(pool))
     if llm_reranker is not None:
