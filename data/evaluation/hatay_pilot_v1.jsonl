@@ -1,0 +1,20 @@
+{"id": "h01", "type": "davranis", "question": "antakyada deprem oldu nereye gideyim", "expect": "toplanma alanına git, e-Devlet'ten öğren; Antakya plan bilgisi + tarih uyarısı"}
+{"id": "h02", "type": "davranis", "question": "iskenderundayım sahildeyim deprem oldu ne yapayım", "expect": "kıyıdan uzaklaş/yükseğe çık (tsunami), İskenderun yerel bilgi"}
+{"id": "h03", "type": "davranis", "question": "hatayda evdeyken deprem olursa ne yapmalıyım", "expect": "çök-kapan-tutun; Hatay yerel bilgi"}
+{"id": "h04", "type": "davranis", "question": "dprem oldu napcam asaönsore bineyimmi", "expect": "asansör kullanmayın"}
+{"id": "h05", "type": "davranis", "question": "defnede toplanma alanı nerde", "expect": "e-Devlet; Defne 55 alan (2021)"}
+{"id": "h06", "type": "davranis", "question": "samandağda deprem sonrası evime girebilir miyim", "expect": "hasarlı binaya girmeyin; yerel bilgi"}
+{"id": "h07", "type": "bolgesel", "question": "hatayda hangi fay hatları var", "expect": "Ölü Deniz Fay Zonu, Doğu Anadolu Fay Zonu"}
+{"id": "h08", "type": "bolgesel", "question": "hatayın deprem riski yüksek ilçeleri hangileri", "expect": "Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin"}
+{"id": "h09", "type": "bolgesel", "question": "antakyada kaç toplanma alanı var", "expect": "133 (2021 planı)"}
+{"id": "h10", "type": "bolgesel", "question": "hatayda geçici barınma alanları nerede", "expect": "Saçaklı-Suvatlı, Alakop, Aktaş, ... kapasitelerle"}
+{"id": "h11", "type": "bolgesel", "question": "hatayda kaç hastane var", "expect": "10 devlet, 10 özel (2021, 2023 öncesi uyarısı)"}
+{"id": "h12", "type": "bolgesel", "question": "iskenderunda tsunami riski var mı", "expect": "evet, planda tsunami riski; kıyı"}
+{"id": "h13", "type": "bolgesel", "question": "hatayda sıvılaşma riski var mı", "expect": "evet, planda sıvılaşma riski olan yerler"}
+{"id": "h14", "type": "bolgesel", "question": "kırıkhan deprem açısından riskli mi", "expect": "riskli ilçeler arasında; fay yakınlığı"}
+{"id": "h15", "type": "gecmis", "question": "hatayda geçmişte hangi büyük depremler oldu", "expect": "1822, 1872, 1997 Antakya vb. tarihsel liste"}
+{"id": "h16", "type": "gecmis", "question": "1997 antakya depremi", "expect": "22 Ocak 1997, Ms 5.5, 1 ölü"}
+{"id": "h17", "type": "gecmis", "question": "6 şubat 2023 depreminde hatayda ne oldu", "expect": "korpusta varsa rapor bilgisi; yoksa dürüst ret + tarih notu"}
+{"id": "h18", "type": "genel", "question": "hatay neden deprem bölgesi", "expect": "fay zonlarının kesişimi (Ölü Deniz, Doğu Anadolu)"}
+{"id": "h19", "type": "davranis", "question": "reyhanlıda deprem oldu yaralı var hangi hastaneye gidelim", "expect": "112'yi ara; hastane listesi korpusta yoksa dürüst"}
+{"id": "h20", "type": "tanim", "question": "toplanma alanı nedir", "expect": "AFAD broşürü tanımı"}

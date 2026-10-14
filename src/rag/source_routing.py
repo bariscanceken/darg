@@ -33,8 +33,9 @@ class RoutingPolicy:
 POLICIES = {
     # "What should I do": citizen guidance only (own-province IRAP is still added by the regional pool).
     "davranis": RoutingPolicy(frozenset({"vatandas_rehberi", "il_plani"}), frozenset({"vatandas_rehberi"})),
-    # Facts about a province: its plan first; glossaries never answer these.
-    "bolgesel": RoutingPolicy(ALL_SOURCE_TYPES - {"sozluk"}, frozenset({"il_plani"})),
+    # Facts about a province: its plan first, plus citizen guides (e.g. how to look up one's assembly
+    # area on e-Devlet, which applies to every province); glossaries never answer these.
+    "bolgesel": RoutingPolicy(ALL_SOURCE_TYPES - {"sozluk"}, frozenset({"il_plani", "vatandas_rehberi"})),
     # "What is X": citizen guidance and glossaries; no province-specific plans or past reports.
     "tanim": RoutingPolicy(frozenset({"vatandas_rehberi", "sozluk", "ulusal_plan", "teknik_mesleki"}),
                            frozenset({"vatandas_rehberi", "sozluk"})),
@@ -51,6 +52,8 @@ CLASSIFY_SYSTEM_PROMPT = """Bir deprem bilgi asistanına gelen soruyu tek bir ti
 - "tanim": Bir kavramın ne olduğunu soruyor ("nedir", "ne demek").
 - "gecmis": Geçmişte olmuş depremleri veya o depremlerden sonra yapılanları soruyor.
 - "genel": Diğer her şey veya emin değilsen.
+Soru bir yer adı içerse bile kişinin şimdi ne yapacağını soruyorsa ("yaralı var ne yapalım", "nereye
+gidelim", "hangi hastaneye gidelim", "evime girebilir miyim") tip "davranis"tır.
 Yalnızca şu JSON'u döndür: {"type": "<tip>"}
 """
 

@@ -1,0 +1,158 @@
+{
+ "province": "Hatay",
+ "source_file": "HATAY-İRAP-2022.pdf",
+ "data_year": "2021",
+ "pages_used": [
+  14,
+  20,
+  21,
+  22,
+  35,
+  38,
+  41,
+  43,
+  44,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  55,
+  56,
+  58,
+  115,
+  120,
+  140,
+  141,
+  145,
+  146,
+  151,
+  153,
+  154,
+  185,
+  191,
+  193,
+  194,
+  202,
+  208,
+  209
+ ],
+ "fields": {
+  "faults": [
+   {
+    "value": "Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu",
+    "page": 21,
+    "quote": "Hatay, tektonik açıdan sol yanal Ölü Deniz Fay Zonunun en kuzey segmenti ile yine sol yanal Doğu Anadolu Fay Zonunun en güney segmenti arasında yer almaktadır."
+   },
+   {
+    "value": "Karasu fayının etkisi",
+    "page": 20,
+    "quote": "Antakya-Kahramanmaraş grabeni, Ölü Deniz Fayı, Doğu Anadolu Fayı ve Kıbrıs yayının etkisi altında gelişmiş Karasu fayının etkisi ile şekillenmiştir."
+   }
+  ],
+  "high_risk_districts": [
+   {
+    "value": "Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin",
+    "page": 38,
+    "quote": "İlin merkez ilçeleri Antakya ve Defne başta olmak üzere, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin ilçeleri diri fay hatları veya zonları üzerinde yer almaktadır."
+   }
+  ],
+  "historical_earthquakes": [
+   {
+    "value": "13.08.1822, Antakya, İskenderun, Kilis, Halep, Lazkiye, IX",
+    "page": 55,
+    "quote": "13.08.1822 36° 40' 36° 20' Antakya, İskenderun, Kilis, Halep, Lazkiye IX"
+   },
+   {
+    "value": "20 Mart 1945, Ceyhan-Adana, Ms: 6.0, 13 ölü",
+    "page": 55,
+    "quote": "20 Mart 1945 Ceyhan-Adana Depremi: Depremin maksimum şiddeti Io: VIII, büyüklüğü Ms: 6.0... Deprem nedeniyle 13 kişi hayatını kaybetmiştir."
+   },
+   {
+    "value": "22 Ocak 1997, Antakya, Ms: 5.5, 1 ölü",
+    "page": 55,
+    "quote": "22 Ocak 1997 Antakya Depremi: Depremin maksimum şiddeti Io:VI, üst merkezi 36.14K, 36.12D, büyüklüğü Ms:5.5... 1 kişi yaşamını yitirmiş ve 9 kişi de yaralanmıştır."
+   }
+  ],
+  "assembly_areas": [
+   {
+    "value": "Altınözü: 28, Antakya: 133, Arsuz: 41, Belen: 22, Defne: 55, Dörtyol: 40, Erzin: 20, Hassa: 58, İskenderun: 63, Kırıkhan: 91, Kumlu: 24, Payas: 17, Reyhanlı: 39, Samandağ: 49, Yayladağı: 50",
+    "page": 44,
+    "quote": "Altınözü Antakya Arsuz Belen Defne Dörtyol Erzin Hassa İskenderun Kırıkhan Kumlu Payas Reyhanlı Samandağ Yayladağı Sayı (ad) 28 133 41 22 55 40 20 58 63 91 24 17 39 49 50"
+   }
+  ],
+  "temporary_shelters": [
+   {
+    "value": "Antakya, Saçaklı-Suvatlı, 327.651 Kişi",
+    "page": 44,
+    "quote": "Antakya Saçaklı-Suvatlı 2995 1.003.010,05 Mera X:36.3009011 Y:36.316683 327.651 Kişi"
+   },
+   {
+    "value": "Arsuz, Alakop (Höyük), 44.206 Kişi",
+    "page": 44,
+    "quote": "Arsuz Alakop (Höyük) 413 Ada 1 parsel (Eski kayıtta Höyük-674 parsel) 93.207,32 Arsa X:36.3824067 Y:36.9143458 44.206 Kişi"
+   },
+   {
+    "value": "Kumlu, Aktaş, 18.715 Kişi",
+    "page": 44,
+    "quote": "Kumlu Aktaş 1 418.730,00 Tarla X:36.3609876 Y:36.3319045 18.715 Kişi"
+   },
+   {
+    "value": "Erzin, Başlamış, 2507 Kişi",
+    "page": 44,
+    "quote": "Erzin Başlamış 714 26,2.01327 Hali Arazi X:36.9495602 Y:36.2413599 2507 Kişi"
+   },
+   {
+    "value": "Kırıkhan, Kastal, 52577 Kişi",
+    "page": 44,
+    "quote": "Kırıkhan Kastal 5 1.047.638,00 Tarla X:36.4561260 Y:36.5022771 52577 Kişi"
+   },
+   {
+    "value": "Reyhanlı, Amik Ovası, 9752 Kişi",
+    "page": 44,
+    "quote": "Reyhanlı Amik Ovası 469 420.749,11 Mera X:36.3406380 Y:36.3482098 9752 Kişi"
+   },
+   {
+    "value": "Hassa, Eğribucak, 2469 Kişi",
+    "page": 44,
+    "quote": "Hassa Eğribucak 476 410.200,00 Tarla X:36.7098798 Y:36.5093037 2469 Kişi"
+   },
+   {
+    "value": "Yayladağı, Yukarıokçular, 10669 Kişi",
+    "page": 44,
+    "quote": "Yayladağı Yukarıokçular 204 Ada 5 Parsel 80.979,83 Tarla X:36.1328655 Y:36.1384436 10669 Kişi"
+   }
+  ],
+  "health_facilities": [
+   {
+    "value": "10 Devlet Hastanesi, 10 özel hastane",
+    "page": 35,
+    "quote": "Sağlık Bakanlığı’na bağlı olarak 10 Devlet Hastanesi... 10 adet özel hastanede faaliyetlerine devam etmektedir."
+   }
+  ],
+  "other_hazards": [
+   {
+    "value": "Sıvılaşma riski",
+    "page": 38,
+    "quote": "Antakya ilçesinin yerleşimi fay hatları/zonları üzerinde oturmakta, ayrıca alüvyon zeminde yer alması büyük bir depremde sıvılaşma olaylarının yaşanabileceğini göstermektedir."
+   },
+   {
+    "value": "Tsunami riski",
+    "page": 153,
+    "quote": "H10-1 Tsunami riskinin haritalandırılması İskenderun Teknik Üniversitesi Hatay Mustafa Kemal Üniversitesi Hatay İl AFAD Müdürlüğü Hatay Jeoloji Müdendisleri Odası Hatay Jeofizik Mühendisleri Odası Hatay İnşaat Mühendisleri Odası Hatay Şehir Plancıları Odası 2021-2026"
+   }
+  ]
+ },
+ "assembly_area_lookup": {
+  "value": "Size en yakın afet ve acil durum toplanma alanını e-Devlet (www.turkiye.gov.tr) üzerinden öğrenebilirsiniz.",
+  "page": 1,
+  "quote": "Size en yakın “Afet ve Acil Durum Toplanma Alanlarını “ www.turkiye.gov.tr üzerinden öğrenebilirsiniz.",
+  "source_file": "toplanma_alanlari.pdf"
+ },
+ "dropped": [],
+ "model": "gpt-4o",
+ "built_at": "2026-10-14"
+}

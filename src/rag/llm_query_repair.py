@@ -3,7 +3,8 @@
 The LLM may only fix spelling. Its output is accepted only if a local,
 deterministic check confirms that every word still maps to the user's own word
 (same word count, each word within a small edit distance; a fused question
-particle such as "binilirmi" -> "binilir mi" may be split off).
+particle such as "binilirmi" -> "binilir mi" may be split off, and a common spoken
+contraction such as "napcam" -> "ne yapacağım" may be expanded).
 """
 
 from __future__ import annotations
@@ -27,13 +28,17 @@ from .query_normalization import (
 
 REPAIR_MAX_OUTPUT_TOKENS = 200
 QUESTION_PARTICLES = frozenset(word for word in PROTECTED_WORDS if word[0] == "m" and len(word) <= 8)
+# Spoken contractions of two words: (contracted prefix, first word, prefix of the second word).
+# "napcam" -> "ne yapacağım", "noldu" -> "ne oldu", "bişey" -> "bir şey".
+SPOKEN_CONTRACTIONS = (("nap", "ne", "yap"), ("nol", "ne", "ol"), ("biş", "bir", "şey"))
 
 REPAIR_SYSTEM_PROMPT = """Sen Türkçe bir yazım düzeltme aracısın. Kullanıcının deprem ve afetlerle ilgili
 sorusundaki yazım hatalarını düzeltirsin.
 
 Kurallar:
 - Yalnızca yazım hatalarını düzelt: eksik, fazla veya yer değiştirmiş harfler, eksik
-  Türkçe karakterler (ı, ğ, ü, ş, ö, ç), bitişik yazılmış "mı/mi/mu/mü" soru eki.
+  Türkçe karakterler (ı, ğ, ü, ş, ö, ç), bitişik yazılmış "mı/mi/mu/mü" soru eki,
+  konuşma dili kısaltmaları ("napcam" → "ne yapacağım", "noldu" → "ne oldu", "bişey" → "bir şey").
 - Kelime ekleme, kelime silme, eşanlamlı kelimeyle değiştirme ve soruyu yeniden yazma YASAKTIR.
 - Doğru yazılmış kelimelere dokunma. Özel isim, marka ve kısaltmaları aynen bırak.
 - Bir kelimenin hangi kelime olduğundan emin değilsen o kelimeyi OLDUĞU GİBİ bırak.
@@ -67,6 +72,17 @@ def words_close(original: str, corrected: str) -> bool:
     return osa_distance(a, b, limit) <= limit
 
 
+def expands_contraction(original: str, first: str, second: str) -> bool:
+    """'napcam' -> 'ne' + 'yapacağım': known contraction, and the remaining endings stay close."""
+    word = turkish_lower(original)
+    first, second = turkish_lower(first), turkish_lower(second)
+    for prefix, expected_first, second_prefix in SPOKEN_CONTRACTIONS:
+        if word.startswith(prefix) and first == expected_first and second.startswith(second_prefix):
+            rest, target_rest = word[len(prefix):], second[len(second_prefix):]
+            return rest == target_rest or words_close(rest, target_rest)
+    return False
+
+
 def is_spelling_only(original: str, corrected: str) -> bool:
     """Deterministic check that corrected is word-by-word a spelling fix of original."""
     source = TOKEN_RE.findall(original)
@@ -77,6 +93,8 @@ def is_spelling_only(original: str, corrected: str) -> bool:
                 and words_close(source[i], target[j] + target[j + 1])
                 and not (i + 1 < len(source) and turkish_lower(source[i + 1]) in QUESTION_PARTICLES)):
             i, j = i + 1, j + 2  # fused particle split off: "binilirmi" -> "binilir mi"
+        elif j + 1 < len(target) and expands_contraction(source[i], target[j], target[j + 1]):
+            i, j = i + 1, j + 2  # spoken contraction: "napcam" -> "ne yapacağım"
         elif words_close(source[i], target[j]):
             i, j = i + 1, j + 1
         else:

@@ -123,6 +123,13 @@ def detect_location(question: str, gazetteer: Gazetteer | None = None) -> Locati
     return None
 
 
+def place_names(province: str, gazetteer: Gazetteer | None = None) -> frozenset[str]:
+    """Lowercased names that point to this province: its name, aliases and its districts (not common words)."""
+    gazetteer = gazetteer or load_gazetteer()
+    return frozenset(name for name, (_, _, owners) in gazetteer.names.items()
+                     if province in owners and name not in gazetteer.common_words)
+
+
 def has_regional_plan(province: str | None, gazetteer: Gazetteer | None = None) -> bool:
     gazetteer = gazetteer or load_gazetteer()
     return province is not None and province in gazetteer.irap_provinces

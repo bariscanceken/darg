@@ -1,0 +1,95 @@
+{
+ "province": "Kahramanmaraş",
+ "source_file": "KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf",
+ "data_year": "",
+ "pages_used": [
+  5,
+  6,
+  10,
+  11,
+  19,
+  28,
+  29,
+  31,
+  32,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  53,
+  76,
+  78,
+  79,
+  85,
+  89,
+  91,
+  99,
+  100,
+  106,
+  107
+ ],
+ "fields": {
+  "faults": [
+   {
+    "value": "Doğu Anadolu Fayı, Kahramanmaraş Fay Zonu, Ölü Deniz Fay Zonu",
+    "page": 19,
+    "quote": "Bölgenin günümüzdeki morfolojik şekillenmesinde de etkili olan bu tektonik yapılardan önemli olanları, Doğu Anadolu Fayı’nın kuzey ve güney kollarına ait faylar, Ölü Deniz Fay Zonu, Engizek Fay Zonu, Andırın Fay Zonu ve Kahramanmaraş Fay Zonu’na ait faylardır."
+   }
+  ],
+  "high_risk_districts": [],
+  "historical_earthquakes": [
+   {
+    "value": "1114, 1513, 1789, 1822, 1866, 1872, 1874, 1875, 1893, 1905, 1971",
+    "page": 40,
+    "quote": "DAFS’ın farklı segmentleri sırasıyla 1114, 1513, 1789, 1822, 1866, 1872, 1874, 1875, 1893, 1905 ve 1971 yıllarında yüzey faylanması oluşturmuş büyük depremler üretmişlerdir."
+   }
+  ],
+  "assembly_areas": [],
+  "temporary_shelters": [],
+  "health_facilities": [
+   {
+    "value": "Pazarcık Devlet Hastanesi, Türkoğlu Merkez 1 nolu sağlık ocağı",
+    "page": 89,
+    "quote": "Pazarcık Devlet Hastanesi, Narlı 112 Acil Narlı İstasyonu, Pazarcık 1-2-3 nolu Aile Sağlığı Merkezleri, Türkoğlu Merkez 1 nolu sağlık ocağı, Türkoğlu Toplum Sağlığı Merkezi, Narlı Aile Sağlığı Merkezi, Köprüağızı Sağlık Evi başta olmak tüm sağlık tesislerinin deprem dayanımları dikkate alınarak..."
+   }
+  ],
+  "other_hazards": [
+   {
+    "value": "Sıvılaşma",
+    "page": 41,
+    "quote": "Bu nedenle alüvyonların bulunduğu alanlarda yeraltı su seviyesinin yüksek olduğu alanların muhtemel bir depremde sıvılaşma özelliği göstereceği beklenmektedir."
+   },
+   {
+    "value": "Heyelan",
+    "page": 28,
+    "quote": "Heyelanlar; çoğunlukla bindirme hatlarını ve bindirmelerin ön cephesinde gelişen morfolojik üniteleri izlemektedir."
+   },
+   {
+    "value": "Çığ",
+    "page": 29,
+    "quote": "Kahramanmaraş ili, topoğrafik ve meteorolojik koşulları nedeniyle çığ riski yüksektir."
+   }
+  ]
+ },
+ "assembly_area_lookup": {
+  "value": "Size en yakın afet ve acil durum toplanma alanını e-Devlet (www.turkiye.gov.tr) üzerinden öğrenebilirsiniz.",
+  "page": 1,
+  "quote": "Size en yakın “Afet ve Acil Durum Toplanma Alanlarını “ www.turkiye.gov.tr üzerinden öğrenebilirsiniz.",
+  "source_file": "toplanma_alanlari.pdf"
+ },
+ "dropped": [
+  {
+   "field": "high_risk_districts",
+   "reason": "quote not on page",
+   "item": {
+    "value": "Bahçelievler, Tekerek, Doğukent, Pazarcık, Türkoğlu",
+    "page": 44,
+    "quote": "Deprem+ Sıvılaşma Bahçelievler Mahallesi ve yakın çevresindeki mahalleler... Deprem+ Sıvılaşma Tekerek yolu güneyi, Üniversite Kavşağı civarı... Deprem+ Sıvılaşma Doğukent yolu güneyi... Deprem+ Sıvılaşma Pazarcık ve Narlı... Deprem-Sıvılaşma Türkoğlu..."
+   }
+  }
+ ],
+ "model": "gpt-4o",
+ "built_at": "2026-10-14"
+}

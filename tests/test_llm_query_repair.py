@@ -30,6 +30,14 @@ class SpellingOnlyValidationTests(unittest.TestCase):
     def test_accepts_split_of_fused_question_particle(self) -> None:
         self.assertTrue(is_spelling_only("hasarlı binya girilirmi", "hasarlı binaya girilir mi"))
 
+    def test_accepts_spoken_contractions(self) -> None:
+        self.assertTrue(is_spelling_only("dprem oldu napcam asaönsore bineyimmi",
+                                         "deprem oldu ne yapacağım asansöre bineyim mi"))
+        self.assertTrue(is_spelling_only("noldu", "ne oldu"))
+        self.assertTrue(is_spelling_only("bişey olurmu", "bir şey olur mu"))
+        self.assertFalse(is_spelling_only("napcam", "ne edeceğim"))
+        self.assertFalse(is_spelling_only("nap", "ne yapacağım"))
+
     def test_rejects_rewrites_and_added_words(self) -> None:
         self.assertFalse(is_spelling_only("depremde binwadan çikimi", "Deprem sırasında binadan çıkmalı mıyım?"))
         self.assertFalse(is_spelling_only("gaz vanası", "doğalgaz vanasını kapatmak"))

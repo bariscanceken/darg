@@ -30,9 +30,10 @@ from .answerability import (
 )
 from .clarification import suggest_clarifications
 from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
-from .evidence import ANSWER_FROM_EVIDENCE_INSTRUCTIONS, format_evidence, select_evidence
+from .evidence import ANSWER_FROM_EVIDENCE_INSTRUCTIONS, format_evidence, mark_wider_area, select_evidence
 from .llm_query_repair import repair_query
-from .location import Location, detect_location, has_regional_plan
+from .local_info import CARD_CHUNK_PREFIX, build_local_info, format_local_info, local_info_evidence
+from .location import Location, detect_location, has_regional_plan, place_names
 from .prompt import DEFAULT_GENERATION_VERSION, GENERATION_PROMPTS, build_user_prompt
 from .query_normalization import normalize_query as normalize_question_text
 from .regional_retrieval import retrieve_enhanced
@@ -53,8 +54,19 @@ CLI_SOURCE_ROUTING = True
 # Evidence-first answers on top of routing (same 12 questions): better 7, worse 3, equal 2; answers can be terse.
 CLI_EVIDENCE_FIRST = True
 CLI_GATE_VOTES = 1  # set after the full faithfulness / false-accept measurement
+# Verified province-card lines (assembly-area lookup, plan counts, shelters) for questions naming a place.
+CLI_LOCAL_INFO = True
+# Question types whose answer must be about the named place; quotes not naming it are marked wider-area.
+PLACE_SPECIFIC_TYPES = frozenset({"bolgesel", "gecmis"})
+# Skip the gate when evidence-first is on (evidence selection refuses when no verbatim quote answers) and let
+# gpt-4o write the answer from the selected evidence. Full measurement 14 Oct 2026 (74 answerable + 13 negatives,
+# current CLI pipeline, gpt-4o judge, not human-calibrated): answered 56 -> 53/74, false accepts 0 -> 0/13,
+# fully faithful 55% -> 85%, answers with a critical issue 16% -> 2%.
+CLI_EVIDENCE_GATE = True
+CLI_GENERATION_MODEL = "gpt-4o"
 NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
                          "cevap genel AFAD bilgilerine dayanmaktadır.")
+LOCAL_ONLY_LEAD = "Kaynaklarımdaki ilgili yerel bilgiler şunlar:"
 REFUSAL_HINT = (
     "İpucu: Sorunuzu daha açık yazmayı deneyin; örneğin durumu ('deprem sırasında', "
     "'deprem sonrasında', 'enkaz altındaysam') ve ne yapmak istediğinizi belirtin."
@@ -129,6 +141,23 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=CLI_EVIDENCE_FIRST,
         help="Select verbatim evidence first and write the answer only from it.",
+    )
+    parser.add_argument(
+        "--generation-model",
+        default=CLI_GENERATION_MODEL,
+        help="Model that writes the final answer (default: same as --openai-model).",
+    )
+    parser.add_argument(
+        "--evidence-gate",
+        action=argparse.BooleanOptionalAction,
+        default=CLI_EVIDENCE_GATE,
+        help="With --evidence-first, skip the answerability gate and let evidence selection refuse.",
+    )
+    parser.add_argument(
+        "--local-info",
+        action=argparse.BooleanOptionalAction,
+        default=CLI_LOCAL_INFO,
+        help="Append verified province-card info (assembly areas, shelters) when the question names a place.",
     )
     parser.add_argument(
         "--gate-votes",
@@ -237,6 +266,8 @@ def generate_answer(
     gate_votes: int = 1,
     source_routing: bool = False,
     evidence_first: bool = False,
+    local_info: bool = False,
+    evidence_gate: bool = False,
 ) -> dict[str, Any]:
     """Generate an answer with Python-owned retrieval source metadata.
 
@@ -295,6 +326,9 @@ def generate_answer(
             "ambiguous_provinces": list(location.ambiguous_provinces),
             "has_regional_plan": has_regional_plan(location.province),
         }
+    if local_info:
+        normalization_fields["local_info"] = build_local_info(location, normalized_question,
+                                                              normalization_fields.get("question_type"))
     formatted = format_context(chunks)
     if return_context:
         normalization_fields["context"] = formatted["context"]
@@ -302,12 +336,23 @@ def generate_answer(
         load_environment()
         model = openai_model or os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
         client = load_openai_client()
-    if gate_votes > 1:
+    card_evidence, card_sources = [], []
+    if evidence_first:
+        card_evidence, card_sources = local_info_evidence(normalization_fields.get("local_info"),
+                                                          len(formatted["sources"]) + 1)
+    all_sources = formatted["sources"] + card_sources
+    if return_context and card_evidence:  # judges must see the local lines the answer may cite
+        normalization_fields["context"] += "".join(f"\n\n[Kaynak {item['source']}]\nMetin: {item['quote']}"
+                                                   for item in card_evidence)
+    if evidence_first and evidence_gate:
+        answerability = {"label": "ANSWERABLE", "raw": "skipped: evidence selection decides"}
+    elif gate_votes > 1:
         answerability = check_answerability_majority(client, model, normalized_question, formatted["context"],
                                                      gate_version, gate_votes)
     else:
         answerability = check_answerability(client, model, normalized_question, formatted["context"], gate_version)
-    if not is_answerable(answerability["label"]):
+    gate_refused = not is_answerable(answerability["label"])
+    if gate_refused and not card_evidence:
         return {
             "question": question,
             "answer": REFUSAL_ANSWER,
@@ -320,9 +365,17 @@ def generate_answer(
     instructions = GENERATION_PROMPTS[generation_version]
     generation_context = formatted["context"]
     if evidence_first:
-        selection = select_evidence(normalized_question, formatted["context"], chunks, client, model)
+        if gate_refused:  # retrieved passages rejected; only the verified local lines remain
+            selection = {"question_situation": "", "evidence": [], "raw_count": 0, "status": "gate_refused"}
+        else:
+            selection = select_evidence(normalized_question, formatted["context"], chunks, client, model)
+        if location_for_search is not None and normalization_fields.get("question_type") in PLACE_SPECIFIC_TYPES:
+            selection["evidence"] = mark_wider_area(selection["evidence"], place_names(location_for_search.province))
+        selection["evidence"] = selection["evidence"] + card_evidence
         normalization_fields["evidence"] = selection
         if not selection["evidence"]:
+            if evidence_gate:
+                answerability = {"label": "NOT_ANSWERABLE", "raw": "no evidence selected (gate skipped)"}
             return {
                 "question": question,
                 "answer": REFUSAL_ANSWER,
@@ -343,7 +396,16 @@ def generate_answer(
     )
 
     answer = response_text(response)
-    cited_sources = filter_sources_by_answer_references(answer, formatted["sources"])
+    if evidence_first and answer.startswith(REFUSAL_ANSWER):
+        answer = REFUSAL_ANSWER  # drop "[Kaynak N]" leftovers or extra sentences after a refusal
+        if evidence_gate or gate_refused:
+            answerability = {"label": "NOT_ANSWERABLE", "raw": "answer refused (gate skipped or card only)"}
+    elif gate_refused:
+        answerability = {"label": "ANSWERABLE", "raw": "gate refused retrieved passages; answered from verified local lines"}
+    cited_sources = filter_sources_by_answer_references(answer, all_sources)
+    if normalization_fields.get("local_info") and not normalization_fields["local_info"]["place"] \
+            and answer != REFUSAL_ANSWER:
+        normalization_fields["local_info"] = None  # place-free brochure lines only stand in for a refusal
 
     return {
         "question": question,
@@ -367,6 +429,8 @@ def main() -> None:
     location = choose_location(question) if args.regional else None
     result = answer_for_cli(question, args, location)
     print_result(result)
+    if result["answer"] == REFUSAL_ANSWER and result.get("local_info"):
+        return  # the verified local section answers it; no clarification round
     if is_answerable(result["answerability"]["label"]) or not args.clarify:
         if not is_answerable(result["answerability"]["label"]):
             print(REFUSAL_HINT)
@@ -434,6 +498,9 @@ def answer_for_cli(question: str, args: argparse.Namespace, location: Location |
         gate_votes=args.gate_votes,
         source_routing=args.source_routing,
         evidence_first=args.evidence_first,
+        local_info=args.local_info,
+        evidence_gate=args.evidence_gate,
+        generation_model=args.generation_model,
     )
 
 
@@ -448,11 +515,22 @@ def print_result(result: dict[str, Any]) -> None:
 
     print("")
     print("DARG:")
-    print(result["answer"])
+    local_only = result["answer"] == REFUSAL_ANSWER and bool(result.get("local_info"))
+    print(LOCAL_ONLY_LEAD if local_only else result["answer"])
     location = result.get("location") or {}
     if location.get("province") and not location.get("has_regional_plan"):
         print("")
         print(NO_REGIONAL_PLAN_NOTE.format(province=location["province"]))
+    card_cited = any(str(source.get("chunk_id", "")).startswith(CARD_CHUNK_PREFIX) for source in result["sources"])
+    if result.get("local_info") and card_cited:
+        if result["local_info"]["note"]:
+            print("")
+            print(result["local_info"]["note"])  # the answer already uses the local lines
+    elif result.get("local_info"):
+        print("")
+        print(format_local_info(result["local_info"]))
+    if local_only:
+        return  # the local section names its own sources
     print("")
     print("Kaynaklar:")
     source_text = format_sources_for_cli(result["sources"])

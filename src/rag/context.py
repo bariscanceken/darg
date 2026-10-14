@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from typing import Any
 
-SOURCE_REFERENCE_RE = re.compile(r"\[Kaynak\s+(\d+)\]", re.IGNORECASE)
+SOURCE_REFERENCE_RE = re.compile(r"\[Kaynak\s+(\d+(?:\s*[,;]\s*(?:Kaynak\s+)?\d+)*)\]", re.IGNORECASE)
 
 
 def page_label(chunk: dict[str, Any]) -> str:
@@ -77,11 +77,11 @@ def referenced_source_numbers(answer: str) -> list[int]:
     """Extract source numbers explicitly cited as [Kaynak N], preserving first-use order."""
     numbers: list[int] = []
     seen: set[int] = set()
-    for match in SOURCE_REFERENCE_RE.finditer(answer):
-        number = int(match.group(1))
-        if number not in seen:
-            numbers.append(number)
-            seen.add(number)
+    for match in SOURCE_REFERENCE_RE.finditer(answer):  # "[Kaynak 2]", "[Kaynak 6, 7]", "[Kaynak 1, Kaynak 3]"
+        for number in map(int, re.findall(r"\d+", match.group(1))):
+            if number not in seen:
+                numbers.append(number)
+                seen.add(number)
     return numbers
 
 

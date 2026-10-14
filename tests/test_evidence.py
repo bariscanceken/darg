@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from src.rag.evidence import allowed_labels, parse_evidence, validate_evidence
+from src.rag.evidence import allowed_labels, format_evidence, mark_wider_area, parse_evidence, validate_evidence
 
 
 CHUNKS = [
@@ -38,6 +38,21 @@ class ValidateEvidenceTests(unittest.TestCase):
             kept = validate_evidence(payload([{"source": 1, "quote": "depremi hissettiğimizde ayakta durmamalı",
                                                "about": about}]), CHUNKS)
             self.assertEqual(kept, [], about)
+
+    def test_wider_area_kept_and_marked(self) -> None:
+        item = {"source": 1, "quote": "depremi hissettiğimizde ayakta durmamalı", "about": "wider_area"}
+        kept = validate_evidence(payload([item]), CHUNKS)
+        self.assertEqual(len(kept), 1)
+        self.assertIn("(kapsam: daha geniş alan)", format_evidence(kept))
+        self.assertNotIn("kapsam", format_evidence([{**item, "about": "same_situation"}]))
+
+    def test_quotes_not_naming_the_place_become_wider_area(self) -> None:
+        names = frozenset({"hatay", "antakya", "iskenderun"})
+        items = [{"source": 1, "quote": "ülkemizde 6 Şubat depremlerinde 50783 kişi", "about": "past_event"},
+                 {"source": 2, "quote": "22 Ocak 1997 Antakya Depremi: 1 kişi yaşamını yitirmiş", "about": "past_event"},
+                 {"source": 3, "quote": "HATAY İLİ toplanma alanı sayısı", "about": "general_fact"}]
+        self.assertEqual([item["about"] for item in mark_wider_area(items, names)],
+                         ["wider_area", "past_event", "general_fact"])
 
     def test_past_event_only_for_history_questions(self) -> None:
         item = [{"source": 2, "quote": "1999 depreminden sonra Gölcük'te çadırkentler kurulmuş", "about": "past_event"}]

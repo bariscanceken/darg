@@ -1,0 +1,132 @@
+{
+ "province": "Adana",
+ "source_file": "ADANA-IRAP.pdf",
+ "data_year": "2019",
+ "pages_used": [
+  11,
+  12,
+  30,
+  39,
+  44,
+  45,
+  46,
+  49,
+  50,
+  51,
+  52,
+  53,
+  73,
+  99,
+  100,
+  102
+ ],
+ "fields": {
+  "faults": [
+   {
+    "value": "Ecemiş Fay Zonu",
+    "page": 44,
+    "quote": "Ecemiş Fay Zonu: Bu zon Adana’nın yaklaşık kuzeybatısında yer alan ve kuzey, kuzeydoğu-güney, güney batı doğrultusu boyunca uzanan bir koridor şeklinde uzanır."
+   },
+   {
+    "value": "Karaisalı-Karsantı Fay Zonu",
+    "page": 45,
+    "quote": "Karaisalı-Karsantı Fay Zonu: Adana havzasının kuzeyinde, Ecemiş Fay Zonu’nun güneyinde, Karaisalı ile Karsantı (Aladağ) arasında değişik boy ve doğrultularda gelişmiş olan çok sayıda kırıktan meydana gelen bir fay zonu bulunmaktadır."
+   },
+   {
+    "value": "Karataş-Osmaniye Fay Zonu",
+    "page": 45,
+    "quote": "Karataş-Osmaniye Fay Zonu: Adana ovasının güneydoğusunda Karataş-Osmaniye arasında genel doğrultusu kuzeydoğu-güneybatı olan, yaklaşık 120 km uzunluğunda bir zon içinde birbirine paralel bir çok fay bulunmaktadır."
+   }
+  ],
+  "high_risk_districts": [
+   {
+    "value": "Ceyhan, Yumurtalık, İmamoğlu, Seyhan, Yüreğir",
+    "page": 53,
+    "quote": "İlimiz Ceyhan, Yumurtalık, İmamoğlu, Seyhan ve Yüreğir ilçeleri mevcut yapı stoğu ve fay hatlarına yakınlıklarından dolayı deprem afetinden muhtemel zarar görebilecek ilçelerdir."
+   }
+  ],
+  "historical_earthquakes": [
+   {
+    "value": "1998, 6.2 büyüklüğünde, 145 ölü",
+    "page": 39,
+    "quote": "1900 yılından bu yana ilimizde yaşanan en büyük deprem 1998 yılında merkez üssü Ceyhan olan 6.2 büyüklüğünde meydana gelmiş, 145 kişi ölmüş ve 10675 bina ağır hasar almıştır."
+   },
+   {
+    "value": "1945, 6.0 büyüklüğünde, 13 ölü",
+    "page": 45,
+    "quote": "20.3.1945’te yine Adana-Ceyhan’da meydana gelen 6.0 şiddetindeki depremde 13 kişi ölmüş, 650 bina tamamen yıkılmış, 2500 bina da ise ağır hasar meydana gelmiştir."
+   },
+   {
+    "value": "1952, 5.6 büyüklüğünde, 10 ölü",
+    "page": 45,
+    "quote": "22.10.1952’de oluşan 5.6 şiddetindeki depremde ise 10 kişi ölmüş, 910 bina yıkılmış veya ağır hasar meydana gelmiştir."
+   }
+  ],
+  "assembly_areas": [
+   {
+    "value": "15 ilçede toplam 228 adet",
+    "page": 50,
+    "quote": "Acil Toplanma Alanları 15 ilçemizde toplamda 228 adet olup, söz konusu alanların; adres, alan büyüklüğü, yüzölçümü, tuvalet, su, yol, elektrik, parsel adı ve mülkiyet durumu gibi bilgileri ekte verilmiştir."
+   }
+  ],
+  "temporary_shelters": [
+   {
+    "value": "Dörtağaç Seyhan, 590.250 m²",
+    "page": 50,
+    "quote": "Geçici / Acil Barınma Alanı Dörtağaç Seyhan 590.250,00 Adana ili, Seyhan ilçesi, Dörtağaç 44 parsel"
+   },
+   {
+    "value": "Buruk Sarıçam, 177.943 m²",
+    "page": 50,
+    "quote": "Geçici / Acil Barınma Alanı Buruk Sarıçam 177.943,30 Adana ili, Seyhan ilçesi, Buruk 2173 parsel"
+   },
+   {
+    "value": "Sirkeli Ceyhan, 534.539 m²",
+    "page": 50,
+    "quote": "Geçici / Acil Barınma Alanı Sirkeli Ceyhan 534.539,12 Adana ili, Ceyhan ilçesi, Buruk 1007 parsel"
+   },
+   {
+    "value": "Kayışlı Seyhan, 383.930 m²",
+    "page": 50,
+    "quote": "Geçici / Acil Barınma Alanı Kayışlı Seyhan 383.930,00 Adana ili, Seyhan ilçesi, Kayışlı Mahallesi 458 ve 784 parsel"
+   },
+   {
+    "value": "Çotlu Yüreğir, 397.66 m²",
+    "page": 50,
+    "quote": "Geçici / Acil Barınma Alanı Çotlu Yüreğir 397.66,00 Adana ili, Yüreğir ilçesi, Çotlu Mahallesi 773, 775, 776, 777, 778, 779, 780, 781, 782, 783 ve 784 parsel"
+   }
+  ],
+  "health_facilities": [],
+  "other_hazards": [
+   {
+    "value": "Sıvılaşma",
+    "page": 45,
+    "quote": "Bu depremin en önemli özelliklerinden biri Türkiye’de en yaygın sıvılaşma yapmış depremlerden biri olmasıdır."
+   },
+   {
+    "value": "Heyelan",
+    "page": 73,
+    "quote": "Kozan ilçesinin kuzey ve kuzeydoğu kesimlerinde, Feke ilçesi merkez ve mahallelerinde, Saimbeyli merkez ve mahallelerinde genel olarak yaygın bulunan Armutludere Formasyonu’nun bol laminalı ve yumuşak, kırılgan yapılı şeylden meydana gelen bölümlerinin; eğimli, şevlendirilmiş suya doygun hale gelen kısımlarında heyelan olaylarının meydana geldiği tespit edilmiştir."
+   }
+  ]
+ },
+ "assembly_area_lookup": {
+  "value": "Size en yakın afet ve acil durum toplanma alanını e-Devlet (www.turkiye.gov.tr) üzerinden öğrenebilirsiniz.",
+  "page": 1,
+  "quote": "Size en yakın “Afet ve Acil Durum Toplanma Alanlarını “ www.turkiye.gov.tr üzerinden öğrenebilirsiniz.",
+  "source_file": "toplanma_alanlari.pdf"
+ },
+ "dropped": [
+  {
+   "field": "health_facilities",
+   "reason": "quote not on page",
+   "item": {
+    "value": "220 sağlık tesisi, 7197 yatak kapasitesi",
+    "page": 30,
+    "quote": "Adana ili 2019 yılı temel sağlık verilerine bakıldığı zaman hastane, klinik ve sağlık ocaklarının sayısı yaklaşık 220 dir. Ambulans sayısı 123, yatak kapasitesi 7197 dir."
+   }
+  }
+ ],
+ "model": "gpt-4o",
+ "built_at": "2026-10-14"
+}
