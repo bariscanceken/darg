@@ -20,7 +20,14 @@ from src.retrieval.evaluate_reranked_v2 import (
 from src.retrieval.rerank import DEFAULT_RERANKER_MODEL, DEFAULT_RERANK_TOP_K, load_embedding_model, load_reranker, rerank_candidates
 from src.retrieval.search import DEFAULT_MODEL_NAME
 
-from .answerability import DEFAULT_GATE_VERSION, GATE_PROMPTS, REFUSAL_ANSWER, check_answerability, is_answerable
+from .answerability import (
+    DEFAULT_GATE_VERSION,
+    GATE_PROMPTS,
+    REFUSAL_ANSWER,
+    check_answerability,
+    check_answerability_majority,
+    is_answerable,
+)
 from .clarification import suggest_clarifications
 from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
 from .llm_query_repair import repair_query
@@ -38,6 +45,7 @@ CLI_LLM_REPAIR = True  # enabled after query_typo_eval_v2 (fix 10/15, keep 8/8)
 CLI_INDEX_DIR = Path("data/indexes/mobile_v4")
 # Faithfulness pilot (20 questions, gpt-4o judge): answers with a critical issue 5/16 (v1) -> 1/14 (v2).
 CLI_GENERATION_VERSION = "v2"
+CLI_GATE_VOTES = 1  # set after the full faithfulness / false-accept measurement
 NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
                          "cevap genel AFAD bilgilerine dayanmaktadır.")
 REFUSAL_HINT = (
@@ -102,6 +110,12 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=True,
         help="Reorder the cross-encoder top-20 with the LLM before taking the Top-5.",
+    )
+    parser.add_argument(
+        "--gate-votes",
+        type=int,
+        default=CLI_GATE_VOTES,
+        help="Majority vote over this many gate calls (odd number; library default 1).",
     )
     parser.add_argument(
         "--generation-version",
@@ -201,6 +215,7 @@ def generate_answer(
     return_context: bool = False,
     generation_version: str = DEFAULT_GENERATION_VERSION,
     generation_model: str | None = None,
+    gate_votes: int = 1,
 ) -> dict[str, Any]:
     """Generate an answer with Python-owned retrieval source metadata.
 
@@ -261,7 +276,11 @@ def generate_answer(
         load_environment()
         model = openai_model or os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
         client = load_openai_client()
-    answerability = check_answerability(client, model, normalized_question, formatted["context"], gate_version)
+    if gate_votes > 1:
+        answerability = check_answerability_majority(client, model, normalized_question, formatted["context"],
+                                                     gate_version, gate_votes)
+    else:
+        answerability = check_answerability(client, model, normalized_question, formatted["context"], gate_version)
     if not is_answerable(answerability["label"]):
         return {
             "question": question,
@@ -369,6 +388,7 @@ def answer_for_cli(question: str, args: argparse.Namespace, location: Location |
         lexical=args.lexical,
         llm_rerank=args.llm_rerank,
         generation_version=args.generation_version,
+        gate_votes=args.gate_votes,
     )
 
 

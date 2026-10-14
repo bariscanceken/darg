@@ -1,0 +1,8 @@
+{
+ "human_labels": "HHDHDHDHDHHH",
+ "agreement": "6/12",
+ "tp": 5,
+ "fp": 3,
+ "fn": 3,
+ "tn": 1
+}

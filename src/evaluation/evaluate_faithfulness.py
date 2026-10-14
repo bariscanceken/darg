@@ -86,6 +86,19 @@ def question_list() -> list[tuple[str, str]]:
     return questions
 
 
+# Clearly unanswerable controls (personal guarantees, prediction, out of scope). rag_eval questions labelled
+# NOT_ANSWERABLE only because the old retrieval missed them are excluded; gate_heldout_v2 is never used here.
+NEGATIVE_RAG_EVAL_IDS = {"Q22", "Q23", "Q24", "Q25", "Q26", "Q27", "Q28", "Q29", "Q30"}
+NEGATIVE_ROBUSTNESS_IDS = {"Q24-V1", "Q24-V2", "Q26-V1", "Q26-V2"}
+
+
+def negative_questions() -> list[tuple[str, str]]:
+    rag_eval = [json.loads(line) for line in Path("data/evaluation/rag_eval_v1.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+    robustness = [json.loads(line) for line in Path("data/evaluation/gate_robustness_v1.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+    return ([("negative", row["question"]) for row in rag_eval if row["id"] in NEGATIVE_RAG_EVAL_IDS]
+            + [("negative", row["question"]) for row in robustness if row["id"] in NEGATIVE_ROBUSTNESS_IDS])
+
+
 class FaithfulnessJudge:
     def __init__(self, client: Any) -> None:
         self.client = client
@@ -142,6 +155,8 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=None, help="Evaluate only the first N questions (pilot).")
     parser.add_argument("--generation-version", default="v1")
     parser.add_argument("--generation-model", default=None)
+    parser.add_argument("--gate-votes", type=int, default=1)
+    parser.add_argument("--with-negatives", action="store_true", help="Also run unanswerable control questions.")
     parser.add_argument("--tag", default=None, help="Suffix for output files.")
     args = parser.parse_args()
     results_file, review_file, summary_file = (
@@ -152,19 +167,22 @@ def main() -> None:
     load_environment()
     judge = FaithfulnessJudge(load_openai_client())
     questions = question_list()[: args.limit] if args.limit else question_list()
+    if args.with_negatives:
+        questions += negative_questions()
 
     results = []
     for index, (set_name, question) in enumerate(questions, start=1):
         result = generate_answer(question, normalize_query=True, llm_repair=True, index_dir=CLI_INDEX_DIR,
                                  regional=True, lexical=True, llm_rerank=True, return_context=True,
-                                 generation_version=args.generation_version, generation_model=args.generation_model)
+                                 generation_version=args.generation_version, generation_model=args.generation_model,
+                                 gate_votes=args.gate_votes)
         row: dict[str, Any] = {"set": set_name, "question": question, "answer": result["answer"],
                                "refused": result["answer"].strip() == REFUSAL_ANSWER}
-        if not row["refused"]:
+        if not row["refused"] and set_name != "negative":
             verdict = judge.judge(question, result["context"], result["answer"])
             row.update(verdict=verdict, **answer_flags(verdict))
         results.append(row)
-        status = "refused" if row["refused"] else ("faithful" if row["faithful"] else
+        status = ("NEGATIVE " + ("refused (ok)" if row["refused"] else "ANSWERED (false accept)")) if set_name == "negative" else             "refused" if row["refused"] else ("faithful" if row["faithful"] else
                  f"unsup={row['unsupported']} partial={row['partial']} mismatch={row['situation_mismatch']} critical={row['critical']}")
         print(f"[{index}/{len(questions)}] {status} | {question}", flush=True)
 
@@ -172,17 +190,20 @@ def main() -> None:
         for row in results:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-    answered = [r for r in results if not r["refused"]]
+    negatives = [r for r in results if r["set"] == "negative"]
+    results_pos = [r for r in results if r["set"] != "negative"]
+    answered = [r for r in results_pos if not r["refused"]]
     claims = sum(r["claims"] for r in answered)
 
     def pct(part: int, whole: int) -> str:
         return f"{part}/{whole} ({part / whole:.0%})" if whole else "0/0"
 
     lines = [
-        f"DARG faithfulness [generation {args.generation_version}, model {args.generation_model or 'default'}] "
+        f"DARG faithfulness [generation {args.generation_version}, model {args.generation_model or 'default'}, gate votes {args.gate_votes}] "
         f"({JUDGE_PROMPT_VERSION}, judge {JUDGE_MODEL}, NOT human-calibrated)",
         "=" * 66,
-        f"Questions: {len(results)} | answered: {len(answered)} | refused: {len(results) - len(answered)}",
+        f"Answerable-set questions: {len(results_pos)} | answered: {pct(len(answered), len(results_pos))}",
+        f"Unanswerable controls: {len(negatives)} | false accepts: {sum(not r['refused'] for r in negatives)}",
         f"Fully faithful answers: {pct(sum(r['faithful'] for r in answered), len(answered))}",
         f"Answers with >=1 critical issue: {pct(sum(r['critical'] > 0 for r in answered), len(answered))}",
         f"Answers with a situation mismatch: {pct(sum(r['situation_mismatch'] > 0 for r in answered), len(answered))}",

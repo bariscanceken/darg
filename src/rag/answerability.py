@@ -119,6 +119,32 @@ def check_answerability(
     }
 
 
+def check_answerability_majority(
+    client: Any,
+    model: str,
+    question: str,
+    context: str,
+    gate_version: str = DEFAULT_GATE_VERSION,
+    votes: int = 3,
+) -> dict[str, Any]:
+    """Majority vote over repeated gate calls; stops early once a label has a majority.
+
+    The gate is not fully deterministic even at temperature 0, so a single call can
+    refuse an answerable question by chance. Ties cannot occur with an odd vote count.
+    """
+    labels: list[str] = []
+    raws: list[str] = []
+    needed = votes // 2 + 1
+    for _ in range(votes):
+        decision = check_answerability(client, model, question, context, gate_version)
+        labels.append(decision["label"])
+        raws.append(decision["raw"])
+        if labels.count(ANSWERABLE) >= needed or labels.count(NOT_ANSWERABLE) >= needed:
+            break
+    label = ANSWERABLE if labels.count(ANSWERABLE) >= needed else NOT_ANSWERABLE
+    return {"label": label, "raw": raws[0], "votes": labels}
+
+
 def is_answerable(label: str) -> bool:
     """Return True only for the exact ANSWERABLE label."""
     return label == ANSWERABLE

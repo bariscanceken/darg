@@ -1,0 +1,146 @@
+[
+ {
+  "n": 1,
+  "judge": "DOĞRU",
+  "question": "Yakınlarıma ulaşmak için arama yerine mesaj kullanmak daha uygun mu?",
+  "claim": {
+   "claim": "Bölge dışından bir bağlantı kişisi belirleyerek, bu kişi aracılığıyla bilgi aktarımı sağlamak da önerilmektedir.",
+   "source_situation": "sonrasında",
+   "supported": "yes",
+   "situation_match": "yes",
+   "critical": false
+  }
+ },
+ {
+  "n": 2,
+  "judge": "DOĞRU",
+  "question": "Deprem sonrası Ceyhan'da güvenli bir yere nasıl geçerim?",
+  "claim": {
+   "claim": "Kapınıza ne zaman ayrıldığınızı, hangi yoldan ve nereye gittiğinizi bildiren bir not asın.",
+   "source_situation": "sonrasında",
+   "supported": "yes",
+   "situation_match": "yes",
+   "critical": false
+  }
+ },
+ {
+  "n": 3,
+  "judge": "KRİTİK",
+  "question": "Hatay'da deprem riski neden yüksek?",
+  "claim": {
+   "claim": "Hatay'da yoğun yapılaşma, zemin sorunları ve eski yapı stoğu, depremin etkilerini artıran unsurlar arasında yer almaktadır.",
+   "source_situation": "GEÇMİŞ OLAY KAYDI",
+   "supported": "yes",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 4,
+  "judge": "KRİTİK",
+  "question": "Kocaeli'de 1999 depreminden sonra ne tür önlemler alındı?",
+  "claim": {
+   "claim": "Erken uyarı sistemleri ve etki analizlerinin geliştirilmesi",
+   "source_situation": "genel bilgi",
+   "supported": "partial",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 5,
+  "judge": "KRİTİK",
+  "question": "İskenderun'da deprem sonrası tsunami tehlikesi var mı?",
+  "claim": {
+   "claim": "Deprem anında denizde ve deniz kıyısındayken bir deprem hissedildiğinde veya denizin ani olarak geri çekilmesi gözlemlendiğinde, tsunami tehlikesinin var olduğu unutulmamalıdır.",
+   "source_situation": "sırasında",
+   "supported": "yes",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 6,
+  "judge": "KRİTİK",
+  "question": "Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?",
+  "claim": {
+   "claim": "Teşkilatlanma: Bayındırlık ve İskan Bakanlığı, İçişleri, Sağlık, Savunma Bakanlığı ve Kızılay yetkilileri göreve çağrılmıştır.",
+   "source_situation": "GEÇMİŞ OLAY KAYDI",
+   "supported": "yes",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 7,
+  "judge": "DOĞRU",
+  "question": "Erzincan'da geçmişte hangi büyük depremler oldu?",
+  "claim": {
+   "claim": "1992 Erzincan Depremi: 13 Mart 1992 tarihinde meydana gelen bu deprem, 6,8 büyüklüğündeydi.",
+   "source_situation": "GEÇMİŞ OLAY KAYDI",
+   "supported": "yes",
+   "situation_match": "yes",
+   "critical": false
+  }
+ },
+ {
+  "n": 8,
+  "judge": "KRİTİK",
+  "question": "Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?",
+  "claim": {
+   "claim": "Yer seçimi yapılacak sahaların büyüklüğü afetzede sayısına göre belirlenmekte ve şahıs arazisi olması durumunda kamulaştırma işlemleri yapılmaktadır.",
+   "source_situation": "GEÇMİŞ OLAY KAYDI",
+   "supported": "partial",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 9,
+  "judge": "KRİTİK",
+  "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?",
+  "claim": {
+   "claim": "Açık alan bulun, binalardan, ağaçlardan ve elektrik direklerinden uzak durun.",
+   "source_situation": "kaynakta yok",
+   "supported": "no",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 10,
+  "judge": "DOĞRU",
+  "question": "Toplanma alanı nedir?",
+  "claim": {
+   "claim": "Toplanma alanlarının belirlenmesinde dikkate alınması gereken kriterler şunlardır: Nüfus yoğunluğu, ulaşım ve tahliye kolaylığı, engellilerin ve yaşlıların ulaşımına uygunluk, ikincil tehlikelerden uzaklık, engebesiz düz arazilerde yer alma, konut alanlarına yakınlık ancak yapısal unsurlardan etkilenmeme, temel ihtiyaçların karşılanabileceği yapılara yakınlık.",
+   "source_situation": "genel bilgi",
+   "supported": "yes",
+   "situation_match": "yes",
+   "critical": false
+  }
+ },
+ {
+  "n": 11,
+  "judge": "KRİTİK",
+  "question": "Sakarya'da deprem olursa ne yapmalıyım?",
+  "claim": {
+   "claim": "Eşyaları Siper Olarak Kullanın: Eğer çevrenizde düşebilecek eşyalar varsa, bunlardan korunmak için yastık, minder veya halı gibi eşyaları siper olarak kullanabilirsiniz.",
+   "source_situation": "sonrasında",
+   "supported": "partial",
+   "situation_match": "no",
+   "critical": true
+  }
+ },
+ {
+  "n": 12,
+  "judge": "KRİTİK",
+  "question": "Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?",
+  "claim": {
+   "claim": "Acil durum talimatlarını dinleyin: Pilli radyodan acil durum talimatlarını takip edin.",
+   "source_situation": "sonrasında",
+   "supported": "yes",
+   "situation_match": "no",
+   "critical": true
+  }
+ }
+]
