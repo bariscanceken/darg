@@ -1,0 +1,8 @@
+DARG faithfulness v1 (faithfulness_v1, judge gpt-4o, NOT human-calibrated)
+==================================================================
+Questions: 20 | answered: 15 | refused: 5
+Fully faithful answers: 5/15 (33%)
+Answers with >=1 critical issue: 0/15 (0%)
+Answers with a situation mismatch: 0/15 (0%)
+Location misattribution: 0/15 (0%)
+Claims: 84 | unsupported 0/84 (0%) | partial 13/84 (15%) | situation mismatch 0/84 (0%) | critical 0/84 (0%)

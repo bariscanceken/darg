@@ -25,7 +25,7 @@ from .clarification import suggest_clarifications
 from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
 from .llm_query_repair import repair_query
 from .location import Location, detect_location, has_regional_plan
-from .prompt import SYSTEM_PROMPT, build_user_prompt
+from .prompt import DEFAULT_GENERATION_VERSION, GENERATION_PROMPTS, build_user_prompt
 from .query_normalization import normalize_query as normalize_question_text
 from .regional_retrieval import retrieve_enhanced
 
@@ -36,6 +36,8 @@ CLI_GATE_VERSION = "v1"  # switch to "v2" only after it passes the held-out eval
 CLI_LLM_REPAIR = True  # enabled after query_typo_eval_v2 (fix 10/15, keep 8/8)
 # Encoding-repaired, E5-window-sized chunks; holdout Hit@5 20/30 -> 26/30 vs mobile_v2 (LLM judge).
 CLI_INDEX_DIR = Path("data/indexes/mobile_v4")
+# Faithfulness pilot (20 questions, gpt-4o judge): answers with a critical issue 5/16 (v1) -> 1/14 (v2).
+CLI_GENERATION_VERSION = "v2"
 NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
                          "cevap genel AFAD bilgilerine dayanmaktadır.")
 REFUSAL_HINT = (
@@ -100,6 +102,12 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=True,
         help="Reorder the cross-encoder top-20 with the LLM before taking the Top-5.",
+    )
+    parser.add_argument(
+        "--generation-version",
+        choices=sorted(GENERATION_PROMPTS),
+        default=CLI_GENERATION_VERSION,
+        help="Answer-generation prompt version (library default stays v1).",
     )
     return parser.parse_args()
 
@@ -190,6 +198,9 @@ def generate_answer(
     location: Location | None = None,
     lexical: bool = False,
     llm_rerank: bool = False,
+    return_context: bool = False,
+    generation_version: str = DEFAULT_GENERATION_VERSION,
+    generation_model: str | None = None,
 ) -> dict[str, Any]:
     """Generate an answer with Python-owned retrieval source metadata.
 
@@ -244,6 +255,8 @@ def generate_answer(
             "has_regional_plan": has_regional_plan(location.province),
         }
     formatted = format_context(chunks)
+    if return_context:
+        normalization_fields["context"] = formatted["context"]
     if client is None:
         load_environment()
         model = openai_model or os.getenv("OPENAI_MODEL") or DEFAULT_OPENAI_MODEL
@@ -260,8 +273,8 @@ def generate_answer(
         }
 
     response = client.responses.create(
-        model=model,
-        instructions=SYSTEM_PROMPT,
+        model=generation_model or model,
+        instructions=GENERATION_PROMPTS[generation_version],
         input=build_user_prompt(normalized_question, formatted["context"]),
         max_output_tokens=max_output_tokens,
         temperature=0.2,
@@ -355,6 +368,7 @@ def answer_for_cli(question: str, args: argparse.Namespace, location: Location |
         location=location,
         lexical=args.lexical,
         llm_rerank=args.llm_rerank,
+        generation_version=args.generation_version,
     )
 
 

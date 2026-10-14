@@ -1,0 +1,75 @@
+### 1. [regional] Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 2. [holdout] Deprem sırasında mutfaktaysam ilk ne yapmalıyım?  (soru durumu: deprem SIRASINDA)
+Deprem sırasında mutfaktaysanız ve yanan bir ocak varsa, sarsıntı hissedilir hissedilmez ocağı kapatmalısınız. Ardından, Çök-Kapan-Tutun hareketini yaparak kendinizi korumalısınız [Kaynak 1][Kaynak 2].
+  - [yes/yes|kaynak: sırasında] Deprem sırasında mutfaktaysanız ve yanan bir ocak varsa, sarsıntı hissedilir hissedilmez ocağı kapatmalısınız.
+  - [yes/yes|kaynak: sırasında] Ardından, Çök-Kapan-Tutun hareketini yaparak kendinizi korumalısınız.
+
+### 3. [regional] Düzce'de deprem riski yüksek mi?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 4. [regional] Sakarya'da deprem olursa ne yapmalıyım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 5. [regional] Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 6. [regional] Hatay'da deprem riski neden yüksek?  (soru durumu: genel bilgi)
+Hatay'da deprem riski, bölgenin önemli tektonik yapıların bulunduğu bir alanda yer alması nedeniyle yüksektir. Özellikle Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF) gibi aktif fay hatları, bölgenin deprem üretme potansiyelini artırmaktadır. Tarihsel deprem kayıtları, bölgede uzun süredir büyük bir depremin gerçekleşmediğini ve bu nedenle gelecekte yıkıcı bir deprem tehlikesi altında olduğunu göstermektedir. Ayrıca, Antakya ve çevresi, bu aktif fay hatlarının etkisi altında olup, depremsellik açısından aktif bir bölgedir [Kaynak 1].
+  - [yes/yes|kaynak: genel bilgi] Hatay'da deprem riski, bölgenin önemli tektonik yapıların bulunduğu bir alanda yer alması nedeniyle yüksektir.
+  - [yes/yes|kaynak: genel bilgi] Özellikle Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF) gibi aktif fay hatları, bölgenin deprem üretme potansiyelini artırmaktadır.
+  - [yes/yes|kaynak: genel bilgi] Tarihsel deprem kayıtları, bölgede uzun süredir büyük bir depremin gerçekleşmediğini ve bu nedenle gelecekte yıkıcı bir deprem tehlikesi altında olduğunu göstermektedir.
+  - [yes/yes|kaynak: genel bilgi] Antakya ve çevresi, bu aktif fay hatlarının etkisi altında olup, depremsellik açısından aktif bir bölgedir.
+
+### 7. [holdout] Deprem çantasını binadan çıkarken yanıma almalı mıyım?  (soru durumu: deprem SONRASINDA)
+Evet, bina tahliye edilirken önceden hazırlanmış Afet ve Acil Durum Çantasını yanınıza almanız önerilmektedir. [Kaynak 1]
+  - [yes/yes|kaynak: sonrasında] Bina tahliye edilirken önceden hazırlanmış Afet ve Acil Durum Çantasını yanınıza almanız önerilmektedir.
+
+### 8. [holdout] Deprem sonrası elektrik şalterini kapatmalı mıyım?  (soru durumu: deprem SONRASINDA)
+Deprem sonrası, binada yapısal bir hasar yoksa ve tahliye anında vaktiniz varsa, elektrik şalterini kapatmalısınız. Bu, yangın riskini azaltmak için önemlidir [Kaynak 1][Kaynak 2][Kaynak 4][Kaynak 5].
+  - [yes/yes|kaynak: sonrasında] Deprem sonrası, binada yapısal bir hasar yoksa ve tahliye anında vaktiniz varsa, elektrik şalterini kapatmalısınız.
+  - [yes/yes|kaynak: sonrasında] Bu, yangın riskini azaltmak için önemlidir.
+
+### 9. [regional] Van'da depremden sonra nereye gitmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 10. [dev] Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 11. [regional] Osmaniye'de geçici barınma alanları nerede?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 12. [holdout] Toplanma alanına giderken hangi risklere dikkat etmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 13. [dev] Deprem sonrası ilk 72 saatte ne yapmalıyım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 14. [holdout] Enkaz altındaysam sürekli bağırmalı mıyım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 15. [dev] Toplanma alanı nedir?  (soru durumu: genel bilgi)
+Toplanma alanları, afet sonrası paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla halkın güvenle toplanabileceği alanlardır. Bu alanlar, geçici barınma merkezleri hazır olana kadar halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli yerlerdir. Toplanma alanları belirlenirken nüfus yoğunluğu, ulaşılabilirlik, engellilerin ve yaşlıların erişimi, ikincil tehlikelerden uzaklık gibi kriterler dikkate alınır. Ayrıca, bu alanlar elektrik, su, tuvalet gibi temel ihtiyaçların karşılanabileceği yapılara yakın olmalıdır [Kaynak 1, Kaynak 2, Kaynak 3, Kaynak 4].
+  - [yes/yes|kaynak: sonrasında] Toplanma alanları, afet sonrası paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla halkın güvenle toplanabileceği alanlardır.
+  - [yes/yes|kaynak: sonrasında] Bu alanlar, geçici barınma merkezleri hazır olana kadar halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli yerlerdir.
+  - [yes/na|kaynak: genel bilgi] Toplanma alanları belirlenirken nüfus yoğunluğu, ulaşılabilirlik, engellilerin ve yaşlıların erişimi, ikincil tehlikelerden uzaklık gibi kriterler dikkate alınır.
+  - [yes/na|kaynak: genel bilgi] Bu alanlar elektrik, su, tuvalet gibi temel ihtiyaçların karşılanabileceği yapılara yakın olmalıdır.
+
+### 16. [regional] Malatya'da deprem sonrası nereye gitmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 17. [dev] Enkaz altında kalırsam ne yapmalıyım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 18. [dev] Depremden sonra nereye gitmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 19. [dev] Ağır hasarlı bina ne demektir?  (soru durumu: genel bilgi)
+Ağır hasarlı bina, deprem nedeniyle onarımı mümkün olmayacak derecede hasar gören ve tekrar kullanımı mümkün olmayan binalardır. Bu binalar can ve mal güvenliği açısından tehlike oluşturduğu için hemen boşaltılır ve itiraz hasar tespit sürecinin tamamlanmasının ardından yıkılır [Kaynak 1][Kaynak 2][Kaynak 3][Kaynak 4].
+  - [yes/yes|kaynak: genel bilgi] Ağır hasarlı bina, deprem nedeniyle onarımı mümkün olmayacak derecede hasar gören ve tekrar kullanımı mümkün olmayan binalardır.
+  - [yes/yes|kaynak: genel bilgi] Bu binalar can ve mal güvenliği açısından tehlike oluşturduğu için hemen boşaltılır.
+  - [yes/yes|kaynak: genel bilgi] İtiraz hasar tespit sürecinin tamamlanmasının ardından yıkılır.
+
+### 20. [regional] Elbistan'da 2023 depreminin etkileri nelerdi?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.

@@ -1,0 +1,9 @@
+DARG faithfulness [generation v1, model default] (faithfulness_v2, judge gpt-4o, NOT human-calibrated)
+(recomputed from saved results with the deterministic critical rule)
+==================================================================
+Questions: 20 | answered: 16 | refused: 4
+Fully faithful answers: 5/16 (31%)
+Answers with >=1 critical issue: 5/16 (31%)
+Answers with a situation mismatch: 4/16 (25%)
+Location misattribution: 1/16 (6%)
+Claims: 80 | unsupported 5/80 (6%) | partial 16/80 (20%) | situation mismatch 13/80 (16%) | critical 15/80 (19%)

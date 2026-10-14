@@ -1,0 +1,247 @@
+### 1. [regional] Kahramanmaraş'ta deprem anında evdeysem ne yapmalıyım?  (soru durumu: deprem SIRASINDA)
+Deprem anında evdeyseniz aşağıdaki adımları izlemelisiniz:
+
+1. **Sakin Olun**: Panik yapmayın.
+2. **Çök-Kapan-Tutun**: 
+   - Sağlam bir nesnenin altına girin veya yanına geçin.
+   - Sırtınızı pencerelere dönük bir şekilde kapatın.
+   - Başınızı ve ensenizi düşen cisimlerden koruyun.
+   - Nesneye tutunun ve sarsıntı sona erene kadar bu pozisyonda kalın.
+3. **Mutfaktaysanız**: 
+   - Yanan bir ocak varsa, sarsıntı hissedilir hissettiğiniz anda ocağı kapatın ve ardından Çök-Kapan-Tutun hareketini yapın.
+4. **Tehlikelerden Uzak Durun**: 
+   - Üzerinize düşebilecek cisimlerden ve camlardan uzak durun.
+   - Düşebilecek veya kayabilecek eşyaların altına girmeyin.
+
+Bu adımlar, deprem sırasında kendinizi korumanıza yardımcı olacaktır. [Kaynak 1]
+  - [partial/yes|kaynak: genel bilgi] Sakin olun, panik yapmayın.
+  - [yes/yes|kaynak: sırasında] Çök-Kapan-Tutun: Sağlam bir nesnenin altına girin veya yanına geçin.
+  - [yes/yes|kaynak: sırasında] Sırtınızı pencerelere dönük bir şekilde kapatın.
+  - [yes/yes|kaynak: sırasında] Başınızı ve ensenizi düşen cisimlerden koruyun.
+  - [yes/yes|kaynak: sırasında] Nesneye tutunun ve sarsıntı sona erene kadar bu pozisyonda kalın.
+  - [yes/yes|kaynak: sırasında] Mutfaktaysanız: Yanan bir ocak varsa, sarsıntı hissedilir hissettiğiniz anda ocağı kapatın ve ardından Çök-Kapan-Tutun hareketini yapın.
+  - [partial/yes|kaynak: sırasında] Tehlikelerden Uzak Durun: Üzerinize düşebilecek cisimlerden ve camlardan uzak durun.
+  - [yes/yes|kaynak: sırasında] Düşebilecek veya kayabilecek eşyaların altına girmeyin.
+
+### 2. [holdout] Deprem sırasında mutfaktaysam ilk ne yapmalıyım?  (soru durumu: deprem SIRASINDA)
+Eğer deprem sırasında mutfaktaysanız, ilk olarak şu adımları izlemelisiniz:
+
+1. **Yanan Ocağı Kapatın**: Sarsıntı hissedilir hissettiğiniz anda, eğer ocak yanıyorsa hemen kapatın.
+2. **Çök-Kapan-Tutun**: Daha sonra, Çök-Kapan-Tutun hareketini yapın. Bunun için sağlam bir nesnenin altına girin veya yanına geçin. Sırtınızı pencerelere dönük bir şekilde kapatın ve başınızı düşen cisimlerden koruyun. Sarsıntı sona erene kadar bu pozisyonda kalın.
+
+Bu adımlar, deprem sırasında güvenliğinizi sağlamak için önemlidir. [Kaynak 1][Kaynak 2]
+  - [yes/yes|kaynak: sırasında] Yanan ocağı kapatın.
+  - [yes/yes|kaynak: sırasında] Çök-Kapan-Tutun hareketini yapın.
+  - [partial/yes|kaynak: sırasında] Sağlam bir nesnenin altına girin veya yanına geçin.
+  - [yes/yes|kaynak: sırasında] Sırtınızı pencerelere dönük bir şekilde kapatın ve başınızı düşen cisimlerden koruyun.
+  - [yes/yes|kaynak: sırasında] Sarsıntı sona erene kadar bu pozisyonda kalın.
+
+### 3. [regional] Düzce'de deprem riski yüksek mi?  (soru durumu: genel bilgi)
+Düzce'de deprem riski yüksektir. 1999 yılında meydana gelen Düzce depremi, büyüklüğü 7,2 ile önemli hasarlara yol açmış ve birçok bina ağır hasar görmüştür. Bu tür geçmiş depremler, bölgedeki yapıların deprem riski taşıdığını göstermektedir. Ayrıca, Türkiye genelinde yapı stokunun büyük bir kısmının depreme dayanıklı olmadığı ve geçmişteki depremlerin bu durumu ortaya koyduğu belirtilmektedir. [Kaynak 1][Kaynak 3][Kaynak 4]
+  - [partial/yes|kaynak: geçmiş olay kaydı] Düzce'de deprem riski yüksektir.
+  - [yes/yes|kaynak: geçmiş olay kaydı] 1999 yılında meydana gelen Düzce depremi, büyüklüğü 7,2 ile önemli hasarlara yol açmış ve birçok bina ağır hasar görmüştür.
+  - [partial/yes|kaynak: geçmiş olay kaydı] Bu tür geçmiş depremler, bölgedeki yapıların deprem riski taşıdığını göstermektedir.
+  - [yes/yes|kaynak: genel bilgi] Türkiye genelinde yapı stokunun büyük bir kısmının depreme dayanıklı olmadığı ve geçmişteki depremlerin bu durumu ortaya koyduğu belirtilmektedir.
+
+### 4. [regional] Sakarya'da deprem olursa ne yapmalıyım?  (soru durumu: deprem SIRASINDA)
+### Deprem Sırasında Ne Yapmalıyım?
+
+1. **Çök-Kapan-Tutun Pozisyonu Alın**: Deprem anında en uygun hareket tarzı, "Çök-Kapan-Tutun" pozisyonunu almak ve bu pozisyonda kalmaktır. Bu, sizi düşen nesnelerden korur.
+
+2. **Panik Yapmayın**: Panik, durumu daha da kötüleştirebilir. Kendinizi sakinleştirerek, çevrenizdeki insanlarla korkularınızı paylaşabilirsiniz.
+
+3. **Güvenli Bir Yere Geçin**: Eğer hareket edebiliyorsanız, çevrenizdeki tehlikeleri değerlendirin ve daha güvenli bir yere geçmeye çalışın.
+
+4. **Eşyaları Siper Olarak Kullanın**: Yastık, minder veya halı gibi eşyaları siper olarak kullanarak kendinizi koruyabilirsiniz.
+
+5. **Cam Kırıklarından Korunun**: Mekânlarda terlik bulundurmak, cam kırıklarından korunmanıza yardımcı olur. Çıplak ayakla yakalandıysanız, giysilerinizi çarık gibi sararak ayaklarınızı koruyabilirsiniz.
+
+Bu öneriler, deprem sırasında güvenliğinizi artırmak için önemlidir. [Kaynak 1], [Kaynak 2], [Kaynak 3] ile desteklenmiştir.
+  - [yes/yes|kaynak: sırasında] Çök-Kapan-Tutun Pozisyonu Alın
+  - [yes/yes|kaynak: sırasında] Panik Yapmayın
+  - [partial/no|kaynak: enkaz altında] Güvenli Bir Yere Geçin  ⚠ KRİTİK
+  - [partial/no|kaynak: sonrasında] Eşyaları Siper Olarak Kullanın  ⚠ KRİTİK
+  - [partial/no|kaynak: enkaz altında] Cam Kırıklarından Korunun  ⚠ KRİTİK
+
+### 5. [regional] Maraş'ta deprem sonrası toplanma alanları nasıl belirlenmiş?  (soru durumu: deprem SONRASINDA)
+Maraş'ta deprem sonrası toplanma alanları, çeşitli kriterlere dayanarak belirlenmiştir. Bu kriterler arasında:
+
+- Nüfus yoğunluğu,
+- Ulaşılabilirlik ve tahliye kolaylığı,
+- Engellilerin ve yaşlıların ulaşımına uygunluk,
+- İkincil tehlikelerden (yangın, su taşkını, vb.) uzaklık,
+- Engebesiz düz araziler olması,
+- Konut alanlarına yakınlık ancak yapısal unsurlardan etkilenmemesi,
+- Temel ihtiyaçların karşılanabileceği yapılara yakınlık gibi unsurlar bulunmaktadır.
+
+Bu alanların tespiti ve kontrolü, ilgili belediyeler tarafından yürütülmektedir. Ayrıca, seçilen sahaların büyüklüğü afetzede sayısına göre belirlenmekte ve şahıs arazisi olması durumunda kamulaştırma yapılmaktadır [Kaynak 1].
+  - [yes/yes|kaynak: sonrasında] Maraş'ta deprem sonrası toplanma alanları çeşitli kriterlere dayanarak belirlenmiştir.
+  - [yes/yes|kaynak: sonrasında] Kriterler arasında nüfus yoğunluğu, ulaşılabilirlik ve tahliye kolaylığı bulunmaktadır.
+  - [yes/yes|kaynak: sonrasında] Kriterler arasında engellilerin ve yaşlıların ulaşımına uygunluk bulunmaktadır.
+  - [yes/yes|kaynak: sonrasında] Kriterler arasında ikincil tehlikelerden uzaklık bulunmaktadır.
+  - [yes/yes|kaynak: sonrasında] Kriterler arasında engebesiz düz araziler olması bulunmaktadır.
+  - [yes/yes|kaynak: sonrasında] Kriterler arasında konut alanlarına yakınlık ancak yapısal unsurlardan etkilenmemesi bulunmaktadır.
+  - [yes/yes|kaynak: sonrasında] Kriterler arasında temel ihtiyaçların karşılanabileceği yapılara yakınlık bulunmaktadır.
+  - [yes/yes|kaynak: sonrasında] Bu alanların tespiti ve kontrolü ilgili belediyeler tarafından yürütülmektedir.
+  - [partial/yes|kaynak: sonrasında] Seçilen sahaların büyüklüğü afetzede sayısına göre belirlenmekte ve şahıs arazisi olması durumunda kamulaştırma yapılmaktadır.
+
+### 6. [regional] Hatay'da deprem riski neden yüksek?  (soru durumu: genel bilgi)
+Hatay'da deprem riski yüksek olmasının nedenleri şunlardır:
+
+1. **Tektonik Yapılar**: Hatay, Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF) gibi önemli tektonik yapıların bulunduğu bir bölgede yer almaktadır. Bu fay hatları, bölgedeki depremselliği artırmaktadır. [Kaynak 1]
+
+2. **Tarihsel Depremler**: Bölgedeki tarihsel deprem kayıtları, son 130 yılda büyük yıkıcı depremlerin meydana gelmediğini göstermektedir. Bu durum, gelecekte yıkıcı depremler olabileceği anlamına gelmektedir. [Kaynak 1]
+
+3. **Aktif Fay Hatları**: Antakya ve çevresi, Garb ve Karasu fayları gibi aktif fay hatları üzerinde bulunmaktadır. Bu fayların deprem üretme potansiyeli yüksektir. [Kaynak 1][Kaynak 2]
+
+4. **Yapılaşma ve Zemin Sorunları**: Yoğun yapılaşma, eski yapı stoğu ve zemin sorunları, depremin etkilerini artıran faktörlerdir. [Kaynak 3]
+
+5. **Fayların Birleşimi**: Doğu Anadolu Fay Zonu ve Ölü Deniz Fay Zonu'nun Amik Ovası'nda birleşmesi, bölgedeki deprem riskini daha da artırmaktadır. [Kaynak 2]
+
+Bu nedenler, Hatay'ın deprem riski açısından yüksek bir tehlike altında olduğunu göstermektedir.
+  - [yes/yes|kaynak: genel bilgi] Hatay, Ölü Deniz Fay Zonu (ÖDFZ) ve Doğu Anadolu Fay Zonu (DAF) gibi önemli tektonik yapıların bulunduğu bir bölgede yer almaktadır.
+  - [yes/yes|kaynak: genel bilgi] Bölgedeki tarihsel deprem kayıtları, son 130 yılda büyük yıkıcı depremlerin meydana gelmediğini göstermektedir.
+  - [partial/yes|kaynak: genel bilgi] Antakya ve çevresi, Garb ve Karasu fayları gibi aktif fay hatları üzerinde bulunmaktadır.
+  - [yes/yes|kaynak: GEÇMİŞ OLAY KAYDI] Yoğun yapılaşma, eski yapı stoğu ve zemin sorunları, depremin etkilerini artıran faktörlerdir.
+  - [yes/yes|kaynak: genel bilgi] Doğu Anadolu Fay Zonu ve Ölü Deniz Fay Zonu'nun Amik Ovası'nda birleşmesi, bölgedeki deprem riskini daha da artırmaktadır.
+
+### 7. [holdout] Deprem çantasını binadan çıkarken yanıma almalı mıyım?  (soru durumu: deprem SONRASINDA)
+Evet, deprem sırasında binayı terk ederken Afet ve Acil Durum Çantanızı yanınıza almanız önerilmektedir. Bu çanta, acil durumlarda ihtiyaç duyabileceğiniz malzemeleri içermektedir ve önceden hazırlanmış olması durumunda tahliye sırasında almanız önemlidir [Kaynak 1][Kaynak 2].
+  - [yes/yes|kaynak: sonrasında] Deprem sırasında binayı terk ederken Afet ve Acil Durum Çantanızı yanınıza almanız önerilmektedir.
+  - [partial/na|kaynak: genel bilgi] Bu çanta, acil durumlarda ihtiyaç duyabileceğiniz malzemeleri içermektedir ve önceden hazırlanmış olması durumunda tahliye sırasında almanız önemlidir.
+
+### 8. [holdout] Deprem sonrası elektrik şalterini kapatmalı mıyım?  (soru durumu: deprem SONRASINDA)
+Evet, deprem sonrası elektrik şalterini kapatmalısınız. Deprem sonrasında elektrik tesisatındaki hasarlar yangın riskini artırabilir. Bu nedenle, tahliye anında elektrik, su ve doğalgaz vanalarını kapatmanız önerilmektedir. [Kaynak 1][Kaynak 2][Kaynak 4]
+  - [yes/yes|kaynak: sonrasında] Deprem sonrası elektrik şalterini kapatmalısınız.
+  - [yes/yes|kaynak: sonrasında] Deprem sonrasında elektrik tesisatındaki hasarlar yangın riskini artırabilir.
+  - [yes/yes|kaynak: sonrasında] Tahliye anında elektrik, su ve doğalgaz vanalarını kapatmanız önerilmektedir.
+
+### 9. [regional] Van'da depremden sonra nereye gitmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 10. [dev] Depremden sonra binanın hasarlı olup olmadığını nasıl anlarım?  (soru durumu: deprem SONRASINDA)
+### Deprem Sırasında Bina Hasar Tespiti
+
+Deprem sonrası binanın hasarlı olup olmadığını anlamak için aşağıdaki adımları izleyebilirsiniz:
+
+1. **Gözlem Yapın**: Bina dışından gözlem yaparak, yapının yıkılıp yıkılmadığını veya belirgin hasar belirtilerini kontrol edin. Özellikle zemin katlarda hasar olup olmadığını gözlemlemek önemlidir.
+
+2. **Yapısal Hasar Belirtileri**: Bina duvarlarında çatlaklar, döşemelerde çökme veya kayma gibi yapısal hasar belirtilerine dikkat edin. Bu tür belirtiler, binanın güvenli olmadığını gösterebilir.
+
+3. **Duygusal Davranışa Dikkat**: Kendi evinizi değerlendirirken duygusal bir yaklaşım sergileyebilirsiniz. Bu nedenle, durumu abartmamaya veya küçümsememeye özen gösterin.
+
+4. **Çevre Değerlendirmesi**: Çevredeki diğer binaların durumunu gözlemleyin. Hasarlı veya yıkılmış binaların sayısı, depremin şiddeti hakkında bilgi verebilir.
+
+5. **Acil Durum Değerlendirme Takımları**: Resmi hasar değerlendirme ekiplerinin (DSAHD) yapacağı incelemeleri bekleyin. Bu ekipler, binanın güvenli olup olmadığını belirlemek için gerekli teknik bilgiye sahiptir.
+
+6. **Altyapı Kontrolü**: Elektrik, su ve doğalgaz sistemlerinin durumunu kontrol edin. Hasar görmüş altyapı, ek tehlikeler oluşturabilir.
+
+Bu adımlar, deprem sonrası binanın hasar durumunu değerlendirmenize yardımcı olacaktır. Ancak, kesin bir değerlendirme için uzmanların incelemesini beklemek önemlidir. [Kaynak 1][Kaynak 2][Kaynak 4][Kaynak 5]
+  - [yes/yes|kaynak: sonrasında] Bina dışından gözlem yaparak, yapının yıkılıp yıkılmadığını veya belirgin hasar belirtilerini kontrol edin.
+  - [yes/yes|kaynak: sonrasında] Özellikle zemin katlarda hasar olup olmadığını gözlemlemek önemlidir.
+  - [partial/yes|kaynak: sonrasında] Bina duvarlarında çatlaklar, döşemelerde çökme veya kayma gibi yapısal hasar belirtilerine dikkat edin.
+  - [yes/yes|kaynak: sonrasında] Kendi evinizi değerlendirirken duygusal bir yaklaşım sergileyebilirsiniz.
+  - [yes/yes|kaynak: sonrasında] Çevredeki diğer binaların durumunu gözlemleyin.
+  - [yes/yes|kaynak: sonrasında] Hasarlı veya yıkılmış binaların sayısı, depremin şiddeti hakkında bilgi verebilir.
+  - [yes/yes|kaynak: sonrasında] Resmi hasar değerlendirme ekiplerinin (DSAHD) yapacağı incelemeleri bekleyin.
+  - [partial/yes|kaynak: sonrasında] Elektrik, su ve doğalgaz sistemlerinin durumunu kontrol edin.
+  - [yes/yes|kaynak: sonrasında] Hasar görmüş altyapı, ek tehlikeler oluşturabilir.
+
+### 11. [regional] Osmaniye'de geçici barınma alanları nerede?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 12. [holdout] Toplanma alanına giderken hangi risklere dikkat etmeliyim?  (soru durumu: deprem SONRASINDA)
+Toplanma alanına giderken dikkat etmeniz gereken riskler şunlardır:
+
+1. **Tehlikelerden Uzaklık**: Toplanma alanının, yangın, su taşkını, tsunami gibi ikincil tehlikelerden uzak olması gerekir. Ayrıca, fay hatlarından ve sıvılaşmadan etkilenmeyecek alanlar seçilmelidir. 
+
+2. **Ulaşım Kolaylığı**: Toplanma alanına ulaşımın kolay olması ve tahliye edilebilir bir konumda bulunması önemlidir. Engellilerin ve yaşlıların ulaşımına uygun olmasına dikkat edilmelidir.
+
+3. **Açık Alan Seçimi**: Açık alanlarda binaların, kulelerin, su depolarının ve trafoların uzağında durmalısınız. Önceden belirlenmiş bir toplanma yeri yoksa, güvenli bir açık alan bulmalısınız.
+
+4. **Temel İhtiyaçlar**: Toplanma alanının elektrik, su, tuvalet gibi temel ihtiyaçları karşılayabilecek yapılarla yakın olması önemlidir.
+
+5. **Nüfus Yoğunluğu**: Toplanma alanının nüfus yoğunluğuna göre belirlenmesi, kalabalık durumlarda güvenliği artırır.
+
+Bu risklere dikkat ederek, güvenli bir toplanma alanına ulaşabilirsiniz. [Kaynak 1][Kaynak 2][Kaynak 3][Kaynak 4]
+  - [yes/yes|kaynak: sonrasında] Toplanma alanının, yangın, su taşkını, tsunami gibi ikincil tehlikelerden uzak olması gerekir.
+  - [yes/yes|kaynak: sonrasında] Toplanma alanının fay hatlarından ve sıvılaşmadan etkilenmeyecek alanlar seçilmelidir.
+  - [yes/yes|kaynak: sonrasında] Toplanma alanına ulaşımın kolay olması ve tahliye edilebilir bir konumda bulunması önemlidir.
+  - [yes/yes|kaynak: sonrasında] Engellilerin ve yaşlıların ulaşımına uygun olmasına dikkat edilmelidir.
+  - [partial/yes|kaynak: sonrasında] Açık alanlarda binaların, kulelerin, su depolarının ve trafoların uzağında durmalısınız.
+  - [partial/yes|kaynak: sonrasında] Önceden belirlenmiş bir toplanma yeri yoksa, güvenli bir açık alan bulmalısınız.
+  - [yes/yes|kaynak: sonrasında] Toplanma alanının elektrik, su, tuvalet gibi temel ihtiyaçları karşılayabilecek yapılarla yakın olması önemlidir.
+  - [yes/yes|kaynak: sonrasında] Toplanma alanının nüfus yoğunluğuna göre belirlenmesi, kalabalık durumlarda güvenliği artırır.
+
+### 13. [dev] Deprem sonrası ilk 72 saatte ne yapmalıyım?  (soru durumu: deprem SONRASINDA)
+Deprem sonrası ilk 72 saatte yapılması gerekenler:
+
+1. **Sakin Olun**: Panik yapmayın ve çevrenizdeki insanların durumunu kontrol edin.
+   
+2. **Güvenlik Kontrolleri**:
+   - Gaz kaçağı veya yanıcı madde sızıntısı olup olmadığını kontrol edin. Kibrit ateşlemeyin, ışıkları açmayın veya kapatmayın.
+   - Yangın yoksa ve gaz kokusu alıyorsanız, pencere açın ve doğalgaz vanasını kapatın. Ardından binayı terk edin.
+
+3. **Acil Durum Bilgisi**: Pilli radyodan acil durum talimatlarını dinleyin.
+
+4. **Yaralanmalar**: Kendinizin ve çevrenizdeki insanların yaralanıp yaralanmadığını kontrol edin.
+
+5. **Artçı Sarsıntılara Hazırlıklı Olun**: Deprem sonrası artçı sarsıntılara karşı dikkatli olun.
+
+6. **Güvenli Alanlar**: Hasar görmüş binalardan ve yıkılmış elektrik hatlarından uzak durun. Üzerinize düşebilecek cisimlerden korunmak için sağlam ayakkabı giyin.
+
+7. **Yardım İhtiyacı**: Acil yardıma ihtiyaç duyuyorsanız, camlara bir yardım işareti koyun.
+
+Bu tavsiyeler, deprem sonrası güvenliğinizi sağlamak için önemlidir. [Kaynak 1], [Kaynak 4] ve [Kaynak 2] desteklemektedir.
+  - [yes/yes|kaynak: sonrasında] Sakin olun, panik yapmayın ve çevrenizdeki insanların durumunu kontrol edin.
+  - [yes/yes|kaynak: sonrasında] Gaz kaçağı veya yanıcı madde sızıntısı olup olmadığını kontrol edin. Kibrit ateşlemeyin, ışıkları açmayın veya kapatmayın.  ⚠ KRİTİK
+  - [yes/yes|kaynak: sonrasında] Yangın yoksa ve gaz kokusu alıyorsanız, pencere açın ve doğalgaz vanasını kapatın. Ardından binayı terk edin.  ⚠ KRİTİK
+  - [yes/yes|kaynak: sonrasında] Pilli radyodan acil durum talimatlarını dinleyin.
+  - [yes/yes|kaynak: sonrasında] Kendinizin ve çevrenizdeki insanların yaralanıp yaralanmadığını kontrol edin.
+  - [yes/yes|kaynak: sonrasında] Deprem sonrası artçı sarsıntılara karşı dikkatli olun.
+  - [yes/yes|kaynak: sonrasında] Hasar görmüş binalardan ve yıkılmış elektrik hatlarından uzak durun. Üzerinize düşebilecek cisimlerden korunmak için sağlam ayakkabı giyin.  ⚠ KRİTİK
+  - [yes/yes|kaynak: sonrasında] Acil yardıma ihtiyaç duyuyorsanız, camlara bir yardım işareti koyun.
+
+### 14. [holdout] Enkaz altındaysam sürekli bağırmalı mıyım?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 15. [dev] Toplanma alanı nedir?  (soru durumu: genel bilgi)
+Toplanma alanı, afet ve acil durumlar sonrasında halkın güvenle toplanabileceği, tehlikeli bölgelerden uzak, güvenli alanlardır. Bu alanlar, geçici barınma merkezleri hazır olana kadar yaşanacak paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla kullanılır. Toplanma alanlarının belirlenmesinde dikkate alınması gereken kriterler arasında nüfus yoğunluğu, ulaşılabilirlik, engellilerin ve yaşlıların ulaşımına uygunluk, ikincil tehlikelerden uzaklık ve temel ihtiyaçların karşılanabileceği yapılarla yakınlık yer alır. Genellikle parklar, bahçeler, mesire alanları ve açık pazar yerleri gibi alanlar seçilmektedir. [Kaynak 1][Kaynak 2][Kaynak 3][Kaynak 4][Kaynak 5]
+  - [yes/yes|kaynak: genel bilgi] Toplanma alanı, afet ve acil durumlar sonrasında halkın güvenle toplanabileceği, tehlikeli bölgelerden uzak, güvenli alanlardır.
+  - [yes/yes|kaynak: genel bilgi] Bu alanlar, geçici barınma merkezleri hazır olana kadar yaşanacak paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla kullanılır.
+  - [yes/yes|kaynak: genel bilgi] Toplanma alanlarının belirlenmesinde dikkate alınması gereken kriterler arasında nüfus yoğunluğu, ulaşılabilirlik, engellilerin ve yaşlıların ulaşımına uygunluk, ikincil tehlikelerden uzaklık ve temel ihtiyaçların karşılanabileceği yapılarla yakınlık yer alır.
+  - [yes/yes|kaynak: genel bilgi] Genellikle parklar, bahçeler, mesire alanları ve açık pazar yerleri gibi alanlar seçilmektedir.
+
+### 16. [regional] Malatya'da deprem sonrası nereye gitmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 17. [dev] Enkaz altında kalırsam ne yapmalıyım?  (soru durumu: enkaz altında)
+Enkaz altında kalırsanız, aşağıdaki adımları izlemeye çalışın:
+
+1. **Sakin Olun**: Panik yapmayın, bu durum moralinizi olumsuz etkileyebilir.
+2. **Hareket Etmeyin**: İlk etapta kesinlikle kıpırdamayın. Vücudunuzdaki ağrı veya acıları hissetmeye çalışın.
+3. **Durum Değerlendirmesi**: Vücudunuzu kontrol edin, yaralanıp yaralanmadığınızı anlamaya çalışın. Ağrı hissetmiyorsanız, ayak parmaklarınızdan başlayarak uzuvlarınızı hafifçe kıpırdatmayı deneyin.
+4. **Çevreyi Değerlendirin**: Etrafınızdaki tehlikeleri tanımlayın. Devrilebilecek veya kayabilecek cisimleri destekleyin.
+5. **İletişim Kurmaya Çalışın**: Eğer başka biri varsa, onunla konuşmaya çalışın. Dışarıdaki kişilere varlığınızı haber vermek için bağırmak yerine, dışarıdaki sesleri dinleyin; iş makineleri çalışıyorsa, bu durum arama faaliyetinin yapılmadığını gösterir.
+
+Bu adımlar, arama-kurtarma ekipleri sizi buluncaya dek hayatta kalmanıza yardımcı olabilir. [Kaynak 1][Kaynak 2][Kaynak 3][Kaynak 4].
+  - [yes/yes|kaynak: enkaz altında] Sakin olun, panik yapmayın.
+  - [yes/yes|kaynak: enkaz altında] İlk etapta kesinlikle kıpırdamayın.
+  - [yes/yes|kaynak: enkaz altında] Vücudunuzu kontrol edin, yaralanıp yaralanmadığınızı anlamaya çalışın.
+  - [yes/yes|kaynak: enkaz altında] Ağrı hissetmiyorsanız, ayak parmaklarınızdan başlayarak uzuvlarınızı hafifçe kıpırdatmayı deneyin.
+  - [yes/yes|kaynak: enkaz altında] Etrafınızdaki tehlikeleri tanımlayın.
+  - [yes/yes|kaynak: enkaz altında] Devrilebilecek veya kayabilecek cisimleri destekleyin.
+  - [yes/yes|kaynak: enkaz altında] Eğer başka biri varsa, onunla konuşmaya çalışın.
+  - [yes/yes|kaynak: enkaz altında] Dışarıdaki kişilere varlığınızı haber vermek için bağırmak yerine, dışarıdaki sesleri dinleyin; iş makineleri çalışıyorsa, bu durum arama faaliyetinin yapılmadığını gösterir.
+
+### 18. [dev] Depremden sonra nereye gitmeliyim?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+
+### 19. [dev] Ağır hasarlı bina ne demektir?  (soru durumu: genel bilgi)
+Ağır hasarlı bina, deprem nedeniyle onarımı mümkün olmayacak derecede hasar gören ve tekrar kullanımı mümkün olmayan binaları ifade eder. Bu tür binalar, can ve mal güvenliği açısından hemen boşaltılmalı ve hasar tespit sürecinin tamamlanmasının ardından yıkılmalıdır. Ağır hasarlı tespit edilen binalar için 7269 Sayılı Yasa kapsamında yeni konut yapılması mümkün olmaktadır. [Kaynak 1][Kaynak 2][Kaynak 3]
+  - [yes/yes|kaynak: genel bilgi] Ağır hasarlı bina, deprem nedeniyle onarımı mümkün olmayacak derecede hasar gören ve tekrar kullanımı mümkün olmayan binaları ifade eder.
+  - [yes/yes|kaynak: genel bilgi] Bu tür binalar, can ve mal güvenliği açısından hemen boşaltılmalı ve hasar tespit sürecinin tamamlanmasının ardından yıkılmalıdır.
+  - [yes/yes|kaynak: genel bilgi] Ağır hasarlı tespit edilen binalar için 7269 Sayılı Yasa kapsamında yeni konut yapılması mümkün olmaktadır.
+
+### 20. [regional] Elbistan'da 2023 depreminin etkileri nelerdi?  (soru durumu: -)
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.

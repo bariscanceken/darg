@@ -45,6 +45,31 @@ Kurallar:
 """
 
 
+# v2 keeps every v1 rule and adds an explicit situation step. Faithfulness pilot (Faz 3):
+# gpt-4o-mini with v1 still mixed "during" and "after" advice, presented debris-trapped
+# advice as general advice, and presented past post-disaster records (e.g. 2011 tent
+# camps) as current instructions.
+SYSTEM_PROMPT_V2 = SYSTEM_PROMPT + """
+Durum kuralları (cevap yazmadan önce uygula):
+- Önce sorunun durumunu belirle: deprem öncesi hazırlık / deprem SIRASINDA / deprem
+  SONRASINDA / enkaz altında / genel bilgi. Soru belirsizse ("depremde", "deprem olursa")
+  sırasında ve sonrasında yapılacakları ayrı başlıklar altında ver.
+- Her kaynak parçasının hangi durum için yazıldığına bak. Cevapta YALNIZCA sorunun
+  durumu için verilmiş tavsiyeleri kullan; başka duruma ait tavsiyeyi o duruma aitmiş
+  gibi sunma (ör. gaz kaçağı, vana, artçı sarsıntı ve tahliye tavsiyeleri deprem
+  sonrasına aittir; deprem anı cevabına karıştırma).
+- Enkaz altında kalan kişiye yönelik tavsiyeleri yalnızca soru enkaz altındaki kişiyle
+  ilgiliyse kullan.
+- Kaynak geçmişteki belirli bir depremden sonra yapılanları anlatıyorsa (ör. kurulan
+  çadırkentler, aşevleri) bunu bugünkü talimat gibi sunma; gerekiyorsa geçmiş olarak
+  belirt ("... depreminden sonra ... kurulmuştu").
+- Kaynakta olmayan adım, kontrol listesi veya sonuç cümlesi ekleme.
+"""
+
+GENERATION_PROMPTS = {"v1": SYSTEM_PROMPT, "v2": SYSTEM_PROMPT_V2}
+DEFAULT_GENERATION_VERSION = "v1"
+
+
 def build_user_prompt(question: str, context: str) -> str:
     """Build the user message sent to the generation model."""
     return f"""Soru:
