@@ -44,8 +44,11 @@ DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
 DEFAULT_MAX_OUTPUT_TOKENS = 700
 CLI_GATE_VERSION = "v1"  # switch to "v2" only after it passes the held-out evaluation
 CLI_LLM_REPAIR = True  # enabled after query_typo_eval_v2 (fix 10/15, keep 8/8)
-# Encoding-repaired, E5-window-sized chunks; holdout Hit@5 20/30 -> 26/30 vs mobile_v2 (LLM judge).
-CLI_INDEX_DIR = Path("data/indexes/mobile_v4")
+# mobile_v4: encoding-repaired, E5-window-sized chunks; holdout Hit@5 20/30 -> 26/30 vs mobile_v2 (LLM judge).
+# mobile_v5: section-aware chunks with headers, structured tables, OCR'd pages. Full measurement 16 Oct 2026 with the
+# same CLI pipeline (74 + 13, gpt-4o judge, not human-calibrated): answered 53 -> 59/74, false accepts 0 -> 0/13,
+# fully faithful 85% -> 81%, answers with a critical issue 2% -> 0%.
+CLI_INDEX_DIR = Path("data/indexes/mobile_v5")
 # Faithfulness pilot (20 questions, gpt-4o judge): answers with a critical issue 5/16 (v1) -> 1/14 (v2).
 CLI_GENERATION_VERSION = "v2"
 # Source-type routing: retrieval Hit@5 67 vs 68/74 (losses were past-event reports for behaviour questions);

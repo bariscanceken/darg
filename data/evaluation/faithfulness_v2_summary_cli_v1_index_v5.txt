@@ -1,0 +1,9 @@
+DARG faithfulness [generation v2, model gpt-4o, gate votes 1, current CLI pipeline, evidence gate, index mobile_v5] (faithfulness_v2, judge gpt-4o, NOT human-calibrated)
+==================================================================
+Answerable-set questions: 74 | answered: 59/74 (80%)
+Unanswerable controls: 13 | false accepts: 0
+Fully faithful answers: 48/59 (81%)
+Answers with >=1 critical issue: 0/59 (0%)
+Answers with a situation mismatch: 0/59 (0%)
+Location misattribution: 0/59 (0%)
+Claims: 192 | unsupported 1/192 (1%) | partial 11/192 (6%) | situation mismatch 0/192 (0%) | critical 0/192 (0%)

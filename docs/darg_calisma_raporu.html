@@ -212,6 +212,16 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       <li><b>Yanlış kabul 0 → 7/13.</b> Bunların 3'ü aslında doğru ve kaynaklı cevaplar ("Büyük deprem ne zaman gelecek?" → "gün ve saat olarak bilinemez"); kontrol seti bu sorular için ret bekliyordu. Gerçek sorunlar 4 tane: konu dışı bir soru ("İstanbul'dan Ankara'ya en hızlı nasıl giderim?") cevaplandı ve kişinin kendi binası hakkındaki 3 soruda güvence veren cümleler kuruldu ("binaya güvenebilirsiniz").</li>
       <li><b>Durum karışması:</b> 7 kritik cevabın 5'inde deprem <i>sonrası</i> için yazılmış tavsiye deprem <i>sırasında</i> gibi sunuldu (örnek: "deprem sırasında açık alandaysanız toplanma alanına gidin").</li>
     </ul>
+    <h3>16 Ekim: güvenli hat yeni index'le (benimsendi)</h3>
+    <p>Yeni belge işlemenin faydası, ölçüm sonucunu beklemeden kullanıcıya ulaşsın diye güvenli eski hat yeni index'le (v5) çalıştırıldı ve aynı 74 + 13 soruda ölçüldü.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Hat</th><th>Cevaplanan</th><th>Yanlış kabul</th><th>Tamamen sadık</th><th>Kritik sorunlu</th></tr></thead>
+      <tbody>
+        <tr><td>Eski hat + eski index (v4)</td><td class="num">53 / 74</td><td class="num">0 / 13</td><td class="num">%85</td><td class="num">%2</td></tr>
+        <tr><td><b>Eski hat + yeni index (v5), yeni varsayılan</b></td><td class="num"><b>59 / 74</b></td><td class="num"><b>0 / 13</b></td><td class="num">%81</td><td class="num"><b>%0</b></td></tr>
+      </tbody>
+    </table></div>
+    <p>Yeni cevaplanan 11 soru arasında araçta deprem, köprü, hasarlı binaya girme, ilk yardım, ilk 72 saat, deprem çantası, İzmir tsunamisi ve Erciş var; 5 soru bu sefer reddedildi (bir kısmı çalıştırmadan çalıştırmaya değişen sorular). Yanlış kabul artmadığı ve kritik hata kalmadığı için v5 index varsayılan yapıldı.</p>
     <p><b>Planlanan genel düzeltmeler:</b> (1) Soru anlama adımı konu dışı soruları işaretlesin ve bunlar reddedilsin. (2) Belirli bir binanın güvenliği hakkında hiçbir zaman güvence verilmesin; uzman değerlendirmesine yönlendirilsin. (3) Parçalara başlık yolundan kurala dayalı durum etiketi (hazırlık / sırasında / sonrası / enkaz) eklensin; doğrulama adımı, sorunun durumuyla çelişen kaynağa dayanan cümleleri silsin. Ardından ölçüm tekrarlanacak.</p>
   </div>
 </section>

@@ -161,6 +161,7 @@ def main() -> None:
     parser.add_argument("--current-cli", action="store_true",
                         help="Also use the current CLI pipeline: source routing, evidence-first, local info.")
     parser.add_argument("--evidence-gate", action="store_true", help="Skip the gate; evidence selection refuses.")
+    parser.add_argument("--index-dir", type=Path, default=CLI_INDEX_DIR, help="Index for pipeline v1 (e.g. data/indexes/mobile_v5).")
     parser.add_argument("--pipeline", choices=("v1", "v2"), default="v1",
                         help="v2: src/rag/pipeline_v2.py on the mobile_v5 index (other pipeline flags are ignored).")
     args = parser.parse_args()
@@ -180,7 +181,7 @@ def main() -> None:
         if args.pipeline == "v2":
             result = generate_answer_v2(question)
         else:
-            result = generate_answer(question, normalize_query=True, llm_repair=True, index_dir=CLI_INDEX_DIR,
+            result = generate_answer(question, normalize_query=True, llm_repair=True, index_dir=args.index_dir,
                                      regional=True, lexical=True, llm_rerank=True, return_context=True,
                                      generation_version=args.generation_version, generation_model=args.generation_model,
                                      gate_votes=args.gate_votes, source_routing=args.current_cli,
@@ -210,7 +211,8 @@ def main() -> None:
 
     lines = [
         f"DARG faithfulness [generation {args.generation_version}, model {args.generation_model or 'default'}, gate votes {args.gate_votes}"
-        f"{', current CLI pipeline' if args.current_cli else ''}{', evidence gate' if args.evidence_gate else ''}] "
+        f"{', current CLI pipeline' if args.current_cli else ''}{', evidence gate' if args.evidence_gate else ''}"
+        f"{', pipeline v2' if args.pipeline == 'v2' else ', index ' + args.index_dir.name}] "
         f"({JUDGE_PROMPT_VERSION}, judge {JUDGE_MODEL}, NOT human-calibrated)",
         "=" * 66,
         f"Answerable-set questions: {len(results_pos)} | answered: {pct(len(answered), len(results_pos))}",
