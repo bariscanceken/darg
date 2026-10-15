@@ -54,6 +54,11 @@ class ValidateEvidenceTests(unittest.TestCase):
         self.assertEqual([item["about"] for item in mark_wider_area(items, names)],
                          ["wider_area", "past_event", "general_fact"])
 
+    def test_quote_ending_with_period_where_source_continues_is_kept(self) -> None:
+        item = {"source": 1, "quote": "depremi hissettiğimizde ayakta durmamalı, asansöre binmemeli.", "about": "same_situation"}
+        self.assertEqual(len(validate_evidence(payload([item]), CHUNKS, tolerant=True)), 1)
+        self.assertEqual(validate_evidence(payload([item]), CHUNKS), [])  # default stays exact (as measured)
+
     def test_past_event_only_for_history_questions(self) -> None:
         item = [{"source": 2, "quote": "1999 depreminden sonra Gölcük'te çadırkentler kurulmuş", "about": "past_event"}]
         self.assertEqual(validate_evidence(payload(item, "deprem sonrasında"), CHUNKS), [])

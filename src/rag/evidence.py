@@ -14,6 +14,7 @@ only; with no quote left the pipeline refuses.
 
 from __future__ import annotations
 
+import difflib
 import json
 import re
 from typing import Any
@@ -95,8 +96,11 @@ def allowed_labels(question_situation: str) -> set[str]:
     return labels
 
 
-def validate_evidence(payload: dict[str, Any], chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Keep quotes that really occur in the cited chunk and carry an allowed label."""
+def validate_evidence(payload: dict[str, Any], chunks: list[dict[str, Any]], tolerant: bool = False) -> list[dict[str, Any]]:
+    """Keep quotes that really occur in the cited chunk and carry an allowed label.
+
+    tolerant=True also accepts >= 90% close quotes (locate_quote); measured only together with wide retrieval.
+    """
     keep = allowed_labels(str(payload.get("question_situation", "")))
     texts = [normalise(str(chunk.get("text", ""))) for chunk in chunks]
     valid: list[dict[str, Any]] = []
@@ -106,10 +110,40 @@ def validate_evidence(payload: dict[str, Any], chunks: list[dict[str, Any]]) -> 
         source, quote, about = item.get("source"), str(item.get("quote", "")).strip(), item.get("about")
         if not isinstance(source, int) or not 1 <= source <= len(chunks) or about not in keep:
             continue
-        if len(quote) < MIN_QUOTE_CHARS or normalise(quote) not in texts[source - 1]:
+        if len(quote) < MIN_QUOTE_CHARS:
+            continue
+        found = locate_quote(quote, texts[source - 1]) is not None if tolerant else normalise(quote) in texts[source - 1]
+        if not found:
             continue
         valid.append({"source": source, "quote": quote, "about": about})
     return valid
+
+
+QUOTE_MATCH_RATIO = 0.9
+
+
+def locate_quote(quote: str, passage: str, min_chars: int = 15) -> str | None:
+    """The passage text a quote stands for: exact (normalised) match, else a >= 90% close span.
+
+    Models often end a quote with "." where the source continues with "," or slip one letter;
+    such quotes are real evidence. Invented or paraphrased quotes stay well below 90%.
+    """
+    q = normalise(quote).strip(" .,;:!?\"'“”…")
+    text = normalise(passage)
+    if len(q) < min_chars:
+        return None
+    start = text.find(q)
+    if start >= 0:
+        return text[start:start + len(q)]
+    matcher = difflib.SequenceMatcher(None, q, text, autojunk=False)
+    blocks = [block for block in matcher.get_matching_blocks() if block.size >= 4]
+    if not blocks:
+        return None
+    matched = sum(block.size for block in blocks)
+    span_start, span_end = blocks[0].b, blocks[-1].b + blocks[-1].size
+    if matched / len(q) >= QUOTE_MATCH_RATIO and span_end - span_start <= 1.2 * len(q):
+        return text[span_start:span_end]
+    return None
 
 
 def mentions_place(quote: str, names: frozenset[str]) -> bool:
@@ -122,7 +156,8 @@ def mark_wider_area(evidence: list[dict[str, Any]], names: frozenset[str]) -> li
     return [item if mentions_place(item["quote"], names) else {**item, "about": "wider_area"} for item in evidence]
 
 
-def select_evidence(question: str, context: str, chunks: list[dict[str, Any]], client: Any, model: str) -> dict[str, Any]:
+def select_evidence(question: str, context: str, chunks: list[dict[str, Any]], client: Any, model: str,
+                    tolerant: bool = False) -> dict[str, Any]:
     """Returns {"question_situation", "evidence": [validated quotes], "raw_count", "status"}."""
     from .answerability import extract_response_text
 
@@ -135,7 +170,7 @@ def select_evidence(question: str, context: str, chunks: list[dict[str, Any]], c
         payload = None
     if payload is None:
         return {"question_situation": "", "evidence": [], "raw_count": 0, "status": "invalid"}
-    evidence = validate_evidence(payload, chunks)
+    evidence = validate_evidence(payload, chunks, tolerant)
     return {"question_situation": payload.get("question_situation", ""), "evidence": evidence,
             "raw_count": len(payload.get("evidence", [])), "status": "ok" if evidence else "no_evidence"}
 

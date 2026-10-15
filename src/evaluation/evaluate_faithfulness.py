@@ -161,6 +161,7 @@ def main() -> None:
     parser.add_argument("--current-cli", action="store_true",
                         help="Also use the current CLI pipeline: source routing, evidence-first, local info.")
     parser.add_argument("--evidence-gate", action="store_true", help="Skip the gate; evidence selection refuses.")
+    parser.add_argument("--wide-retrieval", action="store_true", help="Hybrid: v1 answer step with v2 wide retrieval.")
     parser.add_argument("--index-dir", type=Path, default=CLI_INDEX_DIR, help="Index for pipeline v1 (e.g. data/indexes/mobile_v5).")
     parser.add_argument("--pipeline", choices=("v1", "v2"), default="v1",
                         help="v2: src/rag/pipeline_v2.py on the mobile_v5 index (other pipeline flags are ignored).")
@@ -186,7 +187,7 @@ def main() -> None:
                                      generation_version=args.generation_version, generation_model=args.generation_model,
                                      gate_votes=args.gate_votes, source_routing=args.current_cli,
                                      evidence_first=args.current_cli, local_info=args.current_cli,
-                                     evidence_gate=args.evidence_gate)
+                                     evidence_gate=args.evidence_gate, wide_retrieval=args.wide_retrieval)
         row: dict[str, Any] = {"set": set_name, "question": question, "answer": result["answer"],
                                "refused": result["answer"].strip() == REFUSAL_ANSWER}
         if not row["refused"] and set_name != "negative":
@@ -212,7 +213,8 @@ def main() -> None:
     lines = [
         f"DARG faithfulness [generation {args.generation_version}, model {args.generation_model or 'default'}, gate votes {args.gate_votes}"
         f"{', current CLI pipeline' if args.current_cli else ''}{', evidence gate' if args.evidence_gate else ''}"
-        f"{', pipeline v2' if args.pipeline == 'v2' else ', index ' + args.index_dir.name}] "
+        f"{', pipeline v2' if args.pipeline == 'v2' else ', index ' + args.index_dir.name}"
+        f"{', wide retrieval' if args.wide_retrieval else ''}] "
         f"({JUDGE_PROMPT_VERSION}, judge {JUDGE_MODEL}, NOT human-calibrated)",
         "=" * 66,
         f"Answerable-set questions: {len(results_pos)} | answered: {pct(len(answered), len(results_pos))}",

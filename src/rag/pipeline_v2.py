@@ -20,7 +20,6 @@ evidence that a later step still refused. v2 keeps three steps:
 
 from __future__ import annotations
 
-import difflib
 import json
 import re
 from typing import Any
@@ -28,7 +27,7 @@ from typing import Any
 import numpy as np
 
 from .answerability import REFUSAL_ANSWER, extract_response_text
-from .evidence import normalise
+from .evidence import locate_quote
 from .hybrid_retrieval import lexical_rows
 from .llm_query_repair import is_spelling_only
 from .location import Location
@@ -41,8 +40,6 @@ DENSE_TOP_K = 30
 LEXICAL_TOP_K = 15
 POOL_TOP_K = 20
 PASSAGES = 12
-MIN_QUOTE_CHARS = 15
-QUOTE_MATCH_RATIO = 0.9
 ANSWER_MAX_OUTPUT_TOKENS = 900
 SITUATIONS = ("hazırlık", "sırasında", "sonrasında", "enkaz altında", "genel", "geçmiş")
 
@@ -117,6 +114,22 @@ def understand_question(question: str, client: Any, model: str = UNDERSTAND_MODE
     }
 
 
+REWRITE_PROMPT = """Bir deprem bilgi asistanına gelen soruyu, AFAD rehberlerinde ve il planlarında geçebilecek
+kelimelerle 3 farklı biçimde yeniden yaz (ör. "dışarıdaysam" -> "açık alanda", "sokakta"). Soruyu değiştirme,
+yalnızca farklı kelimelerle sor. Yalnızca JSON döndür: {"search_queries": ["...", "...", "..."]}"""
+
+
+def search_rewrites(question: str, client: Any, model: str = UNDERSTAND_MODEL) -> list[str]:
+    """Three search phrasings for wide retrieval (used only for search, never shown or answered)."""
+    try:
+        response = client.responses.create(model=model, instructions=REWRITE_PROMPT, input=question,
+                                           max_output_tokens=200, temperature=0)
+        payload = parse_json(extract_response_text(response)) or {}
+    except Exception:
+        payload = {}
+    return [str(query).strip() for query in payload.get("search_queries") or [] if str(query).strip()][:3]
+
+
 # ---------------------------------------------------------------- 2. retrieval
 
 def retrieve_wide(question: str, queries: list[str], location: Location | None, policy: RoutingPolicy | None,
@@ -167,26 +180,6 @@ def retrieve_wide(question: str, queries: list[str], location: Location | None, 
 
 
 # ---------------------------------------------------------------- 3. answer
-
-def locate_quote(quote: str, passage: str) -> str | None:
-    """The passage text a quote stands for: exact (normalised) match, else a >= 90% close span."""
-    q = normalise(quote).strip(" .,;:!?\"'“”…")
-    text = normalise(passage)
-    if len(q) < MIN_QUOTE_CHARS:
-        return None
-    start = text.find(q)
-    if start >= 0:
-        return text[start:start + len(q)]
-    matcher = difflib.SequenceMatcher(None, q, text, autojunk=False)
-    blocks = [block for block in matcher.get_matching_blocks() if block.size >= 4]
-    if not blocks:
-        return None
-    matched = sum(block.size for block in blocks)
-    span_start, span_end = blocks[0].b, blocks[-1].b + blocks[-1].size
-    if matched / len(q) >= QUOTE_MATCH_RATIO and span_end - span_start <= 1.2 * len(q):
-        return text[span_start:span_end]
-    return None
-
 
 def format_passages(passages: list[dict[str, Any]]) -> str:
     return "\n\n".join(f"[Kaynak {number}]\n{passage['text']}" for number, passage in enumerate(passages, start=1))

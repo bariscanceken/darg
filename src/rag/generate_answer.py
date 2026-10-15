@@ -70,6 +70,11 @@ CLI_GENERATION_MODEL = "gpt-4o"
 # Pipeline v2 (src/rag/pipeline_v2.py): understand -> wide retrieval on the section-aware v5 index -> answer with
 # code-verified quotes. Opt-in with --pipeline v2 until measured against v1.
 CLI_PIPELINE = "v1"
+# Hybrid: v1 evidence selection / refusal rules, but retrieval from pipeline v2 (3 search rewrites x dense+BM25,
+# top WIDE_TOP_K passages, no LLM rerank) + tolerant quote matching. Measured 16 Oct 2026 on mobile_v5 (74 + 13):
+# answered 59 -> 58/74, false accepts 0/13, faithful 81% -> 83%, critical 0% -> 7% (situation mixing) -> NOT adopted.
+CLI_WIDE_RETRIEVAL = False
+WIDE_TOP_K = 10
 CLI_V2_INDEX_DIR = Path("data/indexes/mobile_v5")
 NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
                          "cevap genel AFAD bilgilerine dayanmaktadır.")
@@ -148,6 +153,12 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=CLI_EVIDENCE_FIRST,
         help="Select verbatim evidence first and write the answer only from it.",
+    )
+    parser.add_argument(
+        "--wide-retrieval",
+        action=argparse.BooleanOptionalAction,
+        default=CLI_WIDE_RETRIEVAL,
+        help="Hybrid: 3 search rewrites and top 10 passages for evidence selection (no LLM rerank).",
     )
     parser.add_argument(
         "--pipeline",
@@ -281,6 +292,7 @@ def generate_answer(
     evidence_first: bool = False,
     local_info: bool = False,
     evidence_gate: bool = False,
+    wide_retrieval: bool = False,
 ) -> dict[str, Any]:
     """Generate an answer with Python-owned retrieval source metadata.
 
@@ -327,9 +339,17 @@ def generate_answer(
             str(index_dir), DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE, DEFAULT_MODEL_NAME, DEFAULT_RERANKER_MODEL,
             allow_model_download,
         )
-        chunks = retrieve_enhanced(normalized_question, location_for_search, index, metadata, embedding_model, reranker,
-                                   top_k=DEFAULT_RERANK_TOP_K, lexical=lexical,
-                                   llm_reranker=(client, model) if llm_rerank else None, policy=policy)
+        if wide_retrieval:
+            from .pipeline_v2 import retrieve_wide, search_rewrites
+
+            queries = search_rewrites(normalized_question, client) if client is not None else []
+            normalization_fields["search_queries"] = queries
+            chunks = retrieve_wide(normalized_question, queries, location_for_search, policy, index, metadata,
+                                   embedding_model, reranker, top_k=WIDE_TOP_K)
+        else:
+            chunks = retrieve_enhanced(normalized_question, location_for_search, index, metadata, embedding_model,
+                                       reranker, top_k=DEFAULT_RERANK_TOP_K, lexical=lexical,
+                                       llm_reranker=(client, model) if llm_rerank else None, policy=policy)
     else:
         chunks = retrieve_top_chunks(normalized_question, index_dir=index_dir, allow_model_download=allow_model_download)
     if regional:
@@ -381,7 +401,8 @@ def generate_answer(
         if gate_refused:  # retrieved passages rejected; only the verified local lines remain
             selection = {"question_situation": "", "evidence": [], "raw_count": 0, "status": "gate_refused"}
         else:
-            selection = select_evidence(normalized_question, formatted["context"], chunks, client, model)
+            selection = select_evidence(normalized_question, formatted["context"], chunks, client, model,
+                                        tolerant=wide_retrieval)
         if location_for_search is not None and normalization_fields.get("question_type") in PLACE_SPECIFIC_TYPES:
             selection["evidence"] = mark_wider_area(selection["evidence"], place_names(location_for_search.province))
         selection["evidence"] = selection["evidence"] + card_evidence
@@ -556,6 +577,7 @@ def answer_for_cli(question: str, args: argparse.Namespace, location: Location |
         local_info=args.local_info,
         evidence_gate=args.evidence_gate,
         generation_model=args.generation_model,
+        wide_retrieval=args.wide_retrieval,
     )
 
 
