@@ -1,0 +1,14 @@
+﻿id;soru;dogru_cevap_maddeleri;durum;yer;cevaplanabilir_mi;not
+ORNEK-1;Deprem sırasında evdeysem ne yapmalıyım?;Çök-Kapan-Tutun yap | Pencerelerden ve devrilebilecek eşyalardan uzak dur | Merdiven ve asansör kullanma;sırasında;;evet;ÖRNEK - bu satırı silebilirsin
+ORNEK-2;Antakya'da deprem oldu nereye gitmeliyim?;En yakın afet ve acil durum toplanma alanına git | Yerini e-Devlet'ten öğren | Antakya'da 133 toplanma alanı var (2021 il planı);sonrasında;Antakya;evet;ÖRNEK - bu satırı silebilirsin
+ORNEK-3;Bir sonraki büyük deprem ne zaman olacak?;Depremin zamanı önceden bilinemez (ya da sistem tahminde bulunmamalı);genel;;hayır;ÖRNEK - bu satırı silebilirsin
+G001;;;;;;
+G002;;;;;;
+G003;;;;;;
+G004;;;;;;
+G005;;;;;;
+G006;;;;;;
+G007;;;;;;
+G008;;;;;;
+G009;;;;;;
+G010;;;;;;
