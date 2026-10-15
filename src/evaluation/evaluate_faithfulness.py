@@ -28,7 +28,7 @@ from pathlib import Path
 from typing import Any
 
 from src.rag.answerability import REFUSAL_ANSWER, extract_response_text
-from src.rag.generate_answer import CLI_INDEX_DIR, generate_answer, load_environment, load_openai_client
+from src.rag.generate_answer import CLI_INDEX_DIR, generate_answer, generate_answer_v2, load_environment, load_openai_client
 from src.retrieval.evaluate_holdout import HOLDOUT_QUESTIONS
 
 
@@ -161,6 +161,8 @@ def main() -> None:
     parser.add_argument("--current-cli", action="store_true",
                         help="Also use the current CLI pipeline: source routing, evidence-first, local info.")
     parser.add_argument("--evidence-gate", action="store_true", help="Skip the gate; evidence selection refuses.")
+    parser.add_argument("--pipeline", choices=("v1", "v2"), default="v1",
+                        help="v2: src/rag/pipeline_v2.py on the mobile_v5 index (other pipeline flags are ignored).")
     args = parser.parse_args()
     results_file, review_file, summary_file = (
         path.with_name(path.stem + f"_{args.tag}" + path.suffix) if args.tag else path
@@ -175,12 +177,15 @@ def main() -> None:
 
     results = []
     for index, (set_name, question) in enumerate(questions, start=1):
-        result = generate_answer(question, normalize_query=True, llm_repair=True, index_dir=CLI_INDEX_DIR,
-                                 regional=True, lexical=True, llm_rerank=True, return_context=True,
-                                 generation_version=args.generation_version, generation_model=args.generation_model,
-                                 gate_votes=args.gate_votes, source_routing=args.current_cli,
-                                 evidence_first=args.current_cli, local_info=args.current_cli,
-                                 evidence_gate=args.evidence_gate)
+        if args.pipeline == "v2":
+            result = generate_answer_v2(question)
+        else:
+            result = generate_answer(question, normalize_query=True, llm_repair=True, index_dir=CLI_INDEX_DIR,
+                                     regional=True, lexical=True, llm_rerank=True, return_context=True,
+                                     generation_version=args.generation_version, generation_model=args.generation_model,
+                                     gate_votes=args.gate_votes, source_routing=args.current_cli,
+                                     evidence_first=args.current_cli, local_info=args.current_cli,
+                                     evidence_gate=args.evidence_gate)
         row: dict[str, Any] = {"set": set_name, "question": question, "answer": result["answer"],
                                "refused": result["answer"].strip() == REFUSAL_ANSWER}
         if not row["refused"] and set_name != "negative":

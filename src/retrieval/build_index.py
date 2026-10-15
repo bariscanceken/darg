@@ -74,7 +74,9 @@ def metadata_for_chunk(chunk: dict[str, Any]) -> dict[str, Any]:
         "page_start": chunk["page_start"],
         "page_end": chunk["page_end"],
         "chunk_index": chunk["chunk_index"],
-        "source_relevances": chunk["source_relevances"],
+        "source_relevances": chunk.get("source_relevances", []),
+        # v5 section-aware chunks (src/preprocessing/chunk_structured_v5.py)
+        **{key: chunk[key] for key in ("title", "section_path", "has_table", "ocr") if key in chunk},
     }
 
 

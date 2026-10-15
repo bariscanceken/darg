@@ -1,0 +1,212 @@
+=== r01 [regional → bolgesel] Düzce'de deprem riski yüksek mi?
+(anlaşılan: Düzce'de deprem riski yüksek mi?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Düzce, Kuzey Anadolu Fay Hattı üzerinde yer aldığı için deprem riski yüksek bir bölgedir. [Kaynak 9]
+--- Kaynaklar: ['afet_sonrasi_iyilestirme_calismalari-1.pdf s.None']
+--- Getirilen: ['deprem_nedir.pdf s.None', 'yapisalriskler.pdf s.None', 'yapisalriskler.pdf s.None', 'yft_min1.pdf s.None', 'deprem_nedir.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'yft_min1.pdf s.None', 'yft_min1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'yft_min1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'sismik_mikrobolgeleme_bilimsel_son_durum_raporu_tr.pdf s.None']
+
+=== r02 [regional → bolgesel] Osmaniye'de geçici barınma alanları nerede?
+(anlaşılan: Osmaniye'de geçici barınma alanları nerede?) gate=NOT_ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+--- Kaynaklar: []
+--- Getirilen: ['toplanma_alanlari.pdf s.None', 'istanbulda-afetler.pdf s.None', 'abep_kitap_matbaa_final_04122008_small.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'abep_kitap_matbaa_final_04122008_small.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', '23052025-TASIP.pdf s.None', 'abep_kitap_matbaa_final_04122008_small.pdf s.None', 'abep_kitap_matbaa_final_04122008_small.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None']
+
+=== r03 [dev → davranis] Deprem sonrası ilk 72 saatte ne yapmalıyım?
+(anlaşılan: Deprem sonrası ilk 72 saatte ne yapmalıyım?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sonrası kendinizin ve çevrenizdeki insanların yaralanıp yaralanmadığını kontrol edin. [Kaynak 3]
+Artçı sarsıntılara hazırlıklı olun. [Kaynak 3]
+Sağlam bir ayakkabı ve hava şartlarına uygun bir şekilde giyinin. [Kaynak 3]
+Gaz kaçağı ve yanıcı madde sızıntısı olmadığından emin olana dek kibrit ateşlemeyin, ışıkları kapalıysa açmayın, açıksa söndürmeyin. [Kaynak 3]
+Yangın başlamadıysa ve gaz kokusu alıyorsanız bir pencere açın, doğalgaz tesisat valfini kapatın ve binayı hemen terk edin. [Kaynak 3]
+Pilli radyodan acil durum talimatlarını dinleyin. [Kaynak 3]
+Yıkılmış elektrik hatlarından uzak durun. [Kaynak 3]
+Hasar görmüş binalardan uzak durun. [Kaynak 3]
+Kırık cam, döküntü, çivi gibi tehlikelerden korunmak için bot veya sağlam ayakkabı ve eldiven giyin. [Kaynak 3]
+Telefonları meşgul etmeyin, sadece acil durumlarda kullanın; sms atmayı tercih edin. [Kaynak 5]
+Acil durum planlarına ve bu planların uygulayıcılarının direktiflerine titizlikle uyun. [Kaynak 3]
+--- Kaynaklar: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None']
+
+=== r04 [regional → bolgesel] Elbistan'da 2023 depreminin etkileri nelerdi?
+(anlaşılan: Elbistan'da 2023 depreminin etkileri nelerdi?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Elbistan ilçesi, Kahramanmaraş ilinde meydana gelen afet olaylarından en fazla zarar gören konut ve iş yeri sayısına sahiptir. [Kaynak 4]
+
+Kaynaklarda bulunmayan: Elbistan'da 2023 depreminin etkileri hakkında daha fazla detay verilmemiş.
+--- Kaynaklar: ['KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None']
+--- Getirilen: ['KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'document-_11_.pdf s.None', 'document-_11_.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'udsep_1402013_kitap.pdf s.None', 'udsep_1402013_kitap.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None', 'KAHRAMANMARAŞ-IL-AFET-RISK-AZALTMA-PLANI2022.pdf s.None']
+
+=== r05 [holdout → davranis] Araçtayken deprem olursa köprü üzerinde durmalı mıyım?
+(anlaşılan: Araçtayken deprem olursa köprü üzerinde durmalı mıyım?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sırasında köprü üzerinde durmamalısınız. [Kaynak 1]
+--- Kaynaklar: ['ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'document-_11_.pdf s.None']
+
+=== r06 [dev → davranis] Deprem sırasında dışarıdaysam ne yapmalıyım?
+(anlaşılan: Deprem sırasında dışarıdaysam ne yapmalıyım?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sırasında dışarıdaysanız, binalardan uzak durmalısınız çünkü kiremit, tuğla, saksı, klima, tabela, baca ve cam gibi şeyler dökülebilir. [Kaynak 2]
+--- Kaynaklar: ['ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None']
+
+=== r07 [dev → davranis] Depremden sonra hasarlı binaya tekrar girebilir miyim?
+(anlaşılan: Depremden sonra hasarlı binaya tekrar girebilir miyim?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sonrası binada yapısal bir hasar yoksa içeride kalmak güvenlidir. [Kaynak 1]
+Tehlikenin geçtiği bilgisi gelene kadar binaya tekrar hiçbir nedenle girmeyin. [Kaynak 1]
+--- Kaynaklar: ['ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'ilk72saatengelliler.pdf s.None']
+
+=== r08 [regional → bolgesel] İzmir'de tsunami riski var mı?
+(anlaşılan: İzmir'de tsunami riski var mı?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+İzmir'de tsunami riski bulunmaktadır. [Kaynak 1]
+Helenik yayı üzerindeki fay segmentlerinin aletsel büyüklüğü 7 ve üzeri deprem üretmesi durumunda İzmir kıyılarında tsunami kaynaklı hasar beklenmektedir. [Kaynak 1]
+İzmir İli kıyı açıklarında tsunami yaratabilecek özellikte faylar bulunmaktadır. [Kaynak 3]
+Midilli Fayında gerçekleşecek Mw≥6.9 deprem sonucunda İzmir kuzey kıyılarında ciddi hasara neden olabilecek tsunami dalgaları oluşabilir. [Kaynak 3]
+Vathy Fayında gerçekleşecek Mw≥6.8 deprem sonucunda İzmir güney kıyılarında hasara neden olabilecek tsunami dalgaları oluşabilir. [Kaynak 4]
+--- Kaynaklar: ['IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None']
+--- Getirilen: ['IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None', 'IIRAP_Izmir-2025-_1_-a.pdf s.None']
+
+=== r09 [holdout → davranis] Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?
+(anlaşılan: Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Gaz kaçağından şüpheleniyorsanız, ışıkları kapalıysa açmayın. [Kaynak 1]
+Elektrik düğmelerini kapalıysa açmayın, açıksa kapatmayın. [Kaynak 2]
+--- Kaynaklar: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', '04_ikaz_alarm_isaretleri_tr-REVIZE.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'document-_11_.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None']
+
+=== r10 [dev → davranis] Deprem sırasında araç kullanıyorsam ne yapmalıyım?
+(anlaşılan: Deprem sırasında araç kullanıyorsam ne yapmalıyım?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Depremi hissedince enerji hatları, köprü ve viyadüklerden uzak bir yerde aracınızı dikkatlice yolun sağına çekip motoru kapatın. [Kaynak 1]
+Emniyet şeridinde girmeyin. [Kaynak 1]
+Deprem tamamen durana kadar aracınızı terk etmeyin. [Kaynak 1]
+Bilgilenmek için radyonuzu açın. [Kaynak 1]
+--- Kaynaklar: ['ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None']
+
+=== r11 [holdout → davranis] İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?
+(anlaşılan: İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Patlama ya da yangın tehlikesi varsa, hasta ya da yaralıyı dikkatlice olay yerinden uzaklaştırmak gerekir. [Kaynak 2]
+Ancak bu mümkün değilse hasta/yaralıyı asla yerinden kımıldatmayın. [Kaynak 7]
+--- Kaynaklar: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None']
+
+=== r12 [holdout → davranis] Sokaktayken deprem olursa binaların yanında beklemeli miyim?
+(anlaşılan: Sokaktayken deprem olursa binaların yanında beklemeli miyim?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sırasında sokaktayken binaların yanında beklemek tehlikelidir. [Kaynak 9]
+--- Kaynaklar: ['ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None']
+
+=== r13 [dev → davranis] Deprem çantasında neler bulunmalı?
+(anlaşılan: Deprem çantasında neler bulunmalı?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem çantasında acil durum evrakları, yazılı talimatlar, kullanılan ilaçlar, yiyecek ve içecek, fener, radyo ve piller, düdük, cep telefonu ve şarj cihazı, hijyen malzemeleri, ilkyardım malzemeleri, nakit para, battaniye, aile fertlerinin güncel fotoğrafları bulunmalıdır. [Kaynak 1][Kaynak 2][Kaynak 3]
+--- Kaynaklar: ['ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'document-_11_.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None']
+
+=== r14 [regional → bolgesel] Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?
+(anlaşılan: Bingöl'de deprem sonrası ilk müdahale nasıl planlanmıştır?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sonrası Bingöl'de afetlere müdahale tek elden yapılmaktadır ve kurtarma ekiplerinin hızla afet bölgesine ulaşımı sağlanmaktadır. [Kaynak 2]
+Deprem sonrası hasarlı yapıların yıkılması ve yeni yerleşim yerlerinin fay hattı ve fay kırıklarından uzakta seçilmesi sağlanmıştır. [Kaynak 2]
+Bingöl'de acil toplanma alanları ve barınma alanları tespit edilmiştir. [Kaynak 2]
+Deprem sonrası çadırkent ve konteyner alanları belirlenmiş olup, bu alanlara çadır ve konteyner kurulması mümkündür. [Kaynak 6]
+--- Kaynaklar: ['BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None']
+--- Getirilen: ['BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None', 'BINGOL-AFAD-IRAP-2012.pdf s.None']
+
+=== r15 [regional → bolgesel] Ankara Gölbaşı'nda deprem riski var mı?
+(anlaşılan: Ankara Gölbaşı'nda deprem riski var mı?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Ankara'da yıkıcı olabilecek büyüklükte aktif bir fay bulunmamakla birlikte, Gölbaşı ilçesi de dahil olmak üzere Ankara, Kuzey Anadolu Fay Zonu, Kırıkkale-Erbaa Fayı ve Tuz Gölü Faylarının etki alanında kalmaktadır. [Kaynak 2]
+--- Kaynaklar: ['ANKARA_IRAP_2021.pdf s.None']
+--- Getirilen: ['ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None', 'ANKARA_IRAP_2021.pdf s.None']
+
+=== r16 [holdout → davranis] Deprem sonrası binaya eşya almak için geri girebilir miyim?
+(anlaşılan: Deprem sonrası binaya eşya almak için geri girebilir miyim?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Tehlikenin geçtiği bilgisi gelene kadar binaya tekrar hiçbir nedenle girmeyin. [Kaynak 2]
+--- Kaynaklar: ['ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'ilk72saat1.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'yapisalolmayanriskler.pdf s.None']
+
+=== r17 [holdout → davranis] Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?
+(anlaşılan: Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Depremi hissedince enerji hatları, köprü ve viyadüklerden uzak bir yerde aracınızı dikkatlice yolun sağına çekip motoru kapatın. [Kaynak 1]
+Emniyet şeridine girmeyin. [Kaynak 1]
+Deprem tamamen durana kadar aracınızı terk etmeyin. [Kaynak 1]
+Bilgilenmek için radyonuzu açın. [Kaynak 1]
+--- Kaynaklar: ['ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', '04_ikaz_alarm_isaretleri_tr-REVIZE.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', '04_ikaz_alarm_isaretleri_tr-REVIZE.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None']
+
+=== r18 [regional → bolgesel] Erciş'te deprem riski ne durumda?
+(anlaşılan: Erciş'te deprem riski ne durumda?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Erciş Fayı, tarihsel ve aletsel dönemlerde deprem üreten aktif faylardan biridir. [Kaynak 4]
+Erciş'te 1941 ve 1977 yıllarında 5 ve üzerinde iki deprem meydana gelmiştir. [Kaynak 3]
+--- Kaynaklar: ['VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None']
+--- Getirilen: ['VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None', 'VAN-IRAP.pdf s.None']
+
+=== r19 [holdout → davranis] Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?
+(anlaşılan: Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Hasar görmüş binalardan uzak durun. [Kaynak 2]
+Ana şokta önemli hasar görmüş fakat yıkılmamış binalar artçı depremlerde yıkılabilir. [Kaynak 8]
+--- Kaynaklar: ['ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'hasar_tespit_-_10x21.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None']
+
+=== r20 [regional → bolgesel] İskenderun'da deprem sonrası tsunami tehlikesi var mı?
+(anlaşılan: İskenderun'da deprem sonrası tsunami tehlikesi var mı?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+İskenderun Körfezi'nde tsunami olayları kaydedilmiştir. [Kaynak 2]
+İskenderun'da tsunami riski bulunmaktadır. [Kaynak 3]
+--- Yerel:
+İskenderun için Hatay il planı (2021) bilgisi:
+- Fay hatları: Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu (s. 21)
+- Fay hatları: Karasu fayının etkisi (s. 20)
+- Tsunami riski: "H10-1 Tsunami riskinin haritalandırılması İskenderun Teknik Üniversitesi Hatay Mustafa Kemal Üniversitesi Hatay İl AFAD Müdürlüğü Hatay Jeoloji Müdendisleri Odası Hatay Jeofizik Mühendisleri Odası Hatay İnşaat Mühendisleri Odası Hatay Şehir Plancıları Odası 2021-2026" (s. 153)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['document-_11_.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'document-_11_.pdf s.None', 'ilk72saat1.pdf s.None', 'istanbulda-afetler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'document-_11_.pdf s.None', 'document-_11_.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== r21 [holdout → davranis] Binanın güvenli olup olmadığına kendim karar verebilir miyim?
+(anlaşılan: Binanın güvenli olup olmadığına kendim karar verebilir miyim?) gate=ANSWERABLE
+Beklenen: v1 (Gate yok + gpt-4o) reddetmişti
+--- Cevap:
+Deprem sonrası binanın güvenli olup olmadığını değerlendirmek zordur ve bu konuda uzman değerlendirmesi gereklidir. [Kaynak 5]
+--- Kaynaklar: ['olagandisi.pdf s.None']
+--- Getirilen: ['olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'yapisalolmayanriskler.pdf s.None']
+

@@ -4,7 +4,9 @@ Uses the offline gazetteer in data/geo (81 provinces, 973 districts). Matching i
 deliberately conservative:
 - "Ceyhan'da", "Hatay'daki" (apostrophe) and exact tokens always match;
 - glued suffixes ("Adanada") match only for names of 5+ letters followed by a
-  known Turkish suffix chain, so "vanası" never becomes the province Van;
+  known Turkish suffix chain, so "vanası" never becomes the province Van; a garbled
+  chain ("antakyadaydayım") still matches if it starts with a locative/dative case
+  ending (-da/-de/-ta/-te/-ya/-ye), the usual way people say where they are;
 - district names that are also common words (Araç, Bodrum, Maden, Kale, Pazar…)
   match only when capitalised, and "Merkez" never matches on its own;
 - a district name shared by several provinces is resolved only if the question
@@ -26,6 +28,7 @@ GAZETTEER_FILE = Path("data/geo/turkiye_il_ilce.json")
 IRAP_MAP_FILE = Path("data/geo/irap_province_map.json")
 MIN_GLUED_NAME_LENGTH = 5
 NEVER_ALONE = {"merkez"}
+CASE_START_RE = re.compile(r"^(?:[dt][ae]|y[ae])")  # Antakya-da..., Hatay-da..., Adana-ya...
 WORD_RE = re.compile(r"[A-Za-zÇĞİÖŞÜÂÎÛçğıöşüâîû]+(?:['’][A-Za-zÇĞİÖŞÜçğıöşü]+)?")
 
 
@@ -88,6 +91,12 @@ def match_token(token: str, gazetteer: Gazetteer) -> tuple[str, tuple[str, str |
             if candidate is not None and is_suffix_chain(lowered[cut:]):
                 lowered, entry = lowered[:cut], candidate
                 break
+        else:  # a typo in the suffix chain: accept the longest name followed by a case ending
+            for cut in range(len(lowered) - 1, MIN_GLUED_NAME_LENGTH - 1, -1):
+                candidate = gazetteer.names.get(lowered[:cut])
+                if candidate is not None and CASE_START_RE.match(lowered[cut:]):
+                    lowered, entry = lowered[:cut], candidate
+                    break
     if entry is None:
         return None
     if lowered in gazetteer.common_words and not stem[:1].isupper():

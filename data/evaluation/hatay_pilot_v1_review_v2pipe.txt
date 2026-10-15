@@ -1,0 +1,341 @@
+=== h01 [davranis → davranis] antakyada deprem oldu nereye gideyim
+(anlaşılan: antakyada deprem oldu nereye gideyim) gate=ANSWERABLE
+Beklenen: toplanma alanına git, e-Devlet'ten öğren; Antakya plan bilgisi + tarih uyarısı
+--- Cevap:
+Deprem sonrasında tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin. [Kaynak 13]
+Size en yakın toplanma alanını e-Devlet'ten öğrenebilirsiniz. [Kaynak 14]
+Antakya ilçesinde 133 toplanma alanı belirlenmiş. [Kaynak 16]
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+Antakya için Hatay il planı (2021) bilgisi:
+- Antakya ilçesinde 133 toplanma alanı belirlenmiş. (s. 44)
+- Geçici barınma alanı: Antakya, Saçaklı-Suvatlı, 327.651 Kişi (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'olagandisi.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h02 [davranis → davranis] iskenderundayım sahildeyim deprem oldu ne yapayım
+(anlaşılan: iskenderundayım sahildeyim deprem oldu ne yapayım) gate=ANSWERABLE
+Beklenen: kıyıdan uzaklaş/yükseğe çık (tsunami), İskenderun yerel bilgi
+--- Cevap:
+Deprem sırasında sahildeyseniz, tsunami veya deniz kabarması olasılığına karşı plajlardan ve kıyılardan uzaklaşın. [Kaynak 11]
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+İskenderun için Hatay il planı (2021) bilgisi:
+- İskenderun ilçesinde 63 toplanma alanı belirlenmiş. (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saatengelliler.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'document-_11_.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h03 [davranis → davranis] hatayda evdeyken deprem olursa ne yapmalıyım
+(anlaşılan: hatayda evdeyken deprem olursa ne yapmalıyım) gate=ANSWERABLE
+Beklenen: çök-kapan-tutun; Hatay yerel bilgi
+--- Cevap:
+Deprem sırasında evdeyseniz, sağlam bir nesnenin altına girin veya yanına geçin. [Kaynak 7]
+Sırtınız pencerelere dönük bir şekilde kapanıp başınızı ve ensenizi koruyun. [Kaynak 7]
+Sarsıntı sona erene kadar, nesneye tutunun. [Kaynak 7]
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+Hatay için Hatay il planı (2021) bilgisi:
+- Toplanma alanları: Altınözü: 28, Antakya: 133, Arsuz: 41, Belen: 22, Defne: 55, Dörtyol: 40, Erzin: 20, Hassa: 58, İskenderun: 63, Kırıkhan: 91, Kumlu: 24, Payas: 17, Reyhanlı: 39, Samandağ: 49, Yayladağı: 50 (s. 44)
+- Geçici barınma alanı: Antakya, Saçaklı-Suvatlı, 327.651 Kişi (s. 44)
+- Geçici barınma alanı: Arsuz, Alakop (Höyük), 44.206 Kişi (s. 44)
+- Geçici barınma alanı: Kumlu, Aktaş, 18.715 Kişi (s. 44)
+- Geçici barınma alanı: Erzin, Başlamış, 2507 Kişi (s. 44)
+- Geçici barınma alanı: Kırıkhan, Kastal, 52577 Kişi (s. 44)
+- Geçici barınma alanı: Reyhanlı, Amik Ovası, 9752 Kişi (s. 44)
+- Geçici barınma alanı: Hassa, Eğribucak, 2469 Kişi (s. 44)
+- Geçici barınma alanı: Yayladağı, Yukarıokçular, 10669 Kişi (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h04 [davranis → davranis] dprem oldu napcam asaönsore bineyimmi
+(anlaşılan: Deprem oldu, ne yapacağım? Asansöre bineyim mi?) gate=ANSWERABLE
+Beklenen: asansör kullanmayın
+--- Cevap:
+Deprem sonrasında asansöre binmemelisiniz. [Kaynak 1]
+--- Kaynaklar: ['ilk72saat1.pdf s.None']
+--- Getirilen: ['ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'document-_11_.pdf s.None']
+
+=== h05 [davranis → bolgesel] defnede toplanma alanı nerde
+(anlaşılan: defnede toplanma alanı nerde) gate=NOT_ANSWERABLE
+Beklenen: e-Devlet; Defne 55 alan (2021)
+--- Cevap:
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+Defne için Hatay il planı (2021) bilgisi:
+- Defne ilçesinde 55 toplanma alanı belirlenmiş. (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: []
+--- Getirilen: ['toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'yer_secimi.pdf s.None', 'yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf s.None', 'olagandisi.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'sismik_mikrobolgeleme_el_kitabi_tr.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h06 [davranis → davranis] samandağda deprem sonrası evime girebilir miyim
+(anlaşılan: samandağda deprem sonrası evime girebilir miyim) gate=ANSWERABLE
+Beklenen: hasarlı binaya girmeyin; yerel bilgi
+--- Cevap:
+Deprem sonrası binada yapısal bir hasar yoksa içeride kalmak güvenlidir. [Kaynak 1]
+
+Kaynaklarda bulunmayan: Samandağ'da özel bir durum veya yetkililerin uyarıları hakkında bilgi yok.
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+Samandağ için Hatay il planı (2021) bilgisi:
+- Samandağ ilçesinde 49 toplanma alanı belirlenmiş. (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['ilk72saatengelliler.pdf s.None']
+--- Getirilen: ['ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saat1.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'Afet-barinma-faaliyetleri.pdf s.None', 'ilk72saat1.pdf s.None', 'olagandisi.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h07 [bolgesel → bolgesel] hatayda hangi fay hatları var
+(anlaşılan: hatayda hangi fay hatları var) gate=ANSWERABLE
+Beklenen: Ölü Deniz Fay Zonu, Doğu Anadolu Fay Zonu
+--- Cevap:
+Hatay'da Ölü Deniz Fay Zonu bulunmaktadır. [Kaynak 4]
+Doğu Anadolu Fay Zonu da Hatay'da yer almaktadır. [Kaynak 6]
+--- Yerel:
+Hatay için Hatay il planı (2021) bilgisi:
+- Fay hatları: Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu (s. 21)
+- Fay hatları: Karasu fayının etkisi (s. 20)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h08 [bolgesel → bolgesel] hatayın deprem riski yüksek ilçeleri hangileri
+(anlaşılan: hatayın deprem riski yüksek ilçeleri hangileri) gate=ANSWERABLE
+Beklenen: Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin
+--- Cevap:
+Hatay'da deprem riski yüksek ilçeler Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol ve Erzin'dir. [Kaynak 1][Kaynak 15]
+--- Yerel:
+Hatay için Hatay il planı (2021) bilgisi:
+- Fay hatları: Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu (s. 21)
+- Fay hatları: Karasu fayının etkisi (s. 20)
+- Deprem açısından riskli ilçeler: Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin (s. 38)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h09 [bolgesel → bolgesel] antakyada kaç toplanma alanı var
+(anlaşılan: antakyada kaç toplanma alanı var) gate=ANSWERABLE
+Beklenen: 133 (2021 planı)
+--- Cevap:
+Antakya ilçesinde 133 toplanma alanı belirlenmiş. [Kaynak 16]
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+Antakya için Hatay il planı (2021) bilgisi:
+- Antakya ilçesinde 133 toplanma alanı belirlenmiş. (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h10 [bolgesel → bolgesel] hatayda geçici barınma alanları nerede
+(anlaşılan: hatayda geçici barınma alanları nerede) gate=ANSWERABLE
+Beklenen: Saçaklı-Suvatlı, Alakop, Aktaş, ... kapasitelerle
+--- Cevap:
+Hatay'da geçici barınma alanları Antakya'da Saçaklı-Suvatlı bölgesinde bulunmaktadır. [Kaynak 1]
+Hassa'da Eğribucak mahallesinde geçici barınma alanı bulunmaktadır. [Kaynak 8]
+Yayladağı'nda Yukarıokçular mahallesinde geçici barınma alanı bulunmaktadır. [Kaynak 8]
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+
+Hatay için Hatay il planı (2021) bilgisi:
+- Geçici barınma alanı: Antakya, Saçaklı-Suvatlı, 327.651 Kişi (s. 44)
+- Geçici barınma alanı: Arsuz, Alakop (Höyük), 44.206 Kişi (s. 44)
+- Geçici barınma alanı: Kumlu, Aktaş, 18.715 Kişi (s. 44)
+- Geçici barınma alanı: Erzin, Başlamış, 2507 Kişi (s. 44)
+- Geçici barınma alanı: Kırıkhan, Kastal, 52577 Kişi (s. 44)
+- Geçici barınma alanı: Reyhanlı, Amik Ovası, 9752 Kişi (s. 44)
+- Geçici barınma alanı: Hassa, Eğribucak, 2469 Kişi (s. 44)
+- Geçici barınma alanı: Yayladağı, Yukarıokçular, 10669 Kişi (s. 44)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'olagandisi.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'olagandisi.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', '23052025-TASIP.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'ilk72saat1.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h11 [bolgesel → bolgesel] hatayda kaç hastane var
+(anlaşılan: hatayda kaç hastane var) gate=ANSWERABLE
+Beklenen: 10 devlet, 10 özel (2021, 2023 öncesi uyarısı)
+--- Cevap:
+Hatay'da 10 Devlet Hastanesi ve 10 özel hastane bulunmaktadır. [Kaynak 13]
+--- Yerel:
+Hatay için Hatay il planı (2021) bilgisi:
+- Sağlık tesisleri: 10 Devlet Hastanesi, 10 özel hastane (s. 35)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h12 [bolgesel → bolgesel] iskenderunda tsunami riski var mı
+(anlaşılan: iskenderunda tsunami riski var mı) gate=ANSWERABLE
+Beklenen: evet, planda tsunami riski; kıyı
+--- Cevap:
+İskenderun Körfezi'nde tsunami riski bulunmaktadır. [Kaynak 2]
+Hatay İl Afet Risk Azaltma Planı'nda deniz kabarması ve tsunami riski belirtilmiştir. [Kaynak 3]
+--- Yerel:
+İskenderun için Hatay il planı (2021) bilgisi:
+- Tsunami riski: "H10-1 Tsunami riskinin haritalandırılması İskenderun Teknik Üniversitesi Hatay Mustafa Kemal Üniversitesi Hatay İl AFAD Müdürlüğü Hatay Jeoloji Müdendisleri Odası Hatay Jeofizik Mühendisleri Odası Hatay İnşaat Mühendisleri Odası Hatay Şehir Plancıları Odası 2021-2026" (s. 153)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['document-_11_.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'document-_11_.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'ilk72saatengelliler.pdf s.None', 'ilk72saat1.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h13 [bolgesel → bolgesel] hatayda sıvılaşma riski var mı
+(anlaşılan: hatayda sıvılaşma riski var mı) gate=ANSWERABLE
+Beklenen: evet, planda sıvılaşma riski olan yerler
+--- Cevap:
+Antakya ilçesi alüvyon zeminde yer almakta ve büyük bir depremde sıvılaşma olaylarının yaşanabileceği belirtilmektedir. [Kaynak 2]
+--- Yerel:
+Hatay için Hatay il planı (2021) bilgisi:
+- Sıvılaşma riski: "Antakya ilçesinin yerleşimi fay hatları/zonları üzerinde oturmakta, ayrıca alüvyon zeminde yer alması büyük bir depremde sıvılaşma olaylarının yaşanabileceğini göstermektedir." (s. 38)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'sismik_mikrobolgeleme_ornek_uygulamalar_tr.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h14 [bolgesel → bolgesel] kırıkhan deprem açısından riskli mi
+(anlaşılan: Kırıkhan deprem açısından riskli mi?) gate=ANSWERABLE
+Beklenen: riskli ilçeler arasında; fay yakınlığı
+--- Cevap:
+Kırıkhan, deprem açısından riskli bir ilçedir. [Kaynak 1][Kaynak 15]
+--- Yerel:
+Kırıkhan için Hatay il planı (2021) bilgisi:
+- Fay hatları: Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu (s. 21)
+- Fay hatları: Karasu fayının etkisi (s. 20)
+- Deprem açısından riskli ilçeler: Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin (s. 38)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'yft_min1.pdf s.None', 'yft_min1.pdf s.None', 'yft_min1.pdf s.None', 'yft_min1.pdf s.None', 'yft_min1.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'yft_min1.pdf s.None', 'yft_min1.pdf s.None', 'yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h15 [gecmis → gecmis] hatayda geçmişte hangi büyük depremler oldu
+(anlaşılan: hatayda geçmişte hangi büyük depremler oldu) gate=ANSWERABLE
+Beklenen: 1822, 1872, 1997 Antakya vb. tarihsel liste
+--- Cevap:
+Hatay ve çevresinde tarihsel dönemde birçok büyük deprem meydana gelmiştir. [Kaynak 1]
+M.Ö. 1000-1270 yılları arasında, M.S. 115, 1053, 1408 ve 1872 yıllarında büyük depremler olmuştur. [Kaynak 1]
+245 yılında M=7,5 büyüklüğünde ve 526 yılında IX şiddetinde depremler meydana gelmiştir. [Kaynak 8]
+13 Ağustos 1822 tarihinde IX şiddetinde bir deprem olmuştur. [Kaynak 13]
+--- Yerel:
+Hatay için Hatay il planı (2021) bilgisi:
+- Geçmiş depremler: 13.08.1822, Antakya, İskenderun, Kilis, Halep, Lazkiye, IX (s. 55)
+- Geçmiş depremler: 20 Mart 1945, Ceyhan-Adana, Ms: 6.0, 13 ölü (s. 55)
+- Geçmiş depremler: 22 Ocak 1997, Antakya, Ms: 5.5, 1 ölü (s. 55)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h16 [gecmis → genel] 1997 antakya depremi
+(anlaşılan: 1997 Antakya depremi) gate=ANSWERABLE
+Beklenen: 22 Ocak 1997, Ms 5.5, 1 ölü
+--- Cevap:
+22 Ocak 1997 tarihinde Antakya'da meydana gelen depremin büyüklüğü Ms 5,5 olarak belirlenmiştir. [Kaynak 1]
+Deprem nedeniyle 55 ev ağır hasara uğramış, 1 kişi yaşamını yitirmiş ve 9 kişi yaralanmıştır. [Kaynak 3]
+Deprem, Karasu Segmenti’nin güneyinde gerçekleşmiş ve herhangi bir yüzey kırığı oluşturmamıştır. [Kaynak 2]
+Deprem alüvyonlar üzerinde önemli hasarlara yol açmıştır. [Kaynak 2]
+--- Yerel:
+Antakya için Hatay il planı (2021) bilgisi:
+- Geçmiş depremler: 13.08.1822, Antakya, İskenderun, Kilis, Halep, Lazkiye, IX (s. 55)
+- Geçmiş depremler: 20 Mart 1945, Ceyhan-Adana, Ms: 6.0, 13 ölü (s. 55)
+- Geçmiş depremler: 22 Ocak 1997, Antakya, Ms: 5.5, 1 ölü (s. 55)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['abep_kitap_matbaa_final_04122008_small.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['abep_kitap_matbaa_final_04122008_small.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'yft_min1.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h17 [gecmis → genel] 6 şubat 2023 depreminde hatayda ne oldu
+(anlaşılan: 6 şubat 2023 depreminde hatayda ne oldu) gate=ANSWERABLE
+Beklenen: korpusta varsa rapor bilgisi; yoksa dürüst ret + tarih notu
+--- Cevap:
+6 Şubat 2023 tarihinde Hatay'da meydana gelen depremler, Türkiye'de 2023 yılında yaşanan en ölümcül felaketlerden biri olmuştur. [Kaynak 5]
+Hatay, Doğu Anadolu Fay Zonu ve Ölü Deniz Fay Zonunun birleştiği bir bölgede yer almakta ve bu nedenle yüksek deprem riski taşımaktadır. [Kaynak 9]
+
+Kaynaklarda bulunmayan: 6 Şubat 2023 depreminde Hatay'da meydana gelen spesifik olaylar ve etkiler.
+--- Kaynaklar: ['document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'document-_11_.pdf s.None', 'document-_11_.pdf s.None', '23052025-TASIP.pdf s.None', 'document-_11_.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h18 [genel → bolgesel] hatay neden deprem bölgesi
+(anlaşılan: Hatay neden deprem bölgesi?) gate=ANSWERABLE
+Beklenen: fay zonlarının kesişimi (Ölü Deniz, Doğu Anadolu)
+--- Cevap:
+Hatay, sismik olarak son derece aktif bir bölgede yer almaktadır. [Kaynak 1]
+Arabistan levhasının kuzeye doğru hareketi, Ölü Deniz Fayı’nda gerilmelerin artmasına neden olur. [Kaynak 1]
+Hatay, Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu gibi önemli tektonik yapıların bulunduğu bir bölgede yer almaktadır. [Kaynak 4]
+--- Yerel:
+Hatay için Hatay il planı (2021) bilgisi:
+- Fay hatları: Ölü Deniz Fay Zonu ve Doğu Anadolu Fay Zonu (s. 21)
+- Fay hatları: Karasu fayının etkisi (s. 20)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+--- Getirilen: ['HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h19 [davranis → bolgesel] reyhanlıda deprem oldu yaralı var hangi hastaneye gidelim
+(anlaşılan: reyhanlıda deprem oldu yaralı var hangi hastaneye gidelim) gate=NOT_ANSWERABLE
+Beklenen: 112'yi ara; hastane listesi korpusta yoksa dürüst
+--- Cevap:
+Bu konuda mevcut kaynaklarda yeterli güvenilir bilgi bulamadım.
+--- Yerel:
+Reyhanlı için Hatay il planı (2021) bilgisi:
+- Sağlık tesisleri: 10 Devlet Hastanesi, 10 özel hastane (s. 35)
+  (Kaynak: HATAY-İRAP-2022.pdf)
+Not: Plan bilgileri 2021 yılına aittir (6 Şubat 2023 depremlerinden önce); güncel durum farklı olabilir, güncel bilgiyi e-Devlet'ten ve AFAD'dan kontrol edin.
+--- Kaynaklar: []
+--- Getirilen: ['afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'udsep_1402013_kitap.pdf s.None', 'istanbulda-afetler.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'yapisalolmayanriskler.pdf s.None', 'mudahale_edilen_olaylar.pdf s.None', 'istanbulda-afetler.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'afet_sonrasi_iyilestirme_calismalari-1.pdf s.None', 'olagandisi.pdf s.None', 'HATAY-İRAP-2022.pdf s.None']
+
+=== h20 [tanim → tanim] toplanma alanı nedir
+(anlaşılan: Toplanma alanı nedir?) gate=ANSWERABLE
+Beklenen: AFAD broşürü tanımı
+--- Cevap:
+Toplanma alanı, afet ve acil durumlar sonrasında geçici barınma merkezleri hazır olana kadar halkın tehlikeli bölgeden uzaklaşarak toplanabileceği güvenli alanlardır. [Kaynak 1]
+Bu alanlar, paniği önlemek ve sağlıklı bilgi alışverişini sağlamak amacıyla oluşturulmuştur. [Kaynak 4]
+--- Yerel:
+Toplanma alanı (AFAD):
+- Deprem gibi afetlerden sonra, geçici barınma merkezleri hazır olana kadar tehlikeli bölgeden uzaklaşıp afet ve acil durum toplanma alanına gidin; toplanma alanları bu amaçla belirlenmiş güvenli alanlardır.
+- Size en yakın toplanma alanını e-Devlet'ten (www.turkiye.gov.tr) öğrenebilirsiniz: T.C. kimlik numaranızla girin, AFAD hizmetlerinden "Afet ve Acil Durum Toplanma Alanları"nı seçin, adresinize en yakın alanı ve haritadaki yerini görün.
+- Alana giderken afet ve acil durum çantanızı alın; geçici barınma merkezleri oluşturulana kadar bu alanda bulunun.
+  (Kaynak: toplanma_alanlari.pdf, s. 1–2)
+--- Kaynaklar: ['ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None']
+--- Getirilen: ['ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'toplanma_alanlari.pdf s.None', 'Afet-Yönetim-Terimleri-Sözlüğü.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'ENKAZDA-ARAMA-VE-KURTARMA-TEMEL-EĞİTİMİ-2025-.pdf s.None', 'yft_min1.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'yerbilimsel_verilerin_planlamaya_entegrasyonu_tr.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None', 'toplanma_alanlari.pdf s.None']
+

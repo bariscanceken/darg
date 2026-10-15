@@ -8,7 +8,9 @@
   "sozluk": "Terminology dictionaries / glossaries",
   "teknik_mesleki": "Technical, engineering, scientific or professional (rescuer/manager) material"
  },
- "folder_rules": {"plans/irap": "il_plani"},
+ "folder_rules": {
+  "plans/irap": "il_plani"
+ },
  "files": {
   "ilk72saat1.pdf": "vatandas_rehberi",
   "ilk72saatengelliler.pdf": "vatandas_rehberi",
@@ -26,12 +28,10 @@
   "Afet-barinma-faaliyetleri.pdf": "vatandas_rehberi",
   "yer_secimi.pdf": "vatandas_rehberi",
   "AYDES.pdf": "vatandas_rehberi",
-
   "TAMP.pdf": "ulusal_plan",
   "28032022-TARAP-kitap_V6.pdf": "ulusal_plan",
   "23052025-TASIP.pdf": "ulusal_plan",
   "udsep_1402013_kitap.pdf": "ulusal_plan",
-
   "afet_sonrasi_iyilestirme_calismalari-1.pdf": "gecmis_rapor",
   "istanbulda-afetler.pdf": "gecmis_rapor",
   "Afete_Direncli_Toplum_Uygulama_Ornekleri.pdf": "gecmis_rapor",
@@ -42,11 +42,9 @@
   "2022-Yili-Doga-Kaynakli-Olay-Istatistikleri.pdf": "gecmis_rapor",
   "2023yilidogakaynakliolayistatistikleri-_1_.pdf": "gecmis_rapor",
   "2024-Yili-Doga-Kaynakli-Olay-Istatistikleri.pdf": "gecmis_rapor",
-
   "Afet-Yönetim-Terimleri-Sözlüğü.pdf": "sozluk",
   "sozluk.pdf": "sozluk",
   "ARAMA-VE-KURTARMA-AÇIKLAMALI-TERİMLER-SÖZLÜĞÜ-2025.pdf": "sozluk",
-
   "yapisalriskler.pdf": "teknik_mesleki",
   "abep_kitap_matbaa_final_04122008_small.pdf": "teknik_mesleki",
   "sismik-mikrobolgeleme_genisletilmis_ozet_tr.pdf": "teknik_mesleki",
@@ -66,6 +64,12 @@
   "fayin_merkezi.pdf": "teknik_mesleki",
   "gozlem_aglari.pdf": "teknik_mesleki",
   "mudahale_kapasitesi.pdf": "teknik_mesleki",
-  "yonetmelik_brosur.pdf": "teknik_mesleki"
+  "yonetmelik_brosur.pdf": "teknik_mesleki",
+  "ilk72saat.pdf": "vatandas_rehberi",
+  "ilk72saatcocuk.pdf": "vatandas_rehberi",
+  "ilk72saatyetiskin.pdf": "vatandas_rehberi",
+  "bilgilenplanlahazirlan.pdf": "vatandas_rehberi",
+  "psikolojikilkyardim.pdf": "vatandas_rehberi",
+  "risk_haritalari.pdf": "teknik_mesleki"
  }
 }

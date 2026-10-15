@@ -1,0 +1,21 @@
+{"id": "r01", "type": "regional", "question": "Düzce'de deprem riski yüksek mi?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r02", "type": "regional", "question": "Osmaniye'de geçici barınma alanları nerede?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r03", "type": "dev", "question": "Deprem sonrası ilk 72 saatte ne yapmalıyım?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r04", "type": "regional", "question": "Elbistan'da 2023 depreminin etkileri nelerdi?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r05", "type": "holdout", "question": "Araçtayken deprem olursa köprü üzerinde durmalı mıyım?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r06", "type": "dev", "question": "Deprem sırasında dışarıdaysam ne yapmalıyım?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r07", "type": "dev", "question": "Depremden sonra hasarlı binaya tekrar girebilir miyim?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r08", "type": "regional", "question": "İzmir'de tsunami riski var mı?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r09", "type": "holdout", "question": "Evde gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r10", "type": "dev", "question": "Deprem sırasında araç kullanıyorsam ne yapmalıyım?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r11", "type": "holdout", "question": "İlk yardım bilmiyorsam ağır yaralı birini hareket ettirmeli miyim?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r12", "type": "holdout", "question": "Sokaktayken deprem olursa binaların yanında beklemeli miyim?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r13", "type": "dev", "question": "Deprem çantasında neler bulunmalı?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r14", "type": "regional", "question": "Bingöl'de deprem sonrası ilk müdahale nasıl planlanmış?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r15", "type": "regional", "question": "Ankara Gölbaşı'nda deprem riski var mı?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r16", "type": "holdout", "question": "Deprem sonrası binaya eşya almak için geri girebilir miyim?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r17", "type": "holdout", "question": "Araçtayken sarsıntı başladığında aracı nasıl durdurmalıyım?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r18", "type": "regional", "question": "Erciş'te deprem riski ne durumda?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r19", "type": "holdout", "question": "Artçı sarsıntılar devam ederken hasarlı binada kalmak güvenli mi?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r20", "type": "regional", "question": "İskenderun'da deprem sonrası tsunami tehlikesi var mı?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}
+{"id": "r21", "type": "holdout", "question": "Binanın güvenli olup olmadığına kendim karar verebilir miyim?", "expect": "v1 (Gate yok + gpt-4o) reddetmişti"}

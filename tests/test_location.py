@@ -21,6 +21,12 @@ class DetectionTests(unittest.TestCase):
             self.assertIsNotNone(loc(question), question)
         self.assertEqual(loc("hatayda toplanma alanı").province, "Hatay")
 
+    def test_garbled_case_suffix_still_matches(self) -> None:
+        found = loc("antakyadaydayım deprem oldu hangi hastaneye gidicem")
+        self.assertEqual((found.province, found.district), ("Hatay", "Antakya"))
+        self.assertEqual(loc("hataydaydım").province, "Hatay")
+        self.assertIsNone(loc("vanası kapalı mı"))
+
     def test_aliases(self) -> None:
         self.assertEqual(loc("Maraş'ta deprem sonrası ne yapmalı?").province, "Kahramanmaraş")
         self.assertEqual(loc("Antep'te toplanma alanı").province, "Gaziantep")

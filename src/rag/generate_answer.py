@@ -29,7 +29,7 @@ from .answerability import (
     is_answerable,
 )
 from .clarification import suggest_clarifications
-from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli
+from .context import filter_sources_by_answer_references, format_context, format_sources_for_cli, source_metadata
 from .evidence import ANSWER_FROM_EVIDENCE_INSTRUCTIONS, format_evidence, mark_wider_area, select_evidence
 from .llm_query_repair import repair_query
 from .local_info import CARD_CHUNK_PREFIX, build_local_info, format_local_info, local_info_evidence
@@ -64,6 +64,10 @@ PLACE_SPECIFIC_TYPES = frozenset({"bolgesel", "gecmis"})
 # fully faithful 55% -> 85%, answers with a critical issue 16% -> 2%.
 CLI_EVIDENCE_GATE = True
 CLI_GENERATION_MODEL = "gpt-4o"
+# Pipeline v2 (src/rag/pipeline_v2.py): understand -> wide retrieval on the section-aware v5 index -> answer with
+# code-verified quotes. Opt-in with --pipeline v2 until measured against v1.
+CLI_PIPELINE = "v1"
+CLI_V2_INDEX_DIR = Path("data/indexes/mobile_v5")
 NO_REGIONAL_PLAN_NOTE = ("Not: {province} için il afet risk azaltma planı (IRAP) kaynaklarımda bulunmuyor; "
                          "cevap genel AFAD bilgilerine dayanmaktadır.")
 LOCAL_ONLY_LEAD = "Kaynaklarımdaki ilgili yerel bilgiler şunlar:"
@@ -141,6 +145,12 @@ def parse_args() -> argparse.Namespace:
         action=argparse.BooleanOptionalAction,
         default=CLI_EVIDENCE_FIRST,
         help="Select verbatim evidence first and write the answer only from it.",
+    )
+    parser.add_argument(
+        "--pipeline",
+        choices=("v1", "v2"),
+        default=CLI_PIPELINE,
+        help="v2: understand -> wide retrieval (mobile_v5) -> answer with code-verified quotes.",
     )
     parser.add_argument(
         "--generation-model",
@@ -480,7 +490,49 @@ def choose_location(question: str) -> Location | None:
     return location
 
 
+def generate_answer_v2(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, location: Location | None = None,
+                       local_info: bool = True, answer_model: str | None = None,
+                       allow_model_download: bool = False) -> dict[str, Any]:
+    """Pipeline v2 with the same result shape as generate_answer (for printing and evaluation)."""
+    from .pipeline_v2 import ANSWER_MODEL, run_pipeline_v2
+
+    load_environment()
+    client = load_openai_client()
+    index, metadata, embedding_model, reranker = load_retrieval_components(
+        str(index_dir), DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE, DEFAULT_MODEL_NAME, DEFAULT_RERANKER_MODEL,
+        allow_model_download,
+    )
+    result = run_pipeline_v2(question, client, index, metadata, embedding_model, reranker, location=location,
+                             local_info_builder=build_local_info if local_info else None,
+                             answer_model=answer_model or ANSWER_MODEL)
+    sources = [source_metadata(number, passage) for number, passage in enumerate(result["passages"], start=1)]
+    found = result["location"]
+    understanding = result["understanding"]
+    refused = result["answer"] == REFUSAL_ANSWER
+    return {
+        "question": question,
+        "answer": result["answer"],
+        "sources": filter_sources_by_answer_references(result["answer"], sources),
+        "retrieved_sources": sources,
+        "answerability": {"label": "NOT_ANSWERABLE" if refused else "ANSWERABLE", "raw": "pipeline v2"},
+        "normalized_question": understanding["corrected"],
+        "query_repair": {"status": "accepted" if understanding.get("spelling") == "accepted" else "not_needed"},
+        "question_type": understanding["type"],
+        "understanding": understanding,
+        "verified": result["verified"],
+        "context": "\n\n".join(f"[Kaynak {n}]\nMetin: {p['text']}" for n, p in enumerate(result["passages"], start=1)),
+        "location": None if found is None else {
+            "province": found.province, "district": found.district,
+            "ambiguous_provinces": list(found.ambiguous_provinces), "has_regional_plan": has_regional_plan(found.province),
+        },
+        "local_info": result["local_info"],
+    }
+
+
 def answer_for_cli(question: str, args: argparse.Namespace, location: Location | None = None) -> dict[str, Any]:
+    if args.pipeline == "v2":
+        return generate_answer_v2(question, location=location, local_info=args.local_info,
+                                  allow_model_download=args.allow_model_download)
     return generate_answer(
         question,
         openai_model=args.openai_model,
