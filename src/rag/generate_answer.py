@@ -561,7 +561,7 @@ def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
                        local_info: bool = True, allow_model_download: bool = False,
                        web_search: bool = True) -> dict[str, Any]:
     """Pipeline v3 (helpful answer + AFAD verification) with the same result shape as generate_answer."""
-    from .pipeline_v3 import run_pipeline_v3
+    from .graph_v3 import run_graph_v3  # LangGraph orchestration of the v3 steps (same results as run_pipeline_v3)
 
     load_environment()
     client = load_openai_client()
@@ -569,7 +569,7 @@ def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
         str(index_dir), DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE, DEFAULT_MODEL_NAME, DEFAULT_RERANKER_MODEL,
         allow_model_download,
     )
-    result = run_pipeline_v3(question, client, index, metadata, embedding_model, reranker, location=location,
+    result = run_graph_v3(question, client, index, metadata, embedding_model, reranker, location=location,
                              local_info_builder=build_local_info if local_info else None, web_search=web_search)
     sources = [source_metadata(number, passage) for number, passage in enumerate(result["passages"], start=1)]
     found = result["location"]
@@ -647,7 +647,7 @@ def print_result(result: dict[str, Any]) -> None:
         if result["local_info"]["note"]:
             print("")
             print(result["local_info"]["note"])  # the answer already uses the local lines
-    elif result.get("local_info"):
+    elif result.get("local_info") and "sentences" not in result:  # v3 already gave the local lines to the answer
         print("")
         print(format_local_info(result["local_info"]))
     if local_only:
