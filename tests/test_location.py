@@ -27,6 +27,14 @@ class DetectionTests(unittest.TestCase):
         self.assertEqual(loc("hataydaydım").province, "Hatay")
         self.assertIsNone(loc("vanası kapalı mı"))
 
+    def test_misspelt_and_diacritic_free_names(self) -> None:
+        self.assertEqual(loc("derpem oldu anatakyaEDayım ne yapcam").district, "Antakya")
+        self.assertEqual(loc("iskendrunda tsunami var mı").district, "İskenderun")
+        self.assertEqual(loc("samandagda evime girebilir miyim").district, "Samandağ")
+        for question in ["deprem oldu ne yapmalıyım", "asansöre binmeli miyim", "komşularımla buluşma noktası",
+                         "hasarlı binaya girilir mi", "enkaz altında kalırsam"]:
+            self.assertIsNone(loc(question), question)
+
     def test_aliases(self) -> None:
         self.assertEqual(loc("Maraş'ta deprem sonrası ne yapmalı?").province, "Kahramanmaraş")
         self.assertEqual(loc("Antep'te toplanma alanı").province, "Gaziantep")

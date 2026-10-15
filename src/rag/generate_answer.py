@@ -69,7 +69,10 @@ CLI_EVIDENCE_GATE = True
 CLI_GENERATION_MODEL = "gpt-4o"
 # Pipeline v2 (src/rag/pipeline_v2.py): understand -> wide retrieval on the section-aware v5 index -> answer with
 # code-verified quotes. Opt-in with --pipeline v2 until measured against v1.
-CLI_PIPELINE = "v1"
+# v3 (src/rag/pipeline_v3.py): helpful answer that may use general knowledge, AFAD sentences verified and cited,
+# official-source web search when needed. Check 16 Oct 2026 (Claude-graded, NOT expert-validated): 23/25 sampled
+# answerable questions correct (92%), 0 dangerous answers, 14/14 scope/safety controls handled after the scope fix.
+CLI_PIPELINE = "v3"
 # Hybrid: v1 evidence selection / refusal rules, but retrieval from pipeline v2 (3 search rewrites x dense+BM25,
 # top WIDE_TOP_K passages, no LLM rerank) + tolerant quote matching. Measured 16 Oct 2026 on mobile_v5 (74 + 13):
 # answered 59 -> 58/74, false accepts 0/13, faithful 81% -> 83%, critical 0% -> 7% (situation mixing) -> NOT adopted.
@@ -162,9 +165,10 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--pipeline",
-        choices=("v1", "v2"),
+        choices=("v1", "v2", "v3"),
         default=CLI_PIPELINE,
-        help="v2: understand -> wide retrieval (mobile_v5) -> answer with code-verified quotes.",
+        help="v2: understand -> wide retrieval (mobile_v5) -> answer with code-verified quotes; "
+             "v3: helpful answer that may use general knowledge, AFAD-backed sentences verified and cited.",
     )
     parser.add_argument(
         "--generation-model",
@@ -553,7 +557,47 @@ def generate_answer_v2(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
     }
 
 
+def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, location: Location | None = None,
+                       local_info: bool = True, allow_model_download: bool = False,
+                       web_search: bool = True) -> dict[str, Any]:
+    """Pipeline v3 (helpful answer + AFAD verification) with the same result shape as generate_answer."""
+    from .pipeline_v3 import run_pipeline_v3
+
+    load_environment()
+    client = load_openai_client()
+    index, metadata, embedding_model, reranker = load_retrieval_components(
+        str(index_dir), DEFAULT_INDEX_FILE, DEFAULT_METADATA_FILE, DEFAULT_MODEL_NAME, DEFAULT_RERANKER_MODEL,
+        allow_model_download,
+    )
+    result = run_pipeline_v3(question, client, index, metadata, embedding_model, reranker, location=location,
+                             local_info_builder=build_local_info if local_info else None, web_search=web_search)
+    sources = [source_metadata(number, passage) for number, passage in enumerate(result["passages"], start=1)]
+    found = result["location"]
+    understanding = result["understanding"]
+    return {
+        "used_web": result.get("used_web", False),
+        "question": question,
+        "answer": result["answer"],
+        "sources": filter_sources_by_answer_references(result["answer"], sources),
+        "retrieved_sources": sources,
+        "answerability": {"label": "ANSWERABLE", "raw": f"pipeline v3 ({result['status']})"},
+        "normalized_question": understanding["corrected"],
+        "query_repair": {"status": "accepted" if understanding.get("spelling") == "accepted" else "not_needed"},
+        "question_type": understanding["type"],
+        "sentences": result["sentences"],
+        "context": "\n\n".join(f"[Kaynak {n}]\nMetin: {p['text']}" for n, p in enumerate(result["passages"], start=1)),
+        "location": None if found is None else {
+            "province": found.province, "district": found.district,
+            "ambiguous_provinces": list(found.ambiguous_provinces), "has_regional_plan": has_regional_plan(found.province),
+        },
+        "local_info": result["local_info"],
+    }
+
+
 def answer_for_cli(question: str, args: argparse.Namespace, location: Location | None = None) -> dict[str, Any]:
+    if args.pipeline == "v3":
+        return generate_answer_v3(question, location=location, local_info=args.local_info,
+                                  allow_model_download=args.allow_model_download)
     if args.pipeline == "v2":
         return generate_answer_v2(question, location=location, local_info=args.local_info,
                                   allow_model_download=args.allow_model_download)

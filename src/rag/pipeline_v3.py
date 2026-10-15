@@ -1,0 +1,235 @@
+"""DARG pipeline v3: answer like a helpful assistant, verify against AFAD sources.
+
+Pipelines v1/v2 answer ONLY from verbatim AFAD quotes and refuse otherwise. That keeps answers
+grounded, but every missed passage becomes "bulamadım", and the filters added to keep that rule
+became the fragile chain users experienced. A general chat model answers the same questions
+fluently from its own knowledge. v3 combines the two:
+
+1. understand_question (pipeline v2): spelling fix, type, situation, setting, search rewrites,
+   and whether the question is about earthquakes/disasters at all.
+2. retrieve_wide (pipeline v2) over the section-aware v5 index + verified province-card lines.
+3. One gpt-4o call writes a helpful answer. AFAD passages come first; general knowledge may fill
+   gaps. Every sentence states its basis: AFAD source(s) with a verbatim quote, or "genel".
+4. Code checks every AFAD quote in its passage (src/rag/evidence.py: locate_quote). Sentences
+   whose quote cannot be found are shown as general knowledge, never as AFAD-backed.
+Each sentence shows its basis inline ([Kaynak N] or "(genel bilgi)").
+
+Hybrid decision (the project form's "hibrit karar ajanı": vector database or web search): when the
+AFAD answer has no AFAD-backed sentence, leans on general knowledge, or the question asks for
+current information (2023, "şu an", which hospital, address...), an official-source web search
+(gov.tr, Kızılay) is run and the answer is rewritten with the web results as extra numbered sources;
+web quotes are verified the same way and shown with their URL.
+"""
+
+from __future__ import annotations
+
+import re
+from typing import Any
+
+from .answerability import extract_response_text
+from .evidence import locate_quote
+from .pipeline_v2 import (
+    card_passages,
+    format_passages,
+    parse_json,
+    retrieve_wide,
+    understand_question,
+)
+from .query_normalization import turkish_lower
+from .source_routing import policy_for
+
+ANSWER_MODEL = "gpt-4o"
+PASSAGES = 8
+ANSWER_MAX_OUTPUT_TOKENS = 900
+OFF_TOPIC_ANSWER = ("DARG deprem ve afetlerle ilgili soruları cevaplıyor; bu soru bu kapsamın dışında görünüyor. "
+                    "Depremle ilgili bir sorunuz varsa yardımcı olabilirim.")
+
+SCOPE_PROMPT = """Bir deprem bilgi asistanına gelen soru bu asistanın kapsamında mı?
+KAPSAM İÇİ: deprem, afet ve acil durumlar; afete hazırlık; ilk yardım ve psikolojik destek; toplanma/barınma
+alanları; binaların depreme dayanıklılığı veya güvenliği (kişinin kendi binası dahil); deprem tahmini soruları;
+bir il/ilçenin deprem riski, fayları, geçmiş depremleri; afet sonrası yardım ve haklar.
+KAPSAM DIŞI: depremle ilgisi olmayan sağlık, yemek, para, yazılım, ulaşım, genel kültür soruları.
+Örnekler:
+"Binam depremde yıkılır mı?" -> true
+"Büyük deprem ne zaman olacak?" -> true
+"Depremden sonra panik atak geçiren birine nasıl yardım ederim?" -> true
+"Grip olunca hangi ilacı içmeliyim?" -> false
+"Python'da liste nasıl sıralanır?" -> false
+"İstanbul'dan Ankara'ya en hızlı nasıl giderim?" -> false
+Yalnızca JSON döndür: {"in_scope": true} ya da {"in_scope": false}"""
+# Words that always mean "about earthquakes / disasters"; the model is not asked for these questions.
+IN_SCOPE_RE = re.compile(r"deprem|afet|enkaz|artçı|artci|sarsıntı|sarsinti|tsunami|toplanma alan|barınma|fay\b|"
+                         r"fay hat|afad|tahliye|yıkıl|yikil|hasar|çök-kapan|cok-kapan|112|binam|binanın|binanin|bina güven|"
+                         r"depreme dayan")
+
+ANSWER_PROMPT = """Sen DARG'sın: Türkiye'deki vatandaşlara deprem konusunda yardım eden bir asistan.
+Soruyu bilgili, sakin ve yardımcı bir uzman gibi, doğrudan cevapla.
+
+Kaynak kuralları:
+- Önce verilen AFAD kaynak parçalarını, sonra "Web (resmî kaynak)" parçalarını kullan. Her parçanın başındaki "belge › bölüm" başlığı o bilginin hangi
+  durum (deprem sırasında / sonrasında / enkaz altında / hazırlık) ve yer için yazıldığını gösterir.
+- Kaynaklar soruyu tam karşılamıyorsa, doğru olduğundan emin olduğun genel bilgiyle tamamlayabilirsin.
+- Her cümlenin dayanağını belirt: bir kaynak parçasından (AFAD ya da resmî web) geliyorsa kaynak numarasını ve o kaynaktan KELİMESİ KELİMESİNE
+  bir alıntıyı ver; kendi genel bilginse "basis": "genel" yaz. Kaynakta olmayan bir şeyi kaynağa dayandırma.
+
+Güvenlik kuralları:
+- Deprem sırasında ve sonrasında yapılacakları karıştırma; tavsiyenin hangi duruma ait olduğunu belirt.
+- Belirli bir binanın güvenli olduğuna veya yıkılmayacağına dair ASLA güvence verme; bunun ancak uzman
+  incelemesiyle (ör. yetkili mühendis, belediye, hasar tespit ekipleri) anlaşılacağını söyle.
+- Depremin zamanı/yeri hakkında tahmin yapma.
+- Yaralı, enkaz, yangın gibi acil durumlarda İLK cümlede 112 Acil Çağrı Merkezi'ni aramayı söyle.
+- Kaynakta somut bilgi (sayı, isim, yer) varsa onu aynen ver; bilginin kapsamını koru ("X ili geneli" diyorsa
+  ilçeye atfetme).
+- Başka bir yerin veya geçmiş bir olayın bilgisini sorulan yere/bugüne atfetme; il planı bilgisinde planın yılını
+  belirt ve 2023 depremlerinden önceki verilerin güncel olmayabileceğini söyle.
+- Kısa tut: en fazla 7 cümle. Soruyu tekrar etme.
+
+Yalnızca şu JSON'u döndür:
+{"sentences": [{"text": "<cümle>", "basis": "afad" | "genel", "quotes": [{"source": <N>, "quote": "<birebir alıntı>"}]}]}"""
+
+
+def in_scope(question: str, client: Any, model: str = "gpt-4o-mini") -> bool:
+    if IN_SCOPE_RE.search(turkish_lower(question)):
+        return True
+    try:
+        response = client.responses.create(model=model, instructions=SCOPE_PROMPT, input=question,
+                                           max_output_tokens=20, temperature=0)
+        payload = parse_json(extract_response_text(response)) or {}
+    except Exception:
+        return True  # never refuse because the scope check failed
+    return payload.get("in_scope") is not False
+
+
+def verify_sentences(payload: dict[str, Any], passages: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Each sentence -> {"text", "sources"}; sources stay empty unless a quote is found in its cited passage."""
+    sentences = []
+    for sentence in payload.get("sentences") or []:
+        if not isinstance(sentence, dict) or not str(sentence.get("text", "")).strip():
+            continue
+        sources = []
+        for quote in sentence.get("quotes") or []:
+            if not isinstance(quote, dict):
+                continue
+            number = quote.get("source")
+            if isinstance(number, str) and number.isdigit():
+                number = int(number)
+            if isinstance(number, int) and 1 <= number <= len(passages) \
+                    and locate_quote(str(quote.get("quote", "")), passages[number - 1]["text"]):
+                sources.append(number)
+        sentences.append({"text": sentence["text"].strip(), "sources": sorted(set(sources)),
+                          "claimed_afad": sentence.get("basis") == "afad"})
+    return sentences
+
+
+# ---------------------------------------------------------------- web search (hybrid decision)
+
+WEB_MODEL = "gpt-4o"  # domain filters are rejected for gpt-4o-mini / gpt-4.1-mini (400); ~$0.07 per search
+WEB_DOMAINS = ["gov.tr", "kizilay.org.tr"]  # official sources only: AFAD, e-Devlet, ministries, governorships
+CURRENT_INFO_RE = re.compile(r"2023|2024|2025|2026|6 şubat|güncel|şu an|şimdi|bugün|hangi hastane|adres|telefon|"
+                             r"numara|açık mı|nerede kal|başvuru|yardım başvuru")
+WEB_PROMPT = """Aşağıdaki soruyu yalnızca resmî Türk kaynaklarında (AFAD, e-Devlet, bakanlıklar, valilikler, Kızılay)
+web araması yaparak cevapla. Kısa, Türkçe ve yalnızca bulduğun bilgiyle yaz; bulamadıysan bunu söyle."""
+
+
+def needs_web(question: str, sentences: list[dict[str, Any]]) -> bool:
+    """The agent's choice: stay with the AFAD vector store, or also search official web sources."""
+    if CURRENT_INFO_RE.search(turkish_lower(question)):
+        return True
+    afad = sum(1 for sentence in sentences if sentence["sources"])
+    general = len(sentences) - afad
+    return afad == 0 or general >= 2
+
+
+def web_passages(question: str, client: Any, model: str = WEB_MODEL) -> list[dict[str, Any]]:
+    """Official-source web search; one passage per cited URL holding the sentences that cite it."""
+    try:
+        response = client.responses.create(
+            model=model, instructions=WEB_PROMPT, input=question,
+            tools=[{"type": "web_search", "filters": {"allowed_domains": WEB_DOMAINS},
+                    "user_location": {"type": "approximate", "country": "TR"}}],
+            max_output_tokens=700,
+        )
+    except Exception:
+        return []
+    by_url: dict[str, list[str]] = {}
+    for item in getattr(response, "output", []) or []:
+        for content in getattr(item, "content", []) or []:
+            text = getattr(content, "text", "") or ""
+            for note in getattr(content, "annotations", []) or []:
+                url = getattr(note, "url", None)
+                if not url:
+                    continue
+                start = text.rfind(".", 0, getattr(note, "start_index", 0)) + 1
+                end = text.find(".", getattr(note, "end_index", 0))
+                snippet = text[start:end + 1 if end >= 0 else len(text)].strip()
+                snippet = re.sub(r"\(\[[^\]]*\]\([^)]*\)\)|\[[^\]]*\]\([^)]*\)", "", snippet).strip()
+                if snippet and snippet not in by_url.setdefault(url, []):
+                    by_url[url].append(snippet)
+    return [{"text": f"Web (resmî kaynak): {url}\n" + " ".join(snippets), "source_file": url, "page_start": None,
+             "page_end": None, "chunk_id": f"web:{url}"} for url, snippets in by_url.items() if snippets]
+
+
+WEB_NOTE = ("Not: Web bilgileri resmî sitelerden (gov.tr, Kızılay) alındı; yayın tarihleri farklı olabilir, "
+            "güncelliğini ilgili kurumdan kontrol edin.")
+GENERAL_MARK = "(genel bilgi)"
+GENERAL_LEGEND = "(genel bilgi) = AFAD kaynaklarında doğrulanmamış, genel bilgiye dayanan cümle."
+
+
+def render(sentences: list[dict[str, Any]]) -> str:
+    """Sentences in the model's order (so "call 112" can come first); each shows its basis inline."""
+    if not sentences:
+        return OFF_TOPIC_ANSWER
+    lines = [f"{s['text']} " + ("".join(f"[Kaynak {n}]" for n in s["sources"]) if s["sources"] else GENERAL_MARK)
+             for s in sentences]
+    if any(not s["sources"] for s in sentences):
+        lines.append("\n" + GENERAL_LEGEND)
+    return "\n".join(lines)
+
+
+def run_pipeline_v3(question: str, client: Any, index: Any, metadata: list[dict[str, Any]], embedding_model: Any,
+                    reranker: Any, location: Any = None, local_info_builder: Any = None,
+                    answer_model: str = ANSWER_MODEL, web_search: bool = True) -> dict[str, Any]:
+    from .location import detect_location
+
+    understanding = understand_question(question, client)
+    corrected = understanding["corrected"]
+    base = {"question": question, "understanding": understanding, "passages": [], "local_info": None,
+            "location": location, "sentences": []}
+    if not in_scope(corrected, client):
+        return {**base, "answer": OFF_TOPIC_ANSWER, "status": "off_topic"}
+    if location is None:
+        location = detect_location(corrected)
+    search_location = location if location is not None and not location.is_ambiguous else None
+    passages = retrieve_wide(corrected, understanding["search_queries"], search_location,
+                             policy_for(understanding["type"]), index, metadata, embedding_model, reranker,
+                             top_k=PASSAGES)
+    local_info = local_info_builder(location, corrected, understanding["type"]) if local_info_builder else None
+    passages = passages + card_passages(local_info)
+    header = f"Soru: {corrected}\nSorunun durumu: {understanding['situation']}"
+    if understanding.get("setting"):
+        header += f"; ortam: {understanding['setting']}"
+    sentences = write_answer(header, passages, client, answer_model)
+    used_web = False
+    if web_search and needs_web(corrected, sentences):
+        found = web_passages(corrected, client)
+        if found:
+            passages = passages + found
+            sentences = write_answer(header, passages, client, answer_model)
+            used_web = True
+    return {**base, "location": location, "passages": passages, "local_info": local_info, "used_web": used_web,
+            "sentences": sentences, "status": "ok" if sentences else "empty",
+            "answer": render(sentences) + (f"\n\n{WEB_NOTE}" if used_web and any(
+                str(passages[n - 1].get("chunk_id", "")).startswith("web:") for s in sentences for n in s["sources"])
+                else "")}
+
+
+def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model: str) -> list[dict[str, Any]]:
+    try:
+        response = client.responses.create(model=model, instructions=ANSWER_PROMPT,
+                                           input=f"{header}\n\nKaynaklar (AFAD belgeleri; varsa resmî web sonuçları):\n"
+                                                 f"{format_passages(passages)}",
+                                           max_output_tokens=ANSWER_MAX_OUTPUT_TOKENS, temperature=0)
+        payload = parse_json(extract_response_text(response)) or {}
+    except Exception:
+        payload = {}
+    return verify_sentences(payload, passages)

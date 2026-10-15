@@ -61,6 +61,11 @@ def format_context(chunks: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
+def clean_url(url: str) -> str:
+    """Drop tracking parameters the search tool appends (?utm_source=openai)."""
+    return re.sub(r"[?&]utm_source=[^&]*$", "", url)
+
+
 def format_sources_for_cli(sources: list[dict[str, Any]]) -> str:
     """Render retrieval metadata as a concise CLI source list."""
     lines: list[str] = []
@@ -69,6 +74,9 @@ def format_sources_for_cli(sources: list[dict[str, Any]]) -> str:
         source_file = source.get("source_file") or "unknown"
         page = source.get("page_label") or "Sayfa bilgisi yok"
         chunk_id = source.get("chunk_id") or "unknown"
+        if str(chunk_id).startswith("web:"):  # official-source web result (pipeline v3)
+            lines.append(f"[{label}] Web - {clean_url(str(source_file))}")
+            continue
         lines.append(f"[{label}] AFAD - {source_file} - {page} - chunk_id: {chunk_id}")
     return "\n".join(lines)
 

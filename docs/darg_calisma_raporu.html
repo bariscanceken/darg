@@ -226,6 +226,24 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
     <p>Yeni cevaplanan 11 soru arasında araçta deprem, köprü, hasarlı binaya girme, ilk yardım, ilk 72 saat, deprem çantası, İzmir tsunamisi ve Erciş var; 5 soru bu sefer reddedildi (bir kısmı çalıştırmadan çalıştırmaya değişen sorular). Yanlış kabul artmadığı ve kritik hata kalmadığı için v5 index varsayılan yapıldı.</p>
     <p><b>Reddedilen 15 sorunun teşhisi:</b> 13'ünün cevabı belgelerde mevcut (yeni hat bunları buldu); yalnızca Osmaniye sorusu için korpusta il planı yok. Güvenli hat yalnızca 5 parça görüp tek sorguyla aradığı için bu cevapları kaçırıyor; 5 soru ise çalıştırmadan çalıştırmaya değişiyor. Bu yüzden bir sonraki mimari adım, güvenli hattın kanıt seçimi ve ret kurallarını yeni hattın geniş aramasıyla birleştiren bir "karma hat".</p>
     <p><b>Karma hat denemesi (benimsenmedi):</b> Güvenli hattın kanıt seçimi ve ret kuralları korunup arama genişletildi (3 farklı arama sorgusu, kanıt seçimine 5 yerine 10 parça). Sonuç: cevap 58/74 (59'du), yanlış kabul 0/13, sadık %83, ama kritik sorunlu cevap %0'dan %7'ye çıktı (durum karışması geri geldi). 6 soru kazanıldı, 6 kaybedildi: daha fazla parça, kanıt seçimine daha fazla gürültü getirdi. Önceden konan şart (kritik ≤ %2) bozulduğu için varsayılan değişmedi; olumsuz sonuç olarak raporlanacak.</p>
+    <h3>16 Ekim: metodoloji değişikliği — hibrit RAG (v3, yeni varsayılan)</h3>
+    <p>Katı dayanaklı RAG ("yalnızca AFAD belgesinde birebir geçen bilgiyle cevap ver, yoksa reddet") uydurmayı engelliyordu ama çok sık "bulamadım" diyordu ve bu kuralı korumak için eklenen filtreler sistemi kırılgan yapıyordu. Kullanıcının gözlemiyle ("ChatGPT ile konuşan biri bu sorunları yaşamazdı") yaklaşım değiştirildi:</p>
+    <ul>
+      <li>Model soruyu yardımcı bir uzman gibi cevaplar; AFAD parçaları önceliklidir, boşluklar genel bilgiyle doldurulabilir.</li>
+      <li>Her cümlenin dayanağı satır içinde gösterilir: <code>[Kaynak N]</code> (AFAD, alıntısı kodla doğrulanmış), <code>(genel bilgi)</code> ya da resmî web adresi.</li>
+      <li><b>Hibrit karar ajanı</b> (formdaki söz): AFAD dayanağı yoksa, cevap ağırlıkla genel bilgiyse ya da soru güncel bilgi istiyorsa (2023, hangi hastane, başvuru…) yalnızca resmî sitelerde (gov.tr, Kızılay) web araması yapılır; sonuçlar kaynak adresi ve tarih uyarısıyla gösterilir.</li>
+      <li>Güvenlik kuralları: belirli bir bina için güvence yok, deprem tahmini yok, acil durumda ilk cümle 112; konu dışı sorular kibarca reddedilir.</li>
+    </ul>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Kontrol (Claude puanladı, uzman onayı bekliyor)</th><th>Sonuç</th></tr></thead>
+      <tbody>
+        <tr><td>Rastgele 25 cevaplanabilir soru</td><td class="num">23 doğru (%92), 1 kısmi, 1 hatalı ret</td></tr>
+        <tr><td>Tehlikeli cevap (38 soru)</td><td class="num">0</td></tr>
+        <tr><td>Konu dışı / tahmin / bina güvencesi kontrolleri (düzeltme sonrası)</td><td class="num">14 / 14</td></tr>
+        <tr><td>Cevap süresi</td><td class="num">ortanca 8 sn, en çok 16 sn (web gerekirse +10–20 sn)</td></tr>
+      </tbody>
+    </table></div>
+    <p>Örnek: "Antakya'dayım, yaralı var, hangi hastaneye gidelim?" sorusu artık "Öncelikle 112'yi arayın" diye başlıyor ve Sağlık Bakanlığı sitesinden Defne Devlet Hastanesi bilgisini kaynak adresiyle veriyor; eski hat bu soruya "bulamadım" diyordu. Bilinen sorun: 2023 sorusunda web'den gelen 20 Şubat Defne depremi sayıları 6 Şubat'a aitmiş gibi okunabiliyor. Bu değişiklik formdaki "AFAD belgelerine dayanarak" tanımını esnettiği için danışmanla konuşulacak.</p>
     <p><b>Formdaki %85 hedefi:</b> Bugünkü ölçümle kaba hesap, katı tanımla (cevap + tamamen sadık + doğru ret) ~%70, esnek tanımla (cevap + kritik hata yok + doğru ret) ~%83. İkisi de insanla doğrulanmadı; hedefe ulaşıldığını göstermek için kullanıcının yazacağı altın test seti ve en sonda Final Test v2 gerekiyor.</p>
     <p><b>Planlanan genel düzeltmeler:</b> (1) Soru anlama adımı konu dışı soruları işaretlesin ve bunlar reddedilsin. (2) Belirli bir binanın güvenliği hakkında hiçbir zaman güvence verilmesin; uzman değerlendirmesine yönlendirilsin. (3) Parçalara başlık yolundan kurala dayalı durum etiketi (hazırlık / sırasında / sonrası / enkaz) eklensin; doğrulama adımı, sorunun durumuyla çelişen kaynağa dayanan cümleleri silsin. Ardından ölçüm tekrarlanacak.</p>
   </div>

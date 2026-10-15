@@ -7,6 +7,8 @@ deliberately conservative:
   known Turkish suffix chain, so "vanası" never becomes the province Van; a garbled
   chain ("antakyadaydayım") still matches if it starts with a locative/dative case
   ending (-da/-de/-ta/-te/-ya/-ye), the usual way people say where they are;
+- a misspelt long name ("anatakyaEDayım") matches when one edit away from a 6+ letter
+  name, followed by a short ending, and the word is not a known Turkish word;
 - district names that are also common words (Araç, Bodrum, Maden, Kale, Pazar…)
   match only when capitalised, and "Merkez" never matches on its own;
 - a district name shared by several provinces is resolved only if the question
@@ -21,13 +23,22 @@ from dataclasses import dataclass, field
 from functools import lru_cache
 from pathlib import Path
 
-from .query_normalization import is_suffix_chain, turkish_lower
+from .query_normalization import (
+    fold_diacritics,
+    has_known_stem,
+    is_suffix_chain,
+    load_query_vocab,
+    osa_distance,
+    turkish_lower,
+)
 
 
 GAZETTEER_FILE = Path("data/geo/turkiye_il_ilce.json")
 IRAP_MAP_FILE = Path("data/geo/irap_province_map.json")
 MIN_GLUED_NAME_LENGTH = 5
 NEVER_ALONE = {"merkez"}
+FUZZY_MIN_NAME_LENGTH = 6
+FUZZY_MAX_TAIL = 7
 CASE_START_RE = re.compile(r"^(?:[dt][ae]|y[ae])")  # Antakya-da..., Hatay-da..., Adana-ya...
 WORD_RE = re.compile(r"[A-Za-zÇĞİÖŞÜÂÎÛçğıöşüâîû]+(?:['’][A-Za-zÇĞİÖŞÜçğıöşü]+)?")
 
@@ -97,11 +108,53 @@ def match_token(token: str, gazetteer: Gazetteer) -> tuple[str, tuple[str, str |
                 if candidate is not None and CASE_START_RE.match(lowered[cut:]):
                     lowered, entry = lowered[:cut], candidate
                     break
+    if entry is None and not has_apostrophe:
+        fuzzy = fuzzy_name(lowered, gazetteer)
+        if fuzzy is not None:
+            lowered, entry = fuzzy, gazetteer.names[fuzzy]
     if entry is None:
         return None
     if lowered in gazetteer.common_words and not stem[:1].isupper():
         return None
     return lowered, entry
+
+
+_FUZZY_CACHE: dict[int, tuple[tuple[str, str], ...]] = {}
+
+
+def fuzzy_candidates(gazetteer: Gazetteer) -> tuple[tuple[str, str], ...]:
+    """(name, diacritics-folded name) for long, non-common-word place names; built once per gazetteer."""
+    if id(gazetteer) not in _FUZZY_CACHE:
+        _FUZZY_CACHE[id(gazetteer)] = tuple(
+            (name, fold_diacritics(name)) for name in gazetteer.names
+            if len(name) >= FUZZY_MIN_NAME_LENGTH and name not in gazetteer.common_words and " " not in name)
+    return _FUZZY_CACHE[id(gazetteer)]
+
+
+def fuzzy_name(word: str, gazetteer: Gazetteer) -> str | None:
+    """A misspelt place name: the one name one edit away from a prefix of an unknown word."""
+    if len(word) < FUZZY_MIN_NAME_LENGTH:
+        return None
+    folded_word = fold_diacritics(word)
+    for name, folded_name in fuzzy_candidates(gazetteer):  # typed without Turkish letters: "samandagda"
+        tail = folded_word[len(folded_name):]
+        if folded_word.startswith(folded_name) and (not tail or CASE_START_RE.match(tail) or is_suffix_chain(tail)):
+            return name
+    vocab = load_query_vocab()
+    if word in vocab.words or has_known_stem(word, vocab):
+        return None
+    folded = fold_diacritics(word)
+    found: set[str] = set()
+    for cut in range(len(word), FUZZY_MIN_NAME_LENGTH - 2, -1):
+        if len(word) - cut > FUZZY_MAX_TAIL:
+            break
+        prefix = folded[:cut]
+        for name, folded_name in fuzzy_candidates(gazetteer):
+            if abs(len(name) - cut) <= 1 and osa_distance(prefix, folded_name, 1) <= 1:
+                found.add(name)
+        if found:
+            break
+    return found.pop() if len(found) == 1 else None
 
 
 def detect_location(question: str, gazetteer: Gazetteer | None = None) -> Location | None:

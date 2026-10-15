@@ -1,0 +1,39 @@
+import unittest
+
+from src.rag.pipeline_v3 import IN_SCOPE_RE, needs_web, render, verify_sentences
+from src.rag.query_normalization import turkish_lower
+
+PASSAGES = [{"text": "İlk 72 Saat › Deprem Sırasında\nDeprem sırasında asansör ve merdiven kullanmayın."}]
+
+
+class ScopeAndWebDecisionTest(unittest.TestCase):
+    def test_earthquake_words_are_always_in_scope(self):
+        for question in ["Binam depremde yıkılır mı?", "Binanın güvenli olup olmadığına karar verebilir miyim?",
+                         "Büyük deprem ne zaman olacak?", "enkaz altındayım"]:
+            self.assertTrue(IN_SCOPE_RE.search(turkish_lower(question)), question)
+        self.assertIsNone(IN_SCOPE_RE.search(turkish_lower("Python'da liste nasıl sıralanır?")))
+
+    def test_web_only_when_needed(self):
+        afad = [{"text": "a", "sources": [1]}]
+        self.assertFalse(needs_web("deprem sırasında asansör kullanılır mı", afad))
+        self.assertTrue(needs_web("6 şubat 2023 depreminde hatayda ne oldu", afad))
+        self.assertTrue(needs_web("deprem çantası", [{"text": "a", "sources": []}]))
+
+
+class VerifyAndRenderTest(unittest.TestCase):
+    def test_unverified_quote_becomes_general_knowledge(self):
+        payload = {"sentences": [
+            {"text": "Asansör kullanmayın.", "basis": "afad",
+             "quotes": [{"source": 1, "quote": "Deprem sırasında asansör ve merdiven kullanmayın."}]},
+            {"text": "Pencerelerden uzak durun.", "basis": "afad",
+             "quotes": [{"source": 1, "quote": "Pencerelerden ve camlardan uzak durun."}]},
+        ]}
+        sentences = verify_sentences(payload, PASSAGES)
+        self.assertEqual([s["sources"] for s in sentences], [[1], []])
+        answer = render(sentences)
+        self.assertIn("Asansör kullanmayın. [Kaynak 1]", answer)
+        self.assertIn("Pencerelerden uzak durun. (genel bilgi)", answer)
+
+
+if __name__ == "__main__":
+    unittest.main()

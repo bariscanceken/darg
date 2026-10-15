@@ -30,6 +30,7 @@ from .answerability import REFUSAL_ANSWER, extract_response_text
 from .evidence import locate_quote
 from .hybrid_retrieval import lexical_rows
 from .llm_query_repair import is_spelling_only
+from .local_info import scope_label
 from .location import Location
 from .regional_retrieval import candidate_from_row, index_vectors, irap_province_map, regional_rows
 from .source_routing import QUESTION_TYPES, RoutingPolicy, policy_for, source_type
@@ -246,7 +247,8 @@ def card_passages(local_info: dict[str, Any] | None) -> list[dict[str, Any]]:
         passages.append({"text": f"AFAD toplanma alanı broşürü\n{line['text']}", "source_file": line["source_file"],
                          "page_start": line["page"], "page_end": line["page"], "chunk_id": "il_karti:brosur"})
     for line in local_info.get("lines", []):
-        passages.append({"text": f"{local_info['plan_label']} (doğrulanmış il kartı)\n{line['text']}",
+        passages.append({"text": f"{local_info['plan_label']}{scope_label(local_info, line)} (doğrulanmış il kartı)\n"
+                                 f"{line['text']}",
                          "source_file": local_info["source_file"], "page_start": line["page"], "page_end": line["page"],
                          "chunk_id": f"il_karti:{local_info['province']}"})
     return passages
