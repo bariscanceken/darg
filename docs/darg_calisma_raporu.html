@@ -1,0 +1,253 @@
+<title>DARG Çalışma Raporu</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Source+Sans+3:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: single reading column (~70ch) with full-width tables; a thin seismograph trace as the only ornament. */
+:root {
+  --bg: #f6f7f8;
+  --surface: #ffffff;
+  --fg: #1b2228;
+  --muted: #5b6670;
+  --rule: #d9dee3;
+  --accent: #1f6f78;      /* deep teal */
+  --accent-soft: #e2f0f1;
+  --good: #2e7d4f;
+  --warn: #a8641a;
+  --bad: #b3363a;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", Consolas, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161a; --surface: #182026; --fg: #e4e9ed; --muted: #9aa6b0; --rule: #2b353d;
+    --accent: #5fb7bf; --accent-soft: #183236; --good: #6cc391; --warn: #e0a35a; --bad: #ec7a7e;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161a; --surface: #182026; --fg: #e4e9ed; --muted: #9aa6b0; --rule: #2b353d;
+  --accent: #5fb7bf; --accent-soft: #183236; --good: #6cc391; --warn: #e0a35a; --bad: #ec7a7e;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 17px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 32px 64px;
+}
+main { max-width: 860px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+.prose { max-width: 70ch; }
+header { display: flex; flex-direction: column; gap: 12px; }
+.eyebrow { font-family: var(--font-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--font-display); font-weight: 650; font-size: clamp(30px, 5vw, 44px); line-height: 1.12; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-weight: 600; font-size: 26px; line-height: 1.2; margin: 0 0 12px; text-wrap: balance; }
+h3 { font-size: 18px; font-weight: 700; margin: 18px 0 6px; }
+p { margin: 0 0 12px; }
+.lede { font-size: 19px; color: var(--muted); max-width: 64ch; }
+.meta { font-size: 14px; color: var(--muted); }
+.trace { width: 100%; height: 36px; color: var(--accent); }
+section { display: flex; flex-direction: column; }
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 4px; }
+code, .mono { font-family: var(--font-mono); font-size: .86em; }
+code { background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; background: var(--bg); }
+tr:last-child td { border-bottom: none; }
+td.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.kpi { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.kpi b { font-family: var(--font-mono); font-size: 24px; font-variant-numeric: tabular-nums; }
+.kpi span { font-size: 14px; color: var(--muted); }
+.note { border-left: 3px solid var(--warn); background: var(--surface); padding: 12px 16px; border-radius: 0 8px 8px 0; font-size: 15px; }
+.pill { display: inline-block; font-size: 12px; font-weight: 700; padding: 1px 8px; border-radius: 999px; white-space: nowrap; }
+.pill.done { background: color-mix(in srgb, var(--good) 15%, transparent); color: var(--good); }
+.pill.wip { background: color-mix(in srgb, var(--warn) 18%, transparent); color: var(--warn); }
+.pill.todo { background: color-mix(in srgb, var(--muted) 18%, transparent); color: var(--muted); }
+.pill.no { background: color-mix(in srgb, var(--bad) 15%, transparent); color: var(--bad); }
+.timeline { display: flex; flex-direction: column; gap: 0; border-left: 2px solid var(--rule); margin-left: 6px; }
+.tl { position: relative; padding: 0 0 18px 20px; }
+.tl::before { content: ""; position: absolute; left: -7px; top: 7px; width: 12px; height: 12px; border-radius: 50%; background: var(--surface); border: 2px solid var(--accent); }
+.tl .date { font-family: var(--font-mono); font-size: 13px; color: var(--accent); }
+.tl p { margin: 2px 0 0; }
+footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 16px; }
+@media (max-width: 520px) { body { font-size: 16px; } th, td { padding: 8px; } }
+</style>
+
+<main>
+<header>
+  <div class="eyebrow">TÜBİTAK 2209-A · KTÜ · Proje çalışma raporu</div>
+  <h1>DARG: Claude ile yürütülen geliştirme çalışmaları</h1>
+  <p class="lede">AFAD belgelerine dayanarak Türkçe deprem sorularını cevaplayan RAG sisteminin Eylül–Ekim 2026 arasında Claude Code ile birlikte nasıl geliştirildiği, neyin ölçüldüğü, neyin işe yaramadığı ve sistemin bugün nerede durduğu.</p>
+  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 15 Ekim 2026</p>
+  <svg class="trace" viewBox="0 0 860 36" preserveAspectRatio="none" aria-hidden="true">
+    <polyline fill="none" stroke="currentColor" stroke-width="1.5" points="0,18 120,18 140,17 150,19 160,18 300,18 310,12 318,26 326,6 334,30 342,10 350,24 358,16 366,20 380,18 520,18 530,15 538,22 546,17 560,18 860,18"/>
+  </svg>
+</header>
+
+<section>
+  <h2>Kısaca</h2>
+  <div class="prose">
+    <p>Sistemin ana ölçütü başvuru formunda <b>cevap doğruluğu ≥ %85</b> olarak tanımlı. Çalışmalar boyunca her değişiklik ölçülerek benimsendi; ölçülmeyen hiçbir özellik varsayılan yapılmadı. En büyük kazanımlar, sistemin cevap üretme biçiminden çok <b>verinin nasıl işlendiğinden</b> geldi: bozuk Türkçe karakterler, modelin göremediği uzun parçalar, düzleşmiş tablolar ve hiç okunmamış görsel PDF'ler.</p>
+    <p>15 Ekim itibarıyla eski "yedi adımlı" cevap zinciri yerine üç adımlı yeni bir mimari yazıldı ve ilk denemesi yapılıyor. Güvenilir bir cevap kalitesi ölçümü hâlâ eksik; bunun için kullanıcının yazacağı bir "altın test seti" planlandı.</p>
+  </div>
+  <div class="kpis">
+    <div class="kpi"><b>131</b><span>AFAD PDF'i (16.844 sayfa)</span></div>
+    <div class="kpi"><b>40 → 0</b><span>Bölgesel sorularda ilk 5'te yanlış ilin sayfası</span></div>
+    <div class="kpi"><b>%55 → %85</b><span>Kaynağa tamamen sadık cevap (LLM hakemi, insanla doğrulanmadı)</span></div>
+    <div class="kpi"><b>0 / 13</b><span>Cevaplanamaz kontrol sorularında yanlış kabul</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>Zaman çizelgesi</h2>
+  <div class="timeline">
+    <div class="tl"><span class="date">10–21 Eylül 2026</span><p><b>Temel hat.</b> PDF'lerden metin çıkarma, parçalama, E5 gömmeleri ile FAISS araması, cross-encoder ile yeniden sıralama, "cevaplanabilir mi?" kapısı (Gate) ve cevap üretimi. Final Test v1 bu hatla bir kez çalıştırıldı ve donduruldu.</p></div>
+    <div class="tl"><span class="date">5–6 Ekim 2026</span><p><b>Veri kök nedenleri.</b> Yazım hatası düzeltme, "Bunu mu demek istediniz?", bozuk Türkçe karakter onarımı, parça boyutunun modelin penceresine göre yeniden ayarlanması (v4). Ayrıntılı geliştirme raporu yazıldı.</p></div>
+    <div class="tl"><span class="date">14 Ekim 2026</span><p><b>Bölgesel arama ve cevap sadakati.</b> İl adı tespiti, il planına göre arama, kelime tabanlı (BM25) havuz, LLM ile sıralama, kaynak türü yönlendirmesi, "önce kanıt seç" yaklaşımı, il kartları, Hatay pilotu ve tam ölçüm.</p></div>
+    <div class="tl"><span class="date">15 Ekim 2026</span><p><b>Mimari yenileme.</b> Yapı korumalı belge çıkarma, OCR, başlıklı parçalar ve yeni index (v5), üç adımlı yeni cevap hattı.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Bulunan kök nedenler</h2>
+  <p class="prose">Hataların çoğu tek tek sorulardan değil, sistemin genelindeki birkaç nedenden kaynaklanıyordu. Her biri genel bir değişiklikle ele alındı.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Sorun</th><th>Etkisi</th><th>Çözüm</th><th>Sonuç</th></tr></thead>
+    <tbody>
+      <tr><td>5 temel AFAD rehberi bozuk fontla çıkarılmış ("dÈëarÈ" = "dışarı")</td><td>En önemli vatandaş rehberleri aranamıyordu</td><td>Belge bazında otomatik karakter onarımı</td><td>Rehber metinleri okunur hâle geldi</td></tr>
+      <tr><td>Parçaların %91'i modelin 512 token'lık penceresini aşıyordu</td><td>Metnin ~%34'ü hiç görülmüyordu</td><td>Parçaları model token'ıyla ölçüp ≤350 tokene indirme (v4)</td><td class="num">Hit@5 20 → 26 / 30</td></tr>
+      <tr><td>Bölgesel sorularda başka illerin planları geliyordu</td><td>"Hatay'da…" sorusuna başka ilin bilgisi</td><td>İl/ilçe tespiti, ilin kendi planından ek havuz, diğer illerin planlarını çıkarma</td><td class="num">Yanlış il 40 → 0</td></tr>
+      <tr><td>Sistem kaynak türünü bilmiyordu (korpusun %66'sı kurum planı, %3,6'sı vatandaş rehberi)</td><td>"Ne yapmalıyım" sorularına plan ve rapor cümleleri</td><td>Belgeleri türle etiketleme, soru tipine göre yönlendirme</td><td>Kör karşılaştırmada 12 sorunun 5'inde daha iyi, 1'inde daha kötü</td></tr>
+      <tr><td>Uzun karar zinciri: her LLM adımı cevabı düşürebiliyordu</td><td>Asansör sorusu 4 denemenin 1'inde reddediliyordu</td><td>Gate kaldırıldı; reddetme kararını kaynakta alıntı arayan kanıt seçimi veriyor; cevabı gpt-4o yazıyor</td><td class="num">Sadık %55 → %85</td></tr>
+      <tr><td>İl planlarındaki tablolar düzleşmiş ("İlçe Altınözü Antakya … Sayı 28 133")</td><td>"Antakya'da kaç toplanma alanı var?" cevaplanamıyordu</td><td>Doğrulanmış il kartları; sonra yapı korumalı tablo çıkarma</td><td>"Antakya: 133" ana cevapta</td></tr>
+      <tr><td>10 PDF görsel/taranmış olduğu için hiç index'e girmemişti</td><td>AFAD'ın ana "İlk 72 Saat" rehberleri sistemde yoktu</td><td>OCR (görüntüden metin okuma), gpt-4o ile</td><td>Kısmen yapıldı (bütçe)</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>Ölçümler</h2>
+  <div class="prose">
+    <p>Ölçümler üç tür soru setiyle yapıldı: 20 soruluk geliştirme seti, 30 soruluk holdout seti, 24 bölgesel soru (toplam 74 cevaplanabilir soru) ve cevabı kaynaklarda olmayan 13 kontrol sorusu. Hatay için ayrıca 20 soruluk bir pilot seti yazıldı.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ayar (14 Ekim, 74 + 13 soru)</th><th>Cevaplanan</th><th>Yanlış kabul</th><th>Tamamen sadık</th><th>Kritik sorunlu</th></tr></thead>
+    <tbody>
+      <tr><td>Eski hat</td><td class="num">54 / 74</td><td class="num">0 / 13</td><td class="num">%46</td><td class="num">%19</td></tr>
+      <tr><td>Kaynak yönlendirmesi + kanıt seçimi (Gate açık, gpt-4o-mini)</td><td class="num">56 / 74</td><td class="num">0 / 13</td><td class="num">%55</td><td class="num">%16</td></tr>
+      <tr><td><b>Gate'siz + cevabı gpt-4o yazar (benimsendi)</b></td><td class="num">53 / 74</td><td class="num">0 / 13</td><td class="num"><b>%85</b></td><td class="num"><b>%2</b></td></tr>
+    </tbody>
+  </table></div>
+  <div class="note prose">
+    <b>Bu sayılar nasıl okunmalı?</b> Arama kalitesini ölçen LLM hakemi insanla doğrulandı (%91,9 uyum, κ = 0,80). Cevap sadakatini ölçen hakem ise kullanıcıyla uyuşmadı (12 maddede 6 uyum, κ = −0,13): hakem "kaynakta var mı" diye, kullanıcı "kullanıcı için doğru ve uygun mu" diye bakıyor. Bu yüzden sadakat yüzdeleri <b>yön gösterir, kanıt değildir</b>. Hatay pilotu ve bazı yan yana karşılaştırmalar da insan değil Claude tarafından değerlendirildi. Holdout seti birçok kararda kullanıldığı için artık geliştirme seti sayılıyor; bağımsız ölçüm Final Test v2'de yapılacak.
+  </div>
+</section>
+
+<section>
+  <h2>Denenip benimsenmeyenler</h2>
+  <p class="prose">Tezde olumsuz sonuç olarak raporlanacak denemeler:</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Deneme</th><th>Neden benimsenmedi</th></tr></thead>
+    <tbody>
+      <tr><td>Gate prompt v2</td><td>Ayrılmış testte v1'den kötü</td></tr>
+      <tr><td>bge-reranker-v2-m3</td><td>9 kat yavaş, anlamlı kazanç yok</td></tr>
+      <tr><td>Skor birleştirme, eski BM25 (v2)</td><td>Kazanç yok</td></tr>
+      <tr><td>Bölgesel yer ayırma, belge başına çeşitlilik sınırı</td><td>Etkisiz ya da bölgesel doğruluğu düşürdü</td></tr>
+      <tr><td>Gate için 3 oylu çoğunluk</td><td>Cevap oranı aynı (54/74), fark gürültü düzeyinde</td></tr>
+      <tr><td>Tüm bağlamdan gpt-4o ile cevap</td><td>Soruların %70'ini reddetti (kanıttan yazımda ise benimsendi)</td></tr>
+      <tr><td>OCR için gpt-4o-mini</td><td>Ucuz değil (görüntüyü çok token sayıyor) ve metin uydurdu</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>Mimari yenileme (15 Ekim)</h2>
+  <div class="prose">
+    <p>14 Ekim'deki teşhiste reddedilen 21 sorunun yaklaşık 15'inde doğru kanıt bulunmuş, ama zincirin sonraki bir adımı cevabı yine de düşürmüştü. Kullanıcının isteğiyle tek tek sorulara yama yapmak yerine mimarinin kendisi ele alındı. Tespit edilen altı sorun:</p>
+    <ol>
+      <li>Yedi LLM adımlı kırılgan karar zinciri</li>
+      <li>Başlıklarını ve tablolarını kaybetmiş parçalar</li>
+      <li>Dar arama: tek sorgu, model yalnızca 5 parça görüyor</li>
+      <li>Korpus dengesizliği ve eksik veri (araçta/köprüde tavsiye, 2023 depremi, toplanma alanı adresleri yok)</li>
+      <li>Güvenilir bir cevap kalitesi ölçümünün olmaması</li>
+      <li>Karmaşıklık (15'ten fazla ayar bayrağı)</li>
+    </ol>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Aşama</th><th>Ne yapıldı</th><th>Durum</th></tr></thead>
+    <tbody>
+      <tr><td>1. Belge işleme</td><td>Yazı boyutundan başlık seviyesi; tablolar "başlık: değer" satırları; 131 belge, 10.507 başlık, 10.110 tablo; her parçanın başında "Belge › Bölüm › Alt bölüm"; 30.918 parçalık yeni index (v5)</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>OCR</td><td>1.015 metinsiz sayfa bulundu; 66'sı okundu (~0,22 $). Kalan rehber sayfaları ~95.</td><td><span class="pill wip">Bütçe bekliyor</span></td></tr>
+      <tr><td>2. Rehber kartları</td><td>Rehber tavsiyelerini durum × ortam etiketli, doğrulanmış bir tabloya çevirmek</td><td><span class="pill todo">Planlandı</span></td></tr>
+      <tr><td>3. Yeni hat</td><td>Soru anlama (tek çağrı, 3 arama sorgusu) → geniş arama (ilk 12 parça) → her cümlesi kaynak alıntılı cevap; alıntılar kodla doğrulanır, doğrulanamayan cümle silinir</td><td><span class="pill wip">Deneniyor</span></td></tr>
+      <tr><td>4. Ölçüm</td><td>Eski ve yeni hat karşılaştırması; altın test seti</td><td><span class="pill todo">Sırada</span></td></tr>
+    </tbody>
+  </table></div>
+  <div id="v2-results" class="prose">
+    <h3>Yeni hattın ilk denemesi (15 Ekim)</h3>
+    <p>Yeni hat iki sette denendi. Değerlendirme Claude'a ait; insan kontrolü yapılmadı.</p>
+    <ul>
+      <li><b>Eski hattın reddettiği 21 soru:</b> 20'si kaynaklı olarak cevaplandı. Örnekler: "Deprem sırasında araç kullanıyorsam ne yapmalıyım?" → "enerji hatları, köprü ve viyadüklerden uzak bir yerde aracınızı yolun sağına çekip motoru kapatın"; "Gaz kaçağından şüpheleniyorsam ışıkları açabilir miyim?" → "ışıkları kapalıysa açmayın"; "Eşya almak için binaya geri girebilir miyim?" → "Tehlikenin geçtiği bilgisi gelene kadar binaya tekrar hiçbir nedenle girmeyin". Reddedilen tek soru (Osmaniye barınma alanları) için korpusta il planı yok.</li>
+      <li><b>Hatay pilotu (20 soru):</b> 18'i cevaplandı. Toplanma alanı sayısı, fay hatları, riskli ilçeler, sıvılaşma, tarihsel depremler (245, 526, 1822, 1872) kaynaklı geldi. Reddedilenler: Defne'deki toplanma alanı yeri ve Reyhanlı'da hangi hastaneye gidileceği.</li>
+      <li><b>Önemli bulgu:</b> Daha önce "korpusta yok" sanılan araç tavsiyesi, OCR ile okunan bir rehber sayfasından (İlk 72 Saat, s. 32) geldi. Görsel sayfaların okunması doğrudan cevap kapsamını artırıyor.</li>
+      <li><b>Görülen zayıflıklar:</b> 2023 depremi sorusunda Türkiye geneli bir ifade Hatay'a atfedilir gibi yazıldı; barınma alanları listesi eksik kaldı (8 alanın 3'ü).</li>
+    </ul>
+    <h3 id="full-eval">Tam ölçüm: eski hat ve yeni hat (74 + 13 soru)</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Hat</th><th>Cevaplanan</th><th>Yanlış kabul</th><th>Tamamen sadık</th><th>Kritik sorunlu</th></tr></thead>
+      <tbody>
+        <tr><td>Eski hat (Gate'siz + gpt-4o, şu anki varsayılan)</td><td class="num">53 / 74</td><td class="num">0 / 13</td><td class="num">%85</td><td class="num">%2</td></tr>
+        <tr><td>Yeni hat (v2)</td><td class="num"><b>69 / 74</b></td><td class="num"><b>7 / 13</b></td><td class="num">%75</td><td class="num">%10</td></tr>
+      </tbody>
+    </table></div>
+    <p>Yeni hat çok daha fazla soruya cevap veriyor (%72 → %93), ama iki yeni sorun getirdi, bu yüzden <b>henüz varsayılan yapılmadı</b>:</p>
+    <ul>
+      <li><b>Yanlış kabul 0 → 7/13.</b> Bunların 3'ü aslında doğru ve kaynaklı cevaplar ("Büyük deprem ne zaman gelecek?" → "gün ve saat olarak bilinemez"); kontrol seti bu sorular için ret bekliyordu. Gerçek sorunlar 4 tane: konu dışı bir soru ("İstanbul'dan Ankara'ya en hızlı nasıl giderim?") cevaplandı ve kişinin kendi binası hakkındaki 3 soruda güvence veren cümleler kuruldu ("binaya güvenebilirsiniz").</li>
+      <li><b>Durum karışması:</b> 7 kritik cevabın 5'inde deprem <i>sonrası</i> için yazılmış tavsiye deprem <i>sırasında</i> gibi sunuldu (örnek: "deprem sırasında açık alandaysanız toplanma alanına gidin").</li>
+    </ul>
+    <p><b>Planlanan genel düzeltmeler:</b> (1) Soru anlama adımı konu dışı soruları işaretlesin ve bunlar reddedilsin. (2) Belirli bir binanın güvenliği hakkında hiçbir zaman güvence verilmesin; uzman değerlendirmesine yönlendirilsin. (3) Parçalara başlık yolundan kurala dayalı durum etiketi (hazırlık / sırasında / sonrası / enkaz) eklensin; doğrulama adımı, sorunun durumuyla çelişen kaynağa dayanan cümleleri silsin. Ardından ölçüm tekrarlanacak.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Çalışma kuralları</h2>
+  <ul class="prose">
+    <li><b>Final Test v1'e dokunulmaz:</b> sonuç dosyaları okunmaz, test yeniden çalıştırılmaz.</li>
+    <li><b>Final Test v2'yi Claude açmaz:</b> soruları kullanıcı yazar, sistem tamamlanınca bir kez çalıştırılır.</li>
+    <li><b>Ölçmeden benimseme yok:</b> yeni davranışlar önce yalnızca komut satırında, ölçüldükten sonra varsayılan olur.</li>
+    <li><b>Soruya özel yama yok:</b> her düzeltme sistemin geneline uygulanır.</li>
+    <li><b>Maliyet önceden söylenir;</b> API anahtarı koda yazılmaz.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Maliyet</h2>
+  <div class="prose">
+    <p>Geliştirme boyunca OpenAI API kullanıldı (soru anlama ve yardımcı adımlar için gpt-4o-mini; cevap yazımı, OCR, il kartları ve hakem için gpt-4o). Son iki gündeki ölçüm, pilot ve kart üretimi işleri birkaç dolar düzeyinde kaldı. Sistemi kullanırken soru başına maliyet yaklaşık 0,015 $.</p>
+    <p>Kalan işler için tahmin: yeni hattın doğrulanması ve tam karşılaştırma ~3 $, kalan rehber OCR'ı ~0,5–0,9 $, altın setle ölçüm her çalıştırmada ~1–1,5 $, Final Test v2 ~2 $. En az ~6–8 $, rahat bir çalışma için ~12–15 $.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Açık sorunlar ve sıradaki adımlar</h2>
+  <ol class="prose">
+    <li>Yeni hattın tam ölçümü (74 + 13 soru) ve eski hatla karşılaştırma.</li>
+    <li>Kullanıcının yazacağı 30–50 soruluk altın test seti: güvenilir cevap ölçümü için şart.</li>
+    <li>Kapsama (Faz 2): araçta/köprüde tavsiye, 2023 depremleri, toplanma alanı adresleri korpusta yok; yeni belge gerekiyor.</li>
+    <li>Kalan rehber sayfalarının OCR'ı, rehber kartları, 80 il için il kartı.</li>
+    <li>Web araması ve ajan yapısı (Faz 5; başvuru formunda söz verildi, ertelenmesi danışmanla konuşulacak).</li>
+    <li>Kurulum, API ve README (Faz 6); en son Final Test v2 (Faz 7, bir kez).</li>
+  </ol>
+</section>
+
+<footer>
+  Bu rapor, proje deposundaki notlar (CLAUDE.md), commit geçmişi ve ölçüm dosyaları (data/evaluation/) esas alınarak Claude tarafından hazırlandı. 6 Ekim'e kadarki işlerin ayrıntısı için: docs/DARG_gelistirme_raporu_2026-10-06.pdf.
+</footer>
+</main>
