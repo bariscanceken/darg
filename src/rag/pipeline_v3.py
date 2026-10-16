@@ -41,6 +41,8 @@ from .source_routing import policy_for
 ANSWER_MODEL = "gpt-4o"
 PASSAGES = 8
 ANSWER_MAX_OUTPUT_TOKENS = 900
+NO_ANSWER = ("Bu soruya şu anda güvenilir bir cevap üretemedim. Acil bir durumdaysanız hemen 112 Acil Çağrı "
+             "Merkezi'ni arayın; sorunuzu biraz farklı yazarak tekrar deneyebilirsiniz.")
 OFF_TOPIC_ANSWER = ("DARG deprem ve afetlerle ilgili soruları cevaplıyor; bu soru bu kapsamın dışında görünüyor. "
                     "Depremle ilgili bir sorunuz varsa yardımcı olabilirim.")
 
@@ -60,7 +62,8 @@ Yalnızca JSON döndür: {"in_scope": true} ya da {"in_scope": false}"""
 # Words that always mean "about earthquakes / disasters"; the model is not asked for these questions.
 IN_SCOPE_RE = re.compile(r"deprem|afet|enkaz|artçı|artci|sarsıntı|sarsinti|tsunami|toplanma alan|barınma|fay\b|"
                          r"fay hat|afad|tahliye|yıkıl|yikil|hasar|çök-kapan|cok-kapan|112|binam|binanın|binanin|bina güven|"
-                         r"depreme dayan")
+                         r"depreme dayan|yaralı|yarali|kanama|kırık|kirik|kırığ|kirig|bayıl|bayil|ilk ?yardım|ilk ?yardim|"
+                         r"kurtarma")
 
 ANSWER_PROMPT = """Sen DARG'sın: Türkiye'deki vatandaşlara deprem konusunda yardım eden bir asistan.
 Soruyu bilgili, sakin ve yardımcı bir uzman gibi, doğrudan cevapla.
@@ -177,8 +180,8 @@ GENERAL_LEGEND = "(genel bilgi) = AFAD kaynaklarında doğrulanmamış, genel bi
 
 def render(sentences: list[dict[str, Any]]) -> str:
     """Sentences in the model's order (so "call 112" can come first); each shows its basis inline."""
-    if not sentences:
-        return OFF_TOPIC_ANSWER
+    if not sentences:  # in-scope question but no usable answer (e.g. unparsable model output): never "off topic"
+        return NO_ANSWER
     lines = [f"{s['text']} " + ("".join(f"[Kaynak {n}]" for n in s["sources"]) if s["sources"] else GENERAL_MARK)
              for s in sentences]
     if any(not s["sources"] for s in sentences):

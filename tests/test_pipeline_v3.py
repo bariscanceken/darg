@@ -12,6 +12,14 @@ class ScopeAndWebDecisionTest(unittest.TestCase):
                          "Büyük deprem ne zaman olacak?", "enkaz altındayım"]:
             self.assertTrue(IN_SCOPE_RE.search(turkish_lower(question)), question)
         self.assertIsNone(IN_SCOPE_RE.search(turkish_lower("Python'da liste nasıl sıralanır?")))
+        for question in ["kırığı olduğunu düşündüğüm birini taşımalı mıyım", "kanaması olan yaralıya ne yapmalıyım"]:
+            self.assertTrue(IN_SCOPE_RE.search(turkish_lower(question)), question)
+
+    def test_empty_answer_is_not_called_off_topic(self):
+        from src.rag.pipeline_v3 import NO_ANSWER, OFF_TOPIC_ANSWER
+        self.assertEqual(render([]), NO_ANSWER)
+        self.assertNotEqual(render([]), OFF_TOPIC_ANSWER)
+        self.assertIn("112", NO_ANSWER)
 
     def test_web_only_when_needed(self):
         afad = [{"text": "a", "sources": [1]}]

@@ -1,0 +1,175 @@
+{
+ "grader": "Claude (uzman onayı önerilir)",
+ "date": "2026-10-16",
+ "questions_source": "Sorular Claude taslağı; kullanıcı inceleyip onayladı; sistem çıktıları görülmeden yazıldı",
+ "grades": {
+  "F01": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F02": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F03": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F04": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F05": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F06": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F07": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F08": {
+   "puan": "kismi",
+   "not": "Araçtayken Çök-Kapan-Tutun önerdi; doğrusu kenara çekip araçta kalmak"
+  },
+  "F09": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F10": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F11": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F12": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F13": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F14": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F15": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F16": {
+   "puan": "yanlis",
+   "not": "Acil soru 'kapsam dışı' cevabı aldı: model boş cevap döndürdüğünde render() kapsam dışı mesajı gösteriyor (kod hatası)"
+  },
+  "F17": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F18": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F19": {
+   "puan": "yanlis",
+   "not": "Konu kontrolü 'deprem' kelimesi olmayan ilk yardım sorusunu kapsam dışı saydı"
+  },
+  "F20": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F21": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F22": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F23": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F24": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F25": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F26": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F27": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F28": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F29": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F30": {
+   "puan": "kismi",
+   "not": "Yalnız 1795 ve 2023 örnekleri; il planındaki tarihsel liste verilmedi"
+  },
+  "F31": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F32": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F33": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F34": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F35": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F36": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F37": {
+   "puan": "yanlis",
+   "not": "Web'den eski resmî rakam (46.104); güncel ~50.783"
+  },
+  "F38": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F39": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F40": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F41": {
+   "puan": "dogru",
+   "not": ""
+  },
+  "F42": {
+   "puan": "dogru",
+   "not": ""
+  }
+ }
+}

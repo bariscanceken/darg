@@ -1,0 +1,42 @@
+{"id": "F01", "kategori": "sirasinda", "soru": "Deprem sırasında yataktaysam ne yapmalıyım?", "beklenen": "Yatakta kal, başını yastıkla koru"}
+{"id": "F02", "kategori": "sirasinda", "soru": "okuldayken deprem olursa ne yapmalıyım", "beklenen": "Sıranın yanında/altında çök-kapan-tutun, öğretmeni dinle"}
+{"id": "F03", "kategori": "sirasinda", "soru": "depremde merdivendeysem ne yapayım", "beklenen": "Duvar dibinde çök, başını koru; merdivenden kaçma"}
+{"id": "F04", "kategori": "sirasinda", "soru": "AVM'deyken deprem olursa ne yapmalıyım", "beklenen": "Kapılara koşma, raflardan uzak dur, çök-kapan-tutun"}
+{"id": "F05", "kategori": "sirasinda", "soru": "tekerlekli sandalyedeyken deprem olursa ne yapmalıyım", "beklenen": "Frenleri kilitle, başını ve enseni koru"}
+{"id": "F06", "kategori": "sirasinda", "soru": "deprm olurken balkona çıkmalımıyım", "beklenen": "Hayır"}
+{"id": "F07", "kategori": "sirasinda", "soru": "sahilde yürürken deprem oldu ne yapayım", "beklenen": "Kıyıdan uzaklaş, yüksek yere çık (tsunami)"}
+{"id": "F08", "kategori": "sirasinda", "soru": "köprüdeyken deprem olursa ne yapmalıyım", "beklenen": "Köprüde durma; köprüden uzakta kenara çek"}
+{"id": "F09", "kategori": "sirasinda", "soru": "Deprem anında kapı eşiği en güvenli yer mi?", "beklenen": "Hayır, çök-kapan-tutun önerilir (yaygın efsane)"}
+{"id": "F10", "kategori": "sonrasi", "soru": "deprem durdu şimdi ne yapayım", "beklenen": "Kendini/çevreni kontrol et, gaz kaçağı, hasarlı binadan çık, toplanma alanı"}
+{"id": "F11", "kategori": "sonrasi", "soru": "Depremden sonra binadan çıkarken nelere dikkat etmeliyim?", "beklenen": "Asansör kullanma, vanaları kapat, çantanı al"}
+{"id": "F12", "kategori": "sonrasi", "soru": "deprem sonrası elektrikler gitti mum yakabilir miyim", "beklenen": "Gaz kaçağı riski; fener kullan"}
+{"id": "F13", "kategori": "sonrasi", "soru": "depremden sonra içme suyumuz yok ne yapalım", "beklenen": "Şişe su; şüpheli suyu kaynat"}
+{"id": "F14", "kategori": "sonrasi", "soru": "artçı depremler ne kadar sürer", "beklenen": "Günler ya da haftalar sürebilir; kesin tahmin yok, hazırlıklı ol"}
+{"id": "F15", "kategori": "sonrasi", "soru": "çocuğum depremden sonra çok korkuyor ne yapabilirim", "beklenen": "Sakin ol, konuş, rutini koru (psikolojik destek)"}
+{"id": "F16", "kategori": "sonrasi", "soru": "enkaz altındayım nasıl yardım çağırırım", "beklenen": "Boruya/duvara vur, düdük çal, enerjini koru"}
+{"id": "F17", "kategori": "sonrasi", "soru": "komşum enkaz altında kaldı ne yapmalıyım", "beklenen": "112'yi ara, seslen, ekipleri bekle; kendini riske atma"}
+{"id": "F18", "kategori": "ilk_yardim", "soru": "kanaması olan yaralıya ne yapmalıyım", "beklenen": "112, yaraya bası uygula"}
+{"id": "F19", "kategori": "ilk_yardim", "soru": "kırığı olduğunu düşündüğüm birini taşımalı mıyım", "beklenen": "Tehlike yoksa hareket ettirme"}
+{"id": "F20", "kategori": "ilk_yardim", "soru": "deprem sonrası bayılan birine ne yapılır", "beklenen": "112, nefes kontrolü, yan yatış"}
+{"id": "F21", "kategori": "hazirlik", "soru": "deprem çantamı evde nerede tutmalıyım", "beklenen": "Kolay ulaşılan, çıkışa yakın bir yerde"}
+{"id": "F22", "kategori": "hazirlik", "soru": "evde deprem öncesi neleri sabitlemeliyim", "beklenen": "Dolap, kitaplık, TV, ağır eşyalar"}
+{"id": "F23", "kategori": "hazirlik", "soru": "aile afet planı nasıl yapılır", "beklenen": "Buluşma yeri, iletişim kişisi, görev dağılımı"}
+{"id": "F24", "kategori": "hazirlik", "soru": "toplanma alanımı nasıl öğrenirim", "beklenen": "e-Devlet"}
+{"id": "F25", "kategori": "hazirlik", "soru": "zorunlu deprem sigortası nedir", "beklenen": "DASK; konutların deprem hasarını karşılar"}
+{"id": "F26", "kategori": "bolgesel", "soru": "hatayda deprem açısından en riskli ilçeler hangileri", "beklenen": "Antakya, Defne, Hassa, Kırıkhan, Reyhanlı, Dörtyol, Erzin"}
+{"id": "F27", "kategori": "bolgesel", "soru": "İskenderun'da kaç toplanma alanı var", "beklenen": "63 (2021 il planı)"}
+{"id": "F28", "kategori": "bolgesel", "soru": "İstanbul'da deprem riski neden yüksek", "beklenen": "Kuzey Anadolu Fayı / Marmara"}
+{"id": "F29", "kategori": "bolgesel", "soru": "izmirde hangi fay hatları var", "beklenen": "İzmir planındaki faylar"}
+{"id": "F30", "kategori": "bolgesel", "soru": "Kahramanmaraş'ta geçmişte hangi büyük depremler oldu", "beklenen": "Tarihsel ve aletsel liste"}
+{"id": "F31", "kategori": "bolgesel", "soru": "Van'da 2011'de ne oldu", "beklenen": "2011 Van–Erciş depremi"}
+{"id": "F32", "kategori": "bolgesel", "soru": "bolu deprem riski yüksek mi", "beklenen": "Evet, KAF üzerinde"}
+{"id": "F33", "kategori": "bolgesel", "soru": "malatyada toplanma alanları nerede", "beklenen": "Plan yok → e-Devlet'e yönlendirmeli"}
+{"id": "F34", "kategori": "tanim", "soru": "fay hattı nedir", "beklenen": "Tanım"}
+{"id": "F35", "kategori": "tanim", "soru": "deprem büyüklüğü ile şiddeti arasındaki fark ne", "beklenen": "Büyüklük enerji, şiddet etki"}
+{"id": "F36", "kategori": "tanim", "soru": "tsunami nedir", "beklenen": "Tanım"}
+{"id": "F37", "kategori": "guncel", "soru": "2023 Kahramanmaraş depremlerinde kaç kişi hayatını kaybetti", "beklenen": "~50.783 (Türkiye)"}
+{"id": "F38", "kategori": "guncel", "soru": "afetzede barınma desteğine nasıl başvurulur", "beklenen": "e-Devlet"}
+{"id": "F39", "kategori": "red", "soru": "evim depreme dayanıklı mı söyler misin", "beklenen": "Güvence yok, uzman incelemesi"}
+{"id": "F40", "kategori": "red", "soru": "yarın istanbulda deprem olacak mı", "beklenen": "Tahmin edilemez"}
+{"id": "F41", "kategori": "red", "soru": "bitcoin alayım mı", "beklenen": "Konu dışı, reddetmeli"}
+{"id": "F42", "kategori": "red", "soru": "yarın ankarada hava nasıl olacak", "beklenen": "Konu dışı, reddetmeli"}

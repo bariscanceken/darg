@@ -246,6 +246,32 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
     <p>Örnek: "Antakya'dayım, yaralı var, hangi hastaneye gidelim?" sorusu artık "Öncelikle 112'yi arayın" diye başlıyor ve Sağlık Bakanlığı sitesinden Defne Devlet Hastanesi bilgisini kaynak adresiyle veriyor; eski hat bu soruya "bulamadım" diyordu. Bilinen sorun: 2023 sorusunda web'den gelen 20 Şubat Defne depremi sayıları 6 Şubat'a aitmiş gibi okunabiliyor. Bu değişiklik formdaki "AFAD belgelerine dayanarak" tanımını esnettiği için danışmanla konuşulacak.</p>
     <h3>LangChain / LangGraph ile orkestrasyon</h3>
     <p>Başvuru formunda iş akışı orkestrasyonu için LangChain kullanılacağı belirtilmişti. v3 hattı, LangChain ekosisteminin ajan ve iş akışı kütüphanesi <b>LangGraph</b> ile bir durum grafı olarak yeniden kuruldu: <code>soru anlama → kapsam kontrolü → arama → cevap → (hibrit karar) web araması → cevap → bitiş</code>. Hibrit karar ajanı, grafın "cevap" düğümünden sonraki koşullu geçişidir. Arama, alıntı doğrulama ve il kartları gibi ölçülerek geliştirilmiş bileşenler değiştirilmedi; LangGraph yalnızca adımları yönetiyor. Otomatik testler, grafın önceki düz akışla aynı sonuçları verdiğini doğruluyor.</p>
+    <h3 id="final-test-v2">Final Test v2 (16 Ekim 2026, tek seferlik)</h3>
+    <p><b>Yöntem.</b> 42 soruluk test seti 8 kategoriden oluşturuldu (deprem sırasında, deprem sonrası, ilk yardım, hazırlık, il/bölge, tanım, güncel bilgi, reddedilmesi gereken sorular). Sorular Claude tarafından taslak olarak hazırlandı, proje yürütücüsü tarafından incelenip onaylandı; sistemin bu sorulara verdiği cevaplar soru yazımından önce görülmedi. Sorulara yazım hataları ve yaygın bir efsane ("kapı eşiği en güvenli yer mi?") bilinçli olarak eklendi. Varsayılan sistem (v3, LangGraph, web araması açık) her soruyu bir kez cevapladı; sonuç dosyası oluştuktan sonra test tekrar çalıştırılamaz. Cevaplar Claude tarafından doğru / kısmen doğru / yanlış olarak puanlandı (<code>data/evaluation/final_test_v2_grades.json</code>); formdaki "uzman değerlendirmesi" için puanların bir uzman tarafından kontrol edilmesi önerilir.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Ölçüt</th><th>Sonuç</th><th>Başvuru formundaki hedef</th></tr></thead>
+      <tbody>
+        <tr><td>Doğruluk</td><td class="num"><b>37 / 42 = %88,1</b> (kısmiler yarım puanla %90,5)</td><td class="num">≥ %85 ✓</td></tr>
+        <tr><td>Hata oranı (yanlış cevap)</td><td class="num"><b>3 / 42 = %7,1</b></td><td class="num">&lt; %10 ✓</td></tr>
+        <tr><td>Tehlikeli tavsiye</td><td class="num">0</td><td>—</td></tr>
+        <tr><td>Cevap süresi</td><td class="num">ortanca 10,6 sn · ortalama 11,9 sn · en fazla 29,3 sn</td><td>—</td></tr>
+        <tr><td>Web araması kullanılan soru</td><td class="num">11 / 42</td><td>—</td></tr>
+      </tbody>
+    </table></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Kategori</th><th>Doğru</th><th>Not</th></tr></thead>
+      <tbody>
+        <tr><td>Deprem sırasında</td><td class="num">8 / 9</td><td>Köprü sorusu kısmi (araçta Çök-Kapan-Tutun önerdi)</td></tr>
+        <tr><td>Deprem sonrası</td><td class="num">7 / 8</td><td>"Enkaz altındayım" sorusu kapsam dışı mesajı aldı (kod hatası)</td></tr>
+        <tr><td>İlk yardım</td><td class="num">2 / 3</td><td>Kırık sorusu yanlışlıkla kapsam dışı sayıldı</td></tr>
+        <tr><td>Hazırlık</td><td class="num">5 / 5</td><td></td></tr>
+        <tr><td>İl / bölge</td><td class="num">7 / 8</td><td>Kahramanmaraş tarihi depremleri kısmi</td></tr>
+        <tr><td>Tanım</td><td class="num">3 / 3</td><td></td></tr>
+        <tr><td>Güncel bilgi</td><td class="num">1 / 2</td><td>2023 ölü sayısı web'den eski resmî rakamla (46.104) verildi</td></tr>
+        <tr><td>Reddedilmesi / güvenli cevaplanması gereken</td><td class="num">4 / 4</td><td>Bina güvencesi ve deprem tahmini yapılmadı; konu dışı sorular reddedildi</td></tr>
+      </tbody>
+    </table></div>
+    <p><b>Test sonrası düzeltmeler (sonuç değiştirilmedi, test yeniden çalıştırılmadı):</b> (1) Model boş cevap döndürdüğünde "kapsam dışı" yerine güvenli bir mesaj ve 112 yönlendirmesi gösteriliyor; (2) ilk yardım kelimeleri (yaralı, kanama, kırık, bayılma…) konu kontrolüne eklendi. Kalan bilinen sorunlar: web'den gelen bilginin güncelliği ve araçta deprem tavsiyesindeki karışıklık.</p>
     <p><b>Formdaki %85 hedefi:</b> Bugünkü ölçümle kaba hesap, katı tanımla (cevap + tamamen sadık + doğru ret) ~%70, esnek tanımla (cevap + kritik hata yok + doğru ret) ~%83. İkisi de insanla doğrulanmadı; hedefe ulaşıldığını göstermek için kullanıcının yazacağı altın test seti ve en sonda Final Test v2 gerekiyor.</p>
     <p><b>Planlanan genel düzeltmeler:</b> (1) Soru anlama adımı konu dışı soruları işaretlesin ve bunlar reddedilsin. (2) Belirli bir binanın güvenliği hakkında hiçbir zaman güvence verilmesin; uzman değerlendirmesine yönlendirilsin. (3) Parçalara başlık yolundan kurala dayalı durum etiketi (hazırlık / sırasında / sonrası / enkaz) eklensin; doğrulama adımı, sorunun durumuyla çelişen kaynağa dayanan cümleleri silsin. Ardından ölçüm tekrarlanacak.</p>
   </div>
