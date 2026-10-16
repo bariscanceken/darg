@@ -36,6 +36,7 @@ from .pipeline_v2 import (
     understand_question,
 )
 from .query_normalization import turkish_lower
+from .situation import passage_situation
 from .source_routing import policy_for
 
 ANSWER_MODEL = "gpt-4o"
@@ -77,6 +78,11 @@ Kaynak kuralları:
 
 Güvenlik kuralları:
 - Deprem sırasında ve sonrasında yapılacakları karıştırma; tavsiyenin hangi duruma ait olduğunu belirt.
+- Bazı parçaların başında "(durum: …)" etiketi var (başlıktan çıkarıldı). Etiket sorunun durumundan farklıysa o
+  tavsiyeyi sorunun durumuna aitmiş gibi sunma; kullanacaksan durumunu açıkça yaz ("deprem sonrasında …").
+- Web parçalarında tarih varsa cümlede belirt ("… (Mart 2024 itibarıyla)"); aynı konuda farklı tarihli rakamlar
+  varsa en yenisini ver. Farklı olayların (ör. 6 Şubat ve 20 Şubat 2023 depremleri) bilgilerini birbirine karıştırma.
+- Ortamı koru: bir ortam için yazılmış tavsiyeyi (ör. bina içi Çök-Kapan-Tutun) başka ortama (araç, sahil) uygulama.
 - Belirli bir binanın güvenli olduğuna veya yıkılmayacağına dair ASLA güvence verme; bunun ancak uzman
   incelemesiyle (ör. yetkili mühendis, belediye, hasar tespit ekipleri) anlaşılacağını söyle.
 - Depremin zamanı/yeri hakkında tahmin yapma.
@@ -131,7 +137,12 @@ WEB_DOMAINS = ["gov.tr", "kizilay.org.tr"]  # official sources only: AFAD, e-Dev
 CURRENT_INFO_RE = re.compile(r"2023|2024|2025|2026|6 şubat|güncel|şu an|şimdi|bugün|hangi hastane|adres|telefon|"
                              r"numara|açık mı|nerede kal|başvuru|yardım başvuru")
 WEB_PROMPT = """Aşağıdaki soruyu yalnızca resmî Türk kaynaklarında (AFAD, e-Devlet, bakanlıklar, valilikler, Kızılay)
-web araması yaparak cevapla. Kısa, Türkçe ve yalnızca bulduğun bilgiyle yaz; bulamadıysan bunu söyle."""
+web araması yaparak cevapla. Kısa, Türkçe ve yalnızca bulduğun bilgiyle yaz; bulamadıysan bunu söyle.
+- Her bilginin yanına kaynağın yayın/güncelleme tarihini yaz ("(15.03.2024 itibarıyla)"); tarih yoksa "(tarih yok)".
+- Sayılar (can kaybı, yaralı, bina sayısı vb.) için en güncel resmî açıklamayı ara ve onu ver; eski bir rakamı
+  güncelmiş gibi yazma.
+- Farklı olayları ayrı tut: hangi bilginin hangi depreme/tarihe ait olduğunu belirt (ör. 6 Şubat 2023 ile
+  20 Şubat 2023 depremleri ayrı olaylardır)."""
 
 
 def needs_web(question: str, sentences: list[dict[str, Any]]) -> bool:
@@ -162,10 +173,11 @@ def web_passages(question: str, client: Any, model: str = WEB_MODEL) -> list[dic
                 url = getattr(note, "url", None)
                 if not url:
                     continue
-                start = text.rfind(".", 0, getattr(note, "start_index", 0)) + 1
-                end = text.find(".", getattr(note, "end_index", 0))
+                # the cited line (search answers come as bullet lines; dots would split "15.03.2024")
+                start = text.rfind("\n", 0, getattr(note, "start_index", 0)) + 1
+                end = text.find("\n", getattr(note, "end_index", 0))
                 snippet = text[start:end + 1 if end >= 0 else len(text)].strip()
-                snippet = re.sub(r"\(\[[^\]]*\]\([^)]*\)\)|\[[^\]]*\]\([^)]*\)", "", snippet).strip()
+                snippet = re.sub(r"\(\[[^\]]*\]\([^)]*\)\)|\[[^\]]*\]\([^)]*\)", "", snippet).strip(" -•*\t")
                 if snippet and snippet not in by_url.setdefault(url, []):
                     by_url[url].append(snippet)
     return [{"text": f"Web (resmî kaynak): {url}\n" + " ".join(snippets), "source_file": url, "page_start": None,
@@ -226,13 +238,51 @@ def run_pipeline_v3(question: str, client: Any, index: Any, metadata: list[dict[
                 else "")}
 
 
+def format_labelled_passages(passages: list[dict[str, Any]]) -> str:
+    """Numbered passages; guide chunks carry the situation their section header names."""
+    blocks = []
+    for number, passage in enumerate(passages, start=1):
+        situation = passage_situation(passage["text"])
+        label = f" (durum: {situation})" if situation else ""
+        blocks.append(f"[Kaynak {number}]{label}\n{passage['text']}")
+    return "\n\n".join(blocks)
+
+
 def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model: str) -> list[dict[str, Any]]:
     try:
         response = client.responses.create(model=model, instructions=ANSWER_PROMPT,
                                            input=f"{header}\n\nKaynaklar (AFAD belgeleri; varsa resmî web sonuçları):\n"
-                                                 f"{format_passages(passages)}",
+                                                 f"{format_labelled_passages(passages)}",
                                            max_output_tokens=ANSWER_MAX_OUTPUT_TOKENS, temperature=0)
         payload = parse_json(extract_response_text(response)) or {}
     except Exception:
         payload = {}
-    return verify_sentences(payload, passages)
+    return check_general_sentences(header, verify_sentences(payload, passages), client, model)
+
+
+GENERAL_CHECK_PROMPT = """Bir deprem bilgi asistanının cevabındaki bazı cümleler kaynakla doğrulanamadı ve "genel bilgi"
+olarak işaretlendi. Her cümleyi Türkiye'deki resmî afet ve ilk yardım tavsiyelerine (AFAD, Kızılay, Sağlık Bakanlığı)
+göre değerlendir:
+- "dogru": yerleşik, güvenilir ve soruya uygun bilgi;
+- "supheli": yanlış olabilir, tartışmalı, eskimiş ya da soruya/duruma uymuyor;
+- "yanlis": yanlış veya tehlikeli.
+Yalnızca JSON döndür: {"checks": [{"index": <cümle numarası>, "verdict": "dogru" | "supheli" | "yanlis"}]}"""
+
+
+def check_general_sentences(header: str, sentences: list[dict[str, Any]], client: Any, model: str) -> list[dict[str, Any]]:
+    """Drop general-knowledge sentences a second check finds doubtful or wrong; AFAD/web-backed ones stay."""
+    general = [index for index, sentence in enumerate(sentences) if not sentence["sources"]]
+    if not general:
+        return sentences
+    listing = "\n".join(f"{number}. {sentences[index]['text']}" for number, index in enumerate(general, start=1))
+    try:
+        response = client.responses.create(model=model, instructions=GENERAL_CHECK_PROMPT,
+                                           input=f"{header}\n\nGenel bilgi cümleleri:\n{listing}",
+                                           max_output_tokens=300, temperature=0)
+        payload = parse_json(extract_response_text(response)) or {}
+    except Exception:
+        return sentences  # a failed check never removes the answer
+    rejected = {general[int(check["index"]) - 1] for check in payload.get("checks") or []
+                if isinstance(check, dict) and str(check.get("index", "")).isdigit()
+                and 1 <= int(check["index"]) <= len(general) and check.get("verdict") in ("supheli", "yanlis")}
+    return [sentence for index, sentence in enumerate(sentences) if index not in rejected]

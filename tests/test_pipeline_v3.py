@@ -45,3 +45,24 @@ class VerifyAndRenderTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class GeneralCheckTest(unittest.TestCase):
+    def test_doubtful_general_sentences_are_dropped(self):
+        import json
+        from src.rag.pipeline_v3 import check_general_sentences
+
+        class Client:
+            def __init__(self):
+                self.responses = self
+
+            def create(self, **_):
+                class Response:
+                    output_text = json.dumps({"checks": [{"index": 1, "verdict": "dogru"},
+                                                         {"index": 2, "verdict": "supheli"}]})
+                return Response()
+
+        sentences = [{"text": "112'yi arayın.", "sources": []}, {"text": "AFAD kaynaklı.", "sources": [1]},
+                     {"text": "Kapı eşiğinde durun.", "sources": []}]
+        kept = check_general_sentences("Soru: x", sentences, Client(), "gpt-4o")
+        self.assertEqual([s["text"] for s in kept], ["112'yi arayın.", "AFAD kaynaklı."])
