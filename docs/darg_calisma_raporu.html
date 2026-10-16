@@ -272,6 +272,26 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       </tbody>
     </table></div>
     <p><b>Test sonrası düzeltmeler (sonuç değiştirilmedi, test yeniden çalıştırılmadı):</b> (1) Model boş cevap döndürdüğünde "kapsam dışı" yerine güvenli bir mesaj ve 112 yönlendirmesi gösteriliyor; (2) ilk yardım kelimeleri (yaralı, kanama, kırık, bayılma…) konu kontrolüne eklendi. Kalan bilinen sorunlar: web'den gelen bilginin güncelliği ve araçta deprem tavsiyesindeki karışıklık.</p>
+    <h3>Final Test sonrası iyileştirmeler ve gerileme kontrolü</h3>
+    <ul>
+      <li><b>Durum etiketi:</b> parçalara bölüm başlığından kuralla "deprem sırasında / sonrasında / enkaz altında / hazırlık" etiketi eklendi (İlk 72 Saat rehberinin "0. saniye / 3. saniye / 3. dakika" zaman çizelgesi dahil); cevap adımı her parçanın etiketini görüyor.</li>
+      <li><b>Web güncelliği:</b> web aramasından bilgilerin tarihi ve en güncel resmî rakam isteniyor; farklı olaylar (ör. 6 Şubat ve 20 Şubat 2023) ayrı tutuluyor.</li>
+      <li><b>Genel bilgi kontrolü:</b> kaynakla doğrulanamayan "(genel bilgi)" cümleleri ikinci bir kontrolden geçiyor; şüpheli ya da yanlış bulunanlar siliniyor.</li>
+      <li><b>Konuşma hafızası:</b> "peki hastane?" gibi devam soruları önceki turların yer ve durumuyla tamamlanıyor (LangGraph'ta "contextualize" düğümü); komut satırında sohbet modu.</li>
+      <li><b>Acil durum sırası:</b> yaralı, enkaz, yangın içeren sorularda "112'yi arayın" cümlesi kodla en başa alınıyor.</li>
+      <li><b>Web API (FastAPI):</b> <code>POST /soru</code>, <code>POST /geri-bildirim</code>, <code>GET /istatistik</code>. Her soru, cevap ve geri bildirim kaydediliyor; istatistik ucu formdaki test ölçütlerini (olumlu geri bildirim oranı ≥ %70, kötü cevap oranı &lt; %10) doğrudan hesaplıyor.</li>
+    </ul>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Gerileme kontrolü (aynı 38 soru, Claude puanladı)</th><th>Önce</th><th>Sonra</th></tr></thead>
+      <tbody>
+        <tr><td>Cevaplanabilir 25 soru</td><td class="num">23 doğru · 1 kısmi · 1 yanlış</td><td class="num">22 doğru · 3 kısmi · 0 yanlış</td></tr>
+        <tr><td>Doğruluk (kısmi = yarım puan)</td><td class="num">%94</td><td class="num">%94</td></tr>
+        <tr><td>Kapsam / güvenlik kontrolleri</td><td class="num">13 / 13</td><td class="num">13 / 13</td></tr>
+        <tr><td>Tehlikeli cevap</td><td class="num">0</td><td class="num">0</td></tr>
+        <tr><td>Ortanca süre</td><td class="num">8,1 sn</td><td class="num">9,6 sn</td></tr>
+      </tbody>
+    </table></div>
+    <p>Toplam doğruluk değişmedi; önceki tek yanlış (bina güvenliği sorusunun kapsam dışı sayılması) düzeldi. Kısmi kalan üç cevap ("Sakarya'da ne yapmalıyım", "Çök-Kapan-Tutun nasıl yapılır", "Maraş'ta toplanma alanları nasıl belirlenmiş") tek tek soruların çalıştırmadan çalıştırmaya değişkenliğine işaret ediyor.</p>
     <p><b>Formdaki %85 hedefi:</b> Bugünkü ölçümle kaba hesap, katı tanımla (cevap + tamamen sadık + doğru ret) ~%70, esnek tanımla (cevap + kritik hata yok + doğru ret) ~%83. İkisi de insanla doğrulanmadı; hedefe ulaşıldığını göstermek için kullanıcının yazacağı altın test seti ve en sonda Final Test v2 gerekiyor.</p>
     <p><b>Planlanan genel düzeltmeler:</b> (1) Soru anlama adımı konu dışı soruları işaretlesin ve bunlar reddedilsin. (2) Belirli bir binanın güvenliği hakkında hiçbir zaman güvence verilmesin; uzman değerlendirmesine yönlendirilsin. (3) Parçalara başlık yolundan kurala dayalı durum etiketi (hazırlık / sırasında / sonrası / enkaz) eklensin; doğrulama adımı, sorunun durumuyla çelişen kaynağa dayanan cümleleri silsin. Ardından ölçüm tekrarlanacak.</p>
   </div>

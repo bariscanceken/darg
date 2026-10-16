@@ -26,12 +26,13 @@ def main() -> None:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--sample", type=int, default=25)
+    parser.add_argument("--output", type=Path, default=OUTPUT)
     args = parser.parse_args()
 
     answerable = question_list()
     sample = random.Random(42).sample(answerable, args.sample)
     questions = sample + negative_questions()
-    with OUTPUT.open("w", encoding="utf-8") as handle:
+    with args.output.open("w", encoding="utf-8") as handle:
         for index, (set_name, question) in enumerate(questions, start=1):
             start = time.perf_counter()
             result = generate_answer_v3(question)
@@ -42,7 +43,7 @@ def main() -> None:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
             handle.flush()
             print(f"[{index}/{len(questions)}] {seconds:.1f}s | {set_name} | {question}", flush=True)
-    print(f"Wrote {OUTPUT}")
+    print(f"Wrote {args.output}")
 
 
 if __name__ == "__main__":
