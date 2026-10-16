@@ -1,0 +1,55 @@
+import tempfile
+import unittest
+from pathlib import Path
+from unittest import mock
+
+from fastapi.testclient import TestClient
+
+from src.api import app as api
+
+
+def fake_answer(question, history=None, **_):
+    standalone = "Antakya'da hangi hastaneye gidebilirim?" if history else question
+    return {"answer": "Öncelikle 112'yi arayın. [Kaynak 1]", "standalone_question": standalone, "used_web": True,
+            "sources": [{"source_label": "Kaynak 1", "chunk_id": "web:https://x.gov.tr/a?utm_source=openai",
+                         "source_file": "https://x.gov.tr/a?utm_source=openai"},
+                        {"source_label": "Kaynak 2", "chunk_id": "afad_earthquake_v5_1", "source_file": "ilk72saat1.pdf",
+                         "page_label": "Sayfa 32"}]}
+
+
+class ApiTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        logs = Path(self.tmp.name)
+        patches = [mock.patch.object(api, "LOG_DIR", logs), mock.patch.object(api, "QA_LOG", logs / "qa.jsonl"),
+                   mock.patch.object(api, "FEEDBACK_LOG", logs / "fb.jsonl"),
+                   mock.patch.object(api, "generate_answer_v3", side_effect=fake_answer)]
+        for patch in patches:
+            patch.start()
+            self.addCleanup(patch.stop)
+        api._sessions.clear()
+        self.client = TestClient(api.app)
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def test_ask_feedback_and_statistics(self):
+        first = self.client.post("/soru", json={"soru": "antakyadayım deprem oldu"}).json()
+        self.assertEqual(first["kaynaklar"][0], {"etiket": "Kaynak 1", "tur": "web", "kaynak": "https://x.gov.tr/a",
+                                                 "sayfa": None})
+        self.assertEqual(first["kaynaklar"][1]["tur"], "afad")
+        second = self.client.post("/soru", json={"soru": "peki hastane?", "oturum_id": first["oturum_id"]}).json()
+        self.assertEqual(second["anlasilan_soru"], "Antakya'da hangi hastaneye gidebilirim?")  # history was used
+        self.assertEqual(self.client.post("/geri-bildirim", json={"kayit_id": first["kayit_id"], "puan": "iyi"}).status_code, 200)
+        self.client.post("/geri-bildirim", json={"kayit_id": second["kayit_id"], "puan": "kotu", "not": "eksik"})
+        stats = self.client.get("/istatistik").json()
+        self.assertEqual((stats["soru_sayisi"], stats["geri_bildirim_sayisi"], stats["olumlu_orani"]), (2, 2, 0.5))
+
+    def test_unknown_record_and_empty_question_are_rejected(self):
+        self.assertEqual(self.client.post("/geri-bildirim", json={"kayit_id": "yok", "puan": "iyi"}).status_code, 404)
+        self.assertEqual(self.client.post("/soru", json={"soru": ""}).status_code, 422)
+        self.assertEqual(self.client.get("/saglik").json(), {"durum": "ok"})
+
+
+if __name__ == "__main__":
+    unittest.main()

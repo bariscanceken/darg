@@ -19,3 +19,5 @@ models/
 
 # Invoices / bills
 bills/
+# API logs (user questions may contain personal information)
+data/logs/
