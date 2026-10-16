@@ -66,3 +66,11 @@ class GeneralCheckTest(unittest.TestCase):
                      {"text": "Kapı eşiğinde durun.", "sources": []}]
         kept = check_general_sentences("Soru: x", sentences, Client(), "gpt-4o")
         self.assertEqual([s["text"] for s in kept], ["112'yi arayın.", "AFAD kaynaklı."])
+
+
+class EmergencyOrderTest(unittest.TestCase):
+    def test_call_112_moves_first_only_in_emergencies(self):
+        from src.rag.pipeline_v3 import emergency_first
+        sentences = [{"text": "Hastane A.", "sources": [1]}, {"text": "112'yi arayın.", "sources": []}]
+        self.assertEqual(emergency_first("Soru: yaralı var ne yapalım", sentences)[0]["text"], "112'yi arayın.")
+        self.assertEqual(emergency_first("Soru: deprem çantası", sentences)[0]["text"], "Hastane A.")

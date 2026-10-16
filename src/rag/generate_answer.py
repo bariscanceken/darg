@@ -158,6 +158,11 @@ def parse_args() -> argparse.Namespace:
         help="Select verbatim evidence first and write the answer only from it.",
     )
     parser.add_argument(
+        "--chat",
+        action="store_true",
+        help="Conversation mode (pipeline v3): follow-up questions use the earlier turns.",
+    )
+    parser.add_argument(
         "--wide-retrieval",
         action=argparse.BooleanOptionalAction,
         default=CLI_WIDE_RETRIEVAL,
@@ -455,11 +460,37 @@ def generate_answer(
     }
 
 
+CHAT_EXIT_WORDS = {"", "q", "çık", "cik", "çıkış", "exit", "quit"}
+
+
+def run_chat(args: argparse.Namespace) -> None:
+    """Conversation mode (pipeline v3): follow-ups like "peki hastane?" use the earlier turns."""
+    print("DARG sohbet modu. Çıkmak için boş satır ya da 'çık' yazın.")
+    history: list[dict[str, str]] = []
+    while True:
+        try:
+            question = input("\nSiz: ").strip()
+        except EOFError:
+            break
+        if question.casefold() in CHAT_EXIT_WORDS:
+            break
+        result = generate_answer_v3(question, local_info=args.local_info, allow_model_download=args.allow_model_download,
+                                    history=history)
+        if result["standalone_question"] != question:
+            print(f"(Sorunuzu şöyle anladım: {result['standalone_question']})")
+        result["query_repair"] = {"status": "not_needed"}  # the line above already shows how it was understood
+        print_result(result)
+        history.append({"question": result["standalone_question"], "answer": result["answer"]})
+
+
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
     args = parse_args()
+    if args.chat:
+        run_chat(args)
+        return
     question = input("Soru: ").strip()
     if not question:
         raise SystemExit("Soru boş olamaz.")
@@ -559,7 +590,7 @@ def generate_answer_v2(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
 
 def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, location: Location | None = None,
                        local_info: bool = True, allow_model_download: bool = False,
-                       web_search: bool = True) -> dict[str, Any]:
+                       web_search: bool = True, history: list[dict[str, str]] | None = None) -> dict[str, Any]:
     """Pipeline v3 (helpful answer + AFAD verification) with the same result shape as generate_answer."""
     from .graph_v3 import run_graph_v3  # LangGraph orchestration of the v3 steps (same results as run_pipeline_v3)
 
@@ -570,12 +601,14 @@ def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
         allow_model_download,
     )
     result = run_graph_v3(question, client, index, metadata, embedding_model, reranker, location=location,
-                             local_info_builder=build_local_info if local_info else None, web_search=web_search)
+                             local_info_builder=build_local_info if local_info else None, web_search=web_search,
+                             history=history)
     sources = [source_metadata(number, passage) for number, passage in enumerate(result["passages"], start=1)]
     found = result["location"]
     understanding = result["understanding"]
     return {
         "used_web": result.get("used_web", False),
+        "standalone_question": result.get("standalone_question", question),
         "question": question,
         "answer": result["answer"],
         "sources": filter_sources_by_answer_references(result["answer"], sources),

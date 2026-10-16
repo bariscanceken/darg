@@ -4,7 +4,7 @@ The steps are the measured v3 functions (src/rag/pipeline_v3.py, pipeline_v2.py)
 orchestrates them. The hybrid decision agent of the form is the conditional edge after "answer":
 stay with the AFAD vector store, or search official web sources and answer again.
 
-    understand ─► scope ──(off topic)──────────────────────────► finish
+    contextualize ─► understand ─► scope ──(off topic)──────────────────────────► finish
                     │
                     └──► retrieve ─► answer ──(enough AFAD evidence)──► finish
                                        ▲  │
@@ -21,6 +21,7 @@ from langgraph.graph import END, START, StateGraph
 from .pipeline_v2 import card_passages, retrieve_wide, understand_question
 from .pipeline_v3 import (
     ANSWER_MODEL,
+    contextualize,
     OFF_TOPIC_ANSWER,
     PASSAGES,
     WEB_NOTE,
@@ -35,6 +36,8 @@ from .source_routing import policy_for
 
 class DargState(TypedDict, total=False):
     question: str
+    original_question: str
+    history: list[dict[str, str]]
     understanding: dict[str, Any]
     corrected: str
     off_topic: bool
@@ -52,6 +55,10 @@ class DargState(TypedDict, total=False):
 def build_graph(client: Any, index: Any, metadata: list[dict[str, Any]], embedding_model: Any, reranker: Any,
                 local_info_builder: Any = None, answer_model: str = ANSWER_MODEL, web_search: bool = True) -> Any:
     """Compile the v3 graph around already loaded retrieval components and an OpenAI client."""
+
+    def contextualize_question(state: DargState) -> DargState:
+        standalone = contextualize(state["question"], state.get("history"), client)
+        return {"original_question": state["question"], "question": standalone}
 
     def understand(state: DargState) -> DargState:
         understanding = understand_question(state["question"], client)
@@ -109,10 +116,11 @@ def build_graph(client: Any, index: Any, metadata: list[dict[str, Any]], embeddi
         return "answer" if state.get("used_web") else "finish"
 
     graph = StateGraph(DargState)
-    for name, node in [("understand", understand), ("scope", scope), ("retrieve", retrieve), ("answer", answer),
+    for name, node in [("contextualize", contextualize_question), ("understand", understand), ("scope", scope), ("retrieve", retrieve), ("answer", answer),
                        ("web_search", search_web), ("finish", finish)]:
         graph.add_node(name, node)
-    graph.add_edge(START, "understand")
+    graph.add_edge(START, "contextualize")
+    graph.add_edge("contextualize", "understand")
     graph.add_edge("understand", "scope")
     graph.add_conditional_edges("scope", after_scope, {"retrieve": "retrieve", "finish": "finish"})
     graph.add_edge("retrieve", "answer")
@@ -124,12 +132,14 @@ def build_graph(client: Any, index: Any, metadata: list[dict[str, Any]], embeddi
 
 def run_graph_v3(question: str, client: Any, index: Any, metadata: list[dict[str, Any]], embedding_model: Any,
                  reranker: Any, location: Any = None, local_info_builder: Any = None,
-                 answer_model: str = ANSWER_MODEL, web_search: bool = True) -> dict[str, Any]:
-    """Same result shape as pipeline_v3.run_pipeline_v3."""
+                 answer_model: str = ANSWER_MODEL, web_search: bool = True,
+                 history: list[dict[str, str]] | None = None) -> dict[str, Any]:
+    """Same result shape as pipeline_v3.run_pipeline_v3; history = earlier turns of the conversation."""
     app = build_graph(client, index, metadata, embedding_model, reranker, local_info_builder, answer_model, web_search)
-    state = app.invoke({"question": question, "location": location})
+    state = app.invoke({"question": question, "location": location, "history": history or []})
     return {
         "question": question,
+        "standalone_question": state["question"],
         "understanding": state["understanding"],
         "location": state.get("location"),
         "passages": state.get("passages", []),

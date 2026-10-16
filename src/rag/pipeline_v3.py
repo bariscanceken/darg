@@ -36,7 +36,7 @@ from .pipeline_v2 import (
     understand_question,
 )
 from .query_normalization import turkish_lower
-from .situation import passage_situation
+from .situation import AFTER, passage_situation
 from .source_routing import policy_for
 
 ANSWER_MODEL = "gpt-4o"
@@ -243,6 +243,8 @@ def format_labelled_passages(passages: list[dict[str, Any]]) -> str:
     blocks = []
     for number, passage in enumerate(passages, start=1):
         situation = passage_situation(passage["text"])
+        if passage.get("chunk_id") == "il_karti:brosur":
+            situation = AFTER  # the assembly-area brochure is about after the earthquake
         label = f" (durum: {situation})" if situation else ""
         blocks.append(f"[Kaynak {number}]{label}\n{passage['text']}")
     return "\n\n".join(blocks)
@@ -257,7 +259,44 @@ def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model
         payload = parse_json(extract_response_text(response)) or {}
     except Exception:
         payload = {}
-    return check_general_sentences(header, verify_sentences(payload, passages), client, model)
+    return emergency_first(header, check_general_sentences(header, verify_sentences(payload, passages), client, model))
+
+
+EMERGENCY_RE = re.compile(r"yaralı|yarali|kanama|kanıyor|enkaz|yangın|yangin|bayıl|bayil|nefes almıyor|acil")
+
+
+def emergency_first(header: str, sentences: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """In an emergency question the "call 112" sentence comes first, whatever order the model chose."""
+    if not EMERGENCY_RE.search(turkish_lower(header)):
+        return sentences
+    calls = [sentence for sentence in sentences if "112" in sentence["text"]]
+    return calls[:1] + [sentence for sentence in sentences if sentence is not (calls[0] if calls else None)]
+
+
+MAX_HISTORY_TURNS = 3
+CONTEXT_PROMPT = """Bir deprem bilgi asistanıyla yapılan sohbetin önceki turları ve kullanıcının yeni mesajı verilecek.
+Yeni mesaj önceki konuşmaya dayanıyorsa (ör. "peki hastane?", "orada tsunami olur mu?", "ya araçtaysam?"), onu önceki
+turlardaki yer, durum ve konuyla tamamlayıp TEK BAŞINA anlaşılır bir soruya çevir. Yeni mesaj zaten tek başına
+anlaşılıyorsa veya yeni bir konuysa aynen bırak. Yeni bilgi ekleme, cevap verme.
+Yalnızca JSON döndür: {"standalone": "<soru>"}"""
+
+
+def contextualize(question: str, history: list[dict[str, str]] | None, client: Any,
+                  model: str = "gpt-4o-mini") -> str:
+    """Turn a follow-up ("peki hastane?") into a standalone question using the last turns; no history, no call."""
+    if not history:
+        return question
+    turns = "\n".join(f"Kullanıcı: {turn['question']}\nAsistan: {turn['answer'][:300]}"
+                      for turn in history[-MAX_HISTORY_TURNS:])
+    try:
+        response = client.responses.create(model=model, instructions=CONTEXT_PROMPT,
+                                           input=f"Önceki turlar:\n{turns}\n\nYeni mesaj: {question}",
+                                           max_output_tokens=120, temperature=0)
+        payload = parse_json(extract_response_text(response)) or {}
+    except Exception:
+        return question
+    standalone = str(payload.get("standalone") or "").strip()
+    return standalone or question
 
 
 GENERAL_CHECK_PROMPT = """Bir deprem bilgi asistanının cevabındaki bazı cümleler kaynakla doğrulanamadı ve "genel bilgi"

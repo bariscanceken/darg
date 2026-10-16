@@ -70,5 +70,28 @@ class GraphMatchesFlatPipelineTest(unittest.TestCase):
         self.assertIn(pipeline_v3.WEB_NOTE, graph["answer"])
 
 
+
+class ConversationTest(unittest.TestCase):
+    def test_follow_up_is_made_standalone_and_first_turn_is_untouched(self):
+        from src.rag.pipeline_v3 import CONTEXT_PROMPT, contextualize
+
+        class Client:
+            def __init__(self):
+                self.responses = self
+                self.calls = 0
+
+            def create(self, **kwargs):
+                self.calls += 1
+                assert kwargs["instructions"] == CONTEXT_PROMPT
+                return FakeResponse(json.dumps({"standalone": "Antakya'da deprem sonrası hangi hastaneye gidebilirim?"}))
+
+        client = Client()
+        self.assertEqual(contextualize("peki hastane?", [], client), "peki hastane?")
+        self.assertEqual(client.calls, 0)  # no history, no model call
+        history = [{"question": "Antakya'da deprem oldu nereye gideyim?", "answer": "Toplanma alanına gidin."}]
+        self.assertEqual(contextualize("peki hastane?", history, client),
+                         "Antakya'da deprem sonrası hangi hastaneye gidebilirim?")
+
+
 if __name__ == "__main__":
     unittest.main()
