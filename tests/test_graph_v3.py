@@ -93,5 +93,16 @@ class ConversationTest(unittest.TestCase):
                          "Antakya'da deprem sonrası hangi hastaneye gidebilirim?")
 
 
+class PlaceCarryOverTest(unittest.TestCase):
+    def test_place_of_earlier_turn_is_used_when_the_new_question_names_none(self):
+        history = [{"question": "antakyadayım deprem oldu", "answer": "Toplanma alanına gidin.", "place": "Antakya"}]
+        with mock.patch.object(graph_v3, "retrieve_wide", return_value=[PASSAGE]):
+            result = graph_v3.run_graph_v3("depremde yaralandım hangi hastaneye gidebilirim", FakeClient(), None, [],
+                                           None, None, history=history)
+        self.assertEqual((result["location"].province, result["location"].district), ("Hatay", "Antakya"))
+        self.assertEqual(result["turn"]["place"], "Antakya")
+        self.assertNotEqual(result["status"], "off_topic")
+
+
 if __name__ == "__main__":
     unittest.main()

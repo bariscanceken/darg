@@ -106,7 +106,7 @@ def ask(question: Question) -> Answer:
         if session_id not in _sessions and len(_sessions) >= MAX_SESSIONS:
             _sessions.pop(next(iter(_sessions)))
         turns = _sessions.setdefault(session_id, [])
-        turns.append({"question": result["standalone_question"], "answer": result["answer"]})
+        turns.append(result.get("turn", {"question": result["standalone_question"], "answer": result["answer"]}))
         del turns[:-MAX_HISTORY_TURNS]
     _append(QA_LOG, {"kayit_id": record_id, "zaman": datetime.now(timezone.utc).isoformat(), "oturum_id": session_id,
                      "soru": question.soru, "anlasilan_soru": result["standalone_question"], "cevap": result["answer"],

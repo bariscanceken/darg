@@ -64,7 +64,7 @@ Yalnızca JSON döndür: {"in_scope": true} ya da {"in_scope": false}"""
 IN_SCOPE_RE = re.compile(r"deprem|afet|enkaz|artçı|artci|sarsıntı|sarsinti|tsunami|toplanma alan|barınma|fay\b|"
                          r"fay hat|afad|tahliye|yıkıl|yikil|hasar|çök-kapan|cok-kapan|112|binam|binanın|binanin|bina güven|"
                          r"depreme dayan|yaralı|yarali|kanama|kırık|kirik|kırığ|kirig|bayıl|bayil|ilk ?yardım|ilk ?yardim|"
-                         r"kurtarma")
+                         r"kurtarma|hastane|acil servis|sağlık ocağı|saglik ocagi|ambulans")
 
 ANSWER_PROMPT = """Sen DARG'sın: Türkiye'deki vatandaşlara deprem konusunda yardım eden bir asistan.
 Soruyu bilgili, sakin ve yardımcı bir uzman gibi, doğrudan cevapla.
@@ -97,11 +97,14 @@ Yalnızca şu JSON'u döndür:
 {"sentences": [{"text": "<cümle>", "basis": "afad" | "genel", "quotes": [{"source": <N>, "quote": "<birebir alıntı>"}]}]}"""
 
 
-def in_scope(question: str, client: Any, model: str = "gpt-4o-mini") -> bool:
+def in_scope(question: str, client: Any, model: str = "gpt-4o-mini", previous: str | None = None) -> bool:
+    """previous = the last on-topic question of the conversation; a follow-up to it stays in scope."""
     if IN_SCOPE_RE.search(turkish_lower(question)):
         return True
+    text = question if not previous else (f"Önceki soru (deprem sohbeti): {previous}\nYeni soru: {question}\n"
+                                          "Yeni soru önceki depremle ilgili sohbetin devamıysa kapsam içidir.")
     try:
-        response = client.responses.create(model=model, instructions=SCOPE_PROMPT, input=question,
+        response = client.responses.create(model=model, instructions=SCOPE_PROMPT, input=text,
                                            max_output_tokens=20, temperature=0)
         payload = parse_json(extract_response_text(response)) or {}
     except Exception:
@@ -177,7 +180,8 @@ def web_passages(question: str, client: Any, model: str = WEB_MODEL) -> list[dic
                 start = text.rfind("\n", 0, getattr(note, "start_index", 0)) + 1
                 end = text.find("\n", getattr(note, "end_index", 0))
                 snippet = text[start:end + 1 if end >= 0 else len(text)].strip()
-                snippet = re.sub(r"\(\[[^\]]*\]\([^)]*\)\)|\[[^\]]*\]\([^)]*\)", "", snippet).strip(" -•*\t")
+                snippet = re.sub(r"\(\[[^\]]*\]\([^)]*\)\)|\[[^\]]*\]\([^)]*\)", "", snippet)
+                snippet = snippet.replace("**", "").replace("__", "").strip(" -•*\t")  # markdown emphasis
                 if snippet and snippet not in by_url.setdefault(url, []):
                     by_url[url].append(snippet)
     return [{"text": f"Web (resmî kaynak): {url}\n" + " ".join(snippets), "source_file": url, "page_start": None,
@@ -262,7 +266,7 @@ def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model
     return emergency_first(header, check_general_sentences(header, verify_sentences(payload, passages), client, model))
 
 
-EMERGENCY_RE = re.compile(r"yaralı|yarali|kanama|kanıyor|enkaz|yangın|yangin|bayıl|bayil|nefes almıyor|acil")
+EMERGENCY_RE = re.compile(r"yaralı|yarali|yaralan|yaraland|kanama|kanıyor|enkaz|yangın|yangin|bayıl|bayil|nefes almıyor|acil")
 
 
 def emergency_first(header: str, sentences: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -276,7 +280,8 @@ def emergency_first(header: str, sentences: list[dict[str, Any]]) -> list[dict[s
 MAX_HISTORY_TURNS = 3
 CONTEXT_PROMPT = """Bir deprem bilgi asistanıyla yapılan sohbetin önceki turları ve kullanıcının yeni mesajı verilecek.
 Yeni mesaj önceki konuşmaya dayanıyorsa (ör. "peki hastane?", "orada tsunami olur mu?", "ya araçtaysam?"), onu önceki
-turlardaki yer, durum ve konuyla tamamlayıp TEK BAŞINA anlaşılır bir soruya çevir. Yeni mesaj zaten tek başına
+turlardaki yer, durum ve konuyla tamamlayıp TEK BAŞINA anlaşılır bir soruya çevir. Önceki turlarda bir yer (il/ilçe)
+geçtiyse ve yeni mesaj başka bir yer söylemiyorsa o yeri yeni soruya ekle. Yeni mesaj zaten tek başına
 anlaşılıyorsa veya yeni bir konuysa aynen bırak. Yeni bilgi ekleme, cevap verme.
 Yalnızca JSON döndür: {"standalone": "<soru>"}"""
 

@@ -57,15 +57,26 @@ def build_graph(client: Any, index: Any, metadata: list[dict[str, Any]], embeddi
     """Compile the v3 graph around already loaded retrieval components and an OpenAI client."""
 
     def contextualize_question(state: DargState) -> DargState:
-        standalone = contextualize(state["question"], state.get("history"), client)
-        return {"original_question": state["question"], "question": standalone}
+        from .location import detect_location
+
+        history = state.get("history") or []
+        standalone = contextualize(state["question"], history, client)
+        update: DargState = {"original_question": state["question"], "question": standalone}
+        if state.get("location") is None and detect_location(standalone) is None:
+            # The conversation's place carries over in code, not only through the rewrite.
+            place = next((turn.get("place") for turn in reversed(history) if turn.get("place")), None)
+            if place:
+                update["location"] = detect_location(place)
+        return update
 
     def understand(state: DargState) -> DargState:
         understanding = understand_question(state["question"], client)
         return {"understanding": understanding, "corrected": understanding["corrected"]}
 
     def scope(state: DargState) -> DargState:
-        return {"off_topic": not in_scope(state["corrected"], client)}
+        previous = next((turn["question"] for turn in reversed(state.get("history") or [])
+                         if turn.get("on_topic", True)), None)
+        return {"off_topic": not in_scope(state["corrected"], client, previous=previous)}
 
     def retrieve(state: DargState) -> DargState:
         from .location import detect_location
@@ -88,7 +99,7 @@ def build_graph(client: Any, index: Any, metadata: list[dict[str, Any]], embeddi
         return {"sentences": write_answer(state["header"], state["passages"], client, answer_model)}
 
     def search_web(state: DargState) -> DargState:
-        found = web_passages(state["corrected"], client)
+        found = web_passages(state["corrected"], client) or web_passages(state["corrected"], client)  # one retry
         if not found:
             return {"web_tried": True}
         return {"web_tried": True, "used_web": True, "passages": state["passages"] + found}
@@ -148,4 +159,13 @@ def run_graph_v3(question: str, client: Any, index: Any, metadata: list[dict[str
         "used_web": state.get("used_web", False),
         "answer": state["answer"],
         "status": state["status"],
+        "turn": history_turn(state),
     }
+
+
+def history_turn(state: DargState) -> dict[str, Any]:
+    """What the next turn of the conversation needs to remember from this one."""
+    location = state.get("location")
+    place = "" if location is None or location.is_ambiguous else (location.district or location.province or "")
+    return {"question": state["question"], "answer": state["answer"], "place": place,
+            "on_topic": state.get("status") != "off_topic"}

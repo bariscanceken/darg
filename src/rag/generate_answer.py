@@ -480,7 +480,7 @@ def run_chat(args: argparse.Namespace) -> None:
             print(f"(Sorunuzu şöyle anladım: {result['standalone_question']})")
         result["query_repair"] = {"status": "not_needed"}  # the line above already shows how it was understood
         print_result(result)
-        history.append({"question": result["standalone_question"], "answer": result["answer"]})
+        history.append(result["turn"])
 
 
 def main() -> None:
@@ -609,6 +609,7 @@ def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
     return {
         "used_web": result.get("used_web", False),
         "standalone_question": result.get("standalone_question", question),
+        "turn": result.get("turn", {"question": question, "answer": result["answer"]}),
         "question": question,
         "answer": result["answer"],
         "sources": filter_sources_by_answer_references(result["answer"], sources),
