@@ -21,3 +21,5 @@ models/
 bills/
 # API logs (user questions may contain personal information)
 data/logs/
+# App database (organisation accounts, posts)
+data/app/

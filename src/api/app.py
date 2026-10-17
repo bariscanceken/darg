@@ -9,6 +9,7 @@ GET  /saglik         liveness check
 GET  /kutuphane                  document library: every source document with title, category, province, size
 GET  /kutuphane/{id}/dosya       the document itself (PDF or image), for reading or offline download
 GET  /kutuphane/{id}/metin       its page texts, for keyword search on the phone without internet
+/hesap/*, /akis, /gonderiler/*, /yonetim/*   verified announcements (src/api/community.py)
 
 Every question/answer and every feedback is appended to data/logs/ (git-ignored: questions may contain
 personal information). Conversations are kept in memory per oturum_id (last turns only).
@@ -31,7 +32,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
-from src.api import library
+from src.api import community, library
 from src.rag.context import clean_url
 from src.rag.generate_answer import generate_answer_v3
 from src.rag.pipeline_v3 import MAX_HISTORY_TURNS
@@ -44,6 +45,7 @@ MAX_SESSIONS = 1000
 app = FastAPI(title="DARG", description="AFAD belgelerine dayalı Türkçe deprem bilgi asistanı", version="1.0")
 # The mobile app's web build (flutter run -d chrome) calls the API from another origin.
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["GET", "POST", "DELETE"], allow_headers=["*"])
+app.include_router(community.router)  # organisation accounts, verified announcements, moderation
 _sessions: dict[str, list[dict[str, str]]] = {}
 _lock = threading.Lock()
 
