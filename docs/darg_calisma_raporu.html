@@ -85,7 +85,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   <div class="eyebrow">TÜBİTAK 2209-A · KTÜ · Proje çalışma raporu</div>
   <h1>DARG: Claude ile yürütülen geliştirme çalışmaları</h1>
   <p class="lede">AFAD belgelerine dayanarak Türkçe deprem sorularını cevaplayan RAG sisteminin Eylül–Ekim 2026 arasında Claude Code ile birlikte nasıl geliştirildiği, neyin ölçüldüğü, neyin işe yaramadığı ve sistemin bugün nerede durduğu.</p>
-  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 15 Ekim 2026</p>
+  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 17 Ekim 2026</p>
   <svg class="trace" viewBox="0 0 860 36" preserveAspectRatio="none" aria-hidden="true">
     <polyline fill="none" stroke="currentColor" stroke-width="1.5" points="0,18 120,18 140,17 150,19 160,18 300,18 310,12 318,26 326,6 334,30 342,10 350,24 358,16 366,20 380,18 520,18 530,15 538,22 546,17 560,18 860,18"/>
   </svg>
@@ -95,13 +95,13 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   <h2>Kısaca</h2>
   <div class="prose">
     <p>Sistemin ana ölçütü başvuru formunda <b>cevap doğruluğu ≥ %85</b> olarak tanımlı. Çalışmalar boyunca her değişiklik ölçülerek benimsendi; ölçülmeyen hiçbir özellik varsayılan yapılmadı. En büyük kazanımlar, sistemin cevap üretme biçiminden çok <b>verinin nasıl işlendiğinden</b> geldi: bozuk Türkçe karakterler, modelin göremediği uzun parçalar, düzleşmiş tablolar ve hiç okunmamış görsel PDF'ler.</p>
-    <p>15 Ekim itibarıyla eski "yedi adımlı" cevap zinciri yerine üç adımlı yeni bir mimari yazıldı ve ilk denemesi yapılıyor. Güvenilir bir cevap kalitesi ölçümü hâlâ eksik; bunun için kullanıcının yazacağı bir "altın test seti" planlandı.</p>
+    <p>16 Ekim'de sistem hibrit RAG'e (v3) geçti ve LangGraph ile orkestre edildi. Tek seferlik bağımsız test (Final Test v2, 42 soru) <b>uzman değerlendirmesinde 40/42 doğru (%95,2)</b> sonucunu verdi; formdaki %85 hedefi aşıldı. 16–17 Ekim'de formun 5–6. ay aşaması olan <b>Flutter mobil uygulama</b> geliştirildi: sohbet ekranı, acil durum araçları, internetsiz belge kütüphanesi ve yönetici onaylı kurum duyuruları.</p>
   </div>
   <div class="kpis">
-    <div class="kpi"><b>131</b><span>AFAD PDF'i (16.844 sayfa)</span></div>
+    <div class="kpi"><b>40 / 42</b><span>Final Test v2, uzman değerlendirmesi (%95,2; hedef ≥ %85)</span></div>
+    <div class="kpi"><b>0</b><span>Final Test v2'de tehlikeli tavsiye</span></div>
     <div class="kpi"><b>40 → 0</b><span>Bölgesel sorularda ilk 5'te yanlış ilin sayfası</span></div>
-    <div class="kpi"><b>%55 → %85</b><span>Kaynağa tamamen sadık cevap (LLM hakemi, insanla doğrulanmadı)</span></div>
-    <div class="kpi"><b>0 / 13</b><span>Cevaplanamaz kontrol sorularında yanlış kabul</span></div>
+    <div class="kpi"><b>139</b><span>AFAD belgesi uygulamada okunabilir, indirilebilir</span></div>
   </div>
 </section>
 
@@ -112,6 +112,8 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
     <div class="tl"><span class="date">5–6 Ekim 2026</span><p><b>Veri kök nedenleri.</b> Yazım hatası düzeltme, "Bunu mu demek istediniz?", bozuk Türkçe karakter onarımı, parça boyutunun modelin penceresine göre yeniden ayarlanması (v4). Ayrıntılı geliştirme raporu yazıldı.</p></div>
     <div class="tl"><span class="date">14 Ekim 2026</span><p><b>Bölgesel arama ve cevap sadakati.</b> İl adı tespiti, il planına göre arama, kelime tabanlı (BM25) havuz, LLM ile sıralama, kaynak türü yönlendirmesi, "önce kanıt seç" yaklaşımı, il kartları, Hatay pilotu ve tam ölçüm.</p></div>
     <div class="tl"><span class="date">15 Ekim 2026</span><p><b>Mimari yenileme.</b> Yapı korumalı belge çıkarma, OCR, başlıklı parçalar ve yeni index (v5), üç adımlı yeni cevap hattı.</p></div>
+    <div class="tl"><span class="date">16 Ekim 2026</span><p><b>Hibrit RAG ve bağımsız test.</b> v3 (AFAD önce, genel bilgi ve resmî web işaretli), LangGraph orkestrasyonu, hibrit karar ajanı, Final Test v2 (tek sefer), konuşma hafızası, web API.</p></div>
+    <div class="tl"><span class="date">16–17 Ekim 2026</span><p><b>Uzman onayı ve mobil uygulama.</b> Final Test v2 uzman değerlendirmesi (40/42). Flutter uygulaması: sohbet, açık/koyu tema, yardım sinyali, acil durum kartı, internetsiz kütüphane, kurum hesapları ve onaylı duyuru akışı.</p></div>
   </div>
 </section>
 
@@ -271,6 +273,16 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
         <tr><td>Reddedilmesi / güvenli cevaplanması gereken</td><td class="num">4 / 4</td><td>Bina güvencesi ve deprem tahmini yapılmadı; konu dışı sorular reddedildi</td></tr>
       </tbody>
     </table></div>
+    <p><b>Uzman değerlendirmesi (17 Ekim 2026).</b> Cevaplar, Claude'un puanları ve beklenen cevaplar gösterilmeden, kör bir değerlendirme formuyla (<code>docs/DARG_uzman_degerlendirme_formu.pdf</code>) bir uzmana verildi. Uzman <b>40 cevabı doğru</b> buldu; F16 ("enkaz altındayım nasıl yardım çağırırım") ve F19 ("kırığı olduğunu düşündüğüm birini taşımalı mıyım") cevaplarını <b>açık hata</b> olarak işaretledi (ikisi de soruyu kapsam dışı sayan kod hatasıydı, test sonrası düzeltildi). F20 ("deprem sonrası bayılan birine ne yapılır") için tereddüt belirtti; cevapta solunum kontrolü ve deprem kaynaklı yaralanma şüphesinde kişinin hareket ettirilmemesi uyarısı eksikti.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Puanlayan</th><th>Doğru</th><th>Doğruluk</th><th>Hedef ≥ %85</th></tr></thead>
+      <tbody>
+        <tr><td>Uzman (F20 doğru sayılırsa)</td><td class="num">40 / 42</td><td class="num"><b>%95,2</b></td><td>✓</td></tr>
+        <tr><td>Uzman (F20 yanlış sayılırsa)</td><td class="num">39 / 42</td><td class="num">%92,9</td><td>✓</td></tr>
+        <tr><td>Claude (ilk puanlama)</td><td class="num">37 / 42</td><td class="num">%88,1</td><td>✓</td></tr>
+      </tbody>
+    </table></div>
+    <p>Uzman Claude'dan daha cömert puanladı: Claude'un kısmi ya da yanlış saydığı F08 (araçta deprem), F30 (Kahramanmaraş tarihi depremleri) ve F37 (2023 ölü sayısı) uzman tarafından doğru kabul edildi. İki açık hatada ise ikisi de aynı fikirde. Raporlanacak resmî sonuç uzmanın puanıdır.</p>
     <p><b>Test sonrası düzeltmeler (sonuç değiştirilmedi, test yeniden çalıştırılmadı):</b> (1) Model boş cevap döndürdüğünde "kapsam dışı" yerine güvenli bir mesaj ve 112 yönlendirmesi gösteriliyor; (2) ilk yardım kelimeleri (yaralı, kanama, kırık, bayılma…) konu kontrolüne eklendi. Kalan bilinen sorunlar: web'den gelen bilginin güncelliği ve araçta deprem tavsiyesindeki karışıklık.</p>
     <h3>Final Test sonrası iyileştirmeler ve gerileme kontrolü</h3>
     <ul>
@@ -279,6 +291,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       <li><b>Genel bilgi kontrolü:</b> kaynakla doğrulanamayan "(genel bilgi)" cümleleri ikinci bir kontrolden geçiyor; şüpheli ya da yanlış bulunanlar siliniyor.</li>
       <li><b>Konuşma hafızası:</b> "peki hastane?" gibi devam soruları önceki turların yer ve durumuyla tamamlanıyor (LangGraph'ta "contextualize" düğümü); komut satırında sohbet modu.</li>
       <li><b>Acil durum sırası:</b> yaralı, enkaz, yangın içeren sorularda "112'yi arayın" cümlesi kodla en başa alınıyor.</li>
+      <li><b>Sohbette yer ve konunun korunması:</b> gerçek bir sohbette "antakyada hangi hastanelere gidebilirim" devam sorusu kapsam dışı sayılmış, "depremde yaralandım hangi hastanelere gidebilirim" sorusu Antakya'yı unutmuştu. Artık önceki turun yeri kodla taşınıyor, konu kontrolü bir önceki soruyu da görüyor, hastane/ambulans/acil servis kelimeleri kapsam içi sayılıyor ve web araması boş dönerse bir kez daha deneniyor. Tekrar denemede üçüncü tur Antakya'daki hastaneleri Sağlık Bakanlığı sitesinden verdi.</li>
       <li><b>Web API (FastAPI):</b> <code>POST /soru</code>, <code>POST /geri-bildirim</code>, <code>GET /istatistik</code>. Her soru, cevap ve geri bildirim kaydediliyor; istatistik ucu formdaki test ölçütlerini (olumlu geri bildirim oranı ≥ %70, kötü cevap oranı &lt; %10) doğrudan hesaplıyor.</li>
     </ul>
     <div class="table-wrap"><table>
@@ -297,11 +310,68 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   </div>
 </section>
 
+<section id="mobil">
+  <h2>Mobil uygulama (16–17 Ekim)</h2>
+  <div class="prose">
+    <p>Formun 5–6. ay aşaması ("Uygulamanın oluşturulması"; ölçüt: arayüze erişim ve modele ulaşılabilmesi) için <b>Flutter</b> ile bir Android/iOS uygulaması yazıldı (<code>mobile/</code>). Formdaki Şekil 1'deki yapıya uygun olarak uygulama, soruları ve kullanıcı geri bildirimlerini <b>API üzerinden sunucuya</b> gönderiyor; sunucu tarafındaki hibrit RAG ve LangGraph hattı değişmedi. Uygulama bir sosyal ağ değil: vatandaş asistanla birebir konuşuyor ve yalnızca doğrulanmış kurumların duyurularını görüyor.</p>
+    <h3>Tasarım kararları</h3>
+    <ul>
+      <li><b>Teknoloji:</b> önce React Native önerildi; kullanıcı Flutter'ı seçti. Aynı kod Android, iOS ve web'de çalışıyor.</li>
+      <li><b>Görünüm:</b> koyu, sıcak tonlu bir sohbet ekranı ve aynı tonların açık sürümü; üst çubukta tema düğmesi. Lacivert-sarı, sismograf motifli ikinci bir tasarım denendi; kullanıcı beğenmedi ve geri alındı. Logo kullanıcı tarafından verilecek.</li>
+      <li><b>Erişilebilirlik ve acil kullanım:</b> her ekranda görünen 112 düğmesi, büyük yazı, tek elle kullanım; internet olmadan çalışan acil bilgiler.</li>
+      <li><b>KVKK:</b> vatandaş hesap açmıyor; sağlık verisi (kan grubu) yalnızca telefonda şifreli tutuluyor ve sunucuya gönderilmiyor; sorulara kişisel bilgi yazılmaması uyarısı var.</li>
+    </ul>
+    <h3>Özellikler</h3>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Bölüm</th><th>Ne yapıyor</th><th>Formla ilişkisi</th></tr></thead>
+    <tbody>
+      <tr><td>Sohbet</td><td>Cümle cümle kaynak işaretleri (AFAD yeşil, web mavi, "genel bilgi" gri); kaynağa dokununca belge ilgili sayfada açılıyor; bekleme sırasında adımlar; 👍/👎 ve "ne yanlıştı?" notu; sohbet geçmişi telefonda; devam soruları bağlamı koruyor</td><td>Hedef 4 (kullanıcı dostu arayüz), risk tablosundaki hata raporlama mekanizması, 6–8. ay testinin %70 olumlu ölçümü</td></tr>
+      <tr><td>Yardım sinyali</td><td>Yüksek sesli üçlü düdük (uluslararası yardım işareti; ses dosyası programla üretildi), fenerle SOS (· · · — — — · · ·), feneri olmayan telefonlar için ekranla SOS; ses sonuna kadar açılıyor, ekran kapanmıyor</td><td>Afet sonrası destek (ek özellik)</td></tr>
+      <tr><td>Acil durum kartı</td><td>İlk açılışta (atlanabilir): ad soyad, kan grubu, sağlık notu, adres, en fazla 3 yakın; "kurtarıcıya göster" ekranı ve yakınları arama; isteğe bağlı olarak Android kilit ekranında bildirim</td><td>Afet sonrası destek (ek özellik)</td></tr>
+      <tr><td>Kütüphane</td><td>139 AFAD belgesi kategorilere ayrılmış (il afet planları il adıyla); uygulama içinde PDF görüntüleyici; belge belge indirme, 12 belgelik ~55 MB "Temel rehberler" paketi; indirilen belgelerde internetsiz kelime araması (Türkçe karakter ve noktalama farkını görmezden geliyor); 50 MB üstü dosyada veri uyarısı</td><td>Bilgi kirliliğine karşı birincil kaynak; internet kesintisinde erişim</td></tr>
+      <tr><td>Duyurular</td><td>Doğrulanmış kurumların duyuru akışı, il filtresi, şikâyet; kurum başvurusu ve girişi, duyuru yazma (tür, il/ilçe, geçerlilik süresi), "duyurularım"; uygulama içi yönetim ekranı (onay kuyruğu, şikâyetler, başvurular, kurumlar)</td><td>Şekil 1'deki yönetici rolü ve kullanıcı verileri veritabanı; "bilgi kirliliğini azaltma" amacı</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <h3>Doğrulanmış duyuru modeli</h3>
+    <p>Herkesin paylaşım yapabildiği bir akış, 2023'te sosyal medyada görülen sahte haber sorununu uygulamaya taşırdı. Bu yüzden yalnızca kurumlar (AFAD birimi, belediye, kamu, sağlık, STK) başvurup yönetici onayından sonra paylaşım yapabiliyor:</p>
+    <ul>
+      <li><b>Yeni kurum:</b> her duyurusu yönetici onayından sonra yayınlanır. <b>Güvenilir kurum:</b> afette gecikme olmasın diye doğrudan yayınlar; yönetici her an kaldırabilir.</li>
+      <li><b>Geçerlilik süresi zorunlu</b> (6 saat – 30 gün): süresi dolan duyuru akıştan kalkar, çünkü afette eski bilgi de yanlış bilgi kadar tehlikelidir.</li>
+      <li><b>Şikâyet:</b> vatandaşın şikâyeti duyuruyu kendiliğinden kaldırmaz. Şikâyet alan her duyuru (her telefon bir kez sayılır) yöneticinin "Şikâyetler" listesine düşer, kaldırma kararını yalnızca yönetici verir. Böylece toplu ve kasıtlı şikâyetlerle gerçek bir duyuru susturulamaz.</li>
+      <li><b>Güvenlik:</b> şifreler tuzlanmış scrypt özetiyle saklanır; oturum anahtarlarının yalnızca özeti tutulur; 5 hatalı girişten sonra 15 dakika bekleme; askıya alınan kurumun oturumu anında kapanır; ilk yönetici hesabı komut satırından, şifre koda yazılmadan oluşturulur.</li>
+      <li><b>Veritabanı:</b> SQLite (kullanıcılar, oturumlar, gönderiler, şikâyetler).</li>
+    </ul>
+    <h3>Sunucuya eklenenler</h3>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Adres</th><th>Görevi</th></tr></thead>
+    <tbody>
+      <tr><td><code>POST /soru</code></td><td>Cevaba cümle listesi, belge başlığı, kütüphane belge numarası ve alıntının sayfası eklendi</td></tr>
+      <tr><td><code>GET /kutuphane</code>, <code>/kutuphane/{id}/dosya</code>, <code>/kutuphane/{id}/metin</code></td><td>Belge kataloğu, dosyanın kendisi, internetsiz arama için sayfa metinleri; belgelere yalnızca numarayla erişilir</td></tr>
+      <tr><td><code>/hesap/*</code></td><td>Kurum başvurusu, giriş, çıkış</td></tr>
+      <tr><td><code>GET /akis</code>, <code>/gonderiler/*</code></td><td>Duyuru akışı, duyuru yazma ve kaldırma, şikâyet (yalnız yöneticiye bildirim)</td></tr>
+      <tr><td><code>/yonetim/*</code></td><td>Özet, başvuru ve duyuru kararları, güvenilir kurum ayarı</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <h3>Doğrulama</h3>
+    <ul>
+      <li>Otomatik testler: sunucuda API, kütüphane ve duyuru sistemi (10 test; başvuru → onay → yayın, şikâyetlerin yöneticiye ulaşması ve yalnız yöneticinin kaldırması, süre dolması, yetki kontrolleri, kaba kuvvet sınırı); uygulamada 14 test.</li>
+      <li>Gerçek sunucuyla kontrol: 139 belge listelendi, PDF indi, sayfa metinleri geldi; örnek duyurularla akış telefon boyutunda ekran görüntüsüyle incelendi.</li>
+      <li>Android derlemesi başarılı. Proje yolundaki Türkçe karakter ("Masaüstü") Android derlemesini engellediği için proje <code>C:\darg</code>'a taşındı.</li>
+      <li><b>Henüz yapılmadı:</b> gerçek telefonda deneme (düdük, fener, kilit ekranı), sunucu kurulumu, kullanıcı testi.</li>
+    </ul>
+  </div>
+</section>
+
 <section>
   <h2>Çalışma kuralları</h2>
   <ul class="prose">
     <li><b>Final Test v1'e dokunulmaz:</b> sonuç dosyaları okunmaz, test yeniden çalıştırılmaz.</li>
-    <li><b>Final Test v2'yi Claude açmaz:</b> soruları kullanıcı yazar, sistem tamamlanınca bir kez çalıştırılır.</li>
+    <li><b>Final Test v2 kapandı:</b> bir kez çalıştırıldı (16 Ekim); tekrar çalıştırılmaz, sonucuna göre ayar yapılıp yeniden ölçülmez.</li>
+    <li><b>Commit yalnızca kullanıcı onayıyla</b> atılır; push yapılmaz.</li>
     <li><b>Ölçmeden benimseme yok:</b> yeni davranışlar önce yalnızca komut satırında, ölçüldükten sonra varsayılan olur.</li>
     <li><b>Soruya özel yama yok:</b> her düzeltme sistemin geneline uygulanır.</li>
     <li><b>Maliyet önceden söylenir;</b> API anahtarı koda yazılmaz.</li>
@@ -311,21 +381,33 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
 <section>
   <h2>Maliyet</h2>
   <div class="prose">
-    <p>Geliştirme boyunca OpenAI API kullanıldı (soru anlama ve yardımcı adımlar için gpt-4o-mini; cevap yazımı, OCR, il kartları ve hakem için gpt-4o). Son iki gündeki ölçüm, pilot ve kart üretimi işleri birkaç dolar düzeyinde kaldı. Sistemi kullanırken soru başına maliyet yaklaşık 0,015 $.</p>
-    <p>Kalan işler için tahmin: yeni hattın doğrulanması ve tam karşılaştırma ~3 $, kalan rehber OCR'ı ~0,5–0,9 $, altın setle ölçüm her çalıştırmada ~1–1,5 $, Final Test v2 ~2 $. En az ~6–8 $, rahat bir çalışma için ~12–15 $.</p>
+    <p>Geliştirme boyunca OpenAI API kullanıldı (soru anlama ve yardımcı adımlar için gpt-4o-mini; cevap yazımı, OCR, il kartları ve hakem için gpt-4o). Son iki gündeki ölçüm, pilot ve kart üretimi işleri birkaç dolar düzeyinde kaldı. Sistemi kullanırken soru başına maliyet yaklaşık 0,015–0,02 $; web araması gerekirse +0,07–0,09 $. Mobil uygulamanın kütüphane, yardım sinyali, acil durum kartı ve duyuru bölümleri OpenAI kullanmıyor, ücretsiz.</p>
+    <p>Kalan işler için tahmin: kullanıcı testi (soru başına yukarıdaki maliyet; 50 kullanıcı × 10 soru ≈ 10–20 $), sunucu ayda ~5 $ (KTÜ sunucusu kullanılırsa ücretsiz), isteğe bağlı olarak tüm iller için il kartı ~5 $ ve kalan rehber OCR'ı ~0,5 $.</p>
   </div>
 </section>
 
 <section>
-  <h2>Açık sorunlar ve sıradaki adımlar</h2>
-  <ol class="prose">
-    <li>Yeni hattın tam ölçümü (74 + 13 soru) ve eski hatla karşılaştırma.</li>
-    <li>Kullanıcının yazacağı 30–50 soruluk altın test seti: güvenilir cevap ölçümü için şart.</li>
-    <li>Kapsama (Faz 2): araçta/köprüde tavsiye, 2023 depremleri, toplanma alanı adresleri korpusta yok; yeni belge gerekiyor.</li>
-    <li>Kalan rehber sayfalarının OCR'ı, rehber kartları, 80 il için il kartı.</li>
-    <li>Web araması ve ajan yapısı (Faz 5; başvuru formunda söz verildi, ertelenmesi danışmanla konuşulacak).</li>
-    <li>Kurulum, API ve README (Faz 6); en son Final Test v2 (Faz 7, bir kez).</li>
-  </ol>
+  <h2>Başvuru formuna göre durum ve kalan işler</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Formdaki aşama (katkı)</th><th>Başarı ölçütü</th><th>Durum</th><th>Kalan</th></tr></thead>
+    <tbody>
+      <tr><td>1–2. ay Veri toplama (%30)</td><td>Verilerin doğruluğu ve tutarlılığı uzman değerlendirmesinden geçmeli</td><td><span class="pill wip">Kısmen</span></td><td>139 belgelik veri envanteri (kaynak, tür, yıl, il, eksikler) uzmana sunulmalı. Hedef 1'deki bölgesel sayısal veri (deprem sıklığı) için AFAD deprem kataloğu eklenebilir.</td></tr>
+      <tr><td>2–3. ay Veri işleme (%10)</td><td>Performansta %10 artış</td><td><span class="pill done">Kanıt var</span></td><td>Arama başarısı 20/30 → 26/30 (+%30), cevaplanan soru 53 → 59/74; tek tabloda toplanıp keşifsel veri analizi (grafikli EDA) raporu yazılmalı.</td></tr>
+      <tr><td>3–5. ay RAG modeli (%30)</td><td>En az %85 doğruluk</td><td><span class="pill done">Tamam</span></td><td>Uzman değerlendirmesi 40/42 (%95,2). Metodoloji değişikliği (hibrit RAG) danışmanla konuşulacak.</td></tr>
+      <tr><td>5–6. ay Uygulama (%10)</td><td>Arayüze erişim ve modele ulaşılabilmesi</td><td><span class="pill wip">Kod hazır</span></td><td>Sunucu kurulumu (SSH; KTÜ sunucusu ya da ~5 $/ay VPS) ve gerçek telefonda deneme.</td></tr>
+      <tr><td>6–8. ay Test (%10)</td><td>Test kullanıcılarının %70'i olumlu, hata &lt; %10</td><td><span class="pill todo">Sırada</span></td><td>Geri bildirim düğmeleri ve istatistik hazır; sunucu ve test kullanıcıları gerekiyor (formda test merkezi: KTÜ YBS laboratuvarı).</td></tr>
+      <tr><td>8–9. ay Değerlendirme (%10)</td><td>Paylaşımdan sonra dış geliştiricilerin yararlanması</td><td><span class="pill todo">Sırada</span></td><td>Açık GitHub deposu, README, kurulum belgesi, lisans.</td></tr>
+      <tr><td>Yaygın etki</td><td>En az 1 bildiri</td><td><span class="pill todo">Sırada</span></td><td>Ölçüm sonuçları bildiri için yeterli; taslak yazılacak.</td></tr>
+      <tr><td>Hedef 6 Sürdürülebilirlik</td><td>Sistemin geleceğinin değerlendirilmesi</td><td><span class="pill todo">Sırada</span></td><td>Soru başına maliyet, sunucu gideri, bakım; tezde bölüm.</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Bilinen sorunlar</h3>
+  <ul class="prose">
+    <li>Web'den gelen bilginin güncelliği (2023 rakamları, farklı depremlerin karışması).</li>
+    <li>Kapsama: 13 ilin il afet planı yok; il planları 2023 depreminden önce yazılmış; il kartı yalnızca 3 ilde.</li>
+    <li>LLM adımlarının tutarsızlığı: aynı soru farklı çalıştırmalarda farklı kalitede cevaplanabiliyor.</li>
+    <li>Duyuru sisteminde fotoğraf yok (bilinçli); AFAD son depremler akışı henüz eklenmedi.</li>
+  </ul>
 </section>
 
 <footer>

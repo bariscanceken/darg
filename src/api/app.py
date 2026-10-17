@@ -6,6 +6,9 @@ POST /soru           {"soru": "...", "oturum_id": "..."} -> answer, how it was u
 POST /geri-bildirim  {"kayit_id": "...", "puan": "iyi" | "kotu", "not": "..."}
 GET  /istatistik     answered questions, positive-feedback share (form: >= 70%), bad-answer share (form: < 10%)
 GET  /saglik         liveness check
+GET  /kutuphane                  document library: every source document with title, category, province, size
+GET  /kutuphane/{id}/dosya       the document itself (PDF or image), for reading or offline download
+GET  /kutuphane/{id}/metin       its page texts, for keyword search on the phone without internet
 
 Every question/answer and every feedback is appended to data/logs/ (git-ignored: questions may contain
 personal information). Conversations are kept in memory per oturum_id (last turns only).
@@ -16,14 +19,19 @@ from __future__ import annotations
 import json
 import threading
 import time
+import unicodedata
 import uuid
 from datetime import datetime, timezone
+from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
+from src.api import library
 from src.rag.context import clean_url
 from src.rag.generate_answer import generate_answer_v3
 from src.rag.pipeline_v3 import MAX_HISTORY_TURNS
@@ -34,6 +42,8 @@ FEEDBACK_LOG = LOG_DIR / "feedback.jsonl"
 MAX_SESSIONS = 1000
 
 app = FastAPI(title="DARG", description="AFAD belgelerine dayalı Türkçe deprem bilgi asistanı", version="1.0")
+# The mobile app's web build (flutter run -d chrome) calls the API from another origin.
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["GET", "POST", "DELETE"], allow_headers=["*"])
 _sessions: dict[str, list[dict[str, str]]] = {}
 _lock = threading.Lock()
 
@@ -48,12 +58,22 @@ class Source(BaseModel):
     tur: Literal["afad", "web", "il_karti"]
     kaynak: str
     sayfa: str | None = None
+    baslik: str | None = Field(default=None, description="AFAD belgesinin başlığı")
+    belge_id: str | None = Field(default=None, description="Kütüphanedeki belge (/kutuphane/{belge_id}/dosya)")
+    ilk_sayfa: int | None = Field(default=None, description="Alıntının başladığı sayfa numarası")
+
+
+class Sentence(BaseModel):
+    metin: str
+    kaynaklar: list[int] = Field(description="Cümlenin dayandığı kaynak numaraları; boşsa genel bilgi")
 
 
 class Answer(BaseModel):
     kayit_id: str
     oturum_id: str
     cevap: str
+    cumleler: list[Sentence] = Field(description="Cevabın cümleleri (uygulamalar kaynakları cümle cümle gösterir); "
+                                                 "boşsa yalnız 'cevap' metni gösterilir")
     anlasilan_soru: str
     kaynaklar: list[Source]
     web_kullanildi: bool
@@ -78,18 +98,53 @@ def _read(path: Path) -> list[dict]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
 
+@lru_cache(maxsize=1)
+def _library_by_file() -> dict[str, library.LibraryDocument]:
+    """Library documents by file name: an AFAD source links to the document the app can open."""
+    return {document.file_name: document for document in library.catalog()}
+
+
 def _source(meta: dict) -> Source:
     chunk_id = str(meta.get("chunk_id", ""))
     if chunk_id.startswith("web:"):
         return Source(etiket=meta["source_label"], tur="web", kaynak=clean_url(str(meta.get("source_file"))))
     kind = "il_karti" if chunk_id.startswith("il_karti:") else "afad"
-    return Source(etiket=meta["source_label"], tur=kind, kaynak=str(meta.get("source_file")),
-                  sayfa=meta.get("page_label") or None)
+    name = str(meta.get("source_file"))
+    document = _library_by_file().get(unicodedata.normalize("NFC", name)) if kind == "afad" else None
+    return Source(etiket=meta["source_label"], tur=kind, kaynak=name, sayfa=meta.get("page_label") or None,
+                  baslik=document.title if document else None, belge_id=document.id if document else None,
+                  ilk_sayfa=meta.get("page_start") if document else None)
 
 
 @app.get("/saglik")
 def health() -> dict:
     return {"durum": "ok"}
+
+
+@app.get("/kutuphane")
+def library_catalog() -> dict:
+    documents = library.catalog()
+    return {"belgeler": [document.to_api() for document in documents],
+            "temel_paket": [document.id for document in documents if document.core],
+            "kategoriler": library.CATEGORIES}
+
+
+def _library_document(document_id: str) -> library.LibraryDocument:
+    document = library.find(document_id)
+    if document is None or not document.path.exists():
+        raise HTTPException(status_code=404, detail="Bu numarayla bir belge bulunamadı.")
+    return document
+
+
+@app.get("/kutuphane/{document_id}/dosya")
+def library_file(document_id: str) -> FileResponse:
+    document = _library_document(document_id)
+    return FileResponse(document.path, media_type=document.media_type, filename=document.file_name)
+
+
+@app.get("/kutuphane/{document_id}/metin")
+def library_text(document_id: str) -> dict:
+    return {"id": document_id, "sayfalar": library.page_texts(_library_document(document_id))}
 
 
 @app.post("/soru", response_model=Answer)
@@ -112,7 +167,8 @@ def ask(question: Question) -> Answer:
                      "soru": question.soru, "anlasilan_soru": result["standalone_question"], "cevap": result["answer"],
                      "kaynaklar": [source.model_dump() for source in sources], "web_kullanildi": result["used_web"],
                      "sure_sn": seconds})
-    return Answer(kayit_id=record_id, oturum_id=session_id, cevap=result["answer"],
+    sentences = [Sentence(metin=s["text"], kaynaklar=s.get("sources", [])) for s in result.get("sentences", [])]
+    return Answer(kayit_id=record_id, oturum_id=session_id, cevap=result["answer"], cumleler=sentences,
                   anlasilan_soru=result["standalone_question"], kaynaklar=sources,
                   web_kullanildi=result["used_web"], sure_sn=seconds)
 
