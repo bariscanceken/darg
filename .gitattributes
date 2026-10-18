@@ -1,0 +1,5 @@
+# Server scripts and configs run on Linux: keep LF line endings even when committed from Windows.
+*.sh text eol=lf
+deploy/Caddyfile text eol=lf
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf

@@ -1,0 +1,10 @@
+# Only the code and the small, git-tracked lookup data go into the image; the corpus is mounted at run time.
+*
+!Dockerfile
+!requirements.txt
+!src/
+!data/geo/
+!data/province_cards/
+!data/query_normalization/
+**/__pycache__/
+**/*.pyc

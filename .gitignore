@@ -23,3 +23,7 @@ bills/
 data/logs/
 # App database (organisation accounts, posts)
 data/app/
+# Data package copied to the server once (deploy/veri_paketle.ps1)
+darg-veri.tar.gz
+# The settings template (no secrets) is needed on the server
+!.env.example

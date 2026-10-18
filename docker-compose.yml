@@ -1,0 +1,41 @@
+# DARG on a server: `docker compose up -d --build` (or deploy/guncelle.sh). Settings come from .env
+# (see .env.example). Step-by-step setup in Turkish: deploy/KURULUM.md.
+services:
+  api:
+    build: .
+    image: darg-api
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      # corpus and index: copied to the server once (deploy/veri_paketle.ps1), read-only here
+      - ./data/raw:/app/data/raw:ro
+      - ./data/indexes:/app/data/indexes:ro
+      - ./data/processed:/app/data/processed:ro
+      # written by the API: organisation accounts and posts (SQLite), question/feedback logs
+      - ./data/app:/app/data/app
+      - ./data/logs:/app/data/logs
+    ports:
+      # 127.0.0.1: only Caddy (below) reaches it. Set API_BIND=0.0.0.0 in .env to open port 8000 directly.
+      - "${API_BIND:-127.0.0.1}:8000:8000"
+
+  # HTTPS in front of the API, with an automatic free certificate. Needs ports 80 and 443 free on the server;
+  # enabled by COMPOSE_PROFILES=https in .env.
+  caddy:
+    image: caddy:2
+    profiles: ["https"]
+    restart: unless-stopped
+    depends_on:
+      - api
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - DOMAIN=${DOMAIN:-}  # set in .env; Caddy refuses to start without it
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
