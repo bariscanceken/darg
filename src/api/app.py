@@ -18,6 +18,7 @@ personal information). Conversations are kept in memory per oturum_id (last turn
 from __future__ import annotations
 
 import json
+import logging
 import threading
 import time
 import unicodedata
@@ -35,7 +36,11 @@ from pydantic import BaseModel, Field
 from src.api import community, library
 from src.rag.context import clean_url
 from src.rag.generate_answer import generate_answer_v3
-from src.rag.pipeline_v3 import MAX_HISTORY_TURNS
+from src.rag.pipeline_v3 import MAX_HISTORY_TURNS, ServiceUnavailable
+
+logger = logging.getLogger("darg.api")
+SERVICE_DOWN_MESSAGE = ("DARG şu anda cevap veremiyor: yapay zekâ hizmetine bağlanılamadı. Lütfen biraz sonra tekrar "
+                        "deneyin. Acil bir durumdaysanız hemen 112'yi arayın.")
 
 LOG_DIR = Path("data/logs")
 QA_LOG = LOG_DIR / "qa_log.jsonl"
@@ -155,7 +160,11 @@ def ask(question: Question) -> Answer:
     with _lock:
         history = list(_sessions.get(session_id, []))
     start = time.perf_counter()
-    result = generate_answer_v3(question.soru, history=history)
+    try:
+        result = generate_answer_v3(question.soru, history=history)
+    except ServiceUnavailable as error:
+        logger.error("Language-model service unavailable: %s", error)  # e.g. invalid OpenAI key: renew .env
+        raise HTTPException(status_code=503, detail=SERVICE_DOWN_MESSAGE) from error
     seconds = round(time.perf_counter() - start, 1)
     record_id = uuid.uuid4().hex
     sources = [_source(meta) for meta in result["sources"]]

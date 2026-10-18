@@ -53,6 +53,15 @@ class ApiTest(unittest.TestCase):
         stats = self.client.get("/istatistik").json()
         self.assertEqual((stats["soru_sayisi"], stats["geri_bildirim_sayisi"], stats["olumlu_orani"]), (2, 2, 0.5))
 
+    def test_service_failure_is_a_503_with_a_clear_message_and_is_not_logged_as_an_answer(self):
+        from src.rag.pipeline_v3 import ServiceUnavailable
+
+        with mock.patch.object(api, "generate_answer_v3", side_effect=ServiceUnavailable("AuthenticationError: 401")):
+            response = self.client.post("/soru", json={"soru": "artvinde hangi hastaneler var"})
+        self.assertEqual(response.status_code, 503)
+        self.assertIn("yapay zekâ hizmetine bağlanılamadı", response.json()["detail"])
+        self.assertEqual(self.client.get("/istatistik").json()["soru_sayisi"], 0)
+
     def test_unknown_record_and_empty_question_are_rejected(self):
         self.assertEqual(self.client.post("/geri-bildirim", json={"kayit_id": "yok", "puan": "iyi"}).status_code, 404)
         self.assertEqual(self.client.post("/soru", json={"soru": ""}).status_code, 422)

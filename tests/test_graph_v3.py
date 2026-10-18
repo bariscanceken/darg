@@ -71,6 +71,36 @@ class GraphMatchesFlatPipelineTest(unittest.TestCase):
 
 
 
+class ServiceFailureTest(unittest.TestCase):
+    """An invalid key or an outage must surface as ServiceUnavailable, not as "try asking differently"."""
+
+    def run_with(self, error):
+        class Client(FakeClient):
+            def create(self, **kwargs):
+                if kwargs.get("instructions") == pipeline_v3.ANSWER_PROMPT:
+                    raise error
+                return super().create(**kwargs)
+
+        with mock.patch.object(graph_v3, "retrieve_wide", return_value=[PASSAGE]):
+            return graph_v3.run_graph_v3("artvinde hangi hastaneler var", Client(), None, [], None, None,
+                                         web_search=False)
+
+    def test_invalid_key_is_a_service_failure(self):
+        import httpx
+        import openai
+
+        response = httpx.Response(401, request=httpx.Request("POST", "https://api.openai.com/v1/responses"))
+        with self.assertRaises(pipeline_v3.ServiceUnavailable):
+            self.run_with(openai.AuthenticationError("Your API key has been invalidated.", response=response,
+                                                     body=None))
+        with self.assertRaises(pipeline_v3.ServiceUnavailable):
+            self.run_with(openai.APIConnectionError(request=httpx.Request("POST", "https://api.openai.com")))
+
+    def test_other_errors_still_end_in_the_safe_empty_answer(self):
+        result = self.run_with(ValueError("malformed model output"))
+        self.assertEqual((result["status"], result["answer"]), ("empty", pipeline_v3.NO_ANSWER))
+
+
 class ConversationTest(unittest.TestCase):
     def test_follow_up_is_made_standalone_and_first_turn_is_untouched(self):
         from src.rag.pipeline_v3 import CONTEXT_PROMPT, contextualize

@@ -254,6 +254,21 @@ def format_labelled_passages(passages: list[dict[str, Any]]) -> str:
     return "\n\n".join(blocks)
 
 
+class ServiceUnavailable(RuntimeError):
+    """The language-model service cannot be used (invalid key, no credit, rate limit, network, outage).
+
+    Not the question's fault, so it must not end as NO_ANSWER ("try asking differently"): the API turns it into a
+    503 with a clear message, and the operator sees the real reason in the server log.
+    """
+
+
+def is_service_failure(error: BaseException) -> bool:
+    import openai
+
+    return isinstance(error, (openai.AuthenticationError, openai.PermissionDeniedError, openai.RateLimitError,
+                              openai.APIConnectionError, openai.InternalServerError))
+
+
 def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model: str) -> list[dict[str, Any]]:
     try:
         response = client.responses.create(model=model, instructions=ANSWER_PROMPT,
@@ -261,8 +276,10 @@ def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model
                                                  f"{format_labelled_passages(passages)}",
                                            max_output_tokens=ANSWER_MAX_OUTPUT_TOKENS, temperature=0)
         payload = parse_json(extract_response_text(response)) or {}
-    except Exception:
-        payload = {}
+    except Exception as error:
+        if is_service_failure(error):
+            raise ServiceUnavailable(f"{type(error).__name__}: {error}") from error
+        payload = {}  # a malformed answer is handled like an empty one
     return emergency_first(header, check_general_sentences(header, verify_sentences(payload, passages), client, model))
 
 

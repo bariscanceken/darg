@@ -54,7 +54,13 @@ class DargApi {
       throw ApiException('Sunucuya ulaşılamadı. İnternet bağlantınızı ve sunucu adresini kontrol edin.');
     }
     if (response.statusCode != 200) {
-      throw ApiException('Sunucu bir hata döndürdü (${response.statusCode}). Lütfen tekrar deneyin.');
+      // The server explains known failures (e.g. 503: the AI service is unreachable) in "detail".
+      String? detail;
+      try {
+        final body = jsonDecode(utf8.decode(response.bodyBytes));
+        if (body is Map && body['detail'] is String) detail = body['detail'] as String;
+      } catch (_) {}
+      throw ApiException(detail ?? 'Sunucu bir hata döndürdü (${response.statusCode}). Lütfen tekrar deneyin.');
     }
     final json = jsonDecode(utf8.decode(response.bodyBytes)) as Map<String, dynamic>;
     return AnswerResult(
