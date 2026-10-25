@@ -101,6 +101,35 @@ class ServiceFailureTest(unittest.TestCase):
         self.assertEqual((result["status"], result["answer"]), ("empty", pipeline_v3.NO_ANSWER))
 
 
+class TruncatedAnswerTest(unittest.TestCase):
+    """A long answer cut off by the output limit keeps its complete sentences instead of becoming NO_ANSWER."""
+
+    CUT = ('{"sentences": [{"text": "Elektrik düğmelerini kullanmayın.", "basis": "afad", "quotes": [{"source": 1, '
+           '"quote": "asansör ve merdiven kullanmayın"}]}, {"text": "Vanayı kapatın.", "basis": "genel", "quotes": []},'
+           ' {"text": "Binayı hemen terk edin ve', )[0]
+
+    def test_complete_sentences_are_salvaged(self):
+        payload = pipeline_v3.salvage_sentences(self.CUT)
+        self.assertEqual([s["text"] for s in payload["sentences"]],
+                         ["Elektrik düğmelerini kullanmayın.", "Vanayı kapatın."])
+        self.assertEqual(pipeline_v3.salvage_sentences("tamamen bozuk"), {})
+
+    def test_graph_answers_from_a_cut_off_response(self):
+        cut = self.CUT
+
+        class Client(FakeClient):
+            def create(self, **kwargs):
+                if kwargs.get("instructions") == pipeline_v3.ANSWER_PROMPT:
+                    return FakeResponse(cut)
+                return super().create(**kwargs)
+
+        with mock.patch.object(graph_v3, "retrieve_wide", return_value=[PASSAGE]):
+            result = graph_v3.run_graph_v3("doğalgaz kokusu alırsam ne yapmalıyım", Client(), None, [], None, None,
+                                           web_search=False)
+        self.assertEqual(result["status"], "ok")
+        self.assertIn("Elektrik düğmelerini kullanmayın.", result["answer"])
+
+
 class ConversationTest(unittest.TestCase):
     def test_follow_up_is_made_standalone_and_first_turn_is_untouched(self):
         from src.rag.pipeline_v3 import CONTEXT_PROMPT, contextualize

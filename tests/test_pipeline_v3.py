@@ -26,6 +26,9 @@ class ScopeAndWebDecisionTest(unittest.TestCase):
         self.assertFalse(needs_web("deprem sırasında asansör kullanılır mı", afad))
         self.assertTrue(needs_web("6 şubat 2023 depreminde hatayda ne oldu", afad))
         self.assertTrue(needs_web("deprem çantası", [{"text": "a", "sources": []}]))
+        # several general-knowledge sentences next to an AFAD-backed one no longer trigger a (costly) web search
+        mixed = afad + [{"text": "b", "sources": []}, {"text": "c", "sources": []}]
+        self.assertFalse(needs_web("deprem anında balkona çıkılır mı", mixed))
 
 
 class VerifyAndRenderTest(unittest.TestCase):
@@ -74,3 +77,12 @@ class EmergencyOrderTest(unittest.TestCase):
         sentences = [{"text": "Hastane A.", "sources": [1]}, {"text": "112'yi arayın.", "sources": []}]
         self.assertEqual(emergency_first("Soru: yaralı var ne yapalım", sentences)[0]["text"], "112'yi arayın.")
         self.assertEqual(emergency_first("Soru: deprem çantası", sentences)[0]["text"], "Hastane A.")
+
+    def test_emergency_answer_without_112_gets_it_added_first(self):
+        from src.rag.pipeline_v3 import CALL_112, emergency_first
+
+        sentences = [{"text": "Yaralıyı hareket ettirmeyin.", "sources": [2]}]
+        answer = emergency_first("Soru: ağır yaralı birini hareket ettirmeli miyim", sentences)
+        self.assertEqual([s["text"] for s in answer], [CALL_112, "Yaralıyı hareket ettirmeyin."])
+        self.assertEqual(emergency_first("Soru: enkaz altındayım", []), [])  # NO_ANSWER already says 112
+        self.assertEqual(emergency_first("Soru: deprem çantası", sentences), sentences)  # not an emergency

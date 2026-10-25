@@ -590,9 +590,14 @@ def generate_answer_v2(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
 
 def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, location: Location | None = None,
                        local_info: bool = True, allow_model_download: bool = False,
-                       web_search: bool = True, history: list[dict[str, str]] | None = None) -> dict[str, Any]:
-    """Pipeline v3 (helpful answer + AFAD verification) with the same result shape as generate_answer."""
+                       web_search: bool = True, history: list[dict[str, str]] | None = None,
+                       answer_model: str | None = None) -> dict[str, Any]:
+    """Pipeline v3 (helpful answer + AFAD verification) with the same result shape as generate_answer.
+
+    answer_model: model that writes (and checks) the answer; None keeps the measured default (pipeline_v3.ANSWER_MODEL).
+    """
     from .graph_v3 import run_graph_v3  # LangGraph orchestration of the v3 steps (same results as run_pipeline_v3)
+    from .pipeline_v3 import ANSWER_MODEL
 
     load_environment()
     client = load_openai_client()
@@ -602,7 +607,7 @@ def generate_answer_v3(question: str, *, index_dir: Path = CLI_V2_INDEX_DIR, loc
     )
     result = run_graph_v3(question, client, index, metadata, embedding_model, reranker, location=location,
                              local_info_builder=build_local_info if local_info else None, web_search=web_search,
-                             history=history)
+                             history=history, answer_model=answer_model or ANSWER_MODEL)
     sources = [source_metadata(number, passage) for number, passage in enumerate(result["passages"], start=1)]
     found = result["location"]
     understanding = result["understanding"]

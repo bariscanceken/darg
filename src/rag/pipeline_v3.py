@@ -23,6 +23,8 @@ web quotes are verified the same way and shown with their URL.
 
 from __future__ import annotations
 
+import json
+import logging
 import re
 from typing import Any
 
@@ -39,9 +41,15 @@ from .query_normalization import turkish_lower
 from .situation import AFTER, passage_situation
 from .source_routing import policy_for
 
-ANSWER_MODEL = "gpt-4o"
+logger = logging.getLogger("darg.pipeline")
+
+# Writes and checks the answer. gpt-4o until 26 Oct 2026 (Final Test v2, expert-graded 40/42, was run with gpt-4o);
+# switched by the project owner for cost after model_check_v1: gpt-4.1-mini 29/32 correct, ~6x cheaper per answer
+# (one first-aid answer, M13, awaits an expert's safety opinion).
+ANSWER_MODEL = "gpt-4.1-mini"
 PASSAGES = 8
-ANSWER_MAX_OUTPUT_TOKENS = 900
+# Sentences carry verbatim quotes, so long answers are long; 900 cut cheaper (more verbose) models mid-JSON (25 Oct).
+ANSWER_MAX_OUTPUT_TOKENS = 1400
 NO_ANSWER = ("Bu soruya şu anda güvenilir bir cevap üretemedim. Acil bir durumdaysanız hemen 112 Acil Çağrı "
              "Merkezi'ni arayın; sorunuzu biraz farklı yazarak tekrar deneyebilirsiniz.")
 OFF_TOPIC_ANSWER = ("DARG deprem ve afetlerle ilgili soruları cevaplıyor; bu soru bu kapsamın dışında görünüyor. "
@@ -149,12 +157,16 @@ web araması yaparak cevapla. Kısa, Türkçe ve yalnızca bulduğun bilgiyle ya
 
 
 def needs_web(question: str, sentences: list[dict[str, Any]]) -> bool:
-    """The agent's choice: stay with the AFAD vector store, or also search official web sources."""
+    """The agent's choice: stay with the AFAD vector store, or also search official web sources.
+
+    Web search costs ~5x a plain answer, so it runs only for current information (dates, hospitals, addresses,
+    applications) or when no sentence is backed by an AFAD document. The former third rule ("2+ general-knowledge
+    sentences") sent a quarter of all questions to the web, e.g. "deprem anında balkona çıkılır mı"; it was dropped on
+    26 Oct 2026 for cost (general sentences still pass check_general_sentences). Not yet re-measured.
+    """
     if CURRENT_INFO_RE.search(turkish_lower(question)):
         return True
-    afad = sum(1 for sentence in sentences if sentence["sources"])
-    general = len(sentences) - afad
-    return afad == 0 or general >= 2
+    return not any(sentence["sources"] for sentence in sentences)
 
 
 def web_passages(question: str, client: Any, model: str = WEB_MODEL) -> list[dict[str, Any]]:
@@ -269,13 +281,40 @@ def is_service_failure(error: BaseException) -> bool:
                               openai.APIConnectionError, openai.InternalServerError))
 
 
+def salvage_sentences(text: str) -> dict[str, Any]:
+    """Complete sentence objects from an answer whose JSON was cut off (output limit): {"sentences": [...]}.
+
+    Without this, one unfinished last sentence threw the whole answer away (NO_ANSWER).
+    """
+    start = text.find('"sentences"')
+    start = text.find("[", start) if start >= 0 else -1
+    if start < 0:
+        return {}
+    decoder, position, sentences = json.JSONDecoder(), start + 1, []
+    while True:
+        while position < len(text) and text[position] in " \t\r\n,":
+            position += 1
+        try:
+            item, position = decoder.raw_decode(text, position)
+        except json.JSONDecodeError:
+            break
+        if isinstance(item, dict):
+            sentences.append(item)
+    return {"sentences": sentences} if sentences else {}
+
+
 def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model: str) -> list[dict[str, Any]]:
     try:
         response = client.responses.create(model=model, instructions=ANSWER_PROMPT,
                                            input=f"{header}\n\nKaynaklar (AFAD belgeleri; varsa resmî web sonuçları):\n"
                                                  f"{format_labelled_passages(passages)}",
                                            max_output_tokens=ANSWER_MAX_OUTPUT_TOKENS, temperature=0)
-        payload = parse_json(extract_response_text(response)) or {}
+        text = extract_response_text(response)
+        payload = parse_json(text)
+        if payload is None:
+            payload = salvage_sentences(text)
+            logger.warning("Answer JSON incomplete (status=%s); kept %d complete sentence(s)",
+                           getattr(response, "status", "?"), len(payload.get("sentences", [])))
     except Exception as error:
         if is_service_failure(error):
             raise ServiceUnavailable(f"{type(error).__name__}: {error}") from error
@@ -286,12 +325,21 @@ def write_answer(header: str, passages: list[dict[str, Any]], client: Any, model
 EMERGENCY_RE = re.compile(r"yaralı|yarali|yaralan|yaraland|kanama|kanıyor|enkaz|yangın|yangin|bayıl|bayil|nefes almıyor|acil")
 
 
+CALL_112 = "Acil bir durumdaysanız önce hemen 112 Acil Çağrı Merkezi'ni arayın."
+
+
 def emergency_first(header: str, sentences: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """In an emergency question the "call 112" sentence comes first, whatever order the model chose."""
-    if not EMERGENCY_RE.search(turkish_lower(header)):
+    """In an emergency question the answer starts with "call 112", whatever the model wrote.
+
+    The model's own 112 sentence is moved to the front; if it wrote none (seen with cheaper models, 25 Oct), a fixed
+    one is added. An empty answer stays empty: NO_ANSWER already points to 112.
+    """
+    if not sentences or not EMERGENCY_RE.search(turkish_lower(header)):
         return sentences
     calls = [sentence for sentence in sentences if "112" in sentence["text"]]
-    return calls[:1] + [sentence for sentence in sentences if sentence is not (calls[0] if calls else None)]
+    if not calls:
+        return [{"text": CALL_112, "sources": [], "claimed_afad": False}] + sentences
+    return calls[:1] + [sentence for sentence in sentences if sentence is not calls[0]]
 
 
 MAX_HISTORY_TURNS = 3

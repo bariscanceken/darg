@@ -85,7 +85,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   <div class="eyebrow">TÜBİTAK 2209-A · KTÜ · Proje çalışma raporu</div>
   <h1>DARG: Claude ile yürütülen geliştirme çalışmaları</h1>
   <p class="lede">AFAD belgelerine dayanarak Türkçe deprem sorularını cevaplayan RAG sisteminin Eylül–Ekim 2026 arasında Claude Code ile birlikte nasıl geliştirildiği, neyin ölçüldüğü, neyin işe yaramadığı ve sistemin bugün nerede durduğu.</p>
-  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 17 Ekim 2026</p>
+  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 26 Ekim 2026</p>
   <svg class="trace" viewBox="0 0 860 36" preserveAspectRatio="none" aria-hidden="true">
     <polyline fill="none" stroke="currentColor" stroke-width="1.5" points="0,18 120,18 140,17 150,19 160,18 300,18 310,12 318,26 326,6 334,30 342,10 350,24 358,16 366,20 380,18 520,18 530,15 538,22 546,17 560,18 860,18"/>
   </svg>
@@ -114,6 +114,8 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
     <div class="tl"><span class="date">15 Ekim 2026</span><p><b>Mimari yenileme.</b> Yapı korumalı belge çıkarma, OCR, başlıklı parçalar ve yeni index (v5), üç adımlı yeni cevap hattı.</p></div>
     <div class="tl"><span class="date">16 Ekim 2026</span><p><b>Hibrit RAG ve bağımsız test.</b> v3 (AFAD önce, genel bilgi ve resmî web işaretli), LangGraph orkestrasyonu, hibrit karar ajanı, Final Test v2 (tek sefer), konuşma hafızası, web API.</p></div>
     <div class="tl"><span class="date">16–17 Ekim 2026</span><p><b>Uzman onayı ve mobil uygulama.</b> Final Test v2 uzman değerlendirmesi (40/42). Flutter uygulaması: sohbet, açık/koyu tema, yardım sinyali, acil durum kartı, internetsiz kütüphane, kurum hesapları ve onaylı duyuru akışı.</p></div>
+    <div class="tl"><span class="date">18–19 Ekim 2026</span><p><b>Sunucu.</b> Kaynak ihtiyacı ölçüldü (GPU gerekmiyor), EVREN ve ücretsiz seçenekler araştırıldı, Hostinger KVM 2 (Frankfurt) ve <code>darg.network</code> alındı; Docker ile paketleme, tek komutla güncelleme, SSH ile kurulum. Geçersiz OpenAI anahtarının yanıltıcı mesaja dönüşmesi düzeltildi.</p></div>
+    <div class="tl"><span class="date">25–26 Ekim 2026</span><p><b>Maliyet.</b> Soru başına maliyet analizi; gpt-4o-mini ve gpt-4.1-mini ile ucuz model denemesi; uzun cevapların yarıda kesilmesi hatası ve acil sorularda 112 garantisi düzeltildi; bağımsız ölçüm seti yazıldı.</p></div>
   </div>
 </section>
 
@@ -366,12 +368,169 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   </div>
 </section>
 
+<section id="sunucu">
+  <h2>Sunucu kurulumu (18–19 Ekim)</h2>
+  <div class="prose">
+    <p>Formdaki "API geliştirme" ve "sunucu işlemleri" (sunucunun belirlenmesi, SSH ile kurulum) maddeleri ve 5–6. ay ölçütü ("arayüze erişim sağlanıyorsa ve modele ulaşılabiliniyorsa") için sistem bir sunucuya taşınıyor.</p>
+    <h3>Sunucu ihtiyacının ölçülmesi</h3>
+    <p>Sunucu seçiminden önce sistemin kaynak ihtiyacı geliştirme bilgisayarında, GPU kullanmadan ölçüldü. Büyük dil modeli sunucuda değil OpenAI'de çalıştığı için sunucuda yalnızca iki küçük arama modeli (E5-small ve MiniLM sıralayıcı) ve index bulunuyor.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ölçüm</th><th>Sonuç</th></tr></thead>
+    <tbody>
+      <tr><td>Bellek (modeller, index, BM25 yüklü)</td><td class="num">~2–3 GB</td></tr>
+      <tr><td>Arama + yeniden sıralama, soru başına</td><td class="num">1–2,5 sn (ilk soru 4–6,6 sn, ısınma)</td></tr>
+      <tr><td>Açılış (modeller + index)</td><td class="num">~8–10 sn</td></tr>
+      <tr><td>Disk: belgeler / modeller / index ve metinler</td><td class="num">2,5 GB / 0,9 GB / 0,15 GB</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <p><b>Sonuç:</b> GPU gerekmiyor. GPU'lu sunucular ayda yüzlerce dolar tutarken arama süresini yalnızca ~1 saniye kısaltır; toplam cevap süresinin (~10 sn) büyük kısmı OpenAI'yi beklemekle geçiyor. Önerilen asgari sunucu: 2+ çekirdek, 4–6 GB boş bellek, 15 GB disk.</p>
+    <h3>Seçenekler ve karar</h3>
+    <ul>
+      <li><b>EVREN (SSB'nin milli yapay zekâ platformu, evren.ssyz.org.tr):</b> danışmanın önerisiyle araştırıldı. Kendi uygulamamızı barındıran bir sunucu değil; OpenAI uyumlu API ile açık ağırlıklı modeller (sohbet, embedding, rerank, OCR, konuşma tanıma), model eğitimi ve veri etiketleme sunuyor. Model çağrıları 1 Kasım 2026'ya kadar kredi düşmüyor, veriler Türkiye'de işleniyor. OpenAI'nin yerine kullanılması ileride ölçülerek değerlendirilebilir; web araması sunmadığı için hibrit karar ajanı için ayrı çözüm gerekir. Sunucu ihtiyacını karşılamıyor.</li>
+      <li><b>Ücretsiz seçenekler:</b> KTÜ sunucusu, arkadaş sunucusu, Oracle Cloud "Always Free" (resmî belgeye göre 2 ARM çekirdek, 12 GB bellek, 200 GB disk; 7 gün boyunca işlemci, ağ ve bellek kullanımı %20'nin altında kalan sunucuları geri alabiliyor) incelendi.</li>
+      <li><b>Kiralık sunucu:</b> 1 çekirdek/4 GB'lık paket bellekte sınırda (~3 / 4 GB) ve tek çekirdekte yavaş kalacağı için elendi. Kalan TÜBİTAK bütçesi ve kullanıcı katkısıyla <b>Hostinger KVM 2</b> (2 çekirdek, 8 GB bellek, 100 GB NVMe disk, Ubuntu 24.04) <b>Frankfurt</b> veri merkezinde 12 aylık alındı (bitiş 18 Ekim 2027). Konum, Türkiye'ye yakınlık ve AB veri koruma (GDPR) kuralları nedeniyle seçildi. 1 yıllık ücretsiz alan adı <code>darg.network</code> alındı. Günlük ücretli yedekleme alınmadı; yedeklenmesi gereken tek dosya küçük bir veritabanı. Otomatik yenilemeler kapatılacak.</li>
+    </ul>
+    <h3>Docker ile paketleme</h3>
+    <p>Sunucuya kurulum ve sonraki güncellemeler, kullanıcının sürekli elle güncelleme yapma kaygısı nedeniyle tek komuta indirildi.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Dosya</th><th>Görevi</th></tr></thead>
+    <tbody>
+      <tr><td><code>Dockerfile</code></td><td>Sistemi tek bir kutuya (image) koyar. GPU'suz PyTorch kullanılır (gereksiz ~2 GB CUDA kütüphanesi girmez). İki arama modeli kurulum sırasında kutuya gömülür; sunucu açılışta internetten model indirmez.</td></tr>
+      <tr><td><code>docker-compose.yml</code></td><td>API ve isteğe bağlı Caddy (otomatik HTTPS sertifikası). Belgeler, index ve işlenmiş metinler sunucudan salt okunur bağlanır; veritabanı ve kayıtlar kutunun dışında tutulur, güncellemede silinmez. API yalnızca sunucunun içinden erişilebilir (127.0.0.1), dışarıya Caddy açılır.</td></tr>
+      <tr><td><code>deploy/guncelle.sh</code></td><td>Tek komutla güncelleme: GitHub'dan kodu çeker, kutuyu yeniden kurar, sistemin açıldığını sağlık kontrolüyle doğrular.</td></tr>
+      <tr><td><code>deploy/veri_paketle.ps1</code></td><td>Git'te olmayan verileri (belgeler, index, metinler) tek dosyada paketler (2,45 GB).</td></tr>
+      <tr><td><code>deploy/KURULUM.md</code></td><td>Adım adım Türkçe kurulum rehberi.</td></tr>
+      <tr><td><code>.env.example</code></td><td>Ayar şablonu: OpenAI anahtarı, adres. Gerçek <code>.env</code> dosyası hiçbir zaman GitHub'a gitmez.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <p><b>Yerel deneme (Docker, geliştirme bilgisayarı, OpenAI'siz):</b> kutu 3,9 GB; sağlık kontrolü ve kütüphane (139 belge) çalıştı; modeller kutunun içinden internetsiz 8 saniyede yüklendi; arama ilk soruda 4 sn, sonra 1 sn; bellek ~2–3 GB.</p>
+    <h3>Güvenlik kararları</h3>
+    <ul>
+      <li><b>API anahtarı</b> koda ve kutuya gömülmüyor; sunucuda yalnızca root'un okuyabildiği <code>.env</code> dosyasında (<code>chmod 600</code>). Sunucu için ayrı ve harcama sınırlı bir anahtar önerildi.</li>
+      <li><b>Gizli GitHub deposu</b>na sunucudan yalnızca bu depoyu <b>salt okunur</b> çekebilen bir "deploy key" ile erişiliyor; GitHub'dan tek tıkla iptal edilebiliyor.</li>
+      <li><b>Güvenlik duvarı (ufw):</b> dışarıya yalnızca SSH (22) ve web (80/443) açık.</li>
+      <li><b>HTTPS:</b> alan adı satın almadan <code>sunucu-ip.sslip.io</code> adresiyle ücretsiz sertifika; sonra <code>darg.network</code>'e geçilecek.</li>
+      <li><b>Mobil uygulamada anahtar yok:</b> telefon yalnızca sunucuyla konuşuyor.</li>
+    </ul>
+    <h3>Kurulum adımları ve durum</h3>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Adım</th><th>Durum</th></tr></thead>
+    <tbody>
+      <tr><td>SSH ile bağlantı, 36 güvenlik güncellemesi</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Docker (Hostinger Docker Yöneticisi ile hazır geldi)</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Deploy key ve kodun GitHub'dan çekilmesi</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Ayar dosyası (.env, yalnız root okuyabilir)</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Güvenlik duvarı</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Docker kutusunun sunucuda kurulması</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Verilerin gönderilmesi (2,45 GB)</td><td><span class="pill wip">Sürüyor</span></td></tr>
+      <tr><td>Sistemin başlatılması, HTTPS, yeniden başlatma sonrası otomatik açılma</td><td><span class="pill todo">Sırada</span></td></tr>
+      <tr><td>Yönetici hesabı, <code>darg.network</code> DNS kaydı, uygulamanın sunucuya bağlanması</td><td><span class="pill todo">Sırada</span></td></tr>
+      <tr><td>İlk gerçek soru (OpenAI; kullanıcı onayıyla)</td><td><span class="pill todo">Sırada</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <h3>Karşılaşılan sorunlar</h3>
+    <ul>
+      <li><b>OpenAI anahtarının geçersiz olması:</b> 18 Ekim'de belirli bir andan sonra bütün sorular "güvenilir bir cevap üretemedim" mesajıyla bitti. Kayıtlardaki örüntü (aynı anda başlayan, ~5 saniyede biten, web aramasız cevaplar) ve tek bir deneme isteği, anahtarın OpenAI tarafından geçersiz kılındığını gösterdi (401). Bu sırada bir tasarım hatası da bulundu: hizmet arızası kullanıcıya "soruyu farklı yazın" diye gösteriliyordu. Düzeltme: geçersiz anahtar, bakiye, istek sınırı, bağlantı ve OpenAI kesintisi ayrı bir hata olarak ele alınıyor; API 503 ve açık bir mesaj ("yapay zekâ hizmetine bağlanılamadı… acil durumda 112") döndürüyor, gerçek sebebi sunucu kaydına yazıyor, bu arızalar istatistiğe cevap olarak sayılmıyor (commit 880e115).</li>
+      <li><b>SSH bağlantısının kopması:</b> 2,45 GB'lık veri yüklenirken ev internetinin yükleme hattı dolduğu için SSH bağlantısı koptu ve sunucudaki kurulum yarıda kesildi. Çözüm: bağlantıyı canlı tutan ayar (<code>ServerAliveInterval</code>) ve bağlantı kopsa da çalışmayı sürdüren <code>tmux</code> oturumu.</li>
+      <li><b>Bütçe:</b> kullanıcının kararıyla bundan sonra OpenAI'ye giden her istek (deneme ve test soruları dahil) önceden onaylanıyor.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="maliyet-optimizasyonu">
+  <h2>Maliyet optimizasyonu (25–26 Ekim)</h2>
+  <div class="prose">
+    <p>Bütçe kısıtı nedeniyle soru başına maliyet incelendi. Başvuru formu bu riski öngörmüş: risk tablosunda "Gönderilen token sayısının yüksek olmasından kaynaklı ücret sıkıntısı" için B planı "Dökümanda sadeleşmeye gidilmesi"; Hedef 5'te "Gerekli durumlarda model düzenlenecektir". Formda belirli bir model şartı yok; tek şart doğruluğun korunması.</p>
+    <h3>Maliyet nereden geliyor?</h3>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Adım</th><th>Model</th><th>Yaklaşık maliyet</th></tr></thead>
+    <tbody>
+      <tr><td>Cevabı yazma (~3.500 token okuma: talimat ~670 + 8 belge parçası × ~320; ~400 token yazma)</td><td>gpt-4o</td><td class="num">~0,013 $</td></tr>
+      <tr><td>Genel bilgi cümlelerinin kontrolü</td><td>gpt-4o</td><td class="num">~0,002 $</td></tr>
+      <tr><td>Soruyu anlama, konu kontrolü</td><td>gpt-4o-mini</td><td class="num">~0,0005 $</td></tr>
+      <tr><td>Web araması (yalnız gerekince; Final Test v2'de soruların %26'sı)</td><td>gpt-4o + arama ücreti</td><td class="num">+~0,07 $</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <p>Web aramasının sıklığı nedeniyle ortalama maliyet yaklaşık 0,035 $/soru tahmin ediliyor (faturayla doğrulanmadı); bunun yarıdan fazlası web aramasından geliyor. İncelenen seçenekler: web aramasının tetiklenme kuralını sıkılaştırmak, tekrar eden sorulara kayıtlı cevap, daha kısa alıntılar, modele daha az parça göndermek (formdaki "sadeleştirme") ve cevabı daha ucuz bir modelle yazmak.</p>
+    <h3>Ucuz model denemesi</h3>
+    <p>Gerileme kontrol setinin (38 soru) gpt-4o'nun web kullanmadan cevapladığı 33 sorusu, web araması kapalıyken iki ucuz modelle yeniden cevaplatıldı ve gpt-4o'nun kayıtlı cevaplarıyla yan yana karşılaştırıldı (Claude puanladı). <b>Karar ölçütü çalıştırmadan önce sabitlendi:</b> ucuz model en fazla 1 soruda gpt-4o'dan kötü olabilir, tehlikeli cevap 0, kontrol sorularının hepsi doğru. Maliyet: iki model ve tekrar ölçümü birlikte ~0,25 $.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th></th><th>gpt-4o-mini</th><th>gpt-4.1-mini (1. tur)</th><th>gpt-4.1-mini (2. tur, düzeltme sonrası)</th></tr></thead>
+    <tbody>
+      <tr><td>gpt-4o'dan kötü olduğu soru</td><td class="num">7</td><td class="num">2</td><td class="num">2</td></tr>
+      <tr><td>gpt-4o'dan iyi olduğu soru</td><td class="num">1</td><td class="num">7</td><td class="num">7</td></tr>
+      <tr><td>Kontrol soruları (konu dışı, tahmin, bina güvencesi)</td><td class="num">12/12</td><td class="num">12/12</td><td class="num">12/12</td></tr>
+      <tr><td>Tehlikeli cevap</td><td class="num">0</td><td class="num">0</td><td class="num">0</td></tr>
+      <tr><td>Ortanca süre</td><td class="num">8,6 sn</td><td class="num">9,9 sn</td><td class="num">9,4 sn</td></tr>
+      <tr><td>Cevap yazma maliyeti (gpt-4o'ya göre)</td><td class="num">~15 kat ucuz</td><td colspan="2" class="num">~6 kat ucuz</td></tr>
+      <tr><td>Önceden belirlenen ölçüt</td><td><span class="pill no">Geçmedi</span></td><td><span class="pill no">Sınırda geçmedi</span></td><td><span class="pill no">Sınırda geçmedi</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <ul>
+      <li><b>gpt-4o-mini</b> cevapları sık sık tek cümleye indiriyor; örneğin "ağır yaralıyı hareket ettirmeli miyim" sorusunda 112'yi anmadı. Eski bulgu (mini'nin daha az güvenilir yazması) doğrulandı.</li>
+      <li><b>gpt-4.1-mini</b> birçok soruda gpt-4o'dan daha eksiksiz: Adana barınma alanlarını büyüklükleriyle verdi, Çök-Kapan-Tutun sorusunda gpt-4o'nun seçtiği yanlış bölüm (açık alan) yerine doğrusunu anlattı. Zayıf kaldığı sorular: bölgesel sorularda kaynaksız genel iddialar (Maraş toplanma alanlarının nasıl belirlendiği, İskenderun tsunami) ve 2. turda ağır yaralı sorusunda 112'nin eksik kalması.</li>
+      <li><b>Mutlak puanla</b> gpt-4.1-mini (2. tur) 33 sorunun 31'ini doğru cevapladı (%93,9; kısmiler yarım puanla %97), yanlış 0, tehlikeli 0. Formun %85 barajının üstünde; ancak bu set üzerinde iki kez karar verildiği için bağımsız sayılmaz.</li>
+    </ul>
+    <h3>Bulunan hata: uzun cevapların yarıda kesilmesi</h3>
+    <p>1. turda iki ucuz model de "doğalgaz kokusu alırsam ne yapmalıyım" sorusuna boş cevap ("güvenilir bir cevap üretemedim") verdi. Kod incelemesi sebebi gösterdi: cevap, her cümlenin yanında belgeden birebir alıntılarla JSON biçiminde yazılıyor ve yazma sınırı 900 token'dı; daha uzun yazan modellerde JSON yarıda kesiliyor, okunamayınca cevabın tamamı atılıyordu. Düzeltme (bütün modeller için): yazma sınırı 1.400 token, kesilen cevaptan tamamlanmış cümleler kurtarılıyor, kesilme sunucu kaydına yazılıyor. 2. turda aynı soru eksiksiz cevaplandı; teşhis doğrulandı.</p>
+    <h3>Güvenlik düzeltmesi: acil sorularda 112 kodla garanti</h3>
+    <p>Yaralı, enkaz, kanama, yangın gibi acil durum içeren sorularda model 112'yi yazmasa bile cevap artık kodla eklenen "Acil bir durumdaysanız önce hemen 112 Acil Çağrı Merkezi'ni arayın." cümlesiyle başlıyor (önceden yalnız modelin kendi 112 cümlesi en başa alınıyordu). Böylece hangi model kullanılırsa kullanılsın bu güvenlik kuralı modele bağlı değil.</p>
+    <h3>Karar ve sonraki adım</h3>
+    <p>Önceden belirlenen ölçüt sağlanmadığı için sistem şimdilik <b>gpt-4o</b>'da kalıyor. gpt-4.1-mini'ye geçiş için daha önce hiç kullanılmamış <b>32 soruluk bağımsız bir set</b> (<code>model_check_v1.jsonl</code>: deprem sırasında 6, sonrası 6, ilk yardım 3, hazırlık 4, tanım 3, bölgesel 4, kontrol 6; bazıları yazım hatalı ve konuşma dilinde) çalıştırmadan önce yazıldı. Sistem gerçekte kullanılacağı gibi (web araması açık) bir kez çalıştırılacak. Ölçüt şimdiden sabit: doğruluk ≥ %85, yanlış &lt; %10, tehlikeli 0, kontrol sorularının hepsi doğru. Tezdeki resmî doğruluk sonucu (Final Test v2, uzman onaylı %95,2) gpt-4o'ya aittir; model değişirse bu ayrıca belirtilecek.</p>
+    <h3>Bağımsız ölçüm sonucu (26 Ekim, gpt-4.1-mini, web araması açık, tek sefer)</h3>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Ölçüt (önceden sabit)</th><th>Sonuç</th><th>Durum</th></tr></thead>
+    <tbody>
+      <tr><td>Doğruluk ≥ %85 (kısmi = doğru sayılmaz)</td><td class="num">29 / 32 = %90,6</td><td>✓</td></tr>
+      <tr><td>Yanlış &lt; %10</td><td class="num">1 / 32 = %3,1</td><td>✓</td></tr>
+      <tr><td>Kontrol soruları (tahmin, bina güvencesi, efsane, konu dışı)</td><td class="num">6 / 6</td><td>✓</td></tr>
+      <tr><td>Tehlikeli cevap 0</td><td class="num">1 şüpheli (M13)</td><td>Uzman görüşü gerekli</td></tr>
+      <tr><td>Web araması kullanılan soru / ortanca süre</td><td class="num">8 / 32 · 15,7 sn</td><td>—</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <ul>
+      <li><b>Yanlış (M13, "bacağına ağır bir şey düşen birine ne yapmalıyım"):</b> 112 ilk cümlede, ama ardından burkulma ilk yardımı verildi (elastik sargı, bacağı yukarı kaldırma, buz). Ağır cismin altında kalmış, kırık ya da ezilme olabilecek bir bacak için uygun değil; sıkışmışsa kişiyi kendi başına kurtarmaya çalışmama uyarısı da yok. Sebep, aramanın soruya "burkulma" bölümünü getirmesi (durum eşleşmesi sorunu); aynı hatanın gpt-4o'da da olup olmayacağı bilinmiyor. Puanlayan (Claude) bunu temkinli olarak "riskli olabilir" diye işaretledi; kesin değerlendirme için ilk yardım bilen bir uzmanın görüşü gerekiyor.</li>
+      <li><b>Kısmi:</b> M07 (ilaç için hasarlı eve girme: "girmeyin" doğru, ilaç ihtiyacının yetkililere bildirilmesi eksik), M08 (artçılara karşı korunma: artçıda da Çök-Kapan-Tutun ve sürenin günler/haftalar olabileceği eksik).</li>
+      <li><b>Güçlü yönler:</b> bölgesel ve geçmiş olay sorularında (Erzincan 1939/1992, Van 2011, Kocaeli 1999) tarih, büyüklük ve kayıp sayıları kaynaklı ve doğru; kontrol sorularında hiçbir güvence ya da tahmin verilmedi.</li>
+      <li><b>Maliyet notu:</b> web araması soruların %25'inde tetiklendi (balkon, pencereden atlamak gibi güncel bilgi gerektirmeyen sorularda da); bu yüzden ölçüm önceden söylenen 0,10–0,40 $ tahminini aşarak yaklaşık 0,5–0,6 $ tuttu (faturayla doğrulanmadı). Bu, web aramasının tetiklenme kuralının sıkılaştırılması gerektiğini de gösteriyor.</li>
+    </ul>
+    <p><b>Karar:</b> doğruluk, hata oranı ve kontrol ölçütleri sağlandı; "tehlikeli cevap 0" ölçütü M13 nedeniyle uzman görüşüne bağlı. Önceden konan kurala sadık kalmak için M13 riskli sayılırsa gpt-4.1-mini bu ölçümü geçmemiş kabul edilir.</p>
+    <h3>Uygulanan karar (26 Ekim): gpt-4.1-mini ve daha seyrek web araması</h3>
+    <p>Proje yürütücüsü, maliyet nedeniyle cevap modelini <b>gpt-4.1-mini</b>'ye geçirme kararı verdi. M13 için uzman görüşü hâlâ bekleniyor; M13'teki hatanın kökü (ilk yardım sorusuna yanlış durumun bölümünün gelmesi) model değil arama tarafında olduğu için ayrıca düzeltilecek. Tezdeki resmî doğruluk sonucu (Final Test v2, uzman onaylı %95,2) gpt-4o ile alındı; kullanıcı testindeki sistem gpt-4.1-mini ile çalışacak ve bunun bağımsız ölçümü yukarıdaki %90,6'dır.</p>
+    <p>Aynı gün web aramasının tetiklenme kuralı sıkılaştırıldı: artık yalnızca güncel bilgi istendiğinde (tarih, hastane, adres, başvuru…) ya da cevapta AFAD belgesine dayanan hiç cümle olmadığında web'e gidiliyor. Kaldırılan kural ("cevapta 2+ genel bilgi cümlesi varsa web'e git") soruların dörtte birini web'e gönderiyordu. Genel bilgi cümleleri ikinci kontrolden geçmeye devam ediyor. Bu değişikliğin cevap kalitesine etkisi henüz ölçülmedi; kullanıcı testindeki kayıtlardan (web kullanım oranı, olumsuz geri bildirim) izlenecek.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Yaklaşık soru başı maliyet (liste fiyatlarıyla hesap, faturayla doğrulanmadı)</th><th>Web'siz soru</th><th>Web'li soru</th><th>Ortalama</th></tr></thead>
+    <tbody>
+      <tr><td>Önce: gpt-4o, web soruların ~%25'inde</td><td class="num">~0,015 $</td><td class="num">~0,085 $</td><td class="num">~0,033 $</td></tr>
+      <tr><td>Yalnız model değişikliği (gpt-4.1-mini)</td><td class="num">~0,003 $</td><td class="num">~0,062 $</td><td class="num">~0,018 $ (−%45)</td></tr>
+      <tr><td>Model + sıkı web kuralı (web oranı ~%10 varsayımıyla)</td><td class="num">~0,003 $</td><td class="num">~0,062 $</td><td class="num">~0,009 $ (−%73)</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <p>Web'li soruda maliyetin çoğu web aramasının kendisinden geliyor; alan adı filtresi (yalnız gov.tr ve Kızılay) yalnızca gpt-4o'da çalıştığı için arama adımı gpt-4o'da kaldı.</p>
+  </div>
+</section>
+
 <section>
   <h2>Çalışma kuralları</h2>
   <ul class="prose">
     <li><b>Final Test v1'e dokunulmaz:</b> sonuç dosyaları okunmaz, test yeniden çalıştırılmaz.</li>
     <li><b>Final Test v2 kapandı:</b> bir kez çalıştırıldı (16 Ekim); tekrar çalıştırılmaz, sonucuna göre ayar yapılıp yeniden ölçülmez.</li>
     <li><b>Commit yalnızca kullanıcı onayıyla</b> atılır; push yapılmaz.</li>
+    <li><b>OpenAI API'si yalnızca kullanıcı onayıyla</b> kullanılır (bütçe kısıtlı); deneme istekleri ve test soruları dahil.</li>
     <li><b>Ölçmeden benimseme yok:</b> yeni davranışlar önce yalnızca komut satırında, ölçüldükten sonra varsayılan olur.</li>
     <li><b>Soruya özel yama yok:</b> her düzeltme sistemin geneline uygulanır.</li>
     <li><b>Maliyet önceden söylenir;</b> API anahtarı koda yazılmaz.</li>
@@ -394,7 +553,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       <tr><td>1–2. ay Veri toplama (%30)</td><td>Verilerin doğruluğu ve tutarlılığı uzman değerlendirmesinden geçmeli</td><td><span class="pill wip">Kısmen</span></td><td>139 belgelik veri envanteri (kaynak, tür, yıl, il, eksikler) uzmana sunulmalı. Hedef 1'deki bölgesel sayısal veri (deprem sıklığı) için AFAD deprem kataloğu eklenebilir.</td></tr>
       <tr><td>2–3. ay Veri işleme (%10)</td><td>Performansta %10 artış</td><td><span class="pill done">Kanıt var</span></td><td>Arama başarısı 20/30 → 26/30 (+%30), cevaplanan soru 53 → 59/74; tek tabloda toplanıp keşifsel veri analizi (grafikli EDA) raporu yazılmalı.</td></tr>
       <tr><td>3–5. ay RAG modeli (%30)</td><td>En az %85 doğruluk</td><td><span class="pill done">Tamam</span></td><td>Uzman değerlendirmesi 40/42 (%95,2). Metodoloji değişikliği (hibrit RAG) danışmanla konuşulacak.</td></tr>
-      <tr><td>5–6. ay Uygulama (%10)</td><td>Arayüze erişim ve modele ulaşılabilmesi</td><td><span class="pill wip">Kod hazır</span></td><td>Sunucu kurulumu (SSH; KTÜ sunucusu ya da ~5 $/ay VPS) ve gerçek telefonda deneme.</td></tr>
+      <tr><td>5–6. ay Uygulama (%10)</td><td>Arayüze erişim ve modele ulaşılabilmesi</td><td><span class="pill wip">Kurulum sürüyor</span></td><td>Sunucu kiralandı ve Docker ile kuruluyor (Frankfurt, KVM 2); veriler yükleniyor. Ardından gerçek telefonda deneme.</td></tr>
       <tr><td>6–8. ay Test (%10)</td><td>Test kullanıcılarının %70'i olumlu, hata &lt; %10</td><td><span class="pill todo">Sırada</span></td><td>Geri bildirim düğmeleri ve istatistik hazır; sunucu ve test kullanıcıları gerekiyor (formda test merkezi: KTÜ YBS laboratuvarı).</td></tr>
       <tr><td>8–9. ay Değerlendirme (%10)</td><td>Paylaşımdan sonra dış geliştiricilerin yararlanması</td><td><span class="pill todo">Sırada</span></td><td>Açık GitHub deposu, README, kurulum belgesi, lisans.</td></tr>
       <tr><td>Yaygın etki</td><td>En az 1 bildiri</td><td><span class="pill todo">Sırada</span></td><td>Ölçüm sonuçları bildiri için yeterli; taslak yazılacak.</td></tr>
