@@ -1,6 +1,22 @@
-# HTTPS for the DARG API. DOMAIN comes from .env, e.g. 203-0-113-7.sslip.io (free, no domain purchase needed:
-# sslip.io answers with the IP written in the name). Caddy gets and renews the certificate by itself.
+# HTTPS for the DARG API and web site. Both addresses come from .env; Caddy gets and renews the certificates by itself.
+# DOMAIN: the API, e.g. api.darg.network, or 203-0-113-7.sslip.io (free, no domain purchase needed: sslip.io
+# answers with the IP written in the name).
 {$DOMAIN} {
 	encode gzip
 	reverse_proxy api:8000
+}
+
+# SITE_DOMAIN: the web site (website/), e.g. "darg.network, www.darg.network". Left empty it falls back to
+# site.localhost, which nobody outside reaches. /indir/ serves the Android app from data/indir/ (not in git).
+{$SITE_DOMAIN:site.localhost} {
+	encode gzip
+	handle_path /indir/* {
+		root * /srv/indir
+		header Content-Type application/vnd.android.package-archive
+		file_server
+	}
+	handle {
+		root * /srv/site
+		file_server
+	}
 }

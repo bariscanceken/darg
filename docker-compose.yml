@@ -18,7 +18,7 @@ services:
       # 127.0.0.1: only Caddy (below) reaches it. Set API_BIND=0.0.0.0 in .env to open port 8000 directly.
       - "${API_BIND:-127.0.0.1}:8000:8000"
 
-  # HTTPS in front of the API, with an automatic free certificate. Needs ports 80 and 443 free on the server;
+  # HTTPS in front of the API and the web site, with an automatic free certificate. Needs ports 80 and 443 free on the server;
   # enabled by COMPOSE_PROFILES=https in .env.
   caddy:
     image: caddy:2
@@ -31,8 +31,12 @@ services:
       - "443:443"
     environment:
       - DOMAIN=${DOMAIN:-}  # set in .env; Caddy refuses to start without it
+      - SITE_DOMAIN=${SITE_DOMAIN:-}  # web site address; empty: no site
     volumes:
       - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      # web site (in git) and the Android app to download (copied to the server, not in git)
+      - ./website:/srv/site:ro
+      - ./data/indir:/srv/indir:ro
       - caddy_data:/data
       - caddy_config:/config
 

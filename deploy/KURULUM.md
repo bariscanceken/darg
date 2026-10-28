@@ -130,6 +130,27 @@ docker compose exec api python -m src.api.community create-admin --email senin@e
 
 Uygulamada **Menü → Hakkında ve ayarlar → Sunucu adresi**: `https://DOMAIN` → "Kaydet ve dene".
 
+## 10. Web sitesi (darg.network)
+
+Site `website/` klasöründe (düz HTML/CSS); Caddy sunar, ayrı bir kurulum gerekmez.
+
+1. **DNS** (alan adını aldığın panelde), üç `A` kaydı, hepsi sunucu IP'si:
+   `@` (darg.network), `www`, `api` → `SUNUCU_IP`
+2. **.env**:
+   ```
+   DOMAIN=api.darg.network
+   SITE_DOMAIN=darg.network, www.darg.network
+   ```
+   (`DOMAIN` değişince telefondaki sunucu adresi de `https://api.darg.network` olur.)
+3. **APK** (git'te yok; bilgisayardan bir kez kopyalanır, her yeni sürümde tekrar):
+   ```
+   ssh root@SUNUCU_IP "mkdir -p /root/darg/data/indir"
+   scp mobile/build/app/outputs/flutter-apk/app-release.apk root@SUNUCU_IP:/root/darg/data/indir/darg.apk
+   ```
+4. `./deploy/guncelle.sh` → dene: `https://darg.network` ve `https://darg.network/indir/darg.apk`
+
+Sitede yapılan değişiklikler `git pull` ile gelir; Caddy dosyaları doğrudan klasörden okur.
+
 ---
 
 ## Günlük kullanım

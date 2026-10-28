@@ -23,6 +23,8 @@ bills/
 data/logs/
 # App database (organisation accounts, posts)
 data/app/
+# Android app offered on the web site, copied to the server (deploy/KURULUM.md)
+data/indir/
 # Data package copied to the server once (deploy/veri_paketle.ps1)
 darg-veri.tar.gz
 # The settings template (no secrets) is needed on the server
