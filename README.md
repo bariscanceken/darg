@@ -54,6 +54,7 @@ Orkestrasyon **LangGraph** ile (`src/rag/graph_v3.py`). Belgeler yapı korunarak
 | Arama başarısı, parçalama düzeltmesi sonrası (holdout, Hit@5) | 20/30 → 26/30 |
 
 Projenin hedefi en az %85 doğruluktu. Ayrıntılı geliştirme ve ölçüm raporu: `docs/darg_calisma_raporu.html`.
+Projenin TÜBİTAK başvuru formu (amaçlar, yöntem, başarı ölçütleri): [docs/DARG_tubitak_2209a_basvuru_formu.pdf](docs/DARG_tubitak_2209a_basvuru_formu.pdf).
 
 ## Kurulum
 
