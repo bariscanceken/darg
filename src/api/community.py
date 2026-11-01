@@ -28,8 +28,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterator, Literal
 
-from fastapi import APIRouter, Depends, Header, HTTPException
+from fastapi import APIRouter, Depends, Header, HTTPException, Request
 from pydantic import BaseModel, Field
+
+from src.api import limits
 
 DB_PATH = Path("data/app/darg.db")
 SESSION_DAYS = 30
@@ -87,6 +89,12 @@ CREATE TABLE IF NOT EXISTS reports (
     UNIQUE (post_id, device_id)
 );
 CREATE INDEX IF NOT EXISTS posts_feed ON posts (status, valid_until);
+CREATE TABLE IF NOT EXISTS usage (
+    day TEXT NOT NULL,
+    name TEXT NOT NULL,
+    count INTEGER NOT NULL,
+    PRIMARY KEY (day, name)
+);
 """
 
 _init_lock = threading.Lock()
@@ -242,7 +250,7 @@ router = APIRouter()
 
 # --- accounts ----------------------------------------------------------------------------------------------------
 
-@router.post("/hesap/basvuru", status_code=201)
+@router.post("/hesap/basvuru", status_code=201, dependencies=[Depends(limits.APPLICATION)])
 def apply(application: Application) -> dict:
     email = application.email.strip().lower()
     with connect() as db:
@@ -257,18 +265,20 @@ def apply(application: Application) -> dict:
             "mesaj": "Başvurunuz alındı. Yönetici kurumunuzu doğruladıktan sonra giriş yapabilirsiniz."}
 
 
-@router.post("/hesap/giris")
-def login(credentials: Login) -> dict:
+@router.post("/hesap/giris", dependencies=[Depends(limits.LOGIN)])
+def login(credentials: Login, request: Request) -> dict:
     email = credentials.email.strip().lower()
-    recent = [t for t in _failed_logins.get(email, []) if time.time() - t < LOGIN_WINDOW_SECONDS]
+    # Failures count per e-mail and client address: someone else's wrong passwords cannot lock the owner out.
+    attempt = f"{email}|{limits.client_address(request)}"
+    recent = [t for t in _failed_logins.get(attempt, []) if time.time() - t < LOGIN_WINDOW_SECONDS]
     if len(recent) >= LOGIN_MAX_FAILURES:
         raise HTTPException(status_code=429, detail="Çok fazla hatalı deneme. Lütfen 15 dakika sonra tekrar deneyin.")
     with connect() as db:
         row = db.execute("SELECT * FROM users WHERE email = ?", (email,)).fetchone()
         if row is None or not verify_password(credentials.sifre, row["password_hash"]):
-            _failed_logins[email] = recent + [time.time()]
+            _failed_logins[attempt] = recent + [time.time()]
             raise HTTPException(status_code=401, detail="E-posta ya da şifre hatalı.")
-        _failed_logins.pop(email, None)
+        _failed_logins.pop(attempt, None)
         if row["status"] == "beklemede":
             raise HTTPException(status_code=403, detail="Başvurunuz henüz incelenmedi.")
         if row["status"] != "aktif":
@@ -343,7 +353,7 @@ def delete_own_post(post_id: int, user: sqlite3.Row = Depends(current_user)) -> 
     return {"durum": "kaldirildi"}
 
 
-@router.post("/gonderiler/{post_id}/sikayet")
+@router.post("/gonderiler/{post_id}/sikayet", dependencies=[Depends(limits.REPORT)])
 def report_post(post_id: int, report: Report) -> dict:
     with connect() as db:
         if not db.execute("SELECT 1 FROM posts WHERE id = ? AND status = 'yayinda'", (post_id,)).fetchone():

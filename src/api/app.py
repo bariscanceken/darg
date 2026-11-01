@@ -13,6 +13,7 @@ GET  /kutuphane/{id}/metin       its page texts, for keyword search on the phone
 
 Every question/answer and every feedback is appended to data/logs/ (git-ignored: questions may contain
 personal information). Conversations are kept in memory per oturum_id (last turns only).
+Request limits (per address and daily for the whole service, set in .env): src/api/limits.py.
 """
 
 from __future__ import annotations
@@ -28,12 +29,12 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
-from src.api import community, library
+from src.api import community, library, limits
 from src.rag.context import clean_url
 from src.rag.generate_answer import generate_answer_v3
 from src.rag.pipeline_v3 import MAX_HISTORY_TURNS, ServiceUnavailable
@@ -56,7 +57,7 @@ _lock = threading.Lock()
 
 
 class Question(BaseModel):
-    soru: str = Field(min_length=1, max_length=1000)
+    soru: str = Field(min_length=1, max_length=500)
     oturum_id: str | None = Field(default=None, description="Aynı sohbetin soruları için aynı kimlik")
 
 
@@ -154,17 +155,25 @@ def library_text(document_id: str) -> dict:
     return {"id": document_id, "sayfalar": library.page_texts(_library_document(document_id))}
 
 
-@app.post("/soru", response_model=Answer)
+@app.post("/soru", response_model=Answer, dependencies=[Depends(limits.QUESTION)])
 def ask(question: Question) -> Answer:
     session_id = question.oturum_id or uuid.uuid4().hex
     with _lock:
         history = list(_sessions.get(session_id, []))
-    start = time.perf_counter()
-    try:
-        result = generate_answer_v3(question.soru, history=history)
-    except ServiceUnavailable as error:
-        logger.error("Language-model service unavailable: %s", error)  # e.g. invalid OpenAI key: renew .env
-        raise HTTPException(status_code=503, detail=SERVICE_DOWN_MESSAGE) from error
+    if not limits.take("soru", limits.DAILY_QUESTIONS):
+        logger.warning("Daily question cap reached (%d)", limits.DAILY_QUESTIONS)
+        limits.note_blocked("gunluk_tavan")
+        raise HTTPException(status_code=429, detail=limits.DAILY_CAP_MESSAGE)
+    web_allowed = limits.used("web") < limits.DAILY_WEB_SEARCHES  # past the cap: AFAD documents only
+    with limits.answer_slot():
+        start = time.perf_counter()
+        try:
+            result = generate_answer_v3(question.soru, history=history, web_search=web_allowed)
+        except ServiceUnavailable as error:
+            logger.error("Language-model service unavailable: %s", error)  # e.g. invalid OpenAI key: renew .env
+            raise HTTPException(status_code=503, detail=SERVICE_DOWN_MESSAGE) from error
+    if result["used_web"]:
+        limits.add("web")
     seconds = round(time.perf_counter() - start, 1)
     record_id = uuid.uuid4().hex
     sources = [_source(meta) for meta in result["sources"]]
@@ -184,7 +193,7 @@ def ask(question: Question) -> Answer:
                   web_kullanildi=result["used_web"], sure_sn=seconds)
 
 
-@app.post("/geri-bildirim")
+@app.post("/geri-bildirim", dependencies=[Depends(limits.FEEDBACK)])
 def feedback(item: Feedback) -> dict:
     if not any(record["kayit_id"] == item.kayit_id for record in _read(QA_LOG)):
         raise HTTPException(status_code=404, detail="Bu kayıt numarasıyla bir cevap bulunamadı.")
@@ -209,4 +218,7 @@ def statistics() -> dict:
         "kotu_cevap_orani": round((rated - good) / rated, 3) if rated else None,  # form: error rate < 10%
         "ortanca_sure_sn": times[len(times) // 2] if times else None,
         "web_kullanim_orani": round(sum(r["web_kullanildi"] for r in answers) / len(answers), 3) if answers else None,
+        "bugun": {"soru": limits.used("soru"), "soru_tavani": limits.DAILY_QUESTIONS,
+                  "web": limits.used("web"), "web_tavani": limits.DAILY_WEB_SEARCHES,
+                  "engellenen": limits.blocked_today()},
     }
