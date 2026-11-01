@@ -64,7 +64,7 @@ class _ComposerState extends State<Composer> {
                     focusNode: _focus,
                     minLines: 1,
                     maxLines: 6,
-                    maxLength: 1000,
+                    maxLength: 500, // the server accepts questions up to 500 characters
                     textCapitalization: TextCapitalization.sentences,
                     style: TextStyle(fontSize: 16, color: c.text),
                     cursorColor: c.accent,

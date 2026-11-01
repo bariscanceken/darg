@@ -6,7 +6,7 @@ from unittest import mock
 from fastapi.testclient import TestClient
 
 from src.api import app as api
-from src.api import community
+from src.api import community, limits
 
 APPLICATION = {"email": "afet@belediye.bel.tr", "sifre": "guclu-sifre-1", "kurum_adi": "Antakya Belediyesi",
                "kurum_turu": "belediye", "yetkili_adi": "Ayşe Yılmaz", "telefon": "0326 000 00 00",
@@ -22,6 +22,7 @@ class CommunityTest(unittest.TestCase):
         patch.start()
         self.addCleanup(patch.stop)
         community._failed_logins.clear()
+        limits.reset()
         community.create_admin("admin@darg.org", "Yönetici", "admin-sifre-1")
         self.client = TestClient(api.app)
         self.admin = self.auth("admin@darg.org", "admin-sifre-1")
@@ -108,6 +109,15 @@ class CommunityTest(unittest.TestCase):
             self.client.post("/hesap/giris", json={"email": "admin@darg.org", "sifre": "yanlis-sifre"})
         blocked = self.client.post("/hesap/giris", json={"email": "admin@darg.org", "sifre": "admin-sifre-1"})
         self.assertEqual(blocked.status_code, 429)
+        with mock.patch.object(limits, "client_address", return_value="203.0.113.7"):  # the owner, elsewhere
+            owner = self.client.post("/hesap/giris", json={"email": "admin@darg.org", "sifre": "admin-sifre-1"})
+        self.assertEqual(owner.status_code, 200)  # someone else's wrong passwords did not lock the owner out
+
+    def test_applications_from_one_address_are_limited(self):
+        statuses = [self.client.post("/hesap/basvuru", json={**APPLICATION, "email": f"k{i}@belediye.bel.tr"}).status_code
+                    for i in range(limits.APPLICATION.per_minute + 1)]
+        self.assertEqual(statuses[-1], 429)
+        self.assertTrue(all(status == 201 for status in statuses[:-1]))
 
 
 if __name__ == "__main__":

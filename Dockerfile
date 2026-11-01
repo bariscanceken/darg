@@ -7,6 +7,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     HF_HOME=/models \
     TOKENIZERS_PARALLELISM=false
+# The API is only reachable through Caddy, so its X-Forwarded-For header gives the real client address
+# (request limits count per address; see src/api/limits.py).
+ENV FORWARDED_ALLOW_IPS="*"
 
 WORKDIR /app
 
