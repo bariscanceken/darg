@@ -1,17 +1,18 @@
-# darg
+# DARG mobil uygulaması (Flutter)
 
-DARG deprem bilgi asistanı
+DARG asistanının Android/iOS uygulaması. Ana proje: [../README.md](../README.md).
 
-## Getting Started
+- **Sohbet:** cümle cümle kaynak işaretleri, kaynaktan belgeyi ilgili sayfada açma, 👍/👎 geri bildirim, sohbet geçmişi
+- **Kütüphane:** 139 AFAD belgesi, belge indirme, internetsiz kelime araması
+- **Yardım sinyali:** yüksek sesli düdük, SOS feneri, ekranla SOS
+- **Acil durum kartı:** telefonda şifreli saklanır, sunucuya gönderilmez; isteğe bağlı Android kilit ekranı bildirimi
+- **Duyurular:** doğrulanmış kurumların yönetici onaylı duyuruları; kurum başvurusu ve uygulama içi yönetim
 
-This project is a starting point for a Flutter application.
+```bash
+flutter pub get
+flutter test
+flutter run --dart-define=DARG_API=https://sunucu-adresiniz   # ya da uygulamada Hakkında → Sunucu adresi
+flutter build apk --release --dart-define=DARG_API=https://sunucu-adresiniz
+```
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Düdük sesi `tool/make_whistle.py` ile üretilir (`assets/sounds/whistle.wav`).

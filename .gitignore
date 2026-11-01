@@ -29,3 +29,9 @@ data/indir/
 darg-veri.tar.gz
 # The settings template (no secrets) is needed on the server
 !.env.example
+
+# Private: the project form and the early development report are never published
+darg.pdf
+docs/DARG_gelistirme_raporu_2026-10-06.pdf
+# Owner's private working notes for Claude Code (preferences, budget, server details)
+CLAUDE.local.md
