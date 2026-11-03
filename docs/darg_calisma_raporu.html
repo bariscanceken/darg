@@ -84,8 +84,8 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
 <header>
   <div class="eyebrow">TÜBİTAK 2209-A · KTÜ · Proje çalışma raporu</div>
   <h1>DARG: Claude ile yürütülen geliştirme çalışmaları</h1>
-  <p class="lede">AFAD belgelerine dayanarak Türkçe deprem sorularını cevaplayan RAG sisteminin Eylül–Ekim 2026 arasında Claude Code ile birlikte nasıl geliştirildiği, neyin ölçüldüğü, neyin işe yaramadığı ve sistemin bugün nerede durduğu.</p>
-  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 26 Ekim 2026</p>
+  <p class="lede">AFAD belgelerine dayanarak Türkçe deprem sorularını cevaplayan RAG sisteminin Eylül–Kasım 2026 arasında Claude Code ile birlikte nasıl geliştirildiği, neyin ölçüldüğü, neyin işe yaramadığı ve sistemin bugün nerede durduğu.</p>
+  <p class="meta">Proje: Barışcan Çeken · Danışman: Dr. Öğr. Üyesi Murat Kılınç · Rapor tarihi: 2 Kasım 2026</p>
   <svg class="trace" viewBox="0 0 860 36" preserveAspectRatio="none" aria-hidden="true">
     <polyline fill="none" stroke="currentColor" stroke-width="1.5" points="0,18 120,18 140,17 150,19 160,18 300,18 310,12 318,26 326,6 334,30 342,10 350,24 358,16 366,20 380,18 520,18 530,15 538,22 546,17 560,18 860,18"/>
   </svg>
@@ -96,6 +96,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   <div class="prose">
     <p>Sistemin ana ölçütü başvuru formunda <b>cevap doğruluğu ≥ %85</b> olarak tanımlı. Çalışmalar boyunca her değişiklik ölçülerek benimsendi; ölçülmeyen hiçbir özellik varsayılan yapılmadı. En büyük kazanımlar, sistemin cevap üretme biçiminden çok <b>verinin nasıl işlendiğinden</b> geldi: bozuk Türkçe karakterler, modelin göremediği uzun parçalar, düzleşmiş tablolar ve hiç okunmamış görsel PDF'ler.</p>
     <p>16 Ekim'de sistem hibrit RAG'e (v3) geçti ve LangGraph ile orkestre edildi. Tek seferlik bağımsız test (Final Test v2, 42 soru) <b>uzman değerlendirmesinde 40/42 doğru (%95,2)</b> sonucunu verdi; formdaki %85 hedefi aşıldı. 16–17 Ekim'de formun 5–6. ay aşaması olan <b>Flutter mobil uygulama</b> geliştirildi: sohbet ekranı, acil durum araçları, internetsiz belge kütüphanesi ve yönetici onaylı kurum duyuruları.</p>
+    <p>Sistem Ekim sonundan beri kendi sunucusunda (<code>api.darg.network</code>) çalışıyor; tanıtım sitesi <code>darg.network</code> adresinde. Maliyet için cevap modeli gpt-4.1-mini'ye geçirildi (bağımsız ölçümde %90,6). Kasım başında depo <b>açık kaynak</b> için hazırlandı: geçmişten kişisel veriler temizlendi, README, lisans ve katkı kuralları yazıldı, herkese açık sunucunun faturayı şişirmemesi için <b>istek sınırları</b> eklendi.</p>
   </div>
   <div class="kpis">
     <div class="kpi"><b>40 / 42</b><span>Final Test v2, uzman değerlendirmesi (%95,2; hedef ≥ %85)</span></div>
@@ -115,7 +116,9 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
     <div class="tl"><span class="date">16 Ekim 2026</span><p><b>Hibrit RAG ve bağımsız test.</b> v3 (AFAD önce, genel bilgi ve resmî web işaretli), LangGraph orkestrasyonu, hibrit karar ajanı, Final Test v2 (tek sefer), konuşma hafızası, web API.</p></div>
     <div class="tl"><span class="date">16–17 Ekim 2026</span><p><b>Uzman onayı ve mobil uygulama.</b> Final Test v2 uzman değerlendirmesi (40/42). Flutter uygulaması: sohbet, açık/koyu tema, yardım sinyali, acil durum kartı, internetsiz kütüphane, kurum hesapları ve onaylı duyuru akışı.</p></div>
     <div class="tl"><span class="date">18–19 Ekim 2026</span><p><b>Sunucu.</b> Kaynak ihtiyacı ölçüldü (GPU gerekmiyor), EVREN ve ücretsiz seçenekler araştırıldı, Hostinger KVM 2 (Frankfurt) ve <code>darg.network</code> alındı; Docker ile paketleme, tek komutla güncelleme, SSH ile kurulum. Geçersiz OpenAI anahtarının yanıltıcı mesaja dönüşmesi düzeltildi.</p></div>
-    <div class="tl"><span class="date">25–26 Ekim 2026</span><p><b>Maliyet.</b> Soru başına maliyet analizi; gpt-4o-mini ve gpt-4.1-mini ile ucuz model denemesi; uzun cevapların yarıda kesilmesi hatası ve acil sorularda 112 garantisi düzeltildi; bağımsız ölçüm seti yazıldı.</p></div>
+    <div class="tl"><span class="date">25–26 Ekim 2026</span><p><b>Maliyet.</b> Soru başına maliyet analizi; gpt-4o-mini ve gpt-4.1-mini ile ucuz model denemesi; uzun cevapların yarıda kesilmesi hatası ve acil sorularda 112 garantisi düzeltildi; bağımsız ölçüm seti yazıldı. Bağımsız ölçümden sonra cevap modeli gpt-4.1-mini'ye geçirildi, web araması seyrekleştirildi.</p></div>
+    <div class="tl"><span class="date">28 Ekim 2026</span><p><b>Web sitesi.</b> <code>darg.network</code> tanıtım sitesi (uygulamanın renkleriyle, düz HTML/CSS), Android uygulamasının indirme bağlantısı; API <code>api.darg.network</code> adresine taşındı.</p></div>
+    <div class="tl"><span class="date">2 Kasım 2026</span><p><b>Açık kaynak hazırlığı ve istek sınırları.</b> Depo taraması, kişisel verilerin geçmişten temizlenmesi, README, MIT lisansı, katkı ve güvenlik kuralları, belge listesi, TÜBİTAK başvuru formu; adres değişikliğinden kaynaklanan bağlantı sorunu giderildi; herkese açık API için kişi başı ve günlük sınırlar.</p></div>
   </div>
 </section>
 
@@ -413,7 +416,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       <li><b>API anahtarı</b> koda ve kutuya gömülmüyor; sunucuda yalnızca root'un okuyabildiği <code>.env</code> dosyasında (<code>chmod 600</code>). Sunucu için ayrı ve harcama sınırlı bir anahtar önerildi.</li>
       <li><b>Gizli GitHub deposu</b>na sunucudan yalnızca bu depoyu <b>salt okunur</b> çekebilen bir "deploy key" ile erişiliyor; GitHub'dan tek tıkla iptal edilebiliyor.</li>
       <li><b>Güvenlik duvarı (ufw):</b> dışarıya yalnızca SSH (22) ve web (80/443) açık.</li>
-      <li><b>HTTPS:</b> alan adı satın almadan <code>&lt;sunucu-ip&gt;.sslip.io</code> biçiminde bir adresle ücretsiz sertifika; sonra <code>darg.network</code>'e geçilecek.</li>
+      <li><b>HTTPS:</b> alan adı satın almadan <code>&lt;sunucu-ip&gt;.sslip.io</code> biçiminde bir adresle ücretsiz sertifika; Ekim sonunda <code>darg.network</code>'e geçildi (eski adres de çalışmaya devam ediyor).</li>
       <li><b>Mobil uygulamada anahtar yok:</b> telefon yalnızca sunucuyla konuşuyor.</li>
     </ul>
     <h3>Kurulum adımları ve durum</h3>
@@ -427,10 +430,10 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       <tr><td>Ayar dosyası (.env, yalnız root okuyabilir)</td><td><span class="pill done">Tamam</span></td></tr>
       <tr><td>Güvenlik duvarı</td><td><span class="pill done">Tamam</span></td></tr>
       <tr><td>Docker kutusunun sunucuda kurulması</td><td><span class="pill done">Tamam</span></td></tr>
-      <tr><td>Verilerin gönderilmesi (2,45 GB)</td><td><span class="pill wip">Sürüyor</span></td></tr>
-      <tr><td>Sistemin başlatılması, HTTPS, yeniden başlatma sonrası otomatik açılma</td><td><span class="pill todo">Sırada</span></td></tr>
-      <tr><td>Yönetici hesabı, <code>darg.network</code> DNS kaydı, uygulamanın sunucuya bağlanması</td><td><span class="pill todo">Sırada</span></td></tr>
-      <tr><td>İlk gerçek soru (OpenAI; kullanıcı onayıyla)</td><td><span class="pill todo">Sırada</span></td></tr>
+      <tr><td>Verilerin gönderilmesi (2,45 GB)</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Sistemin başlatılması, HTTPS, yeniden başlatma sonrası otomatik açılma</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>Yönetici hesabı, <code>darg.network</code> DNS kaydı (site, <code>www</code> ve <code>api</code> için sertifika), uygulamanın sunucuya bağlanması</td><td><span class="pill done">Tamam</span></td></tr>
+      <tr><td>İlk gerçek sorular (OpenAI; kullanıcı onayıyla)</td><td><span class="pill done">Tamam</span></td></tr>
     </tbody>
   </table></div>
   <div class="prose">
@@ -524,12 +527,77 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
   </div>
 </section>
 
+<section id="acik-kaynak">
+  <h2>Web sitesi, açık kaynak hazırlığı ve istek sınırları (28 Ekim – 2 Kasım)</h2>
+  <div class="prose">
+    <h3>Web sitesi</h3>
+    <p><code>darg.network</code> adresinde uygulamanın renk paletiyle düz HTML/CSS/JS bir tanıtım sitesi yayına alındı: sistemin ne yaptığı, nasıl çalıştığı, ölçüm sonuçları ve Android uygulamasının indirme bağlantısı. Site ve API aynı sunucudaki Caddy tarafından otomatik HTTPS ile sunuluyor; API <code>api.darg.network</code> adresine taşındı. Sitede canlı deneme kutusu ilk aşamada bilinçli olarak konmadı; aşağıdaki istek sınırları hazır olduğu için depo açıldıktan sonra eklenecek.</p>
+
+    <h3>Karşılaşılan sorun: uygulamanın cevap vermemesi (2 Kasım)</h3>
+    <p>Telefondaki uygulama hiç cevap alamıyordu, ama sunucu 4 gündür sorunsuz çalışıyordu. Teşhis adım adım yapıldı: sunucu kayıtlarında o güne ait hiç soru yoktu (istek sunucuya ulaşmıyordu); tarayıcıda eski adres <code>ERR_SSL_PROTOCOL_ERROR</code> verdi; Caddy kayıtları yalnızca <code>darg.network</code> adlarına sertifika alındığını gösterdi. Sebep: web sitesi kurulurken API adresi ayarı yeni alan adına çevrilmiş, eski adresi kullanan uygulama ise açıkta kalmıştı. Çözüm: Caddy'ye iki adres birlikte verildi; eski ve yeni adres dışarıdan doğrulandı. Kalıcı çözüm olarak yeni APK'nın varsayılan adresi <code>https://api.darg.network</code> olacak.</p>
+
+    <h3>Açık kaynak hazırlığı</h3>
+    <p>Formun 8–9. ay ölçütü ("proje paylaşıldıktan sonra dış geliştiricilerden yararlanılması") ve yaygın etki bölümündeki "açık kaynak paylaşım" sözü için depo herkese açılmaya hazırlandı. Önce bütün depo ve tüm commit geçmişi tarandı:</p>
+    <ul>
+      <li><b>Gizli bilgi:</b> kodda ve geçmişte API anahtarı, şifre, özel anahtar, <code>.env</code>, veritabanı ya da kullanıcı kaydı yok.</li>
+      <li><b>Kişisel veri bulundu:</b> eylül ayındaki arama hatası teşhis dosyalarına (3 dosya), bir il afet planının ekindeki katılımcı listesi kopyalanmıştı: <b>69 telefon numarası ve 20 e-posta adresi</b>, çoğu kişisel cep telefonu, ad-soyad ve kurumlarıyla. Bilgi AFAD'ın herkese açık PDF'inde zaten yayımlanmış olsa da, düz metin olarak bir kod deposunda durması e-posta/telefon toplayan botlara açık olmaları ve KVKK'nın "amaç dışı yayımlamama" ilkesi açısından uygun bulunmadı.</li>
+      <li><b>Kişisel notlar:</b> geliştirme sırasında tutulan çalışma notlarının (CLAUDE.md) eski sürümlerinde bütçe durumu, sunucu adresi ve çalışma tercihleri vardı; commit'lerde kişisel e-posta adresi görünüyordu.</li>
+    </ul>
+    <p><b>Yapılanlar:</b> önce tam yedek alındı; ardından <code>git-filter-repo</code> ile kişisel verili 3 dosya, erken geliştirme raporu PDF'i ve çalışma notlarının eski sürümleri <b>bütün geçmişten</b> çıkarıldı, sunucu adresi yer tutucuyla değiştirildi, commit e-postası GitHub'ın gizli adresine çevrildi. Commit geçmişinin geri kalanı (tarihler, mesajlar, yazar) korundu. Yeniden tarama temiz çıktı. Temizlenmiş geçmiş GitHub'a gönderildi ve sunucu yeni geçmişe geçirildi.</p>
+    <p><b>Kalan engel:</b> GitHub, birleştirilmiş PR'ların son commit'ini ayrıca sakladığı için eski kişisel verili dosyalar PR #2 üzerinden hâlâ erişilebilir durumdaydı (doğrulandı); bunu yalnızca GitHub silebiliyor. 2 Kasım'da GitHub desteğine talep açıldı (#4937636). Destek bu referansı ve önbelleği silene kadar depo özel kalacak.</p>
+    <p><b>Eklenen belgeler:</b></p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Dosya</th><th>İçerik</th></tr></thead>
+    <tbody>
+      <tr><td><code>README.md</code></td><td>Türkçe ve İngilizce tanıtım: özellikler, mimari, ölçüm sonuçları, kurulum, testler, katkı, lisans.</td></tr>
+      <tr><td><code>LICENSE</code></td><td>MIT lisansı. AFAD belgeleri depoda değil ve lisans kapsamı dışında; başvuru formundaki alıntı şekiller yazarlarına ait.</td></tr>
+      <tr><td><code>CONTRIBUTING.md</code></td><td>Katkı kuralları: ölçmeden benimseme yok, kapalı test setlerine dokunulmaz, güvenlik kuralları (bina güvencesi yok, tahmin yok, acilde 112), gizli bilgi ve kişisel veri kuralları, commit stili.</td></tr>
+      <tr><td><code>SECURITY.md</code></td><td>Güvenlik açıklarının herkese açık issue yerine özel bildirilmesi.</td></tr>
+      <tr><td><code>docs/VERI.md</code></td><td>Depoda olmayan 139 AFAD belgesinin listesi, klasör düzeni ve veri hattı (kendi kurulumunu yapmak isteyenler için).</td></tr>
+      <tr><td><code>docs/DARG_tubitak_2209a_basvuru_formu.pdf</code></td><td>Projenin başvuru formu (amaçlar, yöntem, başarı ölçütleri); 12 sayfa tek tek kontrol edildi, dosya bilgilerindeki şablon sahibinin kullanıcı adı temizlendi.</td></tr>
+      <tr><td><code>CLAUDE.md</code></td><td>Katkıda bulunanlar ve Claude Code için kısa İngilizce proje notu; proje sahibinin kişisel çalışma notları depoya girmeyen ayrı bir dosyaya taşındı.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <h3>İstek sınırları (2 Kasım)</h3>
+    <p>Depo taramasında önemli bir eksik bulundu: <code>/soru</code> adresinde hiçbir sınır yoktu. Adresi bilen herkes basit bir döngüyle saatte binlerce soru gönderip OpenAI faturasını saatte 20–100 $ büyütebilir, bakiye bitince sistem herkes için durabilirdi. Kod açık kaynak olunca adres ve istek biçimi herkesçe bilinecek. Ayrıca iki küçük açık bulundu: hatalı şifre kilidi yalnız e-postaya göre tutulduğu için yönetici e-postasını bilen biri yöneticiyi sürekli dışarıda bırakabiliyordu; kurum başvurusu ve şikâyet sınırsızdı.</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Koruma</th><th>Değer</th><th>Neden</th></tr></thead>
+    <tbody>
+      <tr><td>Kişi başı (internet adresi) soru</td><td class="num">dakikada 5, günde 30</td><td>Botların seri isteklerini keser. Türkiye'de mobil operatörler çok sayıda telefonu aynı adresten çıkardığı için günlük sınır yüksek tutuldu.</td></tr>
+      <tr><td>Toplam günlük soru</td><td class="num">150</td><td>Asıl bütçe koruması; en kötü durumda günde ~1,5 $. Dolunca OpenAI'ye hiç istek gitmez.</td></tr>
+      <tr><td>Toplam günlük web araması</td><td class="num">40</td><td>En pahalı adım. Dolunca sistem durmaz, cevaplar yalnız AFAD belgelerinden yazılır.</td></tr>
+      <tr><td>Aynı anda yazılan cevap</td><td class="num">3</td><td>Maliyet patlamasını ve 2 çekirdekli sunucunun kilitlenmesini önler; fazlası 30 saniyeye kadar sırada bekler.</td></tr>
+      <tr><td>Soru uzunluğu</td><td class="num">500 karakter</td><td>Çok uzun, pahalı istekleri engeller (uygulamadaki yazma kutusu da 500).</td></tr>
+      <tr><td>Başvuru, giriş, şikâyet, geri bildirim</td><td class="num">adres başına sınırlı</td><td>Sahte başvuru ve şikâyet yağmuruna karşı; hatalı şifre kilidi artık e-posta ve adres birlikte sayılıyor.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="prose">
+    <ul>
+      <li><b>Gizlilik:</b> internet adresleri hiçbir yere yazılmıyor, yalnızca bellekte sayılıyor; günlük toplamlar veritabanında tutulduğu için yeniden başlatma sınırları sıfırlamıyor.</li>
+      <li><b>İzleme:</b> <code>/istatistik</code> artık günün soru ve web sayısını, tavanları ve engellenen istekleri gösteriyor.</li>
+      <li><b>Ayarlanabilir:</b> bütün sayılar sunucudaki <code>.env</code> dosyasından değiştirilebiliyor.</li>
+      <li><b>Doğrulama:</b> sahte OpenAI istemcisiyle 7 yeni test (dakika sınırı, günlük tavanda dil modeline hiç istek gitmemesi, web tavanından sonra web'siz cevap, yoğunluk mesajı, uzun soru, başkasının hatalı şifreleriyle kilitlenmeme, başvuru sınırı); sunucu tarafında toplam 33, mobilde 14 test geçti. GitHub'da PR #6 olarak gönderildi, proje yürütücüsü birleştirdi, sunucuda çalıştığı dışarıdan doğrulandı.</li>
+      <li><b>Ek koruma:</b> OpenAI panelinde aylık harcama tavanı konması önerildi; kodda bir hata olsa bile fatura bu tavanı aşamaz.</li>
+    </ul>
+    <h3>Depo açılmadan önce kalan</h3>
+    <ul>
+      <li>GitHub desteğinin PR #2 referansını silmesi (talep #4937636), ardından eski bağlantının erişilemediğinin kontrolü.</li>
+      <li>Danışmanın bilgilendirilmesi; sonra depo herkese açılır ve GitHub'ın gizli bilgi taraması ile bağımlılık uyarıları açılır.</li>
+      <li>Depo açıldıktan sonra: sitede canlı deneme kutusu (istek sınırları hazır).</li>
+    </ul>
+  </div>
+</section>
+
 <section>
   <h2>Çalışma kuralları</h2>
   <ul class="prose">
     <li><b>Final Test v1'e dokunulmaz:</b> sonuç dosyaları okunmaz, test yeniden çalıştırılmaz.</li>
     <li><b>Final Test v2 kapandı:</b> bir kez çalıştırıldı (16 Ekim); tekrar çalıştırılmaz, sonucuna göre ayar yapılıp yeniden ölçülmez.</li>
-    <li><b>Commit yalnızca kullanıcı onayıyla</b> atılır; push yapılmaz.</li>
+    <li><b>Commit ve push yalnızca kullanıcı onayıyla</b> yapılır; dalları (PR'ları) proje yürütücüsü birleştirir.</li>
+    <li><b>Kişisel veri depoya girmez:</b> ölçüm çıktıları commit'ten önce kişisel bilgi açısından kontrol edilir.</li>
     <li><b>OpenAI API'si yalnızca kullanıcı onayıyla</b> kullanılır (bütçe kısıtlı); deneme istekleri ve test soruları dahil.</li>
     <li><b>Ölçmeden benimseme yok:</b> yeni davranışlar önce yalnızca komut satırında, ölçüldükten sonra varsayılan olur.</li>
     <li><b>Soruya özel yama yok:</b> her düzeltme sistemin geneline uygulanır.</li>
@@ -540,7 +608,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
 <section>
   <h2>Maliyet</h2>
   <div class="prose">
-    <p>Geliştirme boyunca OpenAI API kullanıldı (soru anlama ve yardımcı adımlar için gpt-4o-mini; cevap yazımı, OCR, il kartları ve hakem için gpt-4o). Son iki gündeki ölçüm, pilot ve kart üretimi işleri birkaç dolar düzeyinde kaldı. Sistemi kullanırken soru başına maliyet yaklaşık 0,015–0,02 $; web araması gerekirse +0,07–0,09 $. Mobil uygulamanın kütüphane, yardım sinyali, acil durum kartı ve duyuru bölümleri OpenAI kullanmıyor, ücretsiz.</p>
+    <p>Geliştirme boyunca OpenAI API kullanıldı (soru anlama ve yardımcı adımlar için gpt-4o-mini; cevap yazımı, OCR, il kartları ve hakem için gpt-4o). Son iki gündeki ölçüm, pilot ve kart üretimi işleri birkaç dolar düzeyinde kaldı. Sistemi kullanırken soru başına maliyet, 26 Ekim'deki model değişikliğinden sonra yaklaşık 0,003 $; web araması gerekirse ~0,06 $; ortalama ~0,009 $ (tahmin, faturayla doğrulanmadı). İstek sınırları sayesinde en kötü durumda günlük harcama ~1,5 $ ile sınırlı. Mobil uygulamanın kütüphane, yardım sinyali, acil durum kartı ve duyuru bölümleri OpenAI kullanmıyor, ücretsiz.</p>
     <p>Kalan işler için tahmin: kullanıcı testi (soru başına yukarıdaki maliyet; 50 kullanıcı × 10 soru ≈ 10–20 $), sunucu ayda ~5 $ (KTÜ sunucusu kullanılırsa ücretsiz), isteğe bağlı olarak tüm iller için il kartı ~5 $ ve kalan rehber OCR'ı ~0,5 $.</p>
   </div>
 </section>
@@ -553,9 +621,9 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
       <tr><td>1–2. ay Veri toplama (%30)</td><td>Verilerin doğruluğu ve tutarlılığı uzman değerlendirmesinden geçmeli</td><td><span class="pill wip">Kısmen</span></td><td>139 belgelik veri envanteri (kaynak, tür, yıl, il, eksikler) uzmana sunulmalı. Hedef 1'deki bölgesel sayısal veri (deprem sıklığı) için AFAD deprem kataloğu eklenebilir.</td></tr>
       <tr><td>2–3. ay Veri işleme (%10)</td><td>Performansta %10 artış</td><td><span class="pill done">Kanıt var</span></td><td>Arama başarısı 20/30 → 26/30 (+%30), cevaplanan soru 53 → 59/74; tek tabloda toplanıp keşifsel veri analizi (grafikli EDA) raporu yazılmalı.</td></tr>
       <tr><td>3–5. ay RAG modeli (%30)</td><td>En az %85 doğruluk</td><td><span class="pill done">Tamam</span></td><td>Uzman değerlendirmesi 40/42 (%95,2). Metodoloji değişikliği (hibrit RAG) danışmanla konuşulacak.</td></tr>
-      <tr><td>5–6. ay Uygulama (%10)</td><td>Arayüze erişim ve modele ulaşılabilmesi</td><td><span class="pill wip">Kurulum sürüyor</span></td><td>Sunucu kiralandı ve Docker ile kuruluyor (Frankfurt, KVM 2); veriler yükleniyor. Ardından gerçek telefonda deneme.</td></tr>
+      <tr><td>5–6. ay Uygulama (%10)</td><td>Arayüze erişim ve modele ulaşılabilmesi</td><td><span class="pill done">Tamam</span></td><td>Sistem sunucuda yayında (<code>api.darg.network</code>), tanıtım sitesi <code>darg.network</code>; uygulama gerçek telefonda sunucuya bağlanıp cevap aldı. Yeni APK'nın varsayılan adresi güncellenecek.</td></tr>
       <tr><td>6–8. ay Test (%10)</td><td>Test kullanıcılarının %70'i olumlu, hata &lt; %10</td><td><span class="pill todo">Sırada</span></td><td>Geri bildirim düğmeleri ve istatistik hazır; sunucu ve test kullanıcıları gerekiyor (formda test merkezi: KTÜ YBS laboratuvarı).</td></tr>
-      <tr><td>8–9. ay Değerlendirme (%10)</td><td>Paylaşımdan sonra dış geliştiricilerin yararlanması</td><td><span class="pill todo">Sırada</span></td><td>Açık GitHub deposu, README, kurulum belgesi, lisans.</td></tr>
+      <tr><td>8–9. ay Değerlendirme (%10)</td><td>Paylaşımdan sonra dış geliştiricilerin yararlanması</td><td><span class="pill wip">Hazır, açılmayı bekliyor</span></td><td>README, lisans, katkı ve güvenlik kuralları, kurulum ve veri belgeleri hazır; geçmiş temizlendi, istek sınırları eklendi. Depo, GitHub desteğinin eski PR referansını silmesinden sonra herkese açılacak.</td></tr>
       <tr><td>Yaygın etki</td><td>En az 1 bildiri</td><td><span class="pill todo">Sırada</span></td><td>Ölçüm sonuçları bildiri için yeterli; taslak yazılacak.</td></tr>
       <tr><td>Hedef 6 Sürdürülebilirlik</td><td>Sistemin geleceğinin değerlendirilmesi</td><td><span class="pill todo">Sırada</span></td><td>Soru başına maliyet, sunucu gideri, bakım; tezde bölüm.</td></tr>
     </tbody>
@@ -570,6 +638,6 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--rule)
 </section>
 
 <footer>
-  Bu rapor, proje deposundaki notlar (CLAUDE.md), commit geçmişi ve ölçüm dosyaları (data/evaluation/) esas alınarak Claude tarafından hazırlandı. 6 Ekim'e kadarki işlerin ayrıntısı için: docs/DARG_gelistirme_raporu_2026-10-06.pdf.
+  Bu rapor, proje notları, commit geçmişi ve ölçüm dosyaları (data/evaluation/) esas alınarak Claude tarafından hazırlandı. 6 Ekim'e kadarki işlerin ayrıntısı ayrı bir geliştirme raporunda (proje yürütücüsünde; depoda yok).
 </footer>
 </main>
