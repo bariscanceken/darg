@@ -68,6 +68,7 @@ body {
 
 a { color: var(--accent); }
 img, svg { display: block; max-width: 100%; }
+[hidden] { display: none !important; }
 
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 16px; }
 
@@ -190,6 +191,92 @@ h3 { font-size: 19px; }
 .tag.gen { color: var(--general); background: color-mix(in srgb, var(--general) 16%, transparent); }
 .tag.sos { color: var(--emergency); background: color-mix(in srgb, var(--emergency) 14%, transparent); }
 
+/* --- live demo: asks the API (script.js) --- */
+.demo {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  margin-top: 32px;
+  overflow: hidden;
+}
+.demo-log {
+  padding: 20px;
+  min-height: 220px;
+  max-height: 560px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.demo-empty p { margin: 0 0 10px; color: var(--muted); font-size: 15px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 7px 14px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+}
+.chip:hover { border-color: var(--accent); }
+.demo-log .bubble.q { margin-bottom: 0; }
+.bubble.a .muted { font-size: 14px; }
+.bubble.err {
+  border-color: color-mix(in srgb, var(--emergency) 45%, var(--border));
+  color: var(--text);
+}
+.thinking::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  animation: dots 1.2s steps(4) infinite;
+  text-align: left;
+}
+@keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
+.sources { margin: 12px 0 0; padding: 10px 0 0; border-top: 1px solid var(--border); list-style: none; font-size: 14px; }
+.sources li { margin-bottom: 4px; color: var(--muted); overflow-wrap: anywhere; }
+.sources .tag { margin: 0 6px 0 0; }
+.rate { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 10px; font-size: 14px; color: var(--muted); }
+.rate button, .rate-note button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 3px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+.rate button[aria-pressed="true"] { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.rate-note { display: flex; gap: 8px; margin-top: 8px; width: 100%; }
+.rate-note input {
+  flex: 1;
+  min-width: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font: inherit;
+  font-size: 14px;
+}
+.demo-form { border-top: 1px solid var(--border); padding: 14px 16px; background: var(--bg); }
+.demo-form textarea {
+  width: 100%;
+  resize: vertical;
+  background: transparent;
+  border: 0;
+  color: var(--text);
+  font: inherit;
+  outline: none;
+}
+.demo-bar { display: flex; align-items: center; gap: 10px; }
+.demo-bar .muted { font-size: 13px; margin-right: auto; }
+.btn-small { padding: 8px 18px; font-size: 15px; cursor: pointer; font-family: inherit; }
+.btn-small:disabled { opacity: 0.55; cursor: wait; }
+
 /* --- how it works --- */
 .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 40px; counter-reset: step; }
 .step {
@@ -306,4 +393,5 @@ footer p { margin: 0 0 6px; }
   .hero { padding: 56px 0 64px; }
   .steps, .cards { grid-template-columns: 1fr; }
   .download { padding: 24px; }
+  .demo-log { padding: 14px; max-height: 70vh; }
 }
