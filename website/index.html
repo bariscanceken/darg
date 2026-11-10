@@ -28,6 +28,7 @@
       DARG
     </a>
     <ul>
+      <li><a href="#dene">Dene</a></li>
       <li><a href="#nasil">Nasıl çalışır</a></li>
       <li><a href="#uygulama">Uygulama</a></li>
       <li><a href="#sonuclar">Sonuçlar</a></li>
@@ -52,7 +53,7 @@
             <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             Android uygulamasını indir
           </a>
-          <a class="btn btn-ghost" href="#nasil">Nasıl çalışır?</a>
+          <a class="btn btn-ghost" href="#dene">Tarayıcıda dene</a>
         </div>
         <p class="note">Ücretsiz · Android (APK, ~73 MB) · Deneme sürümü</p>
       </div>
@@ -65,6 +66,42 @@
           <p>Mahsur kalırsanız asansördeki alarm düğmesiyle ya da telefonla yardım isteyin.<span class="tag gen">genel bilgi</span></p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="dene">
+    <div class="wrap">
+      <p class="eyebrow">Canlı deneme</p>
+      <h2>Uygulamayı indirmeden bir soru sorun.</h2>
+      <p class="lead">Cevap 10–20 saniye sürebilir. Takip sorusu da sorabilirsiniz ("peki Antakya'da?").</p>
+
+      <div class="demo">
+        <div class="demo-log" id="demo-log" aria-live="polite">
+          <div class="demo-empty" id="demo-empty">
+            <p>Örnek sorular:</p>
+            <div class="chips">
+              <button type="button" class="chip">Deprem anında asansördeysem ne yapmalıyım?</button>
+              <button type="button" class="chip">Deprem çantasına neler koymalıyım?</button>
+              <button type="button" class="chip">Hatay'da toplanma alanları nerede?</button>
+              <button type="button" class="chip">Depremden sonra binaya ne zaman girebilirim?</button>
+              <button type="button" class="chip">Gaz kokusu alırsam ışığı açabilir miyim?</button>
+            </div>
+          </div>
+        </div>
+
+        <form class="demo-form" id="demo-form">
+          <textarea id="demo-input" rows="2" maxlength="500" placeholder="Depremle ilgili sorunuzu yazın…"
+                    aria-label="Sorunuz"></textarea>
+          <div class="demo-bar">
+            <span class="muted" id="demo-count">0/500</span>
+            <button type="button" class="btn btn-ghost btn-small" id="demo-new" hidden>Yeni sohbet</button>
+            <button type="submit" class="btn btn-primary btn-small" id="demo-send">Sor</button>
+          </div>
+        </form>
+      </div>
+      <p class="fine">Sorular ve cevaplar sistemi geliştirmek için anonim olarak kaydedilir; kişisel bilgi (ad, telefon,
+        adres) yazmayın. Deneme ücretsizdir; kişi başına günlük soru sınırı vardır. Cevaplar bilgilendirme amaçlıdır,
+        acil durumda <a href="tel:112">112</a>'yi arayın.</p>
     </div>
   </section>
 

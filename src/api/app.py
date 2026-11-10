@@ -147,7 +147,9 @@ def _library_document(document_id: str) -> library.LibraryDocument:
 @app.get("/kutuphane/{document_id}/dosya")
 def library_file(document_id: str) -> FileResponse:
     document = _library_document(document_id)
-    return FileResponse(document.path, media_type=document.media_type, filename=document.file_name)
+    # inline: the web site's source links open the PDF in the browser (at #page=N) instead of downloading it
+    return FileResponse(document.path, media_type=document.media_type, filename=document.file_name,
+                        content_disposition_type="inline")
 
 
 @app.get("/kutuphane/{document_id}/metin")
